@@ -1,0 +1,11 @@
+{
+  "title": "Earth may have repeatedly slipped outside the Sun’s protective bubble",
+  "topic": "Heliophysics / Planetary Habitability",
+  "date": "2026-08-30",
+  "freshness": "Research highlighted by NASA on 24 August 2026, with the underlying heliosphere review published in the August 2026 volume of Annual Review of Astronomy and Astrophysics.",
+  "excerpt": "NASA-funded researchers reconstructed the Sun’s recent journey through the Milky Way and found that it likely encountered dense interstellar cold clouds at least three times in the past 14 million years. During these encounters, surrounding gas may have compressed the heliosphere — the bubble carved out by the solar wind that normally shields the planets — to smaller than Earth’s orbit, temporarily leaving Earth directly exposed to the interstellar environment. The modeled encounters line up with unusual isotopes found in deep-sea sediments, Antarctic material, and lunar samples, and could have altered atmospheric chemistry, radiation exposure, and perhaps ancient climate.",
+  "whyItMatters": "Earth’s long-term environment is influenced not only by its orbit and the Sun’s activity, but also by the Sun’s motion through the Galaxy. That adds an external variable to questions about planetary climate, radiation, habitability, and potentially the evolution of life.",
+  "exploreFurther": { "label": "NASA’s Starstruck research feature", "url": "https://science.nasa.gov/solar-system/starstruck-nasa-research-shows-how-suns-ancient-history-shaped-earth/" },
+  "whatToExploreNext": "Look into the heliosphere and how its size changes as the Solar System moves through different regions of the interstellar medium.",
+  "sources": [{ "label": "NASA Science", "url": "https://science.nasa.gov/solar-system/starstruck-nasa-research-shows-how-suns-ancient-history-shaped-earth/" }, { "label": "Annual Reviews", "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-astro-120425-053711" }]
+}

@@ -1,0 +1,606 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const posts = (await getCollection("posts")).sort(
+  (first, second) => second.data.date.getTime() - first.data.date.getTime()
+);
+
+const buildDate = new Intl.DateTimeFormat("en-GB", {
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+  timeZone: "Asia/Kolkata",
+}).format(new Date());
+
+const buildTime = new Intl.DateTimeFormat("en-IN", {
+  hour: "numeric",
+  minute: "2-digit",
+  hour12: true,
+  timeZone: "Asia/Kolkata",
+  timeZoneName: "short",
+}).format(new Date());
+
+function formatDate(date: Date) {
+  return date.toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+}
+---
+
+<BaseLayout>
+  <header class="site-header">
+    <a class="site-brand" href={import.meta.env.BASE_URL}>
+      Orbital Notes
+    </a>
+
+    <nav class="site-nav" aria-label="Find Ojaas elsewhere">
+      <a
+        href="https://www.linkedin.com/in/ojaashampiholi/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        LinkedIn
+      </a>
+
+      <a
+        href="https://medium.com/@ojaashampiholi"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Medium
+      </a>
+
+      <a
+        href="https://substack.com/@ojaashampiholi"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Substack
+      </a>
+    </nav>
+  </header>
+
+  <p class="eyebrow">Astronomy · Physics · Space science</p>
+
+  <h1>The Cosmic Notebook</h1>
+
+  <p>
+    Clear, curious notes on the forces, worlds, and ideas that shape our
+    universe.
+  </p>
+
+  <ul class="archive">
+    {
+      posts.map((post) => {
+        const primarySource = post.data.sources[0];
+
+        return (
+          <li class="post-card">
+            <h2>
+              {
+                primarySource ? (
+                  <a
+                    href={primarySource.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    title={`Open source: ${primarySource.label}`}
+                  >
+                    {post.data.title}
+                  </a>
+                ) : (
+                  post.data.title
+                )
+              }
+            </h2>
+
+            <p class="eyebrow">Topic</p>
+            <p class="card-value">{post.data.topic}</p>
+
+            <p class="eyebrow">Published</p>
+            <p class="card-value">{formatDate(post.data.date)}</p>
+
+            <p class="eyebrow">Freshness</p>
+            <p class="card-value">{post.data.freshness}</p>
+
+            <p class="eyebrow">Summary</p>
+            <p class="card-value">{post.data.excerpt}</p>
+
+            <p class="eyebrow">Why it matters</p>
+            <p class="card-value">{post.data.whyItMatters}</p>
+
+            <p class="eyebrow">Sources</p>
+
+            <ul class="source-list">
+              {
+                post.data.sources.map((source) => (
+                  <li>
+                    <a href={source.url} target="_blank" rel="noreferrer">
+                      {source.label}
+                    </a>
+                  </li>
+                ))
+              }
+            </ul>
+          </li>
+        );
+      })
+    }
+  </ul>
+
+  <section class="reflection" aria-labelledby="reflection-heading">
+    <p class="eyebrow">A personal note</p>
+
+    <h2 id="reflection-heading">Why I keep looking up</h2>
+
+    <p>
+      Space and physics have long been subjects I return to out of pure
+      fascination, even though I have never studied either deeply in a formal
+      sense. I often follow a new result, a mission update, or a strange
+      astronomical observation simply because it makes the universe feel larger
+      and more intelligible at the same time. These notes are my way of slowing
+      down, making sense of what I learn, and keeping a small public record of
+      that curiosity. I hope they help someone else discover a question worth
+      following too.
+    </p>
+
+    <div class="elsewhere">
+      <p class="eyebrow">Elsewhere on the wider internet</p>
+
+      <div class="creator-links">
+        <a
+          href="https://www.linkedin.com/in/ojaashampiholi/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <strong>LinkedIn</strong>
+          <span>
+            Shorter tech blogs on AI, data, engineering, and the ideas I am
+            actively exploring.
+          </span>
+        </a>
+
+        <a
+          href="https://medium.com/@ojaashampiholi"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <strong>Medium</strong>
+          <span>
+            Longer articles for when an idea needs more room to unfold,
+            challenge assumptions, and connect the dots.
+          </span>
+        </a>
+
+        <a
+          href="https://substack.com/@ojaashampiholi"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <strong>Substack</strong>
+          <span>
+            Short fictional stories for readers who enjoy imagined worlds,
+            uneasy questions, and a little narrative escape.
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-line">
+        <span>Maintained by Ojaas Hampiholi</span>
+
+        <span class="footer-divider" aria-hidden="true">·</span>
+
+        <span>
+        Open access for minds that are 
+        <span
+            class="rotating-word"
+            data-rotating-word
+            aria-label="curious"
+        >curious</span>
+        </span>
+    </div>
+
+    <p class="last-updated">
+        Updated {buildDate} · {buildTime}
+    </p>
+    </footer>
+</BaseLayout>
+
+<script>
+  const rotatingWord = document.querySelector("[data-rotating-word]");
+
+  const words = [
+    "curious",
+    "inquisitive",
+    "questioning",
+    "wondering",
+    "stargazing",
+    "learning",
+  ];
+
+  if (rotatingWord instanceof HTMLElement) {
+    let wordIndex = 0;
+
+    function typeWord(word: string) {
+      let characterIndex = 0;
+
+      rotatingWord.textContent = "";
+      rotatingWord.setAttribute("aria-label", word);
+
+      const typingInterval = window.setInterval(() => {
+        rotatingWord.textContent += word[characterIndex];
+        characterIndex += 1;
+
+        if (characterIndex === word.length) {
+          window.clearInterval(typingInterval);
+          window.setTimeout(changeWord, 2000);
+        }
+      }, 65);
+    }
+
+    function changeWord() {
+      rotatingWord.classList.add("is-fading");
+
+      window.setTimeout(() => {
+        wordIndex = (wordIndex + 1) % words.length;
+        rotatingWord.classList.remove("is-fading");
+        typeWord(words[wordIndex]);
+      }, 350);
+    }
+
+    window.setTimeout(changeWord, 2000);
+  }
+</script>
+
+<style>
+  :global(main) {
+    width: min(1360px, calc(100% - 48px));
+  }
+
+  .site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 72px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid rgba(179, 194, 232, 0.16);
+  }
+
+  .site-brand {
+    color: #f1f4fb;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    text-decoration: none;
+  }
+
+  .site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .site-nav a {
+    padding: 8px 12px;
+    color: #aebdff;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    font: 700 0.78rem/1 Arial, sans-serif;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    transition:
+      color 180ms ease,
+      background 180ms ease,
+      border-color 180ms ease;
+  }
+
+  .site-nav a:hover {
+    color: #f1f4fb;
+    background: rgba(174, 189, 255, 0.08);
+    border-color: rgba(174, 189, 255, 0.25);
+  }
+
+  .archive {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    gap: 24px;
+    margin-top: 48px;
+  }
+
+  .archive .post-card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    width: calc((100% - 12px) / 2);
+    justify-self: center;
+  }
+
+  .archive .post-card {
+    position: relative;
+    min-width: 0;
+    padding: clamp(28px, 4vw, 44px);
+    overflow: hidden;
+    background:
+      linear-gradient(135deg, rgba(255, 255, 255, 0.045), transparent 42%),
+      #121a2b;
+    border: 1px solid rgba(179, 194, 232, 0.16);
+    border-radius: 20px;
+    box-shadow:
+      0 16px 40px rgba(0, 0, 0, 0.28),
+      inset 0 1px 0 rgba(255, 255, 255, 0.045);
+    transition:
+      transform 200ms ease,
+      border-color 200ms ease,
+      box-shadow 200ms ease,
+      background 200ms ease;
+  }
+
+  .archive .post-card::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(to bottom, #aebdff, #8c72cc 55%, #d49c6a);
+    content: "";
+  }
+
+  .archive .post-card:hover {
+    border-color: rgba(174, 189, 255, 0.42);
+    background:
+      linear-gradient(135deg, rgba(174, 189, 255, 0.08), transparent 42%),
+      #151f34;
+    box-shadow:
+      0 22px 50px rgba(0, 0, 0, 0.36),
+      inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    transform: translateY(-4px);
+  }
+
+  .post-card h2 {
+    margin: 0 0 28px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.7rem, 3.5vw, 2.45rem);
+    line-height: 1.08;
+    letter-spacing: -0.035em;
+    text-transform: none;
+  }
+
+  .post-card h2 a {
+    color: #f1f4fb;
+    text-decoration: none;
+    transition: color 180ms ease;
+  }
+
+  .post-card h2 a:hover {
+    color: #b9c6ff;
+  }
+
+  .post-card .eyebrow {
+    margin: 0 0 4px;
+    color: #aebdff;
+  }
+
+  .card-value {
+    margin: 3px 0 22px;
+    color: #b9c2d3;
+  }
+
+  .post-card .source-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 0;
+    margin: 7px 0 0;
+    padding: 0;
+    color: #b9c2d3;
+    list-style: none;
+  }
+
+  .post-card .source-list li {
+    padding: 0;
+    border: 0;
+    font: inherit;
+  }
+
+  .post-card .source-list li:not(:last-child)::after {
+    margin: 0 0.55rem;
+    color: #63708d;
+    content: "·";
+  }
+
+  .post-card .source-list a {
+    color: #c7d1ff;
+    font: inherit;
+    text-decoration-color: rgba(199, 209, 255, 0.5);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    transition: color 180ms ease;
+  }
+
+  .post-card .source-list a:hover {
+    color: #f1f4fb;
+  }
+
+  .reflection {
+    max-width: 820px;
+    margin: 96px auto 0;
+    padding: clamp(30px, 5vw, 52px);
+    background:
+      linear-gradient(135deg, rgba(174, 189, 255, 0.07), transparent 60%),
+      rgba(18, 26, 43, 0.7);
+    border: 1px solid rgba(179, 194, 232, 0.15);
+    border-radius: 20px;
+  }
+
+  .reflection .eyebrow {
+    margin: 0 0 8px;
+    color: #aebdff;
+  }
+
+  .reflection h2 {
+    margin: 0 0 18px;
+    color: #f1f4fb;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.65rem, 3vw, 2.25rem);
+    letter-spacing: -0.03em;
+    text-transform: none;
+  }
+
+  .reflection > p {
+    margin-bottom: 0;
+    color: #c2cad9;
+  }
+
+  .elsewhere {
+    margin-top: 40px;
+    padding-top: 28px;
+    border-top: 1px solid rgba(179, 194, 232, 0.16);
+  }
+
+  .elsewhere > .eyebrow {
+    margin-bottom: 14px;
+  }
+
+  .creator-links {
+    display: grid;
+    gap: 10px;
+  }
+
+  .creator-links a {
+    display: grid;
+    gap: 4px;
+    padding: 16px 18px;
+    color: #b9c2d3;
+    background: rgba(174, 189, 255, 0.035);
+    border: 1px solid rgba(179, 194, 232, 0.12);
+    border-radius: 12px;
+    text-decoration: none;
+    transition:
+      background 180ms ease,
+      border-color 180ms ease,
+      transform 180ms ease;
+  }
+
+  .creator-links a:hover {
+    background: rgba(174, 189, 255, 0.08);
+    border-color: rgba(174, 189, 255, 0.3);
+    transform: translateX(3px);
+  }
+
+  .creator-links strong {
+    color: #dce3ff;
+    font: 700 0.9rem/1.4 Arial, sans-serif;
+    letter-spacing: 0.03em;
+  }
+
+  .creator-links span {
+    font-size: 0.98rem;
+    line-height: 1.55;
+  }
+
+  .site-footer {
+    margin-top: 40px;
+    padding: 24px 0 0;
+    border-top: 1px solid rgba(179, 194, 232, 0.16);
+    text-align: center;
+    }
+
+    .footer-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.35rem;
+    color: #aeb8cc;
+    font: 0.84rem/1.6 Arial, sans-serif;
+    }
+
+    .footer-divider {
+    color: #63708d;
+    }
+
+    .last-updated {
+    margin: 5px 0 0;
+    color: #7f8ba5;
+    font: 0.76rem/1.5 Arial, sans-serif;
+    }
+
+    .rotating-word {
+    display: inline-block;
+    color: #c7d1ff;
+    font-weight: 700;
+    opacity: 1;
+    transition:
+        opacity 350ms ease,
+        filter 350ms ease;
+    }
+
+    .rotating-word.is-fading {
+    opacity: 0;
+    filter: blur(3px);
+    }
+
+    .rotating-word::after {
+    display: inline-block;
+    width: 1px;
+    height: 0.9em;
+    margin-left: 2px;
+    background: #c7d1ff;
+    vertical-align: -0.08em;
+    animation: cursor-blink 800ms steps(1) infinite;
+    content: "";
+    }
+
+  @keyframes cursor-blink {
+    50% {
+      opacity: 0;
+    }
+  }
+
+  @media (max-width: 900px) {
+    :global(main) {
+      width: min(820px, calc(100% - 40px));
+    }
+
+    .site-header {
+      margin-bottom: 52px;
+    }
+
+    .archive {
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+
+    .archive .post-card:last-child:nth-child(odd) {
+      grid-column: auto;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    :global(main) {
+      width: min(100% - 32px, 820px);
+    }
+
+    .site-header {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 14px;
+      margin-bottom: 42px;
+    }
+
+    .archive .post-card,
+    .reflection {
+      padding: 28px 24px 30px;
+      border-radius: 16px;
+    }
+
+    .reflection {
+      margin-top: 64px;
+    }
+  }
+</style>

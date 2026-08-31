@@ -1,0 +1,92 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("posts");
+
+  return posts.map((post) => ({
+    params: {
+      slug: post.id,
+    },
+    props: {
+      post,
+    },
+  }));
+}
+
+const { post } = Astro.props;
+
+const formattedDate = post.data.date.toLocaleDateString("en-GB", {
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+});
+---
+
+<BaseLayout
+  title={`${post.data.title} | Orbital Notes`}
+  description={post.data.excerpt}
+>
+  <p class="back">
+    <a href={import.meta.env.BASE_URL}>← All notes</a>
+  </p>
+
+  <header>
+    <p class="eyebrow">{post.data.topic}</p>
+
+    <h1>{post.data.title}</h1>
+
+    <div class="meta">
+      <p>
+        <strong>Published:</strong>
+        {formattedDate}
+      </p>
+
+      <p>
+        <strong>Topic:</strong>
+        {post.data.topic}
+      </p>
+
+      <p>
+        <strong>Freshness:</strong>
+        {post.data.freshness}
+      </p>
+    </div>
+  </header>
+
+  <article>
+    <p>{post.data.excerpt}</p>
+
+    <h2>Why it matters</h2>
+    <p>{post.data.whyItMatters}</p>
+
+    <h2>Explore further</h2>
+    <p>
+      <a
+        href={post.data.exploreFurther.url}
+        target="_blank"
+        rel="noreferrer"
+      >
+        {post.data.exploreFurther.label}
+      </a>
+    </p>
+
+    <h2>What to explore next</h2>
+    <p>{post.data.whatToExploreNext}</p>
+
+    <h2>Sources</h2>
+
+    <ul class="source-list">
+      {
+        post.data.sources.map((source) => (
+          <li>
+            <a href={source.url} target="_blank" rel="noreferrer">
+              {source.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </article>
+</BaseLayout>

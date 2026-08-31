@@ -1,0 +1,149 @@
+---
+const {
+  title = "Orbital Notes",
+  description = "Astronomy and physics notes by Ojaas Hampiholi.",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#090d18" />
+    <title>{title}</title>
+  </head>
+
+  <body>
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    color: #e7ebf5;
+    background:
+      radial-gradient(
+        circle at 14% 8%,
+        rgba(66, 84, 145, 0.2),
+        transparent 28rem
+      ),
+      radial-gradient(
+        circle at 88% 12%,
+        rgba(126, 85, 154, 0.13),
+        transparent 24rem
+      ),
+      #090d18;
+    font-family: Georgia, "Times New Roman", serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    min-height: 100%;
+    background: #090d18;
+  }
+
+  body {
+    min-height: 100vh;
+    margin: 0;
+    color: #e7ebf5;
+    background: transparent;
+  }
+
+  main {
+    width: min(820px, calc(100% - 40px));
+    margin: 0 auto;
+    padding: 68px 0 96px;
+  }
+
+  a {
+    color: #c7d1ff;
+    text-underline-offset: 3px;
+  }
+
+  .eyebrow {
+    color: #aebdff;
+    font: 700 0.76rem/1.4 Arial, sans-serif;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    margin: 20px 0 28px;
+    color: #f1f4fb;
+    font-size: clamp(2.25rem, 6vw, 4.65rem);
+    line-height: 0.98;
+    letter-spacing: -0.055em;
+  }
+
+  h2 {
+    margin: 38px 0 10px;
+    color: #eef2fb;
+    font: 700 1rem/1.4 Arial, sans-serif;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  p,
+  li {
+    font-size: 1.15rem;
+    line-height: 1.72;
+  }
+
+  p {
+    color: #c2cad9;
+  }
+
+  .meta {
+    padding: 14px 0;
+    color: #aeb8cc;
+    border-block: 1px solid rgba(179, 194, 232, 0.18);
+    font: 0.88rem/1.55 Arial, sans-serif;
+  }
+
+  .archive {
+    margin: 52px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .archive li {
+    padding: 25px 0;
+    border-top: 1px solid rgba(179, 194, 232, 0.16);
+  }
+
+  .archive a {
+    color: inherit;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.1;
+    text-decoration: none;
+  }
+
+  .archive p {
+    margin: 10px 0 0;
+    color: #b9c2d3;
+    font-size: 1rem;
+  }
+
+  .back {
+    font: 700 0.9rem/1.5 Arial, sans-serif;
+  }
+
+  .source-list {
+    padding-left: 20px;
+  }
+
+  @media (max-width: 600px) {
+    main {
+      width: min(100% - 32px, 820px);
+      padding: 44px 0 72px;
+    }
+  }
+</style>
