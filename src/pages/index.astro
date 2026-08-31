@@ -6,6 +6,31 @@ const posts = (await getCollection("posts")).sort(
   (first, second) => second.data.date.getTime() - first.data.date.getTime()
 );
 
+const latestPostLimit = 10;
+
+const topics = [
+  ...new Set(
+    posts.flatMap((post) =>
+      post.data.topic
+        .split("/")
+        .map((topic) => topic.trim())
+        .filter(Boolean)
+    )
+  ),
+].sort((first, second) => first.localeCompare(second));
+
+const topicCounts = new Map(
+  topics.map((topic) => [
+    topic,
+    posts.filter((post) =>
+      post.data.topic
+        .split("/")
+        .map((item) => item.trim())
+        .includes(topic)
+    ).length,
+  ])
+);
+
 const buildDate = new Intl.DateTimeFormat("en-GB", {
   day: "numeric",
   month: "long",
@@ -27,6 +52,13 @@ function formatDate(date: Date) {
     month: "long",
     year: "numeric",
   });
+}
+
+function getTopics(topic: string) {
+  return topic
+    .split("/")
+    .map((item) => item.trim())
+    .filter(Boolean);
 }
 ---
 
@@ -72,63 +104,132 @@ function formatDate(date: Date) {
     universe.
   </p>
 
-  <ul class="archive">
-    {
-      posts.map((post) => {
-        const primarySource = post.data.sources[0];
+  <section class="topic-filter-section" data-post-browser>
+    <div class="filter-heading">
+      <div>
+        <p class="eyebrow">Browse by topic</p>
+        <h2>Choose one or more fields of curiosity</h2>
+      </div>
+    </div>
 
-        return (
-          <li class="post-card">
-            <h2>
-              {
-                primarySource ? (
-                  <a
-                    href={primarySource.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    title={`Open source: ${primarySource.label}`}
-                  >
-                    {post.data.title}
-                  </a>
-                ) : (
-                  post.data.title
-                )
-              }
-            </h2>
+    <div
+      class="topic-filters"
+      role="group"
+      aria-label="Filter posts by topic"
+    >
+      <button
+        class="topic-filter is-active"
+        type="button"
+        data-filter-all
+        aria-pressed="true"
+      >
+        All posts <span>{posts.length}</span>
+      </button>
 
-            <p class="eyebrow">Topic</p>
-            <p class="card-value">{post.data.topic}</p>
+      {
+        topics.map((topic) => (
+          <button
+            class="topic-filter"
+            type="button"
+            data-topic-filter={topic}
+            aria-pressed="false"
+          >
+            {topic} <span>{topicCounts.get(topic)}</span>
+          </button>
+        ))
+      }
+    </div>
 
-            <p class="eyebrow">Published</p>
-            <p class="card-value">{formatDate(post.data.date)}</p>
+    <p class="filter-status" data-filter-status aria-live="polite">
+      Showing the 10 newest notes.
+    </p>
 
-            <p class="eyebrow">Freshness</p>
-            <p class="card-value">{post.data.freshness}</p>
+    <ul class="archive" data-post-list>
+      {
+        posts.map((post, index) => {
+          const primarySource = post.data.sources[0];
+          const postTopics = getTopics(post.data.topic);
 
-            <p class="eyebrow">Summary</p>
-            <p class="card-value">{post.data.excerpt}</p>
+          return (
+            <li
+              class="post-card"
+              data-post-card
+              data-topics={JSON.stringify(postTopics)}
+              hidden={index >= latestPostLimit}
+            >
+              <div class="topic-chip-list" aria-label="Post topics">
+                {
+                  postTopics.map((topic) => (
+                    <span class="topic-chip">{topic}</span>
+                  ))
+                }
+              </div>
 
-            <p class="eyebrow">Why it matters</p>
-            <p class="card-value">{post.data.whyItMatters}</p>
-
-            <p class="eyebrow">Sources</p>
-
-            <ul class="source-list">
-              {
-                post.data.sources.map((source) => (
-                  <li>
-                    <a href={source.url} target="_blank" rel="noreferrer">
-                      {source.label}
+              <h2>
+                {
+                  primarySource ? (
+                    <a
+                      href={primarySource.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      title={`Open source: ${primarySource.label}`}
+                    >
+                      {post.data.title}
                     </a>
-                  </li>
-                ))
-              }
-            </ul>
-          </li>
-        );
-      })
-    }
-  </ul>
+                  ) : (
+                    post.data.title
+                  )
+                }
+              </h2>
+
+              <p class="eyebrow">Published</p>
+              <p class="card-value">{formatDate(post.data.date)}</p>
+
+              <p class="eyebrow">Freshness</p>
+              <p class="card-value">{post.data.freshness}</p>
+
+              <p class="eyebrow">Summary</p>
+              <p class="card-value">{post.data.excerpt}</p>
+
+              <p class="eyebrow">Why it matters</p>
+              <p class="card-value">{post.data.whyItMatters}</p>
+
+              <p class="eyebrow">Sources</p>
+
+              <ul class="source-list">
+                {
+                  post.data.sources.map((source) => (
+                    <li>
+                      <a href={source.url} target="_blank" rel="noreferrer">
+                        {source.label}
+                      </a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </li>
+          );
+        })
+      }
+    </ul>
+
+    <p class="empty-state" data-empty-state hidden>
+      No notes match those topics yet.
+    </p>
+
+    <div
+      class="archive-prompt"
+      data-archive-prompt
+      data-archive-base={`${import.meta.env.BASE_URL}archive/`}
+      hidden
+    >
+      <p data-archive-message></p>
+
+      <a class="archive-link" data-archive-link href={`${import.meta.env.BASE_URL}archive/`}>
+        Explore the archive →
+      </a>
+    </div>
+  </section>
 
   <section class="reflection" aria-labelledby="reflection-heading">
     <p class="eyebrow">A personal note</p>
@@ -192,17 +293,8 @@ function formatDate(date: Date) {
   <footer class="site-footer">
     <div class="footer-line">
       <span>Maintained by Ojaas Hampiholi</span>
-
       <span class="footer-divider" aria-hidden="true">·</span>
-
-      <span>
-        Open access for minds that are 
-        <span
-          class="rotating-word"
-          data-rotating-word
-          aria-label="curious"
-        >curious</span> 
-      </span>
+      <span>Open access astronomy and physics notes</span>
     </div>
 
     <p class="last-updated">
@@ -212,51 +304,157 @@ function formatDate(date: Date) {
 </BaseLayout>
 
 <script>
-  const rotatingWordElement = document.querySelector<HTMLElement>(
-    "[data-rotating-word]"
-  );
+  const browser = document.querySelector<HTMLElement>("[data-post-browser]");
 
-  const words = [
-    "curious",
-    "inquisitive",
-    "questioning",
-    "wondering",
-    "stargazing",
-    "learning",
-  ];
+  if (browser) {
+    const postCards = Array.from(
+      browser.querySelectorAll<HTMLElement>("[data-post-card]")
+    );
 
-  if (rotatingWordElement) {
-    const rotatingWord = rotatingWordElement;
-    let wordIndex = 0;
+    const topicButtons = Array.from(
+      browser.querySelectorAll<HTMLButtonElement>("[data-topic-filter]")
+    );
 
-    function typeWord(word: string) {
-      let characterIndex = 0;
+    const allPostsButton = browser.querySelector<HTMLButtonElement>(
+      "[data-filter-all]"
+    );
 
-      rotatingWord.textContent = "";
-      rotatingWord.setAttribute("aria-label", word);
+    const filterStatus = browser.querySelector<HTMLElement>(
+      "[data-filter-status]"
+    );
 
-      const typingInterval = window.setInterval(() => {
-        rotatingWord.textContent += word[characterIndex];
-        characterIndex += 1;
+    const emptyState = browser.querySelector<HTMLElement>(
+      "[data-empty-state]"
+    );
 
-        if (characterIndex === word.length) {
-          window.clearInterval(typingInterval);
-          window.setTimeout(changeWord, 2000);
+    const archivePrompt = browser.querySelector<HTMLElement>(
+      "[data-archive-prompt]"
+    );
+
+    const archiveMessage = browser.querySelector<HTMLElement>(
+      "[data-archive-message]"
+    );
+
+    const archiveLink = browser.querySelector<HTMLAnchorElement>(
+      "[data-archive-link]"
+    );
+
+    const selectedTopics = new Set<string>();
+    const maximumVisiblePosts = 10;
+
+    function cardMatchesSelectedTopics(card: HTMLElement) {
+      if (selectedTopics.size === 0) {
+        return true;
+      }
+
+      const topics = JSON.parse(card.dataset.topics ?? "[]") as string[];
+
+      return topics.some((topic) => selectedTopics.has(topic));
+    }
+
+    function updateArchiveLink() {
+      if (!archivePrompt || !archiveLink || !archiveMessage) {
+        return;
+      }
+
+      const matchingCards = postCards.filter(cardMatchesSelectedTopics);
+      const remainingCount = Math.max(
+        matchingCards.length - maximumVisiblePosts,
+        0
+      );
+
+      archivePrompt.hidden = remainingCount === 0;
+
+      if (remainingCount === 0) {
+        return;
+      }
+
+      archiveMessage.textContent =
+        remainingCount === 1
+          ? "There is 1 more matching note in the archive."
+          : `There are ${remainingCount} more matching notes in the archive.`;
+
+      const basePath = archivePrompt.dataset.archiveBase ?? "/archive/";
+      const parameters = new URLSearchParams();
+
+      if (selectedTopics.size > 0) {
+        parameters.set("topics", [...selectedTopics].join(","));
+      }
+
+      archiveLink.href = parameters.size
+        ? `${basePath}?${parameters.toString()}`
+        : basePath;
+    }
+
+    function applyFilters() {
+      const matchingCards = postCards.filter(cardMatchesSelectedTopics);
+
+      postCards.forEach((card) => {
+        card.hidden = true;
+      });
+
+      matchingCards
+        .slice(0, maximumVisiblePosts)
+        .forEach((card) => {
+          card.hidden = false;
+        });
+
+      topicButtons.forEach((button) => {
+        const topic = button.dataset.topicFilter ?? "";
+        const isSelected = selectedTopics.has(topic);
+
+        button.classList.toggle("is-active", isSelected);
+        button.setAttribute("aria-pressed", String(isSelected));
+      });
+
+      const showingAllPosts = selectedTopics.size === 0;
+
+      if (allPostsButton) {
+        allPostsButton.classList.toggle("is-active", showingAllPosts);
+        allPostsButton.setAttribute("aria-pressed", String(showingAllPosts));
+      }
+
+      if (emptyState) {
+        emptyState.hidden = matchingCards.length !== 0;
+      }
+
+      if (filterStatus) {
+        if (matchingCards.length === 0) {
+          filterStatus.textContent = "No matching notes found.";
+        } else if (matchingCards.length <= maximumVisiblePosts) {
+          filterStatus.textContent = `Showing all ${matchingCards.length} matching notes.`;
+        } else {
+          filterStatus.textContent = `Showing the newest ${maximumVisiblePosts} of ${matchingCards.length} matching notes.`;
         }
-      }, 65);
+      }
+
+      updateArchiveLink();
     }
 
-    function changeWord() {
-      rotatingWord.classList.add("is-fading");
+    allPostsButton?.addEventListener("click", () => {
+      selectedTopics.clear();
+      applyFilters();
+    });
 
-      window.setTimeout(() => {
-        wordIndex = (wordIndex + 1) % words.length;
-        rotatingWord.classList.remove("is-fading");
-        typeWord(words[wordIndex]);
-      }, 350);
-    }
+    topicButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const topic = button.dataset.topicFilter;
 
-    window.setTimeout(changeWord, 2000);
+        if (!topic) {
+          return;
+        }
+
+        if (selectedTopics.has(topic)) {
+          selectedTopics.delete(topic);
+        } else {
+          selectedTopics.add(topic);
+        }
+
+        applyFilters();
+      });
+    });
+
+    applyFilters();
   }
 </script>
 
@@ -280,21 +478,24 @@ function formatDate(date: Date) {
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.2rem;
     font-weight: 700;
-    letter-spacing: -0.025em;
     text-decoration: none;
   }
 
-  .site-nav {
+  .site-nav,
+  .topic-filters {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
   }
 
-  .site-nav a {
+  .site-nav a,
+  .topic-filter {
     padding: 8px 12px;
     color: #aebdff;
+    background: transparent;
     border: 1px solid transparent;
     border-radius: 999px;
+    cursor: pointer;
     font: 700 0.78rem/1 Arial, sans-serif;
     letter-spacing: 0.04em;
     text-decoration: none;
@@ -304,10 +505,36 @@ function formatDate(date: Date) {
       border-color 180ms ease;
   }
 
-  .site-nav a:hover {
+  .site-nav a:hover,
+  .topic-filter:hover,
+  .topic-filter.is-active {
     color: #f1f4fb;
-    background: rgba(174, 189, 255, 0.08);
-    border-color: rgba(174, 189, 255, 0.25);
+    background: rgba(174, 189, 255, 0.1);
+    border-color: rgba(174, 189, 255, 0.3);
+  }
+
+  .topic-filter span {
+    margin-left: 3px;
+    color: #8f9bb7;
+  }
+
+  .topic-filter-section {
+    margin-top: 52px;
+  }
+
+  .filter-heading h2 {
+    margin: 5px 0 18px;
+    color: #f1f4fb;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.55rem;
+    letter-spacing: -0.025em;
+    text-transform: none;
+  }
+
+  .filter-status {
+    margin: 18px 0 0;
+    color: #8f9bb7;
+    font: 0.86rem/1.5 Arial, sans-serif;
   }
 
   .archive {
@@ -315,13 +542,9 @@ function formatDate(date: Date) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     align-items: start;
     gap: 24px;
-    margin-top: 48px;
-  }
-
-  .archive .post-card:last-child:nth-child(odd) {
-    grid-column: 1 / -1;
-    width: calc((100% - 12px) / 2);
-    justify-self: center;
+    margin: 28px 0 0;
+    padding: 0;
+    list-style: none;
   }
 
   .archive .post-card {
@@ -340,8 +563,7 @@ function formatDate(date: Date) {
     transition:
       transform 200ms ease,
       border-color 200ms ease,
-      box-shadow 200ms ease,
-      background 200ms ease;
+      box-shadow 200ms ease;
   }
 
   .archive .post-card::before {
@@ -356,13 +578,25 @@ function formatDate(date: Date) {
 
   .archive .post-card:hover {
     border-color: rgba(174, 189, 255, 0.42);
-    background:
-      linear-gradient(135deg, rgba(174, 189, 255, 0.08), transparent 42%),
-      #151f34;
-    box-shadow:
-      0 22px 50px rgba(0, 0, 0, 0.36),
-      inset 0 1px 0 rgba(255, 255, 255, 0.06);
+    box-shadow: 0 22px 50px rgba(0, 0, 0, 0.36);
     transform: translateY(-4px);
+  }
+
+  .topic-chip-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-bottom: 22px;
+  }
+
+  .topic-chip {
+    padding: 5px 8px;
+    color: #aebdff;
+    background: rgba(174, 189, 255, 0.08);
+    border: 1px solid rgba(174, 189, 255, 0.14);
+    border-radius: 999px;
+    font: 700 0.68rem/1 Arial, sans-serif;
+    letter-spacing: 0.04em;
   }
 
   .post-card h2 {
@@ -377,10 +611,10 @@ function formatDate(date: Date) {
   .post-card h2 a {
     color: #f1f4fb;
     text-decoration: none;
-    transition: color 180ms ease;
   }
 
-  .post-card h2 a:hover {
+  .post-card h2 a:hover,
+  .post-card .source-list a:hover {
     color: #b9c6ff;
   }
 
@@ -400,7 +634,6 @@ function formatDate(date: Date) {
     gap: 0.25rem 0;
     margin: 7px 0 0;
     padding: 0;
-    color: #b9c2d3;
     list-style: none;
   }
 
@@ -419,28 +652,42 @@ function formatDate(date: Date) {
   .post-card .source-list a {
     color: #c7d1ff;
     font: inherit;
-    text-decoration-color: rgba(199, 209, 255, 0.5);
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
-    transition: color 180ms ease;
   }
 
-  .post-card .source-list a:hover {
-    color: #f1f4fb;
+  .empty-state,
+  .archive-prompt {
+    margin: 28px auto 0;
+    padding: 24px;
+    color: #b9c2d3;
+    background: rgba(174, 189, 255, 0.06);
+    border: 1px solid rgba(174, 189, 255, 0.16);
+    border-radius: 14px;
+    text-align: center;
+  }
+
+  .archive-prompt p {
+    margin: 0 0 12px;
+  }
+
+  .archive-link {
+    color: #c7d1ff;
+    font: 700 0.88rem/1.4 Arial, sans-serif;
+    text-underline-offset: 3px;
   }
 
   .reflection {
     max-width: 820px;
     margin: 96px auto 0;
     padding: clamp(30px, 5vw, 52px);
-    background:
-      linear-gradient(135deg, rgba(174, 189, 255, 0.07), transparent 60%),
-      rgba(18, 26, 43, 0.7);
+    background: rgba(18, 26, 43, 0.7);
     border: 1px solid rgba(179, 194, 232, 0.15);
     border-radius: 20px;
   }
 
-  .reflection .eyebrow {
+  .reflection .eyebrow,
+  .elsewhere > .eyebrow {
     margin: 0 0 8px;
     color: #aebdff;
   }
@@ -449,13 +696,11 @@ function formatDate(date: Date) {
     margin: 0 0 18px;
     color: #f1f4fb;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(1.65rem, 3vw, 2.25rem);
-    letter-spacing: -0.03em;
+    font-size: 2rem;
     text-transform: none;
   }
 
   .reflection > p {
-    margin-bottom: 0;
     color: #c2cad9;
   }
 
@@ -463,10 +708,6 @@ function formatDate(date: Date) {
     margin-top: 40px;
     padding-top: 28px;
     border-top: 1px solid rgba(179, 194, 232, 0.16);
-  }
-
-  .elsewhere > .eyebrow {
-    margin-bottom: 14px;
   }
 
   .creator-links {
@@ -483,22 +724,11 @@ function formatDate(date: Date) {
     border: 1px solid rgba(179, 194, 232, 0.12);
     border-radius: 12px;
     text-decoration: none;
-    transition:
-      background 180ms ease,
-      border-color 180ms ease,
-      transform 180ms ease;
-  }
-
-  .creator-links a:hover {
-    background: rgba(174, 189, 255, 0.08);
-    border-color: rgba(174, 189, 255, 0.3);
-    transform: translateX(3px);
   }
 
   .creator-links strong {
     color: #dce3ff;
     font: 700 0.9rem/1.4 Arial, sans-serif;
-    letter-spacing: 0.03em;
   }
 
   .creator-links span {
@@ -532,55 +762,14 @@ function formatDate(date: Date) {
     font: 0.76rem/1.5 Arial, sans-serif;
   }
 
-  .rotating-word {
-    display: inline-block;
-    color: #c7d1ff;
-    font-weight: 700;
-    opacity: 1;
-    transition:
-      opacity 350ms ease,
-      filter 350ms ease;
-  }
-
-  .rotating-word.is-fading {
-    opacity: 0;
-    filter: blur(3px);
-  }
-
-  .rotating-word::after {
-    display: inline-block;
-    width: 1px;
-    height: 0.9em;
-    margin-left: 2px;
-    background: #c7d1ff;
-    vertical-align: -0.08em;
-    animation: cursor-blink 800ms steps(1) infinite;
-    content: "";
-  }
-
-  @keyframes cursor-blink {
-    50% {
-      opacity: 0;
-    }
-  }
-
   @media (max-width: 900px) {
     :global(main) {
       width: min(820px, calc(100% - 40px));
     }
 
-    .site-header {
-      margin-bottom: 52px;
-    }
-
     .archive {
       grid-template-columns: 1fr;
       gap: 18px;
-    }
-
-    .archive .post-card:last-child:nth-child(odd) {
-      grid-column: auto;
-      width: 100%;
     }
   }
 
@@ -600,10 +789,6 @@ function formatDate(date: Date) {
     .reflection {
       padding: 28px 24px 30px;
       border-radius: 16px;
-    }
-
-    .reflection {
-      margin-top: 64px;
     }
   }
 </style>

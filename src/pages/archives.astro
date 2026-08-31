@@ -1,0 +1,491 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const allPosts = (await getCollection("posts")).sort(
+  (first, second) => second.data.date.getTime() - first.data.date.getTime()
+);
+
+const archivePosts = allPosts.slice(10);
+
+const topics = [
+  ...new Set(
+    archivePosts.flatMap((post) =>
+      post.data.topic
+        .split("/")
+        .map((topic) => topic.trim())
+        .filter(Boolean)
+    )
+  ),
+].sort((first, second) => first.localeCompare(second));
+
+const topicCounts = new Map(
+  topics.map((topic) => [
+    topic,
+    archivePosts.filter((post) =>
+      post.data.topic
+        .split("/")
+        .map((item) => item.trim())
+        .includes(topic)
+    ).length,
+  ])
+);
+
+function formatDate(date: Date) {
+  return date.toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+}
+
+function getTopics(topic: string) {
+  return topic
+    .split("/")
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+---
+
+<BaseLayout>
+  <header class="site-header">
+    <a class="site-brand" href={import.meta.env.BASE_URL}>
+      Orbital Notes
+    </a>
+
+    <a class="back-link" href={import.meta.env.BASE_URL}>
+      ← Latest notes
+    </a>
+  </header>
+
+  <p class="eyebrow">The archive</p>
+
+  <h1>Earlier discoveries</h1>
+
+  <p>
+    Notes that have moved beyond the latest ten discoveries, kept here for
+    readers who want to keep exploring.
+  </p>
+
+  <section class="topic-filter-section" data-archive-browser>
+    <div class="topic-filters" role="group" aria-label="Filter archive by topic">
+      <button
+        class="topic-filter is-active"
+        type="button"
+        data-filter-all
+        aria-pressed="true"
+      >
+        All archive notes <span>{archivePosts.length}</span>
+      </button>
+
+      {
+        topics.map((topic) => (
+          <button
+            class="topic-filter"
+            type="button"
+            data-topic-filter={topic}
+            aria-pressed="false"
+          >
+            {topic} <span>{topicCounts.get(topic)}</span>
+          </button>
+        ))
+      }
+    </div>
+
+    <p class="filter-status" data-filter-status aria-live="polite">
+      Showing all archive notes.
+    </p>
+
+    <ul class="archive">
+      {
+        archivePosts.map((post) => {
+          const primarySource = post.data.sources[0];
+          const postTopics = getTopics(post.data.topic);
+
+          return (
+            <li
+              class="post-card"
+              data-post-card
+              data-topics={JSON.stringify(postTopics)}
+            >
+              <div class="topic-chip-list">
+                {
+                  postTopics.map((topic) => (
+                    <span class="topic-chip">{topic}</span>
+                  ))
+                }
+              </div>
+
+              <h2>
+                {
+                  primarySource ? (
+                    <a
+                      href={primarySource.url}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {post.data.title}
+                    </a>
+                  ) : (
+                    post.data.title
+                  )
+                }
+              </h2>
+
+              <p class="eyebrow">Published</p>
+              <p class="card-value">{formatDate(post.data.date)}</p>
+
+              <p class="eyebrow">Freshness</p>
+              <p class="card-value">{post.data.freshness}</p>
+
+              <p class="eyebrow">Summary</p>
+              <p class="card-value">{post.data.excerpt}</p>
+
+              <p class="eyebrow">Why it matters</p>
+              <p class="card-value">{post.data.whyItMatters}</p>
+
+              <p class="eyebrow">Sources</p>
+
+              <ul class="source-list">
+                {
+                  post.data.sources.map((source) => (
+                    <li>
+                      <a href={source.url} target="_blank" rel="noreferrer">
+                        {source.label}
+                      </a>
+                    </li>
+                  ))
+                }
+              </ul>
+            </li>
+          );
+        })
+      }
+    </ul>
+
+    <p class="empty-state" data-empty-state hidden>
+      No archive notes match those topics yet.
+    </p>
+  </section>
+</BaseLayout>
+
+<script>
+  const browser = document.querySelector<HTMLElement>("[data-archive-browser]");
+
+  if (browser) {
+    const postCards = Array.from(
+      browser.querySelectorAll<HTMLElement>("[data-post-card]")
+    );
+
+    const topicButtons = Array.from(
+      browser.querySelectorAll<HTMLButtonElement>("[data-topic-filter]")
+    );
+
+    const allPostsButton = browser.querySelector<HTMLButtonElement>(
+      "[data-filter-all]"
+    );
+
+    const filterStatus = browser.querySelector<HTMLElement>(
+      "[data-filter-status]"
+    );
+
+    const emptyState = browser.querySelector<HTMLElement>(
+      "[data-empty-state]"
+    );
+
+    const selectedTopics = new Set<string>();
+
+    const requestedTopics = new URLSearchParams(window.location.search)
+      .get("topics")
+      ?.split(",")
+      .filter(Boolean);
+
+    requestedTopics?.forEach((topic) => {
+      if (topicButtons.some((button) => button.dataset.topicFilter === topic)) {
+        selectedTopics.add(topic);
+      }
+    });
+
+    function cardMatchesSelectedTopics(card: HTMLElement) {
+      if (selectedTopics.size === 0) {
+        return true;
+      }
+
+      const topics = JSON.parse(card.dataset.topics ?? "[]") as string[];
+
+      return topics.some((topic) => selectedTopics.has(topic));
+    }
+
+    function applyFilters() {
+      const matchingCards = postCards.filter(cardMatchesSelectedTopics);
+
+      postCards.forEach((card) => {
+        card.hidden = !cardMatchesSelectedTopics(card);
+      });
+
+      topicButtons.forEach((button) => {
+        const topic = button.dataset.topicFilter ?? "";
+        const isSelected = selectedTopics.has(topic);
+
+        button.classList.toggle("is-active", isSelected);
+        button.setAttribute("aria-pressed", String(isSelected));
+      });
+
+      const showingAllPosts = selectedTopics.size === 0;
+
+      if (allPostsButton) {
+        allPostsButton.classList.toggle("is-active", showingAllPosts);
+        allPostsButton.setAttribute("aria-pressed", String(showingAllPosts));
+      }
+
+      if (emptyState) {
+        emptyState.hidden = matchingCards.length !== 0;
+      }
+
+      if (filterStatus) {
+        filterStatus.textContent =
+          matchingCards.length === 1
+            ? "Showing 1 archive note."
+            : `Showing ${matchingCards.length} archive notes.`;
+      }
+
+      const parameters = new URLSearchParams();
+
+      if (selectedTopics.size > 0) {
+        parameters.set("topics", [...selectedTopics].join(","));
+      }
+
+      const nextUrl = parameters.size
+        ? `${window.location.pathname}?${parameters.toString()}`
+        : window.location.pathname;
+
+      window.history.replaceState({}, "", nextUrl);
+    }
+
+    allPostsButton?.addEventListener("click", () => {
+      selectedTopics.clear();
+      applyFilters();
+    });
+
+    topicButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const topic = button.dataset.topicFilter;
+
+        if (!topic) {
+          return;
+        }
+
+        if (selectedTopics.has(topic)) {
+          selectedTopics.delete(topic);
+        } else {
+          selectedTopics.add(topic);
+        }
+
+        applyFilters();
+      });
+    });
+
+    applyFilters();
+  }
+</script>
+
+<style>
+  :global(main) {
+    width: min(1360px, calc(100% - 48px));
+  }
+
+  .site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 72px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid rgba(179, 194, 232, 0.16);
+  }
+
+  .site-brand {
+    color: #f1f4fb;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .back-link {
+    color: #aebdff;
+    font: 700 0.82rem/1 Arial, sans-serif;
+    text-decoration: none;
+  }
+
+  .topic-filter-section {
+    margin-top: 48px;
+  }
+
+  .topic-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .topic-filter {
+    padding: 8px 12px;
+    color: #aebdff;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    cursor: pointer;
+    font: 700 0.78rem/1 Arial, sans-serif;
+  }
+
+  .topic-filter:hover,
+  .topic-filter.is-active {
+    color: #f1f4fb;
+    background: rgba(174, 189, 255, 0.1);
+    border-color: rgba(174, 189, 255, 0.3);
+  }
+
+  .topic-filter span {
+    margin-left: 3px;
+    color: #8f9bb7;
+  }
+
+  .filter-status {
+    margin: 18px 0 0;
+    color: #8f9bb7;
+    font: 0.86rem/1.5 Arial, sans-serif;
+  }
+
+  .archive {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    gap: 24px;
+    margin: 28px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .post-card {
+    position: relative;
+    min-width: 0;
+    padding: clamp(28px, 4vw, 44px);
+    overflow: hidden;
+    background:
+      linear-gradient(135deg, rgba(255, 255, 255, 0.045), transparent 42%),
+      #121a2b;
+    border: 1px solid rgba(179, 194, 232, 0.16);
+    border-radius: 20px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.28);
+  }
+
+  .post-card::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(to bottom, #aebdff, #8c72cc 55%, #d49c6a);
+    content: "";
+  }
+
+  .topic-chip-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-bottom: 22px;
+  }
+
+  .topic-chip {
+    padding: 5px 8px;
+    color: #aebdff;
+    background: rgba(174, 189, 255, 0.08);
+    border: 1px solid rgba(174, 189, 255, 0.14);
+    border-radius: 999px;
+    font: 700 0.68rem/1 Arial, sans-serif;
+  }
+
+  .post-card h2 {
+    margin: 0 0 28px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.7rem, 3.5vw, 2.45rem);
+    line-height: 1.08;
+    letter-spacing: -0.035em;
+    text-transform: none;
+  }
+
+  .post-card h2 a {
+    color: #f1f4fb;
+    text-decoration: none;
+  }
+
+  .post-card .eyebrow {
+    margin: 0 0 4px;
+    color: #aebdff;
+  }
+
+  .card-value {
+    margin: 3px 0 22px;
+    color: #b9c2d3;
+  }
+
+  .source-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 0;
+    margin: 7px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .source-list li {
+    padding: 0;
+    border: 0;
+  }
+
+  .source-list li:not(:last-child)::after {
+    margin: 0 0.55rem;
+    color: #63708d;
+    content: "·";
+  }
+
+  .source-list a {
+    color: #c7d1ff;
+    text-underline-offset: 3px;
+  }
+
+  .empty-state {
+    margin: 28px auto 0;
+    padding: 24px;
+    color: #b9c2d3;
+    background: rgba(174, 189, 255, 0.06);
+    border: 1px solid rgba(174, 189, 255, 0.16);
+    border-radius: 14px;
+    text-align: center;
+  }
+
+  @media (max-width: 900px) {
+    :global(main) {
+      width: min(820px, calc(100% - 40px));
+    }
+
+    .archive {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 600px) {
+    :global(main) {
+      width: min(100% - 32px, 820px);
+    }
+
+    .site-header {
+      margin-bottom: 42px;
+    }
+
+    .post-card {
+      padding: 28px 24px 30px;
+      border-radius: 16px;
+    }
+  }
+</style>
