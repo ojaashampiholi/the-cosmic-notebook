@@ -1,2 +1,2 @@
 import { defineConfig } from 'astro/config';
-export default defineConfig({ site: 'https://YOUR-GITHUB-USERNAME.github.io', base: '/YOUR-REPOSITORY-NAME', output: 'static' });
+export default defineConfig({ site: 'https://ojaashampiholi.github.io', base: '/the-cosmic-notebook', output: 'static' });
