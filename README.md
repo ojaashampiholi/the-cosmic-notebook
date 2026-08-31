@@ -2,11 +2,6 @@
 
 A static Astro blog for astronomy and physics posts stored as JSON.
 
-## Add a post
-
-1. Copy `src/content/posts/earth-heliosphere.json` to a new descriptive filename.
-2. Update the JSON fields. Its filename becomes the post URL: `posts/your-filename/`.
-3. Commit and push to `main`; GitHub Pages rebuilds the site automatically.
 
 ## Publish on GitHub Pages
 
