@@ -1,0 +1,23 @@
+{
+  "title": "JWST shows planet formation is a race against disappearing gas",
+  "topic": "Planet Formation / Protoplanetary Disk Evolution",
+  "date": "2026-09-02",
+  "freshness": "Published online in The Astronomical Journal on 25 August 2026, within the 15-day freshness window.",
+  "excerpt": "Using archival observations from JWST's Mid-Infrared Instrument, astronomers studied 72 young, mostly Sun-like stars to see how gas escapes from their planet-forming disks. They found that early, actively accreting systems are dominated by magnetically driven jets and molecular-plus-atomic winds, while older, lower-accretion systems increasingly show mainly atomic winds, including photoevaporative flows heated by stellar radiation. Extended gas emission was detected in 66 of the 72 disks, including conical molecular-hydrogen winds in 46 systems and fast neon jets in 40. Together, the sample turns individual snapshots into an evolutionary sequence and shows that the raw gas needed to build giant planets is being steadily removed as planetary systems mature.",
+  "whyItMatters": "Giant planets such as Jupiter need large amounts of gas, but that reservoir does not remain available indefinitely. By showing how the dominant gas-loss mechanisms change with age across dozens of systems, this study gives astronomers a clearer physical clock for planet formation and helps constrain when gas giants must assemble their atmospheres before the disk is dispersed.",
+  "exploreFurther": {
+    "label": "SETI Institute: JWST Reveals a Race Against Time for Forming Planets",
+    "url": "https://www.seti.org/news/jwst-reveals-a-race-against-time/"
+  },
+  "whatToExploreNext": "Explore photoevaporation: how ultraviolet and X-ray radiation from a young star can heat a protoplanetary disk until its gas escapes into space.",
+  "sources": [
+    {
+      "label": "SETI Institute",
+      "url": "https://www.seti.org/news/jwst-reveals-a-race-against-time/"
+    },
+    {
+      "label": "The Astronomical Journal / DOI",
+      "url": "https://doi.org/10.3847/1538-3881/ae9089"
+    }
+  ]
+}
