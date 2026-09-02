@@ -1,0 +1,23 @@
+{
+  "title": "JWST may have found a new kind of object: a black hole wrapped in a star-like cocoon",
+  "topic": "Cosmic Dawn / Early Black Hole Growth",
+  "date": "2026-09-01",
+  "freshness": "Published in Nature on 12 August 2026. The freshness window was expanded from 15 to 30 days because this peer-reviewed result was substantially stronger and more distinct than fresher mission or gallery items.",
+  "excerpt": "Using the James Webb Space Telescope, astronomers identified an exceptionally red source called MoM-BH*-1 seen about 660 million years after the Big Bang. Its spectrum shows an unusually deep Balmer break and broad hydrogen features that the team models as an actively accreting black hole buried inside an extremely dense, turbulent, dust-free envelope of gas. In the researchers' best-fitting interpretation, the central black hole is about 100,000 times the Sun's mass and the surrounding gas cocoon is roughly the size of the Solar System, so the object looks star-like even though its power source is a black hole rather than nuclear fusion. The authors argue that this configuration could help explain the mysterious 'little red dots' seen by JWST and may reveal a phase in which early black holes grew unusually rapidly.",
+  "whyItMatters": "Supermassive black holes already existed surprisingly early in cosmic history, and astronomers still do not fully understand how they grew so quickly. MoM-BH*-1 offers direct observational evidence for a long-theorized possibility: a young black hole embedded in very dense gas, potentially allowing rapid growth while also making the object appear dramatically different from a conventional accreting black hole. If similar objects turn out to be common among JWST's little red dots, astronomers may need to revise how they estimate early black-hole masses and how they reconstruct the first stages of galaxy growth.",
+  "exploreFurther": {
+    "label": "Nature: A gas-enshrouded and gas-reddened black hole at cosmic dawn",
+    "url": "https://www.nature.com/articles/s41586-026-10846-4"
+  },
+  "whatToExploreNext": "Explore JWST's 'little red dots' and why their strange spectra have become one of the biggest clues to how the first massive black holes formed.",
+  "sources": [
+    {
+      "label": "Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10846-4"
+    },
+    {
+      "label": "MIT News",
+      "url": "https://news.mit.edu/2026/astronomers-discover-brand-new-type-astrophysical-object-black-hole-star-0812"
+    }
+  ]
+}
