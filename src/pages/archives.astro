@@ -73,13 +73,10 @@ function getTopics(topic: string) {
       <span class="header-star header-star-four">·</span>
     </div>
 
-    <a class="site-brand" href={import.meta.env.BASE_URL}>
-      Orbital Notes
-    </a>
+    <a class="site-brand" href={import.meta.env.BASE_URL}>Orbital Notes</a>
 
     <nav class="site-nav" aria-label="Site navigation">
       <a href={import.meta.env.BASE_URL}>Latest notes</a>
-
       <a
         href="https://www.linkedin.com/in/ojaashampiholi/"
         target="_blank"
@@ -87,7 +84,6 @@ function getTopics(topic: string) {
       >
         LinkedIn
       </a>
-
       <a
         href="https://medium.com/@ojaashampiholi"
         target="_blank"
@@ -95,7 +91,6 @@ function getTopics(topic: string) {
       >
         Medium
       </a>
-
       <a
         href="https://substack.com/@ojaashampiholi"
         target="_blank"
@@ -107,7 +102,6 @@ function getTopics(topic: string) {
   </header>
 
   <p class="eyebrow">The archive</p>
-
   <h1>Earlier discoveries</h1>
 
   <p>
@@ -295,11 +289,25 @@ function getTopics(topic: string) {
       return cardTopics.some((topic) => selectedTopics.has(topic));
     }
 
+    function setCardVisibility(card: HTMLElement, isVisible: boolean) {
+      card.hidden = !isVisible;
+
+      card.style.setProperty(
+        "display",
+        isVisible ? "flex" : "none",
+        "important"
+      );
+    }
+
     function applyFilters() {
       const matchingCards = postCards.filter(cardMatchesSelectedTopics);
 
       postCards.forEach((card) => {
-        card.hidden = !cardMatchesSelectedTopics(card);
+        setCardVisibility(card, false);
+      });
+
+      matchingCards.forEach((card) => {
+        setCardVisibility(card, true);
       });
 
       topicButtons.forEach((button) => {
@@ -378,8 +386,6 @@ function getTopics(topic: string) {
       radial-gradient(circle at 61% 22%, rgba(255, 255, 255, 0.28) 0 1px, transparent 1.7px),
       radial-gradient(circle at 76% 9%, rgba(159, 190, 255, 0.38) 0 1.1px, transparent 1.8px),
       radial-gradient(circle at 91% 36%, rgba(255, 255, 255, 0.28) 0 1px, transparent 1.7px),
-      radial-gradient(circle at 14% 72%, rgba(174, 189, 255, 0.25) 0 1px, transparent 1.7px),
-      radial-gradient(circle at 83% 81%, rgba(255, 255, 255, 0.2) 0 1px, transparent 1.7px),
       linear-gradient(160deg, #070b15 0%, #0b1120 48%, #090d18 100%);
     background-size:
       280px 280px,
@@ -388,8 +394,6 @@ function getTopics(topic: string) {
       320px 320px,
       390px 390px,
       470px 470px,
-      520px 520px,
-      610px 610px,
       100% 100%;
     background-attachment: fixed;
   }
@@ -440,7 +444,9 @@ function getTopics(topic: string) {
   }
 
   .site-brand,
-  .site-nav {
+  .site-nav,
+  .footer-line,
+  .last-updated {
     position: relative;
     z-index: 1;
   }
@@ -472,10 +478,7 @@ function getTopics(topic: string) {
     font: 700 0.78rem/1 Arial, sans-serif;
     letter-spacing: 0.04em;
     text-decoration: none;
-    transition:
-      color 180ms ease,
-      background 180ms ease,
-      border-color 180ms ease;
+    transition: color 180ms ease, background 180ms ease, border-color 180ms ease;
   }
 
   .site-nav a:hover,
@@ -523,34 +526,10 @@ function getTopics(topic: string) {
     animation: bright-star-twinkle 2.8s ease-in-out infinite alternate;
   }
 
-  .header-star-one {
-    top: 12px;
-    right: 16%;
-    font-size: 1.1rem;
-  }
-
-  .header-star-two {
-    top: 42px;
-    right: 4%;
-    color: #f1d4ae;
-    font-size: 0.8rem;
-    animation-delay: 800ms;
-  }
-
-  .header-star-three {
-    bottom: 13px;
-    left: 42%;
-    color: #b8c8ff;
-    font-size: 0.92rem;
-    animation-delay: 1.3s;
-  }
-
-  .header-star-four {
-    top: 19px;
-    left: 28%;
-    font-size: 1.5rem;
-    animation-delay: 450ms;
-  }
+  .header-star-one { top: 12px; right: 16%; font-size: 1.1rem; }
+  .header-star-two { top: 42px; right: 4%; color: #f1d4ae; font-size: 0.8rem; animation-delay: 800ms; }
+  .header-star-three { bottom: 13px; left: 42%; color: #b8c8ff; font-size: 0.92rem; animation-delay: 1.3s; }
+  .header-star-four { top: 19px; left: 28%; font-size: 1.5rem; animation-delay: 450ms; }
 
   .topic-filter-section {
     margin-top: 48px;
@@ -609,10 +588,7 @@ function getTopics(topic: string) {
     box-shadow:
       0 16px 40px rgba(0, 0, 0, 0.28),
       inset 0 1px 0 rgba(255, 255, 255, 0.045);
-    transition:
-      transform 200ms ease,
-      border-color 200ms ease,
-      box-shadow 200ms ease;
+    transition: transform 200ms ease, border-color 200ms ease, box-shadow 200ms ease;
   }
 
   .post-card-content {
@@ -731,12 +707,6 @@ function getTopics(topic: string) {
     text-align: center;
   }
 
-  .footer-line,
-  .last-updated {
-    position: relative;
-    z-index: 1;
-  }
-
   .footer-line {
     display: flex;
     flex-wrap: wrap;
@@ -765,48 +735,18 @@ function getTopics(topic: string) {
     opacity: 0.6;
   }
 
-  .footer-star-one {
-    bottom: 14px;
-    left: 17%;
-    font-size: 0.92rem;
-  }
-
-  .footer-star-two {
-    top: 5px;
-    right: 22%;
-    color: #f1d4ae;
-    font-size: 0.76rem;
-    animation-delay: 900ms;
-  }
-
-  .footer-star-three {
-    right: 35%;
-    bottom: 8px;
-    color: #b8c8ff;
-    font-size: 1.25rem;
-    animation-delay: 1.4s;
-  }
+  .footer-star-one { bottom: 14px; left: 17%; font-size: 0.92rem; }
+  .footer-star-two { top: 5px; right: 22%; color: #f1d4ae; font-size: 0.76rem; animation-delay: 900ms; }
+  .footer-star-three { right: 35%; bottom: 8px; color: #b8c8ff; font-size: 1.25rem; animation-delay: 1.4s; }
 
   @keyframes body-star-twinkle {
-    0% {
-      opacity: 0.07;
-    }
-
-    100% {
-      opacity: 0.18;
-    }
+    from { opacity: 0.07; }
+    to { opacity: 0.18; }
   }
 
   @keyframes bright-star-twinkle {
-    0% {
-      opacity: 0.35;
-      transform: scale(0.82);
-    }
-
-    100% {
-      opacity: 1;
-      transform: scale(1.13);
-    }
+    from { opacity: 0.35; transform: scale(0.82); }
+    to { opacity: 1; transform: scale(1.13); }
   }
 
   @media (max-width: 900px) {

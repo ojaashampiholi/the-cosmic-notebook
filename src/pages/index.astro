@@ -376,6 +376,16 @@ function getTopics(topic: string) {
       return cardTopics.some((topic) => selectedTopics.has(topic));
     }
 
+    function setCardVisibility(card: HTMLElement, isVisible: boolean) {
+      card.hidden = !isVisible;
+
+      card.style.setProperty(
+        "display",
+        isVisible ? "flex" : "none",
+        "important"
+      );
+    }
+
     function updateArchiveLink() {
       if (!archivePrompt || !archiveLink || !archiveMessage) {
         return;
@@ -414,13 +424,13 @@ function getTopics(topic: string) {
       const matchingCards = postCards.filter(cardMatchesSelectedTopics);
 
       postCards.forEach((card) => {
-        card.hidden = true;
+        setCardVisibility(card, false);
       });
 
       matchingCards
         .slice(0, maximumVisiblePosts)
         .forEach((card) => {
-          card.hidden = false;
+          setCardVisibility(card, true);
         });
 
       topicButtons.forEach((button) => {
@@ -666,13 +676,13 @@ function getTopics(topic: string) {
     animation-delay: 450ms;
   }
 
+  .topic-filter-section {
+    margin-top: 52px;
+  }
+
   .topic-filter span {
     margin-left: 3px;
     color: #8f9bb7;
-  }
-
-  .topic-filter-section {
-    margin-top: 52px;
   }
 
   .filter-heading h2 {
