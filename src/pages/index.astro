@@ -64,6 +64,15 @@ function getTopics(topic: string) {
 
 <BaseLayout>
   <header class="site-header">
+    <div class="header-sky" aria-hidden="true">
+      <span class="header-orb header-orb-one"></span>
+      <span class="header-orb header-orb-two"></span>
+      <span class="header-star header-star-one">✦</span>
+      <span class="header-star header-star-two">✧</span>
+      <span class="header-star header-star-three">✦</span>
+      <span class="header-star header-star-four">·</span>
+    </div>
+
     <a class="site-brand" href={import.meta.env.BASE_URL}>
       Orbital Notes
     </a>
@@ -157,56 +166,58 @@ function getTopics(topic: string) {
               data-topics={JSON.stringify(postTopics)}
               hidden={index >= latestPostLimit}
             >
-              <div class="topic-chip-list" aria-label="Post topics">
-                {
-                  postTopics.map((topic) => (
-                    <span class="topic-chip">{topic}</span>
-                  ))
-                }
-              </div>
+              <div class="post-card-content">
+                <div class="topic-chip-list" aria-label="Post topics">
+                  {
+                    postTopics.map((topic) => (
+                      <span class="topic-chip">{topic}</span>
+                    ))
+                  }
+                </div>
 
-              <h2>
-                {
-                  primarySource ? (
-                    <a
-                      href={primarySource.url}
-                      target="_blank"
-                      rel="noreferrer"
-                      title={`Open source: ${primarySource.label}`}
-                    >
-                      {post.data.title}
-                    </a>
-                  ) : (
-                    post.data.title
-                  )
-                }
-              </h2>
-
-              <p class="eyebrow">Published</p>
-              <p class="card-value">{formatDate(post.data.date)}</p>
-
-              <p class="eyebrow">Freshness</p>
-              <p class="card-value">{post.data.freshness}</p>
-
-              <p class="eyebrow">Summary</p>
-              <p class="card-value">{post.data.excerpt}</p>
-
-              <p class="eyebrow">Why it matters</p>
-              <p class="card-value">{post.data.whyItMatters}</p>
-
-              <p class="eyebrow">Sources</p>
-
-              <ul class="source-list">
-                {
-                  post.data.sources.map((source) => (
-                    <li>
-                      <a href={source.url} target="_blank" rel="noreferrer">
-                        {source.label}
+                <h2>
+                  {
+                    primarySource ? (
+                      <a
+                        href={primarySource.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        title={`Open source: ${primarySource.label}`}
+                      >
+                        {post.data.title}
                       </a>
-                    </li>
-                  ))
-                }
-              </ul>
+                    ) : (
+                      post.data.title
+                    )
+                  }
+                </h2>
+
+                <p class="eyebrow">Published</p>
+                <p class="card-value">{formatDate(post.data.date)}</p>
+
+                <p class="eyebrow">Freshness</p>
+                <p class="card-value">{post.data.freshness}</p>
+
+                <p class="eyebrow">Summary</p>
+                <p class="card-value">{post.data.excerpt}</p>
+
+                <p class="eyebrow">Why it matters</p>
+                <p class="card-value">{post.data.whyItMatters}</p>
+
+                <p class="eyebrow">Sources</p>
+
+                <ul class="source-list">
+                  {
+                    post.data.sources.map((source) => (
+                      <li>
+                        <a href={source.url} target="_blank" rel="noreferrer">
+                          {source.label}
+                        </a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
             </li>
           );
         })
@@ -225,7 +236,11 @@ function getTopics(topic: string) {
     >
       <p data-archive-message></p>
 
-      <a class="archive-link" data-archive-link href={`${import.meta.env.BASE_URL}archive/`}>
+      <a
+        class="archive-link"
+        data-archive-link
+        href={`${import.meta.env.BASE_URL}archive/`}
+      >
         Explore the archive →
       </a>
     </div>
@@ -291,6 +306,13 @@ function getTopics(topic: string) {
   </section>
 
   <footer class="site-footer">
+    <div class="footer-sky" aria-hidden="true">
+      <span class="footer-orb"></span>
+      <span class="footer-star footer-star-one">✦</span>
+      <span class="footer-star footer-star-two">✧</span>
+      <span class="footer-star footer-star-three">·</span>
+    </div>
+
     <div class="footer-line">
       <span>Maintained by Ojaas Hampiholi</span>
       <span class="footer-divider" aria-hidden="true">·</span>
@@ -347,9 +369,11 @@ function getTopics(topic: string) {
         return true;
       }
 
-      const topics = JSON.parse(card.dataset.topics ?? "[]") as string[];
+      const cardTopics = JSON.parse(
+        card.dataset.topics ?? "[]"
+      ) as string[];
 
-      return topics.some((topic) => selectedTopics.has(topic));
+      return cardTopics.some((topic) => selectedTopics.has(topic));
     }
 
     function updateArchiveLink() {
@@ -459,18 +483,80 @@ function getTopics(topic: string) {
 </script>
 
 <style>
+  :global(body) {
+    background-color: #070b15;
+    background-image:
+      radial-gradient(circle at 8% 14%, rgba(182, 198, 255, 0.55) 0 1px, transparent 1.7px),
+      radial-gradient(circle at 22% 31%, rgba(255, 255, 255, 0.34) 0 1px, transparent 1.7px),
+      radial-gradient(circle at 40% 7%, rgba(184, 168, 255, 0.35) 0 1.2px, transparent 2px),
+      radial-gradient(circle at 61% 22%, rgba(255, 255, 255, 0.28) 0 1px, transparent 1.7px),
+      radial-gradient(circle at 76% 9%, rgba(159, 190, 255, 0.38) 0 1.1px, transparent 1.8px),
+      radial-gradient(circle at 91% 36%, rgba(255, 255, 255, 0.28) 0 1px, transparent 1.7px),
+      radial-gradient(circle at 14% 72%, rgba(174, 189, 255, 0.25) 0 1px, transparent 1.7px),
+      radial-gradient(circle at 83% 81%, rgba(255, 255, 255, 0.2) 0 1px, transparent 1.7px),
+      linear-gradient(160deg, #070b15 0%, #0b1120 48%, #090d18 100%);
+    background-size:
+      280px 280px,
+      360px 360px,
+      420px 420px,
+      320px 320px,
+      390px 390px,
+      470px 470px,
+      520px 520px,
+      610px 610px,
+      100% 100%;
+    background-attachment: fixed;
+  }
+
+  :global(body)::before {
+    position: fixed;
+    z-index: 0;
+    inset: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(circle at 28% 19%, rgba(255, 255, 255, 0.8) 0 1px, transparent 1.6px),
+      radial-gradient(circle at 72% 63%, rgba(190, 204, 255, 0.65) 0 1px, transparent 1.6px),
+      radial-gradient(circle at 48% 85%, rgba(255, 255, 255, 0.5) 0 0.9px, transparent 1.5px);
+    background-size: 440px 440px, 540px 540px, 620px 620px;
+    content: "";
+    opacity: 0.14;
+    animation: body-star-twinkle 12s ease-in-out infinite alternate;
+  }
+
   :global(main) {
+    position: relative;
+    z-index: 1;
     width: min(1360px, calc(100% - 48px));
   }
 
   .site-header {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 24px;
     margin-bottom: 72px;
-    padding-bottom: 18px;
-    border-bottom: 1px solid rgba(179, 194, 232, 0.16);
+    padding: 24px 20px 20px;
+    overflow: hidden;
+    background:
+      linear-gradient(110deg, rgba(61, 78, 135, 0.26), transparent 52%),
+      rgba(12, 18, 33, 0.48);
+    border: 1px solid rgba(179, 194, 232, 0.16);
+    border-radius: 18px;
+  }
+
+  .header-sky,
+  .footer-sky {
+    position: absolute;
+    z-index: 0;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  .site-brand,
+  .site-nav {
+    position: relative;
+    z-index: 1;
   }
 
   .site-brand {
@@ -478,6 +564,7 @@ function getTopics(topic: string) {
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.2rem;
     font-weight: 700;
+    letter-spacing: -0.025em;
     text-decoration: none;
   }
 
@@ -513,6 +600,72 @@ function getTopics(topic: string) {
     border-color: rgba(174, 189, 255, 0.3);
   }
 
+  .header-orb,
+  .footer-orb {
+    position: absolute;
+    display: block;
+    border-radius: 50%;
+    box-shadow:
+      inset -9px -7px 13px rgba(2, 5, 12, 0.45),
+      0 0 28px rgba(140, 157, 255, 0.2);
+  }
+
+  .header-orb-one {
+    top: -38px;
+    right: 26%;
+    width: 86px;
+    height: 86px;
+    background: radial-gradient(circle at 31% 28%, #d5ddff 0 4%, #7885c8 22%, #313b75 62%, #11172f 100%);
+    opacity: 0.85;
+  }
+
+  .header-orb-two {
+    right: 7%;
+    bottom: -34px;
+    width: 62px;
+    height: 62px;
+    background: radial-gradient(circle at 32% 30%, #ffd8ae 0 5%, #c98262 26%, #6a3d6d 64%, #1a1834 100%);
+    opacity: 0.78;
+  }
+
+  .header-star,
+  .footer-star {
+    position: absolute;
+    color: #e8edff;
+    text-shadow: 0 0 14px rgba(202, 214, 255, 0.82);
+    transform-origin: center;
+    animation: bright-star-twinkle 2.8s ease-in-out infinite alternate;
+  }
+
+  .header-star-one {
+    top: 12px;
+    right: 16%;
+    font-size: 1.1rem;
+  }
+
+  .header-star-two {
+    top: 42px;
+    right: 4%;
+    color: #f1d4ae;
+    font-size: 0.8rem;
+    animation-delay: 800ms;
+  }
+
+  .header-star-three {
+    bottom: 13px;
+    left: 42%;
+    color: #b8c8ff;
+    font-size: 0.92rem;
+    animation-delay: 1.3s;
+  }
+
+  .header-star-four {
+    top: 19px;
+    left: 28%;
+    font-size: 1.5rem;
+    animation-delay: 450ms;
+  }
+
   .topic-filter span {
     margin-left: 3px;
     color: #8f9bb7;
@@ -540,16 +693,26 @@ function getTopics(topic: string) {
   .archive {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    align-items: start;
+    align-items: stretch;
     gap: 24px;
     margin: 28px 0 0;
     padding: 0;
     list-style: none;
   }
 
+  .archive .post-card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    width: calc((100% - 12px) / 2);
+    height: auto;
+    justify-self: center;
+    align-self: start;
+  }
+
   .archive .post-card {
     position: relative;
+    display: flex;
     min-width: 0;
+    height: 100%;
     padding: clamp(28px, 4vw, 44px);
     overflow: hidden;
     background:
@@ -564,6 +727,13 @@ function getTopics(topic: string) {
       transform 200ms ease,
       border-color 200ms ease,
       box-shadow 200ms ease;
+  }
+
+  .post-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
   }
 
   .archive .post-card::before {
@@ -681,7 +851,9 @@ function getTopics(topic: string) {
     max-width: 820px;
     margin: 96px auto 0;
     padding: clamp(30px, 5vw, 52px);
-    background: rgba(18, 26, 43, 0.7);
+    background:
+      linear-gradient(135deg, rgba(174, 189, 255, 0.07), transparent 60%),
+      rgba(18, 26, 43, 0.7);
     border: 1px solid rgba(179, 194, 232, 0.15);
     border-radius: 20px;
   }
@@ -737,10 +909,18 @@ function getTopics(topic: string) {
   }
 
   .site-footer {
+    position: relative;
     margin-top: 40px;
-    padding: 24px 0 0;
+    padding: 34px 0 0;
+    overflow: hidden;
     border-top: 1px solid rgba(179, 194, 232, 0.16);
     text-align: center;
+  }
+
+  .footer-line,
+  .last-updated {
+    position: relative;
+    z-index: 1;
   }
 
   .footer-line {
@@ -762,6 +942,59 @@ function getTopics(topic: string) {
     font: 0.76rem/1.5 Arial, sans-serif;
   }
 
+  .footer-orb {
+    right: 10%;
+    bottom: -38px;
+    width: 74px;
+    height: 74px;
+    background: radial-gradient(circle at 31% 28%, #d9e2ff 0 4%, #7684cf 25%, #334078 62%, #12172e 100%);
+    opacity: 0.6;
+  }
+
+  .footer-star-one {
+    bottom: 14px;
+    left: 17%;
+    font-size: 0.92rem;
+  }
+
+  .footer-star-two {
+    top: 5px;
+    right: 22%;
+    color: #f1d4ae;
+    font-size: 0.76rem;
+    animation-delay: 900ms;
+  }
+
+  .footer-star-three {
+    right: 35%;
+    bottom: 8px;
+    color: #b8c8ff;
+    font-size: 1.25rem;
+    animation-delay: 1.4s;
+  }
+
+  @keyframes body-star-twinkle {
+    0% {
+      opacity: 0.07;
+    }
+
+    100% {
+      opacity: 0.18;
+    }
+  }
+
+  @keyframes bright-star-twinkle {
+    0% {
+      opacity: 0.35;
+      transform: scale(0.82);
+    }
+
+    100% {
+      opacity: 1;
+      transform: scale(1.13);
+    }
+  }
+
   @media (max-width: 900px) {
     :global(main) {
       width: min(820px, calc(100% - 40px));
@@ -770,6 +1003,18 @@ function getTopics(topic: string) {
     .archive {
       grid-template-columns: 1fr;
       gap: 18px;
+    }
+
+    .archive .post-card,
+    .archive .post-card:last-child:nth-child(odd) {
+      grid-column: auto;
+      width: 100%;
+      height: auto;
+      align-self: auto;
+    }
+
+    .post-card-content {
+      justify-content: flex-start;
     }
   }
 
@@ -789,6 +1034,20 @@ function getTopics(topic: string) {
     .reflection {
       padding: 28px 24px 30px;
       border-radius: 16px;
+    }
+
+    .header-orb-one {
+      right: -20px;
+    }
+
+    .header-orb-two {
+      right: 14%;
+      opacity: 0.45;
+    }
+
+    .header-star-four,
+    .footer-star-three {
+      display: none;
     }
   }
 </style>
