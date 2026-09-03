@@ -1,0 +1,23 @@
+{
+  "title": "JWST finds hidden low-mass stars that may make early massive galaxies up to four times heavier",
+  "topic": "Galaxy Evolution / Stellar Populations",
+  "date": "2026-09-03",
+  "freshness": "Published in Nature Astronomy on 21 August 2026, within the 15-day freshness window.",
+  "excerpt": "Using JWST spectra of nine massive, quiescent galaxies, astronomers found evidence that the most massive systems contain many more faint, low-mass stars than standard assumptions predict. If similar stellar populations were already present in their earlier ancestors, some of JWST’s surprisingly mature early galaxies could be about four times more massive than current estimates suggest, making their rapid formation even harder to explain.",
+  "whyItMatters": "Astronomers estimate distant galaxy masses by assuming a typical mix of stellar masses, but this result suggests that assumption may fail for the biggest systems. If so, models of how galaxies assembled so much stellar mass so early in cosmic history face an even tougher challenge.",
+  "exploreFurther": {
+    "label": "Nature Astronomy: Hidden mass in early galaxies revealed by bottom-heavy initial mass functions",
+    "url": "https://doi.org/10.1038/s41550-026-02932-4"
+  },
+  "whatToExploreNext": "Explore the initial mass function: the distribution of stellar birth masses that astronomers use to convert a galaxy’s light into an estimate of its total stellar mass.",
+  "sources": [
+    {
+      "label": "Nature Astronomy",
+      "url": "https://doi.org/10.1038/s41550-026-02932-4"
+    },
+    {
+      "label": "Penn State",
+      "url": "https://pure.psu.edu/en/publications/hidden-mass-in-early-galaxies-revealed-by-bottom-heavy-initial-ma/"
+    }
+  ]
+}
