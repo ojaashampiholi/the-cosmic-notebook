@@ -1,0 +1,27 @@
+{
+  "title": "Hubble catches a giant 10-sided wave forming around Saturn’s south pole",
+  "topic": "Solar System & Planetary Science",
+  "date": "2026-09-04",
+  "freshness": "Published in Science Advances on 2 September 2026, within the 15-day freshness window.",
+  "excerpt": "Hubble and ground-based observations have revealed a giant decagonal atmospheric wave around Saturn’s south pole, the first large regular-sided jet pattern ever seen in the planet’s southern hemisphere. Faint signs appear in data from 2023 and 2024, while the structure became much clearer in 2025, suggesting astronomers may be watching a huge planetary weather pattern develop in real time.",
+  "whyItMatters": "Saturn’s famous north-polar hexagon has persisted for decades, but this newly emerging southern decagon appears younger and more dynamic. Following it as it evolves could help scientists understand how giant atmospheric waves form, why Saturn produces polygon-shaped jet patterns, and whether such structures can become long-lived.",
+  "exploreFurther": {
+    "label": "Science Advances: A decagon wave around Saturn’s south pole",
+    "url": "https://doi.org/10.1126/sciadv.aee4251"
+  },
+  "whatToExploreNext": "Explore Saturn’s north-polar hexagon and why a jet stream can organize into a stable geometric wave instead of a simple circular band.",
+  "sources": [
+    {
+      "label": "Science Advances",
+      "url": "https://doi.org/10.1126/sciadv.aee4251"
+    },
+    {
+      "label": "NASA Hubble",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/"
+    },
+    {
+      "label": "University of Leicester",
+      "url": "https://le.ac.uk/news/2026/august/observations-mysterious-shape-saturn-clouds"
+    }
+  ]
+}
