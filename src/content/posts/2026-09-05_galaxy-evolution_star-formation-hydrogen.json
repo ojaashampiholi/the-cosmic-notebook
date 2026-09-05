@@ -1,0 +1,23 @@
+{
+  "title": "The universe is making fewer stars — but it hasn’t run out of hydrogen",
+  "topic": "Galaxies & Galactic Evolution",
+  "date": "2026-09-05",
+  "freshness": "Published in Nature Astronomy on 1 September 2026, within the 15-day freshness window.",
+  "excerpt": "Using China’s FAST radio telescope together with DESI data for about 2.5 million galaxies, astronomers found that cosmic star formation has fallen by roughly a factor of 2.46 over the past 4.5 billion years, while the universe’s neutral atomic hydrogen reservoir has declined far less. The result suggests the problem is not simply that galaxies have run out of raw gas, but that they have become less efficient at turning atomic hydrogen into the denser molecular gas that actually forms stars.",
+  "whyItMatters": "For years, one simple explanation for the universe’s fading star formation was that galaxies were gradually using up their fuel. This study weakens that explanation: plenty of neutral hydrogen remains, so astronomers now have to focus more on how gas flows through galaxies and why the conversion from atomic to molecular gas has become less effective.",
+  "exploreFurther": {
+    "label": "Nature Astronomy: Weak evolution of cosmic atomic hydrogen over the past 4.5 billion years",
+    "url": "https://doi.org/10.1038/s41550-026-02965-9"
+  },
+  "whatToExploreNext": "Explore the difference between atomic hydrogen and molecular hydrogen, and why stars form mainly from the latter.",
+  "sources": [
+    {
+      "label": "Nature Astronomy",
+      "url": "https://doi.org/10.1038/s41550-026-02965-9"
+    },
+    {
+      "label": "Chinese Academy of Sciences / EurekAlert",
+      "url": "https://e3.eurekalert.org/news-releases/1142061"
+    }
+  ]
+}
