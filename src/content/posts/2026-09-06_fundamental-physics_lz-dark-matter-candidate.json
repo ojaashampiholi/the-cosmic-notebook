@@ -1,15 +1,15 @@
 {
-  "title": "LUX-ZEPLIN sees its most intriguing dark-matter candidate yet — but one event is not a discovery",
+  "title": "Scientists may have seen a particle of dark matter — but they aren't sure yet",
   "topic": "Gravity & Fundamental Physics",
   "date": "2026-09-06",
   "freshness": "15-day window — LUX-ZEPLIN announced the result on 1 September 2026.",
-  "excerpt": "In 220 days of LUX-ZEPLIN data, researchers found a single xenon-nucleus recoil at about 248 keV in a region where very little known background was expected. Its properties fit some WIMP dark-matter models, but the global significance is only 2.6 sigma, so this is an intriguing candidate event rather than a dark-matter discovery.",
-  "whyItMatters": "Dark matter has so far been inferred mainly through its gravitational effects rather than directly detected as a particle. If more events like this appear, they could point toward heavier or inelastic WIMP interactions that conventional lower-energy searches can miss; if they do not, this event may turn out to be an unusual background fluctuation.",
+  "excerpt": "An underground experiment built to search for dark matter recorded one unusual event that looks like something a dark-matter particle could have caused. But a single event is not enough to rule out coincidence or another explanation, so scientists are treating it as an intriguing clue rather than a discovery.",
+  "whyItMatters": "We know dark matter exists because we can see its gravity affecting galaxies, but nobody has directly identified what it is made of. If future observations find more events like this and other explanations can be ruled out, scientists could finally get a direct clue about the particles that make up much of the universe's unseen matter.",
   "exploreFurther": {
     "label": "LUX-ZEPLIN: new high-energy dark-matter search result",
     "url": "https://lz.lbl.gov/"
   },
-  "whatToExploreNext": "Explore what “sigma” means in particle physics and why a 5-sigma threshold is normally required before researchers claim a discovery.",
+  "whatToExploreNext": "Explore how scientists know dark matter exists even though they still do not know what it is made of.",
   "sources": [
     {
       "label": "LUX-ZEPLIN Collaboration",
