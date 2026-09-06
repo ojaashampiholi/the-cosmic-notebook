@@ -1,0 +1,27 @@
+{
+  "title": "LUX-ZEPLIN sees its most intriguing dark-matter candidate yet — but one event is not a discovery",
+  "topic": "Gravity & Fundamental Physics",
+  "date": "2026-09-06",
+  "freshness": "15-day window — LUX-ZEPLIN announced the result on 1 September 2026.",
+  "excerpt": "In 220 days of LUX-ZEPLIN data, researchers found a single xenon-nucleus recoil at about 248 keV in a region where very little known background was expected. Its properties fit some WIMP dark-matter models, but the global significance is only 2.6 sigma, so this is an intriguing candidate event rather than a dark-matter discovery.",
+  "whyItMatters": "Dark matter has so far been inferred mainly through its gravitational effects rather than directly detected as a particle. If more events like this appear, they could point toward heavier or inelastic WIMP interactions that conventional lower-energy searches can miss; if they do not, this event may turn out to be an unusual background fluctuation.",
+  "exploreFurther": {
+    "label": "LUX-ZEPLIN: new high-energy dark-matter search result",
+    "url": "https://lz.lbl.gov/"
+  },
+  "whatToExploreNext": "Explore what “sigma” means in particle physics and why a 5-sigma threshold is normally required before researchers claim a discovery.",
+  "sources": [
+    {
+      "label": "LUX-ZEPLIN Collaboration",
+      "url": "https://lz.lbl.gov/"
+    },
+    {
+      "label": "Berkeley Lab",
+      "url": "https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter/"
+    },
+    {
+      "label": "Reuters",
+      "url": "https://www.reuters.com/science/scientists-make-potential-breakthrough-search-dark-matter-2026-09-01/"
+    }
+  ]
+}
