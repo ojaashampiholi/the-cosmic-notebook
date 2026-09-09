@@ -7,6 +7,9 @@ const allPosts = (await getCollection("posts")).sort(
 );
 
 const archivePosts = allPosts.slice(10);
+const pageSize = 30;
+const initialVisibleCount = Math.min(pageSize, archivePosts.length);
+const initialRemainder = initialVisibleCount % 3;
 
 const topics = [
   ...new Set(
@@ -60,9 +63,29 @@ function getTopics(topic: string) {
     .map((item) => item.trim())
     .filter(Boolean);
 }
+
+function getPaperDetails(title: string, index: number) {
+  const hash = [...title].reduce(
+    (total, character) => total + character.charCodeAt(0),
+    index
+  );
+
+  const papers = ["lined", "graph", "plain"];
+  const details = ["plain", "tape", "plain", "pin"];
+  const tilts = [-0.45, 0.25, -0.18, 0.38, 0];
+
+  return {
+    paper: papers[hash % papers.length],
+    detail: details[hash % details.length],
+    tilt: tilts[hash % tilts.length],
+  };
+}
 ---
 
-<BaseLayout>
+<BaseLayout
+  title="Archive | The Cosmic Notebook"
+  description="Browse earlier source-linked astronomy, physics, planetary science, cosmology, and space-mission notes from The Cosmic Notebook."
+>
   <header class="site-header">
     <div class="header-sky" aria-hidden="true">
       <span class="header-orb header-orb-one"></span>
@@ -147,15 +170,33 @@ function getTopics(topic: string) {
 
     <ul class="archive">
       {
-        archivePosts.map((post) => {
+        archivePosts.map((post, index) => {
           const primarySource = post.data.sources[0];
           const postTopics = getTopics(post.data.topic);
+          const paperDetails = getPaperDetails(post.data.title, index);
+          const isInitiallyHidden = index >= pageSize;
+          const isInitialFinalTwo =
+            !isInitiallyHidden &&
+            initialRemainder === 2 &&
+            index >= initialVisibleCount - 2;
+          const isInitialFinalOne =
+            !isInitiallyHidden &&
+            initialRemainder === 1 &&
+            index === initialVisibleCount - 1;
 
           return (
             <li
-              class="post-card"
+              class:list={[
+                "post-card",
+                `paper-${paperDetails.paper}`,
+                `detail-${paperDetails.detail}`,
+                { "is-final-two": isInitialFinalTwo },
+                { "is-final-one": isInitialFinalOne },
+              ]}
               data-post-card
               data-topics={JSON.stringify(postTopics)}
+              hidden={isInitiallyHidden}
+              style={`--paper-tilt: ${paperDetails.tilt}deg`}
             >
               <div class="post-card-content">
                 <div class="topic-chip-list" aria-label="Post topics">
@@ -218,6 +259,12 @@ function getTopics(topic: string) {
     <p class="empty-state" data-empty-state hidden>
       No archive notes match those topics yet.
     </p>
+
+    <nav
+      class="pagination"
+      data-pagination
+      aria-label="Archive pages"
+    ></nav>
   </section>
 
   <footer class="site-footer">
@@ -241,7 +288,9 @@ function getTopics(topic: string) {
 </BaseLayout>
 
 <script>
-  const browser = document.querySelector<HTMLElement>("[data-archive-browser]");
+  const browser = document.querySelector<HTMLElement>(
+    "[data-archive-browser]"
+  )!;
 
   if (browser) {
     const postCards = Array.from(
@@ -265,14 +314,27 @@ function getTopics(topic: string) {
     );
 
     const selectedTopics = new Set<string>();
+    const pageSize = 30;
 
-    const requestedTopics = new URLSearchParams(window.location.search)
+    const initialParameters = new URLSearchParams(window.location.search);
+
+    let currentPage = Number(initialParameters.get("page") ?? "1");
+
+    if (!Number.isInteger(currentPage) || currentPage < 1) {
+      currentPage = 1;
+    }
+
+    const requestedTopics = initialParameters
       .get("topics")
       ?.split(",")
       .filter(Boolean);
 
     requestedTopics?.forEach((topic) => {
-      if (topicButtons.some((button) => button.dataset.topicFilter === topic)) {
+      if (
+        topicButtons.some(
+          (button) => button.dataset.topicFilter === topic
+        )
+      ) {
         selectedTopics.add(topic);
       }
     });
@@ -289,7 +351,10 @@ function getTopics(topic: string) {
       return cardTopics.some((topic) => selectedTopics.has(topic));
     }
 
-    function setCardVisibility(card: HTMLElement, isVisible: boolean) {
+    function setCardVisibility(
+      card: HTMLElement,
+      isVisible: boolean
+    ) {
       card.hidden = !isVisible;
 
       card.style.setProperty(
@@ -299,30 +364,194 @@ function getTopics(topic: string) {
       );
     }
 
+    function paginationItems(totalPages: number) {
+      if (totalPages <= 7) {
+        return Array.from(
+          { length: totalPages },
+          (_, index) => index + 1
+        );
+      }
+
+      const pages = new Set([1, totalPages, currentPage]);
+
+      if (currentPage > 1) {
+        pages.add(currentPage - 1);
+      }
+
+      if (currentPage < totalPages) {
+        pages.add(currentPage + 1);
+      }
+
+      const sortedPages = [...pages].sort(
+        (first, second) => first - second
+      );
+
+      const items: Array<number | "ellipsis"> = [];
+
+      sortedPages.forEach((page, index) => {
+        if (
+          index > 0 &&
+          page - sortedPages[index - 1] > 1
+        ) {
+          items.push("ellipsis");
+        }
+
+        items.push(page);
+      });
+
+      return items;
+    }
+
+    function renderPagination(
+      container: HTMLElement,
+      totalPages: number
+    ) {
+      container.replaceChildren();
+      container.hidden = totalPages <= 1;
+
+      if (totalPages <= 1) {
+        return;
+      }
+
+      const addPageButton = (
+        label: string,
+        page: number,
+        options: {
+          current?: boolean;
+          disabled?: boolean;
+          className?: string;
+        } = {}
+      ) => {
+        const button = document.createElement("button");
+
+        button.type = "button";
+        button.className =
+          `pagination-button ${options.className ?? ""}`.trim();
+        button.textContent = label;
+        button.disabled = Boolean(options.disabled);
+        button.setAttribute(
+          "aria-label",
+          `${label} archive page`
+        );
+
+        if (options.current) {
+          button.classList.add("is-active");
+          button.setAttribute("aria-current", "page");
+        }
+
+        button.addEventListener("click", () => {
+          currentPage = page;
+          applyFilters();
+
+          window.scrollTo({
+            top: browser.offsetTop,
+            behavior: "smooth",
+          });
+        });
+
+        container.append(button);
+      };
+
+      addPageButton("Previous", currentPage - 1, {
+        disabled: currentPage === 1,
+        className: "pagination-direction",
+      });
+
+      paginationItems(totalPages).forEach((item) => {
+        if (item === "ellipsis") {
+          const ellipsis = document.createElement("span");
+
+          ellipsis.className = "pagination-ellipsis";
+          ellipsis.textContent = "…";
+          ellipsis.setAttribute("aria-hidden", "true");
+
+          container.append(ellipsis);
+          return;
+        }
+
+        addPageButton(String(item), item, {
+          current: item === currentPage,
+        });
+      });
+
+      addPageButton("Next", currentPage + 1, {
+        disabled: currentPage === totalPages,
+        className: "pagination-direction",
+      });
+    }
+
     function applyFilters() {
-      const matchingCards = postCards.filter(cardMatchesSelectedTopics);
+      const matchingCards = postCards.filter(
+        cardMatchesSelectedTopics
+      );
+
+      const totalPages = Math.max(
+        1,
+        Math.ceil(matchingCards.length / pageSize)
+      );
+
+      currentPage = Math.min(
+        Math.max(1, currentPage),
+        totalPages
+      );
 
       postCards.forEach((card) => {
         setCardVisibility(card, false);
+        card.classList.remove(
+          "is-final-two",
+          "is-final-one"
+        );
       });
 
-      matchingCards.forEach((card) => {
+      const visibleCards = matchingCards.slice(
+        (currentPage - 1) * pageSize,
+        currentPage * pageSize
+      );
+
+      visibleCards.forEach((card) => {
         setCardVisibility(card, true);
       });
+
+      const finalRowRemainder = visibleCards.length % 3;
+
+      if (finalRowRemainder === 2) {
+        visibleCards.slice(-2).forEach((card) => {
+          card.classList.add("is-final-two");
+        });
+      } else if (
+        finalRowRemainder === 1 &&
+        visibleCards.length > 0
+      ) {
+        visibleCards.at(-1)?.classList.add("is-final-one");
+      }
 
       topicButtons.forEach((button) => {
         const topic = button.dataset.topicFilter ?? "";
         const isSelected = selectedTopics.has(topic);
 
-        button.classList.toggle("is-active", isSelected);
-        button.setAttribute("aria-pressed", String(isSelected));
+        button.classList.toggle(
+          "is-active",
+          isSelected
+        );
+
+        button.setAttribute(
+          "aria-pressed",
+          String(isSelected)
+        );
       });
 
       const showingAllPosts = selectedTopics.size === 0;
 
       if (allPostsButton) {
-        allPostsButton.classList.toggle("is-active", showingAllPosts);
-        allPostsButton.setAttribute("aria-pressed", String(showingAllPosts));
+        allPostsButton.classList.toggle(
+          "is-active",
+          showingAllPosts
+        );
+
+        allPostsButton.setAttribute(
+          "aria-pressed",
+          String(showingAllPosts)
+        );
       }
 
       if (emptyState) {
@@ -330,16 +559,35 @@ function getTopics(topic: string) {
       }
 
       if (filterStatus) {
-        filterStatus.textContent =
-          matchingCards.length === 1
-            ? "Showing 1 archive note."
-            : `Showing ${matchingCards.length} archive notes.`;
+        if (matchingCards.length === 0) {
+          filterStatus.textContent =
+            "No archive notes found.";
+        } else {
+          const firstVisibleNumber =
+            (currentPage - 1) * pageSize + 1;
+
+          const lastVisibleNumber = Math.min(
+            currentPage * pageSize,
+            matchingCards.length
+          );
+
+          filterStatus.textContent =
+            `Showing notes ${firstVisibleNumber}–${lastVisibleNumber} ` +
+            `of ${matchingCards.length}.`;
+        }
       }
 
       const parameters = new URLSearchParams();
 
       if (selectedTopics.size > 0) {
-        parameters.set("topics", [...selectedTopics].join(","));
+        parameters.set(
+          "topics",
+          [...selectedTopics].join(",")
+        );
+      }
+
+      if (currentPage > 1) {
+        parameters.set("page", String(currentPage));
       }
 
       const nextUrl = parameters.size
@@ -347,10 +595,32 @@ function getTopics(topic: string) {
         : window.location.pathname;
 
       window.history.replaceState({}, "", nextUrl);
+
+      const robotsMeta =
+        document.querySelector<HTMLMetaElement>(
+          'meta[name="robots"]'
+        );
+
+      if (robotsMeta) {
+        robotsMeta.content =
+          selectedTopics.size > 0
+            ? "noindex, follow"
+            : "index, follow";
+      }
+
+      const pagination =
+        browser.querySelector<HTMLElement>(
+          "[data-pagination]"
+        );
+
+      if (pagination) {
+        renderPagination(pagination, totalPages);
+      }
     }
 
     allPostsButton?.addEventListener("click", () => {
       selectedTopics.clear();
+      currentPage = 1;
       applyFilters();
     });
 
@@ -368,6 +638,7 @@ function getTopics(topic: string) {
           selectedTopics.add(topic);
         }
 
+        currentPage = 1;
         applyFilters();
       });
     });
@@ -380,13 +651,42 @@ function getTopics(topic: string) {
   :global(body) {
     background-color: #070b15;
     background-image:
-      radial-gradient(circle at 8% 14%, rgba(182, 198, 255, 0.55) 0 1px, transparent 1.7px),
-      radial-gradient(circle at 22% 31%, rgba(255, 255, 255, 0.34) 0 1px, transparent 1.7px),
-      radial-gradient(circle at 40% 7%, rgba(184, 168, 255, 0.35) 0 1.2px, transparent 2px),
-      radial-gradient(circle at 61% 22%, rgba(255, 255, 255, 0.28) 0 1px, transparent 1.7px),
-      radial-gradient(circle at 76% 9%, rgba(159, 190, 255, 0.38) 0 1.1px, transparent 1.8px),
-      radial-gradient(circle at 91% 36%, rgba(255, 255, 255, 0.28) 0 1px, transparent 1.7px),
-      linear-gradient(160deg, #070b15 0%, #0b1120 48%, #090d18 100%);
+      radial-gradient(
+        circle at 8% 14%,
+        rgba(182, 198, 255, 0.55) 0 1px,
+        transparent 1.7px
+      ),
+      radial-gradient(
+        circle at 22% 31%,
+        rgba(255, 255, 255, 0.34) 0 1px,
+        transparent 1.7px
+      ),
+      radial-gradient(
+        circle at 40% 7%,
+        rgba(184, 168, 255, 0.35) 0 1.2px,
+        transparent 2px
+      ),
+      radial-gradient(
+        circle at 61% 22%,
+        rgba(255, 255, 255, 0.28) 0 1px,
+        transparent 1.7px
+      ),
+      radial-gradient(
+        circle at 76% 9%,
+        rgba(159, 190, 255, 0.38) 0 1.1px,
+        transparent 1.8px
+      ),
+      radial-gradient(
+        circle at 91% 36%,
+        rgba(255, 255, 255, 0.28) 0 1px,
+        transparent 1.7px
+      ),
+      linear-gradient(
+        160deg,
+        #070b15 0%,
+        #0b1120 48%,
+        #090d18 100%
+      );
     background-size:
       280px 280px,
       360px 360px,
@@ -404,13 +704,29 @@ function getTopics(topic: string) {
     inset: 0;
     pointer-events: none;
     background:
-      radial-gradient(circle at 28% 19%, rgba(255, 255, 255, 0.8) 0 1px, transparent 1.6px),
-      radial-gradient(circle at 72% 63%, rgba(190, 204, 255, 0.65) 0 1px, transparent 1.6px),
-      radial-gradient(circle at 48% 85%, rgba(255, 255, 255, 0.5) 0 0.9px, transparent 1.5px);
-    background-size: 440px 440px, 540px 540px, 620px 620px;
+      radial-gradient(
+        circle at 28% 19%,
+        rgba(255, 255, 255, 0.8) 0 1px,
+        transparent 1.6px
+      ),
+      radial-gradient(
+        circle at 72% 63%,
+        rgba(190, 204, 255, 0.65) 0 1px,
+        transparent 1.6px
+      ),
+      radial-gradient(
+        circle at 48% 85%,
+        rgba(255, 255, 255, 0.5) 0 0.9px,
+        transparent 1.5px
+      );
+    background-size:
+      440px 440px,
+      540px 540px,
+      620px 620px;
     content: "";
     opacity: 0.14;
-    animation: body-star-twinkle 12s ease-in-out infinite alternate;
+    animation:
+      body-star-twinkle 12s ease-in-out infinite alternate;
   }
 
   :global(main) {
@@ -429,7 +745,11 @@ function getTopics(topic: string) {
     padding: 24px 20px 20px;
     overflow: hidden;
     background:
-      linear-gradient(110deg, rgba(61, 78, 135, 0.26), transparent 52%),
+      linear-gradient(
+        110deg,
+        rgba(61, 78, 135, 0.26),
+        transparent 52%
+      ),
       rgba(12, 18, 33, 0.48);
     border: 1px solid rgba(179, 194, 232, 0.16);
     border-radius: 18px;
@@ -475,10 +795,15 @@ function getTopics(topic: string) {
     border: 1px solid transparent;
     border-radius: 999px;
     cursor: pointer;
-    font: 700 0.78rem/1 Arial, sans-serif;
+    font:
+      700 0.78rem/1 Arial,
+      sans-serif;
     letter-spacing: 0.04em;
     text-decoration: none;
-    transition: color 180ms ease, background 180ms ease, border-color 180ms ease;
+    transition:
+      color 180ms ease,
+      background 180ms ease,
+      border-color 180ms ease;
   }
 
   .site-nav a:hover,
@@ -504,7 +829,14 @@ function getTopics(topic: string) {
     right: 26%;
     width: 86px;
     height: 86px;
-    background: radial-gradient(circle at 31% 28%, #d5ddff 0 4%, #7885c8 22%, #313b75 62%, #11172f 100%);
+    background:
+      radial-gradient(
+        circle at 31% 28%,
+        #d5ddff 0 4%,
+        #7885c8 22%,
+        #313b75 62%,
+        #11172f 100%
+      );
     opacity: 0.85;
   }
 
@@ -513,7 +845,14 @@ function getTopics(topic: string) {
     bottom: -34px;
     width: 62px;
     height: 62px;
-    background: radial-gradient(circle at 32% 30%, #ffd8ae 0 5%, #c98262 26%, #6a3d6d 64%, #1a1834 100%);
+    background:
+      radial-gradient(
+        circle at 32% 30%,
+        #ffd8ae 0 5%,
+        #c98262 26%,
+        #6a3d6d 64%,
+        #1a1834 100%
+      );
     opacity: 0.78;
   }
 
@@ -521,15 +860,42 @@ function getTopics(topic: string) {
   .footer-star {
     position: absolute;
     color: #e8edff;
-    text-shadow: 0 0 14px rgba(202, 214, 255, 0.82);
+    text-shadow:
+      0 0 14px rgba(202, 214, 255, 0.82);
     transform-origin: center;
-    animation: bright-star-twinkle 2.8s ease-in-out infinite alternate;
+    animation:
+      bright-star-twinkle 2.8s ease-in-out
+      infinite alternate;
   }
 
-  .header-star-one { top: 12px; right: 16%; font-size: 1.1rem; }
-  .header-star-two { top: 42px; right: 4%; color: #f1d4ae; font-size: 0.8rem; animation-delay: 800ms; }
-  .header-star-three { bottom: 13px; left: 42%; color: #b8c8ff; font-size: 0.92rem; animation-delay: 1.3s; }
-  .header-star-four { top: 19px; left: 28%; font-size: 1.5rem; animation-delay: 450ms; }
+  .header-star-one {
+    top: 12px;
+    right: 16%;
+    font-size: 1.1rem;
+  }
+
+  .header-star-two {
+    top: 42px;
+    right: 4%;
+    color: #f1d4ae;
+    font-size: 0.8rem;
+    animation-delay: 800ms;
+  }
+
+  .header-star-three {
+    bottom: 13px;
+    left: 42%;
+    color: #b8c8ff;
+    font-size: 0.92rem;
+    animation-delay: 1.3s;
+  }
+
+  .header-star-four {
+    top: 19px;
+    left: 28%;
+    font-size: 1.5rem;
+    animation-delay: 450ms;
+  }
 
   .topic-filter-section {
     margin-top: 48px;
@@ -552,12 +918,15 @@ function getTopics(topic: string) {
   .filter-status {
     margin: 18px 0 0;
     color: #8f9bb7;
-    font: 0.86rem/1.5 Arial, sans-serif;
+    font:
+      0.86rem/1.5 Arial,
+      sans-serif;
   }
 
   .archive {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns:
+      repeat(6, minmax(0, 1fr));
     align-items: stretch;
     gap: 24px;
     margin: 28px 0 0;
@@ -565,30 +934,87 @@ function getTopics(topic: string) {
     list-style: none;
   }
 
-  .archive .post-card:last-child:nth-child(odd) {
-    grid-column: 1 / -1;
-    width: calc((100% - 12px) / 2);
-    height: auto;
-    justify-self: center;
-    align-self: start;
-  }
-
   .post-card {
     position: relative;
     display: flex;
+    grid-column: span 2;
     min-width: 0;
     height: 100%;
-    padding: clamp(28px, 4vw, 44px);
-    overflow: hidden;
+    padding: clamp(25px, 3vw, 36px);
+    overflow: visible;
     background:
-      linear-gradient(135deg, rgba(255, 255, 255, 0.045), transparent 42%),
-      #121a2b;
-    border: 1px solid rgba(179, 194, 232, 0.16);
-    border-radius: 20px;
+      linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.035),
+        transparent 45%
+      ),
+      #151d2e;
+    border:
+      1px solid rgba(188, 200, 230, 0.17);
+    border-radius: 8px 13px 10px 7px;
     box-shadow:
-      0 16px 40px rgba(0, 0, 0, 0.28),
+      0 15px 34px rgba(0, 0, 0, 0.27),
       inset 0 1px 0 rgba(255, 255, 255, 0.045);
-    transition: transform 200ms ease, border-color 200ms ease, box-shadow 200ms ease;
+    transform:
+      rotate(var(--paper-tilt, 0deg));
+    transition:
+      transform 200ms ease,
+      border-color 200ms ease,
+      box-shadow 200ms ease;
+  }
+
+  .post-card[hidden] {
+    display: none !important;
+  }
+
+  .post-card.is-final-two {
+    grid-column: span 3;
+  }
+
+  .post-card.is-final-one {
+    grid-column: 1 / -1;
+  }
+
+  .post-card.paper-lined {
+    background-image:
+      linear-gradient(
+        90deg,
+        transparent 0 31px,
+        rgba(207, 127, 127, 0.1) 31px 32px,
+        transparent 32px
+      ),
+      repeating-linear-gradient(
+        to bottom,
+        transparent 0 31px,
+        rgba(164, 185, 226, 0.07) 31px 32px
+      ),
+      linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.035),
+        transparent 45%
+      );
+  }
+
+  .post-card.paper-graph {
+    background-image:
+      linear-gradient(
+        rgba(164, 185, 226, 0.045) 1px,
+        transparent 1px
+      ),
+      linear-gradient(
+        90deg,
+        rgba(164, 185, 226, 0.045) 1px,
+        transparent 1px
+      ),
+      linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.035),
+        transparent 45%
+      );
+    background-size:
+      24px 24px,
+      24px 24px,
+      auto;
   }
 
   .post-card-content {
@@ -602,16 +1028,60 @@ function getTopics(topic: string) {
     position: absolute;
     top: 0;
     left: 0;
-    width: 4px;
+    width: 3px;
     height: 100%;
-    background: linear-gradient(to bottom, #aebdff, #8c72cc 55%, #d49c6a);
+    background:
+      linear-gradient(
+        to bottom,
+        #aebdff,
+        #8c72cc 55%,
+        #d49c6a
+      );
+    content: "";
+  }
+
+  .post-card.detail-tape::after {
+    position: absolute;
+    top: -9px;
+    left: 50%;
+    width: 62px;
+    height: 19px;
+    background: rgba(206, 193, 157, 0.3);
+    box-shadow:
+      inset 0 0 0 1px
+      rgba(255, 255, 255, 0.06);
+    content: "";
+    transform:
+      translateX(-50%) rotate(-1.5deg);
+  }
+
+  .post-card.detail-pin::after {
+    position: absolute;
+    top: 13px;
+    right: 17px;
+    width: 9px;
+    height: 9px;
+    background: #bc856f;
+    border:
+      2px solid rgba(255, 230, 214, 0.34);
+    border-radius: 50%;
+    box-shadow:
+      0 3px 7px rgba(0, 0, 0, 0.38);
     content: "";
   }
 
   .post-card:hover {
-    border-color: rgba(174, 189, 255, 0.42);
-    box-shadow: 0 22px 50px rgba(0, 0, 0, 0.36);
-    transform: translateY(-4px);
+    border-color:
+      rgba(174, 189, 255, 0.42);
+    box-shadow:
+      0 22px 50px rgba(0, 0, 0, 0.36);
+    transform:
+      translateY(-5px)
+      rotate(
+        calc(
+          var(--paper-tilt, 0deg) * -0.35
+        )
+      );
   }
 
   .topic-chip-list {
@@ -625,17 +1095,21 @@ function getTopics(topic: string) {
     padding: 5px 8px;
     color: #aebdff;
     background: rgba(174, 189, 255, 0.08);
-    border: 1px solid rgba(174, 189, 255, 0.14);
+    border:
+      1px solid rgba(174, 189, 255, 0.14);
     border-radius: 999px;
-    font: 700 0.68rem/1 Arial, sans-serif;
+    font:
+      700 0.68rem/1 Arial,
+      sans-serif;
     letter-spacing: 0.04em;
   }
 
   .post-card h2 {
     margin: 0 0 28px;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(1.7rem, 3.5vw, 2.45rem);
-    line-height: 1.08;
+    font-size:
+      clamp(1.45rem, 2.25vw, 2rem);
+    line-height: 1.12;
     letter-spacing: -0.035em;
     text-transform: none;
   }
@@ -693,8 +1167,60 @@ function getTopics(topic: string) {
     padding: 24px;
     color: #b9c2d3;
     background: rgba(174, 189, 255, 0.06);
-    border: 1px solid rgba(174, 189, 255, 0.16);
+    border:
+      1px solid rgba(174, 189, 255, 0.16);
     border-radius: 14px;
+    text-align: center;
+  }
+
+  .pagination {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 34px;
+  }
+
+  .pagination[hidden] {
+    display: none;
+  }
+
+  .pagination-button {
+    min-width: 40px;
+    min-height: 40px;
+    padding: 8px 12px;
+    color: #aebdff;
+    background: rgba(12, 18, 33, 0.72);
+    border:
+      1px solid rgba(174, 189, 255, 0.2);
+    border-radius: 999px;
+    cursor: pointer;
+    font:
+      700 0.78rem/1 Arial,
+      sans-serif;
+  }
+
+  .pagination-button:hover:not(:disabled),
+  .pagination-button.is-active {
+    color: #f1f4fb;
+    background: rgba(174, 189, 255, 0.13);
+    border-color:
+      rgba(174, 189, 255, 0.42);
+  }
+
+  .pagination-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.38;
+  }
+
+  .pagination-direction {
+    padding-inline: 16px;
+  }
+
+  .pagination-ellipsis {
+    min-width: 24px;
+    color: #77839e;
     text-align: center;
   }
 
@@ -703,7 +1229,8 @@ function getTopics(topic: string) {
     margin-top: 72px;
     padding: 34px 0 0;
     overflow: hidden;
-    border-top: 1px solid rgba(179, 194, 232, 0.16);
+    border-top:
+      1px solid rgba(179, 194, 232, 0.16);
     text-align: center;
   }
 
@@ -713,7 +1240,9 @@ function getTopics(topic: string) {
     justify-content: center;
     gap: 0.35rem;
     color: #aeb8cc;
-    font: 0.84rem/1.6 Arial, sans-serif;
+    font:
+      0.84rem/1.6 Arial,
+      sans-serif;
   }
 
   .footer-divider {
@@ -723,7 +1252,9 @@ function getTopics(topic: string) {
   .last-updated {
     margin: 5px 0 0;
     color: #7f8ba5;
-    font: 0.76rem/1.5 Arial, sans-serif;
+    font:
+      0.76rem/1.5 Arial,
+      sans-serif;
   }
 
   .footer-orb {
@@ -731,40 +1262,80 @@ function getTopics(topic: string) {
     bottom: -38px;
     width: 74px;
     height: 74px;
-    background: radial-gradient(circle at 31% 28%, #d9e2ff 0 4%, #7684cf 25%, #334078 62%, #12172e 100%);
+    background:
+      radial-gradient(
+        circle at 31% 28%,
+        #d9e2ff 0 4%,
+        #7684cf 25%,
+        #334078 62%,
+        #12172e 100%
+      );
     opacity: 0.6;
   }
 
-  .footer-star-one { bottom: 14px; left: 17%; font-size: 0.92rem; }
-  .footer-star-two { top: 5px; right: 22%; color: #f1d4ae; font-size: 0.76rem; animation-delay: 900ms; }
-  .footer-star-three { right: 35%; bottom: 8px; color: #b8c8ff; font-size: 1.25rem; animation-delay: 1.4s; }
+  .footer-star-one {
+    bottom: 14px;
+    left: 17%;
+    font-size: 0.92rem;
+  }
+
+  .footer-star-two {
+    top: 5px;
+    right: 22%;
+    color: #f1d4ae;
+    font-size: 0.76rem;
+    animation-delay: 900ms;
+  }
+
+  .footer-star-three {
+    right: 35%;
+    bottom: 8px;
+    color: #b8c8ff;
+    font-size: 1.25rem;
+    animation-delay: 1.4s;
+  }
 
   @keyframes body-star-twinkle {
-    from { opacity: 0.07; }
-    to { opacity: 0.18; }
+    from {
+      opacity: 0.07;
+    }
+
+    to {
+      opacity: 0.18;
+    }
   }
 
   @keyframes bright-star-twinkle {
-    from { opacity: 0.35; transform: scale(0.82); }
-    to { opacity: 1; transform: scale(1.13); }
+    from {
+      opacity: 0.35;
+      transform: scale(0.82);
+    }
+
+    to {
+      opacity: 1;
+      transform: scale(1.13);
+    }
   }
 
   @media (max-width: 900px) {
     :global(main) {
-      width: min(820px, calc(100% - 40px));
+      width:
+        min(820px, calc(100% - 40px));
     }
 
     .archive {
-      grid-template-columns: 1fr;
+      grid-template-columns:
+        repeat(2, minmax(0, 1fr));
       gap: 18px;
     }
 
-    .archive .post-card,
-    .archive .post-card:last-child:nth-child(odd) {
-      grid-column: auto;
-      width: 100%;
-      height: auto;
-      align-self: auto;
+    .post-card,
+    .post-card.is-final-two {
+      grid-column: span 1;
+    }
+
+    .post-card.is-final-one {
+      grid-column: 1 / -1;
     }
 
     .post-card-content {
@@ -774,7 +1345,8 @@ function getTopics(topic: string) {
 
   @media (max-width: 600px) {
     :global(main) {
-      width: min(100% - 32px, 820px);
+      width:
+        min(100% - 32px, 820px);
     }
 
     .site-header {
@@ -785,8 +1357,18 @@ function getTopics(topic: string) {
     }
 
     .post-card {
+      grid-column: 1 / -1;
       padding: 28px 24px 30px;
       border-radius: 16px;
+    }
+
+    .post-card.is-final-two,
+    .post-card.is-final-one {
+      grid-column: 1 / -1;
+    }
+
+    .pagination-direction {
+      width: 100%;
     }
 
     .header-orb-one {
@@ -801,6 +1383,19 @@ function getTopics(topic: string) {
     .header-star-four,
     .footer-star-three {
       display: none;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    :global(body)::before,
+    .header-star,
+    .footer-star {
+      animation: none;
+    }
+
+    .post-card,
+    .post-card:hover {
+      transform: none;
     }
   }
 </style>

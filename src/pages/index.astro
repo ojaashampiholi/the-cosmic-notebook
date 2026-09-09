@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import NotebookCard from "../components/NotebookCard.astro";
 
 const posts = (await getCollection("posts")).sort(
   (first, second) => second.data.date.getTime() - first.data.date.getTime()
@@ -45,21 +46,6 @@ const buildTime = new Intl.DateTimeFormat("en-IN", {
   timeZone: "Asia/Kolkata",
   timeZoneName: "short",
 }).format(new Date());
-
-function formatDate(date: Date) {
-  return date.toLocaleDateString("en-GB", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  });
-}
-
-function getTopics(topic: string) {
-  return topic
-    .split("/")
-    .map((item) => item.trim())
-    .filter(Boolean);
-}
 ---
 
 <BaseLayout>
@@ -153,76 +139,50 @@ function getTopics(topic: string) {
       Showing the 10 newest notes.
     </p>
 
-    <ul class="archive" data-post-list>
-      {
-        posts.map((post, index) => {
-          const primarySource = post.data.sources[0];
-          const postTopics = getTopics(post.data.topic);
+    <div class="homepage-notes" data-post-list>
+      <ul class="homepage-feature">
+        {
+          posts
+            .slice(0, 1)
+            .map((post) => (
+              <NotebookCard
+                post={post}
+                rank={1}
+                context="homepage"
+              />
+            ))
+        }
+      </ul>
 
-          return (
-            <li
-              class="post-card"
-              data-post-card
-              data-topics={JSON.stringify(postTopics)}
-              hidden={index >= latestPostLimit}
-            >
-              <div class="post-card-content">
-                <div class="topic-chip-list" aria-label="Post topics">
-                  {
-                    postTopics.map((topic) => (
-                      <span class="topic-chip">{topic}</span>
-                    ))
-                  }
-                </div>
+      <ul class="homepage-supporting">
+        {
+          posts
+            .slice(1, 3)
+            .map((post, index) => (
+              <NotebookCard
+                post={post}
+                rank={index + 2}
+                context="homepage"
+              />
+            ))
+        }
+      </ul>
 
-                <h2>
-                  {
-                    primarySource ? (
-                      <a
-                        href={primarySource.url}
-                        target="_blank"
-                        rel="noreferrer"
-                        title={`Open source: ${primarySource.label}`}
-                      >
-                        {post.data.title}
-                      </a>
-                    ) : (
-                      post.data.title
-                    )
-                  }
-                </h2>
-
-                <p class="eyebrow">Published</p>
-                <p class="card-value">{formatDate(post.data.date)}</p>
-
-                <p class="eyebrow">Freshness</p>
-                <p class="card-value">{post.data.freshness}</p>
-
-                <p class="eyebrow">Summary</p>
-                <p class="card-value">{post.data.excerpt}</p>
-
-                <p class="eyebrow">Why it matters</p>
-                <p class="card-value">{post.data.whyItMatters}</p>
-
-                <p class="eyebrow">Sources</p>
-
-                <ul class="source-list">
-                  {
-                    post.data.sources.map((source) => (
-                      <li>
-                        <a href={source.url} target="_blank" rel="noreferrer">
-                          {source.label}
-                        </a>
-                      </li>
-                    ))
-                  }
-                </ul>
-              </div>
-            </li>
-          );
-        })
-      }
-    </ul>
+      <ul class="homepage-masonry">
+        {
+          posts
+            .slice(3)
+            .map((post, index) => (
+              <NotebookCard
+                post={post}
+                rank={index + 4}
+                context="homepage"
+                hidden={index + 3 >= latestPostLimit}
+              />
+            ))
+        }
+      </ul>
+    </div>
 
     <p class="empty-state" data-empty-state hidden>
       No notes match those topics yet.
@@ -456,9 +416,11 @@ function getTopics(topic: string) {
         if (matchingCards.length === 0) {
           filterStatus.textContent = "No matching notes found.";
         } else if (matchingCards.length <= maximumVisiblePosts) {
-          filterStatus.textContent = `Showing all ${matchingCards.length} matching notes.`;
+          filterStatus.textContent =
+            `Showing all ${matchingCards.length} matching notes.`;
         } else {
-          filterStatus.textContent = `Showing the newest ${maximumVisiblePosts} of ${matchingCards.length} matching notes.`;
+          filterStatus.textContent =
+            `Showing the newest ${maximumVisiblePosts} of ${matchingCards.length} matching notes.`;
         }
       }
 
@@ -496,14 +458,46 @@ function getTopics(topic: string) {
   :global(body) {
     background-color: #070b15;
     background-image:
-      radial-gradient(circle at 8% 14%, rgba(182, 198, 255, 0.55) 0 1px, transparent 1.7px),
-      radial-gradient(circle at 22% 31%, rgba(255, 255, 255, 0.34) 0 1px, transparent 1.7px),
-      radial-gradient(circle at 40% 7%, rgba(184, 168, 255, 0.35) 0 1.2px, transparent 2px),
-      radial-gradient(circle at 61% 22%, rgba(255, 255, 255, 0.28) 0 1px, transparent 1.7px),
-      radial-gradient(circle at 76% 9%, rgba(159, 190, 255, 0.38) 0 1.1px, transparent 1.8px),
-      radial-gradient(circle at 91% 36%, rgba(255, 255, 255, 0.28) 0 1px, transparent 1.7px),
-      radial-gradient(circle at 14% 72%, rgba(174, 189, 255, 0.25) 0 1px, transparent 1.7px),
-      radial-gradient(circle at 83% 81%, rgba(255, 255, 255, 0.2) 0 1px, transparent 1.7px),
+      radial-gradient(
+        circle at 8% 14%,
+        rgba(182, 198, 255, 0.55) 0 1px,
+        transparent 1.7px
+      ),
+      radial-gradient(
+        circle at 22% 31%,
+        rgba(255, 255, 255, 0.34) 0 1px,
+        transparent 1.7px
+      ),
+      radial-gradient(
+        circle at 40% 7%,
+        rgba(184, 168, 255, 0.35) 0 1.2px,
+        transparent 2px
+      ),
+      radial-gradient(
+        circle at 61% 22%,
+        rgba(255, 255, 255, 0.28) 0 1px,
+        transparent 1.7px
+      ),
+      radial-gradient(
+        circle at 76% 9%,
+        rgba(159, 190, 255, 0.38) 0 1.1px,
+        transparent 1.8px
+      ),
+      radial-gradient(
+        circle at 91% 36%,
+        rgba(255, 255, 255, 0.28) 0 1px,
+        transparent 1.7px
+      ),
+      radial-gradient(
+        circle at 14% 72%,
+        rgba(174, 189, 255, 0.25) 0 1px,
+        transparent 1.7px
+      ),
+      radial-gradient(
+        circle at 83% 81%,
+        rgba(255, 255, 255, 0.2) 0 1px,
+        transparent 1.7px
+      ),
       linear-gradient(160deg, #070b15 0%, #0b1120 48%, #090d18 100%);
     background-size:
       280px 280px,
@@ -524,9 +518,21 @@ function getTopics(topic: string) {
     inset: 0;
     pointer-events: none;
     background:
-      radial-gradient(circle at 28% 19%, rgba(255, 255, 255, 0.8) 0 1px, transparent 1.6px),
-      radial-gradient(circle at 72% 63%, rgba(190, 204, 255, 0.65) 0 1px, transparent 1.6px),
-      radial-gradient(circle at 48% 85%, rgba(255, 255, 255, 0.5) 0 0.9px, transparent 1.5px);
+      radial-gradient(
+        circle at 28% 19%,
+        rgba(255, 255, 255, 0.8) 0 1px,
+        transparent 1.6px
+      ),
+      radial-gradient(
+        circle at 72% 63%,
+        rgba(190, 204, 255, 0.65) 0 1px,
+        transparent 1.6px
+      ),
+      radial-gradient(
+        circle at 48% 85%,
+        rgba(255, 255, 255, 0.5) 0 0.9px,
+        transparent 1.5px
+      );
     background-size: 440px 440px, 540px 540px, 620px 620px;
     content: "";
     opacity: 0.14;
@@ -625,7 +631,14 @@ function getTopics(topic: string) {
     right: 26%;
     width: 86px;
     height: 86px;
-    background: radial-gradient(circle at 31% 28%, #d5ddff 0 4%, #7885c8 22%, #313b75 62%, #11172f 100%);
+    background:
+      radial-gradient(
+        circle at 31% 28%,
+        #d5ddff 0 4%,
+        #7885c8 22%,
+        #313b75 62%,
+        #11172f 100%
+      );
     opacity: 0.85;
   }
 
@@ -634,7 +647,14 @@ function getTopics(topic: string) {
     bottom: -34px;
     width: 62px;
     height: 62px;
-    background: radial-gradient(circle at 32% 30%, #ffd8ae 0 5%, #c98262 26%, #6a3d6d 64%, #1a1834 100%);
+    background:
+      radial-gradient(
+        circle at 32% 30%,
+        #ffd8ae 0 5%,
+        #c98262 26%,
+        #6a3d6d 64%,
+        #1a1834 100%
+      );
     opacity: 0.78;
   }
 
@@ -700,29 +720,61 @@ function getTopics(topic: string) {
     font: 0.86rem/1.5 Arial, sans-serif;
   }
 
-  .archive {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    align-items: stretch;
-    gap: 24px;
-    margin: 28px 0 0;
+  .homepage-notes {
+    margin-top: 28px;
+  }
+
+  .homepage-feature,
+  .homepage-supporting,
+  .homepage-masonry {
+    margin: 0;
     padding: 0;
     list-style: none;
   }
 
-  .archive .post-card:last-child:nth-child(odd) {
-    grid-column: 1 / -1;
-    width: calc((100% - 12px) / 2);
-    height: auto;
-    justify-self: center;
-    align-self: start;
+  .homepage-feature .post-card {
+    width: 100%;
   }
 
-  .archive .post-card {
+  .homepage-feature .post-card h2 {
+    font-size: clamp(2.2rem, 4vw, 3.5rem);
+  }
+
+  .homepage-supporting {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 26px;
+    margin-top: 26px;
+  }
+
+  .homepage-supporting .post-card {
+    height: auto;
+  }
+
+  .homepage-supporting .post-card h2 {
+    font-size: clamp(1.55rem, 2.3vw, 2.2rem);
+  }
+
+  .homepage-masonry {
+    column-count: 2;
+    column-gap: 26px;
+    margin-top: 26px;
+  }
+
+  .homepage-masonry .post-card {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0 0 26px;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .post-card {
     position: relative;
     display: flex;
     min-width: 0;
-    height: 100%;
+    height: auto;
     padding: clamp(28px, 4vw, 44px);
     overflow: hidden;
     background:
@@ -733,6 +785,7 @@ function getTopics(topic: string) {
     box-shadow:
       0 16px 40px rgba(0, 0, 0, 0.28),
       inset 0 1px 0 rgba(255, 255, 255, 0.045);
+    transform: rotate(var(--paper-tilt, 0deg));
     transition:
       transform 200ms ease,
       border-color 200ms ease,
@@ -742,11 +795,11 @@ function getTopics(topic: string) {
   .post-card-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
   }
 
-  .archive .post-card::before {
+  .post-card::before {
     position: absolute;
     top: 0;
     left: 0;
@@ -756,10 +809,37 @@ function getTopics(topic: string) {
     content: "";
   }
 
-  .archive .post-card:hover {
+  .post-card.paper-lined {
+    background-color: #121a2b;
+    background-image:
+      repeating-linear-gradient(
+        to bottom,
+        transparent 0 31px,
+        rgba(174, 189, 255, 0.055) 31px 32px
+      );
+  }
+
+  .post-card.paper-graph {
+    background-color: #121a2b;
+    background-image:
+      linear-gradient(
+        rgba(174, 189, 255, 0.035) 1px,
+        transparent 1px
+      ),
+      linear-gradient(
+        90deg,
+        rgba(174, 189, 255, 0.035) 1px,
+        transparent 1px
+      );
+    background-size: 28px 28px;
+  }
+
+  .post-card:hover {
     border-color: rgba(174, 189, 255, 0.42);
     box-shadow: 0 22px 50px rgba(0, 0, 0, 0.36);
-    transform: translateY(-4px);
+    transform:
+      translateY(-5px)
+      rotate(calc(var(--paper-tilt, 0deg) * -0.45));
   }
 
   .topic-chip-list {
@@ -957,7 +1037,14 @@ function getTopics(topic: string) {
     bottom: -38px;
     width: 74px;
     height: 74px;
-    background: radial-gradient(circle at 31% 28%, #d9e2ff 0 4%, #7684cf 25%, #334078 62%, #12172e 100%);
+    background:
+      radial-gradient(
+        circle at 31% 28%,
+        #d9e2ff 0 4%,
+        #7684cf 25%,
+        #334078 62%,
+        #12172e 100%
+      );
     opacity: 0.6;
   }
 
@@ -1010,17 +1097,13 @@ function getTopics(topic: string) {
       width: min(820px, calc(100% - 40px));
     }
 
-    .archive {
+    .homepage-supporting {
       grid-template-columns: 1fr;
       gap: 18px;
     }
 
-    .archive .post-card,
-    .archive .post-card:last-child:nth-child(odd) {
-      grid-column: auto;
-      width: 100%;
-      height: auto;
-      align-self: auto;
+    .homepage-masonry {
+      column-count: 1;
     }
 
     .post-card-content {
@@ -1040,7 +1123,7 @@ function getTopics(topic: string) {
       margin-bottom: 42px;
     }
 
-    .archive .post-card,
+    .post-card,
     .reflection {
       padding: 28px 24px 30px;
       border-radius: 16px;
@@ -1058,6 +1141,20 @@ function getTopics(topic: string) {
     .header-star-four,
     .footer-star-three {
       display: none;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    :global(body)::before,
+    .header-star,
+    .footer-star {
+      animation: none;
+    }
+
+    .post-card,
+    .post-card:hover {
+      transform: none;
+      transition: none;
     }
   }
 </style>

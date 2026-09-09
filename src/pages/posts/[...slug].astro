@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { topicVisual } from "../../lib/topic-visuals.ts";
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts");
@@ -27,6 +28,8 @@ const formattedDate = post.data.date.toLocaleDateString("en-GB", {
 <BaseLayout
   title={`${post.data.title} | Orbital Notes`}
   description={post.data.excerpt}
+  image={topicVisual(post.data.topic)}
+  type="article"
 >
   <p class="back">
     <a href={import.meta.env.BASE_URL}>← All notes</a>

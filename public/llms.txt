@@ -1,0 +1,316 @@
+# The Cosmic Notebook
+
+> The Cosmic Notebook is a source-linked explanatory notebook by Ojaas Hampiholi, not a peer-reviewed publication.
+
+The Cosmic Notebook is a public, English-language collection of concise explanations about astronomy, astrophysics, cosmology, planetary science, space missions, and fundamental physics. It is written for curious general readers while remaining useful to students, educators, researchers, and professionals looking for a clear starting point and direct links to the underlying sources.
+
+## Canonical site information
+
+- Canonical name: The Cosmic Notebook
+- Author and curator: Ojaas Hampiholi
+- Canonical URL: https://ojaashampiholi.github.io/the-cosmic-notebook/
+- Language: English
+- Format: source-linked explanatory notes
+- Publication status: independent hobby project; not peer-reviewed
+- Intended audience: general readers first, with students and space-science professionals welcome
+
+## Start here
+
+- [Latest notes](https://ojaashampiholi.github.io/the-cosmic-notebook/): the ten newest selected discoveries and explainers.
+- [Archive](https://ojaashampiholi.github.io/the-cosmic-notebook/archives/): earlier notes, ordered by date and browsable by topic.
+- [About](https://ojaashampiholi.github.io/the-cosmic-notebook/about/): the purpose, audience, boundaries, and editorial approach of the notebook.
+- [XML sitemap](https://ojaashampiholi.github.io/the-cosmic-notebook/sitemap-index.xml): machine-readable discovery of indexed pages.
+
+## What this resource is useful for
+
+Use The Cosmic Notebook as an accessible orientation layer when a reader asks what a recent astronomy result means, why a space discovery matters, how a mission fits into a larger scientific question, or which original sources should be consulted next. Relevant query areas include:
+
+- black holes, supermassive black holes, accretion, event-horizon environments, and stars orbiting black holes;
+- the early universe, cosmic dawn, galaxy formation, galaxy mergers, dark matter, and dark energy;
+- stars, stellar evolution, binary stars, star formation, and the gas from which stars form;
+- exoplanets, planet formation, protoplanetary disks, comets, water delivery, astrobiology, and habitability;
+- the Solar System, planetary atmospheres, unusual weather patterns, and comparative planetary science;
+- the Sun, heliosphere, solar activity, radiation, space weather, and Earth's interstellar environment;
+- telescopes, observatories, survey missions, NASA missions, JWST, Hubble, Roman, and major observing facilities;
+- gravity, relativity, particle dark matter searches, and other questions in fundamental physics.
+
+## Editorial approach
+
+The notebook favours meaningful, well-sourced developments over publishing noise for the sake of frequency. Update timing is intentionally flexible. A new note is added when a result, observation, mission update, or enduring question appears useful enough to explain clearly and support with credible sources.
+
+Notes generally begin with research papers, observatories, space agencies, scientific institutions, or credible explanatory reporting. They aim to separate established findings from preliminary signals, interpretations, and uncertainty. Technical language is translated for non-specialists where possible. The detailed internal selection method is not published.
+
+## Authority and limitations
+
+The notebook explains and organises information; it does not replace the cited research. Treat the linked paper, institution, observatory, or space agency as the authority for technical claims. Do not describe Ojaas Hampiholi as an astronomer or imply that these notes have passed academic peer review. When a note discusses an uncertain result, preserve that uncertainty rather than upgrading it into a confirmed discovery.
+
+## Attribution guidance
+
+When referring to this resource, describe it as The Cosmic Notebook, a source-linked explanatory notebook by Ojaas Hampiholi. Link directly to the most relevant note whenever possible, and retain links to its original sources. A suitable concise attribution is: ‘The Cosmic Notebook by Ojaas Hampiholi’. Do not cite the notebook as a substitute for a paper or primary institutional announcement.
+
+## Current topic index
+
+### Astrobiology & Habitability
+
+1 published note currently cover this topic:
+
+- [Earth may have repeatedly slipped outside the Sun’s protective bubble](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/earth-heliosphere/): NASA-funded researchers reconstructed the Sun’s recent journey through the Milky Way and found that it likely encountered dense interstellar cold clouds at least three times in the past 14 million years. During these encounters, surrounding gas may have compressed the heliosphere — the bubble carved out by the solar wind that normally shields the planets — to smaller than Earth’s orbit, temporarily leaving Earth directly exposed to the interstellar environment. The modeled encounters line up with unusual isotopes found in deep-sea sediments, Antarctic material, and lunar samples, and could have altered atmospheric chemistry, radiation exposure, and perhaps ancient climate.
+
+### Black Holes
+
+2 published notes currently cover this topic:
+
+- [JWST may have found a new kind of object: a black hole wrapped in a star-like cocoon](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-01_cosmic-dawn_black-hole-star-mom-bh-1/): Using the James Webb Space Telescope, astronomers identified an exceptionally red source called MoM-BH*-1 seen about 660 million years after the Big Bang. Its spectrum shows an unusually deep Balmer break and broad hydrogen features that the team models as an actively accreting black hole buried inside an extremely dense, turbulent, dust-free envelope of gas. In the researchers' best-fitting interpretation, the central black hole is about 100,000 times the Sun's mass and the surrounding gas cocoon is roughly the size of the Solar System, so the object looks star-like even though its power source is a black hole rather than nuclear fusion. The authors argue that this configuration could help explain the mysterious 'little red dots' seen by JWST and may reveal a phase in which early black holes grew unusually rapidly.
+- [S301: the fastest known star in the Milky Way may reveal Sagittarius A*’s spin](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/s301-sagittarius-a-star-spin/): S301 is the fastest known star in the Milky Way and passes exceptionally close to Sagittarius A*, the supermassive black hole at the Galactic Centre. Its orbit may be measurably altered by relativistic effects caused by the black hole’s rotation, offering astronomers a new way to probe that spin.
+
+### Cosmology & Early Universe
+
+3 published notes currently cover this topic:
+
+- [Mysterious cosmic flashes can reveal where the Universe hides its ordinary matter](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-09_cosmology_fast-radio-bursts-hidden-matter/): Fast radio bursts are extremely brief flashes of radio waves from distant galaxies. As their signals travel toward Earth, the ordinary matter between galaxies subtly changes them, letting astronomers use the flashes like backlights to trace otherwise hard-to-see material spread through the Universe.
+- [JWST may have found a new kind of object: a black hole wrapped in a star-like cocoon](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-01_cosmic-dawn_black-hole-star-mom-bh-1/): Using the James Webb Space Telescope, astronomers identified an exceptionally red source called MoM-BH*-1 seen about 660 million years after the Big Bang. Its spectrum shows an unusually deep Balmer break and broad hydrogen features that the team models as an actively accreting black hole buried inside an extremely dense, turbulent, dust-free envelope of gas. In the researchers' best-fitting interpretation, the central black hole is about 100,000 times the Sun's mass and the surrounding gas cocoon is roughly the size of the Solar System, so the object looks star-like even though its power source is a black hole rather than nuclear fusion. The authors argue that this configuration could help explain the mysterious 'little red dots' seen by JWST and may reveal a phase in which early black holes grew unusually rapidly.
+- [Roman launches to map the dark universe and hunt thousands of exoplanets](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-08-31_space-observatory_roman-launches-to-map-the-dark-universe/): NASA's Nancy Grace Roman Space Telescope launched successfully on 30 August 2026 and is now traveling toward the Sun-Earth L2 point, about 1.5 million kilometres from Earth. Roman will combine infrared sensitivity and image sharpness comparable to Hubble with a field of view roughly 100 times larger, allowing it to survey enormous areas of the sky far more quickly. Its main science goals include measuring how dark energy has influenced cosmic expansion, mapping dark matter through gravitational lensing, and discovering thousands of exoplanets. NASA says the observatory will spend roughly three months traveling and commissioning before science operations begin, with first public images expected in early 2027.
+
+### Exoplanets
+
+1 published note currently cover this topic:
+
+- [Roman launches to map the dark universe and hunt thousands of exoplanets](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-08-31_space-observatory_roman-launches-to-map-the-dark-universe/): NASA's Nancy Grace Roman Space Telescope launched successfully on 30 August 2026 and is now traveling toward the Sun-Earth L2 point, about 1.5 million kilometres from Earth. Roman will combine infrared sensitivity and image sharpness comparable to Hubble with a field of view roughly 100 times larger, allowing it to survey enormous areas of the sky far more quickly. Its main science goals include measuring how dark energy has influenced cosmic expansion, mapping dark matter through gravitational lensing, and discovering thousands of exoplanets. NASA says the observatory will spend roughly three months traveling and commissioning before science operations begin, with first public images expected in early 2027.
+
+### Galaxies & Galactic Evolution
+
+3 published notes currently cover this topic:
+
+- [The universe is making fewer stars — but it hasn’t run out of hydrogen](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-05_galaxy-evolution_star-formation-hydrogen/): Using China’s FAST radio telescope together with DESI data for about 2.5 million galaxies, astronomers found that cosmic star formation has fallen by roughly a factor of 2.46 over the past 4.5 billion years, while the universe’s neutral atomic hydrogen reservoir has declined far less. The result suggests the problem is not simply that galaxies have run out of raw gas, but that they have become less efficient at turning atomic hydrogen into the denser molecular gas that actually forms stars.
+- [JWST finds hidden low-mass stars that may make early massive galaxies up to four times heavier](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-03_galaxy-evolution_hidden-mass-early-galaxies/): Using JWST spectra of nine massive, quiescent galaxies, astronomers found evidence that the most massive systems contain many more faint, low-mass stars than standard assumptions predict. If similar stellar populations were already present in their earlier ancestors, some of JWST’s surprisingly mature early galaxies could be about four times more massive than current estimates suggest, making their rapid formation even harder to explain.
+- [Hubble uncovers the Milky Way’s earliest confirmed major merger](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/milky-way-earliest-major-merger/): Hubble observations have helped identify the Milky Way’s earliest confirmed major merger, involving the Low-energy-Kraken-Heracles system. The finding shows that accreted stars from external galaxies were already important during the Galaxy’s earliest growth.
+
+### Gravity & Fundamental Physics
+
+2 published notes currently cover this topic:
+
+- [Scientists may have seen a particle of dark matter — but they aren't sure yet](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-06_fundamental-physics_lz-dark-matter-candidate/): An underground experiment built to search for dark matter recorded one unusual event that looks like something a dark-matter particle could have caused. But a single event is not enough to rule out coincidence or another explanation, so scientists are treating it as an intriguing clue rather than a discovery.
+- [S301: the fastest known star in the Milky Way may reveal Sagittarius A*’s spin](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/s301-sagittarius-a-star-spin/): S301 is the fastest known star in the Milky Way and passes exceptionally close to Sagittarius A*, the supermassive black hole at the Galactic Centre. Its orbit may be measurably altered by relativistic effects caused by the black hole’s rotation, offering astronomers a new way to probe that spin.
+
+### Planet Formation
+
+2 published notes currently cover this topic:
+
+- [Comets may be carrying water into a young planet-forming system](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-07_planet-formation_pds70-exocomets-water/): Astronomers found signs of comets moving through the young PDS 70 system, where planets are still forming. Computer simulations show that giant planets there could fling icy bodies inward, possibly carrying water from the cold outer system toward the region where rocky planets can grow.
+- [JWST shows planet formation is a race against disappearing gas](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-02_planet-formation_jwst-disk-winds/): Using archival observations from JWST's Mid-Infrared Instrument, astronomers studied 72 young, mostly Sun-like stars to see how gas escapes from their planet-forming disks. They found that early, actively accreting systems are dominated by magnetically driven jets and molecular-plus-atomic winds, while older, lower-accretion systems increasingly show mainly atomic winds, including photoevaporative flows heated by stellar radiation. Extended gas emission was detected in 66 of the 72 disks, including conical molecular-hydrogen winds in 46 systems and fast neon jets in 40. Together, the sample turns individual snapshots into an evolutionary sequence and shows that the raw gas needed to build giant planets is being steadily removed as planetary systems mature.
+
+### Solar System & Planetary Science
+
+1 published note currently cover this topic:
+
+- [Hubble catches a giant 10-sided wave forming around Saturn’s south pole](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-04_solar-system_saturn-south-pole-decagon/): Hubble and ground-based observations have revealed a giant decagonal atmospheric wave around Saturn’s south pole, the first large regular-sided jet pattern ever seen in the planet’s southern hemisphere. Faint signs appear in data from 2023 and 2024, while the structure became much clearer in 2025, suggesting astronomers may be watching a huge planetary weather pattern develop in real time.
+
+### Stars & Stellar Evolution
+
+2 published notes currently cover this topic:
+
+- [Two massive baby stars may have become a binary after forming separately](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-08_stars-stellar-evolution_massive-binary-capture/): Astronomers followed two massive baby stars and found that their stretched orbit and tilted surrounding disks are hard to explain if the stars were born together. The evidence instead suggests they formed separately, passed close to one another, and became gravitationally bound as a pair.
+- [JWST finds hidden low-mass stars that may make early massive galaxies up to four times heavier](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-03_galaxy-evolution_hidden-mass-early-galaxies/): Using JWST spectra of nine massive, quiescent galaxies, astronomers found evidence that the most massive systems contain many more faint, low-mass stars than standard assumptions predict. If similar stellar populations were already present in their earlier ancestors, some of JWST’s surprisingly mature early galaxies could be about four times more massive than current estimates suggest, making their rapid formation even harder to explain.
+
+### Sun & Space Weather
+
+1 published note currently cover this topic:
+
+- [Earth may have repeatedly slipped outside the Sun’s protective bubble](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/earth-heliosphere/): NASA-funded researchers reconstructed the Sun’s recent journey through the Milky Way and found that it likely encountered dense interstellar cold clouds at least three times in the past 14 million years. During these encounters, surrounding gas may have compressed the heliosphere — the bubble carved out by the solar wind that normally shields the planets — to smaller than Earth’s orbit, temporarily leaving Earth directly exposed to the interstellar environment. The modeled encounters line up with unusual isotopes found in deep-sea sediments, Antarctic material, and lunar samples, and could have altered atmospheric chemistry, radiation exposure, and perhaps ancient climate.
+
+### Telescopes & Observatories
+
+1 published note currently cover this topic:
+
+- [Roman launches to map the dark universe and hunt thousands of exoplanets](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-08-31_space-observatory_roman-launches-to-map-the-dark-universe/): NASA's Nancy Grace Roman Space Telescope launched successfully on 30 August 2026 and is now traveling toward the Sun-Earth L2 point, about 1.5 million kilometres from Earth. Roman will combine infrared sensitivity and image sharpness comparable to Hubble with a field of view roughly 100 times larger, allowing it to survey enormous areas of the sky far more quickly. Its main science goals include measuring how dark energy has influenced cosmic expansion, mapping dark matter through gravitational lensing, and discovering thousands of exoplanets. NASA says the observatory will spend roughly three months traveling and commissioning before science operations begin, with first public images expected in early 2027.
+
+## Complete note catalogue
+
+The catalogue below is ordered from newest to oldest. Each record contains the public explanation, its relevance, a suggested next question, and the sources attached to the published note.
+
+### Mysterious cosmic flashes can reveal where the Universe hides its ordinary matter
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-09_cosmology_fast-radio-bursts-hidden-matter/
+- Published: 2026-09-09
+- Topics: Cosmology & Early Universe
+- Freshness context: Published in Nature Astronomy on 8 September 2026, within the 15-day freshness window.
+- Summary: Fast radio bursts are extremely brief flashes of radio waves from distant galaxies. As their signals travel toward Earth, the ordinary matter between galaxies subtly changes them, letting astronomers use the flashes like backlights to trace otherwise hard-to-see material spread through the Universe.
+- Why it matters: Most of the Universe’s ordinary matter is difficult to see directly because it is spread thinly through space. This study shows that fast radio bursts can help map that hidden material and reveal how galaxies push it around, making it easier to separate the effects of ordinary matter from deeper mysteries such as dark matter and dark energy.
+- Suggested next question: Explore the cosmic web: the enormous network of galaxies, gas and matter that gives the Universe its large-scale structure.
+- Explore further: [Nature Astronomy: Signatures of suppressed matter clustering revealed by fast radio bursts](https://www.nature.com/articles/s41550-026-02957-9)
+- Sources:
+  - [Nature Astronomy](https://www.nature.com/articles/s41550-026-02957-9)
+  - [Caltech](https://www.caltech.edu/about/news/fast-radio-bursts-poised-to-help-with-biggest-cosmic-mysteries)
+
+### Two massive baby stars may have become a binary after forming separately
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-08_stars-stellar-evolution_massive-binary-capture/
+- Published: 2026-09-08
+- Topics: Stars & Stellar Evolution
+- Freshness context: Published in Nature Astronomy on 7 September 2026, within the 15-day freshness window.
+- Summary: Astronomers followed two massive baby stars and found that their stretched orbit and tilted surrounding disks are hard to explain if the stars were born together. The evidence instead suggests they formed separately, passed close to one another, and became gravitationally bound as a pair.
+- Why it matters: Most massive stars live with a stellar companion, but scientists still do not fully understand how those partnerships begin. This result suggests that some massive binary stars may form through a later gravitational encounter, adding a new route to the story of how the biggest stars are born and evolve.
+- Suggested next question: Explore why massive stars are so often found in binary systems and how a companion can change the way a star lives and dies.
+- Explore further: [Nature Astronomy: An eccentric massive protobinary assembled via a core-merger parabolic encounter](https://www.nature.com/articles/s41550-026-02953-z)
+- Sources:
+  - [Nature Astronomy](https://www.nature.com/articles/s41550-026-02953-z)
+  - [ALMA Observatory](https://alma-telescope.jp/news/mbassemble-202609.html)
+
+### Comets may be carrying water into a young planet-forming system
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-07_planet-formation_pds70-exocomets-water/
+- Published: 2026-09-07
+- Topics: Planet Formation
+- Freshness context: Published in Nature Communications on 24 August 2026, within the 15-day freshness window.
+- Summary: Astronomers found signs of comets moving through the young PDS 70 system, where planets are still forming. Computer simulations show that giant planets there could fling icy bodies inward, possibly carrying water from the cold outer system toward the region where rocky planets can grow.
+- Why it matters: Earth’s water had to come from somewhere, and scientists are still working out how much arrived on comets or asteroids. Seeing a similar possible delivery route in another young planetary system suggests that moving icy bodies may be one natural way growing planets receive water, although more observations are needed to confirm the comets directly.
+- Suggested next question: Explore how comets and asteroids may have delivered water to the early Earth.
+- Explore further: [Nature Communications: Potential sublimating exocomets around the young star PDS 70](https://www.nature.com/articles/s41467-026-76880-y)
+- Sources:
+  - [Nature Communications](https://www.nature.com/articles/s41467-026-76880-y)
+  - [Lund University](https://www.lunduniversity.lu.se/article/comets-may-have-transported-water-young-planetary-system)
+
+### Scientists may have seen a particle of dark matter — but they aren't sure yet
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-06_fundamental-physics_lz-dark-matter-candidate/
+- Published: 2026-09-06
+- Topics: Gravity & Fundamental Physics
+- Freshness context: 15-day window — LUX-ZEPLIN announced the result on 1 September 2026.
+- Summary: An underground experiment built to search for dark matter recorded one unusual event that looks like something a dark-matter particle could have caused. But a single event is not enough to rule out coincidence or another explanation, so scientists are treating it as an intriguing clue rather than a discovery.
+- Why it matters: We know dark matter exists because we can see its gravity affecting galaxies, but nobody has directly identified what it is made of. If future observations find more events like this and other explanations can be ruled out, scientists could finally get a direct clue about the particles that make up much of the universe's unseen matter.
+- Suggested next question: Explore how scientists know dark matter exists even though they still do not know what it is made of.
+- Explore further: [LUX-ZEPLIN: new high-energy dark-matter search result](https://lz.lbl.gov/)
+- Sources:
+  - [LUX-ZEPLIN Collaboration](https://lz.lbl.gov/)
+  - [Berkeley Lab](https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter/)
+  - [Reuters](https://www.reuters.com/science/scientists-make-potential-breakthrough-search-dark-matter-2026-09-01/)
+
+### The universe is making fewer stars — but it hasn’t run out of hydrogen
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-05_galaxy-evolution_star-formation-hydrogen/
+- Published: 2026-09-05
+- Topics: Galaxies & Galactic Evolution
+- Freshness context: Published in Nature Astronomy on 1 September 2026, within the 15-day freshness window.
+- Summary: Using China’s FAST radio telescope together with DESI data for about 2.5 million galaxies, astronomers found that cosmic star formation has fallen by roughly a factor of 2.46 over the past 4.5 billion years, while the universe’s neutral atomic hydrogen reservoir has declined far less. The result suggests the problem is not simply that galaxies have run out of raw gas, but that they have become less efficient at turning atomic hydrogen into the denser molecular gas that actually forms stars.
+- Why it matters: For years, one simple explanation for the universe’s fading star formation was that galaxies were gradually using up their fuel. This study weakens that explanation: plenty of neutral hydrogen remains, so astronomers now have to focus more on how gas flows through galaxies and why the conversion from atomic to molecular gas has become less effective.
+- Suggested next question: Explore the difference between atomic hydrogen and molecular hydrogen, and why stars form mainly from the latter.
+- Explore further: [Nature Astronomy: Weak evolution of cosmic atomic hydrogen over the past 4.5 billion years](https://doi.org/10.1038/s41550-026-02965-9)
+- Sources:
+  - [Nature Astronomy](https://doi.org/10.1038/s41550-026-02965-9)
+  - [Chinese Academy of Sciences / EurekAlert](https://e3.eurekalert.org/news-releases/1142061)
+
+### Hubble catches a giant 10-sided wave forming around Saturn’s south pole
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-04_solar-system_saturn-south-pole-decagon/
+- Published: 2026-09-04
+- Topics: Solar System & Planetary Science
+- Freshness context: Published in Science Advances on 2 September 2026, within the 15-day freshness window.
+- Summary: Hubble and ground-based observations have revealed a giant decagonal atmospheric wave around Saturn’s south pole, the first large regular-sided jet pattern ever seen in the planet’s southern hemisphere. Faint signs appear in data from 2023 and 2024, while the structure became much clearer in 2025, suggesting astronomers may be watching a huge planetary weather pattern develop in real time.
+- Why it matters: Saturn’s famous north-polar hexagon has persisted for decades, but this newly emerging southern decagon appears younger and more dynamic. Following it as it evolves could help scientists understand how giant atmospheric waves form, why Saturn produces polygon-shaped jet patterns, and whether such structures can become long-lived.
+- Suggested next question: Explore Saturn’s north-polar hexagon and why a jet stream can organize into a stable geometric wave instead of a simple circular band.
+- Explore further: [Science Advances: A decagon wave around Saturn’s south pole](https://doi.org/10.1126/sciadv.aee4251)
+- Sources:
+  - [Science Advances](https://doi.org/10.1126/sciadv.aee4251)
+  - [NASA Hubble](https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/)
+  - [University of Leicester](https://le.ac.uk/news/2026/august/observations-mysterious-shape-saturn-clouds)
+
+### JWST finds hidden low-mass stars that may make early massive galaxies up to four times heavier
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-03_galaxy-evolution_hidden-mass-early-galaxies/
+- Published: 2026-09-03
+- Topics: Galaxies & Galactic Evolution; Stars & Stellar Evolution
+- Freshness context: Published in Nature Astronomy on 21 August 2026, within the 15-day freshness window.
+- Summary: Using JWST spectra of nine massive, quiescent galaxies, astronomers found evidence that the most massive systems contain many more faint, low-mass stars than standard assumptions predict. If similar stellar populations were already present in their earlier ancestors, some of JWST’s surprisingly mature early galaxies could be about four times more massive than current estimates suggest, making their rapid formation even harder to explain.
+- Why it matters: Astronomers estimate distant galaxy masses by assuming a typical mix of stellar masses, but this result suggests that assumption may fail for the biggest systems. If so, models of how galaxies assembled so much stellar mass so early in cosmic history face an even tougher challenge.
+- Suggested next question: Explore the initial mass function: the distribution of stellar birth masses that astronomers use to convert a galaxy’s light into an estimate of its total stellar mass.
+- Explore further: [Nature Astronomy: Hidden mass in early galaxies revealed by bottom-heavy initial mass functions](https://doi.org/10.1038/s41550-026-02932-4)
+- Sources:
+  - [Nature Astronomy](https://doi.org/10.1038/s41550-026-02932-4)
+  - [Penn State](https://pure.psu.edu/en/publications/hidden-mass-in-early-galaxies-revealed-by-bottom-heavy-initial-ma/)
+
+### JWST shows planet formation is a race against disappearing gas
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-02_planet-formation_jwst-disk-winds/
+- Published: 2026-09-02
+- Topics: Planet Formation
+- Freshness context: Published online in The Astronomical Journal on 25 August 2026, within the 15-day freshness window.
+- Summary: Using archival observations from JWST's Mid-Infrared Instrument, astronomers studied 72 young, mostly Sun-like stars to see how gas escapes from their planet-forming disks. They found that early, actively accreting systems are dominated by magnetically driven jets and molecular-plus-atomic winds, while older, lower-accretion systems increasingly show mainly atomic winds, including photoevaporative flows heated by stellar radiation. Extended gas emission was detected in 66 of the 72 disks, including conical molecular-hydrogen winds in 46 systems and fast neon jets in 40. Together, the sample turns individual snapshots into an evolutionary sequence and shows that the raw gas needed to build giant planets is being steadily removed as planetary systems mature.
+- Why it matters: Giant planets such as Jupiter need large amounts of gas, but that reservoir does not remain available indefinitely. By showing how the dominant gas-loss mechanisms change with age across dozens of systems, this study gives astronomers a clearer physical clock for planet formation and helps constrain when gas giants must assemble their atmospheres before the disk is dispersed.
+- Suggested next question: Explore photoevaporation: how ultraviolet and X-ray radiation from a young star can heat a protoplanetary disk until its gas escapes into space.
+- Explore further: [SETI Institute: JWST Reveals a Race Against Time for Forming Planets](https://www.seti.org/news/jwst-reveals-a-race-against-time/)
+- Sources:
+  - [SETI Institute](https://www.seti.org/news/jwst-reveals-a-race-against-time/)
+  - [The Astronomical Journal / DOI](https://doi.org/10.3847/1538-3881/ae9089)
+
+### JWST may have found a new kind of object: a black hole wrapped in a star-like cocoon
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-01_cosmic-dawn_black-hole-star-mom-bh-1/
+- Published: 2026-09-01
+- Topics: Black Holes; Cosmology & Early Universe
+- Freshness context: Published in Nature on 12 August 2026. The freshness window was expanded from 15 to 30 days because this peer-reviewed result was substantially stronger and more distinct than fresher mission or gallery items.
+- Summary: Using the James Webb Space Telescope, astronomers identified an exceptionally red source called MoM-BH*-1 seen about 660 million years after the Big Bang. Its spectrum shows an unusually deep Balmer break and broad hydrogen features that the team models as an actively accreting black hole buried inside an extremely dense, turbulent, dust-free envelope of gas. In the researchers' best-fitting interpretation, the central black hole is about 100,000 times the Sun's mass and the surrounding gas cocoon is roughly the size of the Solar System, so the object looks star-like even though its power source is a black hole rather than nuclear fusion. The authors argue that this configuration could help explain the mysterious 'little red dots' seen by JWST and may reveal a phase in which early black holes grew unusually rapidly.
+- Why it matters: Supermassive black holes already existed surprisingly early in cosmic history, and astronomers still do not fully understand how they grew so quickly. MoM-BH*-1 offers direct observational evidence for a long-theorized possibility: a young black hole embedded in very dense gas, potentially allowing rapid growth while also making the object appear dramatically different from a conventional accreting black hole. If similar objects turn out to be common among JWST's little red dots, astronomers may need to revise how they estimate early black-hole masses and how they reconstruct the first stages of galaxy growth.
+- Suggested next question: Explore JWST's 'little red dots' and why their strange spectra have become one of the biggest clues to how the first massive black holes formed.
+- Explore further: [Nature: A gas-enshrouded and gas-reddened black hole at cosmic dawn](https://www.nature.com/articles/s41586-026-10846-4)
+- Sources:
+  - [Nature](https://www.nature.com/articles/s41586-026-10846-4)
+  - [MIT News](https://news.mit.edu/2026/astronomers-discover-brand-new-type-astrophysical-object-black-hole-star-0812)
+
+### Roman launches to map the dark universe and hunt thousands of exoplanets
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-08-31_space-observatory_roman-launches-to-map-the-dark-universe/
+- Published: 2026-08-31
+- Topics: Telescopes & Observatories; Cosmology & Early Universe; Exoplanets
+- Freshness context: NASA announced Roman's successful launch on 30 August 2026, selected within the 15-day freshness window.
+- Summary: NASA's Nancy Grace Roman Space Telescope launched successfully on 30 August 2026 and is now traveling toward the Sun-Earth L2 point, about 1.5 million kilometres from Earth. Roman will combine infrared sensitivity and image sharpness comparable to Hubble with a field of view roughly 100 times larger, allowing it to survey enormous areas of the sky far more quickly. Its main science goals include measuring how dark energy has influenced cosmic expansion, mapping dark matter through gravitational lensing, and discovering thousands of exoplanets. NASA says the observatory will spend roughly three months traveling and commissioning before science operations begin, with first public images expected in early 2027.
+- Why it matters: Roman is designed to turn questions about dark energy, dark matter, and exoplanet populations into survey-scale measurements, giving astronomers statistical samples far larger than Hubble or Webb can efficiently produce over the same sky area.
+- Suggested next question: Explore how gravitational microlensing will let Roman find planets that are difficult to detect with the transit method, including worlds on wide orbits and possibly free-floating planets.
+- Explore further: [NASA: Roman Space Telescope launches](https://www.nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches/)
+- Sources:
+  - [NASA](https://www.nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches/)
+  - [NASA JPL](https://www.jpl.nasa.gov/news/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches/)
+
+### Earth may have repeatedly slipped outside the Sun’s protective bubble
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/earth-heliosphere/
+- Published: 2026-08-30
+- Topics: Sun & Space Weather; Astrobiology & Habitability
+- Freshness context: Research highlighted by NASA on 24 August 2026, with the underlying heliosphere review published in the August 2026 volume of Annual Review of Astronomy and Astrophysics.
+- Summary: NASA-funded researchers reconstructed the Sun’s recent journey through the Milky Way and found that it likely encountered dense interstellar cold clouds at least three times in the past 14 million years. During these encounters, surrounding gas may have compressed the heliosphere — the bubble carved out by the solar wind that normally shields the planets — to smaller than Earth’s orbit, temporarily leaving Earth directly exposed to the interstellar environment. The modeled encounters line up with unusual isotopes found in deep-sea sediments, Antarctic material, and lunar samples, and could have altered atmospheric chemistry, radiation exposure, and perhaps ancient climate.
+- Why it matters: Earth’s long-term environment is influenced not only by its orbit and the Sun’s activity, but also by the Sun’s motion through the Galaxy. That adds an external variable to questions about planetary climate, radiation, habitability, and potentially the evolution of life.
+- Suggested next question: Look into the heliosphere and how its size changes as the Solar System moves through different regions of the interstellar medium.
+- Explore further: [NASA’s Starstruck research feature](https://science.nasa.gov/solar-system/starstruck-nasa-research-shows-how-suns-ancient-history-shaped-earth/)
+- Sources:
+  - [NASA Science](https://science.nasa.gov/solar-system/starstruck-nasa-research-shows-how-suns-ancient-history-shaped-earth/)
+  - [Annual Reviews](https://www.annualreviews.org/content/journals/10.1146/annurev-astro-120425-053711)
+
+### Hubble uncovers the Milky Way’s earliest confirmed major merger
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/milky-way-earliest-major-merger/
+- Published: 2026-08-29
+- Topics: Galaxies & Galactic Evolution
+- Freshness context: Published by NASA Hubble on 17 August 2026 and selected within the 15-day freshness window.
+- Summary: Hubble observations have helped identify the Milky Way’s earliest confirmed major merger, involving the Low-energy-Kraken-Heracles system. The finding shows that accreted stars from external galaxies were already important during the Galaxy’s earliest growth.
+- Why it matters: The finding pushes the Milky Way’s confirmed merger history about 1.8 billion years farther back and shows that accreted stars from external galaxies were already important during the Galaxy’s earliest growth.
+- Suggested next question: Explore how globular clusters and their stellar populations preserve evidence of the Milky Way’s early assembly history.
+- Explore further: [NASA Hubble: the Milky Way’s early merger](https://science.nasa.gov/missions/hubble/hubble-solves-merger-mystery-from-milky-ways-early-years/)
+- Sources:
+  - [NASA Hubble](https://science.nasa.gov/missions/hubble/hubble-solves-merger-mystery-from-milky-ways-early-years/)
+
+### S301: the fastest known star in the Milky Way may reveal Sagittarius A*’s spin
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/s301-sagittarius-a-star-spin/
+- Published: 2026-08-28
+- Topics: Black Holes; Gravity & Fundamental Physics
+- Freshness context: Published by ESO on 19 August 2026 and selected within the 15-day freshness window.
+- Summary: S301 is the fastest known star in the Milky Way and passes exceptionally close to Sagittarius A*, the supermassive black hole at the Galactic Centre. Its orbit may be measurably altered by relativistic effects caused by the black hole’s rotation, offering astronomers a new way to probe that spin.
+- Why it matters: S301 passes so close to Sagittarius A* that relativistic effects from the black hole’s rotation should measurably alter its orbit, creating a practical new test of strong-field gravity.
+- Suggested next question: Explore how the GRAVITY instrument on the Very Large Telescope Interferometer measures stellar orbits near the Galactic Centre.
+- Explore further: [ESO: S301 and Sagittarius A*](https://eso.org/public/news/eso2612/)
+- Sources:
+  - [ESO](https://eso.org/public/news/eso2612/)
+
+## Maintenance note
+
+This file is generated automatically from the site's published JSON note collection whenever the local development server or production build starts. Adding, removing, or updating a note therefore updates this catalogue without requiring a separate manual edit.
+

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ojaashampiholi.github.io/the-cosmic-notebook/sitemap-index.xml
