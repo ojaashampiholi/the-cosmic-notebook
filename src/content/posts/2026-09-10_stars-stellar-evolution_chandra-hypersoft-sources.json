@@ -1,0 +1,23 @@
+{
+  "title": "Astronomers found a hidden class of some of the most energetic objects in galaxies",
+  "topic": "Stars & Stellar Evolution",
+  "date": "2026-09-10",
+  "freshness": "Published in Nature Astronomy on 9 September 2026, within the 15-day freshness window.",
+  "excerpt": "Astronomers searching old observations from NASA’s Chandra X-ray Observatory found 84 objects in six galaxies that had largely escaped notice because most of their energy comes out in a difficult-to-observe form of ultraviolet light. Scientists do not yet know exactly what they are, but they may be systems where a dense stellar remnant — such as a white dwarf, neutron star or black hole — is pulling material from a companion star.",
+  "whyItMatters": "These objects may fill in a missing part of our picture of how stars live and die. Some could be systems on the way to becoming Type Ia supernovae — stellar explosions that astronomers use to measure the expansion of the Universe — while their intense ultraviolet light may also help explain how gas between stars is energized inside galaxies.",
+  "exploreFurther": {
+    "label": "Nature Astronomy: Hypersoft X-ray sources as a low-energy class of luminous cosmic emitter",
+    "url": "https://www.nature.com/articles/s41550-026-02959-7"
+  },
+  "whatToExploreNext": "Explore how a white dwarf can pull material from a companion star and eventually trigger a Type Ia supernova.",
+  "sources": [
+    {
+      "label": "Nature Astronomy",
+      "url": "https://www.nature.com/articles/s41550-026-02959-7"
+    },
+    {
+      "label": "NASA Chandra X-ray Observatory",
+      "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-unveils-mysterious-x-ray-objects/"
+    }
+  ]
+}
