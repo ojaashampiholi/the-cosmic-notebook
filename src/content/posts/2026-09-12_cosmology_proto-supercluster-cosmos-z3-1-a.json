@@ -1,0 +1,27 @@
+{
+  "title": "Astronomers caught one of the Universe’s largest structures still being built",
+  "topic": "Cosmology & Early Universe",
+  "date": "2026-09-12",
+  "freshness": "Published in The Astrophysical Journal on 8 September 2026, within the 15-day freshness window.",
+  "excerpt": "Astronomers have mapped an enormous young structure called COSMOS-z3.1-A, seen when the Universe was only a few billion years old. It contains many dense groups of galaxies that are still coming together and is the earliest, most distant proto-supercluster yet identified.",
+  "whyItMatters": "It gives astronomers a rare look at how the Universe built its largest structures from smaller pieces. Instead of seeing a finished supercluster, we are seeing the construction process itself, which helps test our ideas about how gravity shaped the cosmic web over billions of years.",
+  "exploreFurther": {
+    "label": "NSF NOIRLab: Extremely massive galaxy proto-supercluster smashes distance records",
+    "url": "https://noirlab.edu/public/news/noirlab2622/"
+  },
+  "whatToExploreNext": "Explore the cosmic web and how small groups of galaxies gradually grow into clusters and superclusters.",
+  "sources": [
+    {
+      "label": "NSF NOIRLab",
+      "url": "https://noirlab.edu/public/news/noirlab2622/"
+    },
+    {
+      "label": "Rutgers University",
+      "url": "https://newbrunswick.rutgers.edu/news/scientists-see-one-universes-largest-structures-taking-shape"
+    },
+    {
+      "label": "The Astrophysical Journal",
+      "url": "https://doi.org/10.3847/1538-4357/ae8091"
+    }
+  ]
+}
