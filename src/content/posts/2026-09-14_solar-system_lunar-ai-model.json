@@ -1,0 +1,23 @@
+{
+  "title": "NASA and IBM built an AI map-reader for the Moon",
+  "topic": "Solar System & Planetary Science",
+  "date": "2026-09-14",
+  "freshness": "NASA announced the open-source Lunar Foundation Model on 10 September 2026, within the 15-day freshness window.",
+  "excerpt": "NASA and IBM have released an AI model trained on years of Moon observations so researchers can find useful patterns across enormous lunar datasets more quickly. It can help map craters, identify unusual volcanic features, and estimate where ice may be stable near the lunar poles.",
+  "whyItMatters": "The Moon has already been observed in extraordinary detail, but there is far more data than scientists can inspect by hand. A tool that can connect clues across different maps could make it easier to reconstruct the Moon’s history and identify promising places for future exploration.",
+  "exploreFurther": {
+    "label": "NASA: NASA, IBM Launch AI Foundation Model for Lunar Science",
+    "url": "https://science.nasa.gov/science-research/artificial-intelligence-lunar-foundation-model/"
+  },
+  "whatToExploreNext": "Explore why permanently shadowed craters near the Moon’s poles can preserve ice for billions of years.",
+  "sources": [
+    {
+      "label": "NASA Science",
+      "url": "https://science.nasa.gov/science-research/artificial-intelligence-lunar-foundation-model/"
+    },
+    {
+      "label": "IBM Research",
+      "url": "https://newsroom.ibm.com/2026-09-10-ibm-and-nasa-release-open-source-ai-model-to-support-lunar-exploration"
+    }
+  ]
+}
