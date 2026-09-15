@@ -1,0 +1,27 @@
+{
+  "title": "Growing black holes may help create stars as well as shut star formation down",
+  "topic": "Black Holes",
+  "date": "2026-09-15",
+  "freshness": "Published in The Astrophysical Journal and announced by the Center for Astrophysics on September 14, 2026, within the 15-day freshness window.",
+  "excerpt": "Astronomers studied nine nearby galaxies and found the same striking pattern around their actively feeding central black holes: rings of new stars alongside regions of disturbed gas. The result suggests black holes may sometimes help compress gas into new stars, rather than only heating or blowing star-forming material away.",
+  "whyItMatters": "Black holes are usually pictured as destroyers that heat or blow away the gas needed to make stars. Finding the same pattern of star-forming rings, black-hole radiation and shocked gas across nine galaxies suggests their influence can be more complicated: in some places, the same activity that disrupts gas may also help compress it into new stars.",
+  "exploreFurther": {
+    "label": "Center for Astrophysics: New study reveals common pattern of black hole activity shaping nearby galaxies",
+    "url": "https://www.cfa.harvard.edu/index.php/news/new-study-reveals-common-pattern-black-hole-activity-shaping-nearby-galaxies"
+  },
+  "whatToExploreNext": "Explore black-hole feedback: the ways energy released around a feeding black hole can either suppress or encourage star formation in its galaxy.",
+  "sources": [
+    {
+      "label": "Center for Astrophysics | Harvard & Smithsonian",
+      "url": "https://www.cfa.harvard.edu/index.php/news/new-study-reveals-common-pattern-black-hole-activity-shaping-nearby-galaxies"
+    },
+    {
+      "label": "The Astrophysical Journal",
+      "url": "https://doi.org/10.3847/1538-4357/ae9956"
+    },
+    {
+      "label": "scinexx",
+      "url": "https://www.scinexx.de/news/kosmos/schwarze-loecher-koennten-sternbildung-mit-anstossen/"
+    }
+  ]
+}
