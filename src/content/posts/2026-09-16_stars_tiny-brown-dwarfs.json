@@ -1,0 +1,23 @@
+{
+  "title": "Webb finds objects barely heavier than Jupiter that formed like stars",
+  "topic": "Stars & Stellar Evolution",
+  "date": "2026-09-16",
+  "freshness": "Published on 15 September 2026, within the 15-day freshness window.",
+  "excerpt": "Webb has found brown dwarfs, objects that form from collapsing clouds like stars but never become full stars, with masses as low as about twice Jupiter's. These are the least massive brown dwarfs known and are smaller than current star-formation models expected.",
+  "whyItMatters": "Brown dwarfs form from collapsing clouds like stars, but these new examples are only about twice Jupiter's mass, much smaller than star-formation models expected. That means nature can build star-like objects at surprisingly tiny scales, blurring our picture of where star formation ends and planet formation begins.",
+  "exploreFurther": {
+    "label": "NASA Science: Webb Reveals Dynamic Panorama of Star Formation",
+    "url": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/"
+  },
+  "whatToExploreNext": "Explore brown dwarfs and why astronomers use them to investigate the fuzzy boundary between stars and giant planets.",
+  "sources": [
+    {
+      "label": "NASA Science",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/"
+    },
+    {
+      "label": "ESA Webb",
+      "url": "https://esawebb.org/news/weic2619/"
+    }
+  ]
+}
