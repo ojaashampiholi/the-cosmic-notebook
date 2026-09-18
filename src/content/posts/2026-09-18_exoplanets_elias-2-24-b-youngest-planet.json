@@ -1,0 +1,23 @@
+{
+  "title": "Astronomers confirmed the youngest known planet — and it is still being born",
+  "topic": "Exoplanets / Planet Formation",
+  "date": "2026-09-18",
+  "freshness": "Published September 16, 2026 — within the preferred 15-day freshness window.",
+  "excerpt": "Astronomers have confirmed Elias 2-24 b, a Jupiter-mass world less than a million years old — the youngest known planet. It is still growing inside the disk of gas and dust around its young star, letting us see planet formation while it is actually happening.",
+  "whyItMatters": "The previous youngest known planets were already more than five million years old, and existing models struggled to explain how giant planets could form even that quickly. Elias 2-24 b shows that Jupiter-like worlds can assemble much earlier than expected, meaning an important part of our planet-formation story is still missing.",
+  "exploreFurther": {
+    "label": "NASA Science — Newfound ‘Baby’ Planet Smashes Record for Youngest Known World",
+    "url": "https://science.nasa.gov/universe/newfound-baby-planet-smashes-record-for-youngest-known-world/"
+  },
+  "whatToExploreNext": "How giant planets grow inside protoplanetary disks — and why gaps in those disks can reveal planets that are still forming.",
+  "sources": [
+    {
+      "label": "NASA Science — Newfound ‘Baby’ Planet Smashes Record for Youngest Known World",
+      "url": "https://science.nasa.gov/universe/newfound-baby-planet-smashes-record-for-youngest-known-world/"
+    },
+    {
+      "label": "The Astrophysical Journal Letters — study published September 16, 2026",
+      "url": "https://iopscience.iop.org/journal/2041-8205"
+    }
+  ]
+}
