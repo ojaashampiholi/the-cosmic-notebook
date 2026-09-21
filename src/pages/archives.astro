@@ -2,6 +2,8 @@
 import { getCollection } from "astro:content";
 import NoteLinks from "../components/NoteLinks.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { parseTopics } from "../lib/posts.ts";
+import { postHref } from "../lib/site.ts";
 
 const allPosts = (await getCollection("posts")).sort(
   (first, second) => second.data.date.getTime() - first.data.date.getTime()
@@ -35,34 +37,12 @@ const topicCounts = new Map(
   ])
 );
 
-const buildDate = new Intl.DateTimeFormat("en-GB", {
-  day: "numeric",
-  month: "long",
-  year: "numeric",
-  timeZone: "Asia/Kolkata",
-}).format(new Date());
-
-const buildTime = new Intl.DateTimeFormat("en-IN", {
-  hour: "numeric",
-  minute: "2-digit",
-  hour12: true,
-  timeZone: "Asia/Kolkata",
-  timeZoneName: "short",
-}).format(new Date());
-
 function formatDate(date: Date) {
   return date.toLocaleDateString("en-GB", {
     day: "numeric",
     month: "long",
     year: "numeric",
   });
-}
-
-function getTopics(topic: string) {
-  return topic
-    .split("/")
-    .map((item) => item.trim())
-    .filter(Boolean);
 }
 
 function getPaperDetails(title: string, index: number) {
@@ -84,47 +64,10 @@ function getPaperDetails(title: string, index: number) {
 ---
 
 <BaseLayout
+  wide
   title="Archive | The Cosmic Notebook"
   description="Browse earlier source-linked astronomy, physics, planetary science, cosmology, and space-mission notes from The Cosmic Notebook."
 >
-  <header class="site-header">
-    <div class="header-sky" aria-hidden="true">
-      <span class="header-orb header-orb-one"></span>
-      <span class="header-orb header-orb-two"></span>
-      <span class="header-star header-star-one">✦</span>
-      <span class="header-star header-star-two">✧</span>
-      <span class="header-star header-star-three">✦</span>
-      <span class="header-star header-star-four">·</span>
-    </div>
-
-    <a class="site-brand" href={import.meta.env.BASE_URL}>Orbital Notes</a>
-
-    <nav class="site-nav" aria-label="Site navigation">
-      <a href={import.meta.env.BASE_URL}>Latest notes</a>
-      <a
-        href="https://www.linkedin.com/in/ojaashampiholi/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        LinkedIn
-      </a>
-      <a
-        href="https://medium.com/@ojaashampiholi"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Medium
-      </a>
-      <a
-        href="https://substack.com/@ojaashampiholi"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Substack
-      </a>
-    </nav>
-  </header>
-
   <p class="eyebrow">The archive</p>
   <h1>Earlier discoveries</h1>
 
@@ -172,8 +115,7 @@ function getPaperDetails(title: string, index: number) {
     <ul class="archive">
       {
         archivePosts.map((post, index) => {
-          const primarySource = post.data.sources[0];
-          const postTopics = getTopics(post.data.topic);
+          const postTopics = parseTopics(post.data.topic);
           const paperDetails = getPaperDetails(post.data.title, index);
           const isInitiallyHidden = index >= pageSize;
           const isInitialFinalTwo =
@@ -209,20 +151,7 @@ function getPaperDetails(title: string, index: number) {
                 </div>
 
                 <h2>
-                  {
-                    primarySource ? (
-                      <a
-                        href={primarySource.url}
-                        target="_blank"
-                        rel="noreferrer"
-                        title={`Open source: ${primarySource.label}`}
-                      >
-                        {post.data.title}
-                      </a>
-                    ) : (
-                      post.data.title
-                    )
-                  }
+                  <a href={postHref(post.id)}>{post.data.title}</a>
                 </h2>
 
                 <p class="eyebrow">Published</p>
@@ -237,6 +166,8 @@ function getPaperDetails(title: string, index: number) {
                 <p class="eyebrow">Why it matters</p>
                 <p class="card-value">{post.data.whyItMatters}</p>
 
+                <NoteLinks post={post} />
+
                 <p class="eyebrow">Sources</p>
 
                 <ul class="source-list">
@@ -250,8 +181,6 @@ function getPaperDetails(title: string, index: number) {
                     ))
                   }
                 </ul>
-
-                <NoteLinks post={post} />
               </div>
             </li>
           );
@@ -269,25 +198,6 @@ function getPaperDetails(title: string, index: number) {
       aria-label="Archive pages"
     ></nav>
   </section>
-
-  <footer class="site-footer">
-    <div class="footer-sky" aria-hidden="true">
-      <span class="footer-orb"></span>
-      <span class="footer-star footer-star-one">✦</span>
-      <span class="footer-star footer-star-two">✧</span>
-      <span class="footer-star footer-star-three">·</span>
-    </div>
-
-    <div class="footer-line">
-      <span>Maintained by Ojaas Hampiholi</span>
-      <span class="footer-divider" aria-hidden="true">·</span>
-      <span>Open access astronomy and physics notes</span>
-    </div>
-
-    <p class="last-updated">
-      Updated {buildDate} · {buildTime}
-    </p>
-  </footer>
 </BaseLayout>
 
 <script>

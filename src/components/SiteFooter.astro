@@ -1,0 +1,156 @@
+---
+import { SITE_AUTHOR } from "../lib/site.ts";
+
+const buildDate = new Intl.DateTimeFormat("en-GB", {
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+  timeZone: "Asia/Kolkata",
+}).format(new Date());
+
+const buildTime = new Intl.DateTimeFormat("en-IN", {
+  hour: "numeric",
+  minute: "2-digit",
+  hour12: true,
+  timeZone: "Asia/Kolkata",
+  timeZoneName: "short",
+}).format(new Date());
+---
+
+<footer class="site-footer">
+  <div class="footer-sky" aria-hidden="true">
+    <span class="footer-orb"></span>
+    <span class="footer-star footer-star-one">✦</span>
+    <span class="footer-star footer-star-two">✧</span>
+    <span class="footer-star footer-star-three">·</span>
+  </div>
+
+  <div class="footer-line">
+    <span>Maintained by {SITE_AUTHOR}</span>
+    <span class="footer-divider" aria-hidden="true">·</span>
+    <span>Open access astronomy and physics notes</span>
+  </div>
+
+  <p class="last-updated">
+    Updated {buildDate} · {buildTime}
+  </p>
+</footer>
+
+<style>
+  .site-footer {
+    position: relative;
+    margin-top: 56px;
+    padding: 34px 0 0;
+    overflow: hidden;
+    border-top: 1px solid rgba(179, 194, 232, 0.16);
+    text-align: center;
+  }
+
+  .footer-sky {
+    position: absolute;
+    z-index: 0;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  .footer-line,
+  .last-updated {
+    position: relative;
+    z-index: 1;
+  }
+
+  .footer-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.35rem;
+    color: #aeb8cc;
+    font: 0.84rem/1.6 Arial, sans-serif;
+  }
+
+  .footer-divider {
+    color: #63708d;
+  }
+
+  .last-updated {
+    margin: 5px 0 0;
+    color: #7f8ba5;
+    font: 0.76rem/1.5 Arial, sans-serif;
+  }
+
+  .footer-orb {
+    position: absolute;
+    right: 10%;
+    bottom: -38px;
+    display: block;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    background:
+      radial-gradient(
+        circle at 31% 28%,
+        #d9e2ff 0 4%,
+        #7684cf 25%,
+        #334078 62%,
+        #12172e 100%
+      );
+    box-shadow:
+      inset -9px -7px 13px rgba(2, 5, 12, 0.45),
+      0 0 28px rgba(140, 157, 255, 0.2);
+    opacity: 0.6;
+  }
+
+  .footer-star {
+    position: absolute;
+    color: #e8edff;
+    text-shadow: 0 0 14px rgba(202, 214, 255, 0.82);
+    transform-origin: center;
+    animation: bright-star-twinkle 2.8s ease-in-out infinite alternate;
+  }
+
+  .footer-star-one {
+    bottom: 14px;
+    left: 17%;
+    font-size: 0.92rem;
+  }
+
+  .footer-star-two {
+    top: 5px;
+    right: 22%;
+    color: #f1d4ae;
+    font-size: 0.76rem;
+    animation-delay: 900ms;
+  }
+
+  .footer-star-three {
+    right: 35%;
+    bottom: 8px;
+    color: #b8c8ff;
+    font-size: 1.25rem;
+    animation-delay: 1.4s;
+  }
+
+  @keyframes bright-star-twinkle {
+    from {
+      opacity: 0.35;
+      transform: scale(0.82);
+    }
+
+    to {
+      opacity: 1;
+      transform: scale(1.13);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .footer-star-three {
+      display: none;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .footer-star {
+      animation: none;
+    }
+  }
+</style>

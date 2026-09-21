@@ -1,0 +1,251 @@
+---
+import { SITE_LINKS, SITE_NAME, withBase } from "../lib/site.ts";
+
+const currentPath = Astro.url.pathname.replace(/\/?$/, "/");
+
+const homeHref = withBase();
+const archiveHref = withBase("archives/");
+const aboutHref = withBase("about/");
+
+function isCurrent(href: string, prefix = false) {
+  const target = href.replace(/\/?$/, "/");
+
+  if (prefix) {
+    return currentPath.startsWith(target);
+  }
+
+  return currentPath === target;
+}
+---
+
+<header class="site-header">
+  <div class="header-sky" aria-hidden="true">
+    <span class="header-orb header-orb-one"></span>
+    <span class="header-orb header-orb-two"></span>
+    <span class="header-star header-star-one">✦</span>
+    <span class="header-star header-star-two">✧</span>
+    <span class="header-star header-star-three">✦</span>
+    <span class="header-star header-star-four">·</span>
+  </div>
+
+  <a class="site-brand" href={homeHref}>{SITE_NAME}</a>
+
+  <nav class="site-nav" aria-label="Site navigation">
+    <a
+      href={homeHref}
+      class:list={{ "is-active": isCurrent(homeHref) }}
+      aria-current={isCurrent(homeHref) ? "page" : undefined}
+    >
+      Latest notes
+    </a>
+    <a
+      href={archiveHref}
+      class:list={{ "is-active": isCurrent(archiveHref, true) }}
+      aria-current={isCurrent(archiveHref, true) ? "page" : undefined}
+    >
+      Archive
+    </a>
+    <a
+      href={aboutHref}
+      class:list={{ "is-active": isCurrent(aboutHref) }}
+      aria-current={isCurrent(aboutHref) ? "page" : undefined}
+    >
+      About
+    </a>
+    <a href={SITE_LINKS.linkedin} target="_blank" rel="noreferrer">
+      LinkedIn
+    </a>
+    <a href={SITE_LINKS.medium} target="_blank" rel="noreferrer">
+      Medium
+    </a>
+    <a href={SITE_LINKS.substack} target="_blank" rel="noreferrer">
+      Substack
+    </a>
+  </nav>
+</header>
+
+<style>
+  .site-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 72px;
+    padding: 24px 20px 20px;
+    overflow: hidden;
+    background:
+      linear-gradient(110deg, rgba(61, 78, 135, 0.26), transparent 52%),
+      rgba(12, 18, 33, 0.48);
+    border: 1px solid rgba(179, 194, 232, 0.16);
+    border-radius: 18px;
+  }
+
+  .header-sky {
+    position: absolute;
+    z-index: 0;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  .site-brand,
+  .site-nav {
+    position: relative;
+    z-index: 1;
+  }
+
+  .site-brand {
+    color: #f1f4fb;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    text-decoration: none;
+  }
+
+  .site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .site-nav a {
+    padding: 8px 12px;
+    color: #aebdff;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    font: 700 0.78rem/1 Arial, sans-serif;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    transition:
+      color 180ms ease,
+      background 180ms ease,
+      border-color 180ms ease;
+  }
+
+  .site-nav a:hover,
+  .site-nav a.is-active {
+    color: #f1f4fb;
+    background: rgba(174, 189, 255, 0.1);
+    border-color: rgba(174, 189, 255, 0.3);
+  }
+
+  .header-orb {
+    position: absolute;
+    display: block;
+    border-radius: 50%;
+    box-shadow:
+      inset -9px -7px 13px rgba(2, 5, 12, 0.45),
+      0 0 28px rgba(140, 157, 255, 0.2);
+  }
+
+  .header-orb-one {
+    top: -38px;
+    right: 26%;
+    width: 86px;
+    height: 86px;
+    background:
+      radial-gradient(
+        circle at 31% 28%,
+        #d5ddff 0 4%,
+        #7885c8 22%,
+        #313b75 62%,
+        #11172f 100%
+      );
+    opacity: 0.85;
+  }
+
+  .header-orb-two {
+    right: 7%;
+    bottom: -34px;
+    width: 62px;
+    height: 62px;
+    background:
+      radial-gradient(
+        circle at 32% 30%,
+        #ffd8ae 0 5%,
+        #c98262 26%,
+        #6a3d6d 64%,
+        #1a1834 100%
+      );
+    opacity: 0.78;
+  }
+
+  .header-star {
+    position: absolute;
+    color: #e8edff;
+    text-shadow: 0 0 14px rgba(202, 214, 255, 0.82);
+    transform-origin: center;
+    animation: bright-star-twinkle 2.8s ease-in-out infinite alternate;
+  }
+
+  .header-star-one {
+    top: 12px;
+    right: 16%;
+    font-size: 1.1rem;
+  }
+
+  .header-star-two {
+    top: 42px;
+    right: 4%;
+    color: #f1d4ae;
+    font-size: 0.8rem;
+    animation-delay: 800ms;
+  }
+
+  .header-star-three {
+    bottom: 13px;
+    left: 42%;
+    color: #b8c8ff;
+    font-size: 0.92rem;
+    animation-delay: 1.3s;
+  }
+
+  .header-star-four {
+    top: 19px;
+    left: 28%;
+    font-size: 1.5rem;
+    animation-delay: 450ms;
+  }
+
+  @keyframes bright-star-twinkle {
+    0% {
+      opacity: 0.35;
+      transform: scale(0.82);
+    }
+
+    100% {
+      opacity: 1;
+      transform: scale(1.13);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .site-header {
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 14px;
+      margin-bottom: 42px;
+    }
+
+    .header-orb-one {
+      right: -20px;
+    }
+
+    .header-orb-two {
+      right: 14%;
+      opacity: 0.45;
+    }
+
+    .header-star-four {
+      display: none;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .header-star {
+      animation: none;
+    }
+  }
+</style>
