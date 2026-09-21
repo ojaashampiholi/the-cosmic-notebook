@@ -76,6 +76,9 @@
           },
           "minItems": 1
         },
+        "body": {
+          "type": "string"
+        },
         "$schema": {
           "type": "string"
         }

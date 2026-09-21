@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import NoteLinks from "../components/NoteLinks.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 const allPosts = (await getCollection("posts")).sort(
@@ -249,6 +250,8 @@ function getPaperDetails(title: string, index: number) {
                     ))
                   }
                 </ul>
+
+                <NoteLinks post={post} />
               </div>
             </li>
           );

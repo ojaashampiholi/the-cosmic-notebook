@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://ojaashampiholi.github.io/the-cosmic-notebook/sitemap-index.xml
+
+# Answer-engine catalogue: https://ojaashampiholi.github.io/the-cosmic-notebook/llms.txt

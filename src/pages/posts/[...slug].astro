@@ -1,7 +1,14 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { markdownToPlain, renderMarkdown } from "../../lib/markdown.ts";
 import { topicVisual } from "../../lib/topic-visuals.ts";
+import {
+  SITE_AUTHOR,
+  SITE_CANONICAL_ORIGIN,
+  SITE_NAME,
+  withBase,
+} from "../../lib/site.ts";
 
 export async function getStaticPaths() {
   const posts = await getCollection("posts");
@@ -17,79 +24,269 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
+const hasBody = Boolean(post.data.body?.trim());
+const bodyHtml = hasBody ? renderMarkdown(post.data.body ?? "") : "";
 
 const formattedDate = post.data.date.toLocaleDateString("en-GB", {
   day: "numeric",
   month: "long",
   year: "numeric",
 });
+
+const publishedTime = post.data.date.toISOString();
+const pageTitle = `${post.data.title} | ${SITE_NAME}`;
+const socialImage = topicVisual(post.data.topic);
+const canonicalUrl = `${SITE_CANONICAL_ORIGIN}/posts/${post.id}/`;
+const articleBody = hasBody
+  ? markdownToPlain(post.data.body ?? "")
+  : `${post.data.excerpt}\n\n${post.data.whyItMatters}`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: post.data.title,
+  description: post.data.excerpt,
+  datePublished: publishedTime,
+  dateModified: publishedTime,
+  url: canonicalUrl,
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": canonicalUrl,
+  },
+  image: new URL(socialImage, Astro.site).href,
+  inLanguage: "en",
+  isAccessibleForFree: true,
+  articleSection: post.data.topic,
+  keywords: post.data.topic,
+  wordCount: articleBody.split(/\s+/).filter(Boolean).length,
+  author: {
+    "@type": "Person",
+    name: SITE_AUTHOR,
+    url: `${SITE_CANONICAL_ORIGIN}/about/`,
+  },
+  publisher: {
+    "@type": "Organization",
+    name: SITE_NAME,
+    url: `${SITE_CANONICAL_ORIGIN}/`,
+  },
+  citation: post.data.sources.map((source) => ({
+    "@type": "CreativeWork",
+    name: source.label,
+    url: source.url,
+  })),
+  articleBody,
+};
 ---
 
 <BaseLayout
-  title={`${post.data.title} | Orbital Notes`}
+  title={pageTitle}
   description={post.data.excerpt}
-  image={topicVisual(post.data.topic)}
+  image={socialImage}
   type="article"
+  publishedTime={publishedTime}
+  section={post.data.topic}
+  jsonLd={jsonLd}
 >
-  <p class="back">
-    <a href={import.meta.env.BASE_URL}>← All notes</a>
-  </p>
-
-  <header>
-    <p class="eyebrow">{post.data.topic}</p>
-
-    <h1>{post.data.title}</h1>
-
-    <div class="meta">
-      <p>
-        <strong>Published:</strong>
-        {formattedDate}
+  <article class="note-page" itemscope itemtype="https://schema.org/BlogPosting">
+    <header class="note-header">
+      <p class="note-nav">
+        <a href={withBase()}>{SITE_NAME}</a>
+        <span aria-hidden="true">·</span>
+        <a href={withBase()}>All notes</a>
       </p>
 
+      <p class="eyebrow">{post.data.topic}</p>
+
+      <h1 itemprop="headline">{post.data.title}</h1>
+
+      <div class="meta">
+        <p>
+          <strong>Published:</strong>
+          <time datetime={publishedTime} itemprop="datePublished">
+            {formattedDate}
+          </time>
+        </p>
+
+        <p>
+          <strong>Topic:</strong>
+          {post.data.topic}
+        </p>
+
+        <p>
+          <strong>Freshness:</strong>
+          {post.data.freshness}
+        </p>
+      </div>
+    </header>
+
+    {
+      hasBody ? (
+        <>
+          <p class="note-lede">{post.data.excerpt}</p>
+
+          <div class="note-body" set:html={bodyHtml} />
+        </>
+      ) : (
+        <p class="note-lede">{post.data.excerpt}</p>
+      )
+    }
+
+    <section class="note-aside" aria-label="Why this note matters">
+      <h2>Why it matters</h2>
+      <p>{post.data.whyItMatters}</p>
+
+      <h2>Explore further</h2>
       <p>
-        <strong>Topic:</strong>
-        {post.data.topic}
+        <a
+          href={post.data.exploreFurther.url}
+          target="_blank"
+          rel="noreferrer"
+        >
+          {post.data.exploreFurther.label}
+        </a>
       </p>
 
-      <p>
-        <strong>Freshness:</strong>
-        {post.data.freshness}
-      </p>
-    </div>
-  </header>
+      <h2>What to explore next</h2>
+      <p>{post.data.whatToExploreNext}</p>
 
-  <article>
-    <p>{post.data.excerpt}</p>
+      <h2>Sources</h2>
 
-    <h2>Why it matters</h2>
-    <p>{post.data.whyItMatters}</p>
-
-    <h2>Explore further</h2>
-    <p>
-      <a
-        href={post.data.exploreFurther.url}
-        target="_blank"
-        rel="noreferrer"
-      >
-        {post.data.exploreFurther.label}
-      </a>
-    </p>
-
-    <h2>What to explore next</h2>
-    <p>{post.data.whatToExploreNext}</p>
-
-    <h2>Sources</h2>
-
-    <ul class="source-list">
-      {
-        post.data.sources.map((source) => (
-          <li>
-            <a href={source.url} target="_blank" rel="noreferrer">
-              {source.label}
-            </a>
-          </li>
-        ))
-      }
-    </ul>
+      <ul class="note-sources">
+        {
+          post.data.sources.map((source) => (
+            <li>
+              <a href={source.url} target="_blank" rel="noreferrer">
+                {source.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
   </article>
 </BaseLayout>
+
+<style>
+  .note-page {
+    max-width: 42rem;
+  }
+
+  .note-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin: 0 0 28px;
+    color: #8f9bb7;
+    font: 700 0.88rem/1.5 Arial, sans-serif;
+  }
+
+  .note-nav a {
+    color: #c7d1ff;
+    text-decoration: none;
+  }
+
+  .note-nav a:hover {
+    text-decoration: underline;
+  }
+
+  .note-header h1 {
+    margin: 16px 0 24px;
+    font-size: clamp(2.05rem, 5.4vw, 3.35rem);
+    line-height: 1.08;
+  }
+
+  .note-lede {
+    margin: 28px 0 0;
+    color: #d7deec;
+    font-size: 1.22rem;
+    line-height: 1.7;
+  }
+
+  .note-body {
+    margin-top: 8px;
+  }
+
+  .note-body :global(h2),
+  .note-aside h2 {
+    margin: 2.35rem 0 0.8rem;
+    color: #f1f4fb;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.38rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.28;
+    text-transform: none;
+  }
+
+  .note-body :global(h3) {
+    margin: 1.8rem 0 0.7rem;
+    color: #e8edff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.16rem;
+    letter-spacing: -0.02em;
+    text-transform: none;
+  }
+
+  .note-body :global(p),
+  .note-aside p {
+    margin: 0 0 1.15rem;
+    color: #c5cddd;
+    font-size: 1.125rem;
+    line-height: 1.8;
+  }
+
+  .note-body :global(em),
+  .note-body :global(i) {
+    color: #dce3f3;
+  }
+
+  .note-body :global(ul),
+  .note-body :global(ol) {
+    margin: 0 0 1.2rem;
+    padding-left: 1.3rem;
+    color: #c5cddd;
+  }
+
+  .note-body :global(li) {
+    margin: 0 0 0.45rem;
+    font-size: 1.125rem;
+    line-height: 1.75;
+  }
+
+  .note-aside {
+    margin-top: 3.2rem;
+    padding-top: 0.4rem;
+    border-top: 1px solid rgba(179, 194, 232, 0.18);
+  }
+
+  .note-sources {
+    display: grid;
+    gap: 0.85rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .note-sources li {
+    padding: 12px 14px;
+    background: rgba(174, 189, 255, 0.06);
+    border: 1px solid rgba(174, 189, 255, 0.16);
+    border-radius: 12px;
+    font-size: 1.02rem;
+    line-height: 1.55;
+  }
+
+  .note-sources a {
+    color: #c7d1ff;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+
+  @media (max-width: 600px) {
+    .note-lede,
+    .note-body :global(p),
+    .note-aside p {
+      font-size: 1.08rem;
+    }
+  }
+</style>

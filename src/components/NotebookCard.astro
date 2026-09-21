@@ -1,4 +1,6 @@
 ---
+import NoteLinks from "./NoteLinks.astro";
+
 const {
   post,
   rank = 4,
@@ -108,6 +110,8 @@ const placement =
         )
       }
     </ul>
+
+    <NoteLinks post={post} />
   </div>
 </li>
 

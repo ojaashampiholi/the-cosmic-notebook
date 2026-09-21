@@ -1,23 +1,47 @@
 ---
+import {
+  SITE_AUTHOR,
+  SITE_CANONICAL_ORIGIN,
+  SITE_DESCRIPTION,
+  SITE_NAME,
+  withBase,
+} from "../lib/site.ts";
+
 const {
-  title = "The Cosmic Notebook | Astronomy and physics notes",
-  description = "Clear, source-backed notes on astronomy, astrophysics, physics, and space science.",
+  title = `${SITE_NAME} | Astronomy and physics notes`,
+  description = SITE_DESCRIPTION,
   image = "/the-cosmic-notebook/images/topic-previews/cosmic-notebook.png",
   type = "website",
   noindex = false,
+  publishedTime,
+  section,
+  jsonLd,
 } = Astro.props;
 
-const canonical = new URL(
-  Astro.url.pathname,
-  Astro.site
-);
+const pathname = Astro.url.pathname.endsWith("/")
+  ? Astro.url.pathname
+  : `${Astro.url.pathname}/`;
 
-const socialImage = new URL(
-  image,
-  Astro.site
-);
+const canonical = new URL(pathname, Astro.site);
+
+const socialImage = new URL(image, Astro.site);
+const llmsUrl = new URL(withBase("llms.txt"), Astro.site);
+
+const defaultJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: SITE_NAME,
+  url: `${SITE_CANONICAL_ORIGIN}/`,
+  description: SITE_DESCRIPTION,
+  inLanguage: "en",
+  author: {
+    "@type": "Person",
+    name: SITE_AUTHOR,
+  },
+};
+
+const structuredData = jsonLd ?? defaultJsonLd;
 ---
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -54,9 +78,26 @@ const socialImage = new URL(
       href={canonical}
     />
 
+    <link
+      rel="alternate"
+      type="text/plain"
+      title="LLM-readable catalogue"
+      href={llmsUrl}
+    />
+
+    <meta
+      name="author"
+      content={SITE_AUTHOR}
+    />
+
     <meta
       property="og:site_name"
-      content="The Cosmic Notebook"
+      content={SITE_NAME}
+    />
+
+    <meta
+      property="og:locale"
+      content="en_GB"
     />
 
     <meta
@@ -85,6 +126,38 @@ const socialImage = new URL(
     />
 
     <meta
+      property="og:image:alt"
+      content={title}
+    />
+
+    {
+      type === "article" && publishedTime && (
+        <meta
+          property="article:published_time"
+          content={publishedTime}
+        />
+      )
+    }
+
+    {
+      type === "article" && (
+        <meta
+          property="article:author"
+          content={SITE_AUTHOR}
+        />
+      )
+    }
+
+    {
+      type === "article" && section && (
+        <meta
+          property="article:section"
+          content={section}
+        />
+      )
+    }
+
+    <meta
       name="twitter:card"
       content="summary_large_image"
     />
@@ -102,6 +175,17 @@ const socialImage = new URL(
     <meta
       name="twitter:image"
       content={socialImage}
+    />
+
+    <meta
+      name="twitter:image:alt"
+      content={title}
+    />
+
+    <script
+      is:inline
+      type="application/ld+json"
+      set:html={JSON.stringify(structuredData)}
     />
 
     {
