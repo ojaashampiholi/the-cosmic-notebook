@@ -3,9 +3,9 @@ import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import RelatedNotes from "../../components/RelatedNotes.astro";
 import {
-  markdownHasHeading,
   markdownToPlain,
   renderMarkdown,
+  stripMarkdownSections,
 } from "../../lib/markdown.ts";
 import { relatedPosts } from "../../lib/posts.ts";
 import { topicVisual } from "../../lib/topic-visuals.ts";
@@ -30,19 +30,16 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const hasBody = Boolean(post.data.body?.trim());
-const bodyHtml = hasBody ? renderMarkdown(post.data.body ?? "") : "";
+const articleMarkdown = stripMarkdownSections(post.data.body, [
+  "Explore further",
+  "What to explore next",
+  "Sources",
+]);
+const bodyHtml = hasBody ? renderMarkdown(articleMarkdown) : "";
 const notes = (await getCollection("posts")).sort(
   (first, second) => second.data.date.getTime() - first.data.date.getTime()
 );
 const related = relatedPosts(post, notes);
-const bodyHasExploreFurther = markdownHasHeading(
-  post.data.body,
-  "Explore further"
-);
-const bodyHasWhatToExploreNext = markdownHasHeading(
-  post.data.body,
-  "What to explore next"
-);
 
 const formattedDate = post.data.date.toLocaleDateString("en-GB", {
   day: "numeric",
@@ -146,33 +143,11 @@ const jsonLd = {
       <h2>Why it matters</h2>
       <p>{post.data.whyItMatters}</p>
 
-      {
-        !bodyHasExploreFurther && (
-          <>
-            <h2>Explore further</h2>
-            <p>
-              <a
-                href={post.data.exploreFurther.url}
-                target="_blank"
-                rel="noreferrer"
-              >
-                {post.data.exploreFurther.label}
-              </a>
-            </p>
-          </>
-        )
-      }
-
-      {
-        !bodyHasWhatToExploreNext && (
-          <>
-            <h2>What to explore next</h2>
-            <p>{post.data.whatToExploreNext}</p>
-          </>
-        )
-      }
-
       <h2>Sources</h2>
+      <p class="sources-lede">
+        Primary papers, institutions, and reports behind this note. Treat these
+        as the authority for technical claims.
+      </p>
 
       <ul class="note-sources">
         {
@@ -240,6 +215,11 @@ const jsonLd = {
     color: #c5cddd;
     font-size: 1.125rem;
     line-height: 1.8;
+  }
+
+  .sources-lede {
+    color: #8f9bb7 !important;
+    font-size: 0.98rem !important;
   }
 
   .note-body :global(em),
