@@ -1,4 +1,6 @@
 ---
+import { parseTopics } from "../lib/posts.ts";
+import { postHref } from "../lib/site.ts";
 import NoteLinks from "./NoteLinks.astro";
 
 const {
@@ -8,12 +10,7 @@ const {
   hidden = false,
 } = Astro.props as any;
 
-const topics = post.data.topic
-  .split("/")
-  .map((value: string) => value.trim())
-  .filter(Boolean);
-
-const primary = post.data.sources[0];
+const topics = parseTopics(post.data.topic);
 
 const date = post.data.date.toLocaleDateString("en-GB", {
   day: "numeric",
@@ -63,20 +60,7 @@ const placement =
     </div>
 
     <h2>
-      {
-        primary ? (
-          <a
-            href={primary.url}
-            target="_blank"
-            rel="noreferrer"
-            title={`Open source: ${primary.label}`}
-          >
-            {post.data.title}
-          </a>
-        ) : (
-          post.data.title
-        )
-      }
+      <a href={postHref(post.id)}>{post.data.title}</a>
     </h2>
 
     <p class="eyebrow">Published</p>
@@ -90,26 +74,6 @@ const placement =
 
     <p class="eyebrow">Why it matters</p>
     <p class="card-value">{post.data.whyItMatters}</p>
-
-    <p class="eyebrow">Sources</p>
-
-    <ul class="source-list">
-      {
-        post.data.sources.map(
-          (source: { url: string; label: string }) => (
-            <li>
-              <a
-                href={source.url}
-                target="_blank"
-                rel="noreferrer"
-              >
-                {source.label}
-              </a>
-            </li>
-          )
-        )
-      }
-    </ul>
 
     <NoteLinks post={post} />
   </div>

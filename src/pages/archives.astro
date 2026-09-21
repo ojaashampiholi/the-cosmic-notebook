@@ -2,6 +2,8 @@
 import { getCollection } from "astro:content";
 import NoteLinks from "../components/NoteLinks.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { parseTopics } from "../lib/posts.ts";
+import { postHref } from "../lib/site.ts";
 
 const allPosts = (await getCollection("posts")).sort(
   (first, second) => second.data.date.getTime() - first.data.date.getTime()
@@ -14,12 +16,7 @@ const initialRemainder = initialVisibleCount % 3;
 
 const topics = [
   ...new Set(
-    archivePosts.flatMap((post) =>
-      post.data.topic
-        .split("/")
-        .map((topic) => topic.trim())
-        .filter(Boolean)
-    )
+    archivePosts.flatMap((post) => parseTopics(post.data.topic))
   ),
 ].sort((first, second) => first.localeCompare(second));
 
@@ -27,10 +24,7 @@ const topicCounts = new Map(
   topics.map((topic) => [
     topic,
     archivePosts.filter((post) =>
-      post.data.topic
-        .split("/")
-        .map((item) => item.trim())
-        .includes(topic)
+      parseTopics(post.data.topic).includes(topic)
     ).length,
   ])
 );
@@ -59,10 +53,7 @@ function formatDate(date: Date) {
 }
 
 function getTopics(topic: string) {
-  return topic
-    .split("/")
-    .map((item) => item.trim())
-    .filter(Boolean);
+  return parseTopics(topic);
 }
 
 function getPaperDetails(title: string, index: number) {
@@ -172,7 +163,6 @@ function getPaperDetails(title: string, index: number) {
     <ul class="archive">
       {
         archivePosts.map((post, index) => {
-          const primarySource = post.data.sources[0];
           const postTopics = getTopics(post.data.topic);
           const paperDetails = getPaperDetails(post.data.title, index);
           const isInitiallyHidden = index >= pageSize;
@@ -209,20 +199,7 @@ function getPaperDetails(title: string, index: number) {
                 </div>
 
                 <h2>
-                  {
-                    primarySource ? (
-                      <a
-                        href={primarySource.url}
-                        target="_blank"
-                        rel="noreferrer"
-                        title={`Open source: ${primarySource.label}`}
-                      >
-                        {post.data.title}
-                      </a>
-                    ) : (
-                      post.data.title
-                    )
-                  }
+                  <a href={postHref(post.id)}>{post.data.title}</a>
                 </h2>
 
                 <p class="eyebrow">Published</p>
@@ -236,20 +213,6 @@ function getPaperDetails(title: string, index: number) {
 
                 <p class="eyebrow">Why it matters</p>
                 <p class="card-value">{post.data.whyItMatters}</p>
-
-                <p class="eyebrow">Sources</p>
-
-                <ul class="source-list">
-                  {
-                    post.data.sources.map((source) => (
-                      <li>
-                        <a href={source.url} target="_blank" rel="noreferrer">
-                          {source.label}
-                        </a>
-                      </li>
-                    ))
-                  }
-                </ul>
 
                 <NoteLinks post={post} />
               </div>

@@ -1,0 +1,96 @@
+---
+import { parseTopics } from "../lib/posts.ts";
+import { postHref } from "../lib/site.ts";
+
+const { notes } = Astro.props as {
+  notes: Array<{
+    id: string;
+    data: {
+      title: string;
+      topic: string;
+      date: Date;
+    };
+  }>;
+};
+---
+
+{
+  notes.length > 0 && (
+    <section class="related-notes" aria-labelledby="related-notes-heading">
+      <p class="related-lede">Keep reading</p>
+      <h2 id="related-notes-heading">Related notes</h2>
+
+      <ul>
+        {notes.map((note) => (
+          <li>
+            <a href={postHref(note.id)}>{note.data.title}</a>
+            <p>{parseTopics(note.data.topic).join(" · ")}</p>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+<style>
+  .related-notes {
+    max-width: 42rem;
+    margin-top: 3.2rem;
+    padding-top: 0.4rem;
+    border-top: 1px solid rgba(179, 194, 232, 0.18);
+  }
+
+  .related-notes h2 {
+    margin: 0 0 1.15rem;
+    color: #f1f4fb;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.38rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.28;
+    text-transform: none;
+  }
+
+  .related-lede {
+    margin: 2.35rem 0 0.4rem;
+    color: #8f9bb7;
+    font: 700 0.76rem/1.4 Arial, sans-serif;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+  }
+
+  .related-notes ul {
+    display: grid;
+    gap: 0.85rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .related-notes li {
+    padding: 14px 16px;
+    background: rgba(174, 189, 255, 0.06);
+    border: 1px solid rgba(174, 189, 255, 0.16);
+    border-radius: 12px;
+  }
+
+  .related-notes a {
+    color: #f1f4fb;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.08rem;
+    font-weight: 700;
+    line-height: 1.35;
+    text-decoration: none;
+  }
+
+  .related-notes a:hover {
+    color: #c7d1ff;
+    text-decoration: underline;
+  }
+
+  .related-notes p {
+    margin: 8px 0 0;
+    color: #8f9bb7;
+    font: 0.88rem/1.45 Arial, sans-serif;
+  }
+</style>

@@ -1,7 +1,13 @@
 ---
 import { getCollection } from "astro:content";
+import RelatedNotes from "../../components/RelatedNotes.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { markdownToPlain, renderMarkdown } from "../../lib/markdown.ts";
+import {
+  markdownToPlain,
+  prepareNoteBody,
+  renderMarkdown,
+} from "../../lib/markdown.ts";
+import { relatedNotes } from "../../lib/posts.ts";
 import { topicVisual } from "../../lib/topic-visuals.ts";
 import {
   SITE_AUTHOR,
@@ -19,13 +25,15 @@ export async function getStaticPaths() {
     },
     props: {
       post,
+      related: relatedNotes(post, posts),
     },
   }));
 }
 
-const { post } = Astro.props;
-const hasBody = Boolean(post.data.body?.trim());
-const bodyHtml = hasBody ? renderMarkdown(post.data.body ?? "") : "";
+const { post, related } = Astro.props;
+const preparedBody = prepareNoteBody(post.data.body ?? "");
+const hasBody = Boolean(preparedBody);
+const bodyHtml = hasBody ? renderMarkdown(preparedBody) : "";
 
 const formattedDate = post.data.date.toLocaleDateString("en-GB", {
   day: "numeric",
@@ -38,12 +46,12 @@ const pageTitle = `${post.data.title} | ${SITE_NAME}`;
 const socialImage = topicVisual(post.data.topic);
 const canonicalUrl = `${SITE_CANONICAL_ORIGIN}/posts/${post.id}/`;
 const articleBody = hasBody
-  ? markdownToPlain(post.data.body ?? "")
+  ? markdownToPlain(preparedBody)
   : `${post.data.excerpt}\n\n${post.data.whyItMatters}`;
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
+  "@type": "Article",
   headline: post.data.title,
   description: post.data.excerpt,
   datePublished: publishedTime,
@@ -87,7 +95,7 @@ const jsonLd = {
   section={post.data.topic}
   jsonLd={jsonLd}
 >
-  <article class="note-page" itemscope itemtype="https://schema.org/BlogPosting">
+  <article class="note-page" itemscope itemtype="https://schema.org/Article">
     <header class="note-header">
       <p class="note-nav">
         <a href={withBase()}>{SITE_NAME}</a>
@@ -119,15 +127,11 @@ const jsonLd = {
       </div>
     </header>
 
-    {
-      hasBody ? (
-        <>
-          <p class="note-lede">{post.data.excerpt}</p>
+    <p class="note-lede" itemprop="description">{post.data.excerpt}</p>
 
-          <div class="note-body" set:html={bodyHtml} />
-        </>
-      ) : (
-        <p class="note-lede">{post.data.excerpt}</p>
+    {
+      hasBody && (
+        <div class="note-body" itemprop="articleBody" set:html={bodyHtml} />
       )
     }
 
@@ -146,9 +150,6 @@ const jsonLd = {
         </a>
       </p>
 
-      <h2>What to explore next</h2>
-      <p>{post.data.whatToExploreNext}</p>
-
       <h2>Sources</h2>
 
       <ul class="note-sources">
@@ -164,6 +165,8 @@ const jsonLd = {
       </ul>
     </section>
   </article>
+
+  <RelatedNotes notes={related} />
 </BaseLayout>
 
 <style>
