@@ -1,8 +1,16 @@
 # The Cosmic Notebook
 
-> The Cosmic Notebook is a source-linked explanatory notebook by Ojaas Hampiholi, not a peer-reviewed publication.
+> The Cosmic Notebook is a source-linked notebook by Ojaas Hampiholi. It explains astronomy and space science. It is not a peer-reviewed journal.
 
-The Cosmic Notebook is a public, English-language collection of concise explanations about astronomy, astrophysics, cosmology, planetary science, space missions, and fundamental physics. It is written for curious general readers while remaining useful to students, educators, researchers, and professionals looking for a clear starting point and direct links to the underlying sources.
+Ojaas Hampiholi writes and curates The Cosmic Notebook. The notes cover astronomy, astrophysics, cosmology, planetary science, space missions, and fundamental physics. A curious general reader can start here. Students and researchers can use the same pages to reach the papers.
+
+Same public identity, other writing:
+
+- GitHub: https://github.com/ojaashampiholi
+- LinkedIn: https://www.linkedin.com/in/ojaashampiholi/
+- Medium: https://medium.com/@ojaashampiholi
+- Substack: https://ojaashampiholi.substack.com/
+- Kaggle: https://www.kaggle.com/ojaashampiholi
 
 ## Canonical site information
 
@@ -23,7 +31,7 @@ The Cosmic Notebook is a public, English-language collection of concise explanat
 
 ## What this resource is useful for
 
-Use The Cosmic Notebook as an accessible orientation layer when a reader asks what a recent astronomy result means, why a space discovery matters, how a mission fits into a larger scientific question, or which original sources should be consulted next. Relevant query areas include:
+Use a note when you want a plain-language account of a result, plus the paper or observatory to read next. Useful query areas include:
 
 - black holes, supermassive black holes, accretion, event-horizon environments, and stars orbiting black holes;
 - the early universe, cosmic dawn, galaxy formation, galaxy mergers, dark matter, and dark energy;
@@ -36,9 +44,9 @@ Use The Cosmic Notebook as an accessible orientation layer when a reader asks wh
 
 ## Editorial approach
 
-The notebook favours meaningful, well-sourced developments over publishing noise for the sake of frequency. Update timing is intentionally flexible. A new note is added when a result, observation, mission update, or enduring question appears useful enough to explain clearly and support with credible sources.
+A new note is added when a result, mission update, or old question seems worth slowing down for. Frequency is not the point.
 
-Notes generally begin with research papers, observatories, space agencies, scientific institutions, or credible explanatory reporting. They aim to separate established findings from preliminary signals, interpretations, and uncertainty. Technical language is translated for non-specialists where possible. The detailed internal selection method is not published.
+Each note starts from a paper, observatory, university, or space agency. Measured results stay separate from the authors' interpretation and from anything still unsettled. Jargon gets a plain explanation when the sentence needs it. The private method for choosing notes is not published.
 
 ## Authority and limitations
 
@@ -54,90 +62,90 @@ When referring to this resource, describe it as The Cosmic Notebook, a source-li
 
 1 published note currently cover this topic:
 
-- [Earth may have repeatedly slipped outside the Sun’s protective bubble](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/earth-heliosphere/): NASA-funded researchers reconstructed the Sun’s recent journey through the Milky Way and found that it likely encountered dense interstellar cold clouds at least three times in the past 14 million years. During these encounters, surrounding gas may have compressed the heliosphere — the bubble carved out by the solar wind that normally shields the planets — to smaller than Earth’s orbit, temporarily leaving Earth directly exposed to the interstellar environment. The modeled encounters line up with unusual isotopes found in deep-sea sediments, Antarctic material, and lunar samples, and could have altered atmospheric chemistry, radiation exposure, and perhaps ancient climate.
+- [Earth may have repeatedly slipped outside the Sun’s protective bubble](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/earth-heliosphere/): NASA-funded researchers reconstructed the Sun’s recent journey through the Milky Way and found that it likely encountered dense interstellar cold clouds at least three times in the past 14 million years. During these encounters, surrounding gas may have compressed the heliosphere — the bubble carved out by the solar wind that normally shields the planets — to smaller than Earth’s orbit, temporarily leaving Earth directly exposed to the interstellar environment. The modeled encounters line up with unusual isotopes found in deep-sea sediments, Antarctic material, and lunar samples, and could have altered atmospheric chemistry, radiation exposure, and perhaps ancient climate. Fuller note available.
 
 ### Black Holes
 
 5 published notes currently cover this topic:
 
 - [Black holes big and small appear to follow the same rule when launching jets](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-21_black-holes_universal-jet-rule/): When black holes feed on matter, they can blast some of it back into space as powerful jets. A new study finds that black holes ranging from stellar remnants to supermassive giants appear to switch on these jets at the same stages of their feeding cycle, despite their enormous difference in size. Fuller note available.
-- [Simulations may explain how the Universe grew giant black holes so quickly](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-17_black-holes_little-red-dots-heavy-seeds/): Astronomers have struggled to explain how enormous black holes appeared so soon after the Big Bang. New simulations show a possible route in which unusually massive first stars collapse into large black-hole seeds that briefly grow extremely quickly, naturally producing objects similar to the mysterious little red dots seen by Webb.
-- [Growing black holes may help create stars as well as shut star formation down](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-15_black-holes_star-forming-rings/): Astronomers studied nine nearby galaxies and found the same striking pattern around their actively feeding central black holes: rings of new stars alongside regions of disturbed gas. The result suggests black holes may sometimes help compress gas into new stars, rather than only heating or blowing star-forming material away.
-- [JWST may have found a new kind of object: a black hole wrapped in a star-like cocoon](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-01_cosmic-dawn_black-hole-star-mom-bh-1/): Using the James Webb Space Telescope, astronomers identified an exceptionally red source called MoM-BH*-1 seen about 660 million years after the Big Bang. Its spectrum shows an unusually deep Balmer break and broad hydrogen features that the team models as an actively accreting black hole buried inside an extremely dense, turbulent, dust-free envelope of gas. In the researchers' best-fitting interpretation, the central black hole is about 100,000 times the Sun's mass and the surrounding gas cocoon is roughly the size of the Solar System, so the object looks star-like even though its power source is a black hole rather than nuclear fusion. The authors argue that this configuration could help explain the mysterious 'little red dots' seen by JWST and may reveal a phase in which early black holes grew unusually rapidly.
-- [S301: the fastest known star in the Milky Way may reveal Sagittarius A*’s spin](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/s301-sagittarius-a-star-spin/): S301 is the fastest known star in the Milky Way and passes exceptionally close to Sagittarius A*, the supermassive black hole at the Galactic Centre. Its orbit may be measurably altered by relativistic effects caused by the black hole’s rotation, offering astronomers a new way to probe that spin.
+- [Simulations may explain how the Universe grew giant black holes so quickly](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-17_black-holes_little-red-dots-heavy-seeds/): Astronomers have struggled to explain how enormous black holes appeared so soon after the Big Bang. New simulations show a possible route in which unusually massive first stars collapse into large black-hole seeds that briefly grow extremely quickly, naturally producing objects similar to the mysterious little red dots seen by Webb. Fuller note available.
+- [Growing black holes may help create stars as well as shut star formation down](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-15_black-holes_star-forming-rings/): Astronomers studied nine nearby galaxies and found the same striking pattern around their actively feeding central black holes: rings of new stars alongside regions of disturbed gas. The result suggests black holes may sometimes help compress gas into new stars, rather than only heating or blowing star-forming material away. Fuller note available.
+- [JWST may have found a new kind of object: a black hole wrapped in a star-like cocoon](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-01_cosmic-dawn_black-hole-star-mom-bh-1/): Using the James Webb Space Telescope, astronomers identified an exceptionally red source called MoM-BH*-1 seen about 660 million years after the Big Bang. Its spectrum shows an unusually deep Balmer break and broad hydrogen features that the team models as an actively accreting black hole buried inside an extremely dense, turbulent, dust-free envelope of gas. In the researchers' best-fitting interpretation, the central black hole is about 100,000 times the Sun's mass and the surrounding gas cocoon is roughly the size of the Solar System, so the object looks star-like even though its power source is a black hole rather than nuclear fusion. The authors argue that this configuration could help explain the mysterious 'little red dots' seen by JWST and may reveal a phase in which early black holes grew unusually rapidly. Fuller note available.
+- [S301: the fastest known star in the Milky Way may reveal Sagittarius A*’s spin](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/s301-sagittarius-a-star-spin/): S301 is the fastest known star in the Milky Way and passes exceptionally close to Sagittarius A*, the supermassive black hole at the Galactic Centre. Its orbit may be measurably altered by relativistic effects caused by the black hole’s rotation, offering astronomers a new way to probe that spin. Fuller note available.
 
 ### Cosmology & Early Universe
 
 5 published notes currently cover this topic:
 
-- [Simulations may explain how the Universe grew giant black holes so quickly](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-17_black-holes_little-red-dots-heavy-seeds/): Astronomers have struggled to explain how enormous black holes appeared so soon after the Big Bang. New simulations show a possible route in which unusually massive first stars collapse into large black-hole seeds that briefly grow extremely quickly, naturally producing objects similar to the mysterious little red dots seen by Webb.
-- [Astronomers caught one of the Universe’s largest structures still being built](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-12_cosmology_proto-supercluster-cosmos-z3-1-a/): Astronomers have mapped an enormous young structure called COSMOS-z3.1-A, seen when the Universe was only a few billion years old. It contains many dense groups of galaxies that are still coming together and is the earliest, most distant proto-supercluster yet identified.
-- [Mysterious cosmic flashes can reveal where the Universe hides its ordinary matter](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-09_cosmology_fast-radio-bursts-hidden-matter/): Fast radio bursts are extremely brief flashes of radio waves from distant galaxies. As their signals travel toward Earth, the ordinary matter between galaxies subtly changes them, letting astronomers use the flashes like backlights to trace otherwise hard-to-see material spread through the Universe.
-- [JWST may have found a new kind of object: a black hole wrapped in a star-like cocoon](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-01_cosmic-dawn_black-hole-star-mom-bh-1/): Using the James Webb Space Telescope, astronomers identified an exceptionally red source called MoM-BH*-1 seen about 660 million years after the Big Bang. Its spectrum shows an unusually deep Balmer break and broad hydrogen features that the team models as an actively accreting black hole buried inside an extremely dense, turbulent, dust-free envelope of gas. In the researchers' best-fitting interpretation, the central black hole is about 100,000 times the Sun's mass and the surrounding gas cocoon is roughly the size of the Solar System, so the object looks star-like even though its power source is a black hole rather than nuclear fusion. The authors argue that this configuration could help explain the mysterious 'little red dots' seen by JWST and may reveal a phase in which early black holes grew unusually rapidly.
-- [Roman launches to map the dark universe and hunt thousands of exoplanets](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-08-31_space-observatory_roman-launches-to-map-the-dark-universe/): NASA's Nancy Grace Roman Space Telescope launched successfully on 30 August 2026 and is now traveling toward the Sun-Earth L2 point, about 1.5 million kilometres from Earth. Roman will combine infrared sensitivity and image sharpness comparable to Hubble with a field of view roughly 100 times larger, allowing it to survey enormous areas of the sky far more quickly. Its main science goals include measuring how dark energy has influenced cosmic expansion, mapping dark matter through gravitational lensing, and discovering thousands of exoplanets. NASA says the observatory will spend roughly three months traveling and commissioning before science operations begin, with first public images expected in early 2027.
+- [Simulations may explain how the Universe grew giant black holes so quickly](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-17_black-holes_little-red-dots-heavy-seeds/): Astronomers have struggled to explain how enormous black holes appeared so soon after the Big Bang. New simulations show a possible route in which unusually massive first stars collapse into large black-hole seeds that briefly grow extremely quickly, naturally producing objects similar to the mysterious little red dots seen by Webb. Fuller note available.
+- [Astronomers caught one of the Universe’s largest structures still being built](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-12_cosmology_proto-supercluster-cosmos-z3-1-a/): Astronomers have mapped an enormous young structure called COSMOS-z3.1-A, seen when the Universe was only a few billion years old. It contains many dense groups of galaxies that are still coming together and is the earliest, most distant proto-supercluster yet identified. Fuller note available.
+- [Mysterious cosmic flashes can reveal where the Universe hides its ordinary matter](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-09_cosmology_fast-radio-bursts-hidden-matter/): Fast radio bursts are extremely brief flashes of radio waves from distant galaxies. As their signals travel toward Earth, the ordinary matter between galaxies subtly changes them, letting astronomers use the flashes like backlights to trace otherwise hard-to-see material spread through the Universe. Fuller note available.
+- [JWST may have found a new kind of object: a black hole wrapped in a star-like cocoon](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-01_cosmic-dawn_black-hole-star-mom-bh-1/): Using the James Webb Space Telescope, astronomers identified an exceptionally red source called MoM-BH*-1 seen about 660 million years after the Big Bang. Its spectrum shows an unusually deep Balmer break and broad hydrogen features that the team models as an actively accreting black hole buried inside an extremely dense, turbulent, dust-free envelope of gas. In the researchers' best-fitting interpretation, the central black hole is about 100,000 times the Sun's mass and the surrounding gas cocoon is roughly the size of the Solar System, so the object looks star-like even though its power source is a black hole rather than nuclear fusion. The authors argue that this configuration could help explain the mysterious 'little red dots' seen by JWST and may reveal a phase in which early black holes grew unusually rapidly. Fuller note available.
+- [Roman launches to map the dark universe and hunt thousands of exoplanets](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-08-31_space-observatory_roman-launches-to-map-the-dark-universe/): NASA's Nancy Grace Roman Space Telescope launched successfully on 30 August 2026 and is now traveling toward the Sun-Earth L2 point, about 1.5 million kilometres from Earth. Roman will combine infrared sensitivity and image sharpness comparable to Hubble with a field of view roughly 100 times larger, allowing it to survey enormous areas of the sky far more quickly. Its main science goals include measuring how dark energy has influenced cosmic expansion, mapping dark matter through gravitational lensing, and discovering thousands of exoplanets. NASA says the observatory will spend roughly three months traveling and commissioning before science operations begin, with first public images expected in early 2027. Fuller note available.
 
 ### Exoplanets
 
 2 published notes currently cover this topic:
 
-- [Astronomers confirmed the youngest known planet — and it is still being born](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-18_exoplanets_elias-2-24-b-youngest-planet/): Astronomers have confirmed Elias 2-24 b, a Jupiter-mass world less than a million years old — the youngest known planet. It is still growing inside the disk of gas and dust around its young star, letting us see planet formation while it is actually happening.
-- [Roman launches to map the dark universe and hunt thousands of exoplanets](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-08-31_space-observatory_roman-launches-to-map-the-dark-universe/): NASA's Nancy Grace Roman Space Telescope launched successfully on 30 August 2026 and is now traveling toward the Sun-Earth L2 point, about 1.5 million kilometres from Earth. Roman will combine infrared sensitivity and image sharpness comparable to Hubble with a field of view roughly 100 times larger, allowing it to survey enormous areas of the sky far more quickly. Its main science goals include measuring how dark energy has influenced cosmic expansion, mapping dark matter through gravitational lensing, and discovering thousands of exoplanets. NASA says the observatory will spend roughly three months traveling and commissioning before science operations begin, with first public images expected in early 2027.
+- [Astronomers confirmed the youngest known planet — and it is still being born](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-18_exoplanets_elias-2-24-b-youngest-planet/): Astronomers have confirmed Elias 2-24 b, a Jupiter-mass world less than a million years old — the youngest known planet. It is still growing inside the disk of gas and dust around its young star, letting us see planet formation while it is actually happening. Fuller note available.
+- [Roman launches to map the dark universe and hunt thousands of exoplanets](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-08-31_space-observatory_roman-launches-to-map-the-dark-universe/): NASA's Nancy Grace Roman Space Telescope launched successfully on 30 August 2026 and is now traveling toward the Sun-Earth L2 point, about 1.5 million kilometres from Earth. Roman will combine infrared sensitivity and image sharpness comparable to Hubble with a field of view roughly 100 times larger, allowing it to survey enormous areas of the sky far more quickly. Its main science goals include measuring how dark energy has influenced cosmic expansion, mapping dark matter through gravitational lensing, and discovering thousands of exoplanets. NASA says the observatory will spend roughly three months traveling and commissioning before science operations begin, with first public images expected in early 2027. Fuller note available.
 
 ### Galaxies & Galactic Evolution
 
 4 published notes currently cover this topic:
 
-- [Exploding stars appear to keep an entire galaxy’s gas stirred up](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-20_galaxies_andromeda-supernova-turbulence/): Astronomers mapped 118 enormous bubbles in the Andromeda galaxy, blown into its gas by groups of exploding stars. The energy carried by those bubbles closely matches the energy needed to keep Andromeda’s gas in constant turbulent motion.
-- [The universe is making fewer stars — but it hasn’t run out of hydrogen](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-05_galaxy-evolution_star-formation-hydrogen/): Using China’s FAST radio telescope together with DESI data for about 2.5 million galaxies, astronomers found that cosmic star formation has fallen by roughly a factor of 2.46 over the past 4.5 billion years, while the universe’s neutral atomic hydrogen reservoir has declined far less. The result suggests the problem is not simply that galaxies have run out of raw gas, but that they have become less efficient at turning atomic hydrogen into the denser molecular gas that actually forms stars.
-- [JWST finds hidden low-mass stars that may make early massive galaxies up to four times heavier](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-03_galaxy-evolution_hidden-mass-early-galaxies/): Using JWST spectra of nine massive, quiescent galaxies, astronomers found evidence that the most massive systems contain many more faint, low-mass stars than standard assumptions predict. If similar stellar populations were already present in their earlier ancestors, some of JWST’s surprisingly mature early galaxies could be about four times more massive than current estimates suggest, making their rapid formation even harder to explain.
-- [Hubble uncovers the Milky Way’s earliest confirmed major merger](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/milky-way-earliest-major-merger/): Hubble observations have helped identify the Milky Way’s earliest confirmed major merger, involving the Low-energy-Kraken-Heracles system. The finding shows that accreted stars from external galaxies were already important during the Galaxy’s earliest growth.
+- [Exploding stars appear to keep an entire galaxy’s gas stirred up](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-20_galaxies_andromeda-supernova-turbulence/): Astronomers mapped 118 enormous bubbles in the Andromeda galaxy, blown into its gas by groups of exploding stars. The energy carried by those bubbles closely matches the energy needed to keep Andromeda’s gas in constant turbulent motion. Fuller note available.
+- [The universe is making fewer stars — but it hasn’t run out of hydrogen](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-05_galaxy-evolution_star-formation-hydrogen/): Using China’s FAST radio telescope together with DESI data for about 2.5 million galaxies, astronomers found that cosmic star formation has fallen by roughly a factor of 2.46 over the past 4.5 billion years, while the universe’s neutral atomic hydrogen reservoir has declined far less. The result suggests the problem is not simply that galaxies have run out of raw gas, but that they have become less efficient at turning atomic hydrogen into the denser molecular gas that actually forms stars. Fuller note available.
+- [JWST finds hidden low-mass stars that may make early massive galaxies up to four times heavier](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-03_galaxy-evolution_hidden-mass-early-galaxies/): Using JWST spectra of nine massive, quiescent galaxies, astronomers found evidence that the most massive systems contain many more faint, low-mass stars than standard assumptions predict. If similar stellar populations were already present in their earlier ancestors, some of JWST’s surprisingly mature early galaxies could be about four times more massive than current estimates suggest, making their rapid formation even harder to explain. Fuller note available.
+- [Hubble uncovers the Milky Way’s earliest confirmed major merger](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/milky-way-earliest-major-merger/): Hubble observations have helped identify the Milky Way’s earliest confirmed major merger, involving the Low-energy-Kraken-Heracles system. The finding shows that accreted stars from external galaxies were already important during the Galaxy’s earliest growth. Fuller note available.
 
 ### Gravity & Fundamental Physics
 
 2 published notes currently cover this topic:
 
-- [Scientists may have seen a particle of dark matter — but they aren't sure yet](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-06_fundamental-physics_lz-dark-matter-candidate/): An underground experiment built to search for dark matter recorded one unusual event that looks like something a dark-matter particle could have caused. But a single event is not enough to rule out coincidence or another explanation, so scientists are treating it as an intriguing clue rather than a discovery.
-- [S301: the fastest known star in the Milky Way may reveal Sagittarius A*’s spin](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/s301-sagittarius-a-star-spin/): S301 is the fastest known star in the Milky Way and passes exceptionally close to Sagittarius A*, the supermassive black hole at the Galactic Centre. Its orbit may be measurably altered by relativistic effects caused by the black hole’s rotation, offering astronomers a new way to probe that spin.
+- [Scientists may have seen a particle of dark matter — but they aren't sure yet](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-06_fundamental-physics_lz-dark-matter-candidate/): An underground experiment built to search for dark matter recorded one unusual event that looks like something a dark-matter particle could have caused. But a single event is not enough to rule out coincidence or another explanation, so scientists are treating it as an intriguing clue rather than a discovery. Fuller note available.
+- [S301: the fastest known star in the Milky Way may reveal Sagittarius A*’s spin](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/s301-sagittarius-a-star-spin/): S301 is the fastest known star in the Milky Way and passes exceptionally close to Sagittarius A*, the supermassive black hole at the Galactic Centre. Its orbit may be measurably altered by relativistic effects caused by the black hole’s rotation, offering astronomers a new way to probe that spin. Fuller note available.
 
 ### Planet Formation
 
 4 published notes currently cover this topic:
 
-- [The Solar System sorted its planet-building ingredients from the very beginning](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-19_solar-system_planetesimal-sorting/): Meteorite chemistry suggests that, within the Solar System’s first million years, the material building the earliest small worlds was already being sorted. Those first bodies contained unusually large amounts of heat-processed rocky beads and much less fine, ice-rich dust than later bodies.
-- [Astronomers confirmed the youngest known planet — and it is still being born](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-18_exoplanets_elias-2-24-b-youngest-planet/): Astronomers have confirmed Elias 2-24 b, a Jupiter-mass world less than a million years old — the youngest known planet. It is still growing inside the disk of gas and dust around its young star, letting us see planet formation while it is actually happening.
-- [Comets may be carrying water into a young planet-forming system](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-07_planet-formation_pds70-exocomets-water/): Astronomers found signs of comets moving through the young PDS 70 system, where planets are still forming. Computer simulations show that giant planets there could fling icy bodies inward, possibly carrying water from the cold outer system toward the region where rocky planets can grow.
-- [JWST shows planet formation is a race against disappearing gas](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-02_planet-formation_jwst-disk-winds/): Using archival observations from JWST's Mid-Infrared Instrument, astronomers studied 72 young, mostly Sun-like stars to see how gas escapes from their planet-forming disks. They found that early, actively accreting systems are dominated by magnetically driven jets and molecular-plus-atomic winds, while older, lower-accretion systems increasingly show mainly atomic winds, including photoevaporative flows heated by stellar radiation. Extended gas emission was detected in 66 of the 72 disks, including conical molecular-hydrogen winds in 46 systems and fast neon jets in 40. Together, the sample turns individual snapshots into an evolutionary sequence and shows that the raw gas needed to build giant planets is being steadily removed as planetary systems mature.
+- [The Solar System sorted its planet-building ingredients from the very beginning](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-19_solar-system_planetesimal-sorting/): Meteorite chemistry suggests that, within the Solar System’s first million years, the material building the earliest small worlds was already being sorted. Those first bodies contained unusually large amounts of heat-processed rocky beads and much less fine, ice-rich dust than later bodies. Fuller note available.
+- [Astronomers confirmed the youngest known planet — and it is still being born](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-18_exoplanets_elias-2-24-b-youngest-planet/): Astronomers have confirmed Elias 2-24 b, a Jupiter-mass world less than a million years old — the youngest known planet. It is still growing inside the disk of gas and dust around its young star, letting us see planet formation while it is actually happening. Fuller note available.
+- [Comets may be carrying water into a young planet-forming system](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-07_planet-formation_pds70-exocomets-water/): Astronomers found signs of comets moving through the young PDS 70 system, where planets are still forming. Computer simulations show that giant planets there could fling icy bodies inward, possibly carrying water from the cold outer system toward the region where rocky planets can grow. Fuller note available.
+- [JWST shows planet formation is a race against disappearing gas](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-02_planet-formation_jwst-disk-winds/): Using archival observations from JWST's Mid-Infrared Instrument, astronomers studied 72 young, mostly Sun-like stars to see how gas escapes from their planet-forming disks. They found that early, actively accreting systems are dominated by magnetically driven jets and molecular-plus-atomic winds, while older, lower-accretion systems increasingly show mainly atomic winds, including photoevaporative flows heated by stellar radiation. Extended gas emission was detected in 66 of the 72 disks, including conical molecular-hydrogen winds in 46 systems and fast neon jets in 40. Together, the sample turns individual snapshots into an evolutionary sequence and shows that the raw gas needed to build giant planets is being steadily removed as planetary systems mature. Fuller note available.
 
 ### Solar System & Planetary Science
 
 4 published notes currently cover this topic:
 
-- [The Solar System sorted its planet-building ingredients from the very beginning](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-19_solar-system_planetesimal-sorting/): Meteorite chemistry suggests that, within the Solar System’s first million years, the material building the earliest small worlds was already being sorted. Those first bodies contained unusually large amounts of heat-processed rocky beads and much less fine, ice-rich dust than later bodies.
-- [NASA and IBM built an AI map-reader for the Moon](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-14_solar-system_lunar-ai-model/): NASA and IBM have released an AI model trained on years of Moon observations so researchers can find useful patterns across enormous lunar datasets more quickly. It can help map craters, identify unusual volcanic features, and estimate where ice may be stable near the lunar poles.
-- [Tiny worlds beyond Neptune still carry fingerprints from the Solar System’s birth](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-11_solar-system_tiny-worlds-beyond-neptune/): Hubble and Webb found 27 previously unknown tiny worlds orbiting beyond Neptune, some among the smallest ever seen directly. Surprisingly, their surfaces resemble those of much larger objects, suggesting these distant leftovers have preserved clues about where and how they formed billions of years ago.
-- [Hubble catches a giant 10-sided wave forming around Saturn’s south pole](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-04_solar-system_saturn-south-pole-decagon/): Hubble and ground-based observations have revealed a giant decagonal atmospheric wave around Saturn’s south pole, the first large regular-sided jet pattern ever seen in the planet’s southern hemisphere. Faint signs appear in data from 2023 and 2024, while the structure became much clearer in 2025, suggesting astronomers may be watching a huge planetary weather pattern develop in real time.
+- [The Solar System sorted its planet-building ingredients from the very beginning](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-19_solar-system_planetesimal-sorting/): Meteorite chemistry suggests that, within the Solar System’s first million years, the material building the earliest small worlds was already being sorted. Those first bodies contained unusually large amounts of heat-processed rocky beads and much less fine, ice-rich dust than later bodies. Fuller note available.
+- [NASA and IBM built an AI map-reader for the Moon](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-14_solar-system_lunar-ai-model/): NASA and IBM have released an AI model trained on years of Moon observations so researchers can find useful patterns across enormous lunar datasets more quickly. It can help map craters, identify unusual volcanic features, and estimate where ice may be stable near the lunar poles. Fuller note available.
+- [Tiny worlds beyond Neptune still carry fingerprints from the Solar System’s birth](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-11_solar-system_tiny-worlds-beyond-neptune/): Hubble and Webb found 27 previously unknown tiny worlds orbiting beyond Neptune, some among the smallest ever seen directly. Surprisingly, their surfaces resemble those of much larger objects, suggesting these distant leftovers have preserved clues about where and how they formed billions of years ago. Fuller note available.
+- [Hubble catches a giant 10-sided wave forming around Saturn’s south pole](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-04_solar-system_saturn-south-pole-decagon/): Hubble and ground-based observations have revealed a giant decagonal atmospheric wave around Saturn’s south pole, the first large regular-sided jet pattern ever seen in the planet’s southern hemisphere. Faint signs appear in data from 2023 and 2024, while the structure became much clearer in 2025, suggesting astronomers may be watching a huge planetary weather pattern develop in real time. Fuller note available.
 
 ### Stars & Stellar Evolution
 
 5 published notes currently cover this topic:
 
-- [Webb finds objects barely heavier than Jupiter that formed like stars](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-16_stars_tiny-brown-dwarfs/): Webb has found brown dwarfs, objects that form from collapsing clouds like stars but never become full stars, with masses as low as about twice Jupiter's. These are the least massive brown dwarfs known and are smaller than current star-formation models expected.
-- [Half of all neutron stars may be born as magnetars](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-13_stars-magnetars-neutron-stars/): A new study suggests that roughly half of the dense stellar remnants called neutron stars may be born as magnetars — objects with extraordinarily powerful magnetic fields. That would make these extreme stars much more common than astronomers previously estimated.
-- [Astronomers found a hidden class of some of the most energetic objects in galaxies](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-10_stars-stellar-evolution_chandra-hypersoft-sources/): Astronomers searching old observations from NASA’s Chandra X-ray Observatory found 84 objects in six galaxies that had largely escaped notice because most of their energy comes out in a difficult-to-observe form of ultraviolet light. Scientists do not yet know exactly what they are, but they may be systems where a dense stellar remnant — such as a white dwarf, neutron star or black hole — is pulling material from a companion star.
-- [Two massive baby stars may have become a binary after forming separately](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-08_stars-stellar-evolution_massive-binary-capture/): Astronomers followed two massive baby stars and found that their stretched orbit and tilted surrounding disks are hard to explain if the stars were born together. The evidence instead suggests they formed separately, passed close to one another, and became gravitationally bound as a pair.
-- [JWST finds hidden low-mass stars that may make early massive galaxies up to four times heavier](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-03_galaxy-evolution_hidden-mass-early-galaxies/): Using JWST spectra of nine massive, quiescent galaxies, astronomers found evidence that the most massive systems contain many more faint, low-mass stars than standard assumptions predict. If similar stellar populations were already present in their earlier ancestors, some of JWST’s surprisingly mature early galaxies could be about four times more massive than current estimates suggest, making their rapid formation even harder to explain.
+- [Webb finds objects barely heavier than Jupiter that formed like stars](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-16_stars_tiny-brown-dwarfs/): Webb has found brown dwarfs, objects that form from collapsing clouds like stars but never become full stars, with masses as low as about twice Jupiter's. These are the least massive brown dwarfs known and are smaller than current star-formation models expected. Fuller note available.
+- [Half of all neutron stars may be born as magnetars](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-13_stars-magnetars-neutron-stars/): A new study suggests that roughly half of the dense stellar remnants called neutron stars may be born as magnetars — objects with extraordinarily powerful magnetic fields. That would make these extreme stars much more common than astronomers previously estimated. Fuller note available.
+- [Astronomers found a hidden class of some of the most energetic objects in galaxies](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-10_stars-stellar-evolution_chandra-hypersoft-sources/): Astronomers searching old observations from NASA’s Chandra X-ray Observatory found 84 objects in six galaxies that had largely escaped notice because most of their energy comes out in a difficult-to-observe form of ultraviolet light. Scientists do not yet know exactly what they are, but they may be systems where a dense stellar remnant — such as a white dwarf, neutron star or black hole — is pulling material from a companion star. Fuller note available.
+- [Two massive baby stars may have become a binary after forming separately](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-08_stars-stellar-evolution_massive-binary-capture/): Astronomers followed two massive baby stars and found that their stretched orbit and tilted surrounding disks are hard to explain if the stars were born together. The evidence instead suggests they formed separately, passed close to one another, and became gravitationally bound as a pair. Fuller note available.
+- [JWST finds hidden low-mass stars that may make early massive galaxies up to four times heavier](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-03_galaxy-evolution_hidden-mass-early-galaxies/): Using JWST spectra of nine massive, quiescent galaxies, astronomers found evidence that the most massive systems contain many more faint, low-mass stars than standard assumptions predict. If similar stellar populations were already present in their earlier ancestors, some of JWST’s surprisingly mature early galaxies could be about four times more massive than current estimates suggest, making their rapid formation even harder to explain. Fuller note available.
 
 ### Sun & Space Weather
 
 1 published note currently cover this topic:
 
-- [Earth may have repeatedly slipped outside the Sun’s protective bubble](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/earth-heliosphere/): NASA-funded researchers reconstructed the Sun’s recent journey through the Milky Way and found that it likely encountered dense interstellar cold clouds at least three times in the past 14 million years. During these encounters, surrounding gas may have compressed the heliosphere — the bubble carved out by the solar wind that normally shields the planets — to smaller than Earth’s orbit, temporarily leaving Earth directly exposed to the interstellar environment. The modeled encounters line up with unusual isotopes found in deep-sea sediments, Antarctic material, and lunar samples, and could have altered atmospheric chemistry, radiation exposure, and perhaps ancient climate.
+- [Earth may have repeatedly slipped outside the Sun’s protective bubble](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/earth-heliosphere/): NASA-funded researchers reconstructed the Sun’s recent journey through the Milky Way and found that it likely encountered dense interstellar cold clouds at least three times in the past 14 million years. During these encounters, surrounding gas may have compressed the heliosphere — the bubble carved out by the solar wind that normally shields the planets — to smaller than Earth’s orbit, temporarily leaving Earth directly exposed to the interstellar environment. The modeled encounters line up with unusual isotopes found in deep-sea sediments, Antarctic material, and lunar samples, and could have altered atmospheric chemistry, radiation exposure, and perhaps ancient climate. Fuller note available.
 
 ### Telescopes & Observatories
 
 1 published note currently cover this topic:
 
-- [Roman launches to map the dark universe and hunt thousands of exoplanets](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-08-31_space-observatory_roman-launches-to-map-the-dark-universe/): NASA's Nancy Grace Roman Space Telescope launched successfully on 30 August 2026 and is now traveling toward the Sun-Earth L2 point, about 1.5 million kilometres from Earth. Roman will combine infrared sensitivity and image sharpness comparable to Hubble with a field of view roughly 100 times larger, allowing it to survey enormous areas of the sky far more quickly. Its main science goals include measuring how dark energy has influenced cosmic expansion, mapping dark matter through gravitational lensing, and discovering thousands of exoplanets. NASA says the observatory will spend roughly three months traveling and commissioning before science operations begin, with first public images expected in early 2027.
+- [Roman launches to map the dark universe and hunt thousands of exoplanets](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-08-31_space-observatory_roman-launches-to-map-the-dark-universe/): NASA's Nancy Grace Roman Space Telescope launched successfully on 30 August 2026 and is now traveling toward the Sun-Earth L2 point, about 1.5 million kilometres from Earth. Roman will combine infrared sensitivity and image sharpness comparable to Hubble with a field of view roughly 100 times larger, allowing it to survey enormous areas of the sky far more quickly. Its main science goals include measuring how dark energy has influenced cosmic expansion, mapping dark matter through gravitational lensing, and discovering thousands of exoplanets. NASA says the observatory will spend roughly three months traveling and commissioning before science operations begin, with first public images expected in early 2027. Fuller note available.
 
 ## Complete note catalogue
 
@@ -159,41 +167,33 @@ The catalogue below is ordered from newest to oldest. Each record contains the p
 
 Fuller note:
 
-## A feeding cycle that used to look chaotic
+## The slow ones were the problem
 
-When a black hole pulls in gas, it does not swallow everything quietly. Some of that material is flung back out as a jet — a narrow, fast stream that can shine in radio waves and, over long timescales, help reshape the galaxy around it. Astronomers have long suspected that this messy eating follows the same basic physics whether the black hole is a stellar remnant only about ten times the mass of the Sun, or a supermassive giant millions of times heavier.
+A feeding black hole does not keep everything it pulls in. Some of the gas comes back out as a jet, narrow and fast, bright in the radio, and over a long enough time a way to shove gas around in the host galaxy. The suspicion, for years, was that the on-switch looks the same for a stellar-mass black hole and for a supermassive one. The physics of accretion does not know the mass, once you scale the rates properly. Testing that is the annoying part.
 
-The obstacle has been watching those rules play out. Stellar-mass black holes in our galaxy can swing through a feeding cycle in days or weeks, so astronomers can catch the moment a jet switches on. A typical supermassive black hole in an active galaxy evolves over thousands of years. No observing campaign can sit with one of those systems long enough to see it cross the critical point.
+Stellar-mass black holes in the Milky Way swing through a feeding cycle in days or weeks. You can watch a jet turn on. A typical supermassive black hole in an active galaxy changes over thousands of years. No program sits with one system long enough to see it cross the threshold. The comparison has been stuck on that mismatch.
 
-## Using torn-apart stars as a stopwatch
+## A torn star as a short film
 
-A *Nature Astronomy* paper by Adelle Goodwin of Curtin University’s International Centre for Radio Astronomy Research and Andrew Mummery of the Institute for Advanced Study uses tidal disruption events as a workaround. In a tidal disruption event, a star wanders too close to a supermassive black hole and is shredded. Debris then forms a compact disk that can evolve in years rather than millennia — a human-length movie of a giant black hole feeding.
+A Nature Astronomy paper by Adelle Goodwin, of Curtin University’s International Centre for Radio Astronomy Research, and Andrew Mummery, of the Institute for Advanced Study, uses tidal disruption events to get a shorter film. A star passes too close to a supermassive black hole and is shredded. The debris forms a compact disk that can evolve in years rather than millennia. A human career is suddenly long enough.
 
-The team assembled optical, ultraviolet, X-ray, and radio observations of twenty such events, drawing on telescopes in America, Australia, India, South Africa, and space. In ten of those events they could model both the feeding rate and the timing of the radio outflow well enough to ask a precise question: at what stage of the meal does the jet turn on?
+They assembled optical, ultraviolet, X-ray, and radio data for twenty such events, from telescopes in America, Australia, India, South Africa, and in space. For ten of the twenty, the feeding rate and the timing of the radio outflow could both be modeled well enough to ask a sharp question: at what point in the meal does the jet start?
 
-## Two switches, one familiar threshold
+## Two moments, one of them familiar
 
-They found two distinct launching phases. The first is early, while the black hole is feeding at extreme, super-Eddington rates — more material than the theoretical limit where outward radiation pressure would balance gravity. The second comes much later, hundreds to thousands of days after the star is torn apart, when the feeding rate has fallen to about two percent of that Eddington limit.
+There are two launching phases in the sample. The first is early, while the black hole is feeding at super-Eddington rates — more inflow than the limit where outward radiation pressure would balance gravity. The second comes later, hundreds to thousands of days after the disruption, when the feeding rate has fallen to about two percent of that Eddington limit.
 
-That later mark is the result that travels. The same roughly two-percent threshold is already known to trigger a state change and a compact jet in stellar-mass black holes in the Milky Way. In the new sample, delayed radio flares clustered around that scale, while prompt flares clustered at or above the Eddington rate. The authors argue that one scale-invariant process, not two unrelated recipes, governs jet launching across this huge range of black-hole masses.
+The two-percent mark is the result that travels. Stellar-mass black holes in the Milky Way already change state and launch a compact jet near that same fraction. In the disruption sample, the delayed radio flares cluster around it. The prompt flares cluster at or above the Eddington rate. Goodwin and Mummery argue that one scale-invariant process covers both, across a huge range of black-hole mass. That argument is the interpretation. The clustering of the flares at those two rates is the measurement, and it rests on ten events, not on twenty.
 
-That also helps explain a puzzle around these events: why some supermassive black holes blast out a jet right after shredding a star, while others stay quiet for months or years and then suddenly fire. Different events can simply be caught at different points of the same feeding cycle.
+The same split offers a plain account of a known nuisance. Some disruptions launch a jet almost at once. Others go quiet for months or years and then flare in the radio. Those can be one feeding curve, sampled at different times, rather than two species of black hole.
 
-## Why a universal rule would matter
+## A forecast, with the holes left visible
 
-If the switch really is shared, jet launches stop looking like random eruptions and start looking like something astronomers can time. The paper offers a framework for predicting which black holes will launch jets and when, which could help observers point scarce telescopes — including the coming Square Kilometre Array — at the right moment instead of sampling blindly.
+If the shared switch is real, a jet launch has a preferred accretion rate, and observers can aim scarce telescopes — the Square Kilometre Array among them — at the moment the rate is due to cross it. The paper’s population check is consistent with that picture, and it should be quoted as a check, not as a new survey. Only a minority of these disks are expected to go super-Eddington, which lines up with prompt-radio detections of roughly 30 to 50 percent. About 40 percent are expected to pass the two-percent threshold inside an observable window of a few years, close to independent estimates of how often the delayed flares appear.
 
-A population check in the study finds that this picture also lines up with how often radio outflows are seen. Only a minority of tidal-disruption disks are expected to go super-Eddington, matching current prompt-radio detection rates of roughly 30–50 percent. About 40 percent are expected to pass through the two-percent threshold in an observable window of a few years, close to independent estimates of how often delayed radio flares appear.
+The holes: ten events had data good enough to time both the disk and the outflow. Strongly jetted, relativistic disruptions were left out, because the jet swamps the disk and the feeding rate cannot be measured the same way. The disk model is less trustworthy in the super-Eddington regime. The authors note that this uncertainty would tend to under-predict the feeding rate there, which would not erase the prompt, high-rate group. Launch dates assume a roughly constant outflow speed. Compact jets add more uncertainty.
 
-## What still needs care
-
-This is a carefully modelled sample, not a census of every black hole. Only ten events had data good enough to pin down both the disk and the outflow timing. Strongly jetted, relativistic disruptions were set aside because their light is dominated by the jet rather than a measurable disk. The disk model is also less trustworthy in the super-Eddington regime, though the authors note that this uncertainty would tend to under-predict feeding rates there, which would not erase the high-rate prompt-outflow group. Launch dates assume a roughly constant outflow speed, with extra uncertainty for compact jets.
-
-Treat the linked paper as the authority for the technical claims. The result is strong evidence that a shared accretion-rate threshold exists, not a guarantee that every quiet black hole will fire a jet on cue.
-
-## What to explore next
-
-The natural next question is to watch more tidal disruption events as they fade, and to see whether later radio outbursts keep arriving when the feeding rate crosses that same two-percent mark.
+So the claim to keep is a shared accretion-rate threshold, supported in a carefully modeled handful of disruptions, matching a threshold already used for stellar-mass black holes. It is not a promise that every quiet nucleus will fire on schedule. The Nature Astronomy paper is the fit. The Institute for Advanced Study’s note is Mummery’s institution telling the same story. The next watch is more disruptions, followed as they fade, to see whether the late radio outburst keeps arriving when the rate crosses two percent of Eddington.
 
 ### Exploding stars appear to keep an entire galaxy’s gas stirred up
 
@@ -209,6 +209,28 @@ The natural next question is to watch more tidal disruption events as they fade,
   - [Nature Astronomy — Supernova origin of galactic turbulence revealed by superbubbles](https://www.nature.com/articles/s41550-026-02981-9)
   - [Tsinghua University — Superbubbles drive turbulence in the Andromeda galaxy](https://astro.tsinghua.edu.cn/en/info/1026/2866.htm)
 
+Fuller note:
+
+## A hundred and eighteen bubbles, and a budget that matches
+
+Astronomers mapped 118 enormous bubbles in the Andromeda galaxy, blown into the gas by groups of exploding stars. The energy those bubbles carry lines up with the energy required to keep Andromeda’s gas turbulent. The paper is in Nature Astronomy, published 17 September 2026: “Supernova origin of galactic turbulence revealed by superbubbles.” Tsinghua University’s note, “Superbubbles drive turbulence in the Andromeda galaxy,” is the other source.
+
+Turbulence here is not a metaphor. Gas in a galaxy moves in disordered flows at many scales. That motion holds clouds up, sets how fast they collapse into stars, and mixes metals from dead stars into the next generation. Something has to keep driving it. Ordered rotation does not, by itself, maintain a galaxy-wide fizz. The drivers usually on the list are gravity, magnetic fields, inflowing gas, and stellar feedback — winds and supernovae from massive stars. Proving one of them can carry the whole budget, across a whole galaxy, has been the hard part. A simulation can be told to do it. A galaxy has to be mapped.
+
+## What a superbubble is
+
+One supernova digs a cavity. A group of massive stars, born together, explodes over a few million years and the cavities merge. The result is a superbubble: a shell of swept-up gas around a hotter, thinner interior, tens or hundreds of light-years across, sometimes more. Andromeda is close enough, and inclined in a way that helps, that 118 of these shells can be picked out and their energies added up. The sum matching the turbulent energy is the result. “Closely matches” is the notebook’s wording and should stay at that precision. This note will not invent a percentage.
+
+The match is what lets the authors say the supernovae are sufficient, not merely present. Sufficiency is still a step. Other drivers could contribute, and the bubbles could be the visible part of a mix. The paper’s title is stronger than “contribute.” It says the origin is revealed, and that the origin is supernovae, via the superbubbles. A reader who wants the error bars and the alternative drivers belongs in the Nature Astronomy article. Tsinghua’s note is the group’s own summary of the same map.
+
+## Death as a supply of motion
+
+The loop is why this is more than a gas-dynamics paper. Stars form from the gas. The massive ones die and stir the gas. The stirred gas forms the next stars, with a different efficiency than still gas would have had. Andromeda is one galaxy, a spiral we can resolve, not a cosmic average. The hydrogen note in this notebook is the average: star formation down, atomic gas still around, efficiency as the suspect. Andromeda is a look at one machine that can change that efficiency, running in a neighbor we can actually dissect.
+
+118 is a counted population. It is not “all the feedback in Andromeda,” and it is not a claim about every spiral. A dwarf galaxy, or a galaxy with a violent black hole, may balance its turbulence differently. The scope is this map, this energy comparison, this galaxy.
+
+If you only keep two sentences: groups of exploding stars have inflated 118 giant bubbles in Andromeda’s gas, and the energy in those bubbles is about what the galaxy’s turbulence requires. The first sentence is the map. The second is the comparison the authors use to name the driver. Both live in the paper. The superbubble, as an object, is the thing to look at next — a cavity made by a crowd of massive stars, not by one explosion, and large enough that the motion it leaves behind is a galactic fact rather than a local scar.
+
 ### The Solar System sorted its planet-building ingredients from the very beginning
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-19_solar-system_planetesimal-sorting/
@@ -222,6 +244,28 @@ The natural next question is to watch more tidal disruption events as they fade,
 - Sources:
   - [Nature Astronomy — Planetesimal compositions governed by aerodynamic sorting from the onset of Solar System formation](https://www.nature.com/articles/s41550-026-02976-6)
   - [Yale University / Phys.org — From the start, the solar system chose fire over ice to build its first bodies](https://phys.org/news/2026-09-solar-chose-ice-bodies.html)
+
+Fuller note:
+
+## The first rocks were already a sorted sample
+
+Meteorites are the leftovers of the first small bodies, the planetesimals, broken up and delivered to Earth. Their chemistry, in a Nature Astronomy paper published on 18 September 2026, says the sorting started within the Solar System’s first million years. The earliest of those bodies were already enriched in heat-processed rocky beads and depleted in the fine, ice-rich dust that shows up more strongly in bodies that formed later.
+
+The beads are chondrules: millimeter-scale droplets of melted rock, cooled quickly, later glued into larger stones. “Heat-processed” in the notebook’s summary means that melting happened before the planetesimal assembled. The fine dust is the other ingredient, colder, often carrying ice and the unmelted grains. A body built from an excess of chondrules and a deficit of that dust did not form from a random scoop of the disk. Something had already separated the ingredients.
+
+The paper’s title is the mechanism the authors favor: aerodynamic sorting. In a gas disk, solids of different sizes feel drag differently. Small dust stays coupled to the gas. Larger beads drift, concentrate, and can be gathered into clumps while the fines are left behind or arrive later. Yale’s account, republished by Phys.org, frames the same result as the early Solar System choosing heat-processed rock over ice for its first bodies. The frame is vivid. The measurement is the meteorite mix and its timing.
+
+## Timing is the part that changes the story
+
+“Within the first million years” is early even by disk standards. The gas disk around the young Sun lasts a few million years, not a few hundred million. If the first planetesimals are already a sorted, chondrule-rich population at the one-million-year mark, then planet formation did not begin with a well-mixed sludge that only later differentiated. The separation of materials is part of the birth of the small bodies, not a cleanup that happened after planets existed.
+
+Later bodies, with more of the fine ice-rich dust, then sample a disk that had evolved, or a region the early sorting did not empty. The inner Solar System’s dry asteroids and the outer Solar System’s icy ones are the grown-up version of a contrast that, on this result, was already underway at the planetesimal stage. Do not let that rhyme become a proof. The paper is about the earliest small worlds’ compositions. It is not a new map of every asteroid class.
+
+## What is measured, and what is the drag model
+
+Measured, via meteorite chemistry: early planetesimals, unusually rich in once-molten rocky beads, poorer in fine icy dust than the bodies that formed after them, and a clock that puts this inside the first million years. Interpreted: aerodynamic sorting in the gas disk governed those compositions from the outset, which is the claim in the title and the claim a reader should pressure-test in the paper. Drag is a well-established disk process. Applying it as the governor of these particular meteorite groups is the authors’ step. Other ways to concentrate chondrules exist. The paper is arguing this one fits.
+
+Phys.org is a secondary write-up of the Yale account, not a second dataset. Nature Astronomy (the article linked in the sources) is the authority for the chemical argument and the timing. The next mechanism to understand, if this one holds, is the drag law itself: which particle sizes move which way, and how a disk that is mostly gas ends up building the first rocks out of the beads it has already melted.
 
 ### Astronomers confirmed the youngest known planet — and it is still being born
 
@@ -237,6 +281,26 @@ The natural next question is to watch more tidal disruption events as they fade,
   - [NASA Science — Newfound ‘Baby’ Planet Smashes Record for Youngest Known World](https://science.nasa.gov/universe/newfound-baby-planet-smashes-record-for-youngest-known-world/)
   - [The Astrophysical Journal Letters — study published September 16, 2026](https://iopscience.iop.org/journal/2041-8205)
 
+Fuller note:
+
+## A Jupiter-mass world that is still gaining weight
+
+Elias 2-24 b is a confirmed planet of about Jupiter’s mass, less than a million years old. NASA calls it the youngest known planet. It is still inside the disk of gas and dust around its star, still growing. The announcement is dated with a paper in The Astrophysical Journal Letters published on 16 September 2026. NASA’s science write-up is the detailed public account linked from this note. The journal link in the sources points at the Letters journal itself; the specific article is what a reader should open from NASA’s citation, not a DOI invented here.
+
+“Confirmed” matters. Disks are full of clumps, spirals, and instrument artifacts that have been mistaken for planets. A confirmation means the object survived the checks that separate a planet from a disk feature: usually a second look, a motion consistent with an orbit, a brightness and a location that fit a body rather than a puff of dust. The notebook does not re-litigate those checks. It records that the confirmation exists, and that the age is under a million years.
+
+## Why the age breaks a schedule
+
+The previous youngest known planets were already more than five million years old. Five million years is not long in the life of a star. It is long compared with the gas in a disk, which is leaving the whole time, as the disk-wind note in this notebook describes. Giant planets have to gather their atmospheres before that gas is gone. Models have had trouble building a Jupiter even on the five-million-year clock. An object that is already Jupiter-mass at under one million years says the assembly can finish, or at least reach that mass, earlier than those models were set up to allow.
+
+“Finish” is too strong. NASA’s point, and the notebook’s, is that the planet is still being born. Mass is arriving. The disk is still there. What we have is a lower limit on how fast the early growth can be, not a full history of the planet’s formation. Some of the mass may have been gathered very quickly in a gravitational collapse of a disk fragment. Some may have been gathered by a solid core that then pulled in gas. Both routes are discussed in the field. This note does not assign Elias 2-24 b to either one. The sources used here do not settle it in a sentence I can repeat as fact.
+
+## A gap in the story, named as a gap
+
+The useful claim is the one in the notebook’s “why it matters.” Existing models struggled with giant planets at five million years. This one is younger than that and already heavy, and it is available to watch because the disk has not vanished. So an early chapter of giant-planet growth is missing from the models, or is present and too slow. That is a statement about the models. The planet itself is not missing. It is in the disk around Elias 2-24, at Jupiter’s mass, younger than a million years.
+
+Gaps in disks are the usual way an embedded planet advertises itself. A planet torques the gas and opens a lane. Dust drifts to the edges and the lane shows up in millimeter images, sometimes before the planet is detected directly. Elias 2-24 b is past that hint stage: it is confirmed, and it is young enough that the lane, if it has one, is a construction site rather than a fossil. The NASA release is the place to see how the confirmation was made. Until you have read it, do not add a radius, a separation, or a formation pathway that this notebook has not taken from the sources.
+
 ### Simulations may explain how the Universe grew giant black holes so quickly
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-17_black-holes_little-red-dots-heavy-seeds/
@@ -249,6 +313,30 @@ The natural next question is to watch more tidal disruption events as they fade,
 - Explore further: [Nature: Overmassive black holes and little red dots naturally form in simulations](https://www.nature.com/articles/s41586-026-10985-8)
 - Sources:
   - [Nature](https://www.nature.com/articles/s41586-026-10985-8)
+
+Fuller note:
+
+## A simulation of a head start
+
+Giant black holes show up early. JWST finds them, and finds the compact red sources called little red dots, at times when a black hole that started stellar-sized and ate at a polite rate should not yet be enormous. A Nature paper published on 16 September 2026 reports a simulation in which the early universe grows those objects anyway. The route: unusually massive first stars collapse into large black-hole seeds, and those seeds then grow extremely quickly for a short time. The output looks like the little red dots.
+
+Read the verb. This is a simulation. It is not a spectrum of a named object, and it is not a detection of a first-generation star. The notebook’s own summary says so, and it should keep saying so. The Nature paper is the only source attached to this note. There is no separate observatory release in the file to lean on.
+
+## What the run is claiming, piece by piece
+
+Piece one is the seed. If the first stars are unusually massive, the black holes they leave are large from the start. “Unusually” is doing the work of a whole set of assumptions about how those stars formed: less fine fragmentation, rapid accretion of the surrounding gas, a different cooling history in metal-free clouds. Those assumptions live inside the simulation. They are not new observations delivered by this paper.
+
+Piece two is a brief episode of very fast growth. A seed buried in dense gas can accrete furiously until the gas is cleared or the supply thins. In that window the black hole gains mass at a rate that looks outrageous compared with a later, gas-poor galaxy. The window ends. You do not need the black hole to eat at that rate for a billion years. You need it for a short, early stretch.
+
+Piece three is the resemblance. The simulated objects come out similar to little red dots: compact, red, and easier to explain if a lot of the light is tied to a growing black hole rather than to a mature galaxy of ordinary stars. Similarity is a comparison the authors are offering. It is not an identification of any particular dot.
+
+## How this sits next to the black-hole-star note
+
+Another note in this notebook, on MoM-BH*-1, is about an observed source that may be a black hole wrapped in a dense gas cocoon, and about the argument that little red dots could be that kind of object. This paper is a formation channel that could supply the black holes those dots might contain. The two results rhyme. They are not the same evidence. One is a spectrum and a fit. The other is a simulation that grows seeds and then looks at the mock population.
+
+If the channel works, the “how did they get so big so fast” problem is less severe, because the seeds were never small and the growth spurt was front-loaded. If the first stars were not that massive, the channel does not open, and the problem stands. The paper’s contribution is to show that rapid growth can fall out of a dense early environment once you grant the heavy seeds. Granting them is the interpretive step. The early black holes JWST sees are the observational problem the step is meant to ease.
+
+Treat the Nature article as the authority for what the simulation included and what it produced. Do not promote it to a discovery of heavy seeds in the sky. The dots remain the clue. This run is one way the clue can be produced without breaking the timeline.
 
 ### Webb finds objects barely heavier than Jupiter that formed like stars
 
@@ -263,6 +351,28 @@ The natural next question is to watch more tidal disruption events as they fade,
 - Sources:
   - [NASA Science](https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/)
   - [ESA Webb](https://esawebb.org/news/weic2619/)
+
+Fuller note:
+
+## Below the mass the models wanted
+
+Webb has found brown dwarfs with masses down to about twice Jupiter’s. They are the least massive brown dwarfs known, and they are lighter than current star-formation models expected to be able to make. NASA and ESA both put the result out on 15 September 2026. NASA’s page is filed under a wider Webb panorama of star formation. The brown-dwarf mass floor is the piece this note is about.
+
+A brown dwarf forms the way a star forms. A cloud collapses. The object gets hot in the middle. It never gets hot enough, or massive enough, for sustained hydrogen fusion, which is the criterion that separates a star from everything lighter. Planets, in the other column, form inside a disk around a star, from the bottom up, by gathering pebbles and gas. The two recipes can produce similar masses. Jupiter is the local proof that a disk can build something huge. Twice Jupiter’s mass, formed from a collapsing cloud, is the proof in the other direction: the cloud recipe does not stop where the textbooks had been comfortable.
+
+## What was expected, and what was found
+
+The expectation was a minimum mass for cloud collapse. Below it, the cloud was supposed to fragment no further, or the piece was supposed to fall onto a neighbor instead of becoming its own object. The new objects sit under that line. NASA’s wording, which this notebook follows, is that they are smaller than the models expected. That is a conflict with the model, not yet a replacement model. Someone still has to say which assumption failed: the temperature of the cloud, the magnetic field, the turbulence, the dust that cools the gas, or the numerical floor of the simulation.
+
+“About twice Jupiter” should stay approximate. Masses for these objects are inferred from brightness, age, and atmosphere models. Brown-dwarf atmospheres are messy, and a young one is brighter than an old one of the same mass. Move the age and the mass moves. The paper, not this summary, is where the error bar lives. ESA’s Webb note (weic2619) and NASA’s science release are the accounts linked from the notebook. Use them, and the paper they point to, before quoting a mass to more than the precision given here.
+
+## Why the boundary is a scientific problem, not a naming quarrel
+
+If cloud collapse can make an object of two Jupiter masses, then a free-floating object in a star-forming region cannot be filed as “planet” or “failed star” from the mass alone. You need the birthplace. An object inside a disk, below the gap a planet carves, is a planet by formation. An object out in the cloud, with no star, can be a brown dwarf even when a Jupiter would outweigh half of it. Surveys that only have a mass, especially of isolated objects in young clusters, inherit that ambiguity.
+
+The find also presses on the simulations that set the floor. Those simulations are used to predict how many brown dwarfs a region should contain, and how the stellar mass function behaves at the bottom. If nature goes lower, the predicted counts are wrong, and any star-formation theory tuned to the old floor is tuned to the wrong number.
+
+Nothing in the release says these objects have planets, or that Jupiter itself formed this way. Jupiter has a star. These do not need one. The overlap is the mass, and the mass is exactly what we had been using as a shortcut. Webb’s images are what made the shortcut fail in public. The next useful question is the one the notebook already asks: where star formation ends, where planet formation begins, and which observations can tell the two apart when the scale is this small.
 
 ### Growing black holes may help create stars as well as shut star formation down
 
@@ -279,6 +389,28 @@ The natural next question is to watch more tidal disruption events as they fade,
   - [The Astrophysical Journal](https://doi.org/10.3847/1538-4357/ae9956)
   - [scinexx](https://www.scinexx.de/news/kosmos/schwarze-loecher-koennten-sternbildung-mit-anstossen/)
 
+Fuller note:
+
+## The same pattern, nine times
+
+Astronomers looked at nine nearby galaxies with actively feeding central black holes and found the same arrangement: rings of new stars, and, alongside them, regions of disturbed gas. The study was published in The Astrophysical Journal and announced by the Center for Astrophysics | Harvard & Smithsonian on 14 September 2026. The DOI is 10.3847/1538-4357/ae9956. A German-language account at scinexx carries the same result.
+
+Nine is not a huge sample. It is large enough that a repeated geometry is hard to dismiss as one galaxy’s quirk. The black holes are not quiet. They are accreting, which means gas is reaching the center and radiation and winds are coming back out. In the usual cartoon, that output heats gas or blows it away, and star formation shuts down. The cartoon is not wrong as a possibility. It is incomplete if the same galaxies also show new stars in rings.
+
+## What was seen, and what is being inferred
+
+Seen: rings of young stars, disturbed gas, and black-hole activity, together, in all nine systems. Inferred: the activity that stirs the gas can also compress some of it, and the compressed gas forms the stars in the ring. Compression is a physical step between “disturbed” and “a new star.” The observations show the endpoints — disturbed gas, young stars, an active nucleus — lined up in space. They do not show the gas parcel being squeezed and then lighting up. The inference is reasonable. It is still an inference.
+
+Feedback is the name for this two-way influence. Energy leaves the vicinity of the black hole and changes the galaxy’s gas. Suppression is the famous direction. Triggered or assisted star formation is the other direction, discussed for decades and harder to catch cleanly, because young stars have other reasons to form in rings. A bar in the galaxy, or a resonance in the disk, can pile gas into a ring without any help from the black hole. The paper’s case is that the black-hole radiation and the shocked gas sit in the same pattern as the rings, across nine galaxies, which would be a coincidence if the nucleus were irrelevant. “Would be a coincidence” is the structure of the argument. Read the ApJ paper for how they tried to rule the coincidence out.
+
+## Why the destroyer picture sticks, and why it should loosen
+
+Black holes are easy to narrate as destroyers because the energy numbers are so one-sided. A small fraction of the rest mass of accreted gas, released as light and kinetic power, rivals the output of the galaxy’s stars. That power can empty a halo. It can also hit a cloud and shove it into collapse if the geometry is a shell or a ring rather than a direct hit. Both outcomes can be true in different places in the same galaxy, at the same time. The nine-galaxy pattern is evidence that the second outcome is common enough to show up as a repeated structure, not a one-off.
+
+Nothing here says black holes are net producers of stars, or that they built these galaxies. It says the local effect is mixed: suppression in some gas, star formation in the ring. A net budget would need masses and rates this note does not take from the press release.
+
+The CfA announcement is the clearest secondary account. The ApJ article is the authority for the measurements. scinexx is an additional report, not an independent dataset. The useful next idea is feedback as a map, not a switch: where the energy goes, and which gas it hits, decides whether the next generation of stars is smaller or gets a push.
+
 ### NASA and IBM built an AI map-reader for the Moon
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-14_solar-system_lunar-ai-model/
@@ -293,6 +425,30 @@ The natural next question is to watch more tidal disruption events as they fade,
   - [NASA Science](https://science.nasa.gov/science-research/artificial-intelligence-lunar-foundation-model/)
   - [IBM Research](https://newsroom.ibm.com/2026-09-10-ibm-and-nasa-release-open-source-ai-model-to-support-lunar-exploration)
 
+Fuller note:
+
+## A model trained on maps, released for other people to run
+
+On 10 September 2026 NASA announced an open-source Lunar Foundation Model built with IBM. It was trained on years of Moon observations. The stated uses are practical: find patterns across lunar datasets that are too large to scan by eye, help map craters, flag unusual volcanic features, and estimate where ice may be stable near the poles. NASA’s science page and IBM’s newsroom note are the two sources for this entry. Both describe a tool. Neither describes a new patch of ground truth that the model discovered on its own and that lunar scientists have already confirmed.
+
+That distinction is the whole note.
+
+The Moon is already one of the best-mapped bodies we have. Orbiters have spent years on topography, composition, temperatures, and radar. The pile is larger than a person can re-inspect every time a question changes. A foundation model, in the sense NASA and IBM are using, is a general model trained once on that pile so later, smaller jobs can start from it instead of from scratch. Crater mapping is one job. Volcanic oddities are another. Polar ice stability is a third, and it is the one with a mission attached to it in everyone’s head, because crews and drills care where ice can persist.
+
+## What “estimate where ice may be stable” does not mean
+
+It does not mean the model tasted the ice. Stability is a calculation from temperature, sunlight, and depth: where ice, if it is there, would not sublime away. Permanently shadowed craters near the poles are the classic places, cold enough for billions of years, dark because the rims block the Sun. Radar and neutron data have pointed at hydrogen in some of them. A model that combines maps can highlight where those clues agree, and where a map is weird. Agreement is a lead. A lead is not a core sample.
+
+Unusual volcanic features are a similar kind of lead. The Moon’s volcanic history is written in flows, domes, and channels. A model can be good at saying “this patch does not look like the neighbors.” A geologist still decides whether the patch is a new kind of eruption or a trick of the lighting and the resolution.
+
+## Open source is part of the result
+
+IBM and NASA released the model so other groups can run it. That is a different product from a paper that reports one map. The value depends on whether lunar scientists adopt it, retrain it, and publish the checks. Until those checks exist, the honest inventory is: a model, trained on existing observations, aimed at craters, volcanic anomalies, and polar cold traps, available to reuse.
+
+There is a failure mode worth naming. Foundation models smooth. They can blur the rare thing you wanted, or invent a crisp boundary the data did not have. Crater counts and ice maps are exactly the products that get quoted later in mission plans. Anything that comes out of this model needs the same skepticism as a hand-drawn map, plus a check against the original pixels.
+
+NASA’s announcement page is the authority for what the agency says the model can help do. IBM’s release note is the industry account of the same launch. Use them for the scope. Use later papers, not this notebook, for any specific crater or any specific ice claim the model is said to have made.
+
 ### Half of all neutron stars may be born as magnetars
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-13_stars-magnetars-neutron-stars/
@@ -306,6 +462,30 @@ The natural next question is to watch more tidal disruption events as they fade,
 - Sources:
   - [Nature Astronomy](https://www.nature.com/articles/s41550-026-02915-5)
   - [Institute of Space Studies of Catalonia (IEEC)](https://www.ieec.cat/en/half-of-the-neutron-stars-could-be-magnetars/)
+
+Fuller note:
+
+## Half, from a population model, not from a headcount
+
+A Nature Astronomy paper published on 10 September 2026 concludes that magnetars may be about half of all neutron stars at birth. The work was led by Celsa Pardo Araujo and Nanda Rea, with co-authors Ronchi and Graber, at the Institute of Space Studies of Catalonia and the Institute of Space Sciences in Barcelona. It is a population synthesis: a simulation of how neutron stars evolve from the supernova that makes them to the objects we catalog now. It is not a new survey that classified half the neutron stars in the Milky Way one by one.
+
+Neutron stars are what some massive stars leave behind. In the Milky Way, the IEEC account says, there are on the order of a hundred billion stars, and about one percent of them — roughly a hundred million — are neutron stars. Magnetars are the subset with exceptionally strong magnetic fields. They have been treated as rare. Rare made it awkward to blame them for the rates of superluminous supernovae, gamma-ray bursts, and fast radio bursts, all of which need a powerful central engine often enough that a scarce magnetar population struggles to keep up.
+
+## One model for objects that used to be filed separately
+
+Earlier tallies tended to treat radio pulsars, magnetars, central compact objects, and X-ray isolated neutron stars as separate boxes. There are evolutionary links between those boxes. A magnetar can spin down, its field can decay, and it can spend part of its life looking like something else. If you ignore the links, you mis-count the birth fraction.
+
+This paper puts the main types of isolated neutron stars into one framework. It folds in how they are distributed in the galaxy, how they spin down, how they cool, how their fields evolve, and the biases of the observations that find them. From that, the authors infer both the magnetar fraction and the supernova rate the Milky Way needs.
+
+The rate part is a check, not a footnote. Core-collapse supernovae from stars of roughly 8 to 25 solar masses are what produce these remnants. To match the neutron stars we actually detect, the models need more than two such explosions per century in the observed population. The team gets a rate two ways: from supernova remnants, and from the neutron-star counts. With that rate in hand, the birth fraction that fits is around 50 percent. Pardo Araujo’s conclusion is that magnetars would then be common enough to power a significant share of those bright transients.
+
+## What “around 50 percent” is allowed to do
+
+It is an average from a model that reproduces galactic observations. Change the field-decay law, or the beaming, or the supernova rate, and the percentage can move. The paper’s claim is that a large fraction is no longer an exotic extra. It is what the unified model prefers. Previous studies that assumed magnetars were rare were using a narrower bookkeeping.
+
+Rea points at the obvious next test: other galaxies. The same synthesis could predict a magnetar population, then compare it with the observed rates of superluminous supernovae, fast radio bursts, and gamma-ray bursts outside the Milky Way. That comparison needs each galaxy’s star-formation history, because the supernova rate will not match ours. Until that is done, the 50 percent is a Milky Way inference.
+
+The Nature Astronomy article is the authority for the model and the fraction. The IEEC note is a clear secondary account. Neither is a catalogue of new magnetars. If you want the observational counterparts, they are still the galactic pulsars and the transient surveys. This paper is about whether those counterparts can be the same objects seen at different ages, born common rather than rare.
 
 ### Astronomers caught one of the Universe’s largest structures still being built
 
@@ -322,6 +502,30 @@ The natural next question is to watch more tidal disruption events as they fade,
   - [Rutgers University](https://newbrunswick.rutgers.edu/news/scientists-see-one-universes-largest-structures-taking-shape)
   - [The Astrophysical Journal](https://doi.org/10.3847/1538-4357/ae8091)
 
+Fuller note:
+
+## A structure with the scaffolding still showing
+
+COSMOS-z3.1-A is a young, enormous gathering of galaxies, mapped when the universe was only a few billion years old. It contains many dense groups that have not finished falling together. NSF NOIRLab’s announcement calls it the earliest, most distant proto-supercluster yet identified. The paper is in The Astrophysical Journal, 8 September 2026, DOI 10.3847/1538-4357/ae8091. Rutgers is the other institutional account attached to this note.
+
+The name carries a redshift. The “z3.1” is the survey’s label for how far back the light started, in the COSMOS field, a patch of sky that has been photographed in nearly every band astronomers use. A proto-supercluster is not a finished supercluster with a single collapsed core. It is the stage before that: groups and clusters already denser than average, still separated, destined to merge if the map has been read right.
+
+“Destined” is the interpretation. The observation is the map: many over-dense groups, at this distance, tied together by their positions and redshifts into one structure rather than a chance alignment on the sky. Chance alignment is the usual skeptic’s alternative for anything huge and far away. A spectroscopic map is how you kill it. The ApJ paper is where that argument has to succeed.
+
+## Why the unfinished version is the useful one
+
+A nearby supercluster is a result. You can weigh it, roughly, and argue about its edges, and you cannot watch it assemble. An early proto-supercluster is the assembly. Gravity is supposed to grow the cosmic web from small lumps into filaments, then into clusters, then into superclusters, over most of the age of the universe. Seeing the intermediate object tests the timetable. If structures this large are already outlined when the universe is only a few billion years old, the seeds and the growth rate have to allow it. If the mass in those groups is later revised down, the record moves.
+
+This note does not add a mass or a galaxy count beyond what the sources given here state. “Many dense groups,” “enormous,” “earliest and most distant yet identified” — those are the claims to keep, and the last one is a record claim that depends on how earlier candidates were defined. Records move when the definition moves. NOIRLab’s wording is the public version of the record. The paper is the version that shows the selection.
+
+## Groups, clusters, superclusters
+
+A group is a handful of galaxies. A cluster is hundreds or thousands, often with a soup of hot gas. A supercluster is a complex of clusters, stretched along the web, not always bound as one object for all future time. “Proto” means the pieces are identified and the mergers are still ahead. COSMOS-z3.1-A is being offered as that middle object, seen early.
+
+The cosmic web is the context, not a second discovery. Galaxies trace filaments of dark matter and gas. Overdense knots on those filaments are where clusters grow. A proto-supercluster is several knots caught in the same large pattern. Mapping one at this distance says the pattern was already in place, which is a statement about initial conditions as much as about the galaxies themselves.
+
+Rutgers’ headline, “one of the universe’s largest structures taking shape,” matches the notebook’s. Taking shape is the right verb. It is not a claim that the supercluster has collapsed, or that every galaxy now inside the map will end in the same cluster. Follow the three sources — NOIRLab, Rutgers, and the ApJ article — if you need the field, the redshifts, and the overdensity cuts. Those cuts are what make “structure” a measurement instead of a picture.
+
 ### Tiny worlds beyond Neptune still carry fingerprints from the Solar System’s birth
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-11_solar-system_tiny-worlds-beyond-neptune/
@@ -335,6 +539,32 @@ The natural next question is to watch more tidal disruption events as they fade,
 - Sources:
   - [NASA Science](https://science.nasa.gov/missions/hubble/nasas-hubble-webb-find-far-out-solar-system-objects-remember-past/)
   - [NASA Scientific Visualization Studio](https://svs.gsfc.nasa.gov/15092)
+
+Fuller note:
+
+## Twenty-seven points of light, smaller than the survey expected
+
+Hubble and Webb, used together, found 27 previously unknown worlds beyond Neptune. Some are among the smallest ever seen directly. The smallest diameter in NASA’s account is about 5 kilometres, roughly 3 miles, about five times smaller than sensitive ground-based surveys can pick out. One of them is as faint, NASA says, as a swarm of fireflies on the Moon seen from Earth. Two papers in The Astronomical Journal, out with NASA’s 8 September 2026 announcement, cover color and composition on one side and the size distribution on the other.
+
+These are trans-Neptunian objects, TNOs. They orbit outside Neptune. Most of the population is more than 100 million times dimmer than a star you can see by eye. Beyond Neptune, the disk of dust and pebbles built city-sized planetesimals and then stopped. The later mergers that made planets did not finish out there. What remains is a cold archive of the building blocks.
+
+The teams were led by PhD candidates at the University of Victoria, with the National Research Council of Canada, and at Northern Arizona University. Anastasia Morgan at NAU led the color and composition study. Marielle Eduardo at Victoria led the sizes. David Trilling at NAU is a co-author. Hubble took the visible light. Webb took the infrared. Color, in this game, is a rough fingerprint of the surface ices and reddening material. Orbits tell you which dynamical family an object belongs to.
+
+## They still look like the big ones
+
+The prior expectation was that small TNOs would be battered. Collisions should have refreshed or altered their surfaces, so the tiniest bodies ought to have different colors from Pluto-scale objects. They do not. The small ones follow the same color relations as the larger family members.
+
+There are two dynamical families in the sample. “Cold” TNOs are on rounder orbits in the plane, thought to be near where they formed. “Hot” TNOs are on tilted, stretched orbits. They are thought to have formed between Uranus and Neptune and been scattered outward when the giant planets migrated. Both families kept the colors of their birthplaces. Trilling’s point is that the hot ones still carry a signature of where they formed, after the orbits were scrambled. Morgan’s is that the smallest objects are “remembering” the formation history that collisions were supposed to erase.
+
+Eduardo’s size result is the other surprise. The distribution of sizes is similar for the hot and the cold populations, even though they formed in different parts of the disk. And there are fewer very small bodies than some planet-formation models predicted. Webb is what reached those sizes. The shortage is relative to the models, not a claim that the belt is empty.
+
+## Two readings, both still open
+
+The color match can mean collisions are rarer than expected, or that collisions happen and the surface composition survives them anyway. The teams have not separated those. The similar size distributions can mean planetesimal formation does not care much whether the disk was hot or cold, dense or fluffy. That is Eduardo’s suggestion, and it is a suggestion about a process, drawn from one deep patch of sky.
+
+This is not a full census of the Kuiper belt. It is the deepest look so far at the faint end, in one field, with two telescopes that see different wavelengths. NASA’s Scientific Visualization Studio piece is the visual companion to the science release. The Astronomical Journal papers are the authority for the photometry and the size function.
+
+The archaeological value is real and limited. These leftovers changed less than the collision story predicted, so their surfaces are a cleaner record of the disk than a heavily reprocessed population would be. Cleaner is not complete. Orbits were scrambled for the hot family. Sizes may have been. The ice chemistry is what seems to have held.
 
 ### Astronomers found a hidden class of some of the most energetic objects in galaxies
 
@@ -350,6 +580,32 @@ The natural next question is to watch more tidal disruption events as they fade,
   - [Nature Astronomy](https://www.nature.com/articles/s41550-026-02959-7)
   - [NASA Chandra X-ray Observatory](https://science.nasa.gov/missions/chandra/nasas-chandra-unveils-mysterious-x-ray-objects/)
 
+Fuller note:
+
+## Eighty-four objects that were easy to miss
+
+A search through old observations from NASA’s Chandra X-ray Observatory turned up 84 objects in six galaxies. They had been easy to skip because most of their energy comes out as ultraviolet light, in a band that is miserable to observe, rather than as the X-rays Chandra is famous for catching. The Nature Astronomy paper, published on 9 September 2026, calls the class hypersoft X-ray sources: a low-energy end of the luminous compact emitters. NASA’s Chandra write-up is the other account in this note.
+
+“Hypersoft” is a spectrum word. Soft X-rays are the lower-energy ones. These sources are softer still, piled up at the edge of what an X-ray telescope records, with the bulk of the power in the extreme ultraviolet. If your pipeline is tuned for harder sources, you under-count them. That is a selection effect, and it is why a hidden class can sit in an archive.
+
+## The identity is not known
+
+The paper does not say what they are. The working idea, reported as a possibility, is a dense stellar remnant pulling material off a companion: a white dwarf, a neutron star, or a black hole, with a disk or a stream that radiates at these low energies. Accretion makes soft spectra when the inner flow is not extremely hot, or when the viewing angle and the absorption cooperate. Several kinds of remnant can do that. The spectra in hand do not yet sort them.
+
+Two consequences are why the class is worth a note, and both are conditional.
+
+Some of the white-dwarf versions could be on the way to a Type Ia supernova. A white dwarf that gains mass from a companion can approach the mass where it detonates. Those explosions are the standard candles used to measure cosmic expansion. A missing population of the systems that precede them is a missing part of the candle factory. “Could be” is not a count of how many of the 84 will explode, or when.
+
+The ultraviolet light is the other consequence. Extreme UV ionizes gas between stars. If a galaxy contains more of these sources than the X-ray catalogues suggested, the energy budget of that gas changes. Again: a plausible role, not a measured fraction of the ionizing field.
+
+## What to hold onto
+
+Hold onto 84 sources, six galaxies, an archival search, a spectrum that peaks in a hard-to-see ultraviolet band, and an open identification. Let go of any sentence that names a single remnant as the answer. Chandra can find the soft X-ray tail. It cannot, from these data alone, weigh the compact object or watch the companion.
+
+NASA’s write-up is clear that the objects had largely escaped notice. That is the observational point. The stellar-evolution point is the possible place they occupy between ordinary binaries and the explosions or the ionized gas astronomers already study. Filling a gap in a sequence is useful even while the objects at the gap stay unclassified.
+
+The Nature Astronomy article is the authority for the sample and the spectra. Until a follow-up pins the compact-object mass, or catches a supernova in one of these galaxies and ties it back, the remnant story stays a candidate list: white dwarf, neutron star, black hole, each with a companion, each still allowed.
+
 ### Mysterious cosmic flashes can reveal where the Universe hides its ordinary matter
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-09_cosmology_fast-radio-bursts-hidden-matter/
@@ -363,6 +619,32 @@ The natural next question is to watch more tidal disruption events as they fade,
 - Sources:
   - [Nature Astronomy](https://www.nature.com/articles/s41550-026-02957-9)
   - [Caltech](https://www.caltech.edu/about/news/fast-radio-bursts-poised-to-help-with-biggest-cosmic-mysteries)
+
+Fuller note:
+
+## A flash, then a fog
+
+Fast radio bursts last milliseconds. They arrive from other galaxies, and on the way they cross gas that is too thin to see easily. That gas slows lower radio frequencies more than higher ones. The delay is a dispersion measure: a count of the electrons along the path. More electrons, more delay. A burst becomes a backlight.
+
+A Nature Astronomy paper published on 8 September 2026, “Signatures of suppressed matter clustering revealed by fast radio bursts,” uses a sample of about 100 of these bursts to measure how clumpy ordinary matter is on the large scales around and between galaxies. Kritti Sharma, a graduate student at Caltech working with Vikram Ravi, led the study. Elisabeth Krause at the University of Arizona is a co-author. Caltech’s news piece is the secondary source.
+
+Ordinary matter here means baryons: protons, neutrons, the stuff of gas and stars and people. A large share of it is not in galaxies. It is spread through the cosmic web, and through the halos just outside galaxies, where it is ionized and faint. Dispersion does not care that it is faint. Electrons are electrons.
+
+## The measurement is a smoothing, smaller than the X-ray one
+
+Galaxies push this gas around. Central black holes blow winds. Supernovae dump energy. The process is called feedback, and it moves gas outward, which makes the matter distribution smoother. Smoother matter looks, in a cosmological analysis, a lot like the signature of massive neutrinos, or like some versions of dark energy and dark matter. If you cannot measure the feedback piece on its own, you cannot tell those effects apart. Ravi’s group is blunt about that resemblance.
+
+What this sample shows: feedback does smooth the gas, and it does so less than earlier measurements from the eROSITA X-ray telescope and from the Atacama Cosmology Telescope. That “less” is the result. It is the first time FRBs have been used to measure the feedback impact on clumping directly, in the regions around and between galaxies. Krause’s comparison is that the constraint is already competitive with those X-ray and microwave surveys, from only about 100 bursts.
+
+The bursts’ own engines are a separate uncertainty. Magnetars — neutron stars with extreme magnetic fields — are a leading guess, not a settled identification for every burst. You do not need the engine to use the delay. You need the distance, the frequency sweep, and a model of what else is in the way, including the Milky Way’s own electrons. Those subtractions are where the measurement can go wrong, and they are why the paper, not this note, is the authority.
+
+## What this does not yet settle
+
+Dark energy, dark matter, and the neutrino mass are not measured here. They are the reason the smoothing matters. Sky surveys map clumping in order to get at those three. Feedback imitates them. An independent FRB number lets the surveys subtract a better feedback term. Sharma’s line is that these data can sharpen the cosmology experiments. That is a use, not a completed answer.
+
+The sample is small next to what is coming. Caltech’s Deep Synoptic Array, planned for a remote valley in Nevada by 2029 and funded by Schmidt Sciences, is expected to find tens of thousands of bursts. Ravi, a co-principal investigator, expects that catalogue to sit alongside Euclid, DESI, Rubin, and the Roman telescope. Those are plans. The Nature Astronomy result is the hundred-burst measurement.
+
+One practical distinction, if you only remember one: dispersion traces electrons, which trace ionized ordinary matter. It does not see dark matter. Its power is that it stops dark matter and dark energy analyses from quietly absorbing a baryon effect they did not measure.
 
 ### Two massive baby stars may have become a binary after forming separately
 
@@ -378,6 +660,30 @@ The natural next question is to watch more tidal disruption events as they fade,
   - [Nature Astronomy](https://www.nature.com/articles/s41550-026-02953-z)
   - [ALMA Observatory](https://alma-telescope.jp/news/mbassemble-202609.html)
 
+Fuller note:
+
+## The orbit does not look like a shared birth
+
+Most massive stars have a companion. How the pair got that way is less settled. They might have collapsed out of the same core, already bound. Or they might have formed apart and been captured later. A Nature Astronomy paper published on 7 September 2026 argues for the second route in one specific system: two massive baby stars whose stretched orbit and tilted disks are hard to produce if they formed together.
+
+The title of the paper says the quiet part aloud. “An eccentric massive protobinary assembled via a core-merger parabolic encounter.” Eccentric means the orbit is elongated, not a tidy circle. A parabolic encounter is a close pass on a trajectory that is just barely unbound, the kind of flyby that can end in capture if the pair loses a little energy during the meeting. “Core-merger” points at the dense star-forming cores ALMA can resolve. The ALMA Observatory’s note on the result is the other source attached to this notebook entry.
+
+Baby, here, means the stars are still forming. They are massive, still gathering, and each is wrapped in a disk. Those disks are tilted relative to each other and relative to the orbit. Disks that grew inside one shared, rotating core tend to remember the same angular-momentum direction. A later capture does not have to be so polite. The two spins can meet at an angle.
+
+## What was hard to explain, and what the team prefers
+
+The observation is the geometry: a stretched orbit, misaligned disks, two massive protostars. The interpretation is the history. Separate formation, a close pass, then a bound pair. The paper is saying the together-from-birth model has trouble with that geometry, and the encounter model has less trouble. That is a comparative fit, not a film of the flyby. Nobody watched the capture.
+
+Capture of this kind matters because the companion changes everything that follows. Massive stars in pairs exchange mass, spin each other up, and often die in ways a single star does not. A later capture is a different clock from a birth binary. The two stars can be at different stages when they meet. Their disks can be truncated or tilted by the encounter itself, which then changes how planets or further companions could form, if any do. The note does not claim planets. It claims a route into the binary.
+
+## One system is a route, not a fraction
+
+Nothing here says most massive binaries formed this way. It says at least this one is difficult to file under co-formation, and that a parabolic encounter can assemble a massive protobinary. Population numbers would need a survey. ALMA can do the geometry for the nearest, brightest cores. It cannot yet hand over a rate.
+
+If you want the mechanism in one picture: two cores, two disks, a pass close enough that gravity binds them, an orbit left eccentric because the capture was recent and the orbit has not been rounded out. Tidal forces and leftover gas may circularize it later. The eccentricity is a clue that “later” has not finished.
+
+Read the Nature Astronomy article for the orbit fit and the disk angles. Read the ALMA note for the observatory’s version of the same observation. The next question in the notebook — why massive stars are so often paired, and what a companion does to the death — is larger than this one system, and this system is one concrete way the pairing can start after the births.
+
 ### Comets may be carrying water into a young planet-forming system
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-07_planet-formation_pds70-exocomets-water/
@@ -391,6 +697,28 @@ The natural next question is to watch more tidal disruption events as they fade,
 - Sources:
   - [Nature Communications](https://www.nature.com/articles/s41467-026-76880-y)
   - [Lund University](https://www.lunduniversity.lu.se/article/comets-may-have-transported-water-young-planetary-system)
+
+Fuller note:
+
+## A young system with planets already in it, and a hint of ice on the move
+
+PDS 70 is one of the few young stars where planets have been seen still inside the disk. A Nature Communications paper published on 24 August 2026 reports signs of comets moving through that system. The signs are not a photograph of a nucleus. They are the spectral and dynamical evidence the team presents for bodies that are sublimating — ice turning to gas as the bodies warm.
+
+The second half of the result is a simulation, and it should stay in a separate column. Giant planets in PDS 70 can scatter icy bodies inward. Those bodies can carry water from the cold outer disk toward the zone where rocky planets can grow. Lund University’s account of the work puts the transportation idea in the headline. The paper’s own title is narrower: potential sublimating exocomets around the young star PDS 70. “Potential” is in the title for a reason.
+
+## What would count as a comet here
+
+An exocomet is a comet in another planetary system. You almost never see the rock. You see gas that appears and disappears, or absorption lines that move, as a small icy body swings close to the star and vents. In a disk that still holds planets, those vents are easy to confuse with disk winds, with accretion funnels, and with the planets’ own wakes. The paper is arguing that the signatures fit comets better than those alternatives. That argument is the result to read carefully, not a headcount of confirmed nuclei.
+
+Earth’s water is the reason anyone outside planet-formation circles cares. The oceans had to arrive or be made. Comets and asteroids are the usual couriers in our own system, and the fractions are still argued. PDS 70 does not settle Earth’s ledger. It shows a route that can operate while planets and the disk still share the same system: a giant planet as a gravitational sling, icy leftovers as the cargo, the inner disk as the destination.
+
+## Simulation is not the same sentence as the detection
+
+Keep the two claims apart. The observational claim is that there are signs of comets in PDS 70. The dynamical claim is that the known giant planets are capable of flinging icy bodies inward, and that water could move with them. A simulation that shows a path is evidence the path is open. It is not a measurement of how much water arrived, or of how often the scattering happens.
+
+More observations are what would promote the comets from “signs” to objects with orbits. Repeated spectra, a periodicity, a composition that matches ice rather than disk gas: those are the sorts of checks that close the gap. Until then, the careful sentence in the notebook’s summary stands. A delivery route like the one proposed for early Earth appears available in a system that is still being built. Availability is not delivery.
+
+Nature Communications is the authority for the signatures. Lund’s article is the secondary explanation. Neither should be stretched into a statement that PDS 70’s rocky planets, if it has them, already have oceans. The star is young. The experiment is still running.
 
 ### Scientists may have seen a particle of dark matter — but they aren't sure yet
 
@@ -407,6 +735,32 @@ The natural next question is to watch more tidal disruption events as they fade,
   - [Berkeley Lab](https://newscenter.lbl.gov/2026/09/01/lz-sees-surprising-result-in-search-for-dark-matter/)
   - [Reuters](https://www.reuters.com/science/scientists-make-potential-breakthrough-search-dark-matter-2026-09-01/)
 
+Fuller note:
+
+## One event, and a refusal to call it a discovery
+
+LUX-ZEPLIN recorded a single particle interaction that is hard to explain with the backgrounds the collaboration knows how to model. It sits in the region of the data where a dark-matter particle could show up, and where ordinary backgrounds are supposed to be scarce. The collaboration is not calling it a detection.
+
+Rick Gaitskell, a professor at Brown and LZ’s spokesperson, said as much when the result was presented: they are intrigued, they do not want to get ahead of one event, and they are not claiming to have seen dark matter. The analysis was shown at the 2026 TeV Particle Astrophysics conference in Japan. A paper is headed for arXiv and Physical Review Letters. Berkeley Lab’s 1 September 2026 write-up is the account used here, with the collaboration’s own site.
+
+LZ sits nearly a mile underground at the Sanford Underground Research Facility in South Dakota. Berkeley Lab manages it. About 250 scientists and engineers from 39 institutions work on it. The detector holds 10 tonnes of ultrapure liquid xenon and is built to look for WIMPs, weakly interacting massive particles, one of the long-standing guesses for what dark matter might be. Dark matter is still a gravitational fact — it outweighs ordinary matter, about 85 percent of the mass — and an unidentified substance. Nobody has a confirmed particle.
+
+## What the new search actually did
+
+The collaboration had already looked at 220 live days of data, March 2023 through April 2024, for the simplest kind of WIMP scatter, the faint ones. This analysis opened a different slice of that same dataset: interactions that could deposit more energy. Sam Eriksen of the University of Bristol, lead author, says they spent months on backgrounds in a region they had not explored in this exposure. LZ expects real dark-matter events to be extremely rare. A handful could be a first detection. One is a hint.
+
+If this event were a WIMP, the collaboration’s reading is that its mass would likely be at least 200 GeV/c², more than 200 times a proton, and that the interaction would be a less simple kind than the baseline model. That “if” is the interpretation. The fact is one outlier that survived the checks they know how to run.
+
+The statistical weight is 2.6 sigma. In this analysis that corresponds to about a 0.5 percent chance the event is a known background. Five sigma is the usual discovery line in this field. 2.6 is not close. Aaron Manalaysay at Berkeley Lab, chair of LZ’s Institutional Board, calls it the first outlier in his experiments that still looks valid after you stare at it, and he is explicit that a rare background they have not thought of remains on the table.
+
+## Why the underground lab is part of the result
+
+A xenon tank records flashes when something deposits energy. Cosmic rays, neutrons from the rock, and radioactive traces in the materials all do that too. The mile of rock cuts the cosmic rays. A water tank and outer detectors tag neutrons. Software then throws out events that look like the mimics. The remaining search region is quiet enough that a single leftover event is news. It is not quiet enough, with this exposure, to decide what the event was.
+
+LZ is still running, and it already holds the largest dark-matter dataset of this kind. More days will either grow this hint or wash it out. Until more events land in the same place, the honest sentence is Gaitskell’s. Something in the box is interesting. Dark matter has not been identified.
+
+Reuters reported the announcement the same day as Berkeley Lab. Neither replaces the paper. When the Physical Review Letters article is public, it supersedes this note on the energy, the cuts, and the background model.
+
 ### The universe is making fewer stars — but it hasn’t run out of hydrogen
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-05_galaxy-evolution_star-formation-hydrogen/
@@ -420,6 +774,30 @@ The natural next question is to watch more tidal disruption events as they fade,
 - Sources:
   - [Nature Astronomy](https://doi.org/10.1038/s41550-026-02965-9)
   - [Chinese Academy of Sciences / EurekAlert](https://e3.eurekalert.org/news-releases/1142061)
+
+Fuller note:
+
+## The fuel is still there. The factory slowed.
+
+Cosmic star formation has dropped by roughly a factor of 2.46 over the past 4.5 billion years. Over that same stretch, the universe’s reservoir of neutral atomic hydrogen has declined far less. That pairing is the result in a Nature Astronomy paper published on 1 September 2026. The observations use China’s FAST radio telescope together with DESI data for about 2.5 million galaxies.
+
+Stars form from molecular hydrogen, H2, the two-atom version, inside cold dense clouds. The atom-only gas, H I, is the larger tank. It has to cool, gather, and become molecular before it becomes a star. A galaxy can be rich in H I and still be a poor star factory if that conversion is sluggish.
+
+For years the simple story of the universe’s fading starlight was depletion. Galaxies used up the tank. A drop in star formation of more than a factor of two, beside a much smaller drop in atomic hydrogen, is awkward for that story. The gas is not gone in proportion to the stars that stopped forming.
+
+## What the ratio is allowed to mean
+
+The paper’s reading, and the reading this notebook should keep, is about efficiency. Galaxies have become worse at turning atomic hydrogen into the denser molecular gas that actually forms stars. That is an interpretation of the two trends. It is a strong one, because the alternative (the tank ran dry) does not match the hydrogen measurement. It is still an interpretation: the survey does not hand you a molecule-by-molecule account of every disk. It hands you a cosmic average.
+
+FAST is what makes the hydrogen side possible. The 21-centimetre line from neutral hydrogen is faint, and you need a huge collecting area plus a huge galaxy sample if you want the average over billions of years rather than a portrait of one nearby spiral. DESI supplies the galaxies: distances, so the hydrogen can be placed in time. About 2.5 million of them is the sample size attached to this result. The Chinese Academy of Sciences summary, carried by EurekAlert, is the institutional account alongside the paper.
+
+## Where the gas can stall
+
+Between atomic hydrogen and a star there are several stalls. The gas has to reach the disk. It has to cool. It has to form H2 on dust grains. It has to collapse past its own turbulence and past whatever the galaxy is doing to stir it. Feedback from earlier stars, a bar, a hot halo, a black hole: any of those can change the conversion without deleting the H I. The Andromeda note in this notebook is about one galaxy’s turbulence. This one is the cosmic average of the outcome.
+
+The number 2.46 should stay attached to star formation, not be casually reapplied to the gas. The gas decline is “far less,” which is the paper’s comparison, not a second precise factor I am going to invent. Someone reading the Nature Astronomy article (DOI 10.1038/s41550-026-02965-9) should treat that article as the source of both curves.
+
+The next distinction is worth making before the next paper: atomic hydrogen is the reservoir you see in the radio; molecular hydrogen is the fuel in the clouds. Stars form from the second. A universe that still has plenty of the first can look quiet anyway.
 
 ### Hubble catches a giant 10-sided wave forming around Saturn’s south pole
 
@@ -436,6 +814,30 @@ The natural next question is to watch more tidal disruption events as they fade,
   - [NASA Hubble](https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/)
   - [University of Leicester](https://le.ac.uk/news/2026/august/observations-mysterious-shape-saturn-clouds)
 
+Fuller note:
+
+## A ten-sided wave, still settling in
+
+Hubble has caught a giant decagonal wave around Saturn’s south pole. It is the first large, regular-sided jet pattern seen in the planet’s southern hemisphere. Faint signs are in data from 2023 and 2024. By 2025 the shape was much clearer. The paper is in Science Advances, 2 September 2026.
+
+That timeline is the interesting part. Saturn’s north-polar hexagon has been there every time observers have looked, for more than 40 years. Amy Simon, co-author and principal investigator of Hubble’s Outer Planet Atmospheres Legacy program at NASA Goddard, says this southern feature is different: it appears to be strengthening. The OPAL program has photographed the outer planets once a year for more than a decade, which is why a slow pattern can be caught in the act instead of as a single postcard.
+
+The south pole has also been hard to see. Saturn’s seasons tipped it back into view from Earth. Ground-based observers found it first. Agustín Sánchez-Lavega, at the University of the Basque Country, leads the study. He and amateur astronomers Trevor Barry and Jean-Paul Oger noticed a subtle undulating band in 2024 images contributed to the Planetary Virtual Observatory Laboratory. 2025 ground images pushed harder toward a ten-sided shape. Hubble then confirmed the feature was already present in 2023.
+
+## Not a cloud doodle
+
+The wave sits in one of Saturn’s jet streams and extends through several layers of the atmosphere. Different Hubble filters look at different altitudes, and the apparent position of the decagon shifts slightly between them. That shift is evidence the structure is vertically extended, not a stain on the cloud tops.
+
+Sánchez-Lavega’s group had been looking for a southern twin of the hexagon in Hubble images since 1990, because the north-south jet system is roughly symmetric. Cassini, in orbit from 2004 to 2017, showed no long-lived southern polygon. So this is new on a planet we have watched closely. Simon’s question is the right one: why did it form now?
+
+## What is measured, and what is still open
+
+Measured: a ten-sided wave, multi-layered, emerging over 2023–2025, first large regular polygon in the south. Interpreted, not yet shown: that it will last for decades the way the hexagon has, or that the same fluid mechanics produced both shapes. The authors want more Hubble time, JWST, and computer models before they will say how it formed, how long it may last, or how it compares with the north.
+
+A jet can prefer a polygon over a circle when the wind’s speed changes sharply with latitude and the waves that fit inside that shear lock into a standing pattern. The hexagon is the textbook case. A decagon would be a different number of sides in a different jet, possibly a younger one. Copying the hexagon’s explanation onto the south pole is the temptation. The data so far only justify the geometry and the fact that it is growing.
+
+Mike Wong, a co-author at UC Berkeley, notes that OPAL’s finds tend to come from the stack of years, not from one visit. This decagon is that kind of find. Science Advances (DOI 10.1126/sciadv.aee4251) carries the analysis. NASA’s Hubble write-up and the University of Leicester’s note are the institutional accounts. The next useful comparison is the northern hexagon itself: a jet that chose a shape and then kept it, which this southern wave has not yet had time to do.
+
 ### JWST finds hidden low-mass stars that may make early massive galaxies up to four times heavier
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-03_galaxy-evolution_hidden-mass-early-galaxies/
@@ -449,6 +851,30 @@ The natural next question is to watch more tidal disruption events as they fade,
 - Sources:
   - [Nature Astronomy](https://doi.org/10.1038/s41550-026-02932-4)
   - [Penn State](https://pure.psu.edu/en/publications/hidden-mass-in-early-galaxies-revealed-by-bottom-heavy-initial-ma/)
+
+Fuller note:
+
+## Light is not mass
+
+A galaxy’s stellar mass is usually inferred, not weighed. You see light. You assume a mix of bright stars and faint ones, then scale up. That mix is the initial mass function: how many stars are born at each mass. High-mass stars dominate the light and die young. Low-mass stars dominate the mass and linger. If the mix is bottom-heavy, with more faint stars than the standard assumption, the same glow hides more mass.
+
+A Nature Astronomy paper published on 21 August 2026 applies that worry to nine massive, quiescent galaxies observed with JWST. Quiescent means they have largely stopped forming stars. They are not the dusty, frantic systems that are easiest to misread. The team reports evidence that the most massive of these systems contain many more faint, low-mass stars than the usual recipe predicts.
+
+That is the measurement claim, as the notebook has it from the paper: the stellar populations look bottom-heavy. The Penn State record of the same work carries the title “Hidden mass in early galaxies revealed by bottom-heavy initial mass functions.”
+
+## The factor of four is a conditional
+
+The excerpt’s striking number is not “these nine galaxies are four times heavier than we thought,” full stop. It is conditional. If similar populations were already present in their earlier ancestors, some of JWST’s surprisingly mature early galaxies could be about four times more massive than current estimates. “Could” is doing real work. The spectra are of quiescent systems. The early, still-forming galaxies are a different set. Carrying the result backward is an inference.
+
+If the inference holds, the formation problem gets worse, not better. JWST has been finding galaxies that look heavy very early. Adding hidden low-mass stars would raise the mass that had to be assembled in a short time. Models that were already strained would be more strained. That is why the result matters even though nine galaxies is not a census of the early universe.
+
+## Where the assumption usually hides
+
+The standard conversion from light to mass is good enough for a lot of nearby galaxies, which is why it became the default. It fails quietly. Two galaxies with the same brightness can differ in mass if one is full of red dwarfs and the other is not. Star-formation histories, chemical patterns, and the light from the giants all get folded into the fit. JWST’s spectra of these quiescent systems are what let the authors ask the question directly instead of adopting the Milky Way’s mix and moving on.
+
+Nothing in the note says every early galaxy is bottom-heavy. The claim is aimed at the most massive quiescent ones, and then, more tentatively, at their ancestors. A bottom-heavy function also changes how much mass you assign to the stars you cannot see, which changes how much room is left for gas and dark matter inside the same dynamical measurement, if you have one. This paper’s route is stellar populations, not dynamics.
+
+Treat the Nature Astronomy paper, DOI 10.1038/s41550-026-02932-4, as the authority for the spectral fits. The factor-of-four statement belongs in the conditional column until someone measures those ancestor galaxies the same way. The useful next step is the initial mass function itself: not as a slogan, but as the table of birth masses that turns a spectrum into a mass. Change the table, and a generation of early-galaxy masses moves with it.
 
 ### JWST shows planet formation is a race against disappearing gas
 
@@ -464,6 +890,34 @@ The natural next question is to watch more tidal disruption events as they fade,
   - [SETI Institute](https://www.seti.org/news/jwst-reveals-a-race-against-time/)
   - [The Astronomical Journal / DOI](https://doi.org/10.3847/1538-3881/ae9089)
 
+Fuller note:
+
+## Seventy-two disks, one sequence
+
+The gas that builds a Jupiter does not sit still. It leaves. A paper in The Astronomical Journal, published online on 25 August 2026, uses archival JWST Mid-Infrared Instrument spectra of 72 young, mostly Sun-like stars to watch how it leaves. Naman Bajaj of the University of Arizona led the work. Ilaria Pascucci is the second author. Uma Gorti of the SETI Institute and NASA Ames is a co-author; she has spent years on the theory of disk winds, including photoevaporation.
+
+The sample is the useful part. Each disk is one age and one accretion rate. Lined up, they are frames in a sequence rather than 72 unrelated snapshots.
+
+What they actually counted: extended gas emission in 66 of the 72 disks. Conical molecular-hydrogen winds in 46. Fast neon jets in 40. Every system with a neon jet also showed a wind traced by molecular hydrogen or oxygen. Those are the census numbers. They come from the SETI Institute’s account of the paper, “JWST/MIRI Reveals the Evolution from Molecular to Atomic Disk Winds.”
+
+## Two ways out, and they trade places
+
+In the young systems that are still dumping material onto the star, the spectra are full of magnetically driven jets and winds that carry both molecules and atoms. The picture is a magnetic field threaded through the disk. Gas rides the field lines outward and takes angular momentum with it. The disk can then keep feeding the star, and it also loses mass.
+
+Later, when less material is falling in, the jets weaken. The remaining wind is mostly atomic. High-energy light from the star can get through the thinning gas, heat the disk, and drive it off. That heating-and-escape route is photoevaporation. Ultraviolet and X-rays do the heating. The gas does not need a magnetic slingshot anymore. It is simply warm enough to leave.
+
+A 2020 study led by Pascucci, before JWST could see molecular hydrogen directly, predicted that molecular winds would be there and that they could be thick enough, early on, to block X-rays. Tracing the hydrogen molecule is what let this sample check that prediction. It held.
+
+## The clock is the interpretation
+
+Gorti’s framing, which the SETI piece quotes, is that disk dispersal sets a clock: once the gas is gone, the chance to build a gas-rich planet is over. Bajaj says the same thing more bluntly. A gas giant has to assemble its atmosphere while the disk can still supply it.
+
+Our own system is the local example, offered as context rather than as a new measurement. The Sun is about 4.5 billion years old and the space around it is mostly empty. In the first few million years the disk is thought to have held something like a hundred times more gas than dust. Most of that gas left. The JWST sample is a look at the leaving, across many stars, sorted by age.
+
+The interpretation is the sequence: magnetic jets and molecular winds first, atomic and photoevaporative winds later, and no single process in charge the whole time. The paper does not yet say how many Earth-masses of gas each wind removes, or which radius in the disk the gas comes from. Bajaj’s group lists that as the next measurement. Without it, “race against time” is a fair description of the stakes and a poor description of the schedule. You can see the mechanism change. You cannot yet read a clock face.
+
+An earlier JWST image of gas leaving the disk around T Cha showed the same instruments could do this for one star. Seventy-two stars is what turns a portrait into a trend. The Astronomical Journal paper, DOI 10.3847/1538-3881/ae9089, is the place to check the line measurements. The SETI write-up is the secondary account used here.
+
 ### JWST may have found a new kind of object: a black hole wrapped in a star-like cocoon
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-01_cosmic-dawn_black-hole-star-mom-bh-1/
@@ -477,6 +931,32 @@ The natural next question is to watch more tidal disruption events as they fade,
 - Sources:
   - [Nature](https://www.nature.com/articles/s41586-026-10846-4)
   - [MIT News](https://news.mit.edu/2026/astronomers-discover-brand-new-type-astrophysical-object-black-hole-star-0812)
+
+Fuller note:
+
+## A red dot that is too bright to be a star
+
+JWST found an exceptionally red source the team calls MoM-BH*-1. In the notebook’s summary of the Nature paper, it is seen about 660 million years after the Big Bang. The spectrum is the awkward part. It shows an unusually deep Balmer break and broad hydrogen features. A Balmer break is a sharp drop in the light below certain wavelengths. Ordinary stellar atmospheres make one. Vega, a bright star in the night sky, shows the familiar version. Rohan Naidu, the lead author, says the break in this object is the deepest they have seen in anything, which is hard to square with a normal star.
+
+There is a second oddity. The light is almost pure hydrogen and helium. Metals, the astronomer’s word for anything heavier, are missing. And the object is violently bright. MIT’s account says it puts out about 100 billion times more energy than any known star can produce by nuclear fusion. Energies like that are routine for a feeding black hole. They are not routine for a star.
+
+Naidu is a NASA Hubble Fellow and Pappalardo Fellow at MIT’s Kavli Institute. Robert Simcoe and Wendy Sun are among the MIT co-authors. They were not hunting a new kind of object. The survey is called Mirage or Miracle, MoM for short, and it was aimed at the earliest galaxies. Naidu’s line on that search is worth keeping: some of what looks like an extremely bright early galaxy, a “miracle,” may be a mirage.
+
+## Dust was the obvious guess. The spectrum refused it.
+
+Very red usually means dust. Smoke reddens a sunset; dust reddens a galaxy. Simcoe says the other signatures did not match a dust screen. The team asked a narrower question: can hydrogen alone, with no dust, make something this red? Their simulations said yes, if the hydrogen is packed so densely that it behaves more like the surface of an enormous star than like a thin nebula.
+
+That dense screen would also soak up blue light and produce a deep Balmer break. It would hide metals if there are hardly any to begin with. It would not, by itself, explain the brightness. Fusion still cannot power it. So they put an accreting black hole in the middle of the hydrogen cocoon and varied the mass until the fake spectrum sat near the real one.
+
+## The fit, and what is still a model
+
+The best-fitting picture, in the paper’s interpretation and in Naidu’s description, is a central black hole of about 100,000 times the Sun’s mass, wrapped in a turbulent, dust-free gas envelope roughly the size of the Solar System. The black hole does the job fusion would do in a star. The gas acts like a fake photosphere. The object looks star-like. The engine is not a star.
+
+Call that the interpretation. The observation is the red, metal-poor spectrum with the extreme break and the luminosity. The black-hole-plus-cocoon arrangement is the scenario that matched the simulations. It is not a photograph of the interior.
+
+The team named it MoM-BH*-1: the survey, plus “black hole star, one.” They suspect it is the first of a class. Little red dots show up across JWST’s deep images and are largely gone in the nearby universe. Naidu argues that every little red dot is consistent with a black hole star sitting inside an ordinary early galaxy, and that MoM-BH*-1 is special because the black hole star outshines the host, so the light is almost uncontaminated. “Consistent with” is not “shown to be.” The dots are fainter than this one. If the same model is later used to weigh them, early black-hole masses could move, and so could the story of how the first galaxies grew. That revision is a possible consequence. It is not yet a required one.
+
+The Nature paper is the authority for the spectral measurements and the model grid. MIT’s write-up is a clear secondary account of the same work. Both leave the little-red-dot population as an argument, which is the right size for the claim.
 
 ### Roman launches to map the dark universe and hunt thousands of exoplanets
 
@@ -492,6 +972,32 @@ The natural next question is to watch more tidal disruption events as they fade,
   - [NASA](https://www.nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches/)
   - [NASA JPL](https://www.jpl.nasa.gov/news/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches/)
 
+Fuller note:
+
+## A telescope that has left the pad, and not yet started work
+
+NASA says the Nancy Grace Roman Space Telescope launched successfully on 30 August 2026. It is now on its way to the Sun-Earth L2 point, about 1.5 million kilometres from Earth. That is the recorded status. Science operations have not started.
+
+NASA’s account is that Roman will spend roughly three months traveling and being commissioned. First public images are expected in early 2027. Until those images exist, anything said about Roman’s discoveries is a plan, not a result.
+
+The design claim, again from NASA, is specific. Roman is meant to combine infrared sensitivity and image sharpness comparable to Hubble with a field of view roughly 100 times larger. A wide field is the whole point of a survey telescope. Hubble can stare hard at one patch. It cannot cheaply tile the sky. Roman is built to tile.
+
+## Three jobs, none of them finished
+
+NASA lists three main science goals.
+
+One is to measure how dark energy has influenced cosmic expansion. Dark energy is the name for whatever is speeding that expansion up. A survey does not “solve” it. It measures distances and growth across a large sample so the competing descriptions can be told apart.
+
+Another is to map dark matter through gravitational lensing. Mass bends light. If you have sharp images over a huge area, small distortions in the shapes of distant galaxies can be averaged into a map of the mass that did the bending, including mass that does not shine. That sentence is the method. Roman has not delivered the map.
+
+The third is exoplanets, in the thousands. A wide infrared survey can catch many transits, the brief dips when a planet crosses its star. It can also watch for microlensing: a star or planet briefly brightening another star’s light when it passes almost in front. Microlensing is how you find worlds on wide orbits, and planets that are not orbiting a star at all. The notebook’s next question sits there on purpose. Transit surveys are good at close-in planets. They are poor at the ones far out. Roman’s planet haul, if the survey works, should look different from a Kepler-style catalogue because the method is different.
+
+## What would count as success
+
+Hubble and Webb win on depth and on targets someone already cares about. They lose when the scientific question is a rate, a mass function, or a population. Dark energy, dark matter maps, and exoplanet demographics are population questions. You need many objects, measured the same way.
+
+That is the reason Roman matters before it has a single science image. The launch announcement is an engineering fact. The scientific return is still a forecast. Treat NASA’s launch release, and the JPL version of the same announcement, as the authority for the timeline and the stated goals. Papers that use Roman data do not exist yet. When they do, they will replace this note’s description of what the telescope was supposed to do.
+
 ### Earth may have repeatedly slipped outside the Sun’s protective bubble
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/earth-heliosphere/
@@ -499,12 +1005,36 @@ The natural next question is to watch more tidal disruption events as they fade,
 - Topics: Sun & Space Weather; Astrobiology & Habitability
 - Freshness context: Research highlighted by NASA on 24 August 2026, with the underlying heliosphere review published in the August 2026 volume of Annual Review of Astronomy and Astrophysics.
 - Summary: NASA-funded researchers reconstructed the Sun’s recent journey through the Milky Way and found that it likely encountered dense interstellar cold clouds at least three times in the past 14 million years. During these encounters, surrounding gas may have compressed the heliosphere — the bubble carved out by the solar wind that normally shields the planets — to smaller than Earth’s orbit, temporarily leaving Earth directly exposed to the interstellar environment. The modeled encounters line up with unusual isotopes found in deep-sea sediments, Antarctic material, and lunar samples, and could have altered atmospheric chemistry, radiation exposure, and perhaps ancient climate.
-- Why it matters: Earth’s long-term environment is influenced not only by its orbit and the Sun’s activity, but also by the Sun’s motion through the Galaxy. That adds an external variable to questions about planetary climate, radiation, habitability, and potentially the evolution of life.
+- Why it matters: Earth’s long-term environment depends on its orbit and on the Sun’s activity. It also depends on the Sun’s motion through the Galaxy. That adds an external variable to questions about planetary climate, radiation, habitability, and potentially the evolution of life.
 - Suggested next question: Look into the heliosphere and how its size changes as the Solar System moves through different regions of the interstellar medium.
 - Explore further: [NASA’s Starstruck research feature](https://science.nasa.gov/solar-system/starstruck-nasa-research-shows-how-suns-ancient-history-shaped-earth/)
 - Sources:
   - [NASA Science](https://science.nasa.gov/solar-system/starstruck-nasa-research-shows-how-suns-ancient-history-shaped-earth/)
   - [Annual Reviews](https://www.annualreviews.org/content/journals/10.1146/annurev-astro-120425-053711)
+
+Fuller note:
+
+## Three times the shield shrank past Earth’s orbit
+
+The heliosphere is the bubble the solar wind blows in the interstellar gas. It is not a hard wall. It is the region where the Sun’s outflow still dominates. Spacecraft at the edge have crossed it. Earth, in ordinary times, sits well inside.
+
+NASA’s SHIELD center, a DRIVE science center led by Merav Opher at Boston University, reconstructed the Sun’s recent path through the Milky Way and the clouds it met. The work is in the August 2026 Annual Review of Astronomy and Astrophysics, and NASA highlighted it on 24 August 2026. In the simulations, the Sun ran into dense, cold interstellar clouds at least three times in the past 14 million years. The dates they give are roughly 2 to 3 million years ago, 6 to 7 million, and 13 to 14 million. Each time, the cloud pressed the heliosphere down to smaller than Earth’s orbit. Earth would have been left in interstellar space, still bound to the Sun, no longer inside the solar-wind bubble.
+
+That is the model result. The supporting observation is chemical. Isotopes that are common in interstellar dust and rare in ordinary Earth material show up in deep-sea sediments, Antarctic material, and lunar samples on those same timelines. The match is why the encounters are more than a trajectory drawn on a map of the local galaxy. A cloud that compresses the heliosphere also delivers dust. The archives of that dust are mud, ice, and the Moon.
+
+## What exposure would have changed, and what is still a “could”
+
+Outside the bubble, galactic cosmic rays reach the atmosphere more easily, and the mix of incoming gas changes. The SHIELD simulations follow that into the upper atmosphere: more water vapor, a shift in the dynamics aloft, and, from there, a possible change at the surface. NASA’s feature connects those exposures to ancient climate swings, including ice-age intervals, as a candidate external driver alongside the usual internal ones — orbit, greenhouse gases, ice sheets.
+
+Keep the ranks straight. The path through the clouds, the three compressions, and the isotope coincidences are the findings being reported. A specific ice age caused by a specific cloud is a further interpretation. Opher’s group is offering the heliosphere’s galactic journey as a factor that belongs in the climate conversation. They are not, in the account used here, replacing orbital cycles.
+
+The notebook’s sources are the NASA feature and the Annual Review. The NASA piece also describes a separate study, by Vladimir Airapetian, on the faint young Sun billions of years ago and greenhouse gases sparked by solar particles. That is a different problem and a different paper. It is not this result. This note stays with the last 14 million years and the cold clouds.
+
+## A variable the surface does not advertise
+
+Earth’s habitability is usually discussed with the Sun as a lamp at a fixed distance. The lamp moves through the galaxy. The bubble around the lamp changes size when the neighborhood gets dense. For a few intervals in the recent geological past, “inside the heliosphere” may not have described the planet. Life was already here. The question is what the atmosphere and the radiation dose did, not whether the planet was sterilized. The isotope layers are the place a geologist can test the astronomers. If the layers line up with the simulated dates, the encounters get harder to wave off. If a layer is missing, that date is in trouble.
+
+The Annual Review article is the authority for the trajectory and the heliosphere model. NASA’s write-up is the public account of the same SHIELD work, plus the separate young-Sun study that should not be merged into it. The next object to understand is the heliosphere itself: how far the solar wind reaches, and how fast that reach collapses when a cold cloud arrives.
 
 ### Hubble uncovers the Milky Way’s earliest confirmed major merger
 
@@ -519,6 +1049,30 @@ The natural next question is to watch more tidal disruption events as they fade,
 - Sources:
   - [NASA Hubble](https://science.nasa.gov/missions/hubble/hubble-solves-merger-mystery-from-milky-ways-early-years/)
 
+Fuller note:
+
+## A dwarf galaxy, eaten early, filed under three older names
+
+Hubble has identified the Milky Way’s earliest confirmed major merger. The dwarf is called Low-energy-Kraken-Heracles, LKH for short, after three earlier papers that had argued for an ancient merger without agreeing on the details. The collision was about 11.8 billion years ago, around two billion years after the Big Bang. NASA’s Hubble release, 17 August 2026, says this pushes the confirmed merger history 1.8 billion years farther back than the previous earliest secure event. The paper is in Nature Astronomy. Davide Massari, at the Astrophysics and Space Science Observatory of Bologna, led it.
+
+The Milky Way grew in two ways at once: new stars from its own gas, and stars, gas, and dark matter taken from smaller galaxies. The recent big case is the Sagittarius dwarf, a merger that began more than 6 billion years ago and is still going. Before that, Gaia-Sausage-Enceladus was consumed about 10 billion years ago and did a lot to rearrange the stellar disk. Smaller mergers sit between those two. Both data and simulations had pointed at yet another large merger, earlier still. The arguments were about which clusters, which stars, and whether the evidence had been scrambled away. LKH is that earlier galaxy, now with a clock.
+
+## Globular clusters as the archive
+
+The team used Hubble to study globular clusters, the dense balls of old stars, in the inner 20,000 light-years of the Galaxy. They looked at 39 of them. Clusters keep a record of where they formed because their stars share an age and a metallicity, the proportion of elements heavier than helium. Chiara Zerbinati, a co-author at the University of Bologna, notes that Hubble’s resolution is what made those ages and metallicities precise enough to sort populations that ground data had blurred.
+
+Gaia’s motions supply the other axis. Together, the sample splits into more than the two groups the team expected (clusters born in the young Milky Way, and clusters brought in by Gaia-Sausage-Enceladus). A third population is older than the Gaia-Sausage-Enceladus clusters and younger than the Milky Way’s own, across the range of metallicity. That combination is hard to produce inside one galaxy. It fits clusters born in a separate dwarf and brought in when that dwarf was eaten.
+
+The dwarf’s stellar mass, in the NASA account, was roughly 500 million times the Sun. That is a serious fraction of the Milky Way’s mass at the time, which is why “major” is justified. The Galaxy was smaller then. A partner of that size is not a light snack.
+
+## What “confirmed” changes, and what it does not
+
+Massari’s point is aimed at a specific earlier claim: that the earliest Milky Way was built only from stars born in place. The LKH clusters say accreted stars were already a large ingredient during that first growth. Fernando Aguado-Agelet, a co-author at the Universities of Vigo and La Laguna, frames the follow-up as more clusters, including ones Hubble has not studied, so the later mergers can be put on the same footing.
+
+Confirmed does not mean the whole merger tree is finished. It means this event, at this time, with this mass scale, is no longer only a disputed peak in a simulation or a chemical overdensity. The 1.8 billion years is a comparison with the previous confirmed milestone, not a claim that nothing happened before LKH. Earlier, smaller accretions can still be hiding.
+
+NASA’s release is the public account. Nature Astronomy is the authority for the cluster ages and the population split. The name is a compromise among Kraken, Heracles, and the low-energy merger discussed in the earlier papers, which is itself a hint that the community had pieces of this galaxy already and did not yet have a single object to point at.
+
 ### S301: the fastest known star in the Milky Way may reveal Sagittarius A*’s spin
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/s301-sagittarius-a-star-spin/
@@ -531,6 +1085,28 @@ The natural next question is to watch more tidal disruption events as they fade,
 - Explore further: [ESO: S301 and Sagittarius A*](https://eso.org/public/news/eso2612/)
 - Sources:
   - [ESO](https://eso.org/public/news/eso2612/)
+
+Fuller note:
+
+## A star that will feel the twist, and has not yet delivered the number
+
+S301 is the fastest star known in the Milky Way. At its closest pass to Sagittarius A*, the four-million-solar-mass black hole at the Galactic Centre, it moves at about 25,000 kilometres per second. That is a bit over 8 percent of the speed of light. The orbit takes 8.7 years. The closest approach is about 12 times the Earth-Sun distance, 1.78 billion kilometres, only about 20 percent farther than Saturn’s distance from the Sun. No other star yet observed comes in that tight. ESO announced it on 19 August 2026. The paper, from the GRAVITY+ collaboration, is in Nature.
+
+The observations were made with the Very Large Telescope Interferometer at Paranal, combining four 8-metre telescopes. GRAVITY, and the upgraded GRAVITY+, is the instrument. Frank Eisenhauer, the GRAVITY+ principal investigator, notes that no other observatory has four telescopes of that size that can work as one interferometer. The star is about two billion times fainter than Betelgeuse. They first caught it in spring 2023, traced the orbit back to 2017, and found that the last close pass was early 2023. The next one is in 2031.
+
+Felix Mang, a PhD student at the Max Planck Institute for Extraterrestrial Physics and an author of the study, is the person attached to the hope you should not upgrade into a result: within about ten years, this star could yield the spin of Sagittarius A*. Stefan Gillessen, who led much of the work with him, calls that a direct spin measurement and a sharp test of general relativity. It has not been done. One orbit is not enough. They want at least two full, well-sampled orbits so the trajectory is known tightly enough to see the small twist.
+
+## What spin would do, and why this star is the one
+
+A spinning black hole drags spacetime with it. The drag shifts the orbits of nearby stars, more strongly when the star is close and fast. S2 and the other famous Galactic Centre stars were the previous best levers. They are not as close as S301. Juan Osorno, at the Paris Observatory, puts the practical consequence cleanly: without this star, the same spin measurement from the older stars would take several more decades. Reinhard Genzel, whose group’s long campaign of stellar orbits helped establish the black hole, calls S301 a new window on spacetime near Sagittarius A*. The window is open. The measurement is ahead.
+
+The origin story is also an inference, and ESO labels it as one. Stars do not form this close to the black hole. S301’s orbit fits a binary that was torn apart: one star captured onto the tight ellipse, the companion kicked out fast enough that it may have left the Galaxy. “Likely” is the word in the release. It is a good dynamical story. It is not a sighting of the ejected partner.
+
+## Two instruments, one future pass
+
+MICADO, on ESO’s Extremely Large Telescope, is named alongside GRAVITY+ as the follow-up. The 2031 pericentre is the next time the relativistic effects are strongest. Missing it would hurt. Getting it, and the orbit before and after, is the actual experiment. Until that reduction is published, any number quoted as “the spin of Sagittarius A*” did not come from S301.
+
+What is in hand: the star, the speed, the period, the periapsis, the instrument, and a path to a spin measurement that did not exist before this orbit. What is not in hand: the spin. ESO’s release eso2612 is the public account. The Nature paper is the authority for the orbital fit. The notebook’s job is to keep those two lists from collapsing into each other.
 
 ## Maintenance note
 

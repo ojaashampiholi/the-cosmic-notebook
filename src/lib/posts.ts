@@ -20,8 +20,9 @@ function topicOverlap(currentTopics: string[], otherTopic: string) {
 }
 
 /**
- * Pick 2–4 existing notes for a post page.
- * Topic overlap ranks first; recency (and date proximity for neighbors) breaks ties.
+ * Pick up to four existing notes for a post page.
+ * Shared topics rank first, then recency. If fewer than `max` notes share a
+ * topic, the remaining slots are the most recent other notes.
  * Never invents posts — only returns entries from the provided collection.
  */
 export function relatedPosts(
@@ -36,35 +37,28 @@ export function relatedPosts(
   }
 
   const currentTopics = parseTopics(current.data.topic);
-  const currentTime = current.data.date.getTime();
+  const ranked = others.map((post) => ({
+    post,
+    overlap: topicOverlap(currentTopics, post.data.topic),
+    recency: post.data.date.getTime(),
+  }));
 
-  return others
-    .map((post) => {
-      const overlap = topicOverlap(currentTopics, post.data.topic);
-      const recency = post.data.date.getTime();
-
-      return {
-        post,
-        overlap,
-        recency,
-        neighborDistance: Math.abs(recency - currentTime),
-      };
-    })
+  const related = ranked
+    .filter((item) => item.overlap > 0)
     .sort((first, second) => {
       if (second.overlap !== first.overlap) {
         return second.overlap - first.overlap;
       }
 
-      if (first.overlap > 0) {
-        return second.recency - first.recency;
-      }
-
-      if (first.neighborDistance !== second.neighborDistance) {
-        return first.neighborDistance - second.neighborDistance;
-      }
-
       return second.recency - first.recency;
-    })
+    });
+
+  const used = new Set(related.map((item) => item.post.id));
+  const fillers = ranked
+    .filter((item) => !used.has(item.post.id))
+    .sort((first, second) => second.recency - first.recency);
+
+  return [...related, ...fillers]
     .slice(0, Math.min(max, others.length))
     .map((item) => item.post);
 }

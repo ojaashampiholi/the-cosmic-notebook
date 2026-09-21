@@ -4,7 +4,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import NotebookCard from "../components/NotebookCard.astro";
 import { scatterSpans } from "../lib/paper.ts";
 import { parseTopics } from "../lib/posts.ts";
-import { SITE_NAME } from "../lib/site.ts";
+import { SITE_AUTHOR, SITE_NAME } from "../lib/site.ts";
 
 const allPosts = (await getCollection("posts")).sort(
   (first, second) => second.data.date.getTime() - first.data.date.getTime()
@@ -34,7 +34,7 @@ const topicCounts = new Map(
 
 <BaseLayout
   title={`Archive | ${SITE_NAME}`}
-  description={`Browse earlier source-linked astronomy, physics, planetary science, cosmology, and space-mission notes from ${SITE_NAME}.`}
+  description={`Earlier source-linked astronomy, physics, and space-science notes from ${SITE_NAME}, written by ${SITE_AUTHOR}.`}
 >
   <p class="eyebrow">The archive</p>
   <h1>Earlier discoveries</h1>

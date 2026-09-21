@@ -34,6 +34,13 @@ html[data-theme="dark"] {
   --stars-opacity: 0.9;
   --day-haze: transparent;
   --theme-color: #090d18;
+  --content-veil: rgba(6, 9, 16, 0.72);
+  --reading-veil: rgba(5, 8, 14, 0.82);
+  --reading-bg: #101722;
+  --reading-ink: #e8eef8;
+  --reading-heading: #f5f8fd;
+  --reading-halo: rgba(6, 9, 16, 0.78);
+  --card-ink: #d7deee;
 }
 
 html[data-theme="light"] {
@@ -71,6 +78,13 @@ html[data-theme="light"] {
   --stars-opacity: 0.18;
   --day-haze: rgba(255, 255, 255, 0.18);
   --theme-color: #8ec4ea;
+  --content-veil: rgba(255, 248, 236, 0.78);
+  --reading-veil: rgba(255, 246, 230, 0.88);
+  --reading-bg: #fffaf1;
+  --reading-ink: #17233a;
+  --reading-heading: #10192c;
+  --reading-halo: rgba(255, 246, 230, 0.9);
+  --card-ink: #24344f;
 }
 
 * {
@@ -322,6 +336,29 @@ main {
   padding: 68px 0 96px;
 }
 
+main::before {
+  position: absolute;
+  z-index: 0;
+  inset: 18px -18px 28px;
+  border-radius: 32px;
+  background: var(--content-veil);
+  content: "";
+  pointer-events: none;
+}
+
+main > * {
+  position: relative;
+  z-index: 1;
+}
+
+body.is-reading .page-sky {
+  opacity: 0.34;
+}
+
+body.is-reading main::before {
+  background: var(--reading-veil);
+}
+
 a {
   color: var(--accent-strong);
   text-underline-offset: 3px;
@@ -571,6 +608,14 @@ p {
 
   .notebook-scatter {
     gap: 14px;
+  }
+}
+
+@media (max-width: 700px) {
+  .notebook-scatter.home-notes {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+    margin-top: 16px;
   }
 }
 

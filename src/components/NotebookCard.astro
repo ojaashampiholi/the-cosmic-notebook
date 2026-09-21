@@ -25,7 +25,7 @@ const {
     };
   };
   rank?: number;
-  context?: "homepage" | "archive";
+  context?: "homepage" | "archive" | "related";
   hidden?: boolean;
   span?: number;
 };
@@ -33,8 +33,9 @@ const {
 const topics = parseTopics(post.data.topic);
 const paper = paperTypeForId(post.id);
 const detail = paperDetailForId(post.id);
-const tilt = paperTiltForId(post.id);
-const shift = paperShiftForId(post.id);
+const isRelated = context === "related";
+const tilt = isRelated ? 0 : paperTiltForId(post.id);
+const shift = isRelated ? 0 : paperShiftForId(post.id);
 const isHero = context === "homepage" && rank === 1;
 const date = post.data.date.toLocaleDateString("en-GB", {
   day: "numeric",
@@ -47,7 +48,11 @@ const date = post.data.date.toLocaleDateString("en-GB", {
   class:list={[
     "notebook-card-wrap",
     `shift-${shift}`,
-    { "is-hero": isHero },
+    {
+      "is-hero": isHero,
+      "is-home": context === "homepage",
+      "is-related": isRelated,
+    },
   ]}
   data-post-card
   data-topics={JSON.stringify(topics)}
@@ -55,6 +60,7 @@ const date = post.data.date.toLocaleDateString("en-GB", {
   style={`--paper-tilt: ${tilt}deg; --card-span: ${span};`}
 >
   <a class:list={["notebook-card", `paper-${paper}`, `detail-${detail}`]} href={postHref(post.id)}>
+    {isHero && <span class="hero-kicker">Newest note</span>}
     <span class="topic-chip-list" aria-label="Post topics">
       {
         topics.map((topic) => (
@@ -201,11 +207,15 @@ const date = post.data.date.toLocaleDateString("en-GB", {
     margin-bottom: 10px;
   }
 
+  .hero-kicker {
+    display: none;
+  }
+
   .tease {
     display: -webkit-box;
     margin: 0;
     overflow: hidden;
-    color: var(--text-muted);
+    color: var(--card-ink);
     font-size: 0.92rem;
     line-height: 1.5;
     line-clamp: 3;
@@ -239,6 +249,95 @@ const date = post.data.date.toLocaleDateString("en-GB", {
     }
   }
 
+  .notebook-card-wrap.is-related {
+    grid-column: auto;
+    margin-top: 0;
+  }
+
+  .notebook-card-wrap.is-related .notebook-card,
+  .notebook-card-wrap.is-related .notebook-card:hover {
+    min-height: 0;
+    padding: 16px 14px 14px 18px;
+    transform: none;
+  }
+
+  .notebook-card-wrap.is-related h2 {
+    font-size: 1.05rem;
+  }
+
+  .notebook-card-wrap.is-related .tease {
+    font-size: 0.86rem;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+  }
+
+  @media (max-width: 700px) {
+    .notebook-card-wrap.is-home {
+      grid-column: 1 / -1;
+      margin-top: 0;
+    }
+
+    .notebook-card-wrap.is-home .notebook-card,
+    .notebook-card-wrap.is-home .notebook-card:hover {
+      transform: none;
+    }
+
+    .notebook-card-wrap.is-home.is-hero {
+      margin-bottom: 6px;
+    }
+
+    .notebook-card-wrap.is-home.is-hero .hero-kicker {
+      display: inline-block;
+      margin-bottom: 10px;
+      padding: 4px 8px;
+      color: var(--heading);
+      background: var(--bg-chip);
+      border: 1px solid var(--border-strong);
+      border-radius: 999px;
+      font: 700 0.68rem/1 Arial, sans-serif;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .notebook-card-wrap.is-home.is-hero .notebook-card {
+      padding: 26px 20px 22px 24px;
+      border-width: 1.5px;
+      border-color: var(--border-strong);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .notebook-card-wrap.is-home.is-hero h2 {
+      font-size: clamp(1.65rem, 7.4vw, 2.15rem);
+      line-height: 1.12;
+    }
+
+    .notebook-card-wrap.is-home.is-hero .tease {
+      font-size: 1.05rem;
+      line-height: 1.55;
+      line-clamp: 6;
+      -webkit-line-clamp: 6;
+    }
+
+    .notebook-card-wrap.is-home:not(.is-hero) .notebook-card {
+      padding: 14px 14px 12px 16px;
+      border-radius: 10px;
+    }
+
+    .notebook-card-wrap.is-home:not(.is-hero) .notebook-card::after {
+      display: none;
+    }
+
+    .notebook-card-wrap.is-home:not(.is-hero) h2 {
+      font-size: 1.08rem;
+    }
+
+    .notebook-card-wrap.is-home:not(.is-hero) .tease {
+      font-size: 0.88rem;
+      line-clamp: 2;
+      -webkit-line-clamp: 2;
+    }
+  }
+
   @media (max-width: 600px) {
     .notebook-card-wrap,
     .notebook-card-wrap.is-hero {
@@ -248,6 +347,16 @@ const date = post.data.date.toLocaleDateString("en-GB", {
     .notebook-card {
       padding: 18px 16px 16px 20px;
       border-radius: 12px;
+    }
+
+    .notebook-card-wrap.is-home.is-hero .notebook-card {
+      padding: 26px 20px 22px 24px;
+      border-radius: 14px;
+    }
+
+    .notebook-card-wrap.is-home:not(.is-hero) .notebook-card {
+      padding: 14px 14px 12px 16px;
+      border-radius: 10px;
     }
   }
 

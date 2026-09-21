@@ -9,11 +9,15 @@ import {
 } from "../../lib/markdown.ts";
 import { relatedPosts } from "../../lib/posts.ts";
 import { topicVisual } from "../../lib/topic-visuals.ts";
-import { paperTypeForId } from "../../lib/paper.ts";
 import {
+  AUTHOR_SAME_AS,
+  ORG_ID,
+  PERSON_ID,
   SITE_AUTHOR,
   SITE_CANONICAL_ORIGIN,
   SITE_NAME,
+  authorJsonLd,
+  organizationJsonLd,
 } from "../../lib/site.ts";
 
 export async function getStaticPaths() {
@@ -56,12 +60,14 @@ const articleBody = hasBody
   ? markdownToPlain(post.data.body ?? "")
   : `${post.data.excerpt}\n\n${post.data.whyItMatters}`;
 
-const paper = paperTypeForId(post.id);
+const author = authorJsonLd();
+const publisher = organizationJsonLd();
 
 const jsonLd = {
-  "@context": "https://schema.org",
   "@type": "BlogPosting",
+  "@id": canonicalUrl,
   headline: post.data.title,
+  name: post.data.title,
   description: post.data.excerpt,
   datePublished: publishedTime,
   dateModified: publishedTime,
@@ -78,13 +84,16 @@ const jsonLd = {
   wordCount: articleBody.split(/\s+/).filter(Boolean).length,
   author: {
     "@type": "Person",
-    name: SITE_AUTHOR,
-    url: `${SITE_CANONICAL_ORIGIN}/about/`,
+    "@id": PERSON_ID,
+    name: author.name,
+    url: author.url,
+    sameAs: AUTHOR_SAME_AS,
   },
   publisher: {
     "@type": "Organization",
-    name: SITE_NAME,
-    url: `${SITE_CANONICAL_ORIGIN}/`,
+    "@id": ORG_ID,
+    name: publisher.name,
+    url: publisher.url,
   },
   citation: post.data.sources.map((source) => ({
     "@type": "CreativeWork",
@@ -105,7 +114,7 @@ const jsonLd = {
   jsonLd={jsonLd}
 >
   <article
-    class:list={["note-page", `paper-${paper}`]}
+    class="note-page paper-plain"
     itemscope
     itemtype="https://schema.org/BlogPosting"
   >
@@ -120,6 +129,13 @@ const jsonLd = {
           <time datetime={publishedTime} itemprop="datePublished">
             {formattedDate}
           </time>
+        </p>
+
+        <p>
+          <strong>Written by:</strong>
+          <a href={`${SITE_CANONICAL_ORIGIN}/about/`} rel="author">
+            <span itemprop="author">{SITE_AUTHOR}</span>
+          </a>
         </p>
 
         <p>
@@ -169,17 +185,22 @@ const jsonLd = {
       </ul>
     </section>
 
-    <RelatedNotes notes={related} />
   </article>
+
+  <RelatedNotes notes={related} />
 </BaseLayout>
 
 <style>
   .note-page {
-    max-width: 46rem;
+    max-width: 48rem;
     padding: 28px 32px 36px;
+    background-color: var(--reading-bg);
+    background-image: none;
     border: 1px solid var(--border);
     border-radius: 10px 16px 12px 8px;
-    box-shadow: var(--shadow);
+    box-shadow:
+      0 0 0 22px var(--reading-halo),
+      var(--shadow);
   }
 
   .note-header h1 {
@@ -190,7 +211,7 @@ const jsonLd = {
 
   .note-lede {
     margin: 28px 0 0;
-    color: var(--heading);
+    color: var(--reading-heading);
     font-size: 1.22rem;
     line-height: 1.7;
   }
@@ -202,7 +223,7 @@ const jsonLd = {
   .note-body :global(h2),
   .note-aside h2 {
     margin: 2.35rem 0 0.8rem;
-    color: var(--heading);
+    color: var(--reading-heading);
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.38rem;
     font-weight: 700;
@@ -213,7 +234,7 @@ const jsonLd = {
 
   .note-body :global(h3) {
     margin: 1.8rem 0 0.7rem;
-    color: var(--heading);
+    color: var(--reading-heading);
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.16rem;
     letter-spacing: -0.02em;
@@ -223,7 +244,7 @@ const jsonLd = {
   .note-body :global(p),
   .note-aside p {
     margin: 0 0 1.15rem;
-    color: var(--text-muted);
+    color: var(--reading-ink);
     font-size: 1.125rem;
     line-height: 1.8;
   }
@@ -242,7 +263,7 @@ const jsonLd = {
   .note-body :global(ol) {
     margin: 0 0 1.2rem;
     padding-left: 1.3rem;
-    color: var(--text-muted);
+    color: var(--reading-ink);
   }
 
   .note-body :global(li) {

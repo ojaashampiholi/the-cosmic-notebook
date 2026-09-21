@@ -2,16 +2,23 @@
 import SiteFooter from "../components/SiteFooter.astro";
 import SiteHeader from "../components/SiteHeader.astro";
 import {
+  AUTHOR_SAME_AS,
+  ORG_ID,
+  PERSON_ID,
   SITE_AUTHOR,
   SITE_CANONICAL_ORIGIN,
   SITE_DESCRIPTION,
   SITE_NAME,
+  WEBSITE_ID,
+  authorJsonLd,
+  organizationJsonLd,
+  websiteJsonLd,
   withBase,
 } from "../lib/site.ts";
 import "../styles/theme.css";
 
 const {
-  title = `${SITE_NAME} | Astronomy and physics notes`,
+  title = `${SITE_NAME} by ${SITE_AUTHOR}`,
   description = SITE_DESCRIPTION,
   image = "/the-cosmic-notebook/images/topic-previews/cosmic-notebook.png",
   type = "website",
@@ -29,20 +36,46 @@ const canonical = new URL(pathname, Astro.site);
 const socialImage = new URL(image, Astro.site);
 const llmsUrl = new URL(withBase("llms.txt"), Astro.site);
 
-const defaultJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: SITE_NAME,
-  url: `${SITE_CANONICAL_ORIGIN}/`,
-  description: SITE_DESCRIPTION,
-  inLanguage: "en",
-  author: {
-    "@type": "Person",
-    name: SITE_AUTHOR,
-  },
-};
+const aboutUrl = `${SITE_CANONICAL_ORIGIN}/about/`;
 
-const structuredData = jsonLd ?? defaultJsonLd;
+function asGraphNode(value: unknown) {
+  if (!value || typeof value !== "object" || Array.isArray(value)) {
+    return null;
+  }
+
+  const node = { ...(value as Record<string, unknown>) };
+  delete node["@context"];
+  return node;
+}
+
+const extraNode = asGraphNode(jsonLd);
+const graph: Record<string, unknown>[] = [
+  authorJsonLd(),
+  organizationJsonLd(),
+  websiteJsonLd(),
+];
+
+if (extraNode) {
+  graph.push(extraNode);
+} else {
+  graph.push({
+    "@type": "WebPage",
+    "@id": canonical.href,
+    url: canonical.href,
+    name: title,
+    description,
+    inLanguage: "en",
+    isPartOf: { "@id": WEBSITE_ID },
+    author: { "@id": PERSON_ID },
+    publisher: { "@id": ORG_ID },
+    about: { "@id": ORG_ID },
+  });
+}
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": graph,
+};
 ---
 <!doctype html>
 <html lang="en">
@@ -86,6 +119,12 @@ const structuredData = jsonLd ?? defaultJsonLd;
       href={llmsUrl}
     />
     <meta name="author" content={SITE_AUTHOR} />
+    <link rel="author" href={aboutUrl} />
+    {
+      AUTHOR_SAME_AS.map((profile) => (
+        <link rel="me" href={profile} />
+      ))
+    }
     <meta property="og:site_name" content={SITE_NAME} />
     <meta property="og:locale" content="en_GB" />
     <meta property="og:type" content={type} />
@@ -101,7 +140,7 @@ const structuredData = jsonLd ?? defaultJsonLd;
     }
     {
       type === "article" && (
-        <meta property="article:author" content={SITE_AUTHOR} />
+        <meta property="article:author" content={aboutUrl} />
       )
     }
     {
@@ -134,7 +173,7 @@ const structuredData = jsonLd ?? defaultJsonLd;
     <title>{title}</title>
   </head>
 
-  <body>
+  <body class:list={[{ "is-reading": type === "article" }]}>
     <div class="page-sky" aria-hidden="true">
       <span class="sky-orb sky-sun"></span>
       <span class="sky-orb sky-moon"></span>
