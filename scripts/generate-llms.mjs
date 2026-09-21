@@ -88,7 +88,7 @@ const lines = [
   "- Author and curator: Ojaas Hampiholi",
   `- Canonical URL: ${site}/`,
   "- Language: English",
-  "- Format: source-linked explanatory notes",
+  "- Format: source-linked explanatory notes; some notes include a longer Markdown body",
   "- Publication status: independent hobby project; not peer-reviewed",
   "- Intended audience: general readers first, with students and space-science professionals welcome",
   "",
@@ -147,7 +147,9 @@ for (const [topic, topicPosts] of sortedTopics) {
       `- ${markdownLink(
         post.data.title,
         `${site}/posts/${post.id}/`
-      )}: ${cleanInline(post.data.excerpt)}`
+      )}: ${cleanInline(post.data.excerpt)}${
+        post.data.body ? " Fuller note available." : ""
+      }`
     );
   }
 
@@ -158,7 +160,7 @@ lines.push("## Complete note catalogue");
 lines.push("");
 
 lines.push(
-  "The catalogue below is ordered from newest to oldest. Each record contains the public explanation, its relevance, a suggested next question, and the sources attached to the published note."
+  "The catalogue below is ordered from newest to oldest. Each record contains the public explanation, its relevance, a suggested next question, and the sources attached to the published note. When a note has a longer body, that full text is included so answer engines can quote the page rather than only the card summary.",
 );
 
 lines.push("");
@@ -214,6 +216,13 @@ for (const post of posts) {
         source.url
       )}`
     );
+  }
+
+  if (typeof data.body === "string" && data.body.trim()) {
+    lines.push("");
+    lines.push("Fuller note:");
+    lines.push("");
+    lines.push(data.body.trim());
   }
 
   lines.push("");

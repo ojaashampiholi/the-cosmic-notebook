@@ -1,0 +1,56 @@
+---
+import { postHref } from "../lib/site.ts";
+
+const { post } = Astro.props as {
+  post: {
+    id: string;
+    data: {
+      body?: string;
+    };
+  };
+};
+
+const hasBody = Boolean(post.data.body?.trim());
+---
+
+<p class="note-links">
+  {
+    hasBody && (
+      <span class="fuller-chip">Fuller note</span>
+    )
+  }
+  <a class="read-note" href={postHref(post.id)}>
+    {hasBody ? "Read the full note" : "Read the note"}
+  </a>
+</p>
+
+<style>
+  .note-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 14px;
+    margin: 18px 0 0;
+  }
+
+  .fuller-chip {
+    padding: 5px 8px;
+    color: #f1d4ae;
+    background: rgba(212, 156, 106, 0.12);
+    border: 1px solid rgba(241, 212, 174, 0.28);
+    border-radius: 999px;
+    font: 700 0.68rem/1 Arial, sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .read-note {
+    color: #c7d1ff;
+    font: 700 0.92rem/1.4 Arial, sans-serif;
+    text-underline-offset: 3px;
+  }
+
+  .read-note:hover {
+    color: #e8edff;
+  }
+</style>
