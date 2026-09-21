@@ -29,7 +29,7 @@ The site is a static Astro build, published with GitHub Pages from this reposito
 
 Homepage and archive cards open the in-site post (`/the-cosmic-notebook/posts/{slug}/`). Primary sources stay on the expanded note, with a quieter “Primary source” link on the card so the main click path never jumps out to Nature, NASA, or similar.
 
-Each full note ends with one **Sources** block for the original papers and institutions, then a separate **Related notes** section: two to four existing posts, ranked by shared topic and then recency. Related-note links are always internal slug pages, never a second copy of Sources.
+Each full note ends with one **Sources** block for the original papers and institutions, then a separate **Related notes** section: four existing posts, ranked by shared topic and then recency. If fewer than four notes share a topic, the remaining cards are other recent notes. Related-note links are always internal slug pages, never a second copy of Sources. Article pages use a plain paper sheet; homepage and archive cards keep the mixed paper styles.
 
 ## Authorship
 
@@ -65,7 +65,7 @@ Required fields:
 | `whatToExploreNext` | A next question, kept in the JSON and `llms.txt` |
 | `sources` | The papers, institutions, and reports behind the note |
 
-Optional `body` is a Markdown string rendered on the note page (`/posts/{slug}/`). Short JSON notes without `body` remain valid. Cards, archive listings, social tags, and structured data still use `excerpt` and `whyItMatters`, so a longer article does not change how the note appears in lists. Headings such as “Explore further” or “What to explore next” inside `body` are stripped at render time so they do not duplicate the **Sources** block.
+`body` is a Markdown string rendered on the note page (`/posts/{slug}/`). The schema still allows a note without `body`, but every published note in this repository includes one, typically a few hundred to roughly eight hundred words, written from the note’s own sources. Cards, archive listings, social tags, and structured data still use `excerpt` and `whyItMatters`, so a longer article does not change how the note appears in lists. Headings such as “Explore further” or “What to explore next” inside `body` are stripped at render time so they do not duplicate the **Sources** block.
 
 New notes are added as dated JSON files. The build regenerates `public/llms.txt` and topic preview images before compiling the site.
 

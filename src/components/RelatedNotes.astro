@@ -1,19 +1,10 @@
 ---
-import { parseTopics } from "../lib/posts.ts";
-import { postHref } from "../lib/site.ts";
+import NotebookCard from "./NotebookCard.astro";
 import type { NotebookPost } from "../lib/posts.ts";
 
 const { notes } = Astro.props as {
   notes: NotebookPost[];
 };
-
-function formatDate(date: Date) {
-  return date.toLocaleDateString("en-GB", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  });
-}
 ---
 
 {
@@ -21,22 +12,16 @@ function formatDate(date: Date) {
     <nav class="related-notes" aria-labelledby="related-notes-heading">
       <p class="eyebrow">Keep reading</p>
       <h2 id="related-notes-heading">Related notes</h2>
+      <p class="related-lede">
+        {notes.length === 1
+          ? "One other note. Shared topics come first; a recent note fills the gap when it has to."
+          : `${notes.length} other notes. Shared topics come first. Recent notes fill whatever is left.`}
+      </p>
 
-      <ul>
-        {
-          notes.map((note) => (
-            <li>
-              <a href={postHref(note.id)}>
-                <span class="related-title">{note.data.title}</span>
-                <span class="related-meta">
-                  {parseTopics(note.data.topic).join(" · ")}
-                  <span aria-hidden="true"> · </span>
-                  {formatDate(note.data.date)}
-                </span>
-              </a>
-            </li>
-          ))
-        }
+      <ul class="related-grid">
+        {notes.map((note) => (
+          <NotebookCard post={note} context="related" span={1} rank={4} />
+        ))}
       </ul>
     </nav>
   )
@@ -44,9 +29,8 @@ function formatDate(date: Date) {
 
 <style>
   .related-notes {
-    margin-top: 3.2rem;
-    padding-top: 0.4rem;
-    border-top: 1px solid var(--border);
+    width: 100%;
+    margin-top: 2.6rem;
   }
 
   .related-notes .eyebrow {
@@ -54,60 +38,42 @@ function formatDate(date: Date) {
   }
 
   .related-notes h2 {
-    margin: 0 0 1.1rem;
+    margin: 0 0 0.45rem;
     color: var(--heading);
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.38rem;
+    font-size: clamp(1.45rem, 2vw, 1.8rem);
     font-weight: 700;
     letter-spacing: -0.03em;
-    line-height: 1.28;
+    line-height: 1.2;
     text-transform: none;
   }
 
-  .related-notes ul {
+  .related-lede {
+    max-width: 42rem;
+    margin: 0 0 1.1rem;
+    color: var(--card-ink);
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+
+  .related-grid {
     display: grid;
-    gap: 0.85rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px;
     margin: 0;
     padding: 0;
     list-style: none;
   }
 
-  .related-notes a {
-    display: grid;
-    gap: 0.35rem;
-    padding: 14px 16px;
-    color: inherit;
-    background: var(--bg-muted);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    text-decoration: none;
-    transition:
-      border-color 180ms ease,
-      background 180ms ease;
+  @media (max-width: 1000px) {
+    .related-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
   }
 
-  .related-notes a:hover {
-    background: var(--bg-chip);
-    border-color: var(--border-strong);
-  }
-
-  .related-title {
-    color: var(--heading);
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.12rem;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-    line-height: 1.28;
-  }
-
-  .related-meta {
-    color: var(--text-faint);
-    font: 0.82rem/1.45 Arial, sans-serif;
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .related-notes a {
-      transition: none;
+  @media (max-width: 700px) {
+    .related-grid {
+      grid-template-columns: minmax(0, 1fr);
     }
   }
 </style>

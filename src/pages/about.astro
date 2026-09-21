@@ -1,27 +1,45 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { SITE_AUTHOR, SITE_LINKS, SITE_NAME, withBase } from "../lib/site.ts";
+import {
+  ORG_ID,
+  PERSON_ID,
+  SITE_AUTHOR,
+  SITE_CANONICAL_ORIGIN,
+  SITE_LINKS,
+  SITE_NAME,
+  WEBSITE_ID,
+  withBase,
+} from "../lib/site.ts";
+
+const aboutUrl = `${SITE_CANONICAL_ORIGIN}/about/`;
+const jsonLd = {
+  "@type": "ProfilePage",
+  "@id": aboutUrl,
+  url: aboutUrl,
+  name: `About ${SITE_AUTHOR}`,
+  description: `${SITE_AUTHOR} writes and curates ${SITE_NAME}, a public notebook of source-backed notes on astronomy, astrophysics, and space science.`,
+  inLanguage: "en",
+  isPartOf: { "@id": WEBSITE_ID },
+  mainEntity: { "@id": PERSON_ID },
+  about: { "@id": ORG_ID },
+};
 ---
 
 <BaseLayout
-  title={`About | ${SITE_NAME}`}
-  description={`Why ${SITE_AUTHOR} keeps a public notebook of clear, source-backed space-science notes.`}
+  title={`About ${SITE_AUTHOR} | ${SITE_NAME}`}
+  description={`${SITE_AUTHOR} writes ${SITE_NAME}: source-backed notes on astronomy, astrophysics, cosmology, and space science, kept for curious readers.`}
+  jsonLd={jsonLd}
 >
   <article class="about-page">
-    <p class="eyebrow">About this notebook</p>
-    <h1>Why I keep looking up</h1>
-
-    <img
-      class="about-visual"
-      src={withBase("images/midnight-desk.png")}
-      alt="An open astronomy notebook beside a lamp and telescope under a night sky"
-    />
-
-    <p>
-      The Cosmic Notebook began with a simple habit: finding something
-      fascinating about the universe, opening far too many tabs to understand
-      it, and eventually writing down what I had learned.
-    </p>
+    <div class="about-hero">
+      <div>
+        <p class="eyebrow">About this notebook</p>
+        <h1>Why I keep looking up</h1>
+        <p>
+          The Cosmic Notebook began with a simple habit: finding something
+          fascinating about the universe, opening far too many tabs to understand
+          it, and eventually writing down what I had learned.
+        </p>
     <p>
       It is a personal notebook built around a long-running curiosity about
       astronomy, astrophysics, cosmology, planetary science, space exploration,
@@ -40,12 +58,22 @@ import { SITE_AUTHOR, SITE_LINKS, SITE_NAME, withBase } from "../lib/site.ts";
       research, understanding it well enough to explain it plainly, and keeping
       a record of the discoveries and ideas worth returning to.
     </p>
-    <p>
-      Wherever possible, every note links back to the scientific papers,
-      observatories, universities, space agencies, researchers, or other
-      primary sources that made it possible.
-    </p>
+        <p>
+          Wherever possible, every note links back to the scientific papers,
+          observatories, universities, space agencies, researchers, or other
+          primary sources that made it possible.
+        </p>
+      </div>
 
+      <img
+        class="about-visual"
+        src={withBase("images/midnight-desk.png")}
+        alt="An open astronomy notebook beside a lamp and telescope under a night sky"
+      />
+    </div>
+
+    <div class="about-sections">
+    <section>
     <h2>What lives here</h2>
     <p>
       The Cosmic Notebook is a growing collection of accessible notes on
@@ -63,16 +91,18 @@ import { SITE_AUTHOR, SITE_LINKS, SITE_NAME, withBase } from "../lib/site.ts";
       about space and science but may not have a formal background in either.
     </p>
     <p>
-      My aim with this initiative is to make complex astronomy and astrophysics
-      research easier to enter without stripping away the uncertainty, nuance,
-      or scientific context that makes the original work interesting.
+      I try to make complex astronomy and astrophysics research easier to enter
+      without stripping away the uncertainty, nuance, or scientific context
+      that makes the original work interesting.
     </p>
     <p>
       Students, researchers, astronomers, physicists, and other experts are
       equally welcome here, particularly when they can point out something I
       have misunderstood or suggest a better way to explain it.
     </p>
+    </section>
 
+    <section>
     <h2>How I approach it</h2>
     <p>
       Each note begins with credible scientific or institutional sources.
@@ -102,7 +132,9 @@ import { SITE_AUTHOR, SITE_LINKS, SITE_NAME, withBase } from "../lib/site.ts";
       seem worth pausing over, understanding a little better, and perhaps
       returning to later.
     </p>
+    </section>
 
+    <section>
     <h2>A note on scope</h2>
     <p>
       The Cosmic Notebook is not a scientific journal, research publication, or
@@ -124,7 +156,9 @@ import { SITE_AUTHOR, SITE_LINKS, SITE_NAME, withBase } from "../lib/site.ts";
       That is ultimately what this notebook is meant to encourage:
       <i>Curiosity that does not end with the summary</i>
     </p>
+    </section>
 
+    <section>
     <h2>Stay in touch</h2>
     <p>
       The Cosmic Notebook is also an open invitation to learn in public. If you
@@ -140,9 +174,11 @@ import { SITE_AUTHOR, SITE_LINKS, SITE_NAME, withBase } from "../lib/site.ts";
       Corrections, thoughtful disagreements, reading suggestions, and
       wonderfully obscure space rabbit holes are all welcome.
     </p>
+    </section>
+    </div>
 
     <img
-      class="about-visual"
+      class="about-visual about-closing"
       src={withBase("images/tcn_launch.png")}
       alt="The Cosmic Notebook launch illustration with a desk, lamp, and night sky"
     />
@@ -151,11 +187,30 @@ import { SITE_AUTHOR, SITE_LINKS, SITE_NAME, withBase } from "../lib/site.ts";
 
 <style>
   .about-page {
-    max-width: 46rem;
+    width: 100%;
+    max-width: none;
+  }
+
+  .about-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(260px, 0.85fr);
+    gap: 28px 48px;
+    align-items: start;
+  }
+
+  .about-hero .about-visual {
+    margin: 8px 0 0;
+  }
+
+  .about-sections {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px 56px;
+    margin-top: 12px;
   }
 
   .about-page h2 {
-    margin: 2.35rem 0 0.8rem;
+    margin: 1.6rem 0 0.8rem;
     color: var(--heading);
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.38rem;
@@ -166,7 +221,8 @@ import { SITE_AUTHOR, SITE_LINKS, SITE_NAME, withBase } from "../lib/site.ts";
   }
 
   .about-page p {
-    color: var(--text-muted);
+    max-width: 68ch;
+    color: var(--card-ink);
     font-size: 1.125rem;
     line-height: 1.8;
   }
@@ -174,8 +230,24 @@ import { SITE_AUTHOR, SITE_LINKS, SITE_NAME, withBase } from "../lib/site.ts";
   .about-visual {
     display: block;
     width: 100%;
-    margin: 32px 0 40px;
+    margin: 36px 0 8px;
     border: 1px solid var(--border);
     border-radius: 16px;
+  }
+
+  .about-closing {
+    margin-top: 8px;
+  }
+
+  @media (max-width: 800px) {
+    .about-hero,
+    .about-sections {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 8px 0;
+    }
+
+    .about-page p {
+      max-width: none;
+    }
   }
 </style>
