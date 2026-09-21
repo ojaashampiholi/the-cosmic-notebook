@@ -8,6 +8,7 @@ import {
   SITE_NAME,
   withBase,
 } from "../lib/site.ts";
+import "../styles/theme.css";
 
 const {
   title = `${SITE_NAME} | Astronomy and physics notes`,
@@ -18,7 +19,6 @@ const {
   publishedTime,
   section,
   jsonLd,
-  wide = false,
 } = Astro.props;
 
 const pathname = Astro.url.pathname.endsWith("/")
@@ -26,7 +26,6 @@ const pathname = Astro.url.pathname.endsWith("/")
   : `${Astro.url.pathname}/`;
 
 const canonical = new URL(pathname, Astro.site);
-
 const socialImage = new URL(image, Astro.site);
 const llmsUrl = new URL(withBase("llms.txt"), Astro.site);
 
@@ -49,19 +48,27 @@ const structuredData = jsonLd ?? defaultJsonLd;
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <script is:inline>
+      (() => {
+        const key = "cosmic-notebook-theme";
+        let theme = "dark";
+        try {
+          const stored = localStorage.getItem(key);
+          if (stored === "light" || stored === "dark") {
+            theme = stored;
+          } else if (window.matchMedia("(prefers-color-scheme: light)").matches) {
+            theme = "light";
+          }
+        } catch {
+          theme = "dark";
+        }
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
 
     <meta name="google-site-verification" content="9UI2VteLdPcUNuEx0c7Z9WpnYBxwOrwaXBYPR-IpWtY" />
-
-    <meta
-      name="viewport"
-      content="width=device-width"
-    />
-
-    <meta
-      name="description"
-      content={description}
-    />
-
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
     <meta
       name="robots"
       content={
@@ -70,147 +77,73 @@ const structuredData = jsonLd ?? defaultJsonLd;
           : "index, follow, max-image-preview:large"
       }
     />
-
-    <meta
-      name="theme-color"
-      content="#090d18"
-    />
-
-    <link
-      rel="canonical"
-      href={canonical}
-    />
-
+    <meta name="theme-color" content="#090d18" />
+    <link rel="canonical" href={canonical} />
     <link
       rel="alternate"
       type="text/plain"
       title="LLM-readable catalogue"
       href={llmsUrl}
     />
-
-    <meta
-      name="author"
-      content={SITE_AUTHOR}
-    />
-
-    <meta
-      property="og:site_name"
-      content={SITE_NAME}
-    />
-
-    <meta
-      property="og:locale"
-      content="en_GB"
-    />
-
-    <meta
-      property="og:type"
-      content={type}
-    />
-
-    <meta
-      property="og:title"
-      content={title}
-    />
-
-    <meta
-      property="og:description"
-      content={description}
-    />
-
-    <meta
-      property="og:url"
-      content={canonical}
-    />
-
-    <meta
-      property="og:image"
-      content={socialImage}
-    />
-
-    <meta
-      property="og:image:alt"
-      content={title}
-    />
-
+    <meta name="author" content={SITE_AUTHOR} />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={socialImage} />
+    <meta property="og:image:alt" content={title} />
     {
       type === "article" && publishedTime && (
-        <meta
-          property="article:published_time"
-          content={publishedTime}
-        />
+        <meta property="article:published_time" content={publishedTime} />
       )
     }
-
     {
       type === "article" && (
-        <meta
-          property="article:author"
-          content={SITE_AUTHOR}
-        />
+        <meta property="article:author" content={SITE_AUTHOR} />
       )
     }
-
     {
       type === "article" && section && (
-        <meta
-          property="article:section"
-          content={section}
-        />
+        <meta property="article:section" content={section} />
       )
     }
-
-    <meta
-      name="twitter:card"
-      content="summary_large_image"
-    />
-
-    <meta
-      name="twitter:title"
-      content={title}
-    />
-
-    <meta
-      name="twitter:description"
-      content={description}
-    />
-
-    <meta
-      name="twitter:image"
-      content={socialImage}
-    />
-
-    <meta
-      name="twitter:image:alt"
-      content={title}
-    />
-
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImage} />
+    <meta name="twitter:image:alt" content={title} />
     <script
       is:inline
       type="application/ld+json"
       set:html={JSON.stringify(structuredData)}
     />
-
     {
-      import.meta.env
-        .PUBLIC_CLOUDFLARE_WEB_ANALYTICS_TOKEN && (
+      import.meta.env.PUBLIC_CLOUDFLARE_WEB_ANALYTICS_TOKEN && (
         <script
           is:inline
           defer
           src="https://static.cloudflareinsights.com/beacon.min.js"
           data-cf-beacon={JSON.stringify({
-            token:
-              import.meta.env
-                .PUBLIC_CLOUDFLARE_WEB_ANALYTICS_TOKEN,
+            token: import.meta.env.PUBLIC_CLOUDFLARE_WEB_ANALYTICS_TOKEN,
           })}
         ></script>
       )
     }
-
     <title>{title}</title>
   </head>
 
-  <body class:list={[{ "is-wide": wide }]}>
+  <body>
+    <div class="page-sky" aria-hidden="true">
+      <span class="sky-orb sky-sun"></span>
+      <span class="sky-orb sky-moon"></span>
+      <span class="sky-orb sky-planet sky-planet-one"></span>
+      <span class="sky-orb sky-planet sky-planet-two"></span>
+      <span class="sky-orb sky-planet sky-saturn"></span>
+      <span class="sky-telescope"></span>
+    </div>
+
     <main>
       <SiteHeader />
       <slot />
@@ -218,240 +151,3 @@ const structuredData = jsonLd ?? defaultJsonLd;
     </main>
   </body>
 </html>
-
-<style is:global>
-  :root {
-    color: #e7ebf5;
-    background:
-      radial-gradient(
-        circle at 14% 8%,
-        rgba(66, 84, 145, 0.2),
-        transparent 28rem
-      ),
-      radial-gradient(
-        circle at 88% 12%,
-        rgba(126, 85, 154, 0.13),
-        transparent 24rem
-      ),
-      #090d18;
-    font-family:
-      Georgia,
-      "Times New Roman",
-      serif;
-  }
-
-  * {
-    box-sizing: border-box;
-  }
-
-  html {
-    min-height: 100%;
-    background: #070b15;
-  }
-
-  body {
-    min-height: 100vh;
-    margin: 0;
-    color: #e7ebf5;
-    background-color: #070b15;
-    background-image:
-      radial-gradient(
-        circle at 8% 14%,
-        rgba(182, 198, 255, 0.55) 0 1px,
-        transparent 1.7px
-      ),
-      radial-gradient(
-        circle at 22% 31%,
-        rgba(255, 255, 255, 0.34) 0 1px,
-        transparent 1.7px
-      ),
-      radial-gradient(
-        circle at 40% 7%,
-        rgba(184, 168, 255, 0.35) 0 1.2px,
-        transparent 2px
-      ),
-      radial-gradient(
-        circle at 61% 22%,
-        rgba(255, 255, 255, 0.28) 0 1px,
-        transparent 1.7px
-      ),
-      radial-gradient(
-        circle at 76% 9%,
-        rgba(159, 190, 255, 0.38) 0 1.1px,
-        transparent 1.8px
-      ),
-      radial-gradient(
-        circle at 91% 36%,
-        rgba(255, 255, 255, 0.28) 0 1px,
-        transparent 1.7px
-      ),
-      linear-gradient(160deg, #070b15 0%, #0b1120 48%, #090d18 100%);
-    background-size:
-      280px 280px,
-      360px 360px,
-      420px 420px,
-      320px 320px,
-      390px 390px,
-      470px 470px,
-      100% 100%;
-    background-attachment: fixed;
-  }
-
-  body::before {
-    position: fixed;
-    z-index: 0;
-    inset: 0;
-    pointer-events: none;
-    background:
-      radial-gradient(
-        circle at 28% 19%,
-        rgba(255, 255, 255, 0.8) 0 1px,
-        transparent 1.6px
-      ),
-      radial-gradient(
-        circle at 72% 63%,
-        rgba(190, 204, 255, 0.65) 0 1px,
-        transparent 1.6px
-      ),
-      radial-gradient(
-        circle at 48% 85%,
-        rgba(255, 255, 255, 0.5) 0 0.9px,
-        transparent 1.5px
-      );
-    background-size: 440px 440px, 540px 540px, 620px 620px;
-    content: "";
-    opacity: 0.14;
-    animation: layout-star-twinkle 12s ease-in-out infinite alternate;
-  }
-
-  main {
-    position: relative;
-    z-index: 1;
-    width: min(820px, calc(100% - 40px));
-    margin: 0 auto;
-    padding: 68px 0 96px;
-  }
-
-  body.is-wide main {
-    width: min(1360px, calc(100% - 48px));
-  }
-
-  a {
-    color: #c7d1ff;
-    text-underline-offset: 3px;
-  }
-
-  .eyebrow {
-    color: #aebdff;
-    font:
-      700 0.76rem/1.4 Arial,
-      sans-serif;
-    letter-spacing: 0.13em;
-    text-transform: uppercase;
-  }
-
-  h1 {
-    margin: 20px 0 28px;
-    color: #f1f4fb;
-    font-size:
-      clamp(2.25rem, 6vw, 4.65rem);
-    line-height: 0.98;
-    letter-spacing: -0.055em;
-  }
-
-  h2 {
-    margin: 38px 0 10px;
-    color: #eef2fb;
-    font:
-      700 1rem/1.4 Arial,
-      sans-serif;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-  }
-
-  p,
-  li {
-    font-size: 1.15rem;
-    line-height: 1.72;
-  }
-
-  p {
-    color: #c2cad9;
-  }
-
-  .meta {
-    padding: 14px 0;
-    color: #aeb8cc;
-    border-block:
-      1px solid rgba(179, 194, 232, 0.18);
-    font:
-      0.88rem/1.55 Arial,
-      sans-serif;
-  }
-
-  .archive {
-    margin: 52px 0 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .archive li {
-    padding: 25px 0;
-    border-top:
-      1px solid rgba(179, 194, 232, 0.16);
-  }
-
-  .archive a {
-    color: inherit;
-    font-size: 1.75rem;
-    font-weight: 700;
-    line-height: 1.1;
-    text-decoration: none;
-  }
-
-  .archive p {
-    margin: 10px 0 0;
-    color: #b9c2d3;
-    font-size: 1rem;
-  }
-
-  .back {
-    font:
-      700 0.9rem/1.5 Arial,
-      sans-serif;
-  }
-
-  .source-list {
-    padding-left: 20px;
-  }
-
-  @media (max-width: 900px) {
-    body.is-wide main {
-      width: min(820px, calc(100% - 40px));
-    }
-  }
-
-  @media (max-width: 600px) {
-    main {
-      width:
-        min(100% - 32px, 820px);
-      padding: 44px 0 72px;
-    }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    body::before {
-      animation: none;
-    }
-  }
-
-  @keyframes layout-star-twinkle {
-    from {
-      opacity: 0.07;
-    }
-
-    to {
-      opacity: 0.18;
-    }
-  }
-</style>

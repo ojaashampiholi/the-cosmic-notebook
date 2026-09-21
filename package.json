@@ -1,5 +1,6 @@
 {
-  "name": "orbital-notes",
+  "name": "the-cosmic-notebook",
+  "description": "The Cosmic Notebook — clear, source-backed notes on astronomy, astrophysics, physics, and space science.",
   "private": true,
   "type": "module",
   "version": "1.0.0",

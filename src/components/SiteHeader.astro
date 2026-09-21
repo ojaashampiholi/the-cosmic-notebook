@@ -61,8 +61,67 @@ function isCurrent(href: string, prefix = false) {
     <a href={SITE_LINKS.substack} target="_blank" rel="noreferrer">
       Substack
     </a>
+    <button
+      type="button"
+      class="theme-toggle"
+      data-theme-toggle
+      aria-label="Switch to daylight theme"
+      aria-pressed="false"
+    >
+      <span class="theme-toggle-sun" aria-hidden="true">☀</span>
+      <span class="theme-toggle-moon" aria-hidden="true">☾</span>
+      <span class="theme-toggle-label" data-theme-toggle-label>Night</span>
+    </button>
   </nav>
 </header>
+
+<script>
+  const storageKey = "cosmic-notebook-theme";
+  const root = document.documentElement;
+  const button = document.querySelector<HTMLButtonElement>("[data-theme-toggle]");
+  const label = document.querySelector<HTMLElement>("[data-theme-toggle-label]");
+  const themeColor = document.querySelector<HTMLMetaElement>('meta[name="theme-color"]');
+
+  function currentTheme() {
+    return root.getAttribute("data-theme") === "light" ? "light" : "dark";
+  }
+
+  function applyTheme(theme: "light" | "dark") {
+    root.setAttribute("data-theme", theme);
+
+    try {
+      localStorage.setItem(storageKey, theme);
+    } catch {
+      // Ignore private-mode storage failures; the in-memory theme still applies.
+    }
+
+    if (button) {
+      const nextIsLight = theme === "dark";
+      button.setAttribute(
+        "aria-label",
+        nextIsLight ? "Switch to daylight theme" : "Switch to night theme"
+      );
+      button.setAttribute("aria-pressed", theme === "light" ? "true" : "false");
+    }
+
+    if (label) {
+      label.textContent = theme === "light" ? "Day" : "Night";
+    }
+
+    if (themeColor) {
+      themeColor.setAttribute(
+        "content",
+        theme === "light" ? "#8ec4ea" : "#090d18"
+      );
+    }
+  }
+
+  applyTheme(currentTheme());
+
+  button?.addEventListener("click", () => {
+    applyTheme(currentTheme() === "dark" ? "light" : "dark");
+  });
+</script>
 
 <style>
   .site-header {
@@ -75,10 +134,11 @@ function isCurrent(href: string, prefix = false) {
     padding: 24px 20px 20px;
     overflow: hidden;
     background:
-      linear-gradient(110deg, rgba(61, 78, 135, 0.26), transparent 52%),
-      rgba(12, 18, 33, 0.48);
-    border: 1px solid rgba(179, 194, 232, 0.16);
+      linear-gradient(110deg, rgba(61, 78, 135, 0.18), transparent 52%),
+      var(--bg-header);
+    border: 1px solid var(--border);
     border-radius: 18px;
+    backdrop-filter: blur(10px);
   }
 
   .header-sky {
@@ -95,7 +155,7 @@ function isCurrent(href: string, prefix = false) {
   }
 
   .site-brand {
-    color: #f1f4fb;
+    color: var(--heading);
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.2rem;
     font-weight: 700;
@@ -106,12 +166,14 @@ function isCurrent(href: string, prefix = false) {
   .site-nav {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     gap: 8px;
   }
 
-  .site-nav a {
+  .site-nav a,
+  .theme-toggle {
     padding: 8px 12px;
-    color: #aebdff;
+    color: var(--accent);
     background: transparent;
     border: 1px solid transparent;
     border-radius: 999px;
@@ -125,10 +187,31 @@ function isCurrent(href: string, prefix = false) {
   }
 
   .site-nav a:hover,
-  .site-nav a.is-active {
-    color: #f1f4fb;
-    background: rgba(174, 189, 255, 0.1);
-    border-color: rgba(174, 189, 255, 0.3);
+  .site-nav a.is-active,
+  .theme-toggle:hover {
+    color: var(--heading);
+    background: var(--bg-chip);
+    border-color: var(--border-strong);
+  }
+
+  .theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 4px;
+    background: var(--theme-toggle-bg);
+    border-color: var(--border);
+    cursor: pointer;
+  }
+
+  .theme-toggle-sun {
+    display: var(--sun-display);
+    color: #d47422;
+  }
+
+  .theme-toggle-moon {
+    display: var(--moon-display);
+    color: #dfe6ff;
   }
 
   .header-orb {
@@ -136,8 +219,8 @@ function isCurrent(href: string, prefix = false) {
     display: block;
     border-radius: 50%;
     box-shadow:
-      inset -9px -7px 13px rgba(2, 5, 12, 0.45),
-      0 0 28px rgba(140, 157, 255, 0.2);
+      inset -9px -7px 13px rgba(2, 5, 12, 0.35),
+      0 0 28px var(--orb-glow);
   }
 
   .header-orb-one {
@@ -172,9 +255,20 @@ function isCurrent(href: string, prefix = false) {
     opacity: 0.78;
   }
 
+  :global(html[data-theme="light"]) .header-orb-one {
+    background:
+      radial-gradient(
+        circle at 31% 28%,
+        #fff4c8 0 8%,
+        #7ec8e8 28%,
+        #3d7cbe 70%,
+        #1d4e86 100%
+      );
+  }
+
   .header-star {
     position: absolute;
-    color: #e8edff;
+    color: var(--star);
     text-shadow: 0 0 14px rgba(202, 214, 255, 0.82);
     transform-origin: center;
     animation: bright-star-twinkle 2.8s ease-in-out infinite alternate;
