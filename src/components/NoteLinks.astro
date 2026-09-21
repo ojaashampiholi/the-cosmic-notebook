@@ -6,11 +6,16 @@ const { post } = Astro.props as {
     id: string;
     data: {
       body?: string;
+      sources: Array<{
+        label: string;
+        url: string;
+      }>;
     };
   };
 };
 
 const hasBody = Boolean(post.data.body?.trim());
+const primarySource = post.data.sources[0];
 ---
 
 <p class="note-links">
@@ -22,15 +27,28 @@ const hasBody = Boolean(post.data.body?.trim());
   <a class="read-note" href={postHref(post.id)}>
     {hasBody ? "Read the full note" : "Read the note"}
   </a>
+  {
+    primarySource && (
+      <a
+        class="primary-source"
+        href={primarySource.url}
+        target="_blank"
+        rel="noreferrer"
+        title={primarySource.label}
+      >
+        Primary source
+      </a>
+    )
+  }
 </p>
 
 <style>
   .note-links {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    gap: 10px 14px;
-    margin: 18px 0 0;
+    align-items: baseline;
+    gap: 8px 16px;
+    margin: 4px 0 22px;
   }
 
   .fuller-chip {
@@ -45,12 +63,26 @@ const hasBody = Boolean(post.data.body?.trim());
   }
 
   .read-note {
-    color: #c7d1ff;
-    font: 700 0.92rem/1.4 Arial, sans-serif;
+    color: #f1f4fb;
+    font: 700 0.98rem/1.4 Arial, sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
     text-underline-offset: 3px;
   }
 
   .read-note:hover {
     color: #e8edff;
+  }
+
+  .primary-source {
+    color: #8f9bb7;
+    font: 0.82rem/1.4 Arial, sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+
+  .primary-source:hover {
+    color: #c7d1ff;
   }
 </style>

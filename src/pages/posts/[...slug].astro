@@ -1,7 +1,9 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import RelatedNotes from "../../components/RelatedNotes.astro";
 import { markdownToPlain, renderMarkdown } from "../../lib/markdown.ts";
+import { relatedPosts } from "../../lib/posts.ts";
 import { topicVisual } from "../../lib/topic-visuals.ts";
 import {
   SITE_AUTHOR,
@@ -26,6 +28,10 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const hasBody = Boolean(post.data.body?.trim());
 const bodyHtml = hasBody ? renderMarkdown(post.data.body ?? "") : "";
+const notes = (await getCollection("posts")).sort(
+  (first, second) => second.data.date.getTime() - first.data.date.getTime()
+);
+const related = relatedPosts(post, notes);
 
 const formattedDate = post.data.date.toLocaleDateString("en-GB", {
   day: "numeric",
@@ -163,6 +169,8 @@ const jsonLd = {
         }
       </ul>
     </section>
+
+    <RelatedNotes notes={related} />
   </article>
 </BaseLayout>
 

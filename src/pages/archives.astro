@@ -2,6 +2,8 @@
 import { getCollection } from "astro:content";
 import NoteLinks from "../components/NoteLinks.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { parseTopics } from "../lib/posts.ts";
+import { postHref } from "../lib/site.ts";
 
 const allPosts = (await getCollection("posts")).sort(
   (first, second) => second.data.date.getTime() - first.data.date.getTime()
@@ -56,13 +58,6 @@ function formatDate(date: Date) {
     month: "long",
     year: "numeric",
   });
-}
-
-function getTopics(topic: string) {
-  return topic
-    .split("/")
-    .map((item) => item.trim())
-    .filter(Boolean);
 }
 
 function getPaperDetails(title: string, index: number) {
@@ -172,8 +167,7 @@ function getPaperDetails(title: string, index: number) {
     <ul class="archive">
       {
         archivePosts.map((post, index) => {
-          const primarySource = post.data.sources[0];
-          const postTopics = getTopics(post.data.topic);
+          const postTopics = parseTopics(post.data.topic);
           const paperDetails = getPaperDetails(post.data.title, index);
           const isInitiallyHidden = index >= pageSize;
           const isInitialFinalTwo =
@@ -209,20 +203,7 @@ function getPaperDetails(title: string, index: number) {
                 </div>
 
                 <h2>
-                  {
-                    primarySource ? (
-                      <a
-                        href={primarySource.url}
-                        target="_blank"
-                        rel="noreferrer"
-                        title={`Open source: ${primarySource.label}`}
-                      >
-                        {post.data.title}
-                      </a>
-                    ) : (
-                      post.data.title
-                    )
-                  }
+                  <a href={postHref(post.id)}>{post.data.title}</a>
                 </h2>
 
                 <p class="eyebrow">Published</p>
@@ -237,6 +218,8 @@ function getPaperDetails(title: string, index: number) {
                 <p class="eyebrow">Why it matters</p>
                 <p class="card-value">{post.data.whyItMatters}</p>
 
+                <NoteLinks post={post} />
+
                 <p class="eyebrow">Sources</p>
 
                 <ul class="source-list">
@@ -250,8 +233,6 @@ function getPaperDetails(title: string, index: number) {
                     ))
                   }
                 </ul>
-
-                <NoteLinks post={post} />
               </div>
             </li>
           );
