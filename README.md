@@ -29,7 +29,7 @@ The site is a static Astro build, published with GitHub Pages from this reposito
 
 Homepage and archive cards open the in-site post (`/the-cosmic-notebook/posts/{slug}/`). Primary sources stay on the expanded note, with a quieter “Primary source” link on the card so the main click path never jumps out to Nature, NASA, or similar.
 
-Each full note ends with **Related notes**: two to four existing posts, ranked by shared topic and then recency. Those links are always internal. A single **Explore further** link points to the original paper or institution.
+Each full note ends with one **Sources** block for the original papers and institutions, then a separate **Related notes** section: two to four existing posts, ranked by shared topic and then recency. Related-note links are always internal slug pages, never a second copy of Sources.
 
 ## Authorship
 
@@ -61,8 +61,8 @@ Required fields:
 | `freshness` | How recent the underlying result is |
 | `excerpt` | Card summary, Open Graph description, and JSON-LD |
 | `whyItMatters` | Why a general reader should care |
-| `exploreFurther` | One primary external source (`label` + `url`) |
-| `whatToExploreNext` | A next question, used when the Markdown body does not already include that heading |
+| `exploreFurther` | One primary external source (`label` + `url`), kept in the JSON; the note page shows it as part of **Sources** |
+| `whatToExploreNext` | A next question, kept in the JSON and `llms.txt`; the note page uses **Related notes** instead of repeating this as a second Explore heading |
 | `sources` | The papers, institutions, and reports behind the note |
 
 Optional `body` is a Markdown string rendered on the note page (`/posts/{slug}/`). Short JSON notes without `body` remain valid. Cards, archive listings, social tags, and structured data still use `excerpt` and `whyItMatters`, so a longer article does not change how the note appears in lists.
