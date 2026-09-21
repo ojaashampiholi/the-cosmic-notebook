@@ -37,21 +37,6 @@ const topicCounts = new Map(
   ])
 );
 
-const buildDate = new Intl.DateTimeFormat("en-GB", {
-  day: "numeric",
-  month: "long",
-  year: "numeric",
-  timeZone: "Asia/Kolkata",
-}).format(new Date());
-
-const buildTime = new Intl.DateTimeFormat("en-IN", {
-  hour: "numeric",
-  minute: "2-digit",
-  hour12: true,
-  timeZone: "Asia/Kolkata",
-  timeZoneName: "short",
-}).format(new Date());
-
 function formatDate(date: Date) {
   return date.toLocaleDateString("en-GB", {
     day: "numeric",
@@ -79,47 +64,10 @@ function getPaperDetails(title: string, index: number) {
 ---
 
 <BaseLayout
+  wide
   title="Archive | The Cosmic Notebook"
   description="Browse earlier source-linked astronomy, physics, planetary science, cosmology, and space-mission notes from The Cosmic Notebook."
 >
-  <header class="site-header">
-    <div class="header-sky" aria-hidden="true">
-      <span class="header-orb header-orb-one"></span>
-      <span class="header-orb header-orb-two"></span>
-      <span class="header-star header-star-one">✦</span>
-      <span class="header-star header-star-two">✧</span>
-      <span class="header-star header-star-three">✦</span>
-      <span class="header-star header-star-four">·</span>
-    </div>
-
-    <a class="site-brand" href={import.meta.env.BASE_URL}>Orbital Notes</a>
-
-    <nav class="site-nav" aria-label="Site navigation">
-      <a href={import.meta.env.BASE_URL}>Latest notes</a>
-      <a
-        href="https://www.linkedin.com/in/ojaashampiholi/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        LinkedIn
-      </a>
-      <a
-        href="https://medium.com/@ojaashampiholi"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Medium
-      </a>
-      <a
-        href="https://substack.com/@ojaashampiholi"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Substack
-      </a>
-    </nav>
-  </header>
-
   <p class="eyebrow">The archive</p>
   <h1>Earlier discoveries</h1>
 
@@ -250,25 +198,6 @@ function getPaperDetails(title: string, index: number) {
       aria-label="Archive pages"
     ></nav>
   </section>
-
-  <footer class="site-footer">
-    <div class="footer-sky" aria-hidden="true">
-      <span class="footer-orb"></span>
-      <span class="footer-star footer-star-one">✦</span>
-      <span class="footer-star footer-star-two">✧</span>
-      <span class="footer-star footer-star-three">·</span>
-    </div>
-
-    <div class="footer-line">
-      <span>Maintained by Ojaas Hampiholi</span>
-      <span class="footer-divider" aria-hidden="true">·</span>
-      <span>Open access astronomy and physics notes</span>
-    </div>
-
-    <p class="last-updated">
-      Updated {buildDate} · {buildTime}
-    </p>
-  </footer>
 </BaseLayout>
 
 <script>

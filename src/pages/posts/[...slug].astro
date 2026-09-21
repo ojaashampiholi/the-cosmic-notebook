@@ -2,14 +2,17 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import RelatedNotes from "../../components/RelatedNotes.astro";
-import { markdownToPlain, renderMarkdown } from "../../lib/markdown.ts";
+import {
+  markdownHasHeading,
+  markdownToPlain,
+  renderMarkdown,
+} from "../../lib/markdown.ts";
 import { relatedPosts } from "../../lib/posts.ts";
 import { topicVisual } from "../../lib/topic-visuals.ts";
 import {
   SITE_AUTHOR,
   SITE_CANONICAL_ORIGIN,
   SITE_NAME,
-  withBase,
 } from "../../lib/site.ts";
 
 export async function getStaticPaths() {
@@ -32,6 +35,14 @@ const notes = (await getCollection("posts")).sort(
   (first, second) => second.data.date.getTime() - first.data.date.getTime()
 );
 const related = relatedPosts(post, notes);
+const bodyHasExploreFurther = markdownHasHeading(
+  post.data.body,
+  "Explore further"
+);
+const bodyHasWhatToExploreNext = markdownHasHeading(
+  post.data.body,
+  "What to explore next"
+);
 
 const formattedDate = post.data.date.toLocaleDateString("en-GB", {
   day: "numeric",
@@ -95,12 +106,6 @@ const jsonLd = {
 >
   <article class="note-page" itemscope itemtype="https://schema.org/BlogPosting">
     <header class="note-header">
-      <p class="note-nav">
-        <a href={withBase()}>{SITE_NAME}</a>
-        <span aria-hidden="true">·</span>
-        <a href={withBase()}>All notes</a>
-      </p>
-
       <p class="eyebrow">{post.data.topic}</p>
 
       <h1 itemprop="headline">{post.data.title}</h1>
@@ -141,19 +146,31 @@ const jsonLd = {
       <h2>Why it matters</h2>
       <p>{post.data.whyItMatters}</p>
 
-      <h2>Explore further</h2>
-      <p>
-        <a
-          href={post.data.exploreFurther.url}
-          target="_blank"
-          rel="noreferrer"
-        >
-          {post.data.exploreFurther.label}
-        </a>
-      </p>
+      {
+        !bodyHasExploreFurther && (
+          <>
+            <h2>Explore further</h2>
+            <p>
+              <a
+                href={post.data.exploreFurther.url}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {post.data.exploreFurther.label}
+              </a>
+            </p>
+          </>
+        )
+      }
 
-      <h2>What to explore next</h2>
-      <p>{post.data.whatToExploreNext}</p>
+      {
+        !bodyHasWhatToExploreNext && (
+          <>
+            <h2>What to explore next</h2>
+            <p>{post.data.whatToExploreNext}</p>
+          </>
+        )
+      }
 
       <h2>Sources</h2>
 
@@ -177,24 +194,6 @@ const jsonLd = {
 <style>
   .note-page {
     max-width: 42rem;
-  }
-
-  .note-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.45rem;
-    margin: 0 0 28px;
-    color: #8f9bb7;
-    font: 700 0.88rem/1.5 Arial, sans-serif;
-  }
-
-  .note-nav a {
-    color: #c7d1ff;
-    text-decoration: none;
-  }
-
-  .note-nav a:hover {
-    text-decoration: underline;
   }
 
   .note-header h1 {

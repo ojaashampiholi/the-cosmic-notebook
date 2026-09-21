@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import NotebookCard from "../components/NotebookCard.astro";
+import { SITE_LINKS } from "../lib/site.ts";
 
 const posts = (await getCollection("posts")).sort(
   (first, second) => second.data.date.getTime() - first.data.date.getTime()
@@ -31,65 +32,9 @@ const topicCounts = new Map(
     ).length,
   ])
 );
-
-const buildDate = new Intl.DateTimeFormat("en-GB", {
-  day: "numeric",
-  month: "long",
-  year: "numeric",
-  timeZone: "Asia/Kolkata",
-}).format(new Date());
-
-const buildTime = new Intl.DateTimeFormat("en-IN", {
-  hour: "numeric",
-  minute: "2-digit",
-  hour12: true,
-  timeZone: "Asia/Kolkata",
-  timeZoneName: "short",
-}).format(new Date());
 ---
 
-<BaseLayout>
-  <header class="site-header">
-    <div class="header-sky" aria-hidden="true">
-      <span class="header-orb header-orb-one"></span>
-      <span class="header-orb header-orb-two"></span>
-      <span class="header-star header-star-one">✦</span>
-      <span class="header-star header-star-two">✧</span>
-      <span class="header-star header-star-three">✦</span>
-      <span class="header-star header-star-four">·</span>
-    </div>
-
-    <a class="site-brand" href={import.meta.env.BASE_URL}>
-      The Cosmic Notebook
-    </a>
-
-    <nav class="site-nav" aria-label="Find Ojaas elsewhere">
-      <a
-        href="https://www.linkedin.com/in/ojaashampiholi/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        LinkedIn
-      </a>
-
-      <a
-        href="https://medium.com/@ojaashampiholi"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Medium
-      </a>
-
-      <a
-        href="https://substack.com/@ojaashampiholi"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Substack
-      </a>
-    </nav>
-  </header>
-
+<BaseLayout wide>
   <p class="eyebrow">Astronomy · Physics · Space science</p>
 
   <h1>The Cosmic Notebook</h1>
@@ -227,7 +172,7 @@ const buildTime = new Intl.DateTimeFormat("en-IN", {
 
       <div class="creator-links">
         <a
-          href="https://www.linkedin.com/in/ojaashampiholi/"
+          href={SITE_LINKS.linkedin}
           target="_blank"
           rel="noreferrer"
         >
@@ -239,7 +184,7 @@ const buildTime = new Intl.DateTimeFormat("en-IN", {
         </a>
 
         <a
-          href="https://medium.com/@ojaashampiholi"
+          href={SITE_LINKS.medium}
           target="_blank"
           rel="noreferrer"
         >
@@ -251,7 +196,7 @@ const buildTime = new Intl.DateTimeFormat("en-IN", {
         </a>
 
         <a
-          href="https://substack.com/@ojaashampiholi"
+          href={SITE_LINKS.substack}
           target="_blank"
           rel="noreferrer"
         >
@@ -264,25 +209,6 @@ const buildTime = new Intl.DateTimeFormat("en-IN", {
       </div>
     </div>
   </section>
-
-  <footer class="site-footer">
-    <div class="footer-sky" aria-hidden="true">
-      <span class="footer-orb"></span>
-      <span class="footer-star footer-star-one">✦</span>
-      <span class="footer-star footer-star-two">✧</span>
-      <span class="footer-star footer-star-three">·</span>
-    </div>
-
-    <div class="footer-line">
-      <span>Maintained by Ojaas Hampiholi</span>
-      <span class="footer-divider" aria-hidden="true">·</span>
-      <span>Open access astronomy and physics notes</span>
-    </div>
-
-    <p class="last-updated">
-      Updated {buildDate} · {buildTime}
-    </p>
-  </footer>
 </BaseLayout>
 
 <script>

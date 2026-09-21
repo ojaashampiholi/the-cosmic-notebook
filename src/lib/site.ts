@@ -5,6 +5,16 @@ export const SITE_DESCRIPTION =
 export const SITE_CANONICAL_ORIGIN =
   "https://ojaashampiholi.github.io/the-cosmic-notebook";
 
+export const SITE_LINKS = {
+  github: "https://github.com/ojaashampiholi",
+  live: `${SITE_CANONICAL_ORIGIN}/`,
+  linkedin: "https://www.linkedin.com/in/ojaashampiholi/",
+  medium: "https://medium.com/@ojaashampiholi",
+  substack: "https://ojaashampiholi.substack.com/",
+  kaggle: "https://www.kaggle.com/ojaashampiholi",
+  email: "mailto:ojaas2013@gmail.com",
+};
+
 export function withBase(path = "") {
   const base = import.meta.env.BASE_URL.replace(/\/?$/, "/");
   return `${base}${path.replace(/^\//, "")}`;

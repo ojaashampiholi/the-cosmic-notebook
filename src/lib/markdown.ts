@@ -19,3 +19,8 @@ export function markdownToPlain(source: string) {
     .replace(/\s+/g, " ")
     .trim();
 }
+
+export function markdownHasHeading(source: string | undefined, heading: string) {
+  const escaped = heading.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp(`^#{1,6}\\s+${escaped}\\s*$`, "im").test(source ?? "");
+}
