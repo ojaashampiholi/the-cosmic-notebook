@@ -53,9 +53,9 @@ const primarySource = post.data.sources[0];
 
   .fuller-chip {
     padding: 5px 8px;
-    color: #f1d4ae;
-    background: rgba(212, 156, 106, 0.12);
-    border: 1px solid rgba(241, 212, 174, 0.28);
+    color: var(--heading);
+    background: var(--bg-chip);
+    border: 1px solid var(--border);
     border-radius: 999px;
     font: 700 0.68rem/1 Arial, sans-serif;
     letter-spacing: 0.04em;
@@ -63,7 +63,7 @@ const primarySource = post.data.sources[0];
   }
 
   .read-note {
-    color: #f1f4fb;
+    color: var(--heading);
     font: 700 0.98rem/1.4 Arial, sans-serif;
     text-decoration: underline;
     text-decoration-thickness: 1.5px;
@@ -71,11 +71,11 @@ const primarySource = post.data.sources[0];
   }
 
   .read-note:hover {
-    color: #e8edff;
+    color: var(--accent-strong);
   }
 
   .primary-source {
-    color: #8f9bb7;
+    color: var(--text-faint);
     font: 0.82rem/1.4 Arial, sans-serif;
     text-decoration: underline;
     text-decoration-thickness: 1px;
@@ -83,6 +83,6 @@ const primarySource = post.data.sources[0];
   }
 
   .primary-source:hover {
-    color: #c7d1ff;
+    color: var(--accent-strong);
   }
 </style>

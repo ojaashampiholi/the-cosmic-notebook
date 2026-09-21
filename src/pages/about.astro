@@ -1,10 +1,10 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { SITE_AUTHOR, SITE_LINKS, withBase } from "../lib/site.ts";
+import { SITE_AUTHOR, SITE_LINKS, SITE_NAME, withBase } from "../lib/site.ts";
 ---
 
 <BaseLayout
-  title={`About | The Cosmic Notebook`}
+  title={`About | ${SITE_NAME}`}
   description={`Why ${SITE_AUTHOR} keeps a public notebook of clear, source-backed space-science notes.`}
 >
   <article class="about-page">
@@ -151,12 +151,12 @@ import { SITE_AUTHOR, SITE_LINKS, withBase } from "../lib/site.ts";
 
 <style>
   .about-page {
-    max-width: 42rem;
+    max-width: 46rem;
   }
 
   .about-page h2 {
     margin: 2.35rem 0 0.8rem;
-    color: #f1f4fb;
+    color: var(--heading);
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.38rem;
     font-weight: 700;
@@ -166,7 +166,7 @@ import { SITE_AUTHOR, SITE_LINKS, withBase } from "../lib/site.ts";
   }
 
   .about-page p {
-    color: #c5cddd;
+    color: var(--text-muted);
     font-size: 1.125rem;
     line-height: 1.8;
   }
@@ -175,7 +175,7 @@ import { SITE_AUTHOR, SITE_LINKS, withBase } from "../lib/site.ts";
     display: block;
     width: 100%;
     margin: 32px 0 40px;
-    border: 1px solid rgba(179, 194, 232, 0.2);
+    border: 1px solid var(--border);
     border-radius: 16px;
   }
 </style>

@@ -9,6 +9,7 @@ import {
 } from "../../lib/markdown.ts";
 import { relatedPosts } from "../../lib/posts.ts";
 import { topicVisual } from "../../lib/topic-visuals.ts";
+import { paperTypeForId } from "../../lib/paper.ts";
 import {
   SITE_AUTHOR,
   SITE_CANONICAL_ORIGIN,
@@ -54,6 +55,8 @@ const canonicalUrl = `${SITE_CANONICAL_ORIGIN}/posts/${post.id}/`;
 const articleBody = hasBody
   ? markdownToPlain(post.data.body ?? "")
   : `${post.data.excerpt}\n\n${post.data.whyItMatters}`;
+
+const paper = paperTypeForId(post.id);
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -101,7 +104,11 @@ const jsonLd = {
   section={post.data.topic}
   jsonLd={jsonLd}
 >
-  <article class="note-page" itemscope itemtype="https://schema.org/BlogPosting">
+  <article
+    class:list={["note-page", `paper-${paper}`]}
+    itemscope
+    itemtype="https://schema.org/BlogPosting"
+  >
     <header class="note-header">
       <p class="eyebrow">{post.data.topic}</p>
 
@@ -168,7 +175,11 @@ const jsonLd = {
 
 <style>
   .note-page {
-    max-width: 42rem;
+    max-width: 46rem;
+    padding: 28px 32px 36px;
+    border: 1px solid var(--border);
+    border-radius: 10px 16px 12px 8px;
+    box-shadow: var(--shadow);
   }
 
   .note-header h1 {
@@ -179,7 +190,7 @@ const jsonLd = {
 
   .note-lede {
     margin: 28px 0 0;
-    color: #d7deec;
+    color: var(--heading);
     font-size: 1.22rem;
     line-height: 1.7;
   }
@@ -191,7 +202,7 @@ const jsonLd = {
   .note-body :global(h2),
   .note-aside h2 {
     margin: 2.35rem 0 0.8rem;
-    color: #f1f4fb;
+    color: var(--heading);
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.38rem;
     font-weight: 700;
@@ -202,7 +213,7 @@ const jsonLd = {
 
   .note-body :global(h3) {
     margin: 1.8rem 0 0.7rem;
-    color: #e8edff;
+    color: var(--heading);
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.16rem;
     letter-spacing: -0.02em;
@@ -212,26 +223,26 @@ const jsonLd = {
   .note-body :global(p),
   .note-aside p {
     margin: 0 0 1.15rem;
-    color: #c5cddd;
+    color: var(--text-muted);
     font-size: 1.125rem;
     line-height: 1.8;
   }
 
   .sources-lede {
-    color: #8f9bb7 !important;
+    color: var(--text-faint) !important;
     font-size: 0.98rem !important;
   }
 
   .note-body :global(em),
   .note-body :global(i) {
-    color: #dce3f3;
+    color: var(--heading);
   }
 
   .note-body :global(ul),
   .note-body :global(ol) {
     margin: 0 0 1.2rem;
     padding-left: 1.3rem;
-    color: #c5cddd;
+    color: var(--text-muted);
   }
 
   .note-body :global(li) {
@@ -243,7 +254,7 @@ const jsonLd = {
   .note-aside {
     margin-top: 3.2rem;
     padding-top: 0.4rem;
-    border-top: 1px solid rgba(179, 194, 232, 0.18);
+    border-top: 1px solid var(--border);
   }
 
   .note-sources {
@@ -256,20 +267,24 @@ const jsonLd = {
 
   .note-sources li {
     padding: 12px 14px;
-    background: rgba(174, 189, 255, 0.06);
-    border: 1px solid rgba(174, 189, 255, 0.16);
+    background: var(--bg-muted);
+    border: 1px solid var(--border);
     border-radius: 12px;
     font-size: 1.02rem;
     line-height: 1.55;
   }
 
   .note-sources a {
-    color: #c7d1ff;
+    color: var(--accent-strong);
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
   }
 
   @media (max-width: 600px) {
+    .note-page {
+      padding: 20px 16px 28px;
+    }
+
     .note-lede,
     .note-body :global(p),
     .note-aside p {

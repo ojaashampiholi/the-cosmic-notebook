@@ -46,7 +46,7 @@ function formatDate(date: Date) {
   .related-notes {
     margin-top: 3.2rem;
     padding-top: 0.4rem;
-    border-top: 1px solid rgba(179, 194, 232, 0.18);
+    border-top: 1px solid var(--border);
   }
 
   .related-notes .eyebrow {
@@ -55,7 +55,7 @@ function formatDate(date: Date) {
 
   .related-notes h2 {
     margin: 0 0 1.1rem;
-    color: #f1f4fb;
+    color: var(--heading);
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.38rem;
     font-weight: 700;
@@ -77,8 +77,8 @@ function formatDate(date: Date) {
     gap: 0.35rem;
     padding: 14px 16px;
     color: inherit;
-    background: rgba(174, 189, 255, 0.06);
-    border: 1px solid rgba(174, 189, 255, 0.16);
+    background: var(--bg-muted);
+    border: 1px solid var(--border);
     border-radius: 12px;
     text-decoration: none;
     transition:
@@ -87,12 +87,12 @@ function formatDate(date: Date) {
   }
 
   .related-notes a:hover {
-    background: rgba(174, 189, 255, 0.1);
-    border-color: rgba(174, 189, 255, 0.32);
+    background: var(--bg-chip);
+    border-color: var(--border-strong);
   }
 
   .related-title {
-    color: #f1f4fb;
+    color: var(--heading);
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.12rem;
     font-weight: 700;
@@ -101,7 +101,7 @@ function formatDate(date: Date) {
   }
 
   .related-meta {
-    color: #8f9bb7;
+    color: var(--text-faint);
     font: 0.82rem/1.45 Arial, sans-serif;
   }
 
