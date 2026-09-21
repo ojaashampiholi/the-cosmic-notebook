@@ -4,7 +4,7 @@
 
 A public notebook of clear, source-backed notes on astronomy, astrophysics, physics, and space science.
 
-**The Cosmic Notebook is Ojaas Hampiholi’s personal astronomy notes project.** It sits next to his AI/ML writing — LinkedIn, Medium, Towards Data Science — but it is not that work. Those pieces are about agents, data, and engineering. This repository is about the universe: a result worth pausing over, the paper behind it, and a note written so a curious reader can enter without losing the uncertainty that makes the original work interesting.
+**The Cosmic Notebook is Ojaas Hampiholi’s personal astronomy notes project.** It sits next to his AI/ML writing, but it is not that work. LinkedIn and Medium are about agents, data, and engineering. Substack is fiction and poetry. This repository is about the universe: a result worth pausing over, the paper behind it, and a note written so a curious reader can enter without losing the uncertainty that makes the original work interesting.
 
 It is not a journal, a news feed, or a substitute for the papers it cites. Treat the linked observatory, university, or space agency as the authority. The notebook explains; it does not replace.
 
@@ -38,15 +38,26 @@ Each full note ends with one **Sources** block for the original papers and insti
 
 Written and curated by **[Ojaas Hampiholi](https://github.com/ojaashampiholi)**.
 
+The Cosmic Notebook is his astronomy and physics project: notes for curious readers, not a textbook and not a news feed. It is separate from his AI/ML writing, and separate again from [Substack](https://ojaashampiholi.substack.com/), which is short fiction and poetry.
+
 - [The Cosmic Notebook (live)](https://ojaashampiholi.github.io/the-cosmic-notebook/)
-- [This repository](https://github.com/ojaashampiholi/the-cosmic-notebook)
 - [GitHub profile](https://github.com/ojaashampiholi)
-- [LinkedIn](https://www.linkedin.com/in/ojaashampiholi)
-- [Medium](https://ojaashampiholi.medium.com/)
-- [Towards Data Science](https://towardsdatascience.com/author/ojaashampiholi/)
+- [LinkedIn](https://www.linkedin.com/in/ojaashampiholi/) — shorter notes on production AI, ML systems, engineering, and things he is testing
+- [Medium](https://medium.com/@ojaashampiholi) — longer technical explanations and experiments
+- [Substack](https://ojaashampiholi.substack.com/) — fiction and poetry
+- [Kaggle](https://www.kaggle.com/ojaashampiholi)
 - Email: [ojaas2013@gmail.com](mailto:ojaas2013@gmail.com)
 
-The LinkedIn, Medium, and Towards Data Science pages are his professional and technical writing. The Cosmic Notebook is the astronomy notebook beside that work, not a continuation of it.
+### More from Ojaas
+
+Public work from the [profile README](https://github.com/ojaashampiholi/ojaashampiholi):
+
+- [Optical Music Recognition](https://github.com/ojaashampiholi/Optical_Music_Recognition) — computer vision for notes and rests on sheet music
+- [Airport Analysis with PySpark](https://github.com/ojaashampiholi/Airport_Analysis_PySpark) — US aviation data with Spark
+- [Stock Forecasting](https://github.com/ojaashampiholi/Stock_Forecasting) — VAR compared with an LSTM
+- [Speech Source Separation with ICA](https://github.com/ojaashampiholi/Speech-Separation-ICA) — recovering audio sources from mixed recordings
+
+Those repositories are earlier technical work. The Cosmic Notebook is the astronomy notebook beside them, not a continuation of the same stack.
 
 ## What’s in a note
 
