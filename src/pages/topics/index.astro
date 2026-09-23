@@ -1,0 +1,217 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { parseTopics } from "../../lib/posts.ts";
+import {
+  SITE_CANONICAL_ORIGIN,
+  SITE_NAME,
+  WEBSITE_ID,
+} from "../../lib/site.ts";
+import {
+  topicDescription,
+  topicHref,
+  topicUrl,
+} from "../../lib/topics.ts";
+
+const posts = await getCollection("posts");
+const topics = [
+  ...new Set(posts.flatMap((post) => parseTopics(post.data.topic))),
+].sort((first, second) => first.localeCompare(second));
+
+const topicCounts = new Map(
+  topics.map((topic) => [
+    topic,
+    posts.filter((post) => parseTopics(post.data.topic).includes(topic)).length,
+  ])
+);
+
+const canonicalUrl = `${SITE_CANONICAL_ORIGIN}/topics/`;
+const description =
+  "Browse The Cosmic Notebook by astronomy, astrophysics, cosmology, planetary science, space-weather, and fundamental-physics topics.";
+
+const collectionJsonLd = {
+  "@type": "CollectionPage",
+  "@id": canonicalUrl,
+  url: canonicalUrl,
+  name: `Topics | ${SITE_NAME}`,
+  headline: "Browse by topic",
+  description,
+  inLanguage: "en",
+  isPartOf: {
+    "@id": WEBSITE_ID,
+  },
+  mainEntity: {
+    "@type": "ItemList",
+    numberOfItems: topics.length,
+    itemListElement: topics.map((topic, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      item: {
+        "@type": "CollectionPage",
+        "@id": topicUrl(topic),
+        url: topicUrl(topic),
+        name: topic,
+      },
+    })),
+  },
+};
+
+const breadcrumbJsonLd = {
+  "@type": "BreadcrumbList",
+  "@id": `${canonicalUrl}#breadcrumb`,
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: SITE_NAME,
+      item: `${SITE_CANONICAL_ORIGIN}/`,
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Topics",
+      item: canonicalUrl,
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title={`Topics | ${SITE_NAME}`}
+  description={description}
+  jsonLd={[collectionJsonLd, breadcrumbJsonLd]}
+>
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href={`${SITE_CANONICAL_ORIGIN}/`}>{SITE_NAME}</a>
+    <span aria-hidden="true">→</span>
+    <span aria-current="page">Topics</span>
+  </nav>
+
+  <header class="topics-header">
+    <p class="eyebrow">Browse the notebook</p>
+    <h1>Topics</h1>
+    <p>
+      Follow a subject across new discoveries and older notes. Each topic page
+      collects every note currently tagged with that field, from newest to
+      oldest.
+    </p>
+  </header>
+
+  <section class="topic-grid" aria-label="Cosmic Notebook topics">
+    {
+      topics.map((topic) => (
+        <a class="topic-card" href={topicHref(topic)}>
+          <div>
+            <p class="topic-name">{topic}</p>
+            <p class="topic-description">{topicDescription(topic)}</p>
+          </div>
+          <p class="topic-count">
+            {topicCounts.get(topic)} published{" "}
+            {topicCounts.get(topic) === 1 ? "note" : "notes"} →
+          </p>
+        </a>
+      ))
+    }
+  </section>
+</BaseLayout>
+
+<style>
+  .breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+    margin: 0 0 18px;
+    color: var(--text-faint);
+    font: 600 0.78rem/1.45 Arial, sans-serif;
+  }
+
+  .breadcrumbs a {
+    color: var(--text-muted);
+    text-decoration: none;
+  }
+
+  .breadcrumbs a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .topics-header {
+    max-width: 52rem;
+    margin-bottom: 42px;
+  }
+
+  .topics-header > p:last-child {
+    max-width: 68ch;
+    color: var(--text-muted);
+    font-size: 1.08rem;
+    line-height: 1.7;
+  }
+
+  .topic-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .topic-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    min-height: 190px;
+    padding: 24px;
+    color: inherit;
+    background:
+      linear-gradient(135deg, var(--bg-chip), transparent 64%),
+      var(--bg-header);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    text-decoration: none;
+    transition:
+      transform 180ms ease,
+      border-color 180ms ease,
+      box-shadow 180ms ease;
+  }
+
+  .topic-card:hover {
+    border-color: var(--border-strong);
+    box-shadow: var(--shadow-hover);
+    transform: translateY(-3px);
+  }
+
+  .topic-name {
+    margin: 0 0 10px;
+    color: var(--heading);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.35rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .topic-description {
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 0.96rem;
+    line-height: 1.6;
+  }
+
+  .topic-count {
+    margin: 0;
+    color: var(--accent);
+    font: 700 0.75rem/1.4 Arial, sans-serif;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 760px) {
+    .topic-grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .topic-card {
+      min-height: 0;
+    }
+  }
+</style>
