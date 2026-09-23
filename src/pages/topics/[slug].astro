@@ -93,6 +93,12 @@ const breadcrumbJsonLd = {
     {
       "@type": "ListItem",
       position: 2,
+      name: "Topics",
+      item: `${SITE_CANONICAL_ORIGIN}/topics/`,
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
       name: topic,
       item: canonicalUrl,
     },
@@ -107,6 +113,8 @@ const breadcrumbJsonLd = {
 >
   <nav class="breadcrumbs" aria-label="Breadcrumb">
     <a href={`${SITE_CANONICAL_ORIGIN}/`}>{SITE_NAME}</a>
+    <span aria-hidden="true">→</span>
+    <a href={`${SITE_CANONICAL_ORIGIN}/topics/`}>Topics</a>
     <span aria-hidden="true">→</span>
     <span aria-current="page">{topic}</span>
   </nav>
