@@ -26,6 +26,7 @@ Same public identity, other writing:
 
 - [Latest notes](https://ojaashampiholi.github.io/the-cosmic-notebook/): the ten newest selected discoveries and explainers.
 - [Archive](https://ojaashampiholi.github.io/the-cosmic-notebook/archives/): earlier notes, ordered by date and browsable by topic.
+- [Topics](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/): subject pages that collect every published note tagged with each field.
 - [About](https://ojaashampiholi.github.io/the-cosmic-notebook/about/): the purpose, audience, boundaries, and editorial approach of the notebook.
 - [XML sitemap](https://ojaashampiholi.github.io/the-cosmic-notebook/sitemap-index.xml): machine-readable discovery of indexed pages.
 
@@ -73,17 +74,17 @@ The ten newest published notes are listed below. Use the full catalogue for olde
 
 ## Topics
 
-- **Astrobiology & Habitability:** 1 published note.
-- **Black Holes:** 5 published notes.
-- **Cosmology & Early Universe:** 5 published notes.
-- **Exoplanets:** 2 published notes.
-- **Galaxies & Galactic Evolution:** 4 published notes.
-- **Gravity & Fundamental Physics:** 2 published notes.
-- **Planet Formation:** 4 published notes.
-- **Solar System & Planetary Science:** 4 published notes.
-- **Stars & Stellar Evolution:** 5 published notes.
-- **Sun & Space Weather:** 1 published note.
-- **Telescopes & Observatories:** 1 published note.
+- [Astrobiology & Habitability](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/astrobiology-and-habitability/): 1 published note.
+- [Black Holes](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/black-holes/): 5 published notes.
+- [Cosmology & Early Universe](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/cosmology-and-early-universe/): 5 published notes.
+- [Exoplanets](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/exoplanets/): 2 published notes.
+- [Galaxies & Galactic Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/galaxies-and-galactic-evolution/): 4 published notes.
+- [Gravity & Fundamental Physics](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/gravity-and-fundamental-physics/): 2 published notes.
+- [Planet Formation](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/planet-formation/): 4 published notes.
+- [Solar System & Planetary Science](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/solar-system-and-planetary-science/): 4 published notes.
+- [Stars & Stellar Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/stars-and-stellar-evolution/): 5 published notes.
+- [Sun & Space Weather](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/sun-and-space-weather/): 1 published note.
+- [Telescopes & Observatories](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/telescopes-and-observatories/): 1 published note.
 
 ## Full catalogue
 
