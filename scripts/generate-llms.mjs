@@ -3,7 +3,8 @@ import { resolve } from "node:path";
 
 const root = process.cwd();
 const postsDirectory = resolve(root, "src/content/posts");
-const outputPath = resolve(root, "public/llms.txt");
+const llmsOutputPath = resolve(root, "public/llms.txt");
+const llmsFullOutputPath = resolve(root, "public/llms-full.txt");
 
 const site =
   "https://ojaashampiholi.github.io/the-cosmic-notebook";
@@ -75,7 +76,7 @@ const sortedTopics = [...topicMap.entries()].sort(
   ([first], [second]) => first.localeCompare(second)
 );
 
-const lines = [
+const fullLines = [
   "# The Cosmic Notebook",
   "",
   "> The Cosmic Notebook is a source-linked notebook by Ojaas Hampiholi. It explains astronomy and space science. It is not a peer-reviewed journal.",
@@ -139,19 +140,19 @@ const lines = [
 ];
 
 for (const [topic, topicPosts] of sortedTopics) {
-  lines.push(`### ${topic}`);
-  lines.push("");
+  fullLines.push(`### ${topic}`);
+  fullLines.push("");
 
-  lines.push(
+  fullLines.push(
     `${topicPosts.length} published ${
       topicPosts.length === 1 ? "note" : "notes"
     } currently cover this topic:`
   );
 
-  lines.push("");
+  fullLines.push("");
 
   for (const post of topicPosts) {
-    lines.push(
+    fullLines.push(
       `- ${markdownLink(
         post.data.title,
         `${site}/posts/${post.id}/`
@@ -161,64 +162,64 @@ for (const [topic, topicPosts] of sortedTopics) {
     );
   }
 
-  lines.push("");
+  fullLines.push("");
 }
 
-lines.push("## Complete note catalogue");
-lines.push("");
+fullLines.push("## Complete note catalogue");
+fullLines.push("");
 
-lines.push(
+fullLines.push(
   "The catalogue below is ordered from newest to oldest. Each record contains the public explanation, its relevance, a suggested next question, and the sources attached to the published note. When a note has a longer body, that full text is included so answer engines can quote the page rather than only the card summary.",
 );
 
-lines.push("");
+fullLines.push("");
 
 for (const post of posts) {
   const { data } = post;
   const noteUrl = `${site}/posts/${post.id}/`;
 
-  lines.push(`### ${cleanInline(data.title)}`);
-  lines.push("");
-  lines.push(`- Note URL: ${noteUrl}`);
-  lines.push(`- Published: ${cleanInline(data.date)}`);
+  fullLines.push(`### ${cleanInline(data.title)}`);
+  fullLines.push("");
+  fullLines.push(`- Note URL: ${noteUrl}`);
+  fullLines.push(`- Published: ${cleanInline(data.date)}`);
 
-  lines.push(
+  fullLines.push(
     `- Topics: ${splitTopics(data.topic).join("; ")}`
   );
 
-  lines.push(
+  fullLines.push(
     `- Freshness context: ${cleanInline(
       data.freshness
     )}`
   );
 
-  lines.push(
+  fullLines.push(
     `- Summary: ${cleanInline(data.excerpt)}`
   );
 
-  lines.push(
+  fullLines.push(
     `- Why it matters: ${cleanInline(
       data.whyItMatters
     )}`
   );
 
-  lines.push(
+  fullLines.push(
     `- Suggested next question: ${cleanInline(
       data.whatToExploreNext
     )}`
   );
 
-  lines.push(
+  fullLines.push(
     `- Explore further: ${markdownLink(
       data.exploreFurther.label,
       data.exploreFurther.url
     )}`
   );
 
-  lines.push("- Sources:");
+  fullLines.push("- Sources:");
 
   for (const source of data.sources) {
-    lines.push(
+    fullLines.push(
       `  - ${markdownLink(
         source.label,
         source.url
@@ -227,29 +228,76 @@ for (const post of posts) {
   }
 
   if (typeof data.body === "string" && data.body.trim()) {
-    lines.push("");
-    lines.push("Fuller note:");
-    lines.push("");
-    lines.push(data.body.trim());
+    fullLines.push("");
+    fullLines.push("Fuller note:");
+    fullLines.push("");
+    fullLines.push(data.body.trim());
   }
 
-  lines.push("");
+  fullLines.push("");
 }
 
-lines.push("## Maintenance note");
-lines.push("");
+fullLines.push("## Maintenance note");
+fullLines.push("");
 
-lines.push(
+fullLines.push(
   "This file is generated automatically from the site's published JSON note collection whenever the local development server or production build starts. Adding, removing, or updating a note therefore updates this catalogue without requiring a separate manual edit."
 );
 
-lines.push("");
+fullLines.push("");
 
-await writeFile(
-  outputPath,
-  `${lines.join("\n")}\n`
+const topicIndexStart = fullLines.indexOf("## Current topic index");
+const compactLines = fullLines.slice(0, topicIndexStart);
+
+compactLines.push(
+  "## Latest notes",
+  "",
+  "The ten newest published notes are listed below. Use the full catalogue for older notes and complete note text.",
+  ""
 );
 
+for (const post of posts.slice(0, 10)) {
+  compactLines.push(
+    `- ${markdownLink(
+      post.data.title,
+      `${site}/posts/${post.id}/`
+    )}: ${cleanInline(post.data.excerpt)}`
+  );
+}
+
+compactLines.push("", "## Topics", "");
+
+for (const [topic, topicPosts] of sortedTopics) {
+  compactLines.push(
+    `- **${topic}:** ${topicPosts.length} published ${
+      topicPosts.length === 1 ? "note" : "notes"
+    }.`
+  );
+}
+
+compactLines.push(
+  "",
+  "## Full catalogue",
+  "",
+  `The complete machine-readable corpus is available at ${site}/llms-full.txt.`,
+  "",
+  "## Maintenance note",
+  "",
+  "This file is generated automatically from the site's published JSON note collection whenever the local development server or production build starts. Adding, removing, or updating a note therefore updates this catalogue without requiring a separate manual edit.",
+  ""
+);
+
+await Promise.all([
+  writeFile(
+    llmsOutputPath,
+    `${compactLines.join("\n")}\n`
+  ),
+  writeFile(
+    llmsFullOutputPath,
+    `${fullLines.join("\n")}\n`
+  ),
+]);
+
 console.log(
-  `Generated public/llms.txt with ${posts.length} notes across ${sortedTopics.length} topics.`
+  `Generated public/llms.txt and public/llms-full.txt with ${posts.length} notes across ${sortedTopics.length} topics.`
 );
