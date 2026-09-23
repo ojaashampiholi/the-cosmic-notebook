@@ -80,25 +80,15 @@ const structuredData = {
 };
 ---
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="utf-8" />
     <script is:inline>
-      (() => {
-        const key = "cosmic-notebook-theme";
-        let theme = "dark";
-        try {
-          const stored = localStorage.getItem(key);
-          if (stored === "light" || stored === "dark") {
-            theme = stored;
-          } else if (window.matchMedia("(prefers-color-scheme: light)").matches) {
-            theme = "light";
-          }
-        } catch {
-          theme = "dark";
-        }
-        document.documentElement.setAttribute("data-theme", theme);
-      })();
+      try {
+        localStorage.removeItem("cosmic-notebook-theme");
+      } catch {
+        // Private mode can block storage. The page is night-only either way.
+      }
     </script>
 
     <meta name="google-site-verification" content="9UI2VteLdPcUNuEx0c7Z9WpnYBxwOrwaXBYPR-IpWtY" />
@@ -177,7 +167,6 @@ const structuredData = {
 
   <body class:list={[{ "is-reading": type === "article" }]}>
     <div class="page-sky" aria-hidden="true">
-      <span class="sky-orb sky-sun"></span>
       <span class="sky-orb sky-moon"></span>
       <span class="sky-orb sky-planet sky-planet-one"></span>
       <span class="sky-orb sky-planet sky-planet-two"></span>
