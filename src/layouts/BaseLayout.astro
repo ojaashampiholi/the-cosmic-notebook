@@ -40,25 +40,32 @@ const llmsUrl = new URL(withBase("llms.txt"), Astro.site);
 
 const aboutUrl = `${SITE_CANONICAL_ORIGIN}/about/`;
 
-function asGraphNode(value: unknown) {
-  if (!value || typeof value !== "object" || Array.isArray(value)) {
-    return null;
-  }
+function asGraphNodes(value: unknown) {
+  const values = Array.isArray(value) ? value : [value];
 
-  const node = { ...(value as Record<string, unknown>) };
-  delete node["@context"];
-  return node;
+  return values
+    .filter(
+      (item) =>
+        item &&
+        typeof item === "object" &&
+        !Array.isArray(item)
+    )
+    .map((item) => {
+      const node = { ...(item as Record<string, unknown>) };
+      delete node["@context"];
+      return node;
+    });
 }
 
-const extraNode = asGraphNode(jsonLd);
+const extraNodes = asGraphNodes(jsonLd);
 const graph: Record<string, unknown>[] = [
   authorJsonLd(),
   organizationJsonLd(),
   websiteJsonLd(),
 ];
 
-if (extraNode) {
-  graph.push(extraNode);
+if (extraNodes.length > 0) {
+  graph.push(...extraNodes);
 } else {
   graph.push({
     "@type": "WebPage",
