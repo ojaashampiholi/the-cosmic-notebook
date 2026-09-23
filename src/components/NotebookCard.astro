@@ -57,6 +57,7 @@ const thumbSrc = resolveNoteImage(noteImage, "thumb");
       "is-hero": isHero,
       "is-home": context === "homepage",
       "is-related": isRelated,
+      "has-image": Boolean(thumbSrc),
     },
   ]}
   data-post-card
@@ -74,30 +75,35 @@ const thumbSrc = resolveNoteImage(noteImage, "thumb");
       }
     </span>
 
-    {
-      thumbSrc && noteImage && (
-        <span class="card-thumb">
-          <img src={thumbSrc} alt="" />
-        </span>
-      )
-    }
-
-    <h2>{post.data.title}</h2>
-    <p class="tease">{post.data.excerpt}</p>
-    <p class="card-meta">
-      <time datetime={post.data.date.toISOString()}>{date}</time>
-      <span aria-hidden="true"> · </span>
-      <span>Open note</span>
-    </p>
-    {
-      noteImage && (
-        <p class="card-credit">
-          {noteImage.credit}
-          <span aria-hidden="true"> · </span>
-          {noteImage.license}
-        </p>
-      )
-    }
+    <div class="card-main">
+      <div class="card-copy">
+        <h2>{post.data.title}</h2>
+        <p class="tease">{post.data.excerpt}</p>
+      </div>
+      {
+        thumbSrc && noteImage && (
+          <span class="card-thumb">
+            <img src={thumbSrc} alt="" loading="lazy" decoding="async" />
+          </span>
+        )
+      }
+    </div>
+    <div class="card-footer">
+      <p class="card-meta">
+        <time datetime={post.data.date.toISOString()}>{date}</time>
+        <span aria-hidden="true"> · </span>
+        <span>Open note</span>
+      </p>
+      {
+        noteImage && (
+          <p class="card-credit">
+            {noteImage.credit}
+            <span aria-hidden="true"> · </span>
+            {noteImage.license}
+          </p>
+        )
+      }
+    </div>
   </a>
 </li>
 
@@ -203,11 +209,34 @@ const thumbSrc = resolveNoteImage(noteImage, "thumb");
     margin-bottom: 10px;
   }
 
+  .card-main {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+    flex: 1;
+    align-content: start;
+    min-width: 0;
+  }
+
+  .card-copy {
+    display: block;
+    min-width: 0;
+  }
+
+  .has-image:not(.is-hero) .card-main {
+    grid-template-columns: minmax(0, 1fr) minmax(96px, 38%);
+  }
+
+  .card-footer {
+    display: block;
+    margin-top: auto;
+  }
+
   .card-thumb {
     display: block;
-    margin: 0 0 12px;
     overflow: hidden;
-    aspect-ratio: 16 / 10;
+    align-self: start;
+    aspect-ratio: 1;
     background: rgba(0, 0, 0, 0.18);
     border: 1px solid var(--border);
     border-radius: 6px;
@@ -223,12 +252,16 @@ const thumbSrc = resolveNoteImage(noteImage, "thumb");
 
   .is-hero .card-thumb {
     aspect-ratio: 2 / 1;
-    margin-bottom: 14px;
+    order: -1;
+    margin-bottom: 2px;
+  }
+
+  .is-hero .card-main {
+    gap: 14px;
   }
 
   .notebook-card-wrap.is-related .card-thumb {
-    aspect-ratio: 16 / 9;
-    margin-bottom: 10px;
+    aspect-ratio: 1;
   }
 
   .topic-chip {
@@ -281,6 +314,7 @@ const thumbSrc = resolveNoteImage(noteImage, "thumb");
   }
 
   .card-meta {
+    display: block;
     margin: 12px 0 0;
     color: var(--text-faint);
     font: 700 0.72rem/1.4 Arial, sans-serif;
@@ -289,6 +323,7 @@ const thumbSrc = resolveNoteImage(noteImage, "thumb");
   }
 
   .card-credit {
+    display: block;
     margin: 8px 0 0;
     color: var(--text-muted);
     font: 600 0.68rem/1.35 Arial, sans-serif;
@@ -329,6 +364,10 @@ const thumbSrc = resolveNoteImage(noteImage, "thumb");
   }
 
   @media (max-width: 700px) {
+    .has-image:not(.is-hero) .card-main {
+      grid-template-columns: minmax(0, 1fr) minmax(90px, 32%);
+    }
+
     .notebook-card-wrap.is-home {
       grid-column: 1 / -1;
       margin-top: 0;
@@ -414,6 +453,10 @@ const thumbSrc = resolveNoteImage(noteImage, "thumb");
     .notebook-card-wrap.is-home:not(.is-hero) .notebook-card {
       padding: 14px 14px 12px 16px;
       border-radius: 10px;
+    }
+
+    .has-image:not(.is-hero) .card-main {
+      grid-template-columns: minmax(0, 1fr) minmax(96px, 36%);
     }
   }
 

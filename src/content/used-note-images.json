@@ -35,6 +35,61 @@
       "license": "Public domain",
       "sourceUrl": "https://apod.nasa.gov/apod/ap110303.html",
       "commonsUrl": "https://commons.wikimedia.org/wiki/File:Moon_nearside_LRO.jpg"
+    },
+    {
+      "id": "hubble-m49-infrared-portrait",
+      "note": "2026-09-23_galaxies_rubin-almost-dark-virgo",
+      "files": [
+        "images/notes/m49-hubble-context.jpg",
+        "images/notes/m49-hubble-context-thumb.jpg"
+      ],
+      "credit": "NASA, ESA, STScI and J. Blakeslee (Dominion Astrophysical Observatory)",
+      "license": "NASA media usage guidelines (educational use)",
+      "sourceUrl": "https://science.nasa.gov/image-detail/m49/"
+    },
+    {
+      "id": "hubble-m87-jet-2024",
+      "note": "2026-09-21_black-holes_universal-jet-rule",
+      "files": [
+        "images/notes/m87-hubble-jet-context.jpg",
+        "images/notes/m87-hubble-jet-context-thumb.jpg"
+      ],
+      "credit": "NASA, ESA, STScI, A. Lessing and M. Shara; processing by J. DePasquale",
+      "license": "NASA media usage guidelines (educational use)",
+      "sourceUrl": "https://science.nasa.gov/asset/hubble/m87-4/"
+    },
+    {
+      "id": "webb-ic348-2026-nircam",
+      "note": "2026-09-16_stars_tiny-brown-dwarfs",
+      "files": [
+        "images/notes/ic348-webb-brown-dwarfs.jpg",
+        "images/notes/ic348-webb-brown-dwarfs-thumb.jpg"
+      ],
+      "credit": "NASA, ESA, CSA, K. Luhman, C. Alves de Oliveira and M. Zamani",
+      "license": "NASA media usage guidelines (educational use)",
+      "sourceUrl": "https://science.nasa.gov/asset/webb/ic-348-nircam-image-2/"
+    },
+    {
+      "id": "nasa-pia15605-vesta-meteorites",
+      "note": "2026-09-19_solar-system_planetesimal-sorting",
+      "files": [
+        "images/notes/vesta-meteorite-sections.jpg",
+        "images/notes/vesta-meteorite-sections-thumb.jpg"
+      ],
+      "credit": "NASA/University of Tennessee",
+      "license": "NASA media usage guidelines (educational use)",
+      "sourceUrl": "https://science.nasa.gov/photojournal/meteorites-from-vesta/"
+    },
+    {
+      "id": "hubble-tno-artist-concept-2026",
+      "note": "2026-09-11_solar-system_tiny-worlds-beyond-neptune",
+      "files": [
+        "images/notes/trans-neptunian-object-concept.jpg",
+        "images/notes/trans-neptunian-object-concept-thumb.jpg"
+      ],
+      "credit": "Artwork: NASA, ESA and Leah Hustak (STScI)",
+      "license": "NASA media usage guidelines (educational use)",
+      "sourceUrl": "https://science.nasa.gov/asset/hubble/trans-neptunian-object-illustration/"
     }
   ]
 }

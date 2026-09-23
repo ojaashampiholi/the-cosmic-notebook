@@ -67,7 +67,7 @@ Required fields:
 
 `body` is a Markdown string rendered on the note page (`/posts/{slug}/`). The schema still allows a note without `body`, but every published note in this repository includes one, typically a few hundred to roughly eight hundred words, written from the note’s own sources. Cards, archive listings, social tags, and structured data still use `excerpt` and `whyItMatters`, so a longer article does not change how the note appears in lists. Headings such as “Explore further” or “What to explore next” inside `body` are stripped at render time so they do not duplicate the **Sources** block.
 
-`image` is optional. Leave it off and the note renders as before. When it is present, the note page shows a larger picture under the title, and homepage, archive, and related-note cards show a smaller thumbnail. Cards without an image keep their current layout.
+`image` is optional. The note page shows a larger picture under the title, and homepage, archive, and related-note cards use a smaller thumbnail. On list pages, illustrated cards place the thumbnail beside the excerpt while text-only cards use the full text width. Both use the same card footer and spacing. The daily workflow targets six or seven illustrated notes per rolling ten when relevant images with verified reuse terms are available.
 
 | Field | Role |
 | --- | --- |
@@ -76,7 +76,7 @@ Required fields:
 | `thumbSrc` | Smaller file for cards. If omitted, cards use `src` or `url` |
 | `alt` | A plain description of what the picture shows |
 | `credit` | Who made the image. Shown on the note and on the card |
-| `license` | The free license, such as public domain or CC BY 4.0 |
+| `license` | The verified reuse terms, such as public domain, CC BY 4.0, or NASA educational media use |
 | `sourceUrl` | Page for the image, linked from the note |
 
 One of `src` or `url` is required. Images in this repository are downloaded into `public/images/notes/` so the site does not hotlink another host. `src/content/used-note-images.json` lists every image id and filename already used. A repeated id or filename fails `npm run build`.
