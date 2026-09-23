@@ -5,6 +5,7 @@ const currentPath = Astro.url.pathname.replace(/\/?$/, "/");
 
 const homeHref = withBase();
 const archiveHref = withBase("archives/");
+const topicsHref = withBase("topics/");
 const aboutHref = withBase("about/");
 
 function isCurrent(href: string, prefix = false) {
@@ -44,6 +45,13 @@ function isCurrent(href: string, prefix = false) {
       aria-current={isCurrent(archiveHref, true) ? "page" : undefined}
     >
       Archive
+    </a>
+    <a
+      href={topicsHref}
+      class:list={{ "is-active": isCurrent(topicsHref, true) }}
+      aria-current={isCurrent(topicsHref, true) ? "page" : undefined}
+    >
+      Topics
     </a>
     <a
       href={aboutHref}
