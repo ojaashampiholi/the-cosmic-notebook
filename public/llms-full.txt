@@ -26,6 +26,7 @@ Same public identity, other writing:
 
 - [Latest notes](https://ojaashampiholi.github.io/the-cosmic-notebook/): the ten newest selected discoveries and explainers.
 - [Archive](https://ojaashampiholi.github.io/the-cosmic-notebook/archives/): earlier notes, ordered by date and browsable by topic.
+- [Topics](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/): subject pages that collect every published note tagged with each field.
 - [About](https://ojaashampiholi.github.io/the-cosmic-notebook/about/): the purpose, audience, boundaries, and editorial approach of the notebook.
 - [XML sitemap](https://ojaashampiholi.github.io/the-cosmic-notebook/sitemap-index.xml): machine-readable discovery of indexed pages.
 
@@ -60,12 +61,14 @@ When referring to this resource, describe it as The Cosmic Notebook, a source-li
 
 ### Astrobiology & Habitability
 
+- Topic page: [Browse Astrobiology & Habitability](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/astrobiology-and-habitability/)
 1 published note currently cover this topic:
 
 - [Earth may have slipped outside the Sun's protective bubble](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/earth-heliosphere/): Simulations from NASA's SHIELD center follow the Sun through the Milky Way and find dense interstellar clouds at about 2 to 3, 6 to 7, and 13 to 14 million years ago. Each time, the heliosphere, the bubble blown by the solar wind, may have shrunk inside Earth's orbit. Elements common in interstellar dust show up in ocean cores, Antarctic snow, and lunar samples on those dates. Fuller note available.
 
 ### Black Holes
 
+- Topic page: [Browse Black Holes](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/black-holes/)
 5 published notes currently cover this topic:
 
 - [Black holes big and small may launch jets by the same rule](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-21_black-holes_universal-jet-rule/): A study of stars torn apart by giant black holes finds jets switching on at two points in the feeding cycle: once at very high rates, and again near 2 percent of the Eddington limit. Stellar-mass black holes in the Milky Way already change state near that same 2 percent mark. Fuller note available.
@@ -76,6 +79,7 @@ When referring to this resource, describe it as The Cosmic Notebook, a source-li
 
 ### Cosmology & Early Universe
 
+- Topic page: [Browse Cosmology & Early Universe](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/cosmology-and-early-universe/)
 5 published notes currently cover this topic:
 
 - [A simulation grows early black holes from heavy seeds](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-17_black-holes_little-red-dots-heavy-seeds/): Webb keeps finding giant black holes, and compact red sources called little red dots, at times when a stellar-mass seed growing at a modest rate should not yet be huge. A Nature simulation grows heavy seeds from unusually massive first stars, lets them feed furiously for a short time, and produces objects that look like those dots. Fuller note available.
@@ -86,6 +90,7 @@ When referring to this resource, describe it as The Cosmic Notebook, a source-li
 
 ### Exoplanets
 
+- Topic page: [Browse Exoplanets](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/exoplanets/)
 2 published notes currently cover this topic:
 
 - [The youngest known planet is still forming in its disk](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-18_exoplanets_elias-2-24-b-youngest-planet/): Astronomers have confirmed Elias 2-24 b, a planet about Jupiter's mass and less than a million years old, still inside the disk around its star, 450 light-years away. It is the youngest known planet. The previous record holders, four worlds at PDS 70 and WISPIT 2, are all more than 5 million years old. Fuller note available.
@@ -93,6 +98,7 @@ When referring to this resource, describe it as The Cosmic Notebook, a source-li
 
 ### Galaxies & Galactic Evolution
 
+- Topic page: [Browse Galaxies & Galactic Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/galaxies-and-galactic-evolution/)
 4 published notes currently cover this topic:
 
 - [Supernova bubbles may keep Andromeda's gas in motion](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-20_galaxies_andromeda-supernova-turbulence/): Using China's FAST radio telescope and the Karl G. Jansky Very Large Array, a Tsinghua-led team mapped 118 expanding superbubbles in Andromeda. The energy those bubbles deliver lines up with the energy needed to keep the galaxy's neutral hydrogen turbulent, in magnitude and across the disk. Fuller note available.
@@ -102,6 +108,7 @@ When referring to this resource, describe it as The Cosmic Notebook, a source-li
 
 ### Gravity & Fundamental Physics
 
+- Topic page: [Browse Gravity & Fundamental Physics](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/gravity-and-fundamental-physics/)
 2 published notes currently cover this topic:
 
 - [One odd event in a xenon tank, and nobody is calling it dark matter](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-06_fundamental-physics_lz-dark-matter-candidate/): LUX-ZEPLIN recorded one particle interaction that known backgrounds struggle to explain. The detector holds 10 tonnes of liquid xenon nearly a mile underground in South Dakota, and this search used 220 live days from March 2023 through April 2024. The outlier is a 2.6 sigma hint, far short of the 5 sigma line for a discovery. The collaboration is not claiming dark matter. Fuller note available.
@@ -109,6 +116,7 @@ When referring to this resource, describe it as The Cosmic Notebook, a source-li
 
 ### Planet Formation
 
+- Topic page: [Browse Planet Formation](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/planet-formation/)
 4 published notes currently cover this topic:
 
 - [The Solar System sorted its building blocks from the start](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-19_solar-system_planetesimal-sorting/): Meteorite chemistry, reported in a Nature Astronomy paper dated 18 September 2026, says the Solar System sorted its raw materials within the first million years. The earliest small bodies were already rich in heat-processed rocky beads and held much less fine, ice-rich dust than bodies that formed later. Fuller note available.
@@ -118,6 +126,7 @@ When referring to this resource, describe it as The Cosmic Notebook, a source-li
 
 ### Solar System & Planetary Science
 
+- Topic page: [Browse Solar System & Planetary Science](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/solar-system-and-planetary-science/)
 4 published notes currently cover this topic:
 
 - [The Solar System sorted its building blocks from the start](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-19_solar-system_planetesimal-sorting/): Meteorite chemistry, reported in a Nature Astronomy paper dated 18 September 2026, says the Solar System sorted its raw materials within the first million years. The earliest small bodies were already rich in heat-processed rocky beads and held much less fine, ice-rich dust than bodies that formed later. Fuller note available.
@@ -127,6 +136,7 @@ When referring to this resource, describe it as The Cosmic Notebook, a source-li
 
 ### Stars & Stellar Evolution
 
+- Topic page: [Browse Stars & Stellar Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/stars-and-stellar-evolution/)
 5 published notes currently cover this topic:
 
 - [Webb finds brown dwarfs only about twice Jupiter's mass](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-16_stars_tiny-brown-dwarfs/): In the star-forming region IC 348, about 1,000 light-years away in Perseus, Webb has found brown dwarfs with masses down to about twice Jupiter's, or 0.19 percent of the Sun's mass. They are the least massive brown dwarfs known, lighter than star-formation models predicted, and one of the lightest shows signs of a disk. Fuller note available.
@@ -137,12 +147,14 @@ When referring to this resource, describe it as The Cosmic Notebook, a source-li
 
 ### Sun & Space Weather
 
+- Topic page: [Browse Sun & Space Weather](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/sun-and-space-weather/)
 1 published note currently cover this topic:
 
 - [Earth may have slipped outside the Sun's protective bubble](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/earth-heliosphere/): Simulations from NASA's SHIELD center follow the Sun through the Milky Way and find dense interstellar clouds at about 2 to 3, 6 to 7, and 13 to 14 million years ago. Each time, the heliosphere, the bubble blown by the solar wind, may have shrunk inside Earth's orbit. Elements common in interstellar dust show up in ocean cores, Antarctic snow, and lunar samples on those dates. Fuller note available.
 
 ### Telescopes & Observatories
 
+- Topic page: [Browse Telescopes & Observatories](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/telescopes-and-observatories/)
 1 published note currently cover this topic:
 
 - [Roman launches toward L2 to survey the dark universe](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-08-31_space-observatory_roman-launches-to-map-the-dark-universe/): NASA's Nancy Grace Roman Space Telescope launched on 30 August 2026 aboard a Falcon Heavy and is traveling to the Sun-Earth L2 point, about one million miles from Earth. Roman pairs a wide field with sharp infrared imaging to survey dark energy, dark matter, and exoplanets. Commissioning takes about three months. First public images are expected in early 2027. Fuller note available.
@@ -155,7 +167,7 @@ The catalogue below is ordered from newest to oldest. Each record contains the p
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-21_black-holes_universal-jet-rule/
 - Published: 2026-09-21
-- Topics: Black Holes
+- Topics: [Black Holes](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/black-holes/)
 - Freshness context: Published in Nature Astronomy on 17 September 2026, within the preferred 15-day freshness window.
 - Summary: A study of stars torn apart by giant black holes finds jets switching on at two points in the feeding cycle: once at very high rates, and again near 2 percent of the Eddington limit. Stellar-mass black holes in the Milky Way already change state near that same 2 percent mark.
 - Why it matters: Stellar-mass black holes finish a feeding cycle in days or weeks. A typical supermassive black hole changes over thousands of years. Tidal disruptions shrink that wait to years. A shared accretion-rate switch, if it holds, turns irregular radio flares into something observers can schedule, with real gaps still in the sample.
@@ -199,7 +211,7 @@ The claim to keep is a shared accretion-rate threshold, supported in ten well-mo
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-20_galaxies_andromeda-supernova-turbulence/
 - Published: 2026-09-20
-- Topics: Galaxies & Galactic Evolution
+- Topics: [Galaxies & Galactic Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/galaxies-and-galactic-evolution/)
 - Freshness context: Published in Nature Astronomy on 17 September 2026, within the preferred 15-day freshness window.
 - Summary: Using China's FAST radio telescope and the Karl G. Jansky Very Large Array, a Tsinghua-led team mapped 118 expanding superbubbles in Andromeda. The energy those bubbles deliver lines up with the energy needed to keep the galaxy's neutral hydrogen turbulent, in magnitude and across the disk.
 - Why it matters: Turbulence in galactic gas keeps losing energy, and something has to supply it or star-forming clouds would settle. Andromeda now has a counted population of superbubbles whose input matches that loss, in size and in how both change with distance from the center. Clustered supernovae are the driver the team names.
@@ -249,7 +261,7 @@ Tsinghua's note is the group's summary. Nature Astronomy is the authority for th
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-19_solar-system_planetesimal-sorting/
 - Published: 2026-09-19
-- Topics: Solar System & Planetary Science; Planet Formation
+- Topics: [Solar System & Planetary Science](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/solar-system-and-planetary-science/); [Planet Formation](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/planet-formation/)
 - Freshness context: Published in Nature Astronomy on 18 September 2026, within the preferred 15-day freshness window.
 - Summary: Meteorite chemistry, reported in a Nature Astronomy paper dated 18 September 2026, says the Solar System sorted its raw materials within the first million years. The earliest small bodies were already rich in heat-processed rocky beads and held much less fine, ice-rich dust than bodies that formed later.
 - Why it matters: Planet formation was not a matter of scooping whatever dust happened to be nearby. If the first planetesimals were already a sorted mix, hot rock and icy dust were being separated as those small bodies formed. Later planets, moons, and asteroids inherited a pantry that was divided from the start.
@@ -295,7 +307,7 @@ Phys.org is a secondary write-up of the Yale account, not a second set of labora
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-18_exoplanets_elias-2-24-b-youngest-planet/
 - Published: 2026-09-18
-- Topics: Exoplanets; Planet Formation
+- Topics: [Exoplanets](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/exoplanets/); [Planet Formation](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/planet-formation/)
 - Freshness context: Published in The Astrophysical Journal Letters on 16 September 2026, within the preferred 15-day freshness window.
 - Summary: Astronomers have confirmed Elias 2-24 b, a planet about Jupiter's mass and less than a million years old, still inside the disk around its star, 450 light-years away. It is the youngest known planet. The previous record holders, four worlds at PDS 70 and WISPIT 2, are all more than 5 million years old.
 - Why it matters: Models already had trouble building a Jupiter in about 5 million years at Jupiter's distance, and they need still longer farther out. Elias 2-24 b is younger than a million years, already about Jupiter's mass, and 55 times Earth's orbital distance from its star. The growth clock in the models is missing something.
@@ -343,7 +355,7 @@ The article is the one NASA cites, published 16 September 2026 in The Astrophysi
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-17_black-holes_little-red-dots-heavy-seeds/
 - Published: 2026-09-17
-- Topics: Black Holes; Cosmology & Early Universe
+- Topics: [Black Holes](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/black-holes/); [Cosmology & Early Universe](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/cosmology-and-early-universe/)
 - Freshness context: Published in Nature on 16 September 2026, within the preferred 15-day freshness window.
 - Summary: Webb keeps finding giant black holes, and compact red sources called little red dots, at times when a stellar-mass seed growing at a modest rate should not yet be huge. A Nature simulation grows heavy seeds from unusually massive first stars, lets them feed furiously for a short time, and produces objects that look like those dots.
 - Why it matters: The early black holes are an observational problem: they look too big, too soon. This paper is a simulation, not a detection of the first stars. It shows one route by which heavy seeds in dense gas can front-load their growth and leave compact red sources, if the massive stars at the start are granted.
@@ -388,7 +400,7 @@ The claim to keep is a possible route, not a discovery of heavy seeds in the sky
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-16_stars_tiny-brown-dwarfs/
 - Published: 2026-09-16
-- Topics: Stars & Stellar Evolution
+- Topics: [Stars & Stellar Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/stars-and-stellar-evolution/)
 - Freshness context: NASA and ESA released the IC 348 findings in September 2026, within the 15-day freshness window.
 - Summary: In the star-forming region IC 348, about 1,000 light-years away in Perseus, Webb has found brown dwarfs with masses down to about twice Jupiter's, or 0.19 percent of the Sun's mass. They are the least massive brown dwarfs known, lighter than star-formation models predicted, and one of the lightest shows signs of a disk.
 - Why it matters: The smallest stars weigh about 8 percent of the Sun. These objects formed by cloud collapse, like stars, yet sit near two Jupiter masses. That pushes the bottom of star formation below where the models had placed it, and it blurs any rule that tries to separate brown dwarfs from giant planets by mass alone.
@@ -438,7 +450,7 @@ The releases do not say Jupiter formed by collapse, and they do not claim confir
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-15_black-holes_star-forming-rings/
 - Published: 2026-09-15
-- Topics: Black Holes
+- Topics: [Black Holes](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/black-holes/)
 - Freshness context: Published in The Astrophysical Journal and announced by the Center for Astrophysics on 14 September 2026, within the 15-day freshness window.
 - Summary: MUSE maps of nine nearby galaxies show the same layout around their feeding central black holes: rings or arcs of new stars, cones of black-hole radiation, and fast shocks in the gas. The pattern suggests these black holes sometimes help compress gas into stars, alongside the better-known habit of heating gas or driving it off.
 - Why it matters: Black holes are usually cast as the reason star formation shuts down. A repeated pattern of young-star rings, radiation cones, and shocks in nine galaxies points to a mixed local effect. The same outflow that disturbs gas may also help some of it collapse. The maps show the layout. The compression is inferred.
@@ -489,7 +501,7 @@ The CfA release is the public account. The Astrophysical Journal paper is the au
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-14_solar-system_lunar-ai-model/
 - Published: 2026-09-14
-- Topics: Solar System & Planetary Science
+- Topics: [Solar System & Planetary Science](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/solar-system-and-planetary-science/)
 - Freshness context: IBM announced the open-source NASA-IBM Lunar Foundation Model on 10 September 2026, within the 15-day freshness window.
 - Summary: NASA and IBM have released an open-source AI model trained mostly on 17 years of Lunar Reconnaissance Orbiter images, plus data from other Moon missions. Researchers can adapt it to map craters, spot odd volcanic patches, and estimate where polar ice might stay stable, using far less labeled data than a model built from scratch.
 - Why it matters: The Moon is already mapped in enormous detail, and the data from one orbiter exceed the rest of NASA's planetary missions combined. A shared model that can read those maps together gives lunar scientists a faster way to date surfaces, revisit the Moon's volcanic past, and pick cold traps worth a closer look.
@@ -541,7 +553,7 @@ Use NASA's page for the tasks, the tile counts, and the scores. Use IBM's note f
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-13_stars-magnetars-neutron-stars/
 - Published: 2026-09-13
-- Topics: Stars & Stellar Evolution
+- Topics: [Stars & Stellar Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/stars-and-stellar-evolution/)
 - Freshness context: Published in Nature Astronomy on 10 September 2026, within the 15-day freshness window.
 - Summary: A Nature Astronomy study finds that magnetars, neutron stars with extremely strong magnetic fields, could make up around half the neutron star population. The figure comes from a simulation of how these remnants evolve, not from a fresh headcount. If it holds, magnetars are common enough to help power some of the brightest explosions and radio flashes astronomers see.
 - Why it matters: Superluminous supernovae, gamma-ray bursts, and fast radio bursts need a strong central engine often enough that a rare magnetar birth rate has been hard to square with the flashes on record. A birth fraction near half would make that supply much easier to imagine in the Milky Way. Other galaxies remain the test.
@@ -589,7 +601,7 @@ Until those comparisons exist, the 50 percent stays a Milky Way result. Nature A
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-12_cosmology_proto-supercluster-cosmos-z3-1-a/
 - Published: 2026-09-12
-- Topics: Cosmology & Early Universe
+- Topics: [Cosmology & Early Universe](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/cosmology-and-early-universe/)
 - Freshness context: Published in The Astrophysical Journal on 8 September 2026.
 - Summary: COSMOS-z3.1-A is a proto-supercluster, a clumpy gathering of galaxies that has not finished merging, seen when the universe was 2.1 billion years old. ODIN imaging and follow-up spectra from DESI, Gemini South, and Keck place it earlier than the proto-supercluster Hyperion. Its mass is 5000 times that of the Milky Way, and the team expects fewer than one such object per 10,000 galaxy clusters.
 - Why it matters: Nearby superclusters are finished products. COSMOS-z3.1-A still shows separate clumps sitting where several filaments of the cosmic web cross. That layout lets astronomers test the bottom-up picture, in which small structures form first and later merge, against a real object from when the universe was young.
@@ -640,7 +652,7 @@ The 3D method separates a core, an outskirts, and a filament still feeding the s
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-11_solar-system_tiny-worlds-beyond-neptune/
 - Published: 2026-09-11
-- Topics: Solar System & Planetary Science
+- Topics: [Solar System & Planetary Science](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/solar-system-and-planetary-science/)
 - Freshness context: Published in The Astronomical Journal and announced by NASA on 8 September 2026.
 - Summary: Hubble and Webb together found 27 previously unknown worlds beyond Neptune, some only about 5 kilometres across, in the deepest survey of these bodies so far. Their surface colors match the relations seen in much larger objects, in both the cold and the hot dynamical families. The size distributions of the two families look similar, and very small bodies are fewer than some formation models expected.
 - Why it matters: Beyond Neptune, dust and pebbles built city-sized planetesimals and then stopped, so these icy bodies are leftovers from planet building, including the material that went into worlds like Earth. Their colors still carry a birthplace signature. That record is cleaner than a collision-reworked surface would have been, and it is still incomplete: hot-family orbits were scrambled long ago.
@@ -688,7 +700,7 @@ Hold the measurements apart from the stories. The measurements are 27 new TNOs, 
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-10_stars-stellar-evolution_chandra-hypersoft-sources/
 - Published: 2026-09-10
-- Topics: Stars & Stellar Evolution
+- Topics: [Stars & Stellar Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/stars-and-stellar-evolution/)
 - Freshness context: Published in Nature Astronomy on 9 September 2026.
 - Summary: A search of the public Chandra archive found 84 hypersoft X-ray sources in six galaxies, including the spirals M31 and M101. They show up at the lowest X-ray energies and disappear at higher ones, with most of their power in ultraviolet light that gas between the stars absorbs. The leading idea is a white dwarf, neutron star, or black hole pulling gas from a companion. The class is new. The identity is not settled.
 - Why it matters: Some white-dwarf versions of these binaries may be the systems that later explode as Type Ia supernovae, the blasts used to measure cosmic expansion. Their ultraviolet output may also help strip electrons from gas between stars, a job hot massive stars do not finish alone. Both ideas stay conditional until the compact object in each source is identified.
@@ -736,7 +748,7 @@ NASA's Marshall Space Flight Center in Huntsville, Alabama, manages the Chandra 
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-09_cosmology_fast-radio-bursts-hidden-matter/
 - Published: 2026-09-09
-- Topics: Cosmology & Early Universe
+- Topics: [Cosmology & Early Universe](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/cosmology-and-early-universe/)
 - Freshness context: Published in Nature Astronomy on 8 September 2026.
 - Summary: About 100 fast radio bursts, millisecond radio flashes from distant galaxies, carry a delay that counts electrons along the path. A Nature Astronomy analysis uses that delay to measure how galactic feedback smooths ordinary matter around and between galaxies. The smoothing is real, and it is weaker than earlier results from eROSITA and the Atacama Cosmology Telescope. Dark matter is not what the bursts see.
 - Why it matters: Surveys of cosmic clumping are used to study dark energy, dark matter, and the neutrino mass. Feedback from black holes and exploding stars smooths gas in a way that can imitate those signals. An independent fast-radio-burst measurement of that smoothing gives the surveys a feedback term they can subtract, from a sample of only about 100 bursts.
@@ -782,7 +794,7 @@ One practical distinction survives the plans. A fast radio burst is a backlight 
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-08_stars-stellar-evolution_massive-binary-capture/
 - Published: 2026-09-08
-- Topics: Stars & Stellar Evolution
+- Topics: [Stars & Stellar Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/stars-and-stellar-evolution/)
 - Freshness context: Published in Nature Astronomy on 7 September 2026.
 - Summary: ALMA, the VLA, JWST, and the VLT mapped IRAS 07299-1651, two massive protostars still growing inside a molecular cloud. Nearly eight years of positions show an elongated orbit, and the disks around the two stars tilt relative to each other and to that orbit. A shared birth in one disk has trouble with that geometry. A later close encounter fits it better.
 - Why it matters: Many massive stars live with a companion, and the companion changes how they exchange mass, spin, and die. This system is one case where the orbit and the tilted disks favor capture after separate births. A single shared disk would have lined the stars and the disks up together. One system shows a route. It does not yet show how common that route is.
@@ -830,7 +842,7 @@ Read the Nature Astronomy article for the orbit solutions and the disk angles. R
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-07_planet-formation_pds70-exocomets-water/
 - Published: 2026-09-07
-- Topics: Planet Formation
+- Topics: [Planet Formation](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/planet-formation/)
 - Freshness context: Published in Nature Communications on 24 August 2026.
 - Summary: PDS 70, a planetary system just over five million years old and about 370 light-years away, already holds at least two gas giants. Lund University astronomers report sodium gas that appears and disappears in front of the star, a pattern consistent with icy bodies heating up and venting. Simulations show those giants can fling outer comets inward, a possible water route while planets are still forming.
 - Why it matters: Earth's water source is still an open question, with water-rich asteroids and comets both in the running. PDS 70 lets astronomers watch a young system, slightly cooler than the Sun, where inward-scattered ice could deliver water to the planet-forming region. The sodium signal is evidence of exocomets, not a measurement of how much water arrived.
@@ -876,7 +888,7 @@ Until then the split inside this note is the part worth keeping. Observation: so
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-06_fundamental-physics_lz-dark-matter-candidate/
 - Published: 2026-09-06
-- Topics: Gravity & Fundamental Physics
+- Topics: [Gravity & Fundamental Physics](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/gravity-and-fundamental-physics/)
 - Freshness context: Announced by the LUX-ZEPLIN collaboration and Berkeley Lab on 1 September 2026.
 - Summary: LUX-ZEPLIN recorded one particle interaction that known backgrounds struggle to explain. The detector holds 10 tonnes of liquid xenon nearly a mile underground in South Dakota, and this search used 220 live days from March 2023 through April 2024. The outlier is a 2.6 sigma hint, far short of the 5 sigma line for a discovery. The collaboration is not claiming dark matter.
 - Why it matters: Dark matter is about 85 percent of the mass of the universe, inferred from gravity, with no confirmed particle yet. A single xenon event can start a search. It cannot finish one. More events in the same high-energy corner, or a background that accounts for this one, will decide whether the hint survives.
@@ -923,7 +935,7 @@ A useful habit, if you follow the next paper: separate the count from the story.
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-05_galaxy-evolution_star-formation-hydrogen/
 - Published: 2026-09-05
-- Topics: Galaxies & Galactic Evolution
+- Topics: [Galaxies & Galactic Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/galaxies-and-galactic-evolution/)
 - Freshness context: Published in Nature Astronomy on 1 September 2026.
 - Summary: FAST and DESI, used together on about 2.5 million galaxies across nearly one-third of the sky, find that the cosmic star formation rate was 2.46 times higher 4.5 billion years ago than it is today. The Chinese Academy of Sciences summary rounds that factor to about 2.5. Neutral atomic hydrogen, measured with the 21-centimetre line, was only about 1.4 times denser then. The mismatch points away from an empty fuel tank.
 - Why it matters: A fading star formation rate is often blamed on galaxies running out of gas. Here the atomic hydrogen thinned only modestly while star formation fell by a much larger factor. The useful next question is how galaxies turn atomic hydrogen into the molecular gas that actually forms stars, and why that step grew less efficient as gas from the cosmic web thinned.
@@ -971,7 +983,7 @@ A last distinction is small enough to carry around. The 21-centimetre line count
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-04_solar-system_saturn-south-pole-decagon/
 - Published: 2026-09-04
-- Topics: Solar System & Planetary Science
+- Topics: [Solar System & Planetary Science](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/solar-system-and-planetary-science/)
 - Freshness context: Published in Science Advances on 2 September 2026.
 - Summary: Hubble and ground-based images show a giant ten-sided wave around Saturn's south pole, the first large regular jet polygon in the southern hemisphere. Faint signs are in data from 2023 and 2024. By 2025 the shape was much clearer. The northern hexagon has lasted more than 40 years. This southern wave appears to be strengthening, so observers may be watching one form.
 - Why it matters: Saturn's north polar hexagon is a long-lived jet. The southern decagon looks younger and still changing. Watching it grow could show how a jet locks into a polygon, why the planet makes these shapes, and whether a new one can last. The cause and the lifetime are still open.
@@ -1018,7 +1030,7 @@ Measured, then: a ten-sided wave, multi-layered, emerging across 2023, 2024, and
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-03_galaxy-evolution_hidden-mass-early-galaxies/
 - Published: 2026-09-03
-- Topics: Galaxies & Galactic Evolution; Stars & Stellar Evolution
+- Topics: [Galaxies & Galactic Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/galaxies-and-galactic-evolution/); [Stars & Stellar Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/stars-and-stellar-evolution/)
 - Freshness context: Published in Nature Astronomy on 21 August 2026.
 - Summary: JWST and Very Large Telescope spectra of nine massive quiescent galaxies at a redshift of about 0.7 show excess low-mass stars in the most massive systems. The oldest, with stars formed at a redshift above 5, has the most bottom-heavy initial mass function. If similar mixes applied to their early ancestors, some galaxy masses could rise by a factor of about 4, give or take about 1.
 - Why it matters: Galaxy masses at large distances assume a Milky Way mix of stellar birth masses. These spectra suggest that mix fails for the biggest quiescent systems. If the early galaxies JWST has been finding inherited the same excess of faint stars, models must assemble even more mass in less time.
@@ -1066,7 +1078,7 @@ Treat the Nature Astronomy paper, DOI 10.1038/s41550-026-02932-4, as the authori
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-02_planet-formation_jwst-disk-winds/
 - Published: 2026-09-02
-- Topics: Planet Formation
+- Topics: [Planet Formation](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/planet-formation/)
 - Freshness context: Published online in The Astronomical Journal on 25 August 2026.
 - Summary: Archival JWST spectra of 72 young Sun-like stars show gas leaving their planet-forming disks. Extended molecular hydrogen and ionized neon appear in 66 of 72 disks, conical hydrogen winds in 46, and fast neon jets in 40. Young, strongly accreting systems favor jets and mixed winds. Older, weaker accretors favor atomic winds, which the team ties to photoevaporation.
 - Why it matters: Giant planets need a large gas supply, and disks do not keep that gas forever. Across 72 young stars, the way gas leaves shifts from jets and molecular winds toward atomic winds as accretion fades. That sequence is a physical ordering. How much gas leaves, and from where in the disk, is still unmeasured.
@@ -1112,7 +1124,7 @@ The Astronomical Journal paper is the place to check the line measurements. The 
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-01_cosmic-dawn_black-hole-star-mom-bh-1/
 - Published: 2026-09-01
-- Topics: Black Holes; Cosmology & Early Universe
+- Topics: [Black Holes](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/black-holes/); [Cosmology & Early Universe](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/cosmology-and-early-universe/)
 - Freshness context: Published in Nature on 12 August 2026. The freshness window was widened past 15 days because this peer-reviewed result was more distinct than fresher mission items.
 - Summary: JWST's MoM survey found MoM-BH*-1, an extremely red object seen about 660 million years after the Big Bang. It shows the deepest Balmer break yet, almost no metals, and about 100 billion times more energy than fusion in a known star can produce. The best-matching model is a black hole of about 100,000 solar masses inside a hydrogen cocoon the size of the Solar System.
 - Why it matters: Giant black holes already exist very early, and how they grew is still open. MoM-BH*-1 is a spectrum fusion cannot power, fit by a black hole wrapped in dense hydrogen. If little red dots, common in JWST images and mostly gone today, are the same kind of object, early black-hole masses may need another look.
@@ -1160,7 +1172,7 @@ The Nature paper is the authority for the spectral measurements and the model gr
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-08-31_space-observatory_roman-launches-to-map-the-dark-universe/
 - Published: 2026-08-31
-- Topics: Telescopes & Observatories; Cosmology & Early Universe; Exoplanets
+- Topics: [Telescopes & Observatories](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/telescopes-and-observatories/); [Cosmology & Early Universe](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/cosmology-and-early-universe/); [Exoplanets](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/exoplanets/)
 - Freshness context: NASA announced the launch on 30 August 2026.
 - Summary: NASA's Nancy Grace Roman Space Telescope launched on 30 August 2026 aboard a Falcon Heavy and is traveling to the Sun-Earth L2 point, about one million miles from Earth. Roman pairs a wide field with sharp infrared imaging to survey dark energy, dark matter, and exoplanets. Commissioning takes about three months. First public images are expected in early 2027.
 - Why it matters: Roman is built for population questions: how cosmic expansion has changed, where dark matter sits, and how planets are distributed beyond the reach of transit surveys. Hubble and Webb cannot tile the sky this fast. The launch is real. The catalogues are not, until the images and the papers exist.
@@ -1214,7 +1226,7 @@ Dark energy, dark matter maps, and exoplanet counts need many objects measured t
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/earth-heliosphere/
 - Published: 2026-08-30
-- Topics: Sun & Space Weather; Astrobiology & Habitability
+- Topics: [Sun & Space Weather](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/sun-and-space-weather/); [Astrobiology & Habitability](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/astrobiology-and-habitability/)
 - Freshness context: Highlighted by NASA on 24 August 2026. The review was published on 21 August 2026.
 - Summary: Simulations from NASA's SHIELD center follow the Sun through the Milky Way and find dense interstellar clouds at about 2 to 3, 6 to 7, and 13 to 14 million years ago. Each time, the heliosphere, the bubble blown by the solar wind, may have shrunk inside Earth's orbit. Elements common in interstellar dust show up in ocean cores, Antarctic snow, and lunar samples on those dates.
 - Why it matters: Earth's long-term environment depends on its orbit and on the Sun's activity, and also on where the Sun is traveling in the Galaxy. A smaller heliosphere would change the radiation and gas reaching the atmosphere. That adds an outside variable to climate and habitability in the geologically recent past.
@@ -1262,7 +1274,7 @@ The Annual Review article is the authority for the recent trajectory and the hel
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/milky-way-earliest-major-merger/
 - Published: 2026-08-29
-- Topics: Galaxies & Galactic Evolution
+- Topics: [Galaxies & Galactic Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/galaxies-and-galactic-evolution/)
 - Freshness context: Published by NASA Hubble on 17 August 2026.
 - Summary: Hubble ages and metallicities for 39 globular clusters in the inner Milky Way point to a dwarf galaxy, LKH, that merged with the Galaxy about 11.8 billion years ago. NASA's account puts that dwarf at roughly 500 million solar masses in stars and says the result pushes the confirmed merger record 1.8 billion years farther back. Stars born elsewhere were already part of the earliest growth.
 - Why it matters: The Milky Way's confirmed merger history now reaches about 11.8 billion years back, 1.8 billion years earlier than the previous secure mark. The clusters say stars collected from outside were already part of the Galaxy's first growth, rather than a late addition after the disk was in place.
@@ -1309,7 +1321,7 @@ NASA's Hubble release is the public account. Nature Astronomy is the authority f
 
 - Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/s301-sagittarius-a-star-spin/
 - Published: 2026-08-28
-- Topics: Black Holes; Gravity & Fundamental Physics
+- Topics: [Black Holes](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/black-holes/); [Gravity & Fundamental Physics](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/gravity-and-fundamental-physics/)
 - Freshness context: ESO announced the result on 19 August 2026. The paper is in Nature.
 - Summary: S301 is the fastest known star in the Milky Way. At its closest approach to Sagittarius A*, it moves at about 25,000 kilometres per second, a bit over 8 percent of light speed, on an 8.7-year orbit that comes in near Saturn's distance. ESO reported the star on 19 August 2026. Later close passes may show the black hole's spin. That spin has not been measured.
 - Why it matters: A spinning black hole drags spacetime, and that drag should show up in the orbit of a star this close and this fast. S301 gives observers a practical target for the test. The spin itself has not been measured. The orbit is the new tool, and the number is still ahead.

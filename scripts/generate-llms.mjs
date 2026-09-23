@@ -22,6 +22,16 @@ function splitTopics(topic) {
     .filter(Boolean);
 }
 
+function topicSlug(topic) {
+  return cleanInline(topic)
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 function markdownLink(label, url) {
   const safeLabel = cleanInline(label)
     .replaceAll("[", "\\[")
@@ -105,6 +115,7 @@ const fullLines = [
   "",
   `- ${markdownLink("Latest notes", `${site}/`)}: the ten newest selected discoveries and explainers.`,
   `- ${markdownLink("Archive", `${site}/archives/`)}: earlier notes, ordered by date and browsable by topic.`,
+  `- ${markdownLink("Topics", `${site}/topics/`)}: subject pages that collect every published note tagged with each field.`,
   `- ${markdownLink("About", `${site}/about/`)}: the purpose, audience, boundaries, and editorial approach of the notebook.`,
   `- ${markdownLink("XML sitemap", `${site}/sitemap-index.xml`)}: machine-readable discovery of indexed pages.`,
   "",
@@ -141,6 +152,13 @@ const fullLines = [
 
 for (const [topic, topicPosts] of sortedTopics) {
   fullLines.push(`### ${topic}`);
+  fullLines.push("");
+  fullLines.push(
+    `- Topic page: ${markdownLink(
+      `Browse ${topic}`,
+      `${site}/topics/${topicSlug(topic)}/`
+    )}`
+  );
   fullLines.push("");
 
   fullLines.push(
@@ -184,7 +202,14 @@ for (const post of posts) {
   fullLines.push(`- Published: ${cleanInline(data.date)}`);
 
   fullLines.push(
-    `- Topics: ${splitTopics(data.topic).join("; ")}`
+    `- Topics: ${splitTopics(data.topic)
+      .map((topic) =>
+        markdownLink(
+          topic,
+          `${site}/topics/${topicSlug(topic)}/`
+        )
+      )
+      .join("; ")}`
   );
 
   fullLines.push(
@@ -269,7 +294,10 @@ compactLines.push("", "## Topics", "");
 
 for (const [topic, topicPosts] of sortedTopics) {
   compactLines.push(
-    `- **${topic}:** ${topicPosts.length} published ${
+    `- ${markdownLink(
+      topic,
+      `${site}/topics/${topicSlug(topic)}/`
+    )}: ${topicPosts.length} published ${
       topicPosts.length === 1 ? "note" : "notes"
     }.`
   );
