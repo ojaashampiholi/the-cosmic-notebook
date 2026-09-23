@@ -21,6 +21,7 @@ const {
   title = `${SITE_NAME} by ${SITE_AUTHOR}`,
   description = SITE_DESCRIPTION,
   image = "/the-cosmic-notebook/images/topic-previews/cosmic-notebook.png",
+  imageAlt,
   type = "website",
   noindex = false,
   publishedTime,
@@ -34,6 +35,7 @@ const pathname = Astro.url.pathname.endsWith("/")
 
 const canonical = new URL(pathname, Astro.site);
 const socialImage = new URL(image, Astro.site);
+const pictureAlt = imageAlt || title;
 const llmsUrl = new URL(withBase("llms.txt"), Astro.site);
 
 const aboutUrl = `${SITE_CANONICAL_ORIGIN}/about/`;
@@ -132,7 +134,7 @@ const structuredData = {
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={socialImage} />
-    <meta property="og:image:alt" content={title} />
+    <meta property="og:image:alt" content={pictureAlt} />
     {
       type === "article" && publishedTime && (
         <meta property="article:published_time" content={publishedTime} />
@@ -152,7 +154,7 @@ const structuredData = {
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={socialImage} />
-    <meta name="twitter:image:alt" content={title} />
+    <meta name="twitter:image:alt" content={pictureAlt} />
     <script
       is:inline
       type="application/ld+json"

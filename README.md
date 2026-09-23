@@ -67,7 +67,21 @@ Required fields:
 
 `body` is a Markdown string rendered on the note page (`/posts/{slug}/`). The schema still allows a note without `body`, but every published note in this repository includes one, typically a few hundred to roughly eight hundred words, written from the note’s own sources. Cards, archive listings, social tags, and structured data still use `excerpt` and `whyItMatters`, so a longer article does not change how the note appears in lists. Headings such as “Explore further” or “What to explore next” inside `body` are stripped at render time so they do not duplicate the **Sources** block.
 
-New notes are added as dated JSON files. The build regenerates `public/llms.txt` and topic preview images before compiling the site.
+`image` is optional. Leave it off and the note renders as before. When it is present, the note page shows a larger picture under the title, and homepage, archive, and related-note cards show a smaller thumbnail. Cards without an image keep their current layout.
+
+| Field | Role |
+| --- | --- |
+| `src` | File path under `public/`, for example `images/notes/moon-nearside-lro.jpg` |
+| `url` | Remote image address, used only when `src` is absent |
+| `thumbSrc` | Smaller file for cards. If omitted, cards use `src` or `url` |
+| `alt` | A plain description of what the picture shows |
+| `credit` | Who made the image. Shown on the note and on the card |
+| `license` | The free license, such as public domain or CC BY 4.0 |
+| `sourceUrl` | Page for the image, linked from the note |
+
+One of `src` or `url` is required. Images in this repository are downloaded into `public/images/notes/` so the site does not hotlink another host. `src/content/used-note-images.json` lists every image id and filename already used. A repeated id or filename fails `npm run build`.
+
+New notes are added as dated JSON files. The build regenerates `public/llms.txt` and topic preview images, then checks the image ledger, before compiling the site.
 
 ## Stack
 
@@ -75,6 +89,7 @@ New notes are added as dated JSON files. The build regenerates `public/llms.txt`
 - **GitHub Pages** at `/the-cosmic-notebook/`
 - JSON notes in `src/content/posts/`
 - Optional Markdown bodies rendered with `marked`
+- Optional note images stored in `public/images/notes/`
 - Per-note titles, canonical URLs, Open Graph/Twitter tags, and BlogPosting JSON-LD
 
 The Pages `base` path is set in `astro.config.mjs`. Internal links should go through `withBase()` / `postHref()` in `src/lib/site.ts` so they keep working on GitHub Pages.
@@ -86,7 +101,7 @@ npm install
 npm run dev
 ```
 
-`npm run dev` and `npm run build` both refresh `llms.txt` and topic preview images first.
+`npm run dev` and `npm run build` both refresh `llms.txt` and topic preview images, then check the note-image ledger, before the site compiles.
 
 ```bash
 npm run build

@@ -1,0 +1,40 @@
+{
+  "images": [
+    {
+      "id": "eso-beta-pictoris-b-eso1414a",
+      "note": "2026-09-22_exoplanets_beta-pic-b-radio-field",
+      "files": [
+        "images/notes/beta-pictoris-b.jpg",
+        "images/notes/beta-pictoris-b-thumb.jpg"
+      ],
+      "credit": "Artist's impression by ESO/L. Calçada/N. Risinger (skysurvey.org)",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://www.eso.org/public/images/eso1414a/",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Beta_Pictoris_b.jpg"
+    },
+    {
+      "id": "nasa-jpl-galex-andromeda-pia04921",
+      "note": "2026-09-20_galaxies_andromeda-supernova-turbulence",
+      "files": [
+        "images/notes/andromeda-galex.jpg",
+        "images/notes/andromeda-galex-thumb.jpg"
+      ],
+      "credit": "NASA/JPL/California Institute of Technology",
+      "license": "Public domain",
+      "sourceUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA04921",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Andromeda_galaxy.jpg"
+    },
+    {
+      "id": "nasa-lro-moon-nearside-2010",
+      "note": "2026-09-14_solar-system_lunar-ai-model",
+      "files": [
+        "images/notes/moon-nearside-lro.jpg",
+        "images/notes/moon-nearside-lro-thumb.jpg"
+      ],
+      "credit": "NASA/GSFC/Arizona State University",
+      "license": "Public domain",
+      "sourceUrl": "https://apod.nasa.gov/apod/ap110303.html",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Moon_nearside_LRO.jpg"
+    }
+  ]
+}
