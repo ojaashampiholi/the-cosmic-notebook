@@ -7,6 +7,7 @@ import {
   renderMarkdown,
   stripMarkdownSections,
 } from "../../lib/markdown.ts";
+import { resolveNoteImage } from "../../lib/note-image.ts";
 import { relatedPosts } from "../../lib/posts.ts";
 import { topicVisual } from "../../lib/topic-visuals.ts";
 import {
@@ -46,6 +47,9 @@ const notes = (await getCollection("posts")).sort(
 );
 const related = relatedPosts(post, notes);
 
+const noteImage = post.data.image;
+const noteImageFull = resolveNoteImage(noteImage, "full");
+
 const formattedDate = post.data.date.toLocaleDateString("en-GB", {
   day: "numeric",
   month: "long",
@@ -54,7 +58,7 @@ const formattedDate = post.data.date.toLocaleDateString("en-GB", {
 
 const publishedTime = post.data.date.toISOString();
 const pageTitle = `${post.data.title} | ${SITE_NAME}`;
-const socialImage = topicVisual(post.data.topic);
+const socialImage = noteImageFull ?? topicVisual(post.data.topic);
 const canonicalUrl = `${SITE_CANONICAL_ORIGIN}/posts/${post.id}/`;
 const articleBody = hasBody
   ? markdownToPlain(post.data.body ?? "")
@@ -108,6 +112,7 @@ const jsonLd = {
   title={pageTitle}
   description={post.data.excerpt}
   image={socialImage}
+  imageAlt={noteImage?.alt}
   type="article"
   publishedTime={publishedTime}
   section={post.data.topic}
@@ -149,6 +154,30 @@ const jsonLd = {
         </p>
       </div>
     </header>
+
+    {
+      noteImage && noteImageFull && (
+        <figure class="note-figure">
+          <img src={noteImageFull} alt={noteImage.alt} />
+          <figcaption>
+            <p class="note-figure-desc" aria-hidden="true">{noteImage.alt}</p>
+            <p class="note-figure-credit">
+              {noteImage.credit}
+              <span aria-hidden="true"> · </span>
+              {noteImage.license}
+              {noteImage.sourceUrl && (
+                <>
+                  <span aria-hidden="true"> · </span>
+                  <a href={noteImage.sourceUrl} target="_blank" rel="noreferrer">
+                    Image source
+                  </a>
+                </>
+              )}
+            </p>
+          </figcaption>
+        </figure>
+      )
+    }
 
     {
       hasBody ? (
@@ -214,6 +243,44 @@ const jsonLd = {
     color: var(--reading-heading);
     font-size: 1.22rem;
     line-height: 1.7;
+  }
+
+  .note-figure {
+    margin: 6px 0 0;
+  }
+
+  .note-figure img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    max-height: 34rem;
+    height: auto;
+    margin-inline: auto;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+
+  .note-figure-desc,
+  .note-figure-credit {
+    margin: 10px 0 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.45;
+  }
+
+  .note-figure-desc {
+    color: var(--reading-ink);
+    font-size: 0.92rem;
+  }
+
+  .note-figure-credit {
+    margin-top: 4px;
+    color: var(--text-muted);
+    font-size: 0.78rem;
+  }
+
+  .note-figure a {
+    color: var(--accent-strong);
+    text-underline-offset: 2px;
   }
 
   .note-body {
@@ -310,6 +377,14 @@ const jsonLd = {
     .note-body :global(p),
     .note-aside p {
       font-size: 1.08rem;
+    }
+
+    .note-figure img {
+      border-radius: 8px;
+    }
+
+    .note-figure-desc {
+      font-size: 0.88rem;
     }
   }
 </style>
