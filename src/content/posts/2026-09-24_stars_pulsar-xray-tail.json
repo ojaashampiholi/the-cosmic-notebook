@@ -1,0 +1,24 @@
+{
+  "title": "A pulsar's X-ray tail stretches for 42 light-years",
+  "topic": "Stars & Stellar Evolution",
+  "date": "2026-09-24",
+  "freshness": "Published in Science China Physics, Mechanics & Astronomy on 21 September 2026, within the preferred 15-day search window.",
+  "excerpt": "A faint X-ray tail behind pulsar PSR J1740+1000 reaches about 42 light-years, far beyond the portion seen before. Its alignment with ultrahigh-energy gamma rays suggests that particles can stream in one direction across interstellar space instead of spreading evenly.",
+  "whyItMatters": "The result gives astronomers a visible trail from a pulsar to gamma rays whose source had been unclear, improving the search for the Milky Way's most powerful natural particle accelerators.",
+  "exploreFurther": {
+    "label": "Science China Physics, Mechanics & Astronomy paper",
+    "url": "https://doi.org/10.1007/s11433-026-3098-2"
+  },
+  "whatToExploreNext": "How do ordered magnetic fields guide high-energy particles through interstellar space?",
+  "sources": [
+    {
+      "label": "Science China Physics, Mechanics & Astronomy: Anisotropic particle transport from a pulsar wind nebula revealed by Einstein Probe and LHAASO",
+      "url": "https://doi.org/10.1007/s11433-026-3098-2"
+    },
+    {
+      "label": "Chinese Academy of Sciences: Einstein Probe and LHAASO reveal a 42-light-year directed journey of cosmic rays",
+      "url": "https://english.cas.cn/newsroom/research-news/202609/t20260917_1200807.shtml"
+    }
+  ],
+  "body": "## A particle trail longer than a star neighborhood\n\nA faint X-ray streak behind a dead star has turned out to be about 42 light-years long. The streak begins near PSR J1740+1000, a pulsar roughly 4,600 light-years from Earth, and points toward a patch of ultrahigh-energy gamma rays previously lacking an obvious source.\n\nA pulsar is the compact, rapidly rotating core left after a massive star explodes. Its magnetic field can drive a wind of electrons and other charged particles moving close to the speed of light. Where those particles travel, they can leave radiation that telescopes detect even though the particles themselves are invisible.\n\nEarlier observations by XMM-Newton had revealed only a several-light-year section of this pulsar's tail. China's Einstein Probe changed the scale of the picture. Its Follow-up X-ray Telescope combines a wide field of view with a low instrumental background, useful for finding large, dim structures. During about 70,000 seconds of observation, it traced the tail across roughly 32 arcminutes of sky. At the pulsar's estimated distance, that angle corresponds to about 42 light-years, making this the longest X-ray tail yet detected from a pulsar wind nebula.\n\n## Two kinds of light, one particle population\n\nThe geometry alone is suggestive. The X-ray tail extends in the same direction as ultrahigh-energy gamma-ray emission measured by the ground-based Large High Altitude Air Shower Observatory, or LHAASO. The researchers also found that the energy patterns of the X-rays and gamma rays can be produced by the same population of energetic electrons.\n\nThose electrons emit X-rays as they curve through magnetic fields, a process called synchrotron radiation. They can also collide with low-energy photons and transfer enough energy to turn them into gamma rays. Seeing both signals along the same route gives astronomers a way to follow the particles from their likely accelerator near the pulsar into surrounding space.\n\nThis matters because cosmic particles are often expected to scatter off irregular magnetic fields and spread in many directions. Here, the trail remains narrow across tens of light-years. The result suggests that particle transport can be strongly directional, which may explain why some gamma-ray sources appear offset from the object that created their particles. The brightest gamma-ray location need not mark the accelerator itself.\n\n## What remains uncertain\n\nThe observations establish the long X-ray structure and its close match to the gamma-ray emission. The explanation for its shape is still an inference. One possibility is that an orderly interstellar magnetic field acts like a track, allowing particles to move easily along it while limiting sideways motion. Another is a narrow, continuing outflow that carries particles outward like water through a hose.\n\nThe present measurements do not distinguish between those mechanisms. Further observations of the tail's motion, spectrum, and magnetic environment could show whether the route is set mainly by the surrounding field or by the pulsar's own outflow.\n\n**Measured:** a roughly 42-light-year X-ray tail, aligned spatially and spectrally with ultrahigh-energy gamma-ray emission.\n\n**Inferred:** both signals trace the same high-energy particles traveling preferentially away from PSR J1740+1000."
+}
