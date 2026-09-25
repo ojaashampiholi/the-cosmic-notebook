@@ -1,0 +1,28 @@
+{
+  "title": "A calibration test sharpens the case for twisted ancient light",
+  "topic": "Cosmology & Early Universe / Gravity & Fundamental Physics",
+  "date": "2026-09-25",
+  "freshness": "Published in The Astrophysical Journal Letters on 17 September 2026, within the preferred 15-day search window.",
+  "excerpt": "A new analysis checked whether tiny differences among eight Planck detector maps could imitate a possible rotation in the cosmic microwave background. The independent calibration method found no significant mismatch, strengthening the measurement foundation without independently confirming that space itself twisted the light.",
+  "whyItMatters": "A real rotation of the universe's oldest light could point to physics beyond the Standard Model, so separating a cosmic signal from a fraction-of-a-degree instrument error is essential.",
+  "exploreFurther": {
+    "label": "The Astrophysical Journal Letters paper",
+    "url": "https://doi.org/10.3847/2041-8213/aea401"
+  },
+  "whatToExploreNext": "Why would cosmic birefringence rotate one pattern of polarized light into another?",
+  "sources": [
+    {
+      "label": "The Astrophysical Journal Letters: Differential Polarization Calibration: A Consistency Test for Cosmic Birefringence",
+      "url": "https://doi.org/10.3847/2041-8213/aea401"
+    },
+    {
+      "label": "arXiv full text: Differential Polarization Calibration: A Consistency Test for Cosmic Birefringence",
+      "url": "https://arxiv.org/html/2609.09149v1"
+    },
+    {
+      "label": "UC San Diego research release: Is the universe twisted?",
+      "url": "https://phys.org/news/2026-09-universe-oldest.html"
+    }
+  ],
+  "body": "## Testing a twist in the universe's oldest light\n\nLight left over from the early universe may have rotated by a tiny angle during its journey to us. The possible rotation is only about 0.37 degrees, yet confirming it could reveal a physical effect called cosmic birefringence. That would be a sign that empty space treats different orientations of light differently, something the Standard Model of particle physics does not predict.\n\nThere is a stubborn problem: a telescope whose polarization detectors are misaligned by the same tiny angle can produce an almost identical signal.\n\nThe light in question is the cosmic microwave background, or CMB, released when the universe became transparent about 380,000 years after the big bang. It carries polarization, meaning its electric field has preferred orientations across the sky. Astronomers separate those patterns into E modes, which look radial or ring-like, and B modes, which have a curled structure. A cosmic rotation can convert a little of one pattern into the other.\n\n## Comparing detectors without measuring the cosmic twist\n\nResearchers at UC San Diego developed a calibration test designed to ignore any rotation shared by every map. Instead, it compares detector sets and asks whether their relative angles agree with the calibration pattern inferred by an established method called the Minami-Komatsu analysis.\n\nThe team applied the new estimator to eight detector-set maps from the Planck satellite. Those maps create 28 detector-pair comparisons but contain seven independent relative-angle modes. The new reconstruction matched the established calibration pattern with a chi-squared value of 8.18 for seven degrees of freedom, corresponding to a probability-to-exceed of 0.32. None of the individual differences exceeded 1.8 standard deviations, so the analysis found no statistically significant relative calibration inconsistency.\n\nThat result matters because the two methods handle foreground emission differently. The agreement suggests that the detector-dependent pattern is present in the polarization data rather than being an artifact of the foreground model used by the established analysis.\n\n## What the result does and does not show\n\nWhen the researchers conditionally anchored their relative reconstruction to the established method's common calibration, they recovered a rotation of 0.37 plus or minus 0.12 degrees. That agrees with the earlier value.\n\nIt is not an independent confirmation of cosmic birefringence. Both reconstructions use the same Planck maps, and the new method deliberately cancels any rotation common to all of them. It therefore cannot establish the absolute angle without an external calibration reference. No sufficiently precise external reference is currently available for Planck.\n\nThe method is better understood as an audit of the measurement chain. It rules out one class of relative detector mismatch at useful precision while leaving the central cosmic question open. Future experiments such as the Simons Observatory and LiteBIRD could combine this relative check with dedicated absolute calibration, giving astronomers a cleaner test of whether ancient light truly rotated in transit.\n\n**Measured:** two independent calibration approaches recover consistent relative angles across eight Planck detector maps.\n\n**Inferred:** the possible 0.37-degree cosmic rotation has a stronger calibration foundation, but new physics is not yet confirmed."
+}
