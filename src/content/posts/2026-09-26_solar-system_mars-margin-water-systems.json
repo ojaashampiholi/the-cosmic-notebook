@@ -1,0 +1,36 @@
+{
+  "title": "One Martian rock unit records three separate water episodes",
+  "topic": "Solar System & Planetary Science / Astrobiology & Habitability",
+  "date": "2026-09-26",
+  "freshness": "Published open access in Communications Earth & Environment on 21 September 2026, within the preferred 15-day search window.",
+  "excerpt": "Perseverance found that an olivine-rich rock unit beside Jezero Crater's ancient lake records at least three distinct encounters with water. The sequence includes carbon dioxide-rich groundwater, lake-related alteration, and a later pulse of hot underground fluid.",
+  "whyItMatters": "The result shows that one part of Jezero Crater hosted several chemically different watery environments, expanding the range of places where traces of past Martian habitability might be preserved.",
+  "exploreFurther": {
+    "label": "Communications Earth & Environment paper",
+    "url": "https://www.nature.com/articles/s43247-026-03997-9"
+  },
+  "whatToExploreNext": "How carbonate and silica minerals can preserve chemical or structural signs of ancient microbial life.",
+  "sources": [
+    {
+      "label": "Communications Earth & Environment paper",
+      "url": "https://www.nature.com/articles/s43247-026-03997-9"
+    },
+    {
+      "label": "NASA: Discovery Reveals Complex Water Systems on Early Mars",
+      "url": "https://www.nasa.gov/solar-system/planets/mars/nasa-discovery-reveals-complex-water-systems-on-early-mars/"
+    },
+    {
+      "label": "NASA Jet Propulsion Laboratory release",
+      "url": "https://www.jpl.nasa.gov/news/nasa-discovery-reveals-complex-water-systems-on-early-mars/"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-09-26-mars-margin-unit.jpg",
+    "thumbSrc": "images/notes/2026-09-26-mars-margin-unit-thumb.jpg",
+    "alt": "Wide Perseverance panorama of reddish rocky terrain and low hills in Jezero Crater's Margin Unit, with black gaps along the stitched mosaic edges.",
+    "credit": "NASA/JPL-Caltech/MSSS",
+    "license": "NASA media usage guidelines (educational and informational use)",
+    "sourceUrl": "https://www.jpl.nasa.gov/news/nasa-discovery-reveals-complex-water-systems-on-early-mars/"
+  },
+  "body": "## A shoreline that was not what scientists expected\n\nPerseverance has found that a band of rock beside Jezero Crater's ancient lake records at least three separate encounters with water. The region, called the Margin Unit, was once expected to contain sediment deposited along a shoreline. Instead, the rover found olivine-rich igneous rock that was later changed by groundwater, lake water, and hot fluids moving below the surface.\n\nOlivine is a mineral that forms in hot magma and reacts readily with water. Its presence points to a volcanic origin for the rock, while the minerals that replaced or filled spaces around it preserve what happened afterward. That combination gives scientists a timeline of changing environments rather than evidence for one long-lived lake.\n\n## Reading water history in the minerals\n\nThe team used Perseverance's SuperCam instrument to study more than 185 bedrock targets as the rover climbed about 265 metres through the unit. SuperCam examines rock chemistry and mineral structure from a distance with a laser and spectrometers.\n\nThe lowest and oldest part of the sequence contains carbonate-rich ridges and veins. The researchers interpret these as the result of carbon dioxide-rich groundwater reacting with olivine. Higher in the unit, rocks contain more silica below the reconstructed lake level than above it. That pattern is consistent with alteration by lake water or groundwater connected to the lake.\n\nA later event left a different signature. Some fractures contain veins of calcium sulfate and fluorite, including one exposure about 25 centimetres thick. Forming that mineral mix requires warmer fluids than the earlier alteration, so the team infers that heated water circulated underground after the lake-related episode. The heat source is unknown. Possible explanations include buried magma or the lingering effects of an impact.\n\n## Several habitats, not a single scene\n\nEach water system would have offered different temperature, acidity, and chemical energy. Those conditions matter when scientists ask whether ancient Mars ever had environments that microbes could have used. Carbonate and silica are especially interesting because they can trap and preserve chemical or microscopic evidence for long periods.\n\nThis study does not report evidence of life. It identifies minerals and textures produced by water-rock reactions, then reconstructs the most plausible order of events. The relative order is supported by which features cut across or sit above others, but the rover cannot yet assign precise ages to the three episodes. Samples cached by Perseverance could eventually allow laboratories on Earth to test the mineral history in much finer detail.\n\n**Measured:** More than 185 targets across a 265-metre climb reveal olivine-rich igneous rock, carbonate and silica alteration, and younger calcium sulfate and fluorite veins.\n\n**Inferred:** At least three chemically distinct water systems affected the Margin Unit in sequence, with a later heated underground episode following groundwater and lake-related alteration."
+}

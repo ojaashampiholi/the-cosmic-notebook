@@ -90,6 +90,17 @@
       "credit": "Artwork: NASA, ESA and Leah Hustak (STScI)",
       "license": "NASA media usage guidelines (educational use)",
       "sourceUrl": "https://science.nasa.gov/asset/hubble/trans-neptunian-object-illustration/"
+    },
+    {
+      "id": "nasa-jpl-pia26815-margin-unit-panorama",
+      "note": "2026-09-26_solar-system_mars-margin-water-systems",
+      "files": [
+        "images/notes/2026-09-26-mars-margin-unit.jpg",
+        "images/notes/2026-09-26-mars-margin-unit-thumb.jpg"
+      ],
+      "credit": "NASA/JPL-Caltech/MSSS",
+      "license": "NASA media usage guidelines (educational and informational use)",
+      "sourceUrl": "https://www.jpl.nasa.gov/news/nasa-discovery-reveals-complex-water-systems-on-early-mars/"
     }
   ]
 }
