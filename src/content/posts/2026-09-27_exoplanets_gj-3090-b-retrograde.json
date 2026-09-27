@@ -1,0 +1,24 @@
+{
+  "title": "A sub-Neptune circles its red dwarf backwards",
+  "topic": "Exoplanets / Planet Formation",
+  "date": "2026-09-27",
+  "freshness": "Published in Astronomy & Astrophysics and posted publicly on 21 September 2026, within the preferred 15-day search window.",
+  "excerpt": "GJ 3090 b is the first planet found on a retrograde orbit around an M-dwarf star. Its strongly tilted path is hard to explain with the usual massive-companion scenarios, pointing instead toward a planet-forming disk that may have started out misaligned.",
+  "whyItMatters": "Small planets around red dwarfs are common but their orbital tilts are difficult to measure. This system offers an unusual test of how planet-forming disks can change orientation without destroying a compact family of planets.",
+  "exploreFurther": {
+    "label": "Astronomy & Astrophysics paper",
+    "url": "https://arxiv.org/abs/2609.24870"
+  },
+  "whatToExploreNext": "How the Rossiter-McLaughlin effect reveals the angle between a planet's orbit and its star's rotation.",
+  "sources": [
+    {
+      "label": "Astronomy & Astrophysics paper",
+      "url": "https://arxiv.org/abs/2609.24870"
+    },
+    {
+      "label": "ESO: NIRPS instrument overview",
+      "url": "https://www.eso.org/public/teles-instr/lasilla/36/nirps/"
+    }
+  ],
+  "body": "## A planet moving against its star\n\nGJ 3090 b circles its red dwarf in the opposite general direction from the star's rotation. Astronomers measured a three-dimensional orbital tilt of 136 degrees, making this sub-Neptune the first known retrograde planet around an M dwarf. A perfectly aligned orbit would measure 0 degrees, a polar orbit 90 degrees, and a fully reversed one 180 degrees.\n\nThe planet is about 2.18 times Earth's radius and 4.52 times its mass. It completes an orbit every 2.9 days and belongs to a system with at least one other confirmed planet. That multi-planet setting matters because violent gravitational encounters can tip a world onto a strange path, but they can also disrupt the orderly orbits of its neighbours.\n\n## Measuring a hidden angle\n\nThe team observed six transits with NIRPS, an infrared spectrograph on ESO's 3.6-metre telescope in Chile. Four were also observed with the optical HARPS instrument. Altogether, the campaign collected 142 NIRPS spectra and 51 HARPS spectra across roughly 23 hours.\n\nAs a planet crosses a rotating star, it blocks different parts of the stellar surface. One side is rotating toward us and the other away from us, so each blocked patch removes a slightly different velocity from the star's spectrum. This distortion, called the Rossiter-McLaughlin effect, traces the path of the planet across the spinning star.\n\nOne NIRPS visit had unusually low and variable signal quality, while the HARPS observations gave weaker constraints for this cool, red star. The final joint fit therefore used the five stronger NIRPS transits. It produced a projected angle of 208 degrees and, after accounting for the star's own orientation, the 136-degree three-dimensional tilt. The uncertainty spans 118 to 160 degrees. The authors report that a polar orbit is excluded at 2.5 sigma, meaningful evidence but less than the five-sigma threshold often used for a discovery in physics.\n\n## How did the system turn over?\n\nMany highly tilted planets have a massive outer planet or a distant stellar companion capable of disturbing their orbits. The researchers combined radial velocities, high-resolution imaging, and Gaia measurements to look for such an object. They found no wide stellar companion and strongly limited the space available for a massive outer planet. Those non-detections make a late gravitational shove less persuasive, especially because GJ 3090 b is the innermost member of a surviving multi-planet system.\n\nThe team's preferred explanation begins earlier. Material falling onto the young star may have formed a second disk tilted against the star's spin. The planets could then have formed or migrated together within that disk, preserving their relationship while inheriting its reversed orientation. This is a proposed history, not a directly observed event. The other planets' orbital tilts have not yet been measured, and an unseen companion in a poorly constrained configuration cannot be ruled out completely.\n\n**Measured:** Five high-quality NIRPS transits yield a 3D tilt of 136 degrees, with an uncertainty of minus 18 and plus 24 degrees.\n\n**Inferred:** A misaligned planet-forming disk fits the system better than the familiar massive-companion explanation, but further measurements are needed to test that origin story."
+}
