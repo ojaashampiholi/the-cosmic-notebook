@@ -11,7 +11,8 @@ permissions:
   contents: read
 
 concurrency:
-  group: github-pages
+  # Keep PR checks independent while serializing runs for each ref.
+  group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:

@@ -9,6 +9,21 @@ updates:
       time: "09:00"
       timezone: "Asia/Kolkata"
     open-pull-requests-limit: 5
+    groups:
+      npm-routine:
+        patterns:
+          - "*"
+        # sharp is pre-1.0; review image-processing changes separately.
+        exclude-patterns:
+          - "sharp"
+        update-types:
+          - "minor"
+          - "patch"
+    ignore:
+      # @astrojs/check currently supports TypeScript 5 and 6 only.
+      # Remove this restriction when the checker supports TypeScript 7+.
+      - dependency-name: "typescript"
+        versions: [">=7"]
     labels:
       - "dependencies"
 
@@ -20,5 +35,9 @@ updates:
       time: "09:15"
       timezone: "Asia/Kolkata"
     open-pull-requests-limit: 5
+    groups:
+      github-actions:
+        patterns:
+          - "*"
     labels:
       - "dependencies"
