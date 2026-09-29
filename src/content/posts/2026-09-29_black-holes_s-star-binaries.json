@@ -1,0 +1,28 @@
+{
+  "title": "The Milky Way's black hole may prune stellar pairs",
+  "topic": "Black Holes / Stars & Stellar Evolution",
+  "date": "2026-09-29",
+  "freshness": "Preprint posted September 25, 2026; preliminary and within the preferred 15-day search window.",
+  "excerpt": "Young stars close to Sagittarius A* are found in pairs less often than similar stars elsewhere. A new analysis suggests the black hole's tides could erase many of those partnerships after the stars form.",
+  "whyItMatters": "The missing pairs have long complicated ideas about how young stars appeared beside the Milky Way's central black hole. If the black hole can remove the pairs itself, the stars may have formed where we see them instead of arriving later from farther out.",
+  "exploreFurther": {
+    "label": "Read the preprint on arXiv",
+    "url": "https://arxiv.org/abs/2609.31305"
+  },
+  "whatToExploreNext": "How can repeated spectra reveal whether a distant point of light is one star or two stars orbiting each other?",
+  "sources": [
+    {
+      "label": "Silva et al., A solution to the paradox of youth in the Galactic centre",
+      "url": "https://arxiv.org/abs/2609.31305"
+    }
+  ],
+  "image": {
+    "src": "images/notes/s-stars-vlti.jpg",
+    "thumbSrc": "images/notes/s-stars-vlti-thumb.jpg",
+    "alt": "Four dated telescope views showing several S-stars moving around Sagittarius A-star, with the orbit of S301 traced in white",
+    "credit": "ESO/GRAVITY collaboration",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://www.eso.org/public/images/eso2612c/"
+  },
+  "body": "## A crowded neighbourhood with surprisingly few pairs\n\nClose to Sagittarius A*, the Milky Way's central black hole, young stars appear less likely to have stellar companions than similar massive stars elsewhere. A new study argues that this shortage need not mean the stars arrived alone. The black hole's gravity may have broken apart or merged many of the pairs after they formed.\n\nThe stars belong to the S cluster, packed within roughly 0.04 parsec of Sagittarius A*. That is about 8,000 times the distance from Earth to the Sun. Many are B-type stars with a mean age near six million years. Their youth is puzzling because the black hole's tidal pull should make it hard for an ordinary gas cloud there to collapse into stars. This is known as the paradox of youth.\n\nPairs offer a clue. About 69 percent of comparable massive stars in the wider Galaxy are in binary systems, but observations near Sagittarius A* have found far fewer. Rodrigo Silva and colleagues revisited measurements of 16 early-type S stars and added D9, the first confirmed binary in the cluster. From the stars' radial-velocity limits, which track motion toward and away from us, they estimated an S-cluster binary fraction of 43 percent, with an uncertainty of 9 percentage points at the stated two-sigma level. This is an inferred population fraction, not a count in which every companion has been seen.\n\n## Letting the black hole do the pruning\n\nThe team then modelled 100,000 binary systems following observed S-star orbits and the known properties of massive binaries. Each system was evolved for one million years around the black hole. In the simulations, 20 percent of the pairs were pulled apart, 18 percent merged, and 62 percent survived.\n\nStarting with the 69 percent binary fraction measured away from the Galactic centre, those outcomes produce a predicted final fraction of 38 percent, with an uncertainty of 10 percentage points. That overlaps the observation-based estimate. The model also predicts fewer binaries closer to Sagittarius A*, matching existing constraints from about 0.02 to 0.4 parsec.\n\nThis matters because the binary deficit has been used to question whether the S stars formed beside the black hole. The new calculation shows that a population born with an ordinary share of pairs could be reshaped into the one astronomers now see. It therefore supports local formation, perhaps when a powerful outflow from Sagittarius A* compressed a shell of gas about six million years ago.\n\nThat origin story is not confirmed. The paper is a preprint, the observational estimate rests on one detected young binary plus limits for 16 other stars, and the simulations assume that the original binaries resembled massive pairs elsewhere in the Galaxy. The suggested link to the Milky Way's giant Fermi bubbles also remains a hypothesis. Better spectra and longer tracking of S-star motions can test whether the predicted rise in binary fraction with distance is real.\n\n**Measured:** one young binary is confirmed in the sample, and radial-velocity data imply a binary fraction near 43 percent.\n\n**Inferred:** tides from Sagittarius A* can reduce an initially ordinary binary population enough to explain that value, making formation near the black hole more plausible."
+}

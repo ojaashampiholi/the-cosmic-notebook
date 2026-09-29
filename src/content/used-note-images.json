@@ -1,6 +1,17 @@
 {
   "images": [
     {
+      "id": "eso-vlti-s-stars-eso2612c",
+      "note": "2026-09-29_black-holes_s-star-binaries",
+      "files": [
+        "images/notes/s-stars-vlti.jpg",
+        "images/notes/s-stars-vlti-thumb.jpg"
+      ],
+      "credit": "ESO/GRAVITY collaboration",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://www.eso.org/public/images/eso2612c/"
+    },
+    {
       "id": "eso-beta-pictoris-b-eso1414a",
       "note": "2026-09-22_exoplanets_beta-pic-b-radio-field",
       "files": [
