@@ -1,6 +1,17 @@
 {
   "images": [
     {
+      "id": "arxiv-2609-35697-figure-3",
+      "note": "2026-09-30_stars_dust-hidden-grb-supernova",
+      "files": [
+        "images/notes/grb-240825a-jwst-spectrum.png",
+        "images/notes/grb-240825a-jwst-spectrum-thumb.png"
+      ],
+      "credit": "B. Schneider et al.",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://arxiv.org/html/2609.35697v1#S3.F3"
+    },
+    {
       "id": "eso-vlti-s-stars-eso2612c",
       "note": "2026-09-29_black-holes_s-star-binaries",
       "files": [

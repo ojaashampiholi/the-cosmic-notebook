@@ -1,0 +1,32 @@
+{
+  "title": "Webb uncovered a supernova hidden by dust and galaxy light",
+  "topic": "Stars & Stellar Evolution",
+  "date": "2026-09-30",
+  "freshness": "Preprint posted September 28, 2026; preliminary and within the preferred 15-day search window.",
+  "excerpt": "A gamma-ray burst's four-second flash left its source unclear after ground telescopes found no accompanying supernova. Webb separated a faint, dust-reddened supernova from its bright host galaxy, tying the burst to the collapse of a massive star.",
+  "whyItMatters": "Gamma-ray bursts cannot always be classified by how long their initial flash lasts. Finding the explosion that produced this ambiguous burst shows how infrared spectroscopy can identify stellar deaths that dust and galaxy light hide from ground-based surveys.",
+  "exploreFurther": {
+    "label": "Read the full preprint on arXiv",
+    "url": "https://arxiv.org/html/2609.35697v1"
+  },
+  "whatToExploreNext": "Why do broad absorption and emission features identify a supernova more securely than a late-time brightening alone?",
+  "sources": [
+    {
+      "label": "Schneider et al., JWST unveils a dust-obscured supernova associated with a gamma-ray burst",
+      "url": "https://arxiv.org/abs/2609.35697"
+    },
+    {
+      "label": "Gupta et al., Deciphering the Physical Origin of GRB 240825A",
+      "url": "https://arxiv.org/abs/2508.00142"
+    }
+  ],
+  "image": {
+    "src": "images/notes/grb-240825a-jwst-spectrum.png",
+    "thumbSrc": "images/notes/grb-240825a-jwst-spectrum-thumb.png",
+    "alt": "JWST two-dimensional spectrum above six coloured spectra extracted across the host galaxy, with the combined host and supernova region marked",
+    "credit": "B. Schneider et al.",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/html/2609.35697v1#S3.F3"
+  },
+  "body": "## The explosion was there, but almost lost in the galaxy\n\nA supernova was hiding underneath the light of a distant galaxy after the gamma-ray burst GRB 240825A. Ground telescopes had looked deeply and found no such explosion. A team using the James Webb Space Telescope has now separated a faint, dust-reddened supernova from the galaxy around it, providing direct evidence that the burst began with the collapse of a massive star.\n\nGamma-ray bursts are short blasts of high-energy radiation. Many long bursts come from collapsing massive stars, while short bursts are often produced when compact objects such as neutron stars merge. Duration is only a rough guide, however. GRB 240825A made the problem plain: its main flash lasted about four seconds, near the traditional boundary, and several features looked more like a merger. Other measurements favoured a collapsing star. The best deciding evidence would have been an accompanying supernova, but optical and near-infrared searches from the ground did not see one.\n\nWebb observed the system with its NIRSpec spectrograph 66.5 days after the burst, equal to 40.1 days in the galaxy's own frame of reference. The galaxy lies at redshift 0.659. Rather than treating the galaxy as one blended source, the researchers examined the two-dimensional spectrum pixel by pixel. They modelled the extended galaxy light and a compact source at the burst position separately.\n\nThe compact source contained broad spectral shapes similar to those in SN 1998bw, a well-studied supernova linked to a gamma-ray burst, and to another broad-lined Type Ic supernova observed by Webb. These broad features are the smeared fingerprints of material moving at enormous speeds in an explosion. The supernova supplied about 13 percent of the total light in the spatially integrated NIRSpec spectrum, rising to about 44 percent in the pixel centred on the burst.\n\n## Why the ground searches missed it\n\nThe afterglow showed that the sightline passed through enough dust to dim visible light by about 1.37 magnitudes. Infrared light penetrates dust more easily, and Webb's angular resolution improved the contrast between the compact explosion and the extended host. The team's model indicates that the supernova would have contributed only about 1 percent of the total light in a ground-based optical image at the Webb epoch.\n\nThis detection changes the classification from a guess based on the burst to an identification based on the stellar explosion. It also adds to evidence that a burst's duration alone can mislead: some short-looking events can come from massive stars, just as some long events can come from mergers. Better classifications matter when astronomers use burst samples to estimate how often stars collapse, how often compact objects merge, and where heavy elements are made.\n\nThere are limits. The study is a preprint and has not completed peer review. Its inferred supernova brightness depends on how the host galaxy is subtracted and on templates built from other explosions. The authors also had one late Webb spectrum, so their reconstructed light curve assumes that this event evolved much like SN 1998bw. Those uncertainties affect the detailed luminosity, but the compact source's location and broad spectral structure support the presence of a supernova.\n\n**Measured:** Webb found a compact spectral component at the burst position that made up roughly 13 percent of the integrated infrared spectrum and was viewed through substantial dust.\n\n**Inferred:** comparison with broad-lined supernova templates identifies that component as a supernova and ties GRB 240825A to a massive star's collapse."
+}
