@@ -1,0 +1,28 @@
+{
+  "title": "Webb reads the wreckage of planet-sized collisions",
+  "topic": "Planet Formation",
+  "date": "2026-10-02",
+  "freshness": "Published October 1, 2026 in The Astrophysical Journal and announced by NASA the same day, within the preferred 15-day search window.",
+  "excerpt": "Webb spectra of 21 extreme debris disks show that their dust falls into two mineral groups. The team interprets silica-rich systems as the aftermath of more energetic collisions between roughly Mars-sized bodies, while silica-poor systems point to gentler impacts involving smaller planetary embryos.",
+  "whyItMatters": "Rocky planets grow through collisions that are almost impossible to watch directly around other stars. By reading the mineral fingerprints left in hot dust, astronomers may be able to reconstruct how violent those collisions were and compare young planetary systems with the early history of our own.",
+  "exploreFurther": {
+    "label": "Read the paper in The Astrophysical Journal",
+    "url": "https://doi.org/10.3847/1538-4357/ae88fe"
+  },
+  "whatToExploreNext": "Why does a high-energy impact create a different silica signature from a grazing collision between smaller planetary bodies?",
+  "sources": [
+    {
+      "label": "Su et al., Extreme Debris Disks: Insights into Violent Collisions in Planet Formation and Destruction",
+      "url": "https://doi.org/10.3847/1538-4357/ae88fe"
+    },
+    {
+      "label": "NASA Webb science release",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/"
+    },
+    {
+      "label": "Phys.org summary of the NASA release and paper",
+      "url": "https://phys.org/news/2026-10-webb-planet-shattering-collisions.html"
+    }
+  ],
+  "body": "## Dust from collisions too small to see\n\nYoung planetary systems can be messy. Once their gas-rich birth disks thin out, rocky bodies can continue to collide, fragment and sometimes partly vaporize. The bodies themselves are usually far too small and faint to resolve around another star, but the dust they produce glows in infrared light. A new study uses that glow as a chemical record of the impacts.\n\nKate Su and colleagues assembled a sample of 21 so-called extreme debris disks. These are unusual systems with large amounts of warm dust close to their stars, roughly where rocky planets would orbit. Five spectra came from the retired Spitzer Space Telescope and 16 from the James Webb Space Telescope, including 12 newly observed systems and four Webb follow-ups of Spitzer targets. NASA says only about 1 percent of young stars observed so far show this extreme debris-disk phase.\n\nThe team found three recurring traits: unusually small dust grains, a large concentration of warm dust and irregular changes in infrared brightness. Webb's mid-infrared spectra also revealed the minerals in that dust. That let the researchers divide the sample into silica-rich and silica-poor systems.\n\n## The minerals point to different impact energies\n\nAbout one-third of the disks are silica-rich. The researchers interpret those spectra as signs of high-energy impacts between bodies roughly comparable in size to Mars, energetic enough to vaporize a substantial amount of rock. The remaining disks are silica-poor and are better matched by lower-energy events, such as grazing collisions between bodies closer to the Moon in size.\n\nThis is an inference from dust composition and impact models, not a direct image of two planetary embryos colliding. That distinction matters. The spectra show what minerals are present; the size and geometry of the original impactors are reconstructed from how different kinds of collisions are expected to process rock.\n\nThe age pattern adds another clue. In this sample, silica-rich extreme debris disks occur only around stars younger than about 300 million years. Silica-poor systems appear across a wider range of ages and often vary more strongly in brightness. The authors suggest that the first group may trace the most violent stage of rocky-planet assembly, while some silica-poor disks could arise later as orbits rearrange and fresh collisions occur.\n\n## A possible echo of Earth's own formation\n\nThat timing overlaps with the period when simulations place the construction of terrestrial planets. Earth and the Moon are thought to have reached their present relationship after a giant impact roughly 100 million years after the Sun formed. The new Webb sample does not prove that any observed system is repeating the Moon-forming collision, but it gives astronomers a way to compare those models with real planetary systems at similar ages.\n\nThe result is still limited by sample size. The team notes that only three older disks in the current sample test the expectation that silica-rich systems should disappear at later ages. More Webb observations will be needed to see whether the mineral split and age trend hold up.\n\n**Measured:** Webb and Spitzer spectra of 21 extreme debris disks separate the systems into silica-rich and silica-poor groups, with silica-rich disks appearing only around younger stars in this sample.\n\n**Inferred:** the two mineral groups may record different collision energies and impactor sizes, offering an indirect view of the violent stages of rocky-planet formation."
+}
