@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-03",
+  "status": "frozen_not_committed",
+  "outcome": "FROZEN_NOT_COMMITTED",
+  "stage": "frozen",
+  "workingTitle": "Webb found an unexpectedly clear sightline through cosmic reionization",
+  "intendedFilename": "2026-10-03_cosmology_clear-reionization-sightline.json",
+  "topic": "Cosmology & Early Universe / Galaxies & Galactic Evolution",
+  "publicationDate": "2026-09-29",
+  "freshnessWindow": "15 days",
+  "publicationStatus": "Preprint; to be submitted; preliminary",
+  "primarySourceUrls": [
+    "https://arxiv.org/abs/2609.38080",
+    "https://arxiv.org/html/2609.38080v1"
+  ],
+  "coreFacts": [
+    "JWST/NIRSpec detected flux blueward of Lyman-alpha at about 7 sigma from JADES-GS-z7-LAF at redshift 7.57.",
+    "Independent JWST/NIRCam F090W imaging detected the same blueward flux at about 10 sigma.",
+    "The favored interpretation is an exceptionally transparent intergalactic sightline during reionization.",
+    "The authors found no evidence for a foreground interloper but cannot formally exclude one."
+  ],
+  "caveats": [
+    "The work is an unreviewed preprint.",
+    "The result concerns one sightline.",
+    "Low spectral resolution cannot establish a continuously transparent path.",
+    "The detected non-ionizing ultraviolet flux does not directly measure the escape fraction of ionizing photons."
+  ],
+  "sources": [
+    {
+      "label": "Helton et al. preprint",
+      "url": "https://arxiv.org/abs/2609.38080"
+    }
+  ],
+  "sourceStatus": "Primary preprint and full text verified; no secondary source required.",
+  "image": {
+    "status": "not_checked"
+  },
+  "recovery": {
+    "status": "ready",
+    "lastError": null
+  }
+}
