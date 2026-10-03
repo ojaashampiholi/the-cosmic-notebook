@@ -2,7 +2,7 @@
   "date": "2026-10-03",
   "status": "frozen_not_committed",
   "outcome": "FROZEN_NOT_COMMITTED",
-  "stage": "frozen",
+  "stage": "verified",
   "workingTitle": "Webb found an unexpectedly clear sightline through cosmic reionization",
   "intendedFilename": "2026-10-03_cosmology_clear-reionization-sightline.json",
   "topic": "Cosmology & Early Universe / Galaxies & Galactic Evolution",
@@ -16,22 +16,23 @@
   "coreFacts": [
     "JWST/NIRSpec detected flux blueward of Lyman-alpha at about 7 sigma from JADES-GS-z7-LAF at redshift 7.57.",
     "Independent JWST/NIRCam F090W imaging detected the same blueward flux at about 10 sigma.",
-    "The favored interpretation is an exceptionally transparent intergalactic sightline during reionization.",
-    "The authors found no evidence for a foreground interloper but cannot formally exclude one."
+    "The flux position is consistent with the galaxy and appears about 0.4 physical kiloparsec from its ultraviolet centroid.",
+    "Transmission requires a neutral-hydrogen fraction below 0.00001 in the transmitting parts of this sightline.",
+    "The sightline overlaps several high-redshift galaxy overdensities that may help explain the ionized route."
   ],
   "caveats": [
-    "The work is an unreviewed preprint.",
-    "The result concerns one sightline.",
-    "Low spectral resolution cannot establish a continuously transparent path.",
-    "The detected non-ionizing ultraviolet flux does not directly measure the escape fraction of ionizing photons."
+    "The work is an unreviewed preprint based on one sightline.",
+    "No evidence was found for a foreground interloper, but one cannot be formally excluded.",
+    "Low-resolution spectroscopy cannot establish that the entire path was continuously transparent.",
+    "The non-ionizing ultraviolet detection does not directly measure the galaxy's ionizing-photon escape fraction."
   ],
   "sources": [
     {
-      "label": "Helton et al. preprint",
+      "label": "Helton et al., Discovery of the Lyman-alpha Forest in a Star-Forming Galaxy at z approximately 7.57",
       "url": "https://arxiv.org/abs/2609.38080"
     }
   ],
-  "sourceStatus": "Primary preprint and full text verified; no secondary source required.",
+  "sourceStatus": "Primary preprint abstract and full text verified. A secondary source was unnecessary because the primary source directly supports the material claims.",
   "image": {
     "status": "not_checked"
   },
