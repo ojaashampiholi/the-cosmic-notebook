@@ -1,17 +1,9 @@
 {
-  "date": "2026-10-03",
-  "status": "frozen_not_committed",
-  "outcome": "FROZEN_NOT_COMMITTED",
-  "stage": "verified",
-  "workingTitle": "Webb found an unexpectedly clear sightline through cosmic reionization",
-  "intendedFilename": "2026-10-03_cosmology_clear-reionization-sightline.json",
-  "topic": "Cosmology & Early Universe / Galaxies & Galactic Evolution",
-  "publicationDate": "2026-09-29",
-  "freshnessWindow": "15 days",
-  "publicationStatus": "Preprint; to be submitted; preliminary",
-  "primarySourceUrls": [
-    "https://arxiv.org/abs/2609.38080",
-    "https://arxiv.org/html/2609.38080v1"
+  "caveats": [
+    "The work is an unreviewed preprint based on one sightline.",
+    "No evidence was found for a foreground interloper, but one cannot be formally excluded.",
+    "Low-resolution spectroscopy cannot establish that the entire path was continuously transparent.",
+    "The non-ionizing ultraviolet detection does not directly measure the galaxy's ionizing-photon escape fraction."
   ],
   "coreFacts": [
     "JWST/NIRSpec detected flux blueward of Lyman-alpha at about 7 sigma from JADES-GS-z7-LAF at redshift 7.57.",
@@ -20,24 +12,44 @@
     "Transmission requires a neutral-hydrogen fraction below 0.00001 in the transmitting parts of this sightline.",
     "The sightline overlaps several high-redshift galaxy overdensities that may help explain the ionized route."
   ],
-  "caveats": [
-    "The work is an unreviewed preprint based on one sightline.",
-    "No evidence was found for a foreground interloper, but one cannot be formally excluded.",
-    "Low-resolution spectroscopy cannot establish that the entire path was continuously transparent.",
-    "The non-ionizing ultraviolet detection does not directly measure the galaxy's ionizing-photon escape fraction."
+  "date": "2026-10-03",
+  "freshnessWindow": "15 days",
+  "image": {
+    "id": "arxiv-2609-38080-figure-4",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/html/2609.38080v1#S3.F4",
+    "status": "included"
+  },
+  "intendedFilename": "2026-10-03_cosmology_clear-reionization-sightline.json",
+  "outcome": "FROZEN_NOT_COMMITTED",
+  "primarySourceUrls": [
+    "https://arxiv.org/abs/2609.38080",
+    "https://arxiv.org/html/2609.38080v1"
   ],
+  "publicationDate": "2026-09-29",
+  "publicationStatus": "Preprint; to be submitted; preliminary",
+  "recovery": {
+    "lastError": null,
+    "status": "ready"
+  },
+  "sourceStatus": "Primary preprint abstract and full text verified. A secondary source was unnecessary because the primary source directly supports the material claims.",
   "sources": [
     {
       "label": "Helton et al., Discovery of the Lyman-alpha Forest in a Star-Forming Galaxy at z approximately 7.57",
       "url": "https://arxiv.org/abs/2609.38080"
     }
   ],
-  "sourceStatus": "Primary preprint abstract and full text verified. A secondary source was unnecessary because the primary source directly supports the material claims.",
-  "image": {
-    "status": "not_checked"
+  "stage": "draft_validated",
+  "status": "frozen_not_committed",
+  "topic": "Cosmology & Early Universe / Galaxies & Galactic Evolution",
+  "validation": {
+    "bodyWords": 585,
+    "build": "passed with zero Astro diagnostics",
+    "humanizer": "passed",
+    "imageChecks": "passed",
+    "json": "passed",
+    "sourceLinks": "passed",
+    "topics": "passed"
   },
-  "recovery": {
-    "status": "ready",
-    "lastError": null
-  }
+  "workingTitle": "Webb found an unexpectedly clear sightline through cosmic reionization"
 }
