@@ -1,0 +1,28 @@
+{
+  "title": "Webb found an unexpectedly clear sightline through cosmic reionization",
+  "topic": "Cosmology & Early Universe / Galaxies & Galactic Evolution",
+  "date": "2026-10-03",
+  "freshness": "Preprint posted September 29, 2026; preliminary and within the preferred 15-day search window.",
+  "excerpt": "Webb detected ultraviolet light from a galaxy at redshift 7.57 that neutral hydrogen should usually block. If the signal comes from the distant galaxy as the evidence suggests, its light crossed a remarkably transparent path through an era when much of intergalactic space was still being reionized.",
+  "whyItMatters": "The detection offers a rare direct probe of how reionization varied from place to place. It suggests that groups of early galaxies may have carved unusually transparent routes through intergalactic hydrogen, though one sightline cannot reveal how common those routes were.",
+  "exploreFurther": {
+    "label": "Read the full preprint on arXiv",
+    "url": "https://arxiv.org/html/2609.38080v1"
+  },
+  "whatToExploreNext": "How can several neighboring galaxies join their ionized bubbles into a transparent path through the early universe?",
+  "sources": [
+    {
+      "label": "Helton et al., Discovery of the Lyman-alpha Forest in a Star-Forming Galaxy at z approximately 7.57",
+      "url": "https://arxiv.org/abs/2609.38080"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-10-03-clear-reionization-sightline.png",
+    "thumbSrc": "images/notes/2026-10-03-clear-reionization-sightline-thumb.jpg",
+    "alt": "Two JWST views of the distant galaxy JADES-GS-z7-LAF: a false-color image at left and a grayscale ultraviolet image at right, each marked with the NIRSpec slit positions",
+    "credit": "J. M. Helton et al.",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/html/2609.38080v1#S3.F4"
+  },
+  "body": "## Light where darkness was expected\n\nThe James Webb Space Telescope has detected ultraviolet light from a galaxy so distant that the hydrogen between it and us should usually erase the signal. The galaxy, named JADES-GS-z7-LAF, is seen at redshift 7.57, when the universe was about 700 million years old. Its light appears to have travelled along an exceptionally transparent path through a period called cosmic reionization.\n\nAfter the Big Bang, the universe eventually filled with neutral hydrogen: atoms made of a proton holding an electron. The first stars and galaxies produced energetic radiation that stripped those electrons away again. This uneven transformation, reionization, cleared the intergalactic gas over hundreds of millions of years.\n\nNeutral hydrogen interacts strongly with ultraviolet light near a wavelength called Lyman-alpha. For a galaxy this early, astronomers normally expect a thick series of absorbing clouds, known as the Lyman-alpha forest, to remove nearly all light on the blue side of that wavelength. Here, Webb saw some of it get through.\n\nThe evidence comes from two independent measurements. Webb's NIRSpec instrument detected the blueward light at about seven times the noise level. NIRCam imaging detected it at about ten times the noise level. The signal lies at the galaxy's position and is offset by only about 0.4 physical kiloparsec from its ultraviolet center. The researchers tested detector effects and looked for a closer galaxy whose light might imitate the result. They found no evidence for such an interloper, although the existing observations cannot formally rule one out.\n\n## A narrow route through a patchy era\n\nThe transmitted light probes intergalactic hydrogen from roughly redshift 7.5 down to 5.5. The team's models require the neutral fraction along this particular route to fall below one part in 100,000 in the regions that transmit light. That does not mean the universe as a whole was almost completely ionized. Reionization was patchy, and a single beam can pass through conditions very different from the cosmic average.\n\nSeveral concentrations of galaxies line up with this sightline. The authors propose that radiation from those groups may have joined smaller ionized bubbles into a long, clear route. None of 300 simulated sightlines used for comparison produced a close match, which makes the observation informative but also exposes gaps between the data and present models. The NIRSpec spectrum has low resolution, so it cannot show whether the route was continuously transparent. Many narrow clear windows blurred together could produce a similar signal.\n\nJADES-GS-z7-LAF is also unusually luminous and contains about 1.3 billion times the Sun's mass in stars. Faint galaxies are often cast as the main agents of reionization. If more massive systems like this one commonly opened clear paths, their contribution may need to be reconsidered. That remains a possibility, not a conclusion: the study concerns one galaxy, and the preprint has not yet completed peer review.\n\nThe light detected here is not itself the radiation that ionizes hydrogen. It has a different absorption probability, so the result does not directly measure how many ionizing photons escape this galaxy. Its value is geometric. It reveals that at least one line of sight through the late stages of reionization may have been far clearer than average.\n\n**Measured:** two Webb instruments independently detected ultraviolet flux blueward of Lyman-alpha from the position of one galaxy at redshift 7.57.\n\n**Inferred:** the favored explanation is an unusually ionized sightline, possibly created by several galaxy overdensities, but a foreground contaminant and unresolved narrow transmission windows are not fully excluded."
+}

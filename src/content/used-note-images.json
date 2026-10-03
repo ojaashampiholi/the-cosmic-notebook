@@ -1,6 +1,17 @@
 {
   "images": [
     {
+      "id": "arxiv-2609-38080-figure-4",
+      "note": "2026-10-03_cosmology_clear-reionization-sightline",
+      "files": [
+        "images/notes/2026-10-03-clear-reionization-sightline.png",
+        "images/notes/2026-10-03-clear-reionization-sightline-thumb.jpg"
+      ],
+      "credit": "J. M. Helton et al.",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://arxiv.org/html/2609.38080v1#S3.F4"
+    },
+    {
       "id": "arxiv-2609-35697-figure-3",
       "note": "2026-09-30_stars_dust-hidden-grb-supernova",
       "files": [
