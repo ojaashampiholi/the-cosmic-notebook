@@ -1,8 +1,8 @@
 {
   "date": "2026-10-04",
-  "status": "committed",
-  "outcome": "COMMITTED_NOT_LIVE",
-  "stage": "committed",
+  "status": "published",
+  "outcome": "PUBLISHED",
+  "stage": "published",
   "workingTitle": "Garro 04 is a hidden star cluster that resists a neat label",
   "intendedFilename": "2026-10-04_stars_garro-04-hidden-cluster.json",
   "topic": "Stars & Stellar Evolution",
@@ -56,5 +56,8 @@
     "imageChecks": "passed: 13 images tracked, no repeats",
     "build": "passed with zero Astro diagnostics"
   },
-  "commitSha": "e3fc2fc5643e7db59f6821c50bfbfab9527b161d"
+  "commitSha": "e3fc2fc5643e7db59f6821c50bfbfab9527b161d",
+  "deployRunId": 37205719098,
+  "deployRunUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/37205719098",
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-04_stars_garro-04-hidden-cluster/"
 }
