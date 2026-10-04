@@ -13,10 +13,12 @@
     "visuals:update": "node scripts/generate-topic-visuals.mjs",
     "prebuild": "npm run content:update",
     "build": "astro check && astro build",
+    "postbuild": "node scripts/check-discovery.mjs --dist",
     "preview": "astro preview"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
+    "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.4",
     "astro": "^5.13.0",
     "marked": "^18.0.14",

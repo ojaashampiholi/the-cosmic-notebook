@@ -28,7 +28,8 @@ Same public identity, other writing:
 - [Archive](https://ojaashampiholi.github.io/the-cosmic-notebook/archives/): earlier notes, ordered by date and browsable by topic.
 - [Topics](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/): subject pages that collect every published note tagged with each field.
 - [About](https://ojaashampiholi.github.io/the-cosmic-notebook/about/): the purpose, audience, boundaries, and editorial approach of the notebook.
-- [XML sitemap](https://ojaashampiholi.github.io/the-cosmic-notebook/sitemap-index.xml): machine-readable discovery of indexed pages.
+- [XML sitemap](https://ojaashampiholi.github.io/the-cosmic-notebook/sitemap-index.xml): machine-readable discovery of indexed pages. The same index is also at https://ojaashampiholi.github.io/the-cosmic-notebook/sitemap.xml.
+- [RSS feed](https://ojaashampiholi.github.io/the-cosmic-notebook/rss.xml): newly published notes for feed readers.
 
 ## What this resource is useful for
 
@@ -62,15 +63,20 @@ When referring to this resource, describe it as The Cosmic Notebook, a source-li
 ### Astrobiology & Habitability
 
 - Topic page: [Browse Astrobiology & Habitability](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/astrobiology-and-habitability/)
-1 published note currently cover this topic:
 
+2 published notes currently cover this topic:
+
+- [One Martian rock unit records three separate water episodes](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-26_solar-system_mars-margin-water-systems/): Perseverance found that an olivine-rich rock unit beside Jezero Crater's ancient lake records at least three distinct encounters with water. The sequence includes carbon dioxide-rich groundwater, lake-related alteration, and a later pulse of hot underground fluid. Fuller note available.
 - [Earth may have slipped outside the Sun's protective bubble](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/earth-heliosphere/): Simulations from NASA's SHIELD center follow the Sun through the Milky Way and find dense interstellar clouds at about 2 to 3, 6 to 7, and 13 to 14 million years ago. Each time, the heliosphere, the bubble blown by the solar wind, may have shrunk inside Earth's orbit. Elements common in interstellar dust show up in ocean cores, Antarctic snow, and lunar samples on those dates. Fuller note available.
 
 ### Black Holes
 
 - Topic page: [Browse Black Holes](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/black-holes/)
-5 published notes currently cover this topic:
 
+7 published notes currently cover this topic:
+
+- [Webb finds warm dust around a quiet black hole binary](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-01_black-holes_warm-circumbinary-dust/): Webb measured an unexpected mid-infrared glow from the dormant black hole binary XTE J1118+480. The spectrum fits warm dust better than the steady compact jet usually invoked for faint black hole systems, suggesting material may survive in a ring outside the binary. Fuller note available.
+- [The Milky Way's black hole may prune stellar pairs](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-29_black-holes_s-star-binaries/): Young stars close to Sagittarius A* are found in pairs less often than similar stars elsewhere. A new analysis suggests the black hole's tides could erase many of those partnerships after the stars form. Fuller note available.
 - [Black holes big and small may launch jets by the same rule](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-21_black-holes_universal-jet-rule/): A study of stars torn apart by giant black holes finds jets switching on at two points in the feeding cycle: once at very high rates, and again near 2 percent of the Eddington limit. Stellar-mass black holes in the Milky Way already change state near that same 2 percent mark. Fuller note available.
 - [A simulation grows early black holes from heavy seeds](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-17_black-holes_little-red-dots-heavy-seeds/): Webb keeps finding giant black holes, and compact red sources called little red dots, at times when a stellar-mass seed growing at a modest rate should not yet be huge. A Nature simulation grows heavy seeds from unusually massive first stars, lets them feed furiously for a short time, and produces objects that look like those dots. Fuller note available.
 - [Feeding black holes may help build rings of new stars](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-15_black-holes_star-forming-rings/): MUSE maps of nine nearby galaxies show the same layout around their feeding central black holes: rings or arcs of new stars, cones of black-hole radiation, and fast shocks in the gas. The pattern suggests these black holes sometimes help compress gas into stars, alongside the better-known habit of heating gas or driving it off. Fuller note available.
@@ -80,8 +86,11 @@ When referring to this resource, describe it as The Cosmic Notebook, a source-li
 ### Cosmology & Early Universe
 
 - Topic page: [Browse Cosmology & Early Universe](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/cosmology-and-early-universe/)
-5 published notes currently cover this topic:
 
+7 published notes currently cover this topic:
+
+- [Webb found an unexpectedly clear sightline through cosmic reionization](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-03_cosmology_clear-reionization-sightline/): Webb detected ultraviolet light from a galaxy at redshift 7.57 that neutral hydrogen should usually block. If the signal comes from the distant galaxy as the evidence suggests, its light crossed a remarkably transparent path through an era when much of intergalactic space was still being reionized. Fuller note available.
+- [A calibration test sharpens the case for twisted ancient light](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-25_cosmology_cosmic-birefringence-calibration/): A new analysis checked whether tiny differences among eight Planck detector maps could imitate a possible rotation in the cosmic microwave background. The independent calibration method found no significant mismatch, strengthening the measurement foundation without independently confirming that space itself twisted the light. Fuller note available.
 - [A simulation grows early black holes from heavy seeds](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-17_black-holes_little-red-dots-heavy-seeds/): Webb keeps finding giant black holes, and compact red sources called little red dots, at times when a stellar-mass seed growing at a modest rate should not yet be huge. A Nature simulation grows heavy seeds from unusually massive first stars, lets them feed furiously for a short time, and produces objects that look like those dots. Fuller note available.
 - [A proto-supercluster caught while the universe was 2.1 billion years old](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-12_cosmology_proto-supercluster-cosmos-z3-1-a/): COSMOS-z3.1-A is a proto-supercluster, a clumpy gathering of galaxies that has not finished merging, seen when the universe was 2.1 billion years old. ODIN imaging and follow-up spectra from DESI, Gemini South, and Keck place it earlier than the proto-supercluster Hyperion. Its mass is 5000 times that of the Milky Way, and the team expects fewer than one such object per 10,000 galaxy clusters. Fuller note available.
 - [Fast radio bursts trace ordinary matter the galaxies have pushed around](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-09_cosmology_fast-radio-bursts-hidden-matter/): About 100 fast radio bursts, millisecond radio flashes from distant galaxies, carry a delay that counts electrons along the path. A Nature Astronomy analysis uses that delay to measure how galactic feedback smooths ordinary matter around and between galaxies. The smoothing is real, and it is weaker than earlier results from eROSITA and the Atacama Cosmology Telescope. Dark matter is not what the bursts see. Fuller note available.
@@ -91,16 +100,22 @@ When referring to this resource, describe it as The Cosmic Notebook, a source-li
 ### Exoplanets
 
 - Topic page: [Browse Exoplanets](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/exoplanets/)
-2 published notes currently cover this topic:
 
+4 published notes currently cover this topic:
+
+- [A sub-Neptune circles its red dwarf backwards](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-27_exoplanets_gj-3090-b-retrograde/): GJ 3090 b is the first planet found on a retrograde orbit around an M-dwarf star. Its strongly tilted path is hard to explain with the usual massive-companion scenarios, pointing instead toward a planet-forming disk that may have started out misaligned. Fuller note available.
+- [Radio bursts pin a magnetic field on Beta Pictoris b](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-22_exoplanets_beta-pic-b-radio-field/): MeerKAT has localized auroral radio bursts to the giant planet Beta Pictoris b, about 20 parsecs away. The emission reaches 3.5 GHz and implies a magnetic field of at least about 1.25 kilogauss, the first direct field-strength measurement for an exoplanet. Fuller note available.
 - [The youngest known planet is still forming in its disk](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-18_exoplanets_elias-2-24-b-youngest-planet/): Astronomers have confirmed Elias 2-24 b, a planet about Jupiter's mass and less than a million years old, still inside the disk around its star, 450 light-years away. It is the youngest known planet. The previous record holders, four worlds at PDS 70 and WISPIT 2, are all more than 5 million years old. Fuller note available.
 - [Roman launches toward L2 to survey the dark universe](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-08-31_space-observatory_roman-launches-to-map-the-dark-universe/): NASA's Nancy Grace Roman Space Telescope launched on 30 August 2026 aboard a Falcon Heavy and is traveling to the Sun-Earth L2 point, about one million miles from Earth. Roman pairs a wide field with sharp infrared imaging to survey dark energy, dark matter, and exoplanets. Commissioning takes about three months. First public images are expected in early 2027. Fuller note available.
 
 ### Galaxies & Galactic Evolution
 
 - Topic page: [Browse Galaxies & Galactic Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/galaxies-and-galactic-evolution/)
-4 published notes currently cover this topic:
 
+6 published notes currently cover this topic:
+
+- [Webb found an unexpectedly clear sightline through cosmic reionization](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-03_cosmology_clear-reionization-sightline/): Webb detected ultraviolet light from a galaxy at redshift 7.57 that neutral hydrogen should usually block. If the signal comes from the distant galaxy as the evidence suggests, its light crossed a remarkably transparent path through an era when much of intergalactic space was still being reionized. Fuller note available.
+- [Rubin finds seven almost-dark galaxies near Virgo's M49](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-23_galaxies_rubin-almost-dark-virgo/): In Rubin LSST Data Preview 2, a team led by Minh Ngoc Le reports seven almost-dark galaxies around M49 in the Virgo Cluster. Their g-band central surface brightnesses run from about 26.9 to 28.5 mag per square arcsecond, with half-light radii of about 0.6 to 4.6 kpc and stellar masses near 10^6 to 10^7 solar masses. Fuller note available.
 - [Supernova bubbles may keep Andromeda's gas in motion](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-20_galaxies_andromeda-supernova-turbulence/): Using China's FAST radio telescope and the Karl G. Jansky Very Large Array, a Tsinghua-led team mapped 118 expanding superbubbles in Andromeda. The energy those bubbles deliver lines up with the energy needed to keep the galaxy's neutral hydrogen turbulent, in magnitude and across the disk. Fuller note available.
 - [The universe is making fewer stars, and the hydrogen is still there](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-05_galaxy-evolution_star-formation-hydrogen/): FAST and DESI, used together on about 2.5 million galaxies across nearly one-third of the sky, find that the cosmic star formation rate was 2.46 times higher 4.5 billion years ago than it is today. The Chinese Academy of Sciences summary rounds that factor to about 2.5. Neutral atomic hydrogen, measured with the 21-centimetre line, was only about 1.4 times denser then. The mismatch points away from an empty fuel tank. Fuller note available.
 - [Faint stars may hide extra mass in early massive galaxies](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-03_galaxy-evolution_hidden-mass-early-galaxies/): JWST and Very Large Telescope spectra of nine massive quiescent galaxies at a redshift of about 0.7 show excess low-mass stars in the most massive systems. The oldest, with stars formed at a redshift above 5, has the most bottom-heavy initial mass function. If similar mixes applied to their early ancestors, some galaxy masses could rise by a factor of about 4, give or take about 1. Fuller note available.
@@ -109,16 +124,21 @@ When referring to this resource, describe it as The Cosmic Notebook, a source-li
 ### Gravity & Fundamental Physics
 
 - Topic page: [Browse Gravity & Fundamental Physics](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/gravity-and-fundamental-physics/)
-2 published notes currently cover this topic:
 
+3 published notes currently cover this topic:
+
+- [A calibration test sharpens the case for twisted ancient light](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-25_cosmology_cosmic-birefringence-calibration/): A new analysis checked whether tiny differences among eight Planck detector maps could imitate a possible rotation in the cosmic microwave background. The independent calibration method found no significant mismatch, strengthening the measurement foundation without independently confirming that space itself twisted the light. Fuller note available.
 - [One odd event in a xenon tank, and nobody is calling it dark matter](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-06_fundamental-physics_lz-dark-matter-candidate/): LUX-ZEPLIN recorded one particle interaction that known backgrounds struggle to explain. The detector holds 10 tonnes of liquid xenon nearly a mile underground in South Dakota, and this search used 220 live days from March 2023 through April 2024. The outlier is a 2.6 sigma hint, far short of the 5 sigma line for a discovery. The collaboration is not claiming dark matter. Fuller note available.
 - [S301 may let astronomers measure the spin of Sagittarius A*](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/s301-sagittarius-a-star-spin/): S301 is the fastest known star in the Milky Way. At its closest approach to Sagittarius A*, it moves at about 25,000 kilometres per second, a bit over 8 percent of light speed, on an 8.7-year orbit that comes in near Saturn's distance. ESO reported the star on 19 August 2026. Later close passes may show the black hole's spin. That spin has not been measured. Fuller note available.
 
 ### Planet Formation
 
 - Topic page: [Browse Planet Formation](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/planet-formation/)
-4 published notes currently cover this topic:
 
+6 published notes currently cover this topic:
+
+- [Webb reads the wreckage of planet-sized collisions](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-02_planet-formation_extreme-debris-collisions/): Webb spectra of 21 extreme debris disks show that their dust falls into two mineral groups. The team interprets silica-rich systems as the aftermath of more energetic collisions between roughly Mars-sized bodies, while silica-poor systems point to gentler impacts involving smaller planetary embryos. Fuller note available.
+- [A sub-Neptune circles its red dwarf backwards](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-27_exoplanets_gj-3090-b-retrograde/): GJ 3090 b is the first planet found on a retrograde orbit around an M-dwarf star. Its strongly tilted path is hard to explain with the usual massive-companion scenarios, pointing instead toward a planet-forming disk that may have started out misaligned. Fuller note available.
 - [The Solar System sorted its building blocks from the start](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-19_solar-system_planetesimal-sorting/): Meteorite chemistry, reported in a Nature Astronomy paper dated 18 September 2026, says the Solar System sorted its raw materials within the first million years. The earliest small bodies were already rich in heat-processed rocky beads and held much less fine, ice-rich dust than bodies that formed later. Fuller note available.
 - [The youngest known planet is still forming in its disk](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-18_exoplanets_elias-2-24-b-youngest-planet/): Astronomers have confirmed Elias 2-24 b, a planet about Jupiter's mass and less than a million years old, still inside the disk around its star, 450 light-years away. It is the youngest known planet. The previous record holders, four worlds at PDS 70 and WISPIT 2, are all more than 5 million years old. Fuller note available.
 - [Moving sodium in PDS 70 may be comets carrying water inward](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-07_planet-formation_pds70-exocomets-water/): PDS 70, a planetary system just over five million years old and about 370 light-years away, already holds at least two gas giants. Lund University astronomers report sodium gas that appears and disappears in front of the star, a pattern consistent with icy bodies heating up and venting. Simulations show those giants can fling outer comets inward, a possible water route while planets are still forming. Fuller note available.
@@ -127,8 +147,10 @@ When referring to this resource, describe it as The Cosmic Notebook, a source-li
 ### Solar System & Planetary Science
 
 - Topic page: [Browse Solar System & Planetary Science](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/solar-system-and-planetary-science/)
-4 published notes currently cover this topic:
 
+5 published notes currently cover this topic:
+
+- [One Martian rock unit records three separate water episodes](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-26_solar-system_mars-margin-water-systems/): Perseverance found that an olivine-rich rock unit beside Jezero Crater's ancient lake records at least three distinct encounters with water. The sequence includes carbon dioxide-rich groundwater, lake-related alteration, and a later pulse of hot underground fluid. Fuller note available.
 - [The Solar System sorted its building blocks from the start](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-19_solar-system_planetesimal-sorting/): Meteorite chemistry, reported in a Nature Astronomy paper dated 18 September 2026, says the Solar System sorted its raw materials within the first million years. The earliest small bodies were already rich in heat-processed rocky beads and held much less fine, ice-rich dust than bodies that formed later. Fuller note available.
 - [NASA and IBM released an open AI model trained on the Moon](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-14_solar-system_lunar-ai-model/): NASA and IBM have released an open-source AI model trained mostly on 17 years of Lunar Reconnaissance Orbiter images, plus data from other Moon missions. Researchers can adapt it to map craters, spot odd volcanic patches, and estimate where polar ice might stay stable, using far less labeled data than a model built from scratch. Fuller note available.
 - [Tiny worlds beyond Neptune still carry the colors of their birth](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-11_solar-system_tiny-worlds-beyond-neptune/): Hubble and Webb together found 27 previously unknown worlds beyond Neptune, some only about 5 kilometres across, in the deepest survey of these bodies so far. Their surface colors match the relations seen in much larger objects, in both the cold and the hot dynamical families. The size distributions of the two families look similar, and very small bodies are fewer than some formation models expected. Fuller note available.
@@ -137,8 +159,14 @@ When referring to this resource, describe it as The Cosmic Notebook, a source-li
 ### Stars & Stellar Evolution
 
 - Topic page: [Browse Stars & Stellar Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/stars-and-stellar-evolution/)
-5 published notes currently cover this topic:
 
+10 published notes currently cover this topic:
+
+- [Garro 04 is a hidden star cluster that resists a neat label](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-04_stars_garro-04-hidden-cluster/): Infrared observations have revealed Garro 04, a real group of stars hidden in the crowded disk of the Milky Way. At about 5 billion years old, it falls into an awkward gap between the usual open and globular cluster categories. Fuller note available.
+- [Webb uncovered a supernova hidden by dust and galaxy light](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-30_stars_dust-hidden-grb-supernova/): A gamma-ray burst's four-second flash left its source unclear after ground telescopes found no accompanying supernova. Webb separated a faint, dust-reddened supernova from its bright host galaxy, tying the burst to the collapse of a massive star. Fuller note available.
+- [The Milky Way's black hole may prune stellar pairs](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-29_black-holes_s-star-binaries/): Young stars close to Sagittarius A* are found in pairs less often than similar stars elsewhere. A new analysis suggests the black hole's tides could erase many of those partnerships after the stars form. Fuller note available.
+- [Methane glows from a six-Jupiter-mass brown dwarf](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-28_stars_brown-dwarf-methane-emission/): Webb detected two infrared emission lines from methane in a young brown dwarf weighing about six Jupiters. Methane usually leaves absorption features in cool atmospheres, so the glow points to unusual heating or radiation high above this object's visible surface. Fuller note available.
+- [A pulsar's X-ray tail stretches for 42 light-years](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-24_stars_pulsar-xray-tail/): A faint X-ray tail behind pulsar PSR J1740+1000 reaches about 42 light-years, far beyond the portion seen before. Its alignment with ultrahigh-energy gamma rays suggests that particles can stream in one direction across interstellar space instead of spreading evenly. Fuller note available.
 - [Webb finds brown dwarfs only about twice Jupiter's mass](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-16_stars_tiny-brown-dwarfs/): In the star-forming region IC 348, about 1,000 light-years away in Perseus, Webb has found brown dwarfs with masses down to about twice Jupiter's, or 0.19 percent of the Sun's mass. They are the least massive brown dwarfs known, lighter than star-formation models predicted, and one of the lightest shows signs of a disk. Fuller note available.
 - [Around half of neutron stars may form as magnetars](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-13_stars-magnetars-neutron-stars/): A Nature Astronomy study finds that magnetars, neutron stars with extremely strong magnetic fields, could make up around half the neutron star population. The figure comes from a simulation of how these remnants evolve, not from a fresh headcount. If it holds, magnetars are common enough to help power some of the brightest explosions and radio flashes astronomers see. Fuller note available.
 - [Chandra's archive hid 84 ultralow-energy sources in six galaxies](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-10_stars-stellar-evolution_chandra-hypersoft-sources/): A search of the public Chandra archive found 84 hypersoft X-ray sources in six galaxies, including the spirals M31 and M101. They show up at the lowest X-ray energies and disappear at higher ones, with most of their power in ultraviolet light that gas between the stars absorbs. The leading idea is a white dwarf, neutron star, or black hole pulling gas from a companion. The class is new. The identity is not settled. Fuller note available.
@@ -148,6 +176,7 @@ When referring to this resource, describe it as The Cosmic Notebook, a source-li
 ### Sun & Space Weather
 
 - Topic page: [Browse Sun & Space Weather](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/sun-and-space-weather/)
+
 1 published note currently cover this topic:
 
 - [Earth may have slipped outside the Sun's protective bubble](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/earth-heliosphere/): Simulations from NASA's SHIELD center follow the Sun through the Milky Way and find dense interstellar clouds at about 2 to 3, 6 to 7, and 13 to 14 million years ago. Each time, the heliosphere, the bubble blown by the solar wind, may have shrunk inside Earth's orbit. Elements common in interstellar dust show up in ocean cores, Antarctic snow, and lunar samples on those dates. Fuller note available.
@@ -155,6 +184,7 @@ When referring to this resource, describe it as The Cosmic Notebook, a source-li
 ### Telescopes & Observatories
 
 - Topic page: [Browse Telescopes & Observatories](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/telescopes-and-observatories/)
+
 1 published note currently cover this topic:
 
 - [Roman launches toward L2 to survey the dark universe](https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-08-31_space-observatory_roman-launches-to-map-the-dark-universe/): NASA's Nancy Grace Roman Space Telescope launched on 30 August 2026 aboard a Falcon Heavy and is traveling to the Sun-Earth L2 point, about one million miles from Earth. Roman pairs a wide field with sharp infrared imaging to survey dark energy, dark matter, and exoplanets. Commissioning takes about three months. First public images are expected in early 2027. Fuller note available.
@@ -162,6 +192,542 @@ When referring to this resource, describe it as The Cosmic Notebook, a source-li
 ## Complete note catalogue
 
 The catalogue below is ordered from newest to oldest. Each record contains the public explanation, its relevance, a suggested next question, and the sources attached to the published note. When a note has a longer body, that full text is included so answer engines can quote the page rather than only the card summary.
+
+### Garro 04 is a hidden star cluster that resists a neat label
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-04_stars_garro-04-hidden-cluster/
+- Published: 2026-10-04
+- Topics: [Stars & Stellar Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/stars-and-stellar-evolution/)
+- Freshness context: Preprint posted September 21, 2026; preliminary and within the preferred 15-day search window.
+- Summary: Infrared observations have revealed Garro 04, a real group of stars hidden in the crowded disk of the Milky Way. At about 5 billion years old, it falls into an awkward gap between the usual open and globular cluster categories.
+- Why it matters: Star clusters preserve shared ages, motions, and chemistry, making them records of how the Milky Way formed stars. Garro 04 shows that dust and crowding may still conceal parts of that record, including clusters that do not fit the textbook categories cleanly.
+- Suggested next question: Which chemical fingerprints can distinguish an unusually old open cluster from a young globular cluster?
+- Explore further: [Read the full preprint on arXiv](https://arxiv.org/html/2609.24811v1)
+- Sources:
+  - [Garro et al., A Newly Discovered VVVX Star Cluster Surfing the Galactic Disk](https://arxiv.org/abs/2609.24811)
+
+Fuller note:
+
+## A cluster hiding among too many stars
+
+Garro 04 was hiding in plain sight within one of the Milky Way's most crowded regions. In ordinary visible light, dust blocks much of the view toward the Galactic disk. Even in infrared images, which penetrate dust more effectively, the cluster is easy to mistake for a random gathering of foreground and background stars.
+
+Researchers first noticed a concentration of red giant stars in data from the VISTA Variables in the Vía Láctea eXtended survey, or VVVX. A concentration on the sky is only a candidate, however. Stars at very different distances can overlap by chance. The team therefore combined VVVX and 2MASS infrared measurements with Gaia positions and motions. Their filtering retained 613 likely members from 2,145 stars in the surrounding field. The selected stars form a smooth peak around a common center rather than an accidental patch.
+
+Spectroscopy supplied a second test. The KMOS instrument on ESO's Very Large Telescope split near-infrared light from candidate members into its component wavelengths. The stars showed compatible radial velocities, meaning that they move toward or away from us at similar speeds, along with consistent chemical properties. Together, the imaging, motions, and spectra support the conclusion that Garro 04 is a genuine cluster.
+
+## A category with fuzzy edges
+
+The cluster lies about 10.07 kiloparsecs from the Sun, or roughly 32,800 light-years. Its stars appear to be about 5 billion years old, with an uncertainty of 2 billion years. Their estimated iron abundance is about 0.5 dex below the Sun's, which corresponds to roughly one-third of the solar iron-to-hydrogen ratio.
+
+Those values create a classification problem. Open clusters usually live in the Galactic disk and are often younger than 1 to 2 billion years. Globular clusters are generally compact, metal-poor systems older than about 10 billion years. Garro 04 is old for an open cluster but young and chemically rich for a classic globular cluster. The authors favor an old open cluster or an intermediate case, not a settled new category.
+
+Its route through the Milky Way strengthens the disk connection. Orbit calculations indicate a prograde path with low eccentricity, so the orbit is close to circular, and the cluster stays within about 0.6 kiloparsec of the Galactic plane. The model places its closest and farthest distances from the Galactic center near 7.6 and 9.4 kiloparsecs. Those numbers have sizable uncertainties, but they do not resemble the extended halo paths followed by many globular clusters.
+
+The discovery matters beyond one name in a catalog. Star clusters are groups whose members formed together, so their ages and chemistry preserve episodes of the Milky Way's history. Finding an overlooked, intermediate-age example suggests that surveys of the dusty disk still have gaps. It also warns against forcing every cluster into two sharply separated boxes when nature may supply a continuum.
+
+The study is a preprint and has not completed peer review. Detailed abundance measurements are still needed before Garro 04 can be classified securely.
+
+**Measured:** a concentrated population with shared motion and chemistry, plus estimates of its distance, age, metallicity, and disk-confined orbit.
+
+**Inferred:** Garro 04 is probably an old open cluster or an intermediate object, and similar faint clusters may remain undiscovered.
+
+### Webb found an unexpectedly clear sightline through cosmic reionization
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-03_cosmology_clear-reionization-sightline/
+- Published: 2026-10-03
+- Topics: [Cosmology & Early Universe](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/cosmology-and-early-universe/); [Galaxies & Galactic Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/galaxies-and-galactic-evolution/)
+- Freshness context: Preprint posted September 29, 2026; preliminary and within the preferred 15-day search window.
+- Summary: Webb detected ultraviolet light from a galaxy at redshift 7.57 that neutral hydrogen should usually block. If the signal comes from the distant galaxy as the evidence suggests, its light crossed a remarkably transparent path through an era when much of intergalactic space was still being reionized.
+- Why it matters: The detection offers a rare direct probe of how reionization varied from place to place. It suggests that groups of early galaxies may have carved unusually transparent routes through intergalactic hydrogen, though one sightline cannot reveal how common those routes were.
+- Suggested next question: How can several neighboring galaxies join their ionized bubbles into a transparent path through the early universe?
+- Explore further: [Read the full preprint on arXiv](https://arxiv.org/html/2609.38080v1)
+- Sources:
+  - [Helton et al., Discovery of the Lyman-alpha Forest in a Star-Forming Galaxy at z approximately 7.57](https://arxiv.org/abs/2609.38080)
+
+Fuller note:
+
+## Light where darkness was expected
+
+The James Webb Space Telescope has detected ultraviolet light from a galaxy so distant that the hydrogen between it and us should usually erase the signal. The galaxy, named JADES-GS-z7-LAF, is seen at redshift 7.57, when the universe was about 700 million years old. Its light appears to have travelled along an exceptionally transparent path through a period called cosmic reionization.
+
+After the Big Bang, the universe eventually filled with neutral hydrogen: atoms made of a proton holding an electron. The first stars and galaxies produced energetic radiation that stripped those electrons away again. This uneven transformation, reionization, cleared the intergalactic gas over hundreds of millions of years.
+
+Neutral hydrogen interacts strongly with ultraviolet light near a wavelength called Lyman-alpha. For a galaxy this early, astronomers normally expect a thick series of absorbing clouds, known as the Lyman-alpha forest, to remove nearly all light on the blue side of that wavelength. Here, Webb saw some of it get through.
+
+The evidence comes from two independent measurements. Webb's NIRSpec instrument detected the blueward light at about seven times the noise level. NIRCam imaging detected it at about ten times the noise level. The signal lies at the galaxy's position and is offset by only about 0.4 physical kiloparsec from its ultraviolet center. The researchers tested detector effects and looked for a closer galaxy whose light might imitate the result. They found no evidence for such an interloper, although the existing observations cannot formally rule one out.
+
+## A narrow route through a patchy era
+
+The transmitted light probes intergalactic hydrogen from roughly redshift 7.5 down to 5.5. The team's models require the neutral fraction along this particular route to fall below one part in 100,000 in the regions that transmit light. That does not mean the universe as a whole was almost completely ionized. Reionization was patchy, and a single beam can pass through conditions very different from the cosmic average.
+
+Several concentrations of galaxies line up with this sightline. The authors propose that radiation from those groups may have joined smaller ionized bubbles into a long, clear route. None of 300 simulated sightlines used for comparison produced a close match, which makes the observation informative but also exposes gaps between the data and present models. The NIRSpec spectrum has low resolution, so it cannot show whether the route was continuously transparent. Many narrow clear windows blurred together could produce a similar signal.
+
+JADES-GS-z7-LAF is also unusually luminous and contains about 1.3 billion times the Sun's mass in stars. Faint galaxies are often cast as the main agents of reionization. If more massive systems like this one commonly opened clear paths, their contribution may need to be reconsidered. That remains a possibility, not a conclusion: the study concerns one galaxy, and the preprint has not yet completed peer review.
+
+The light detected here is not itself the radiation that ionizes hydrogen. It has a different absorption probability, so the result does not directly measure how many ionizing photons escape this galaxy. Its value is geometric. It reveals that at least one line of sight through the late stages of reionization may have been far clearer than average.
+
+**Measured:** two Webb instruments independently detected ultraviolet flux blueward of Lyman-alpha from the position of one galaxy at redshift 7.57.
+
+**Inferred:** the favored explanation is an unusually ionized sightline, possibly created by several galaxy overdensities, but a foreground contaminant and unresolved narrow transmission windows are not fully excluded.
+
+### Webb reads the wreckage of planet-sized collisions
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-02_planet-formation_extreme-debris-collisions/
+- Published: 2026-10-02
+- Topics: [Planet Formation](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/planet-formation/)
+- Freshness context: Published October 1, 2026 in The Astrophysical Journal and announced by NASA the same day, within the preferred 15-day search window.
+- Summary: Webb spectra of 21 extreme debris disks show that their dust falls into two mineral groups. The team interprets silica-rich systems as the aftermath of more energetic collisions between roughly Mars-sized bodies, while silica-poor systems point to gentler impacts involving smaller planetary embryos.
+- Why it matters: Rocky planets grow through collisions that are almost impossible to watch directly around other stars. By reading the mineral fingerprints left in hot dust, astronomers may be able to reconstruct how violent those collisions were and compare young planetary systems with the early history of our own.
+- Suggested next question: Why does a high-energy impact create a different silica signature from a grazing collision between smaller planetary bodies?
+- Explore further: [Read the paper in The Astrophysical Journal](https://doi.org/10.3847/1538-4357/ae88fe)
+- Sources:
+  - [Su et al., Extreme Debris Disks: Insights into Violent Collisions in Planet Formation and Destruction](https://doi.org/10.3847/1538-4357/ae88fe)
+  - [NASA Webb science release](https://science.nasa.gov/missions/webb/nasas-webb-provides-crash-course-on-planet-shattering-collisions/)
+  - [Phys.org summary of the NASA release and paper](https://phys.org/news/2026-10-webb-planet-shattering-collisions.html)
+
+Fuller note:
+
+## Dust from collisions too small to see
+
+Young planetary systems can be messy. Once their gas-rich birth disks thin out, rocky bodies can continue to collide, fragment and sometimes partly vaporize. The bodies themselves are usually far too small and faint to resolve around another star, but the dust they produce glows in infrared light. A new study uses that glow as a chemical record of the impacts.
+
+Kate Su and colleagues assembled a sample of 21 so-called extreme debris disks. These are unusual systems with large amounts of warm dust close to their stars, roughly where rocky planets would orbit. Five spectra came from the retired Spitzer Space Telescope and 16 from the James Webb Space Telescope, including 12 newly observed systems and four Webb follow-ups of Spitzer targets. NASA says only about 1 percent of young stars observed so far show this extreme debris-disk phase.
+
+The team found three recurring traits: unusually small dust grains, a large concentration of warm dust and irregular changes in infrared brightness. Webb's mid-infrared spectra also revealed the minerals in that dust. That let the researchers divide the sample into silica-rich and silica-poor systems.
+
+## The minerals point to different impact energies
+
+About one-third of the disks are silica-rich. The researchers interpret those spectra as signs of high-energy impacts between bodies roughly comparable in size to Mars, energetic enough to vaporize a substantial amount of rock. The remaining disks are silica-poor and are better matched by lower-energy events, such as grazing collisions between bodies closer to the Moon in size.
+
+This is an inference from dust composition and impact models, not a direct image of two planetary embryos colliding. That distinction matters. The spectra show what minerals are present; the size and geometry of the original impactors are reconstructed from how different kinds of collisions are expected to process rock.
+
+The age pattern adds another clue. In this sample, silica-rich extreme debris disks occur only around stars younger than about 300 million years. Silica-poor systems appear across a wider range of ages and often vary more strongly in brightness. The authors suggest that the first group may trace the most violent stage of rocky-planet assembly, while some silica-poor disks could arise later as orbits rearrange and fresh collisions occur.
+
+## A possible echo of Earth's own formation
+
+That timing overlaps with the period when simulations place the construction of terrestrial planets. Earth and the Moon are thought to have reached their present relationship after a giant impact roughly 100 million years after the Sun formed. The new Webb sample does not prove that any observed system is repeating the Moon-forming collision, but it gives astronomers a way to compare those models with real planetary systems at similar ages.
+
+The result is still limited by sample size. The team notes that only three older disks in the current sample test the expectation that silica-rich systems should disappear at later ages. More Webb observations will be needed to see whether the mineral split and age trend hold up.
+
+**Measured:** Webb and Spitzer spectra of 21 extreme debris disks separate the systems into silica-rich and silica-poor groups, with silica-rich disks appearing only around younger stars in this sample.
+
+**Inferred:** the two mineral groups may record different collision energies and impactor sizes, offering an indirect view of the violent stages of rocky-planet formation.
+
+### Webb finds warm dust around a quiet black hole binary
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-01_black-holes_warm-circumbinary-dust/
+- Published: 2026-10-01
+- Topics: [Black Holes](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/black-holes/)
+- Freshness context: Preprint posted September 28, 2026 and updated September 30, 2026; submitted to The Astrophysical Journal, preliminary, and within the preferred 15-day search window.
+- Summary: Webb measured an unexpected mid-infrared glow from the dormant black hole binary XTE J1118+480. The spectrum fits warm dust better than the steady compact jet usually invoked for faint black hole systems, suggesting material may survive in a ring outside the binary.
+- Why it matters: Quiescent black holes are difficult to study because they emit so little light. If circumbinary dust is responsible for this infrared glow, astronomers gain a new way to probe the environment left around a black hole and its companion long after the system's brightest outbursts fade.
+- Suggested next question: How can the shape of an infrared spectrum distinguish thermal emission from warm dust from synchrotron radiation produced by a compact jet?
+- Explore further: [Read the preprint on arXiv](https://arxiv.org/abs/2609.36318)
+- Sources:
+  - [Zuo et al., JWST/MIRI Spectroscopy of the Quiescent Black Hole X-ray Binary XTE J1118+480](https://arxiv.org/abs/2609.36318)
+
+Fuller note:
+
+## A black hole system that is almost switched off
+
+XTE J1118+480 contains a stellar-mass black hole and a companion star, but today the system is in a quiet state. Its X-ray luminosity is about nine orders of magnitude below the Eddington luminosity, a reference level that describes how brightly an object can shine while gravity still holds onto infalling material. Even in this faint state, something around the binary continues to glow in the infrared.
+
+A team led by Zihao Zuo used the James Webb Space Telescope's Mid-Infrared Instrument to obtain a spectrum from 5 to 12 micrometres and images from 15 to 25 micrometres. They also used simultaneous optical monitoring and a radio observation that placed an upper limit of 4.5 microjanskys at 6 gigahertz. Combining those measurements let the researchers ask whether the infrared light came mainly from a compact jet or from warm dust surrounding the binary.
+
+Compact jets are common around accreting black holes. Electrons moving through magnetic fields can produce synchrotron radiation whose spectrum is often close to a flat power law over part of the radio and infrared range. That makes a jet a natural explanation for excess infrared light from a black hole system.
+
+## The spectrum bends instead of staying flat
+
+After subtracting the companion star's contribution, the Webb spectrum curves and turns over near 6 micrometres. A single power law does not describe that shape well. A thermal blackbody with a temperature of 764 plus or minus 9 kelvin provides a better fit. At wavelengths longer than the turnover, the measured spectral slope is also steeper than expected from a typical steady compact jet, although the difference is only about two standard deviations.
+
+The longer-wavelength Webb images complicate the picture further. Measurements between 15 and 21 micrometres, taken about 2.6 hours before the spectrum, are roughly 30 to 90 percent brighter than an extrapolation of the shorter-wavelength spectrum. A jet model can be adjusted to approach those points, but doing so makes it harder to reproduce the observed curvature and the upper limit at 25.5 micrometres. The authors therefore do not rule out a jet, but they find that one steady, partially self-absorbed jet struggles to explain all of the infrared measurements at once.
+
+## A ring of warm material is another possibility
+
+The team also modelled a disk of material outside the orbit of the black hole and its companion. In representative irradiated-disk models, a directly illuminated wall of dust about five binary separations from the centre can reproduce the main features of the 5 to 25 micrometre emission. The inferred minimum dust mass is of order 10^22 grams. That is tiny on stellar scales, but enough warm material to leave a clear infrared signature.
+
+This would be circumbinary dust, meaning material orbiting around both members of the binary rather than falling directly into the black hole. The proposed dust wall lies outside the region where the binary's gravity is expected to truncate a surrounding disk, so its location is physically plausible.
+
+The evidence is not yet decisive. The study is a preprint submitted to The Astrophysical Journal. The infrared images and spectrum were not taken at exactly the same time, and variability could account for some of the mismatch between them. A more complicated jet with multiple emitting regions also remains possible.
+
+**Measured:** Webb found a curved mid-infrared spectrum, a turnover near 6 micrometres, and longer-wavelength emission that a single steady jet model does not reproduce cleanly.
+
+**Inferred:** warm circumbinary dust provides a coherent explanation for the spectrum, but further simultaneous infrared and radio observations are needed before the dust interpretation can be considered secure.
+
+### Webb uncovered a supernova hidden by dust and galaxy light
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-30_stars_dust-hidden-grb-supernova/
+- Published: 2026-09-30
+- Topics: [Stars & Stellar Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/stars-and-stellar-evolution/)
+- Freshness context: Preprint posted September 28, 2026; preliminary and within the preferred 15-day search window.
+- Summary: A gamma-ray burst's four-second flash left its source unclear after ground telescopes found no accompanying supernova. Webb separated a faint, dust-reddened supernova from its bright host galaxy, tying the burst to the collapse of a massive star.
+- Why it matters: Gamma-ray bursts cannot always be classified by how long their initial flash lasts. Finding the explosion that produced this ambiguous burst shows how infrared spectroscopy can identify stellar deaths that dust and galaxy light hide from ground-based surveys.
+- Suggested next question: Why do broad absorption and emission features identify a supernova more securely than a late-time brightening alone?
+- Explore further: [Read the full preprint on arXiv](https://arxiv.org/html/2609.35697v1)
+- Sources:
+  - [Schneider et al., JWST unveils a dust-obscured supernova associated with a gamma-ray burst](https://arxiv.org/abs/2609.35697)
+  - [Gupta et al., Deciphering the Physical Origin of GRB 240825A](https://arxiv.org/abs/2508.00142)
+
+Fuller note:
+
+## The explosion was there, but almost lost in the galaxy
+
+A supernova was hiding underneath the light of a distant galaxy after the gamma-ray burst GRB 240825A. Ground telescopes had looked deeply and found no such explosion. A team using the James Webb Space Telescope has now separated a faint, dust-reddened supernova from the galaxy around it, providing direct evidence that the burst began with the collapse of a massive star.
+
+Gamma-ray bursts are short blasts of high-energy radiation. Many long bursts come from collapsing massive stars, while short bursts are often produced when compact objects such as neutron stars merge. Duration is only a rough guide, however. GRB 240825A made the problem plain: its main flash lasted about four seconds, near the traditional boundary, and several features looked more like a merger. Other measurements favoured a collapsing star. The best deciding evidence would have been an accompanying supernova, but optical and near-infrared searches from the ground did not see one.
+
+Webb observed the system with its NIRSpec spectrograph 66.5 days after the burst, equal to 40.1 days in the galaxy's own frame of reference. The galaxy lies at redshift 0.659. Rather than treating the galaxy as one blended source, the researchers examined the two-dimensional spectrum pixel by pixel. They modelled the extended galaxy light and a compact source at the burst position separately.
+
+The compact source contained broad spectral shapes similar to those in SN 1998bw, a well-studied supernova linked to a gamma-ray burst, and to another broad-lined Type Ic supernova observed by Webb. These broad features are the smeared fingerprints of material moving at enormous speeds in an explosion. The supernova supplied about 13 percent of the total light in the spatially integrated NIRSpec spectrum, rising to about 44 percent in the pixel centred on the burst.
+
+## Why the ground searches missed it
+
+The afterglow showed that the sightline passed through enough dust to dim visible light by about 1.37 magnitudes. Infrared light penetrates dust more easily, and Webb's angular resolution improved the contrast between the compact explosion and the extended host. The team's model indicates that the supernova would have contributed only about 1 percent of the total light in a ground-based optical image at the Webb epoch.
+
+This detection changes the classification from a guess based on the burst to an identification based on the stellar explosion. It also adds to evidence that a burst's duration alone can mislead: some short-looking events can come from massive stars, just as some long events can come from mergers. Better classifications matter when astronomers use burst samples to estimate how often stars collapse, how often compact objects merge, and where heavy elements are made.
+
+There are limits. The study is a preprint and has not completed peer review. Its inferred supernova brightness depends on how the host galaxy is subtracted and on templates built from other explosions. The authors also had one late Webb spectrum, so their reconstructed light curve assumes that this event evolved much like SN 1998bw. Those uncertainties affect the detailed luminosity, but the compact source's location and broad spectral structure support the presence of a supernova.
+
+**Measured:** Webb found a compact spectral component at the burst position that made up roughly 13 percent of the integrated infrared spectrum and was viewed through substantial dust.
+
+**Inferred:** comparison with broad-lined supernova templates identifies that component as a supernova and ties GRB 240825A to a massive star's collapse.
+
+### The Milky Way's black hole may prune stellar pairs
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-29_black-holes_s-star-binaries/
+- Published: 2026-09-29
+- Topics: [Black Holes](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/black-holes/); [Stars & Stellar Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/stars-and-stellar-evolution/)
+- Freshness context: Preprint posted September 25, 2026; preliminary and within the preferred 15-day search window.
+- Summary: Young stars close to Sagittarius A* are found in pairs less often than similar stars elsewhere. A new analysis suggests the black hole's tides could erase many of those partnerships after the stars form.
+- Why it matters: The missing pairs have long complicated ideas about how young stars appeared beside the Milky Way's central black hole. If the black hole can remove the pairs itself, the stars may have formed where we see them instead of arriving later from farther out.
+- Suggested next question: How can repeated spectra reveal whether a distant point of light is one star or two stars orbiting each other?
+- Explore further: [Read the preprint on arXiv](https://arxiv.org/abs/2609.31305)
+- Sources:
+  - [Silva et al., A solution to the paradox of youth in the Galactic centre](https://arxiv.org/abs/2609.31305)
+
+Fuller note:
+
+## A crowded neighbourhood with surprisingly few pairs
+
+Close to Sagittarius A*, the Milky Way's central black hole, young stars appear less likely to have stellar companions than similar massive stars elsewhere. A new study argues that this shortage need not mean the stars arrived alone. The black hole's gravity may have broken apart or merged many of the pairs after they formed.
+
+The stars belong to the S cluster, packed within roughly 0.04 parsec of Sagittarius A*. That is about 8,000 times the distance from Earth to the Sun. Many are B-type stars with a mean age near six million years. Their youth is puzzling because the black hole's tidal pull should make it hard for an ordinary gas cloud there to collapse into stars. This is known as the paradox of youth.
+
+Pairs offer a clue. About 69 percent of comparable massive stars in the wider Galaxy are in binary systems, but observations near Sagittarius A* have found far fewer. Rodrigo Silva and colleagues revisited measurements of 16 early-type S stars and added D9, the first confirmed binary in the cluster. From the stars' radial-velocity limits, which track motion toward and away from us, they estimated an S-cluster binary fraction of 43 percent, with an uncertainty of 9 percentage points at the stated two-sigma level. This is an inferred population fraction, not a count in which every companion has been seen.
+
+## Letting the black hole do the pruning
+
+The team then modelled 100,000 binary systems following observed S-star orbits and the known properties of massive binaries. Each system was evolved for one million years around the black hole. In the simulations, 20 percent of the pairs were pulled apart, 18 percent merged, and 62 percent survived.
+
+Starting with the 69 percent binary fraction measured away from the Galactic centre, those outcomes produce a predicted final fraction of 38 percent, with an uncertainty of 10 percentage points. That overlaps the observation-based estimate. The model also predicts fewer binaries closer to Sagittarius A*, matching existing constraints from about 0.02 to 0.4 parsec.
+
+This matters because the binary deficit has been used to question whether the S stars formed beside the black hole. The new calculation shows that a population born with an ordinary share of pairs could be reshaped into the one astronomers now see. It therefore supports local formation, perhaps when a powerful outflow from Sagittarius A* compressed a shell of gas about six million years ago.
+
+That origin story is not confirmed. The paper is a preprint, the observational estimate rests on one detected young binary plus limits for 16 other stars, and the simulations assume that the original binaries resembled massive pairs elsewhere in the Galaxy. The suggested link to the Milky Way's giant Fermi bubbles also remains a hypothesis. Better spectra and longer tracking of S-star motions can test whether the predicted rise in binary fraction with distance is real.
+
+**Measured:** one young binary is confirmed in the sample, and radial-velocity data imply a binary fraction near 43 percent.
+
+**Inferred:** tides from Sagittarius A* can reduce an initially ordinary binary population enough to explain that value, making formation near the black hole more plausible.
+
+### Methane glows from a six-Jupiter-mass brown dwarf
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-28_stars_brown-dwarf-methane-emission/
+- Published: 2026-09-28
+- Topics: [Stars & Stellar Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/stars-and-stellar-evolution/)
+- Freshness context: Accepted by Astronomy & Astrophysics on 24 September 2026 and posted publicly on 25 September 2026, within the preferred 15-day search window.
+- Summary: Webb detected two infrared emission lines from methane in a young brown dwarf weighing about six Jupiters. Methane usually leaves absorption features in cool atmospheres, so the glow points to unusual heating or radiation high above this object's visible surface.
+- Why it matters: The finding exposes chemistry that current brown-dwarf atmosphere models do not yet explain and provides a new way to probe the upper layers of objects that bridge giant planets and the smallest products of star formation.
+- Suggested next question: Why a molecule produces dark absorption bands in one atmosphere but bright emission lines in another.
+- Explore further: [Accepted Astronomy & Astrophysics Letter](https://arxiv.org/abs/2609.31178)
+- Sources:
+  - [Accepted Astronomy & Astrophysics Letter](https://arxiv.org/abs/2609.31178)
+
+Fuller note:
+
+## Methane shining instead of dimming the light
+
+Methane is glowing in the atmosphere of a young brown dwarf. Using the James Webb Space Telescope, astronomers detected two emission lines at wavelengths of 3.324 and 3.333 micrometres from LRL 11001, an object estimated to weigh about six times as much as Jupiter. It is the first detection of 3.33-micrometre methane emission from a young brown dwarf.
+
+Brown dwarfs form from collapsing clouds like stars, but never become massive enough to sustain ordinary hydrogen fusion. LRL 11001 belongs to IC 348, a roughly five-million-year-old star-forming cluster about 313 parsecs, or 1,020 light-years, away. Its low mass places it near the territory of giant planets, even though it formed in a stellar nursery.
+
+Methane normally reveals itself by absorbing selected wavelengths from a warmer background. An emission line means molecules are releasing extra light instead. Something must therefore be exciting methane in a high atmospheric layer or another region associated with the brown dwarf.
+
+## A sharper look at an unexplained spectrum
+
+Earlier low-resolution Webb spectra had found an unexpected absorption band near 3.4 micrometres in several low-mass brown dwarfs in IC 348. Models had not predicted that feature. The new study revisited LRL 11001 with Webb's Near-Infrared Spectrograph at about ten times higher spectral resolution, covering wavelengths from 1.7 to 5.1 micrometres. Each of two instrument settings accumulated 1,500 seconds of exposure.
+
+The sharper spectrum split what had looked like a simple peak into two partially blended emission lines. Their wavelengths match hot-band transitions of methane. The feature was present at the target's position in all three nods, separate placements along the spectrograph slit used to distinguish the source from background light.
+
+The same spectrum clarified the neighbouring 3.4-micrometre absorption band. Four fitted components match vibrations of CH2 and CH3 groups, indicating a large alkane. The smallest molecule consistent with those groups is propane, although the data do not identify one exact chain length. Webb also recorded narrow carbon dioxide and carbon monoxide absorption that probably comes from ice in the object's surroundings or its molecular cloud.
+
+## The source of the glow remains open
+
+The authors consider two broad explanations for the methane emission. Heat deposited by an accretion shock could create a temperature inversion, leaving an upper layer warmer than the gas below. Alternatively, radiation from nearby cluster members or an accretion hot spot could pump methane molecules into excited states, much as sunlight drives fluorescent methane emission on Jupiter.
+
+The team argues that the brown dwarf's atmosphere is a more likely source than a surrounding disk because these particular methane transitions have not been observed in disks around other young stars or brown dwarfs. That conclusion is not final. The existing spectrum shows no short-wavelength disk excess, but observations beyond five micrometres are still needed to check for cooler disk material. Detailed atmospheric modelling is also required to distinguish heating from fluorescence.
+
+**Measured:** Webb resolved methane emission at 3.324 and 3.333 micrometres and an adjacent absorption pattern consistent with a large alkane.
+
+**Inferred:** The methane probably glows in the upper atmosphere, but the energy source and the role of any disk remain uncertain.
+
+### A sub-Neptune circles its red dwarf backwards
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-27_exoplanets_gj-3090-b-retrograde/
+- Published: 2026-09-27
+- Topics: [Exoplanets](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/exoplanets/); [Planet Formation](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/planet-formation/)
+- Freshness context: Published in Astronomy & Astrophysics and posted publicly on 21 September 2026, within the preferred 15-day search window.
+- Summary: GJ 3090 b is the first planet found on a retrograde orbit around an M-dwarf star. Its strongly tilted path is hard to explain with the usual massive-companion scenarios, pointing instead toward a planet-forming disk that may have started out misaligned.
+- Why it matters: Small planets around red dwarfs are common but their orbital tilts are difficult to measure. This system offers an unusual test of how planet-forming disks can change orientation without destroying a compact family of planets.
+- Suggested next question: How the Rossiter-McLaughlin effect reveals the angle between a planet's orbit and its star's rotation.
+- Explore further: [Astronomy & Astrophysics paper](https://arxiv.org/abs/2609.24870)
+- Sources:
+  - [Astronomy & Astrophysics paper](https://arxiv.org/abs/2609.24870)
+  - [ESO: NIRPS instrument overview](https://www.eso.org/public/teles-instr/lasilla/36/nirps/)
+
+Fuller note:
+
+## A planet moving against its star
+
+GJ 3090 b circles its red dwarf in the opposite general direction from the star's rotation. Astronomers measured a three-dimensional orbital tilt of 136 degrees, making this sub-Neptune the first known retrograde planet around an M dwarf. A perfectly aligned orbit would measure 0 degrees, a polar orbit 90 degrees, and a fully reversed one 180 degrees.
+
+The planet is about 2.18 times Earth's radius and 4.52 times its mass. It completes an orbit every 2.9 days and belongs to a system with at least one other confirmed planet. That multi-planet setting matters because violent gravitational encounters can tip a world onto a strange path, but they can also disrupt the orderly orbits of its neighbours.
+
+## Measuring a hidden angle
+
+The team observed six transits with NIRPS, an infrared spectrograph on ESO's 3.6-metre telescope in Chile. Four were also observed with the optical HARPS instrument. Altogether, the campaign collected 142 NIRPS spectra and 51 HARPS spectra across roughly 23 hours.
+
+As a planet crosses a rotating star, it blocks different parts of the stellar surface. One side is rotating toward us and the other away from us, so each blocked patch removes a slightly different velocity from the star's spectrum. This distortion, called the Rossiter-McLaughlin effect, traces the path of the planet across the spinning star.
+
+One NIRPS visit had unusually low and variable signal quality, while the HARPS observations gave weaker constraints for this cool, red star. The final joint fit therefore used the five stronger NIRPS transits. It produced a projected angle of 208 degrees and, after accounting for the star's own orientation, the 136-degree three-dimensional tilt. The uncertainty spans 118 to 160 degrees. The authors report that a polar orbit is excluded at 2.5 sigma, meaningful evidence but less than the five-sigma threshold often used for a discovery in physics.
+
+## How did the system turn over?
+
+Many highly tilted planets have a massive outer planet or a distant stellar companion capable of disturbing their orbits. The researchers combined radial velocities, high-resolution imaging, and Gaia measurements to look for such an object. They found no wide stellar companion and strongly limited the space available for a massive outer planet. Those non-detections make a late gravitational shove less persuasive, especially because GJ 3090 b is the innermost member of a surviving multi-planet system.
+
+The team's preferred explanation begins earlier. Material falling onto the young star may have formed a second disk tilted against the star's spin. The planets could then have formed or migrated together within that disk, preserving their relationship while inheriting its reversed orientation. This is a proposed history, not a directly observed event. The other planets' orbital tilts have not yet been measured, and an unseen companion in a poorly constrained configuration cannot be ruled out completely.
+
+**Measured:** Five high-quality NIRPS transits yield a 3D tilt of 136 degrees, with an uncertainty of minus 18 and plus 24 degrees.
+
+**Inferred:** A misaligned planet-forming disk fits the system better than the familiar massive-companion explanation, but further measurements are needed to test that origin story.
+
+### One Martian rock unit records three separate water episodes
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-26_solar-system_mars-margin-water-systems/
+- Published: 2026-09-26
+- Topics: [Solar System & Planetary Science](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/solar-system-and-planetary-science/); [Astrobiology & Habitability](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/astrobiology-and-habitability/)
+- Freshness context: Published open access in Communications Earth & Environment on 21 September 2026, within the preferred 15-day search window.
+- Summary: Perseverance found that an olivine-rich rock unit beside Jezero Crater's ancient lake records at least three distinct encounters with water. The sequence includes carbon dioxide-rich groundwater, lake-related alteration, and a later pulse of hot underground fluid.
+- Why it matters: The result shows that one part of Jezero Crater hosted several chemically different watery environments, expanding the range of places where traces of past Martian habitability might be preserved.
+- Suggested next question: How carbonate and silica minerals can preserve chemical or structural signs of ancient microbial life.
+- Explore further: [Communications Earth & Environment paper](https://www.nature.com/articles/s43247-026-03997-9)
+- Sources:
+  - [Communications Earth & Environment paper](https://www.nature.com/articles/s43247-026-03997-9)
+  - [NASA: Discovery Reveals Complex Water Systems on Early Mars](https://www.nasa.gov/solar-system/planets/mars/nasa-discovery-reveals-complex-water-systems-on-early-mars/)
+  - [NASA Jet Propulsion Laboratory release](https://www.jpl.nasa.gov/news/nasa-discovery-reveals-complex-water-systems-on-early-mars/)
+
+Fuller note:
+
+## A shoreline that was not what scientists expected
+
+Perseverance has found that a band of rock beside Jezero Crater's ancient lake records at least three separate encounters with water. The region, called the Margin Unit, was once expected to contain sediment deposited along a shoreline. Instead, the rover found olivine-rich igneous rock that was later changed by groundwater, lake water, and hot fluids moving below the surface.
+
+Olivine is a mineral that forms in hot magma and reacts readily with water. Its presence points to a volcanic origin for the rock, while the minerals that replaced or filled spaces around it preserve what happened afterward. That combination gives scientists a timeline of changing environments rather than evidence for one long-lived lake.
+
+## Reading water history in the minerals
+
+The team used Perseverance's SuperCam instrument to study more than 185 bedrock targets as the rover climbed about 265 metres through the unit. SuperCam examines rock chemistry and mineral structure from a distance with a laser and spectrometers.
+
+The lowest and oldest part of the sequence contains carbonate-rich ridges and veins. The researchers interpret these as the result of carbon dioxide-rich groundwater reacting with olivine. Higher in the unit, rocks contain more silica below the reconstructed lake level than above it. That pattern is consistent with alteration by lake water or groundwater connected to the lake.
+
+A later event left a different signature. Some fractures contain veins of calcium sulfate and fluorite, including one exposure about 25 centimetres thick. Forming that mineral mix requires warmer fluids than the earlier alteration, so the team infers that heated water circulated underground after the lake-related episode. The heat source is unknown. Possible explanations include buried magma or the lingering effects of an impact.
+
+## Several habitats, not a single scene
+
+Each water system would have offered different temperature, acidity, and chemical energy. Those conditions matter when scientists ask whether ancient Mars ever had environments that microbes could have used. Carbonate and silica are especially interesting because they can trap and preserve chemical or microscopic evidence for long periods.
+
+This study does not report evidence of life. It identifies minerals and textures produced by water-rock reactions, then reconstructs the most plausible order of events. The relative order is supported by which features cut across or sit above others, but the rover cannot yet assign precise ages to the three episodes. Samples cached by Perseverance could eventually allow laboratories on Earth to test the mineral history in much finer detail.
+
+**Measured:** More than 185 targets across a 265-metre climb reveal olivine-rich igneous rock, carbonate and silica alteration, and younger calcium sulfate and fluorite veins.
+
+**Inferred:** At least three chemically distinct water systems affected the Margin Unit in sequence, with a later heated underground episode following groundwater and lake-related alteration.
+
+### A calibration test sharpens the case for twisted ancient light
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-25_cosmology_cosmic-birefringence-calibration/
+- Published: 2026-09-25
+- Topics: [Cosmology & Early Universe](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/cosmology-and-early-universe/); [Gravity & Fundamental Physics](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/gravity-and-fundamental-physics/)
+- Freshness context: Published in The Astrophysical Journal Letters on 17 September 2026, within the preferred 15-day search window.
+- Summary: A new analysis checked whether tiny differences among eight Planck detector maps could imitate a possible rotation in the cosmic microwave background. The independent calibration method found no significant mismatch, strengthening the measurement foundation without independently confirming that space itself twisted the light.
+- Why it matters: A real rotation of the universe's oldest light could point to physics beyond the Standard Model, so separating a cosmic signal from a fraction-of-a-degree instrument error is essential.
+- Suggested next question: Why would cosmic birefringence rotate one pattern of polarized light into another?
+- Explore further: [The Astrophysical Journal Letters paper](https://doi.org/10.3847/2041-8213/aea401)
+- Sources:
+  - [The Astrophysical Journal Letters: Differential Polarization Calibration: A Consistency Test for Cosmic Birefringence](https://doi.org/10.3847/2041-8213/aea401)
+  - [arXiv full text: Differential Polarization Calibration: A Consistency Test for Cosmic Birefringence](https://arxiv.org/html/2609.09149v1)
+  - [UC San Diego research release: Is the universe twisted?](https://phys.org/news/2026-09-universe-oldest.html)
+
+Fuller note:
+
+## Testing a twist in the universe's oldest light
+
+Light left over from the early universe may have rotated by a tiny angle during its journey to us. The possible rotation is only about 0.37 degrees, yet confirming it could reveal a physical effect called cosmic birefringence. That would be a sign that empty space treats different orientations of light differently, something the Standard Model of particle physics does not predict.
+
+There is a stubborn problem: a telescope whose polarization detectors are misaligned by the same tiny angle can produce an almost identical signal.
+
+The light in question is the cosmic microwave background, or CMB, released when the universe became transparent about 380,000 years after the big bang. It carries polarization, meaning its electric field has preferred orientations across the sky. Astronomers separate those patterns into E modes, which look radial or ring-like, and B modes, which have a curled structure. A cosmic rotation can convert a little of one pattern into the other.
+
+## Comparing detectors without measuring the cosmic twist
+
+Researchers at UC San Diego developed a calibration test designed to ignore any rotation shared by every map. Instead, it compares detector sets and asks whether their relative angles agree with the calibration pattern inferred by an established method called the Minami-Komatsu analysis.
+
+The team applied the new estimator to eight detector-set maps from the Planck satellite. Those maps create 28 detector-pair comparisons but contain seven independent relative-angle modes. The new reconstruction matched the established calibration pattern with a chi-squared value of 8.18 for seven degrees of freedom, corresponding to a probability-to-exceed of 0.32. None of the individual differences exceeded 1.8 standard deviations, so the analysis found no statistically significant relative calibration inconsistency.
+
+That result matters because the two methods handle foreground emission differently. The agreement suggests that the detector-dependent pattern is present in the polarization data rather than being an artifact of the foreground model used by the established analysis.
+
+## What the result does and does not show
+
+When the researchers conditionally anchored their relative reconstruction to the established method's common calibration, they recovered a rotation of 0.37 plus or minus 0.12 degrees. That agrees with the earlier value.
+
+It is not an independent confirmation of cosmic birefringence. Both reconstructions use the same Planck maps, and the new method deliberately cancels any rotation common to all of them. It therefore cannot establish the absolute angle without an external calibration reference. No sufficiently precise external reference is currently available for Planck.
+
+The method is better understood as an audit of the measurement chain. It rules out one class of relative detector mismatch at useful precision while leaving the central cosmic question open. Future experiments such as the Simons Observatory and LiteBIRD could combine this relative check with dedicated absolute calibration, giving astronomers a cleaner test of whether ancient light truly rotated in transit.
+
+**Measured:** two independent calibration approaches recover consistent relative angles across eight Planck detector maps.
+
+**Inferred:** the possible 0.37-degree cosmic rotation has a stronger calibration foundation, but new physics is not yet confirmed.
+
+### A pulsar's X-ray tail stretches for 42 light-years
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-24_stars_pulsar-xray-tail/
+- Published: 2026-09-24
+- Topics: [Stars & Stellar Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/stars-and-stellar-evolution/)
+- Freshness context: Published in Science China Physics, Mechanics & Astronomy on 21 September 2026, within the preferred 15-day search window.
+- Summary: A faint X-ray tail behind pulsar PSR J1740+1000 reaches about 42 light-years, far beyond the portion seen before. Its alignment with ultrahigh-energy gamma rays suggests that particles can stream in one direction across interstellar space instead of spreading evenly.
+- Why it matters: The result gives astronomers a visible trail from a pulsar to gamma rays whose source had been unclear, improving the search for the Milky Way's most powerful natural particle accelerators.
+- Suggested next question: How do ordered magnetic fields guide high-energy particles through interstellar space?
+- Explore further: [Science China Physics, Mechanics & Astronomy paper](https://doi.org/10.1007/s11433-026-3098-2)
+- Sources:
+  - [Science China Physics, Mechanics & Astronomy: Anisotropic particle transport from a pulsar wind nebula revealed by Einstein Probe and LHAASO](https://doi.org/10.1007/s11433-026-3098-2)
+  - [Chinese Academy of Sciences: Einstein Probe and LHAASO reveal a 42-light-year directed journey of cosmic rays](https://english.cas.cn/newsroom/research-news/202609/t20260917_1200807.shtml)
+
+Fuller note:
+
+## A particle trail longer than a star neighborhood
+
+A faint X-ray streak behind a dead star has turned out to be about 42 light-years long. The streak begins near PSR J1740+1000, a pulsar roughly 4,600 light-years from Earth, and points toward a patch of ultrahigh-energy gamma rays previously lacking an obvious source.
+
+A pulsar is the compact, rapidly rotating core left after a massive star explodes. Its magnetic field can drive a wind of electrons and other charged particles moving close to the speed of light. Where those particles travel, they can leave radiation that telescopes detect even though the particles themselves are invisible.
+
+Earlier observations by XMM-Newton had revealed only a several-light-year section of this pulsar's tail. China's Einstein Probe changed the scale of the picture. Its Follow-up X-ray Telescope combines a wide field of view with a low instrumental background, useful for finding large, dim structures. During about 70,000 seconds of observation, it traced the tail across roughly 32 arcminutes of sky. At the pulsar's estimated distance, that angle corresponds to about 42 light-years, making this the longest X-ray tail yet detected from a pulsar wind nebula.
+
+## Two kinds of light, one particle population
+
+The geometry alone is suggestive. The X-ray tail extends in the same direction as ultrahigh-energy gamma-ray emission measured by the ground-based Large High Altitude Air Shower Observatory, or LHAASO. The researchers also found that the energy patterns of the X-rays and gamma rays can be produced by the same population of energetic electrons.
+
+Those electrons emit X-rays as they curve through magnetic fields, a process called synchrotron radiation. They can also collide with low-energy photons and transfer enough energy to turn them into gamma rays. Seeing both signals along the same route gives astronomers a way to follow the particles from their likely accelerator near the pulsar into surrounding space.
+
+This matters because cosmic particles are often expected to scatter off irregular magnetic fields and spread in many directions. Here, the trail remains narrow across tens of light-years. The result suggests that particle transport can be strongly directional, which may explain why some gamma-ray sources appear offset from the object that created their particles. The brightest gamma-ray location need not mark the accelerator itself.
+
+## What remains uncertain
+
+The observations establish the long X-ray structure and its close match to the gamma-ray emission. The explanation for its shape is still an inference. One possibility is that an orderly interstellar magnetic field acts like a track, allowing particles to move easily along it while limiting sideways motion. Another is a narrow, continuing outflow that carries particles outward like water through a hose.
+
+The present measurements do not distinguish between those mechanisms. Further observations of the tail's motion, spectrum, and magnetic environment could show whether the route is set mainly by the surrounding field or by the pulsar's own outflow.
+
+**Measured:** a roughly 42-light-year X-ray tail, aligned spatially and spectrally with ultrahigh-energy gamma-ray emission.
+
+**Inferred:** both signals trace the same high-energy particles traveling preferentially away from PSR J1740+1000.
+
+### Rubin finds seven almost-dark galaxies near Virgo's M49
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-23_galaxies_rubin-almost-dark-virgo/
+- Published: 2026-09-23
+- Topics: [Galaxies & Galactic Evolution](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/galaxies-and-galactic-evolution/)
+- Freshness context: Posted to arXiv as 2609.19246 on 16 September 2026, inside the preferred 15-day freshness window for this daily note.
+- Summary: In Rubin LSST Data Preview 2, a team led by Minh Ngoc Le reports seven almost-dark galaxies around M49 in the Virgo Cluster. Their g-band central surface brightnesses run from about 26.9 to 28.5 mag per square arcsecond, with half-light radii of about 0.6 to 4.6 kpc and stellar masses near 10^6 to 10^7 solar masses.
+- Why it matters: Galaxies this faint were known mainly in the Local Group. Finding a population at Virgo distance shows Rubin can catch them systematically, which is the path to counting how many exist and testing dark-matter models at the faint end of the luminosity function.
+- Suggested next question: How surface brightness, half-light radius, and stellar mass place a galaxy among ultra-diffuse and almost-dark populations.
+- Explore further: [arXiv: Rubin LSST DP2 unveils almost-dark galaxies in the Virgo Cluster](https://arxiv.org/abs/2609.19246)
+- Sources:
+  - [arXiv: Rubin LSST DP2 unveils almost-dark galaxies in the Virgo Cluster (2609.19246)](https://arxiv.org/abs/2609.19246)
+  - [arXiv HTML full text: Rubin LSST DP2 unveils almost-dark galaxies in the Virgo Cluster](https://arxiv.org/html/2609.19246)
+
+Fuller note:
+
+## Galaxies you almost cannot see
+
+Most galaxy catalogs stop where the light gets thin. A spiral or elliptical with a bright core is easy. A diffuse patch that never rises much above the night sky is not. Astronomers call the faintest of those patches almost-dark galaxies. They are not empty. They are just extremely dilute in starlight.
+
+Until recently, the clearest examples lived in the Local Group, where proximity lets surveys catch stars that would vanish at greater distance. Analogues should exist farther out. Catching them needs imaging that goes deep enough across a wide field. That is the job Rubin was built for.
+
+## Seven patches around M49
+
+A team led by Minh Ngoc Le at the Instituto de Astrofisica de Canarias, with Johan H. Knapen, Zeljko Ivezic, and a large Rubin collaboration, searched Data Preview 2 of the Vera C. Rubin Observatory Legacy Survey of Space and Time. The paper, "Rubin LSST DP2 unveils almost-dark galaxies in the Virgo Cluster," went onto arXiv on 16 September 2026 as 2609.19246.
+
+Their hunt centered on the Cosmic Treasure Chest field near M49, the giant elliptical that anchors the Virgo B subcluster. That field spans about 24 square degrees. In the g, r, and i bands the coadds reach surface-brightness limits near the depth expected for the full 10-year survey. Visual inspection turned up seven candidates. The authors label them AD 1 through AD 7, with coordinates such as Rubin J122848.6+085727 for AD 1 and Rubin J122703.1+080018 for AD 7.
+
+Measured at an adopted Virgo distance of about 16.17 Mpc, the seven objects show g-band central surface brightnesses from about 26.9 to 28.5 mag per square arcsecond. Half-light radii run from about 0.6 to 4.6 kpc. Stellar masses sit near 10^6 to 10^7 solar masses. Most have flat Sersic profiles with index below 1. Mean colors near (g-r) of 0.5 point to old, metal-poor stars. None show clear tidal shredding in the images the team presents.
+
+## Why "almost dark" is not the same as ultra-diffuse
+
+Ultra-diffuse galaxies can be large and faint. Almost-dark galaxies sit even fainter, often by a factor of tens in surface brightness at similar size. The seven Virgo finds land among the faintest dwarfs known, closer in properties to Local Group satellites such as Andromeda XXI, XXIII, and XXV than to classic Coma ultra-diffuse galaxies.
+
+AD 7 is the standout. Its half-light radius is about 4.6 kpc, and its central g-band surface brightness is about 28.5 mag per square arcsecond. A single Sersic fit fails, so the team used a core-Sersic model. If the object is real and at Virgo distance, it is among the most extreme low-surface-brightness systems reported in that cluster. The authors flag that AD 7 sits near bright neighbors in a region that may be oversubtracted, and they call for follow-up with a low-surface-brightness-friendly strategy before anyone treats it as settled.
+
+## Distance, gas, and what is still open
+
+Association with Virgo rests on projected distance from M49 (mostly within about 1 Mpc of its virial radius) and on the angular sizes. Push the same objects to twice Virgo's distance and their physical sizes become extreme relative to formation models. Pull them into the foreground near 5 Mpc and individual stars should start to resolve at Rubin's depth. The images stay smooth. That sandwich of arguments favors Virgo membership, with AD 4 near the edge of the virial radius.
+
+ALFALFA gives no HI detection for any of the seven, with an upper limit near 10^7 solar masses at Virgo distance. Except for AD 4, which lies outside the VESTIGE footprint, none show H-alpha either. Red, quiet, and gas-poor is the picture. Background subtraction in DP2 can still clip faint outskirts, so total light and profile shapes may be underestimated. Formal fit errors also understate sky and PSF systematics. Those caveats belong next to the census claim, not after it.
+
+## What Rubin's early data already proves
+
+This is a proof of concept, not a complete catalog of the field. Several of the objects were missed by earlier deep Virgo surveys. One (AD 5) was found independently by another group. Three appear in a recent NGVS catalog as well. The useful sentence is simpler: early Rubin coadds already reach the almost-dark regime outside the Local Group.
+
+The full 10-year LSST will cover about 18,000 square degrees at similar or greater depth. A statistical sample of almost-dark galaxies is what theorists need when they compare the faint end of the luminosity function to warm versus cold dark-matter predictions. Seven objects do not settle that debate. They show the survey can collect the objects the debate needs.
+
+Measured: seven low-surface-brightness candidates around M49 in Rubin DP2, with the sizes, brightnesses, and masses above. Inferred: a Virgo population of Local-Group-like almost-dark galaxies is now reachable in wide-field optical data, and AD 7 is the extreme case that most needs confirmation.
+
+### Radio bursts pin a magnetic field on Beta Pictoris b
+
+- Note URL: https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-09-22_exoplanets_beta-pic-b-radio-field/
+- Published: 2026-09-22
+- Topics: [Exoplanets](https://ojaashampiholi.github.io/the-cosmic-notebook/topics/exoplanets/)
+- Freshness context: Posted to arXiv as 2609.16720 in September 2026, inside the preferred 15-day freshness window for this daily note.
+- Summary: MeerKAT has localized auroral radio bursts to the giant planet Beta Pictoris b, about 20 parsecs away. The emission reaches 3.5 GHz and implies a magnetic field of at least about 1.25 kilogauss, the first direct field-strength measurement for an exoplanet.
+- Why it matters: Magnetic fields shape how planets hold atmospheres and how they interact with stellar winds, yet none had been measured directly beyond the Solar System. A confirmed exoplanet with a radio-derived field turns a long-standing model target into an observable, and it opens a path to map fields on other nearby imaged giants.
+- Suggested next question: How electron cyclotron maser emission turns the highest radio frequency into a lower limit on a planet's magnetic field strength.
+- Explore further: [arXiv: Discovery of radio emission from the exoplanet Beta Pictoris b](https://arxiv.org/abs/2609.16720)
+- Sources:
+  - [arXiv: Discovery of radio emission from the exoplanet Beta Pictoris b (2609.16720)](https://arxiv.org/abs/2609.16720)
+  - [arXiv HTML full text: Discovery of radio emission from the exoplanet Beta Pictoris b](https://arxiv.org/html/2609.16720v1)
+
+Fuller note:
+
+## A magnetic field you can hear
+
+Planetary magnetic fields matter. They steer atmospheric escape, shape how a planet meets a stellar wind, and leave clues about the metal and rock deep inside. Until now, nobody had measured one directly for a planet beyond the Solar System. Models filled the gap. Direct numbers did not.
+
+The clean signal is auroral radio, the same kind of emission Jupiter and Earth produce when energetic electrons spiral along magnetic field lines. The highest frequency of that emission tracks the field strength at the source. Radio astronomers have caught similar bursts from ultracool dwarfs, and earlier searches of planet-hosting systems either found nothing or could not tell whether the star or the planet was talking. That ambiguity is the problem this result breaks.
+
+## MeerKAT points at Beta Pictoris b
+
+A team led by K. N. Ortiz Ceballos at the Center for Astrophysics | Harvard & Smithsonian, with E. Berger and Y. Cendes, observed the Beta Pictoris system with South Africa's MeerKAT array on four dates in 2025 and 2026, in the L and S bands between about 0.85 and 3.5 GHz. Beta Pictoris sits about 20 parsecs away. The star is roughly 23 million years old, magnetically quiet, and hosts a debris disk plus at least three giant planets. The most massive, Beta Pictoris b, weighs about 12 Jupiter masses and orbits near 10 astronomical units. At its widest, the planet sits about half an arcsecond from the star, far enough for careful radio imaging to separate the two.
+
+They detect a radio source in every epoch. The hard part is ownership. After tying the radio frame to Gaia using nine quasars and one VLBI calibrator, and folding in tests for ionospheric refraction and fitting error, the corrected position matches planet b and conflicts with the host star at about 4.4 sigma and with planet c at about 4.8 sigma. Measured: the radio spot sits on the planet, not the star.
+
+## Bursts that give a field strength
+
+The emission is not a steady hum. It comes as rapid, recurring bursts with circular polarization of about 40 to 70 percent, plus fainter emission between bursts. The polarization and the short timescales point to electron cyclotron maser radiation. Plasma emission would need densities the team finds implausible for a planetary magnetosphere. The S-band burst reaches 3.5 GHz, the top of that observing band, and is also the most polarized. Under the cyclotron-frequency rule, that ceiling requires a magnetic field of at least about 1.25 kilogauss at the emission site. That is the first direct field-strength measurement for an exoplanet. It also sits above the host star's known dipole upper limit of roughly 0.3 kilogauss, another reason the star cannot be the source.
+
+The authors favor magnetosphere-ionosphere coupling, the same rotationally driven engine that powers aurorae at Jupiter and at many ultracool dwarfs. Beta Pictoris b spins in about 8 to 9 hours. An about 8-hour gap between two L-band bursts sits near that period and may be rotational modulation. Stellar-wind driving and an Io-like moon interaction both under-predict the observed power in their checks. Those alternatives are disfavored, not merely left open as equals.
+
+## Why the number travels
+
+Because Beta Pictoris b has a dynamically measured mass, the radio field can be set beside dynamo scaling laws calibrated on Solar System planets and low-mass stars. The planet lands where those laws predict a young, massive giant should sit. Continued monitoring can map magnetic geometry. Seven more nearby directly imaged giants sit at separations where the same localization trick can work, once radio arrays gain about five to seven times more sensitivity.
+
+Caveats belong in the open. The result rests on four observing blocks and on frame-tie systematics that the team inflate on purpose. The paper is an arXiv preprint (2609.16720), so peer review is still ahead. The 1.25 kilogauss figure is a lower limit set by the highest detected frequency, not a full map of the field. Measured: auroral radio, localized to Beta Pictoris b, with a cyclotron ceiling that implies at least about 1.25 kilogauss. Inferred: a working planetary dynamo on a confirmed exoplanet, finally caught in radio light.
 
 ### Black holes big and small may launch jets by the same rule
 

@@ -2,5 +2,9 @@ User-agent: *
 Allow: /
 
 Sitemap: https://ojaashampiholi.github.io/the-cosmic-notebook/sitemap-index.xml
+Sitemap: https://ojaashampiholi.github.io/the-cosmic-notebook/sitemap.xml
 
+# sitemap.xml is the same index as sitemap-index.xml, for tools that request that path.
+# Crawlers read robots.txt only at the host root. This project-path file is not that root file.
 # Answer-engine catalogue: https://ojaashampiholi.github.io/the-cosmic-notebook/llms.txt
+# Notes feed: https://ojaashampiholi.github.io/the-cosmic-notebook/rss.xml

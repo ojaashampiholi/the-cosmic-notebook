@@ -68,3 +68,27 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
+
+      # Runs only after a successful production deploy. continue-on-error keeps
+      # a missed ping from failing the Pages publish.
+      - name: Checkout repository for IndexNow
+        if: steps.deployment.outcome == 'success'
+        continue-on-error: true
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js for IndexNow
+        if: steps.deployment.outcome == 'success'
+        continue-on-error: true
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 22
+
+      - name: Ping IndexNow
+        if: steps.deployment.outcome == 'success'
+        continue-on-error: true
+        env:
+          INDEXNOW_BEFORE: ${{ github.event.before }}
+          INDEXNOW_SHA: ${{ github.sha }}
+        run: node scripts/indexnow.mjs
