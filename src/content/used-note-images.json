@@ -1,6 +1,17 @@
 {
   "images": [
     {
+      "id": "arxiv-2609-24811-figure-1",
+      "note": "2026-10-04_stars_garro-04-hidden-cluster",
+      "files": [
+        "images/notes/2026-10-04-garro-04-hidden-cluster.jpg",
+        "images/notes/2026-10-04-garro-04-hidden-cluster-thumb.jpg"
+      ],
+      "credit": "E. R. Garro et al.",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://arxiv.org/html/2609.24811v1#S2.F1"
+    },
+    {
       "id": "arxiv-2609-38080-figure-4",
       "note": "2026-10-03_cosmology_clear-reionization-sightline",
       "files": [
