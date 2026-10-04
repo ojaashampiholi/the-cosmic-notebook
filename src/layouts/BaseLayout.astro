@@ -37,6 +37,8 @@ const canonical = new URL(pathname, Astro.site);
 const socialImage = new URL(image, Astro.site);
 const pictureAlt = imageAlt || title;
 const llmsUrl = new URL(withBase("llms.txt"), Astro.site);
+const rssUrl = new URL(withBase("rss.xml"), Astro.site);
+const sitemapUrl = new URL(withBase("sitemap-index.xml"), Astro.site);
 
 const aboutUrl = `${SITE_CANONICAL_ORIGIN}/about/`;
 
@@ -111,6 +113,13 @@ const structuredData = {
     />
     <meta name="theme-color" content="#090d18" />
     <link rel="canonical" href={canonical} />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href={sitemapUrl} />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title={SITE_NAME}
+      href={rssUrl}
+    />
     <link
       rel="alternate"
       type="text/plain"
