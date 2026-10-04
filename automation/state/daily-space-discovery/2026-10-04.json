@@ -1,8 +1,8 @@
 {
   "date": "2026-10-04",
-  "status": "frozen",
+  "status": "draft_validated",
   "outcome": "FROZEN_NOT_COMMITTED",
-  "stage": "frozen",
+  "stage": "draft_validated",
   "workingTitle": "Garro 04 is a hidden star cluster that resists a neat label",
   "intendedFilename": "2026-10-04_stars_garro-04-hidden-cluster.json",
   "topic": "Stars & Stellar Evolution",
@@ -38,7 +38,7 @@
   ],
   "sourceStatus": "Primary preprint abstract and full text verified. The institutional report was used only as readable context.",
   "image": {
-    "status": "planned",
+    "status": "included",
     "id": "arxiv-2609-24811-figure-1",
     "license": "CC BY 4.0",
     "sourceUrl": "https://arxiv.org/html/2609.24811v1#S2.F1"
@@ -46,5 +46,14 @@
   "recovery": {
     "status": "ready",
     "lastError": null
+  },
+  "validation": {
+    "bodyWords": 536,
+    "json": "passed",
+    "topics": "passed",
+    "humanizer": "passed",
+    "sourceLinks": "passed",
+    "imageChecks": "passed: 13 images tracked, no repeats",
+    "build": "passed with zero Astro diagnostics"
   }
 }
