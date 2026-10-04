@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-04",
+  "status": "frozen",
+  "outcome": "FROZEN_NOT_COMMITTED",
+  "stage": "frozen",
+  "workingTitle": "Garro 04 is a hidden star cluster that resists a neat label",
+  "intendedFilename": "2026-10-04_stars_garro-04-hidden-cluster.json",
+  "topic": "Stars & Stellar Evolution",
+  "publicationDate": "2026-09-21",
+  "freshnessWindow": "15 days",
+  "publicationStatus": "Unreviewed preprint; preliminary",
+  "primarySourceUrls": [
+    "https://arxiv.org/abs/2609.24811",
+    "https://arxiv.org/html/2609.24811v1"
+  ],
+  "coreFacts": [
+    "Near-infrared VVVX imaging revealed a concentrated group of red giant stars, and KMOS spectroscopy found shared motion and chemistry consistent with a real cluster.",
+    "The authors place Garro 04 about 10.07 kiloparsecs from the Sun and 8.3 kiloparsecs from the Galactic center.",
+    "The estimated age is 5 plus or minus 2 billion years and the iron abundance is about 0.5 dex below solar, with an uncertainty of 0.2 dex.",
+    "Orbit modeling keeps the cluster close to the Milky Way disk, with low eccentricity and small vertical excursions.",
+    "The available measurements favor an old open cluster or an intermediate object rather than a standard ancient globular cluster."
+  ],
+  "caveats": [
+    "The study is an unreviewed preprint.",
+    "The age, distance, and metallicity carry substantial uncertainties.",
+    "Detailed chemical follow-up is still needed to decide whether Garro 04 is an open cluster, a globular cluster, or an intermediate case.",
+    "The claim that more faint clusters remain hidden is an inference from this and related discoveries, not a measured count."
+  ],
+  "sources": [
+    {
+      "label": "Garro et al., A Newly Discovered VVVX Star Cluster Surfing the Galactic Disk",
+      "url": "https://arxiv.org/abs/2609.24811"
+    },
+    {
+      "label": "Full preprint text",
+      "url": "https://arxiv.org/html/2609.24811v1"
+    }
+  ],
+  "sourceStatus": "Primary preprint abstract and full text verified. The institutional report was used only as readable context.",
+  "image": {
+    "status": "planned",
+    "id": "arxiv-2609-24811-figure-1",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/html/2609.24811v1#S2.F1"
+  },
+  "recovery": {
+    "status": "ready",
+    "lastError": null
+  }
+}
