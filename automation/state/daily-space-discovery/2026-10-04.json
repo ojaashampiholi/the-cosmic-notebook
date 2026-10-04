@@ -1,8 +1,8 @@
 {
   "date": "2026-10-04",
-  "status": "draft_validated",
-  "outcome": "FROZEN_NOT_COMMITTED",
-  "stage": "draft_validated",
+  "status": "committed",
+  "outcome": "COMMITTED_NOT_LIVE",
+  "stage": "committed",
   "workingTitle": "Garro 04 is a hidden star cluster that resists a neat label",
   "intendedFilename": "2026-10-04_stars_garro-04-hidden-cluster.json",
   "topic": "Stars & Stellar Evolution",
@@ -55,5 +55,6 @@
     "sourceLinks": "passed",
     "imageChecks": "passed: 13 images tracked, no repeats",
     "build": "passed with zero Astro diagnostics"
-  }
+  },
+  "commitSha": "e3fc2fc5643e7db59f6821c50bfbfab9527b161d"
 }
