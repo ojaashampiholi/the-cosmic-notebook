@@ -1,0 +1,24 @@
+{
+  "title": "Slow freezing sorts the salts in Enceladus's ocean spray",
+  "topic": "Solar System & Planetary Science / Astrobiology & Habitability",
+  "date": "2026-10-05",
+  "freshness": "Peer-reviewed Science Advances paper published September 25, 2026, within the preferred 15-day search window.",
+  "excerpt": "Cassini found that salt-rich ice grains from Enceladus do not all carry the same chemical mix. Laboratory experiments now suggest that large ocean droplets freeze slowly inside the moon's vents, separate their salts, and then shatter into distinct grains on the way to space.",
+  "whyItMatters": "Future spacecraft may sample Enceladus's hidden ocean by flying through its plume. Knowing that the vents sort and concentrate the ocean's ingredients is essential for reading those grains correctly, and it may make faint organic compounds easier to detect.",
+  "exploreFurther": {
+    "label": "Read the peer-reviewed paper in Science Advances",
+    "url": "https://www.science.org/doi/10.1126/sciadv.aee7256"
+  },
+  "whatToExploreNext": "How can a future mission reconstruct the average composition of Enceladus's ocean from grains that have been chemically sorted?",
+  "sources": [
+    {
+      "label": "Postberg et al., Science Advances",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aee7256"
+    },
+    {
+      "label": "Earth-Life Science Institute research release",
+      "url": "https://www.elsi.jp/en/news_events/highlights/2026/enceladus_ocean_spray_diverse_ice_grains/"
+    }
+  ],
+  "body": "## An ocean sample changes on the way up\n\nEnceladus sprays material from a buried ocean into space, but each escaping ice grain is not a tiny, perfectly mixed copy of that ocean. A new study finds that the grains have been chemically sorted during their trip through the moon's icy shell.\n\nThe evidence began with Cassini's Cosmic Dust Analyzer. During the mission, the instrument recorded mass spectra, chemical fingerprints made when fast-moving particles struck its detector, from individual grains in Saturn's E ring. That ring is continually supplied by Enceladus's plume. The researchers reanalyzed 961 spectra from salt-rich grains called Type 3 particles.\n\nIf all of those grains had frozen quickly from the same well-mixed ocean spray, their salt ratios should have looked broadly similar. They did not. The team identified at least five main chemical subtypes. Some grains were rich in sodium chloride, while others favored carbonates, phosphates, sodium hydroxide, or potassium salts. Chloride-rich and carbonate-rich material rarely appeared together in the same sodium-rich grain.\n\n## A slow freeze, then a violent breakup\n\nTo test how one ocean could produce such different particles, the researchers froze laboratory droplets containing salts expected in Enceladus's water. They varied droplet size and cooling rate, then mapped where the elements ended up.\n\nThe separation seen by Cassini emerged only under particular conditions. Droplets had to be larger than 10 micrometers and cool more slowly than about 20 kelvins per minute. In roughly 200-micrometer droplets, the sorting became pronounced at about 10 kelvins per minute or less. As ice crystals grew, different salts precipitated in different regions instead of remaining evenly mixed.\n\nThe authors therefore propose a two-stage journey. Ocean spray may first form droplets hundreds of micrometers across in a relatively slow gas flow deep inside a fracture. Gradual freezing gives the salts time to separate. Higher in the vent, the gas accelerates the frozen droplets to more than 100 meters per second. Collisions with narrowing ice walls then break them into much smaller fragments, each sampling a different chemical patch of the original droplet.\n\nCassini measured the diverse grains directly. The slow travel, wall impacts, and exact vent geometry are the team's physical explanation, supported by experiments and thermodynamic calculations, rather than observations made inside the crust.\n\n## A guide for the next sampler\n\nThis sorting changes how scientists should interpret a future plume flyby. A grain rich in one salt does not necessarily mean the whole ocean has that composition. Researchers will need many individual grains to reconstruct the average water below.\n\nThe same process could also help a spacecraft. Freezing can separate salts from organic molecules and concentrate diluted material into a smaller fraction of grains. Enceladus may, in effect, perform part of a laboratory's sample-preparation work before the particles reach a detector. That could improve the odds of finding rare compounds. It is not evidence of life, and the study reports no biosignature. It is a practical map of how ocean chemistry may be packaged for measurement."
+}
