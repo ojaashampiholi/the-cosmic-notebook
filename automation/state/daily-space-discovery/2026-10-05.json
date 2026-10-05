@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-05",
+  "status": "frozen",
+  "outcome": "FROZEN_NOT_COMMITTED",
+  "stage": "selection_frozen",
+  "workingTitle": "Slow freezing sorts the salts in Enceladus's ocean spray",
+  "intendedFilename": "2026-10-05_solar-system_enceladus-salt-sorting.json",
+  "topic": "Solar System & Planetary Science / Astrobiology & Habitability",
+  "publicationDate": "2026-09-25",
+  "freshnessWindow": "15 days",
+  "publicationStatus": "Peer-reviewed journal article",
+  "primarySourceUrls": [
+    "https://www.science.org/doi/10.1126/sciadv.aee7256",
+    "https://pubmed.ncbi.nlm.nih.gov/42789710/"
+  ],
+  "coreFacts": [
+    "The team analyzed 961 mass spectra of salt-rich Type 3 grains measured by Cassini's Cosmic Dust Analyzer in Saturn's E ring.",
+    "The grains separated into at least five main chemical subtypes dominated by different sodium or potassium salts.",
+    "Laboratory freezing experiments and thermodynamic calculations reproduced the observed separation only for droplets larger than 10 micrometers and cooling rates below 20 kelvins per minute.",
+    "The authors infer that ocean spray begins as droplets hundreds of micrometers across in slow gas flow, then accelerates above 100 meters per second and shatters against narrow vent walls.",
+    "This natural separation can concentrate inorganic and organic ocean constituents into different grains, which may help future spacecraft detect dilute compounds."
+  ],
+  "caveats": [
+    "Cassini measured individual ice grains in Saturn's E ring, not Enceladus's subsurface ocean directly.",
+    "The droplet sizes, gas speeds, and vent pathway form a model that explains the measurements and experiments, not a direct observation inside the ice shell.",
+    "The study does not report life or a biosignature.",
+    "Future missions must account for the plume's physical sorting before translating grain composition into the bulk ocean composition."
+  ],
+  "sources": [
+    {
+      "label": "Postberg et al., Science Advances",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aee7256"
+    },
+    {
+      "label": "PubMed abstract and publication record",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42789710/"
+    },
+    {
+      "label": "Earth-Life Science Institute research release",
+      "url": "https://www.elsi.jp/en/news_events/highlights/2026/enceladus_ocean_spray_diverse_ice_grains/"
+    }
+  ],
+  "sourceStatus": "Peer-reviewed paper abstract, publication record, and author-institution release verified.",
+  "image": {
+    "status": "pending",
+    "reason": "A directly relevant NASA Cassini image will be used only if its rights and uniqueness can be verified."
+  },
+  "recovery": {
+    "status": "ready",
+    "lastError": null
+  }
+}
