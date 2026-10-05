@@ -1,8 +1,8 @@
 {
   "date": "2026-10-05",
-  "status": "frozen",
-  "outcome": "FROZEN_NOT_COMMITTED",
-  "stage": "selection_frozen",
+  "status": "published",
+  "outcome": "PUBLISHED",
+  "stage": "published",
   "workingTitle": "Slow freezing sorts the salts in Enceladus's ocean spray",
   "intendedFilename": "2026-10-05_solar-system_enceladus-salt-sorting.json",
   "topic": "Solar System & Planetary Science / Astrobiology & Habitability",
@@ -42,11 +42,24 @@
   ],
   "sourceStatus": "Peer-reviewed paper abstract, publication record, and author-institution release verified.",
   "image": {
-    "status": "pending",
-    "reason": "A directly relevant NASA Cassini image will be used only if its rights and uniqueness can be verified."
+    "status": "omitted",
+    "reason": "The scientific figure could not be obtained as a clearly licensed local asset, and a generic fallback did not add enough explanatory value."
   },
   "recovery": {
     "status": "ready",
     "lastError": null
-  }
+  },
+  "validation": {
+    "bodyWords": 496,
+    "json": "passed",
+    "topics": "passed",
+    "humanizer": "passed",
+    "sourceLinks": "passed: primary paper and author-institution release verified",
+    "imageChecks": "passed: 13 images tracked, no repeats; note published without an image",
+    "build": "passed with zero Astro diagnostics; discovery checks passed"
+  },
+  "commitSha": "cb072a51e03c5b0eac90fb77dfab3ce9506f064e",
+  "deployRunId": 37318450571,
+  "deployRunUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/37318450571",
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-05_solar-system_enceladus-salt-sorting/"
 }
