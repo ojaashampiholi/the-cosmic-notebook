@@ -1,6 +1,17 @@
 {
   "images": [
     {
+      "id": "nature-s41550-026-02983-7-figure-2",
+      "note": "2026-10-06_exoplanets_white-dwarf-second-generation-planet",
+      "files": [
+        "images/notes/2026-10-06-white-dwarf-second-generation-planet.png",
+        "images/notes/2026-10-06-white-dwarf-second-generation-planet-thumb.png"
+      ],
+      "credit": "Jamie T. Williams et al.",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://www.nature.com/articles/s41550-026-02983-7/figures/2"
+    },
+    {
       "id": "arxiv-2609-24811-figure-1",
       "note": "2026-10-04_stars_garro-04-hidden-cluster",
       "files": [

@@ -1,0 +1,32 @@
+{
+  "title": "A planet candidate appears to have formed after its star died",
+  "topic": "Exoplanets / Planet Formation",
+  "date": "2026-10-06",
+  "freshness": "Peer-reviewed, open-access Nature Astronomy paper published October 5, 2026, within the preferred 15-day search window.",
+  "excerpt": "A hot white dwarf is swallowing material rich in elements made late in its former life as a giant star. Together with a 4.4-day brightness cycle, that chemistry points to a giant planet candidate assembled after the star shed its outer layers.",
+  "whyItMatters": "Planets are usually treated as products of young stars, but this candidate suggests planet formation can restart after a star dies. Its unusual chemistry also gives astronomers a practical way to search for more worlds made from recycled stellar material.",
+  "exploreFurther": {
+    "label": "Read the open-access Nature Astronomy paper",
+    "url": "https://www.nature.com/articles/s41550-026-02983-7"
+  },
+  "whatToExploreNext": "What observations could distinguish a completely new planet from an older rocky core that later acquired a second-generation atmosphere?",
+  "sources": [
+    {
+      "label": "Williams et al., Nature Astronomy",
+      "url": "https://www.nature.com/articles/s41550-026-02983-7"
+    },
+    {
+      "label": "University of Warwick research release",
+      "url": "https://warwick.ac.uk/news/pressreleases/the-phoenix-planet/"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-10-06-white-dwarf-second-generation-planet.png",
+    "thumbSrc": "images/notes/2026-10-06-white-dwarf-second-generation-planet-thumb.png",
+    "alt": "Chart comparing elemental abundances around white dwarf HS 0209+0832 with the Sun, bulk Earth, comet Halley, and several debris-rich white dwarfs",
+    "credit": "Jamie T. Williams et al.",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://www.nature.com/articles/s41550-026-02983-7/figures/2"
+  },
+  "body": "## Chemistry from a star's second act\n\nA planet candidate around the white dwarf HS 0209+0832 appears to have formed after its star left the main sequence. Astronomers did not photograph the world. They found it by reading the material that is falling from the candidate onto the dead star.\n\nA white dwarf is the hot, compact core left when a Sun-like star sheds its outer layers. Heavy elements should sink quickly through a white dwarf's atmosphere, so metals visible at the surface usually signal a fresh supply from nearby debris. HS 0209+0832 is about 35,800 kelvins and has been cooling for roughly 5 million years. Its atmosphere contains an especially strange mixture.\n\nThe team reanalyzed ultraviolet spectra from Hubble and the retired FUSE telescope, along with observations from the Very Large Telescope. They identified more than 200 metal absorption lines and measured nine metals. Zinc, copper, nickel, and especially niobium are prominent, while silicon is scarce and iron was not detected. The inferred nickel-to-iron ratio is greater than 2.09, compared with about 0.05 in Earth and primitive meteorites. Niobium is more than a thousand times richer relative to calcium than it is in the Sun.\n\nThat pattern does not resemble Earth, meteorites, comets, or the rocky bodies normally seen polluting white dwarfs. It does resemble material produced inside an aging giant star. During the star's final swollen phase, slow neutron capture, called the s-process, builds elements heavier than iron. The star then ejects some of that enriched material before becoming a white dwarf.\n\n## A planet is the explanation, not a direct sighting\n\nTESS supplied a second clue. The star's brightness varies on a period of 4.399 plus or minus 0.026 days, with an amplitude of just 0.120 percent. The authors say this can be explained by a hot giant planet in a tight, 0.04 astronomical-unit orbit. Radiation from the white dwarf would strip gas from the planet, and some of that escaping atmosphere would fall onto the star, placing its chemical fingerprint where telescopes can measure it.\n\nThe observations directly establish the unusual metals and the repeating brightness signal. The planet and its history are inferred. The paper calls it a candidate because there is no direct image or measured planet mass. The brightness cycle could reflect a changing view of a hot day side, or material in a comet-like tail crossing the line of sight.\n\nEven the phrase second-generation planet allows more than one history. A new giant world may have collapsed from a disc made when the old star expelled its envelope. Another possibility is that a first-generation rocky core survived, moved into that disc, and acquired a new atmosphere made from the star's shed material. Forming either system probably required a companion star to help trap the ejecta into a disc rather than letting it disperse.\n\n## A new search signature\n\nThe result offers a way to find similar systems without first seeing their planets. Astronomers can examine hot white dwarfs for high carbon and for s-process elements such as niobium, then check for periodic light changes and escaping gas.\n\nConfirmation will require observations that constrain the companion's mass, orbit, and atmosphere. For now, HS 0209+0832 shows that a dead star can carry evidence for planetary material whose chemistry was manufactured during the star's own final stages."
+}
