@@ -2,7 +2,7 @@
   "date": "2026-10-06",
   "status": "frozen",
   "outcome": "FROZEN_NOT_COMMITTED",
-  "stage": "selection_frozen",
+  "stage": "verified",
   "workingTitle": "A planet candidate may have formed from a dead star's ashes",
   "intendedFilename": "2026-10-06_exoplanets_white-dwarf-second-generation-planet.json",
   "topic": "Exoplanets / Planet Formation",
@@ -36,9 +36,17 @@
       "url": "https://warwick.ac.uk/news/pressreleases/the-phoenix-planet/"
     }
   ],
-  "sourceStatus": "The open-access primary paper and lead institution's research release were read and cross-checked.",
+  "sourceStatus": "The open-access Nature Astronomy paper and its full methods, figures, publication record, and CC BY 4.0 rights statement were read; the lead institution's release was used for context.",
   "image": {
-    "status": "not_checked"
+    "status": "included",
+    "id": "nature-s41550-026-02983-7-figure-2",
+    "files": [
+      "images/notes/2026-10-06-white-dwarf-second-generation-planet.png",
+      "images/notes/2026-10-06-white-dwarf-second-generation-planet-thumb.png"
+    ],
+    "credit": "Jamie T. Williams et al.",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://www.nature.com/articles/s41550-026-02983-7/figures/2"
   },
   "recovery": {
     "status": "ready",
