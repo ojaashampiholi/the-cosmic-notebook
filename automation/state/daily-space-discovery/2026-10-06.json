@@ -2,7 +2,7 @@
   "date": "2026-10-06",
   "status": "frozen",
   "outcome": "FROZEN_NOT_COMMITTED",
-  "stage": "verified",
+  "stage": "draft_validated",
   "workingTitle": "A planet candidate may have formed from a dead star's ashes",
   "intendedFilename": "2026-10-06_exoplanets_white-dwarf-second-generation-planet.json",
   "topic": "Exoplanets / Planet Formation",
@@ -51,5 +51,14 @@
   "recovery": {
     "status": "ready",
     "lastError": null
+  },
+  "validation": {
+    "bodyWords": 549,
+    "json": "passed",
+    "topics": "passed",
+    "humanizer": "passed",
+    "sourceLinks": "passed",
+    "imageChecks": "passed: 14 images tracked, no repeats",
+    "build": "passed with zero Astro diagnostics; discovery checks passed"
   }
 }
