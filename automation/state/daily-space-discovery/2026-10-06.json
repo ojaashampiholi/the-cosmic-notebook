@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-06",
+  "status": "frozen",
+  "outcome": "FROZEN_NOT_COMMITTED",
+  "stage": "selection_frozen",
+  "workingTitle": "A planet candidate may have formed from a dead star's ashes",
+  "intendedFilename": "2026-10-06_exoplanets_white-dwarf-second-generation-planet.json",
+  "topic": "Exoplanets / Planet Formation",
+  "publicationDate": "2026-10-05",
+  "freshnessWindow": "15 days",
+  "publicationStatus": "Peer-reviewed, open-access journal article",
+  "primarySourceUrls": [
+    "https://www.nature.com/articles/s41550-026-02983-7",
+    "https://doi.org/10.1038/s41550-026-02983-7"
+  ],
+  "coreFacts": [
+    "The white dwarf HS 0209+0832 is about 35,800 kelvins and has cooled for roughly 5 million years.",
+    "Ultraviolet spectra show zinc, copper, and niobium enrichment, little silicon, and no detected iron, a composition unlike known Solar System material.",
+    "Niobium is more than three orders of magnitude more abundant relative to calcium than in the Sun, matching the expected signature of slow neutron-capture material made in an aging giant star.",
+    "TESS data contain a 4.399 plus or minus 0.026 day brightness signal with an amplitude of 0.120 plus or minus 0.018 percent.",
+    "The authors interpret the evidence as a giant second-generation planet candidate losing atmosphere onto the white dwarf."
+  ],
+  "caveats": [
+    "The object has not been directly imaged, and its mass and radius have not been measured.",
+    "The 4.4-day signal could arise from a planetary day-night cycle or a transiting comet-like tail.",
+    "The second-generation origin is the authors' best explanation for the chemistry, but the formation route is inferred rather than observed.",
+    "The study calls the object a planet candidate and discusses alternative formation histories, including a first-generation core that later acquired a second-generation atmosphere."
+  ],
+  "sources": [
+    {
+      "label": "Williams et al., Nature Astronomy",
+      "url": "https://www.nature.com/articles/s41550-026-02983-7"
+    },
+    {
+      "label": "University of Warwick research release",
+      "url": "https://warwick.ac.uk/news/pressreleases/the-phoenix-planet/"
+    }
+  ],
+  "sourceStatus": "The open-access primary paper and lead institution's research release were read and cross-checked.",
+  "image": {
+    "status": "not_checked"
+  },
+  "recovery": {
+    "status": "ready",
+    "lastError": null
+  }
+}
