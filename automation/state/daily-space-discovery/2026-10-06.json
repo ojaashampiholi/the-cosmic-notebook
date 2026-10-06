@@ -1,9 +1,9 @@
 {
   "date": "2026-10-06",
-  "status": "frozen",
-  "outcome": "FROZEN_NOT_COMMITTED",
-  "stage": "committed",
-  "workingTitle": "A planet candidate may have formed from a dead star's ashes",
+  "status": "published",
+  "outcome": "PUBLISHED",
+  "stage": "published",
+  "workingTitle": "A planet candidate appears to have formed after its star died",
   "intendedFilename": "2026-10-06_exoplanets_white-dwarf-second-generation-planet.json",
   "topic": "Exoplanets / Planet Formation",
   "publicationDate": "2026-10-05",
@@ -49,8 +49,9 @@
     "sourceUrl": "https://www.nature.com/articles/s41550-026-02983-7/figures/2"
   },
   "recovery": {
-    "status": "ready",
-    "lastError": null
+    "status": "complete",
+    "lastError": null,
+    "note": "The original content-commit deployment was cancelled by GitHub Actions concurrency after a checkpoint update; the replacement deployment containing the same content completed successfully."
   },
   "validation": {
     "bodyWords": 549,
@@ -61,5 +62,9 @@
     "imageChecks": "passed: 14 images tracked, no repeats",
     "build": "passed with zero Astro diagnostics; discovery checks passed"
   },
-  "commitSha": "0c4d99c7fedad6e6eb8b7d6b79edaff8bb9ed090"
+  "commitSha": "0c4d99c7fedad6e6eb8b7d6b79edaff8bb9ed090",
+  "finalFilename": "2026-10-06_exoplanets_white-dwarf-second-generation-planet.json",
+  "deployRunId": "37469817206",
+  "deployRunUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/37469817206",
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-06_exoplanets_white-dwarf-second-generation-planet/"
 }
