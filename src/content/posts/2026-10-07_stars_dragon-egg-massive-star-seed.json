@@ -1,0 +1,28 @@
+{
+  "title": "ALMA finds a compact seed where a massive star may be forming",
+  "topic": "Stars & Stellar Evolution",
+  "date": "2026-10-07",
+  "freshness": "Accepted Astronomy & Astrophysics paper posted publicly on October 5, 2026, within the preferred 15-day search window.",
+  "excerpt": "ALMA found that the brightest part of a cold cloud nicknamed the dragon egg stays concentrated into one compact peak at scales down to about 175 astronomical units. The result may capture a massive star near the beginning of its formation, but the source could already hide a small protostar.",
+  "whyItMatters": "Astronomers still debate whether massive stars begin inside large, preassembled cores or grow mainly by drawing material from their surroundings. This unusually compact source, nested inside a much larger reservoir, offers a rare test of both routes at an extremely early stage.",
+  "exploreFurther": {
+    "label": "Read the accepted paper on arXiv",
+    "url": "https://arxiv.org/html/2610.07138v1"
+  },
+  "whatToExploreNext": "How can molecular lines and deeper outflow searches reveal whether the dragon egg is still prestellar or already contains a faint protostar?",
+  "sources": [
+    {
+      "label": "Barnes et al., accepted by Astronomy & Astrophysics",
+      "url": "https://arxiv.org/html/2610.07138v1"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-10-07-dragon-egg-alma.png",
+    "thumbSrc": "images/notes/2026-10-07-dragon-egg-alma-thumb.png",
+    "alt": "Three ALMA radio maps zooming from the Dragon Cloud into the single bright compact source C2c1a(a)",
+    "credit": "A. T. Barnes et al.",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/html/2610.07138v1#S1.F2"
+  },
+  "body": "## A bright point inside a dark cloud\n\nA dense knot of gas and dust nicknamed the dragon egg remains a single compact peak even when ALMA zooms in to scales of about 175 astronomical units. That makes it one of the sharpest available views of what may be the seed of a massive star.\n\nThe object, formally called C2c1a(a), lies about 16,000 light-years away in an infrared-dark cloud named G028.37+00.07. Such clouds appear dark because their cold dust blocks background infrared light. Inside them, gravity can gather material into cores that may eventually form stars. The dragon egg is unusually interesting because it is dense and quiet, with few of the familiar signs that a newborn star has already switched on.\n\nMassive stars, meaning stars born with more than about eight times the Sun's mass, are difficult to catch at this stage. They form quickly, remain hidden by dust, and soon reshape their surroundings with radiation and outflows. Astronomers therefore disagree about their starting conditions. One family of models begins with a massive core already assembled. Other models emphasize a smaller central seed that keeps growing as gas flows in from a much larger cloud.\n\n## What ALMA measured\n\nThe team used ALMA at a wavelength of 1.3 millimetres, where cold dust emits light that can escape the obscuring cloud. At moderate resolution, the region breaks into several fragments. Yet the brightest central component does not split again at the highest resolution. Its measured, beam-corrected radius is about 87 astronomical units, a little more than twice Pluto's average distance from the Sun. The nearest separate fragment is about 2,400 astronomical units away.\n\nThe compact peak has a brightness temperature near 39 kelvins. That is much warmer than the roughly 10 kelvin temperature previously measured across the larger cloud, suggesting a steep temperature rise toward the centre. The amount of material in the peak is harder to determine because dust mass depends strongly on temperature and opacity. Using the measured brightness temperature gives estimates from about 1.9 to 12.8 solar masses. If much of the dust is still near 10 kelvins, the mass could approach 30 Suns. The surrounding reservoir contains roughly 100 to 110 solar masses across about 10,000 astronomical units.\n\nALMA detected only weak molecular emission near the source. It found no strong chemical markers of a hot core and no high-speed gas flow that could be securely traced back to the compact peak. Those absences fit a very early stage, but they are not proof that the core is starless. A weak outflow could be hidden, poorly oriented, or too faint for these observations. Thick dust could also conceal molecular lines.\n\n## A test, not a verdict\n\nWhat is measured is a single, exceptionally compact concentration inside a far larger cold reservoir. The idea that it is an early massive-star seed is an interpretation. Its warm centre may already contain a faint protostar, and uncertainty in the dust temperature leaves its mass poorly constrained.\n\nThe result therefore does not choose one formation theory. A preassembled massive core could be present, or a smaller object could still gain most of its mass from the reservoir around it. Deeper searches for molecular lines, outflows, and temperature structure can reveal which picture better describes this rare early snapshot."
+}

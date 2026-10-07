@@ -1,6 +1,17 @@
 {
   "images": [
     {
+      "id": "arxiv-2610-07138-figure-2",
+      "note": "2026-10-07_stars_dragon-egg-massive-star-seed",
+      "files": [
+        "images/notes/2026-10-07-dragon-egg-alma.png",
+        "images/notes/2026-10-07-dragon-egg-alma-thumb.png"
+      ],
+      "credit": "A. T. Barnes et al.",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://arxiv.org/html/2610.07138v1#S1.F2"
+    },
+    {
       "id": "nature-s41550-026-02983-7-figure-2",
       "note": "2026-10-06_exoplanets_white-dwarf-second-generation-planet",
       "files": [
