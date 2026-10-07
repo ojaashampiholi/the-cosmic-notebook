@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-07",
+  "status": "frozen",
+  "outcome": "FROZEN_NOT_COMMITTED",
+  "stage": "verified",
+  "workingTitle": "A tiny dragon egg may hold the seed of a massive star",
+  "intendedFilename": "2026-10-07_stars_dragon-egg-massive-star-seed.json",
+  "topic": "Stars & Stellar Evolution",
+  "publicationDate": "2026-10-05",
+  "freshnessWindow": "15 days",
+  "publicationStatus": "Accepted for publication in Astronomy & Astrophysics; public arXiv preprint",
+  "primarySourceUrls": [
+    "https://arxiv.org/abs/2610.07138",
+    "https://arxiv.org/html/2610.07138v1"
+  ],
+  "coreFacts": [
+    "ALMA Band 6 observations resolved the C2c1 region in the dragon cloud at about 175 to 400 astronomical units.",
+    "The brightest component, C2c1a(a), remains a single compact continuum peak down to about 175 astronomical units, with a deconvolved radius near 87 astronomical units.",
+    "Its brightness temperature is about 39 to 40 kelvins, above the roughly 10 kelvin temperature inferred at lower resolution.",
+    "Continuum-based mass estimates span roughly 1.9 to 12.8 solar masses under the measured brightness-temperature assumption, while a colder 10-kelvin assumption permits about 30 solar masses.",
+    "The compact source lies inside a larger cold reservoir containing roughly 100 to 110 solar masses on scales near 10,000 astronomical units."
+  ],
+  "caveats": [
+    "The dust temperature is uncertain, so the compact peak may be a cold massive core or a warmer lower-mass component.",
+    "No robust outflow is associated with the peak, but a weak, deeply embedded, or unfavourably oriented outflow cannot be excluded.",
+    "The observations do not prove that the core is starless and do not uniquely distinguish monolithic core accretion from continued growth out of the surrounding reservoir.",
+    "No additional compact fragments were detected only within the present resolution and sensitivity limits."
+  ],
+  "sources": [
+    {
+      "label": "Barnes et al., accepted Astronomy & Astrophysics paper",
+      "url": "https://arxiv.org/html/2610.07138v1"
+    }
+  ],
+  "sourceStatus": "The full accepted paper, methods, measurements, conclusions, caveats, submission history, and CC BY 4.0 license were read.",
+  "image": {
+    "status": "not_checked"
+  },
+  "recovery": {
+    "status": "ready",
+    "lastError": null
+  }
+}
