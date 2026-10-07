@@ -1,9 +1,9 @@
 {
   "date": "2026-10-07",
-  "status": "frozen",
-  "outcome": "FROZEN_NOT_COMMITTED",
-  "stage": "committed",
-  "workingTitle": "A tiny dragon egg may hold the seed of a massive star",
+  "status": "published",
+  "outcome": "PUBLISHED",
+  "stage": "published",
+  "workingTitle": "ALMA finds a compact seed where a massive star may be forming",
   "intendedFilename": "2026-10-07_stars_dragon-egg-massive-star-seed.json",
   "topic": "Stars & Stellar Evolution",
   "publicationDate": "2026-10-05",
@@ -45,7 +45,7 @@
     "sourceUrl": "https://arxiv.org/html/2610.07138v1#S1.F2"
   },
   "recovery": {
-    "status": "ready",
+    "status": "complete",
     "lastError": null
   },
   "validation": {
@@ -57,5 +57,9 @@
     "imageChecks": "passed: 15 images tracked, no repeats",
     "build": "passed with zero Astro diagnostics; discovery checks passed for 41 notes"
   },
-  "commitSha": "ec6ba7f63c8dabfac5226b96897ed498cf520608"
+  "commitSha": "ec6ba7f63c8dabfac5226b96897ed498cf520608",
+  "finalFilename": "2026-10-07_stars_dragon-egg-massive-star-seed.json",
+  "deployRunId": "37627153769",
+  "deployRunUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/37627153769",
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-07_stars_dragon-egg-massive-star-seed/"
 }
