@@ -2,7 +2,7 @@
   "date": "2026-10-07",
   "status": "frozen",
   "outcome": "FROZEN_NOT_COMMITTED",
-  "stage": "verified",
+  "stage": "draft_validated",
   "workingTitle": "A tiny dragon egg may hold the seed of a massive star",
   "intendedFilename": "2026-10-07_stars_dragon-egg-massive-star-seed.json",
   "topic": "Stars & Stellar Evolution",
@@ -34,10 +34,27 @@
   ],
   "sourceStatus": "The full accepted paper, methods, measurements, conclusions, caveats, submission history, and CC BY 4.0 license were read.",
   "image": {
-    "status": "not_checked"
+    "status": "included",
+    "id": "arxiv-2610-07138-figure-2",
+    "files": [
+      "images/notes/2026-10-07-dragon-egg-alma.png",
+      "images/notes/2026-10-07-dragon-egg-alma-thumb.png"
+    ],
+    "credit": "A. T. Barnes et al.",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/html/2610.07138v1#S1.F2"
   },
   "recovery": {
     "status": "ready",
     "lastError": null
+  },
+  "validation": {
+    "bodyWords": 545,
+    "json": "passed",
+    "topics": "passed",
+    "humanizer": "passed",
+    "sourceLinks": "passed",
+    "imageChecks": "passed: 15 images tracked, no repeats",
+    "build": "passed with zero Astro diagnostics; discovery checks passed for 41 notes"
   }
 }
