@@ -2,7 +2,7 @@
   "date": "2026-10-07",
   "status": "frozen",
   "outcome": "FROZEN_NOT_COMMITTED",
-  "stage": "draft_validated",
+  "stage": "committed",
   "workingTitle": "A tiny dragon egg may hold the seed of a massive star",
   "intendedFilename": "2026-10-07_stars_dragon-egg-massive-star-seed.json",
   "topic": "Stars & Stellar Evolution",
@@ -56,5 +56,6 @@
     "sourceLinks": "passed",
     "imageChecks": "passed: 15 images tracked, no repeats",
     "build": "passed with zero Astro diagnostics; discovery checks passed for 41 notes"
-  }
+  },
+  "commitSha": "ec6ba7f63c8dabfac5226b96897ed498cf520608"
 }
