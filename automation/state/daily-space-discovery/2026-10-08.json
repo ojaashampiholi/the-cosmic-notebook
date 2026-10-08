@@ -18,9 +18,13 @@
     "The authors infer that interchange reconnection released the switchback, while waves and turbulence shaped its later propagation through the solar wind.",
     "The evidence comes from one exceptionally large switchback, so the result does not establish that every switchback forms in the same way."
   ],
+  "caveats": [
+    "The detailed source reconstruction concerns one unusually large switchback.",
+    "The Nature Astronomy article is peer reviewed; the full paper page was access-restricted in the research environment, but its indexed abstract and the complete ESA author release were read."
+  ],
   "sources": [
     {
-      "label": "Nature Astronomy paper",
+      "label": "Coburn et al. in Nature Astronomy",
       "url": "https://www.nature.com/articles/s41550-026-02928-0"
     },
     {
@@ -28,9 +32,20 @@
       "url": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks"
     }
   ],
-  "stage": "frozen",
+  "sourceStatus": "Primary journal abstract and complete ESA release verified; no secondary corroboration needed.",
+  "stage": "draft_validated",
+  "validation": {
+    "bodyWords": 560,
+    "json": true,
+    "taxonomy": true,
+    "humanizerGate": true,
+    "imageCheck": true,
+    "build": true,
+    "discoveryCheck": true
+  },
   "image": {
-    "status": "not_checked"
+    "status": "skipped",
+    "reason": "The newest ten notes retain six illustrated entries without an image, within the six-or-seven target."
   },
   "recovery": {
     "status": "clean",
