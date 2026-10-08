@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-08",
+  "status": "frozen_not_committed",
+  "workingTitle": "Solar Orbiter traced a magnetic switchback back to the Sun",
+  "intendedFilename": "2026-10-08_sun-space-weather_solar-switchback-origin.json",
+  "topic": "Sun & Space Weather",
+  "publicationDate": "2026-10-08",
+  "freshnessWindow": "15 days",
+  "freshness": "Peer-reviewed Nature Astronomy paper and ESA release published 2026-10-08; preferred 15-day window.",
+  "primarySources": [
+    "https://www.nature.com/articles/s41550-026-02928-0",
+    "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks"
+  ],
+  "coreFacts": [
+    "Solar Orbiter flew through one unusually large magnetic switchback while roughly halfway between Earth and the Sun.",
+    "Its Solar Wind Analyser measured charged oxygen and carbon whose composition pointed to hot closed magnetic loops in the solar corona.",
+    "The team connected the in-situ measurements with solar images and magnetic-field modeling, tracing the plasma to interchange reconnection between closed and open field regions.",
+    "The authors infer that interchange reconnection released the switchback, while waves and turbulence shaped its later propagation through the solar wind.",
+    "The evidence comes from one exceptionally large switchback, so the result does not establish that every switchback forms in the same way."
+  ],
+  "sources": [
+    {
+      "label": "Nature Astronomy paper",
+      "url": "https://www.nature.com/articles/s41550-026-02928-0"
+    },
+    {
+      "label": "European Space Agency release",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter/Solar_Orbiter_tracks_origin_of_mysterious_magnetic_switchbacks"
+    }
+  ],
+  "stage": "frozen",
+  "image": {
+    "status": "not_checked"
+  },
+  "recovery": {
+    "status": "clean",
+    "lastError": null
+  }
+}
