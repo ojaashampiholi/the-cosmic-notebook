@@ -1,8 +1,9 @@
 {
   "date": "2026-10-08",
-  "status": "frozen_not_committed",
+  "status": "committed_not_live",
   "workingTitle": "Solar Orbiter traced a magnetic switchback back to the Sun",
   "intendedFilename": "2026-10-08_sun-space-weather_solar-switchback-origin.json",
+  "finalFilename": "2026-10-08_sun-space-weather_solar-switchback-origin.json",
   "topic": "Sun & Space Weather",
   "publicationDate": "2026-10-08",
   "freshnessWindow": "15 days",
@@ -33,7 +34,12 @@
     }
   ],
   "sourceStatus": "Primary journal abstract and complete ESA release verified; no secondary corroboration needed.",
-  "stage": "draft_validated",
+  "stage": "committed",
+  "commitSha": "4b0466f0d55d2d097b49ee3acd2af65f2898fc3d",
+  "readBack": {
+    "verified": true,
+    "blobSha": "c80840117b4cbc7ca7ec3e15ad5f23960f76b2c0"
+  },
   "validation": {
     "bodyWords": 560,
     "json": true,
