@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-09",
+  "status": "published",
+  "stage": "published",
+  "workingTitle": "ALMA finds a fully heavy version of methanol around a young star",
+  "intendedFilename": "2026-10-09_stars_fully-deuterated-methanol.json",
+  "topic": "Stars & Stellar Evolution",
+  "publicationDate": "2026-10-05",
+  "freshnessWindow": "15 days",
+  "freshness": "Belloche et al. first posted their accepted Astronomy & Astrophysics manuscript on October 5, 2026; ALMA released the result on October 7, 2026. Preferred 15-day window.",
+  "primarySources": [
+    "https://arxiv.org/abs/2610.07279",
+    "https://www.almaobservatory.org/en/press-releases/cosmic-cocktail-alma-reveals-exotic-methanol-around-young-stars/"
+  ],
+  "coreFacts": [
+    "ALMA COMPASS detected fully deuterated methanol (CD3OD) toward IRAS4A2 in the Perseus molecular cloud, approximately 290 parsecs away.",
+    "All four hydrogen atoms in methanol (CH3OH) are replaced by deuterium.",
+    "Spectral identification was made by comparison with laboratory line predictions and multi-molecule spectral modeling.",
+    "Observed enrichment among methanol isotopic variants is not quantitatively reproduced by current chemical models.",
+    "Inferred methanol abundance may be underestimated due to source structure, affecting precise isotope ratios."
+  ],
+  "caveats": [
+    "Manuscript accepted for Astronomy & Astrophysics; public preprint first posted October 5, 2026.",
+    "The detection is secure but chemical abundance ratios depend on radiative transfer modeling.",
+    "The result is not evidence of biology or planets containing the detected molecule."
+  ],
+  "sources": [
+    {
+      "label": "Belloche et al., COMPASS VII, accepted Astronomy & Astrophysics manuscript",
+      "url": "https://arxiv.org/abs/2610.07279"
+    },
+    {
+      "label": "ALMA Observatory, October 7 science release",
+      "url": "https://www.almaobservatory.org/en/press-releases/cosmic-cocktail-alma-reveals-exotic-methanol-around-young-stars/"
+    }
+  ],
+  "sourceStatus": "Original accepted manuscript and original ALMA release inspected.",
+  "image": {
+    "status": "skipped",
+    "reason": "Six of the most recent ten notes have images; rights for a new image were not independently verified."
+  },
+  "validation": {
+    "json": true,
+    "taxonomy": true,
+    "humanizerGate": true,
+    "bodyWords": 609,
+    "build": true
+  },
+  "recovery": {
+    "status": "recovered_successfully",
+    "lastError": null,
+    "notes": "Watchdog recovery wrote the frozen note to main; exact content commit built and deployed successfully; IndexNow accepted the generated note URL with HTTP 200."
+  },
+  "commitSha": "635c4c4d431472619328a8882677ed85e835ce9e",
+  "deployRunId": 37941741028,
+  "deployRunUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/37941741028",
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-09_stars_fully-deuterated-methanol/"
+}
