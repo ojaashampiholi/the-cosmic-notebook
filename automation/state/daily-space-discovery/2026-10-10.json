@@ -1,7 +1,7 @@
 {
   "date": "2026-10-10",
-  "status": "committed",
-  "stage": "committed",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "MeerKAT detects the combined hydrogen signal of distant galaxies",
   "intendedFilename": "2026-10-10_cosmology_meerkat-hydrogen-intensity-map.json",
   "topic": "Cosmology & Early Universe",
@@ -32,7 +32,7 @@
     "id": "wikimedia-2018-meerkat-3",
     "license": "CC BY 3.0"
   },
-  "recovery": "Content commit verified on main; exact deployment run 38053289978 completed successfully. Live verification pending checkpoint update.",
+  "recovery": "Published and live. No recovery action required.",
   "commitSha": "a97d42229eecf02665036ce123d46272861ac5be",
   "validation": {
     "json": "passed",
@@ -42,5 +42,17 @@
     "imageLedger": "passed",
     "humanizer": "passed",
     "build": "passed"
+  },
+  "deployment": {
+    "workflow": "Deploy Astro site to GitHub Pages",
+    "runId": 38053289978,
+    "headSha": "a97d42229eecf02665036ce123d46272861ac5be",
+    "conclusion": "success"
+  },
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-10_cosmology_meerkat-hydrogen-intensity-map/",
+  "liveVerification": {
+    "httpStatus": 200,
+    "titleMatched": true,
+    "verifiedAt": "2026-10-10T12:49:40Z"
   }
 }
