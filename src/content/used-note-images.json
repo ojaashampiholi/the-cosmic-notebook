@@ -167,6 +167,17 @@
       "credit": "NASA/JPL-Caltech/MSSS",
       "license": "NASA media usage guidelines (educational and informational use)",
       "sourceUrl": "https://www.jpl.nasa.gov/news/nasa-discovery-reveals-complex-water-systems-on-early-mars/"
+    },
+    {
+      "id": "wikimedia-2018-meerkat-3",
+      "note": "2026-10-10_cosmology_meerkat-hydrogen-intensity-map",
+      "files": [
+        "images/notes/2026-10-10-meerkat-hydrogen-map.jpg",
+        "images/notes/2026-10-10-meerkat-hydrogen-map-thumb.jpg"
+      ],
+      "credit": "Square Kilometre Array Organisation (SKAO) / South African Radio Astronomy Observatory (SARAO)",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018-MeerKAT-3.png"
     }
   ]
 }

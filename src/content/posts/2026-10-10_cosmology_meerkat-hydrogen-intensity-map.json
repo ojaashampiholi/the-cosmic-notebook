@@ -1,0 +1,28 @@
+{
+  "title": "MeerKAT maps distant hydrogen without resolving individual galaxies",
+  "topic": "Cosmology & Early Universe",
+  "date": "2026-10-10",
+  "freshness": "Accepted for publication in Monthly Notices of the Royal Astronomical Society and first made public on October 8, 2026; preferred 15-day search window.",
+  "excerpt": "MeerKAT has directly measured the combined 21-centimeter radio signal from neutral hydrogen across a large patch of the universe. The result shows that astronomers can map cosmic structure statistically without detecting every galaxy one by one.",
+  "whyItMatters": "Hydrogen intensity mapping could survey enormous cosmic volumes much faster than conventional galaxy catalogs. This 6.2 signal-to-noise detection shows that the method can work on the large scales needed for cosmology, while also exposing the systematics that future surveys must control.",
+  "exploreFurther": {
+    "label": "MeerKLASS Collaboration paper on arXiv",
+    "url": "https://arxiv.org/abs/2610.12158"
+  },
+  "whatToExploreNext": "How does the 21-centimeter line turn radio frequency into a third dimension for maps of the universe?",
+  "sources": [
+    {
+      "label": "MeerKLASS Collaboration paper on arXiv",
+      "url": "https://arxiv.org/abs/2610.12158"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-10-10-meerkat-hydrogen-map.jpg",
+    "thumbSrc": "images/notes/2026-10-10-meerkat-hydrogen-map-thumb.jpg",
+    "alt": "MeerKAT radio telescope dishes spread across the Karoo plain in South Africa",
+    "credit": "Square Kilometre Array Organisation (SKAO) / South African Radio Astronomy Observatory (SARAO)",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018-MeerKAT-3.png"
+  },
+  "body": "## A map made from blended galaxies\n\nNeutral hydrogen has a quiet radio signature. When the atom's proton and electron change their relative spin orientation, it can emit radiation with a wavelength of 21 centimeters. Cosmic expansion stretches that wavelength, so the frequency received at Earth also reveals how far back the signal began its journey.\n\nThe MeerKLASS Collaboration has now used South Africa's MeerKAT telescope to measure this hydrogen glow directly on cosmological scales. The team did not identify separate galaxies. Instead, it used intensity mapping: add up all the radio brightness in each patch of sky and frequency slice, then measure how that brightness clusters across space. It is closer to studying the texture of a distant forest than counting every tree.\n\nThe observations covered about 236 square degrees and frequencies from 971.2 to 1023.6 megahertz. That range corresponds to neutral hydrogen at an effective redshift of 0.42. The researchers measured the signal's power spectrum, a statistical description of how strongly matter is clumped at different scales, with a signal-to-noise ratio of 6.2.\n\n## Finding a whisper beneath foregrounds\n\nThe difficult part was not collecting radio waves. It was separating the hydrogen signal from foreground emission and instrumental effects that are far brighter. The team split the 2021 MeerKAT observations into four subsets made from different observing blocks and telescope dishes. Each subset was cleaned independently. The researchers then cross-correlated the subsets: a real feature in the sky should recur, while much of the noise and some instrument-specific contamination should not.\n\nThis approach allowed them to infer the hydrogen auto-spectrum using only the radio survey itself. Earlier MeerKLASS detections relied on cross-correlation with external optical galaxy catalogs. An internally recovered signal matters because intensity mapping is meant to become a survey tool in its own right, especially for the much larger Square Kilometre Array that will incorporate MeerKAT.\n\nThere is an important caveat. The individual subsets' auto-spectra still contained excess power that the authors attribute to unresolved systematics. Their result comes from combining cross-spectra, testing them against null cases, and accounting for cosmological signal removed during foreground cleaning. This is a robust statistical detection, not a pristine image of every hydrogen cloud, and its estimate of the cosmic hydrogen abundance remains broad.\n\n**Measured:** a 21-centimeter clustering signal at redshift 0.42 across a 236-square-degree field, detected at a signal-to-noise ratio of 6.2.\n\n**Inferred:** the result demonstrates that direct hydrogen intensity mapping can recover large-scale cosmic structure without first resolving and cataloging the contributing galaxies. Future, wider surveys can test whether the same method is stable enough for precision measurements of how structure and cosmic expansion change with time."
+}
