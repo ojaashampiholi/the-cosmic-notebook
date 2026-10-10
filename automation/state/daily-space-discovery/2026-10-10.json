@@ -1,7 +1,7 @@
 {
   "date": "2026-10-10",
-  "status": "frozen_not_committed",
-  "stage": "frozen",
+  "status": "committed",
+  "stage": "committed",
   "workingTitle": "MeerKAT detects the combined hydrogen signal of distant galaxies",
   "intendedFilename": "2026-10-10_cosmology_meerkat-hydrogen-intensity-map.json",
   "topic": "Cosmology & Early Universe",
@@ -28,7 +28,19 @@
     }
   ],
   "image": {
-    "status": "not_checked"
+    "status": "included",
+    "id": "wikimedia-2018-meerkat-3",
+    "license": "CC BY 3.0"
   },
-  "recovery": "Resume this exact selection. Do not select another discovery unless the candidate is invalidated by source or duplication evidence."
+  "recovery": "Content commit verified on main; exact deployment run 38053289978 completed successfully. Live verification pending checkpoint update.",
+  "commitSha": "a97d42229eecf02665036ce123d46272861ac5be",
+  "validation": {
+    "json": "passed",
+    "requiredFields": "passed",
+    "topic": "passed",
+    "sourceLinks": "HTTP 200",
+    "imageLedger": "passed",
+    "humanizer": "passed",
+    "build": "passed"
+  }
 }
