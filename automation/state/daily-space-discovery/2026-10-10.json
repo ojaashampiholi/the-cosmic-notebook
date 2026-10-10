@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-10",
+  "status": "frozen_not_committed",
+  "stage": "frozen",
+  "workingTitle": "MeerKAT detects the combined hydrogen signal of distant galaxies",
+  "intendedFilename": "2026-10-10_cosmology_meerkat-hydrogen-intensity-map.json",
+  "topic": "Cosmology & Early Universe",
+  "freshness": {
+    "resultDate": "2026-10-08",
+    "publicationStatus": "Accepted for publication in Monthly Notices of the Royal Astronomical Society; first public as arXiv:2610.12158 on 2026-10-08",
+    "searchWindow": "15 days"
+  },
+  "primaryUrls": [
+    "https://arxiv.org/abs/2610.12158",
+    "https://arxiv.org/html/2610.12158v1"
+  ],
+  "coreFacts": [
+    "MeerKLASS measured the 21-centimeter neutral-hydrogen auto-spectrum directly at redshift 0.42.",
+    "The analysis used 2021 MeerKAT data covering about 236 square degrees and 971.2 to 1023.6 MHz.",
+    "Independent data subsets were cross-correlated to suppress noise and uncorrelated systematics.",
+    "The inferred detection has signal-to-noise ratio 6.2.",
+    "Individual subset auto-spectra retain excess power attributed to unresolved systematics, a stated limitation."
+  ],
+  "sources": [
+    {
+      "label": "MeerKLASS Collaboration paper on arXiv",
+      "url": "https://arxiv.org/abs/2610.12158"
+    }
+  ],
+  "image": {
+    "status": "not_checked"
+  },
+  "recovery": "Resume this exact selection. Do not select another discovery unless the candidate is invalidated by source or duplication evidence."
+}
