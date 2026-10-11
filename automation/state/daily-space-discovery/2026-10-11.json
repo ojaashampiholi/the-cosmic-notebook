@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-11",
+  "status": "frozen",
+  "workingTitle": "Quaoar's moon Weywot is darker than expected",
+  "intendedFilename": "2026-10-11_solar-system_weywot-dark-moon.json",
+  "topic": "Solar System & Planetary Science",
+  "publicationDate": "2026-10-08",
+  "freshnessWindow": "15 days",
+  "publicationStatus": "Unreviewed arXiv preprint",
+  "primaryUrls": [
+    "https://arxiv.org/abs/2610.11988",
+    "https://arxiv.org/html/2610.11988v1"
+  ],
+  "coreFacts": [
+    "The study combines a June 2023 stellar occultation with photometry from 11 usable Hubble orbits.",
+    "The fitted volume-equivalent radius is 73 plus or minus 5 kilometers, with a triaxial shape.",
+    "The fitted V-band geometric albedo is 0.036, with uncertainties of +0.010 and -0.006.",
+    "The paper interprets the unusually low albedo as evidence that Weywot may not be made entirely of water-rich mantle debris."
+  ],
+  "caveats": [
+    "The paper is a preprint and has not yet completed peer review.",
+    "The shape model assumes Weywot rotates synchronously and that its spin pole aligns with its orbit pole.",
+    "The composition and origin are inferred from brightness and shape, not measured by spectroscopy."
+  ],
+  "sources": [
+    {
+      "label": "Collyer et al. preprint",
+      "url": "https://arxiv.org/abs/2610.11988"
+    }
+  ],
+  "stage": "frozen",
+  "image": {
+    "status": "not_checked"
+  },
+  "recovery": {
+    "status": "ready",
+    "lastError": null
+  }
+}
