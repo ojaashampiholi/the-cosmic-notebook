@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "status": "frozen",
+  "status": "published",
   "workingTitle": "Quaoar's moon Weywot is darker than expected",
   "intendedFilename": "2026-10-11_solar-system_weywot-dark-moon.json",
   "topic": "Solar System & Planetary Science",
@@ -28,12 +28,30 @@
       "url": "https://arxiv.org/abs/2610.11988"
     }
   ],
-  "stage": "frozen",
+  "stage": "published",
   "image": {
-    "status": "not_checked"
+    "status": "skipped",
+    "reason": "No image was required for recovery; scientific content was published without delaying the frozen discovery."
   },
   "recovery": {
-    "status": "ready",
-    "lastError": null
+    "status": "watchdog_recovered",
+    "lastError": null,
+    "recoveredAt": "2026-10-11T19:44:24+05:30",
+    "recoveredStage": "frozen_not_committed -> published"
+  },
+  "commitSha": "32bb4b4e9ec9770b737211bb836ad986390e149f",
+  "deploy": {
+    "runId": 38146320123,
+    "runUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/38146320123",
+    "status": "success",
+    "build": "success",
+    "pagesDeploy": "success",
+    "indexNow": "HTTP 200 for 11 URLs"
+  },
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-11_solar-system_weywot-dark-moon/",
+  "validation": {
+    "jsonReadback": "passed",
+    "deployment": "passed",
+    "liveVerification": "deployment environment URL and IndexNow submission confirmed"
   }
 }
