@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-12",
+  "status": "frozen",
+  "stage": "frozen",
+  "workingTitle": "A new galaxy model explains how early stars could form in bursts",
+  "intendedFilename": "2026-10-12_galaxies_sage26-early-bursts.json",
+  "topic": "Galaxies & Galactic Evolution",
+  "publicationDate": "2026-10-07",
+  "freshnessWindow": "15 days",
+  "publicationStatus": "Unreviewed arXiv preprint, first submitted October 7, 2026",
+  "primaryUrls": [
+    "https://arxiv.org/abs/2610.09564"
+  ],
+  "coreFacts": [
+    "SAGE26 updates the semi-analytic SAGE galaxy-evolution model with five observationally motivated improvements.",
+    "A feedback-free starburst pathway helps the model produce massive high-redshift galaxies at abundances seen by JWST.",
+    "The model distinguishes free-fall-limited gas inflow in low-mass halos from hydrostatic cooling in massive halos.",
+    "SAGE26 reproduces the stellar mass function and cosmic star-formation rate density across cosmic time.",
+    "Code and data products are reported as open-source and publicly available."
+  ],
+  "caveats": [
+    "Model predictions and population-level fits, not direct observations of feedback-free star formation in a specific galaxy.",
+    "Unreviewed preprint; mechanisms are model-dependent.",
+    "Agreement with aggregate observations does not uniquely establish the physical assumptions."
+  ],
+  "sources": [
+    {
+      "label": "Bradley et al., SAGE26 Paper I, arXiv preprint",
+      "url": "https://arxiv.org/abs/2610.09564"
+    }
+  ],
+  "image": {
+    "status": "not_checked"
+  },
+  "recovery": {
+    "status": "ready",
+    "lastError": null
+  }
+}
