@@ -1,7 +1,7 @@
 {
   "date": "2026-10-12",
-  "status": "frozen",
-  "stage": "frozen",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "A new galaxy model explains how early stars could form in bursts",
   "intendedFilename": "2026-10-12_galaxies_sage26-early-bursts.json",
   "topic": "Galaxies & Galactic Evolution",
@@ -30,10 +30,26 @@
     }
   ],
   "image": {
-    "status": "not_checked"
+    "status": "skipped",
+    "reason": "No image was required for watchdog recovery; the scientifically valid note was published without delaying recovery."
   },
   "recovery": {
-    "status": "ready",
-    "lastError": null
+    "status": "watchdog_recovered",
+    "lastError": null,
+    "recoveredAt": "2026-10-12T19:44:00+05:30",
+    "recoveredStage": "frozen_not_committed -> published"
+  },
+  "commitSha": "dc30cc91b18f32e2bf72fcd6978784bad37700b2",
+  "deploy": {
+    "runId": 38261311152,
+    "runUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/38261311152",
+    "status": "success",
+    "build": "success",
+    "pagesDeploy": "success"
+  },
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-12_galaxies_sage26-early-bursts/",
+  "validation": {
+    "jsonReadback": "passed",
+    "deployment": "passed"
   }
 }
