@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "status": "verified",
+  "status": "draft_validated",
   "workingTitle": "XRISM finds where iron hides in a dense Galactic sightline",
   "intendedFilename": "2026-10-14_galaxies_xrism-iron-dust.json",
   "topic": "Galaxies & Galactic Evolution",
@@ -29,14 +29,18 @@
       "url": "https://arxiv.org/abs/2610.14172"
     }
   ],
-  "stage": "verified",
+  "stage": "draft_validated",
   "image": {
-    "status": "not_checked",
-    "note": "Paper license does not permit straightforward reuse; evaluating a NASA mission illustration."
+    "status": "included",
+    "id": "nasa-svs-20374-xrism-001",
+    "credit": "NASA's Goddard Space Flight Center Conceptual Image Lab",
+    "license": "NASA media usage guidelines (educational and informational use)",
+    "sourceUrl": "https://svs.gsfc.nasa.gov/20374/"
   },
   "recovery": {
     "status": "ready",
     "lastError": null
   },
-  "sourceStatus": "Primary accepted paper read in full; independent corroboration not required for material claims."
+  "sourceStatus": "Primary accepted paper read in full; independent corroboration not required for material claims.",
+  "finalTitle": "XRISM finds where iron hides in a dense Galactic sightline"
 }
