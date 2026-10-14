@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "status": "frozen",
+  "status": "verified",
   "workingTitle": "XRISM finds where iron hides in a dense Galactic sightline",
   "intendedFilename": "2026-10-14_galaxies_xrism-iron-dust.json",
   "topic": "Galaxies & Galactic Evolution",
@@ -19,8 +19,9 @@
   ],
   "caveats": [
     "This is a pilot study of one high-column-density sightline.",
-    "The mineral fractions are inferred by comparing the spectrum with laboratory-based dust models.",
-    "The authors say the result may indicate that metallic iron and iron sulfides matter more in dense sightlines than in diffuse interstellar space."
+    "About one quarter of the tested dust mixtures fit the iron edge comparably well, so the paper reports broad composition trends rather than one unique mineral recipe.",
+    "The iron fractions depend on laboratory extinction templates; updated measurements of metallic iron and sulfides are still needed.",
+    "The gas-phase iron ionization state is another source of uncertainty."
   ],
   "sources": [
     {
@@ -28,12 +29,14 @@
       "url": "https://arxiv.org/abs/2610.14172"
     }
   ],
-  "stage": "frozen",
+  "stage": "verified",
   "image": {
-    "status": "not_checked"
+    "status": "not_checked",
+    "note": "Paper license does not permit straightforward reuse; evaluating a NASA mission illustration."
   },
   "recovery": {
     "status": "ready",
     "lastError": null
-  }
+  },
+  "sourceStatus": "Primary accepted paper read in full; independent corroboration not required for material claims."
 }
