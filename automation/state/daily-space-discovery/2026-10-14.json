@@ -47,5 +47,10 @@
   "finalFilename": "2026-10-14_galaxies_xrism-iron-dust.json",
   "deployRunId": 38568417776,
   "deployRunUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/38568417776",
-  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-14_galaxies_xrism-iron-dust/"
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-14_galaxies_xrism-iron-dust/",
+  "validation": {
+    "liveVerification": "Operator-confirmed live on website; page showed last updated 18:35 IST on 2026-10-14.",
+    "liveVerifiedAt": "2026-10-14T19:30:00+05:30",
+    "liveVerificationSource": "operator"
+  }
 }
