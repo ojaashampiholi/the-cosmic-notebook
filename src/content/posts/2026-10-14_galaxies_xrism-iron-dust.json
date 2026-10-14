@@ -1,0 +1,28 @@
+{
+  "title": "XRISM finds where iron hides in a dense Galactic sightline",
+  "topic": "Galaxies & Galactic Evolution",
+  "date": "2026-10-14",
+  "freshness": "Accepted for publication in the Astrophysical Journal and first made public on October 9, 2026; preferred 15-day search window.",
+  "excerpt": "XRISM has used a sharp X-ray absorption feature to probe iron-bearing dust between Earth and a bright neutron-star binary. Along this one dense sightline, the best-fitting models place about 95 percent of the iron in solids, with metallic iron and iron sulfides carrying most of that solid-phase iron.",
+  "whyItMatters": "Iron is abundant in interstellar dust, yet astronomers have struggled to identify the minerals that hold it. XRISM's first close look at the iron K-edge in a dense Milky Way sightline shows how X-ray spectroscopy can connect laboratory mineral fingerprints to the raw material that later enters stars, planets, and meteorites.",
+  "exploreFurther": {
+    "label": "Psaradaki et al. accepted paper on arXiv",
+    "url": "https://arxiv.org/abs/2610.14172"
+  },
+  "whatToExploreNext": "How do X-ray absorption edges preserve information about a dust grain's chemical bonds and crystal structure?",
+  "sources": [
+    {
+      "label": "Psaradaki et al. accepted paper on arXiv",
+      "url": "https://arxiv.org/abs/2610.14172"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-10-14-xrism-iron-dust.jpg",
+    "thumbSrc": "images/notes/2026-10-14-xrism-iron-dust-thumb.jpg",
+    "alt": "Artist's illustration of the gold-foil XRISM spacecraft with black solar panels on a white background",
+    "credit": "NASA's Goddard Space Flight Center Conceptual Image Lab",
+    "license": "NASA media usage guidelines (educational and informational use)",
+    "sourceUrl": "https://svs.gsfc.nasa.gov/20374/"
+  },
+  "body": "## Reading mineral fingerprints in X-rays\n\nMost iron drifting between the stars is not a free gas. It is locked inside dust grains, but the exact chemical forms have remained difficult to identify. XRISM has now read the absorption pattern of iron-bearing dust along a dense path through the Milky Way, using the bright X-ray binary GX 340+0 as a background lamp.\n\nThe useful feature is the iron K-edge near 7.1 kiloelectronvolts. When X-rays reach that energy, iron atoms absorb them much more efficiently. The detailed wiggles around the edge depend on how the atoms are bonded inside a solid. Those fine structures act like mineral fingerprints, provided a telescope can separate nearby X-ray energies sharply enough. XRISM's Resolve spectrometer has an energy resolution of about 5 electronvolts in this range.\n\nThe team combined two Resolve observations made in August and September 2024, totaling about 305,000 seconds. GX 340+0 lies roughly 11,000 parsecs away, toward the crowded inner Galaxy, behind a thick column of gas and dust. That heavy foreground absorption makes it unusually useful for studying the iron edge.\n\n## Iron outside the usual silicate picture\n\nThe researchers fitted the spectrum with gas absorption and laboratory-based templates for several solids. The acceptable mixtures consistently required three broad components. By total dust column, the models assigned about 53 percent to magnesium-rich silicates, 20 percent to metallic iron, and 27 percent to iron sulfides.\n\nThat is different from asking where the iron atoms themselves reside. Silicates can dominate the dust mass while containing relatively little iron. Within the solid-phase iron budget, the fitted models placed about 38 percent in metallic iron, 47 percent in iron sulfides, and the remaining 15 percent in silicates. The team also estimated that roughly 95 percent of all iron along the sightline is in dust rather than gas.\n\nThe result helps explain a long-running puzzle. Stars and supernovae inject much of their iron into space as gas, yet observations show that interstellar iron is heavily depleted from the gas phase. If metallic grains and sulfides are major reservoirs, iron may condense or grow onto grains after entering interstellar space instead of residing mainly inside iron-rich silicates.\n\nThere are important limits. This is a pilot study of one sightline. About one quarter of the tested mineral mixtures fit the iron edge comparably well, so the data reveal a composition trend rather than one unique recipe. The answer also depends on laboratory templates, and the authors call for improved measurements of metallic iron and sulfides.\n\n**Measured:** Resolve detected the iron K-edge through a high-column-density Galactic sightline and constrained the gas and dust absorption around it.\n\n**Inferred:** metallic iron and iron sulfides may carry a larger share of interstellar iron in dense environments than studies of more diffuse sightlines have suggested. More XRISM targets are needed to learn whether that pattern is common."
+}

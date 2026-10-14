@@ -1,6 +1,17 @@
 {
   "images": [
     {
+      "id": "nasa-svs-20374-xrism-001",
+      "note": "2026-10-14_galaxies_xrism-iron-dust",
+      "files": [
+        "images/notes/2026-10-14-xrism-iron-dust.jpg",
+        "images/notes/2026-10-14-xrism-iron-dust-thumb.jpg"
+      ],
+      "credit": "NASA's Goddard Space Flight Center Conceptual Image Lab",
+      "license": "NASA media usage guidelines (educational and informational use)",
+      "sourceUrl": "https://svs.gsfc.nasa.gov/20374/"
+    },
+    {
       "id": "arxiv-2610-07138-figure-2",
       "note": "2026-10-07_stars_dragon-egg-massive-star-seed",
       "files": [
