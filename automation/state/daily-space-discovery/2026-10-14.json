@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-14",
+  "status": "frozen",
+  "workingTitle": "XRISM finds where iron hides in a dense Galactic sightline",
+  "intendedFilename": "2026-10-14_galaxies_xrism-iron-dust.json",
+  "topic": "Galaxies & Galactic Evolution",
+  "publicationDate": "2026-10-09",
+  "freshnessWindow": "15 days",
+  "publicationStatus": "Accepted for publication in the Astrophysical Journal",
+  "primaryUrls": [
+    "https://arxiv.org/abs/2610.14172",
+    "https://arxiv.org/html/2610.14172v1"
+  ],
+  "coreFacts": [
+    "XRISM observed the bright X-ray binary GX 340+0 twice for a combined exposure of about 305 kiloseconds.",
+    "Resolve measured absorption around the iron K-edge near 7.1 keV along a dense Milky Way sightline.",
+    "The best-fit model places about 95 percent of the iron in dust rather than gas.",
+    "Of the solid-phase iron, the model assigns about 38 percent to metallic iron, 47 percent to iron sulfides, and the remainder to silicates."
+  ],
+  "caveats": [
+    "This is a pilot study of one high-column-density sightline.",
+    "The mineral fractions are inferred by comparing the spectrum with laboratory-based dust models.",
+    "The authors say the result may indicate that metallic iron and iron sulfides matter more in dense sightlines than in diffuse interstellar space."
+  ],
+  "sources": [
+    {
+      "label": "Psaradaki et al. accepted paper",
+      "url": "https://arxiv.org/abs/2610.14172"
+    }
+  ],
+  "stage": "frozen",
+  "image": {
+    "status": "not_checked"
+  },
+  "recovery": {
+    "status": "ready",
+    "lastError": null
+  }
+}
