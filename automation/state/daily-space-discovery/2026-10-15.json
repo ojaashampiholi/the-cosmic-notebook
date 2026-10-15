@@ -26,8 +26,8 @@
       "url": "https://arxiv.org/abs/2512.10951"
     }
   ],
-  "stage": "frozen",
-  "imageStatus": "evaluating CC0 Figure 1 from the author manuscript",
-  "noteCommit": null,
-  "liveUrl": null
+  "stage": "committed",
+  "imageStatus": "included: CC0 Figure 1 from the author manuscript",
+  "noteCommit": "4f82e085bd8938029cc93d3c95337b18893b491f",
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-15_cosmology_rotating-galaxy-clusters/"
 }
