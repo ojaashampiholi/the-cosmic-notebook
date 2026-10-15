@@ -1,6 +1,17 @@
 {
   "images": [
     {
+      "id": "goldstein-hill-2026-rksz-figure-1",
+      "note": "2026-10-15_cosmology_rotating-galaxy-clusters",
+      "files": [
+        "images/notes/2026-10-15-rotating-clusters.jpg",
+        "images/notes/2026-10-15-rotating-clusters-thumb.jpg"
+      ],
+      "credit": "Samuel Goldstein and J. Colin Hill",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://arxiv.org/abs/2512.10951"
+    },
+    {
       "id": "nasa-svs-20374-xrism-001",
       "note": "2026-10-14_galaxies_xrism-iron-dust",
       "files": [

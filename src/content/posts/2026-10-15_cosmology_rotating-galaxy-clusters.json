@@ -1,0 +1,32 @@
+{
+  "title": "Galaxy clusters leave a rotational fingerprint on the cosmic microwave background",
+  "topic": "Galaxies & Galactic Evolution / Cosmology & Early Universe",
+  "date": "2026-10-15",
+  "freshness": "Published in Physical Review Letters on October 13, 2026; preferred 15-day search window.",
+  "excerpt": "A stack of Planck microwave maps centered on 25 galaxy clusters shows a hot-cold dipole aligned with the clusters' inferred rotation directions. The 3.6-sigma result is the first robust evidence that internal gas motions can leave this rotational kinematic Sunyaev-Zel'dovich fingerprint on the cosmic microwave background.",
+  "whyItMatters": "Most matter in a galaxy cluster lies between its galaxies, much of it as hot gas. Reading that gas's motion from tiny changes in ancient microwave light gives astronomers a new way to study cluster rotation, mergers, and possible biases in cluster mass estimates.",
+  "exploreFurther": {
+    "label": "Goldstein and Hill paper in Physical Review Letters",
+    "url": "https://journals.aps.org/prl/abstract/10.1103/lz37-crg1"
+  },
+  "whatToExploreNext": "How does the kinematic Sunyaev-Zel'dovich effect turn the line-of-sight motion of hot cluster gas into a temperature pattern without changing the microwave spectrum?",
+  "sources": [
+    {
+      "label": "Goldstein and Hill paper in Physical Review Letters",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/lz37-crg1"
+    },
+    {
+      "label": "Goldstein and Hill full author manuscript on arXiv",
+      "url": "https://arxiv.org/abs/2512.10951"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-10-15-rotating-clusters.jpg",
+    "thumbSrc": "images/notes/2026-10-15-rotating-clusters-thumb.jpg",
+    "alt": "Stacked microwave temperature map showing a blue-red dipole across 25 galaxy clusters above a histogram placing the measured dipole in the tail of random results",
+    "credit": "Samuel Goldstein and J. Colin Hill",
+    "license": "CC0 1.0",
+    "sourceUrl": "https://arxiv.org/abs/2512.10951"
+  },
+  "body": "## A faint twist in ancient light\n\nGalaxy clusters contain hundreds or thousands of galaxies, but most of their ordinary matter is a thin, hot plasma between those galaxies. A new measurement has found a subtle way to watch that plasma move. When microwave light left over from the Big Bang passes through a cluster, electrons moving toward us shift the light one way while electrons moving away shift it the other. Across a rotating or merging cluster, that motion should make a tiny hot-cold pattern.\n\nThis is the rotational kinematic Sunyaev-Zel'dovich effect, usually shortened to rkSZ. The signal was predicted, and earlier work found hints, but it is hard to isolate. Its expected amplitude is only tens of microkelvin, while unrelated variations in the cosmic microwave background are much stronger.\n\nSamuel Goldstein and J. Colin Hill combined microwave intensity and polarization maps from the Planck satellite with galaxy redshifts from the Sloan Digital Sky Survey. They also cross-matched the systems with an X-ray cluster catalog. Their final sample contained 25 nearby, massive clusters, each with enough member galaxies to estimate a preferred direction of internal motion.\n\n## Turning many clusters into one clear pattern\n\nThe researchers split the galaxies in each cluster into two halves and searched for the axis that maximized their average redshift difference. One side then acted as the approaching side and the other as the receding side. They rotated every Planck cutout to put those inferred axes in the same direction, rescaled the clusters to a common size, and stacked the maps. A signal that would be washed out in an ordinary average could then add together.\n\nThe combined map shows a dipole of about 25 microkelvin aligned with the expected direction. To test how often noise might mimic it, the team repeated the procedure 30,000 times at random sky positions. The measured dipole exceeded 99.98 percent of those random results, a significance of 3.6 sigma. Its broad shape and amplitude are also qualitatively consistent with hydrodynamical simulations.\n\nThat does not mean the study has measured a single rotation speed for the clusters. The authors use \"rotational\" broadly: coherent spin, recent mergers, ongoing mergers, and gas sloshing can all create dipolar internal motion. The sample is small, the dipole is not perfectly aligned with the estimated axis, and a more conservative test using randomized angles gives about 2.9 sigma. The present data cannot cleanly separate those physical causes.\n\nWhat the measurement supplies is a new handle on cluster dynamics. Larger samples and sharper microwave maps could compare relaxed clusters with disturbed ones, reveal how much pressure comes from ordered motion, and test whether that motion biases cluster masses inferred from hot-gas pressure. Since cluster counts help constrain how structure grew across cosmic time, improving those mass estimates matters beyond the clusters themselves.\n\n**Measured:** a rotation-aligned microwave dipole appears in the weighted stack of 25 clusters at 3.6-sigma significance under the main noise model.\n\n**Inferred:** the dipole is produced by the kSZ effect from internal cluster-gas motion, but current data do not distinguish steady rotation from merger-driven flows."
+}
