@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-15",
+  "title": "Galaxy clusters leave a rotational fingerprint on the cosmic microwave background",
+  "filename": "2026-10-15_cosmology_rotating-galaxy-clusters.json",
+  "topic": "Galaxies & Galactic Evolution / Cosmology & Early Universe",
+  "publicationDate": "2026-10-13",
+  "freshnessWindow": "15 days",
+  "primaryUrls": [
+    "https://journals.aps.org/prl/abstract/10.1103/lz37-crg1",
+    "https://arxiv.org/abs/2512.10951"
+  ],
+  "verifiedFacts": [
+    "The analysis combined Planck microwave intensity and polarization data with Sloan Digital Sky Survey member-galaxy redshifts.",
+    "The final sample contained 25 nearby, massive, X-ray cross-matched galaxy clusters.",
+    "The oriented stack showed a rotation-aligned dipole at 3.6 sigma, exceeding 99.98 percent of 30,000 random stacks.",
+    "The authors use rotational kSZ broadly: the measured internal gas motions can include coherent rotation and merger-driven flows.",
+    "The signal amplitude and shape are qualitatively consistent with hydrodynamical simulations."
+  ],
+  "sources": [
+    {
+      "label": "Physical Review Letters paper",
+      "url": "https://journals.aps.org/prl/abstract/10.1103/lz37-crg1"
+    },
+    {
+      "label": "Author manuscript and full methods",
+      "url": "https://arxiv.org/abs/2512.10951"
+    }
+  ],
+  "stage": "frozen",
+  "imageStatus": "evaluating CC0 Figure 1 from the author manuscript",
+  "noteCommit": null,
+  "liveUrl": null
+}
