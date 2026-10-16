@@ -16,15 +16,23 @@
     "JWST rules out planets heavier than about 0.3 Jupiter masses beyond 0.5 arcseconds, weakening a massive-planet explanation for the tilt.",
     "Published disk inclination differences and other systematic uncertainties could affect the inferred misalignment probability."
   ],
+  "caveats": [
+    "The inferred mutual angle is a minimum because the sky-projected orientation does not supply every three-dimensional component.",
+    "Published disk inclinations and modeling systematics may change the misalignment probability.",
+    "No detected giant planet does not mean the system contains no planets."
+  ],
   "sources": [
     {
       "label": "Zhang et al., accepted by The Astrophysical Journal",
       "url": "https://arxiv.org/abs/2610.20700"
     }
   ],
-  "stage": "frozen",
+  "sourceStatus": "Primary paper full text verified; separate corroboration unnecessary for the paper's own measurements.",
+  "stage": "draft_validated",
   "image": {
-    "status": "not_checked"
+    "status": "included",
+    "id": "arxiv-2610-20700-figure-1",
+    "license": "CC BY 4.0"
   },
   "recovery": {
     "status": "ready",
