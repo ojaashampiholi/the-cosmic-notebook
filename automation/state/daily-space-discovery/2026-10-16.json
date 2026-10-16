@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "status": "committed",
+  "status": "published",
   "workingTitle": "A young star and its debris disk are tilted apart",
   "intendedFilename": "2026-10-16_planet-formation_misaligned-debris-disk.json",
   "finalFilename": "2026-10-16_planet-formation_misaligned-debris-disk.json",
@@ -29,15 +29,21 @@
     }
   ],
   "sourceStatus": "Primary paper full text verified; separate corroboration unnecessary for the paper's own measurements.",
-  "stage": "committed",
+  "stage": "published",
   "commitSha": "1bb8075bb7f55fa86445d5b62e2549a320806443",
+  "deploy": {
+    "runId": 38905639324,
+    "runUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/38905639324",
+    "status": "success"
+  },
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-16_planet-formation_misaligned-debris-disk/",
   "image": {
     "status": "included",
     "id": "arxiv-2610-20700-figure-1",
     "license": "CC BY 4.0"
   },
   "recovery": {
-    "status": "awaiting_deployment",
-    "lastError": null
+    "status": "complete",
+    "lastError": "Local HTTPS push lacked credentials; GitHub Git-data fallback succeeded without changing the frozen discovery."
   }
 }
