@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-16",
+  "status": "frozen",
+  "workingTitle": "A young star and its debris disk are tilted apart",
+  "intendedFilename": "2026-10-16_planet-formation_misaligned-debris-disk.json",
+  "topic": "Planet Formation",
+  "publicationDate": "2026-10-14",
+  "freshnessWindow": "15 days",
+  "primarySources": [
+    "https://arxiv.org/abs/2610.20700"
+  ],
+  "coreFacts": [
+    "JWST/NIRCam obtained the first scattered-light images of the 24-million-year-old CPD-72 2713 debris disk in the F210M and F444W filters.",
+    "Forward modeling measured characteristic scattered-light radii of 55.4 +3.0/-3.2 AU and 39.1 +4.6/-2.6 AU.",
+    "The minimum star-disk mutual tilt is about 27 degrees, and exceeds 10 degrees at 95% credibility in both filters.",
+    "JWST rules out planets heavier than about 0.3 Jupiter masses beyond 0.5 arcseconds, weakening a massive-planet explanation for the tilt.",
+    "Published disk inclination differences and other systematic uncertainties could affect the inferred misalignment probability."
+  ],
+  "sources": [
+    {
+      "label": "Zhang et al., accepted by The Astrophysical Journal",
+      "url": "https://arxiv.org/abs/2610.20700"
+    }
+  ],
+  "stage": "frozen",
+  "image": {
+    "status": "not_checked"
+  },
+  "recovery": {
+    "status": "ready",
+    "lastError": null
+  }
+}
