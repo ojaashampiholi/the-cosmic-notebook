@@ -1,6 +1,17 @@
 {
   "images": [
     {
+      "id": "arxiv-2610-20700-figure-1",
+      "note": "2026-10-16_planet-formation_misaligned-debris-disk",
+      "files": [
+        "images/notes/2026-10-16-cpd-72-2713-debris-disk.jpg",
+        "images/notes/2026-10-16-cpd-72-2713-debris-disk-thumb.jpg"
+      ],
+      "credit": "Jingwen Zhang et al.; figure cropped from the paper",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://arxiv.org/abs/2610.20700"
+    },
+    {
       "id": "goldstein-hill-2026-rksz-figure-1",
       "note": "2026-10-15_cosmology_rotating-galaxy-clusters",
       "files": [

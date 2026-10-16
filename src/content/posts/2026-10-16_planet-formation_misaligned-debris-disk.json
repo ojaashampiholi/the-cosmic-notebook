@@ -1,0 +1,28 @@
+{
+  "title": "A young star and its debris disk are tilted apart",
+  "topic": "Planet Formation",
+  "date": "2026-10-16",
+  "freshness": "Submitted October 14, 2026 and accepted by The Astrophysical Journal; found within the preferred 15-day window.",
+  "excerpt": "JWST has made the first scattered-light images of the debris disk around the 24-million-year-old star CPD-72 2713. The disk appears tilted relative to the star's equator, and the observations weaken one obvious explanation involving a massive hidden planet.",
+  "whyItMatters": "A young system whose star and debris belt point in different directions challenges the simple picture in which planets and leftover building material remain in one flat plane. Finding the cause could show whether some planetary systems inherit a tilt at birth or acquire it later.",
+  "exploreFurther": {
+    "label": "Zhang et al. paper accepted by The Astrophysical Journal",
+    "url": "https://arxiv.org/abs/2610.20700"
+  },
+  "whatToExploreNext": "How can late-arriving gas, stellar magnetism, or a passing star tilt a young disk without leaving a detectable giant planet?",
+  "sources": [
+    {
+      "label": "Zhang et al., A Misaligned Debris Disk relative to the Host Star CPD-72 2713 from JWST/NIRCam Imaging",
+      "url": "https://arxiv.org/abs/2610.20700"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-10-16-cpd-72-2713-debris-disk.jpg",
+    "thumbSrc": "images/notes/2026-10-16-cpd-72-2713-debris-disk-thumb.jpg",
+    "alt": "Six panels compare JWST near-infrared observations of the CPD-72 2713 debris disk with ring models and the residual light after each model is removed",
+    "credit": "Jingwen Zhang et al.; figure cropped from the paper",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/abs/2610.20700"
+  },
+  "body": "## A ring that does not share its star's tilt\n\nJWST has photographed a broad ring of dust around the young star CPD-72 2713 and found that the ring and star appear to lean in different directions. The system is only about 24 million years old and lies roughly 120 light-years away. It offers a view of a planetary system after its original gas-rich disk has mostly cleared but while collisions among leftover rocky and icy bodies still produce fresh dust.\n\nThat dusty structure is called a debris disk. It is not a solid ring. It is a thin, sparse belt of grains and larger bodies, somewhat like an enlarged young version of the Solar System's Kuiper Belt. Jingwen Zhang and colleagues used JWST's NIRCam instrument to make the first images of this disk in scattered light, meaning starlight reflected by the dust. They observed it at wavelengths centered near 2.1 and 4.4 micrometers.\n\nThe disk looks nearly face-on from Earth. By fitting ring models to both images, the team measured characteristic radii of about 55 astronomical units at the shorter wavelength and 39 astronomical units at the longer one. One astronomical unit is the average Earth-Sun distance. Earlier observations of the disk's heat with ALMA and Herschel placed cooler material much farther out, near 96 astronomical units. The difference suggests that reflected near-infrared light and thermal emission are highlighting separate regions or grain populations in the same system.\n\n## Comparing two axes\n\nTo learn how the star itself is oriented, the researchers combined its 4.47-day rotation period, measured from TESS brightness changes, with spectroscopy that measures the projected speed of its spinning surface. That calculation placed the stellar spin axis about 47 degrees from our line of sight. The disk models gave inclinations near 19 degrees.\n\nThose measurements imply a minimum star-disk separation of about 27 degrees in orientation. In both NIRCam bands, the analysis gives a 95 percent probability that the mutual tilt exceeds 10 degrees. The word minimum matters: the data do not reveal every component of the two directions in three dimensions, so the true angle could be larger. The authors also caution that published measurements of the disk's inclination differ and that modeling assumptions may affect the probability.\n\nA tilted planet can sometimes torque a debris disk over time. JWST found no such companion, reaching a sensitivity of roughly 0.3 Jupiter masses beyond 0.5 arcseconds from the star. The team's calculations indicate that a planet below that limit, or closer to the star, would work too slowly to tilt the whole belt within 24 million years. This does not prove that the system contains no planets. It makes a single inclined giant planet an unlikely explanation for the observed geometry.\n\nOther possibilities remain open. The disk may have formed tilted because material fell onto the young system from changing directions. Magnetic interaction between the star and its early disk could have tipped the stellar spin, or a stellar flyby could have disturbed the belt. The observation establishes the mismatch; it does not yet identify which history produced it."
+}
