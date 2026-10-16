@@ -1,8 +1,9 @@
 {
   "date": "2026-10-16",
-  "status": "frozen",
+  "status": "committed",
   "workingTitle": "A young star and its debris disk are tilted apart",
   "intendedFilename": "2026-10-16_planet-formation_misaligned-debris-disk.json",
+  "finalFilename": "2026-10-16_planet-formation_misaligned-debris-disk.json",
   "topic": "Planet Formation",
   "publicationDate": "2026-10-14",
   "freshnessWindow": "15 days",
@@ -28,14 +29,15 @@
     }
   ],
   "sourceStatus": "Primary paper full text verified; separate corroboration unnecessary for the paper's own measurements.",
-  "stage": "draft_validated",
+  "stage": "committed",
+  "commitSha": "1bb8075bb7f55fa86445d5b62e2549a320806443",
   "image": {
     "status": "included",
     "id": "arxiv-2610-20700-figure-1",
     "license": "CC BY 4.0"
   },
   "recovery": {
-    "status": "ready",
+    "status": "awaiting_deployment",
     "lastError": null
   }
 }
