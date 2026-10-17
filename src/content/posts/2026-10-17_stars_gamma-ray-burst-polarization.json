@@ -1,0 +1,28 @@
+{
+  "title": "A gamma-ray burst reveals a patchy magnetic field",
+  "topic": "Stars & Stellar Evolution",
+  "date": "2026-10-17",
+  "freshness": "Submitted October 14, 2026 and accepted by The Astrophysical Journal; found within the preferred 15-day window.",
+  "excerpt": "Gamma rays from GRB 181201A were strongly polarized, which means their electric fields tended to share a preferred direction. Small changes in that direction suggest a jet with magnetic patches rather than one globally uniform field.",
+  "whyItMatters": "Polarization preserves information about a gamma-ray burst jet that brightness and color alone cannot supply. It can separate competing explanations for how a collapsing star's outflow turns stored magnetic energy into an intense flash.",
+  "exploreFurther": {
+    "label": "Bal et al. paper accepted by The Astrophysical Journal",
+    "url": "https://arxiv.org/abs/2610.20580"
+  },
+  "whatToExploreNext": "How will larger samples from new gamma-ray polarimeters distinguish patchy synchrotron jets from Compton-drag emission viewed near a jet's edge?",
+  "sources": [
+    {
+      "label": "Bal et al., GRB 181201A: Spectropolarimetric Constraints on Prompt Emission and Magnetic Field Structure",
+      "url": "https://arxiv.org/abs/2610.20580"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-10-17-grb-181201a-polarization.jpg",
+    "thumbSrc": "images/notes/2026-10-17-grb-181201a-polarization-thumb.jpg",
+    "alt": "Two time-series plots show the high polarization degree and changing polarization angle of gamma-ray burst GRB 181201A over about 35 seconds",
+    "credit": "Dhruv S. Bal et al.; Figure 4 cropped from the paper",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/abs/2610.20580"
+  },
+  "body": "## Reading direction in a gamma-ray flash\n\nGamma rays from GRB 181201A arrived with a remarkably strong shared orientation. This property, called polarization, describes the preferred direction in which light's electric field oscillates. Ordinary brightness tells astronomers how much radiation reached a detector. Polarization adds a clue about the geometry and magnetic structure of the region that produced it.\n\nDhruv Bal and colleagues reanalyzed the burst using the IBIS instrument aboard ESA's INTEGRAL observatory. IBIS can register gamma rays that scatter between two detector layers. The directions of those scattering events form a pattern that changes with the incoming light's polarization. GRB 181201A is now the fourth polarized gamma-ray burst identified in the instrument's archive.\n\nThe team divided the brighter second episode into overlapping 10-second windows. Only three intervals had enough signal for well-constrained polarization values; later intervals supplied lower limits, while several weaker intervals remained unconstrained. Combining the three reliable measurements gave a polarization degree of about 81.5 percent, with an uncertainty of roughly 16 percentage points. The polarization stayed high while its angle shifted modestly through the flash.\n\nThat combination matters. Radiation escaping from a hot, opaque photosphere is generally expected to show polarization below about 40 percent in the models considered by the authors. The measurement therefore strongly disfavors a standard photospheric explanation for this burst. Synchrotron radiation, produced when fast charged particles spiral through magnetic fields, can reach much higher polarization.\n\n## Ordered nearby, patchy overall\n\nA single smooth magnetic structure should hold the polarization angle relatively steady. A completely tangled field would wash out much of the polarization. GRB 181201A appears to sit between those extremes: one or a few magnetic patches may have dominated the light at any moment, keeping the local field coherent, while different patches and an asymmetric jet produced the angle's gradual change.\n\nThe spectrum supplies a compatible clue. Its photon index hardened near the burst peak and softened in other intervals, without crossing a boundary that would conflict with standard synchrotron emission. Yet the spectral and polarization analyses cover different energy bands, so the researchers could not combine them into one decisive test.\n\nNor is synchrotron radiation the only surviving explanation. A process called Compton drag can also produce very high polarization if a narrow jet is viewed close to its sharp edge. Multi-zone synchrotron and magnetic-reconnection models remain viable as well. The authors say their uncertainties do not justify choosing firmly among those options.\n\nThe measurement has further limits. Adjacent time windows overlap by five seconds, so their results are correlated. The analysis pipeline does not yet include every possible instrumental and background effect, and its authors plan to reprocess the full IBIS burst catalog with an improved method. They expect the time trend to remain useful even if the absolute polarization values shift.\n\n**Measured:** the strongest intervals show persistently high polarization and a modest change in polarization angle.\n\n**Inferred:** locally coherent magnetic patches in a non-axisymmetric jet fit that pattern, but a special Compton-drag geometry has not been excluded."
+}

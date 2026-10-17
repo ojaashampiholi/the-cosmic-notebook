@@ -1,6 +1,17 @@
 {
   "images": [
     {
+      "id": "arxiv-2610-20580-figure-4",
+      "note": "2026-10-17_stars_gamma-ray-burst-polarization",
+      "files": [
+        "images/notes/2026-10-17-grb-181201a-polarization.jpg",
+        "images/notes/2026-10-17-grb-181201a-polarization-thumb.jpg"
+      ],
+      "credit": "Dhruv S. Bal et al.; Figure 4 cropped from the paper",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://arxiv.org/abs/2610.20580"
+    },
+    {
       "id": "arxiv-2610-20700-figure-1",
       "note": "2026-10-16_planet-formation_misaligned-debris-disk",
       "files": [
