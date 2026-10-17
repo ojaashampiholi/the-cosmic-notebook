@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-17",
+  "status": "frozen",
+  "workingTitle": "A gamma-ray burst reveals a patchy magnetic field",
+  "intendedFilename": "2026-10-17_stars_gamma-ray-burst-polarization.json",
+  "topic": "Stars & Stellar Evolution",
+  "publicationDate": "2026-10-14",
+  "freshnessWindow": "15 days",
+  "primarySources": [
+    "https://arxiv.org/abs/2610.20580"
+  ],
+  "coreFacts": [
+    "INTEGRAL/IBIS measured GRB 181201A as the fourth gamma-ray burst with a polarization detection in this instrument's sample.",
+    "The three highest-signal time bins give an integrated polarization degree of 81.5 +17.2/-15.7 percent.",
+    "The polarization angle changed modestly during the burst, while the photon spectrum evolved from hard to soft without violating the standard synchrotron limit.",
+    "The authors interpret the combination as compatible with synchrotron radiation from a locally coherent but globally patchy magnetic field in a non-axisymmetric jet.",
+    "A Compton-drag model viewed near the jet edge also remains viable, and the error bars do not allow the authors to choose strongly between the two."
+  ],
+  "sources": [
+    {
+      "label": "Bal et al., accepted by The Astrophysical Journal",
+      "url": "https://arxiv.org/abs/2610.20580"
+    }
+  ],
+  "stage": "frozen",
+  "image": {
+    "status": "not_checked"
+  },
+  "recovery": {
+    "status": "ready",
+    "lastError": null
+  }
+}
