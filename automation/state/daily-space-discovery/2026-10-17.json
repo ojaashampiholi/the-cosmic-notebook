@@ -16,15 +16,24 @@
     "The authors interpret the combination as compatible with synchrotron radiation from a locally coherent but globally patchy magnetic field in a non-axisymmetric jet.",
     "A Compton-drag model viewed near the jet edge also remains viable, and the error bars do not allow the authors to choose strongly between the two."
   ],
+  "caveats": [
+    "Reliable time-resolved polarization values come from only three high-signal intervals; other intervals are unconstrained or lower limits.",
+    "Adjacent 10-second analysis windows overlap by 5 seconds and are therefore correlated.",
+    "Polarization and spectral analyses use different energy ranges, limiting a joint interpretation.",
+    "The authors plan an updated pipeline and state that absolute polarization values could change, although they expect the temporal trend to persist."
+  ],
   "sources": [
     {
       "label": "Bal et al., accepted by The Astrophysical Journal",
       "url": "https://arxiv.org/abs/2610.20580"
     }
   ],
-  "stage": "frozen",
+  "sourceStatus": "Primary paper full text verified; separate corroboration unnecessary for the paper's own measurement and model comparison.",
+  "stage": "verified",
   "image": {
-    "status": "not_checked"
+    "status": "included",
+    "id": "arxiv-2610-20580-figure-4",
+    "license": "CC BY 4.0"
   },
   "recovery": {
     "status": "ready",
