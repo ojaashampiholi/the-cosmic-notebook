@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "status": "frozen",
+  "status": "published",
   "workingTitle": "A gamma-ray burst reveals a patchy magnetic field",
   "intendedFilename": "2026-10-17_stars_gamma-ray-burst-polarization.json",
   "topic": "Stars & Stellar Evolution",
@@ -29,14 +29,22 @@
     }
   ],
   "sourceStatus": "Primary paper full text verified; separate corroboration unnecessary for the paper's own measurement and model comparison.",
-  "stage": "draft_validated",
+  "stage": "published",
   "image": {
     "status": "included",
     "id": "arxiv-2610-20580-figure-4",
     "license": "CC BY 4.0"
   },
   "recovery": {
-    "status": "ready",
+    "status": "complete",
     "lastError": null
-  }
+  },
+  "finalFilename": "2026-10-17_stars_gamma-ray-burst-polarization.json",
+  "commitSha": "58c4bb697b3a4f98579315812a6a4c4f710fcd56",
+  "deploy": {
+    "runId": 39035380296,
+    "runUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/39035380296",
+    "status": "success"
+  },
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-17_stars_gamma-ray-burst-polarization/"
 }
