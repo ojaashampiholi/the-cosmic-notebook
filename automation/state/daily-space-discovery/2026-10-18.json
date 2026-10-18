@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "status": "verified",
+  "status": "published",
   "workingTitle": "An interstellar comet's fading coma points to short-lived icy grains",
   "intendedFilename": "2026-10-18_solar-system_3i-atlas-icy-grains.json",
   "topic": "Solar System & Planetary Science",
@@ -29,15 +29,23 @@
     }
   ],
   "sourceStatus": "Peer-reviewed primary paper full text verified, including observations, model assumptions, and limitations; separate corroboration was unnecessary for the authors' own measurements.",
-  "stage": "verified",
+  "stage": "published",
   "image": {
-    "status": "verified",
+    "status": "included",
     "id": "eso-eso2608c-3i-atlas",
     "license": "CC BY 4.0",
     "sourceUrl": "https://www.eso.org/public/images/eso2608c/"
   },
   "recovery": {
-    "status": "ready",
+    "status": "complete",
     "lastError": null
-  }
+  },
+  "finalFilename": "2026-10-18_solar-system_3i-atlas-icy-grains.json",
+  "commitSha": "1d4ec49da2e8403b96d296af130d45bf75a9c256",
+  "deploy": {
+    "runId": 39128802353,
+    "runUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/39128802353",
+    "status": "success"
+  },
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-18_solar-system_3i-atlas-icy-grains/"
 }
