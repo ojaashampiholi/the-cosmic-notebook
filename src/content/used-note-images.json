@@ -1,6 +1,17 @@
 {
   "images": [
     {
+      "id": "eso-eso2608c-3i-atlas",
+      "note": "2026-10-18_solar-system_3i-atlas-icy-grains",
+      "files": [
+        "images/notes/2026-10-18-3i-atlas-vlt.jpg",
+        "images/notes/2026-10-18-3i-atlas-vlt-thumb.jpg"
+      ],
+      "credit": "ESO/O. Hainaut",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://www.eso.org/public/images/eso2608c/"
+    },
+    {
       "id": "arxiv-2610-20580-figure-4",
       "note": "2026-10-17_stars_gamma-ray-burst-polarization",
       "files": [

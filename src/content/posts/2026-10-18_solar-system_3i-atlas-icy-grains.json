@@ -1,0 +1,28 @@
+{
+  "title": "An interstellar comet's fading coma points to short-lived icy grains",
+  "topic": "Solar System & Planetary Science",
+  "date": "2026-10-18",
+  "freshness": "Published in The Astrophysical Journal Letters and submitted to arXiv on October 15, 2026; found within the preferred 15-day window.",
+  "excerpt": "The outer coma of interstellar comet 3I/ATLAS briefly turned unusually blue, then its extra light faded across a span of roughly 64,000 to 72,000 kilometres. A new model links that pattern to tiny, lightly darkened ice grains that survived for only a limited time after leaving the comet.",
+  "whyItMatters": "3I/ATLAS formed around another star, so its dust offers a rare comparison with comets born in our own planetary system. The result shows how changes across a coma can constrain the size and makeup of extrasolar grains even when telescopes cannot resolve them individually.",
+  "exploreFurther": {
+    "label": "Liu et al. paper in The Astrophysical Journal Letters",
+    "url": "https://arxiv.org/abs/2610.21206"
+  },
+  "whatToExploreNext": "Could future interstellar comets show the same fading ice-grain component, or will each visitor preserve a different record of its home planetary system?",
+  "sources": [
+    {
+      "label": "Liu et al., Dust Activity Evolution and Constraints on Icy Grains in the Interstellar Comet 3I/ATLAS",
+      "url": "https://arxiv.org/abs/2610.21206"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-10-18-3i-atlas-vlt.jpg",
+    "thumbSrc": "images/notes/2026-10-18-3i-atlas-vlt-thumb.jpg",
+    "alt": "A bright fuzzy dot marks interstellar comet 3I/ATLAS against a dark sky filled with short star trails",
+    "credit": "ESO/O. Hainaut",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://www.eso.org/public/images/eso2608c/"
+  },
+  "body": "## A coma that changed from the inside out\n\nAfter interstellar comet 3I/ATLAS passed closest to the Sun, its inner haze faded faster than its outer haze. The outer region also became unusually blue for several weeks before that color difference disappeared. Together, those changes point to a temporary population of small, ice-rich grains that lost their ability to reflect sunlight as they travelled away from the comet.\n\nA comet's coma is the cloud of gas and dust surrounding its solid nucleus. Bin Liu and colleagues followed this coma with the Zwicky Transient Facility, using a consistent set of images from before and after perihelion, the comet's closest approach to the Sun. They measured brightness within circles ranging from 5,000 to 80,000 kilometres in projected radius.\n\nThe pattern depended on distance from the nucleus. After perihelion, light inside the smallest aperture declined more steeply than light in the largest one. Radial profiles from late November and early December 2025 were also much steeper than they became by January. Color measurements supplied a separate clue: the outer coma reached a blue g-r color of about 0.30, while regions closer to the nucleus remained redder. By January, the blue outer component had vanished.\n\nThe researchers represented the disappearing light as a fading component laid over a longer-lived dust coma. While that component was clearly present, its fitted destruction length stayed between about 64,000 and 72,000 kilometres. Its strength fell sharply through December. The similar scales found independently in the brightness and color profiles make a changing viewing angle alone an incomplete explanation.\n\n## Testing what could fade at that distance\n\nThe team then calculated how ice grains of different sizes and darkness would warm and sublimate. Sublimation is the direct change from solid ice to gas. Pure water-ice grains stayed intact for too long and should have travelled much farther than the observed fading length. Grains containing 1 or 5 percent absorbing carbon became too warm and disappeared too quickly.\n\nThe closest match came from water-ice grains about 5 to 10 micrometres across with roughly 0.1 percent carbonaceous material. That small dark fraction absorbs extra sunlight, raising the grain temperature enough to shorten its lifetime. A grain several micrometres wide is still far too small for these images to resolve, but a large population can alter the coma's brightness and color.\n\nThis is a model-based identification, not a direct picture of individual icy grains. The inferred size and carbon fraction depend on the assumed grain structure, ejection speed, and optical properties. Dust mass-loss estimates likewise depend on an adopted size distribution and on how long grains remain inside each measurement aperture.\n\nThere is another useful limit. The preferred icy-grain model produces about the right order of water near the main late-November observations, but its output drops faster than later, large-aperture water measurements. The fading grains therefore cannot explain every source of water around 3I/ATLAS. Continued release from the nucleus or grains with a wider range of sizes may also contribute.\n\n**Measured:** the inner coma faded faster, a blue outer component disappeared, and the extra light had a stable projected fading scale of roughly 64,000 to 72,000 kilometres.\n\n**Inferred:** short-lived, lightly carbon-contaminated ice grains fit all three patterns, but their exact size and composition remain model-dependent."
+}
