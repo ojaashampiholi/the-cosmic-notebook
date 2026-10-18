@@ -1,7 +1,7 @@
 {
   "date": "2026-10-18",
-  "status": "selected",
-  "workingTitle": "An interstellar comet carried short-lived icy grains",
+  "status": "verified",
+  "workingTitle": "An interstellar comet's fading coma points to short-lived icy grains",
   "intendedFilename": "2026-10-18_solar-system_3i-atlas-icy-grains.json",
   "topic": "Solar System & Planetary Science",
   "publicationDate": "2026-10-15",
@@ -14,12 +14,13 @@
     "The inner coma faded faster than the outer coma after perihelion, and the temporarily steep brightness profile coincided with an unusually blue outer coma.",
     "The fading component extended roughly 64,000 to 72,000 kilometres from the comet.",
     "Thermophysical modelling found the observed scale consistent with 5 to 10 micrometre icy grains containing about 0.1 percent absorbing carbonaceous material.",
-    "The authors infer that the early post-perihelion coma likely contained a short-lived, volatile-bearing grain population."
+    "The preferred grains can explain the order of the late-November water production but not later large-aperture measurements, so they are not the complete water source."
   ],
   "caveats": [
     "The icy-grain size and composition are model-dependent rather than directly measured.",
     "Dust mass-loss rates depend on assumed grain sizes and residence times.",
-    "A fading volatile-bearing component is the authors' preferred interpretation of the linked brightness and colour changes, not a unique direct detection of individual grains."
+    "The fading component is a preferred interpretation of linked brightness and colour changes, not a unique direct detection of individual grains.",
+    "Later water production requires continued release, a wider grain population, nucleus sublimation, or another contribution."
   ],
   "sources": [
     {
@@ -27,12 +28,13 @@
       "url": "https://arxiv.org/abs/2610.21206"
     }
   ],
-  "sourceStatus": "Primary peer-reviewed paper selected; full-text verification in progress.",
-  "stage": "selected",
+  "sourceStatus": "Peer-reviewed primary paper full text verified, including observations, model assumptions, and limitations; separate corroboration was unnecessary for the authors' own measurements.",
+  "stage": "verified",
   "image": {
-    "status": "candidate",
-    "id": "eso2608c",
-    "license": "CC BY 4.0"
+    "status": "verified",
+    "id": "eso-eso2608c-3i-atlas",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://www.eso.org/public/images/eso2608c/"
   },
   "recovery": {
     "status": "ready",
