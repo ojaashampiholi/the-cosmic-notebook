@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "status": "verified",
+  "status": "draft_validated",
   "workingTitle": "A hot Jupiter has two sharply different atmospheric edges",
   "intendedFilename": "2026-10-19_exoplanets_wasp-94a-b-two-limbs.json",
   "topic": "Exoplanets",
@@ -29,7 +29,17 @@
     }
   ],
   "sourceStatus": "Primary peer-reviewed paper full text verified, including injection-recovery tests, observations, and discussion limits; separate corroboration is unnecessary for the paper's own measurements and validation tests.",
-  "stage": "verified",
+  "stage": "draft_validated",
+  "validation": {
+    "json": "passed",
+    "requiredFields": "passed",
+    "topicTaxonomy": "passed",
+    "humanizerGate": "passed",
+    "imageLedger": "passed",
+    "imageChecks": "passed",
+    "astroBuild": "passed",
+    "bodyWordCount": 522
+  },
   "image": {
     "status": "included",
     "id": "arxiv-2610-22271-figure-4",
