@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-19",
+  "status": "selected",
+  "workingTitle": "A hot Jupiter has two sharply different atmospheric edges",
+  "intendedFilename": "2026-10-19_exoplanets_wasp-94a-b-two-limbs.json",
+  "topic": "Exoplanets",
+  "publicationDate": "2026-10-15",
+  "freshnessWindow": "15 days",
+  "primarySources": [
+    "https://arxiv.org/abs/2610.22271"
+  ],
+  "coreFacts": [
+    "The authors combined JWST NIRISS/SOSS and NIRSpec/G395H transit observations spanning 0.8 to 5.17 micrometres.",
+    "A wavelength-dependent shift in the fitted mid-transit time carries information about differences between the planet's leading and trailing atmospheric limbs.",
+    "Injection-recovery tests found the new joint transmission and time-shift method reduced molecular-abundance mean squared error by about 30 to 50 times for H2O and CO relative to the next best tested approach.",
+    "WASP-94A b's morning limb is aerosol dominated, while its evening limb constrains H2O, CO2, CO, and tentatively H2S.",
+    "At 1 millibar, the evening and morning temperatures are 1177 +51/-46 K and 763 +35/-27 K, a difference of 415 +/- 58 K."
+  ],
+  "caveats": [
+    "Morning-limb gas abundances remain unconstrained because high-altitude aerosols mask molecular absorption.",
+    "The composition synthesis assumes thermochemical equilibrium and uniform elemental enrichment.",
+    "Stellar flares, star spots, and faculae can also create time-dependent transit signals and must be excluded or modelled.",
+    "The framework assumes each limb has one thermal and chemical state during transit; rotating planets with stronger longitudinal variation may require more complex treatment."
+  ],
+  "sources": [
+    {
+      "label": "Mukherjee et al., accepted by The Astrophysical Journal Letters",
+      "url": "https://arxiv.org/abs/2610.22271"
+    }
+  ],
+  "sourceStatus": "Primary peer-reviewed paper full text verified, including injection-recovery tests, observations, and discussion limits.",
+  "stage": "selected",
+  "image": {
+    "status": "not_checked"
+  },
+  "recovery": {
+    "status": "ready",
+    "lastError": null
+  }
+}
