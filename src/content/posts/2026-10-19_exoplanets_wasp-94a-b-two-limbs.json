@@ -1,0 +1,28 @@
+{
+  "title": "A hot Jupiter has two sharply different atmospheric edges",
+  "topic": "Exoplanets",
+  "date": "2026-10-19",
+  "freshness": "Submitted October 15, 2026 and accepted by The Astrophysical Journal Letters; found within the preferred 15-day window.",
+  "excerpt": "JWST transit data reveal two very different edges of hot Jupiter WASP-94A b. Its morning edge is hidden by high aerosols, while its clearer evening edge is about 415 kelvin hotter and carries measurable molecular fingerprints.",
+  "whyItMatters": "Most transmission spectra blur a planet's morning and evening edges into one average atmosphere. Separating them gives astronomers a more faithful view of winds, clouds, temperatures, and chemistry on worlds that cannot be spatially resolved.",
+  "exploreFurther": {
+    "label": "Mukherjee et al. paper accepted by The Astrophysical Journal Letters",
+    "url": "https://arxiv.org/abs/2610.22271"
+  },
+  "whatToExploreNext": "How can repeated transits separate a planet's changing weather from stellar spots or flares that also distort transit timing?",
+  "sources": [
+    {
+      "label": "Mukherjee et al., A New Method for Constraining 3D Exoplanet Atmospheres: Application to WASP-94A b's Panchromatic Spectrum",
+      "url": "https://arxiv.org/abs/2610.22271"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-10-19-wasp-94a-b-limbs.png",
+    "thumbSrc": "images/notes/2026-10-19-wasp-94a-b-limbs-thumb.png",
+    "alt": "Two transmission spectra compare molecule-rich evening air on WASP-94A b with its smoother aerosol-covered morning edge",
+    "credit": "Sagnick Mukherjee et al.; Figure 4 cropped from the paper",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/abs/2610.22271"
+  },
+  "body": "## Timing a lopsided atmosphere\n\nHot Jupiter WASP-94A b does not present the same atmosphere on both sides as it crosses its star. Its morning edge is cool and covered by aerosols high enough to hide molecular features. The evening edge is clearer, about 415 kelvin hotter at a pressure of 1 millibar, and marked by water, carbon dioxide, carbon monoxide, and possibly hydrogen sulfide.\n\nThese two edges, called limbs, cannot be photographed separately. Astronomers usually study them through transmission spectroscopy: during a transit, some starlight filters through the planet's atmosphere, and different gases remove particular wavelengths. A standard spectrum averages the leading and trailing limbs together. That can make a genuinely three-dimensional atmosphere look like one uniform vertical column.\n\nSagnick Mukherjee and colleagues found another piece of information hiding in the same light curves. If one edge blocks more light than the other at a certain wavelength, a symmetric transit model shifts the fitted middle of the transit slightly earlier or later. Repeating that measurement across wavelengths creates a time-shift spectrum. It captures the asymmetry while remaining nearly uncorrelated with the ordinary, planet-wide transmission spectrum.\n\nThe team tested the method by injecting known atmospheric signals into simulated observations and trying to recover them. Treating separately fitted limb spectra as independent measurements produced strongly correlated errors and could bias some molecular abundances by three standard deviations. Jointly fitting the global transmission spectrum and time-shift spectrum reduced mean squared error for water and carbon monoxide by about 30 and 50 times, respectively, compared with the next-best tested approach. Abundance precision improved by roughly 2.6 to 5.9 times.\n\n## Two climates around one rim\n\nThe researchers then combined two JWST transits of WASP-94A b: 8.9 hours with NIRISS/SOSS and 8.0 hours with NIRSpec/G395H. Together they covered wavelengths from about 0.8 to 5.17 micrometres.\n\nAt 1 millibar, the retrieved morning temperature was 763 kelvin, with an uncertainty of about 30 kelvin. The evening temperature was 1,177 kelvin, with an uncertainty near 50 kelvin. The difference was 415 plus or minus 58 kelvin. High-altitude aerosols flattened the morning spectrum across the full wavelength range, so molecular abundances on that side could not be measured. The evening spectrum constrained water, carbon dioxide, carbon monoxide, and a tentative hydrogen-sulfide contribution.\n\nAssuming thermochemical equilibrium and equal enrichment of the relevant elements, the evening-side abundances correspond to a metallicity about 0.32 dex above solar and a carbon-to-oxygen ratio of 0.724. The paper reports both values as consistent with the host star. Those composition values depend on the equilibrium assumption; cooler planets may need models that include vertical mixing and disequilibrium chemistry.\n\nThe method also has practical limits. Star spots, faculae, and flares can change a transit's shape with time and imitate part of the signal. The model represents each limb with one thermal and chemical state during transit, an approximation that may fail when rotation brings strongly different regions into view.\n\n**Measured:** WASP-94A b has an aerosol-covered morning limb and a hotter, molecule-bearing evening limb in the combined JWST data.\n\n**Inferred:** a time-shift spectrum can recover these differences with much less bias than treating correlated limb spectra as independent measurements."
+}

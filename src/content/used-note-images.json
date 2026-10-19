@@ -1,6 +1,17 @@
 {
   "images": [
     {
+      "id": "arxiv-2610-22271-figure-4",
+      "note": "2026-10-19_exoplanets_wasp-94a-b-two-limbs",
+      "files": [
+        "images/notes/2026-10-19-wasp-94a-b-limbs.png",
+        "images/notes/2026-10-19-wasp-94a-b-limbs-thumb.png"
+      ],
+      "credit": "Sagnick Mukherjee et al.; Figure 4 cropped from the paper",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://arxiv.org/abs/2610.22271"
+    },
+    {
       "id": "eso-eso2608c-3i-atlas",
       "note": "2026-10-18_solar-system_3i-atlas-icy-grains",
       "files": [
