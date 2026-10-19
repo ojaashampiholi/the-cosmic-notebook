@@ -1,6 +1,6 @@
 {
   "date": "2026-10-19",
-  "status": "selected",
+  "status": "verified",
   "workingTitle": "A hot Jupiter has two sharply different atmospheric edges",
   "intendedFilename": "2026-10-19_exoplanets_wasp-94a-b-two-limbs.json",
   "topic": "Exoplanets",
@@ -11,7 +11,7 @@
   ],
   "coreFacts": [
     "The authors combined JWST NIRISS/SOSS and NIRSpec/G395H transit observations spanning 0.8 to 5.17 micrometres.",
-    "A wavelength-dependent shift in the fitted mid-transit time carries information about differences between the planet's leading and trailing atmospheric limbs.",
+    "A wavelength-dependent shift in fitted mid-transit time carries information about differences between the planet's leading and trailing atmospheric limbs.",
     "Injection-recovery tests found the new joint transmission and time-shift method reduced molecular-abundance mean squared error by about 30 to 50 times for H2O and CO relative to the next best tested approach.",
     "WASP-94A b's morning limb is aerosol dominated, while its evening limb constrains H2O, CO2, CO, and tentatively H2S.",
     "At 1 millibar, the evening and morning temperatures are 1177 +51/-46 K and 763 +35/-27 K, a difference of 415 +/- 58 K."
@@ -28,10 +28,13 @@
       "url": "https://arxiv.org/abs/2610.22271"
     }
   ],
-  "sourceStatus": "Primary peer-reviewed paper full text verified, including injection-recovery tests, observations, and discussion limits.",
-  "stage": "selected",
+  "sourceStatus": "Primary peer-reviewed paper full text verified, including injection-recovery tests, observations, and discussion limits; separate corroboration is unnecessary for the paper's own measurements and validation tests.",
+  "stage": "verified",
   "image": {
-    "status": "not_checked"
+    "status": "included",
+    "id": "arxiv-2610-22271-figure-4",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/abs/2610.22271"
   },
   "recovery": {
     "status": "ready",
