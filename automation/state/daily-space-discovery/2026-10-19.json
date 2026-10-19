@@ -1,8 +1,9 @@
 {
   "date": "2026-10-19",
-  "status": "draft_validated",
+  "status": "published",
   "workingTitle": "A hot Jupiter has two sharply different atmospheric edges",
   "intendedFilename": "2026-10-19_exoplanets_wasp-94a-b-two-limbs.json",
+  "finalFilename": "2026-10-19_exoplanets_wasp-94a-b-two-limbs.json",
   "topic": "Exoplanets",
   "publicationDate": "2026-10-15",
   "freshnessWindow": "15 days",
@@ -29,7 +30,7 @@
     }
   ],
   "sourceStatus": "Primary peer-reviewed paper full text verified, including injection-recovery tests, observations, and discussion limits; separate corroboration is unnecessary for the paper's own measurements and validation tests.",
-  "stage": "draft_validated",
+  "stage": "published",
   "validation": {
     "json": "passed",
     "requiredFields": "passed",
@@ -38,8 +39,21 @@
     "imageLedger": "passed",
     "imageChecks": "passed",
     "astroBuild": "passed",
-    "bodyWordCount": 522
+    "bodyWordCount": 522,
+    "committedReadback": "passed",
+    "liveHttp": 200,
+    "liveTitle": "passed",
+    "liveImage": "passed"
   },
+  "commitSha": "6ba2dd46648dddebc42e7298afd6dcb262efd89f",
+  "deployment": {
+    "workflow": "Deploy Astro site to GitHub Pages",
+    "runId": 39262117085,
+    "runUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/39262117085",
+    "status": "success",
+    "verifiedCommitSha": "6ba2dd46648dddebc42e7298afd6dcb262efd89f"
+  },
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-19_exoplanets_wasp-94a-b-two-limbs/",
   "image": {
     "status": "included",
     "id": "arxiv-2610-22271-figure-4",
@@ -47,7 +61,7 @@
     "sourceUrl": "https://arxiv.org/abs/2610.22271"
   },
   "recovery": {
-    "status": "ready",
+    "status": "complete",
     "lastError": null
   }
 }
