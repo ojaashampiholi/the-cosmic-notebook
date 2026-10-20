@@ -1,6 +1,6 @@
 {
   "date": "2026-10-20",
-  "status": "verified",
+  "status": "draft_validated",
   "workingTitle": "Warped galaxies place a tight limit on a dark fifth force",
   "intendedFilename": "2026-10-20_gravity_galaxy-warps-dark-fifth-force.json",
   "topic": "Gravity & Fundamental Physics / Cosmology & Early Universe",
@@ -31,7 +31,19 @@
     }
   ],
   "sourceStatus": "Full primary preprint read, including data selection, inference, mock tests, systematic variations, and long-range extrapolation. The paper directly supports all material claims; independent corroboration is not yet expected for a newly released preprint.",
-  "stage": "verified",
+  "stage": "draft_validated",
+  "validation": {
+    "json": "passed",
+    "requiredFields": "passed",
+    "topicTaxonomy": "passed",
+    "sourceLink": "passed",
+    "humanizerGate": "passed",
+    "imageChecks": "passed",
+    "astroBuild": "passed",
+    "discoveryChecks": "passed",
+    "bodyWordCount": 576,
+    "builtPages": 70
+  },
   "image": {
     "status": "skipped",
     "reason": "The rolling ten already contains seven illustrated notes; publication will prioritize the validated science without adding another image."
