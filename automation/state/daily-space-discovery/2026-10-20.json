@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-20",
+  "status": "frozen",
+  "workingTitle": "Warped galaxies place a tight limit on a dark fifth force",
+  "intendedFilename": "2026-10-20_gravity_galaxy-warps-dark-fifth-force.json",
+  "topic": "Gravity & Fundamental Physics / Cosmology & Early Universe",
+  "publicationDate": "2026-10-17",
+  "freshnessWindow": "15 days",
+  "publicationStatus": "Preliminary preprint; not yet peer reviewed; authors state it is to be submitted to Physical Review D.",
+  "primarySources": [
+    "https://arxiv.org/abs/2610.24618",
+    "https://arxiv.org/html/2610.24618v1"
+  ],
+  "coreFacts": [
+    "The authors measured U-shaped warp statistics for 3,968 usable edge-on disk galaxies drawn from Sloan Digital Sky Survey imaging.",
+    "A fifth force acting on dark matter but not stars would offset each galaxy's halo from its stellar disk and predict a cup-shaped warp aligned with the surrounding dark-matter field.",
+    "The measured warps show no statistically supported correlation with that predicted fifth-force field.",
+    "For force ranges of 8 megaparsecs and above, the fiducial 95% upper limit is 7.7e-4 of Newtonian gravity; an envelope over tested systematic variations gives a conservative limit of 1.7e-3.",
+    "For an effectively infinite-range rolling scalar, the authors report that the conservative limit is about three times tighter than the cited cosmological bound."
+  ],
+  "caveats": [
+    "The work is a new, unreviewed preprint.",
+    "The conservative limit is an envelope across model variations, not a standard single-model credible interval.",
+    "Galaxy halo profiles, baryonic warps, idealised disk structure, dust, and correlations in the reconstructed environment remain sources of systematic uncertainty.",
+    "The data directly reconstruct force ranges only through 8 megaparsecs; extending the limit to longer ranges relies on analytic and numerical arguments that the constraint strengthens with range."
+  ],
+  "sources": [
+    {
+      "label": "Desmond and Ferreira preprint",
+      "url": "https://arxiv.org/abs/2610.24618"
+    }
+  ],
+  "sourceStatus": "Full primary preprint read, including data selection, inference, mock tests, systematic variations, and long-range extrapolation. The paper directly supports all material claims; independent corroboration is not yet expected for a newly released preprint.",
+  "stage": "frozen",
+  "image": {
+    "status": "skipped",
+    "reason": "The rolling ten already contains seven illustrated notes; publication will prioritize the validated science without adding another image."
+  },
+  "recovery": {
+    "status": "ready",
+    "lastError": null
+  }
+}
