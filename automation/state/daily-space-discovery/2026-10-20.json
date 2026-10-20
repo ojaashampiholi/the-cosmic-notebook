@@ -1,8 +1,9 @@
 {
   "date": "2026-10-20",
-  "status": "draft_validated",
+  "status": "published",
   "workingTitle": "Warped galaxies place a tight limit on a dark fifth force",
   "intendedFilename": "2026-10-20_gravity_galaxy-warps-dark-fifth-force.json",
+  "finalFilename": "2026-10-20_gravity_galaxy-warps-dark-fifth-force.json",
   "topic": "Gravity & Fundamental Physics / Cosmology & Early Universe",
   "publicationDate": "2026-10-17",
   "freshnessWindow": "15 days",
@@ -31,7 +32,7 @@
     }
   ],
   "sourceStatus": "Full primary preprint read, including data selection, inference, mock tests, systematic variations, and long-range extrapolation. The paper directly supports all material claims; independent corroboration is not yet expected for a newly released preprint.",
-  "stage": "draft_validated",
+  "stage": "published",
   "validation": {
     "json": "passed",
     "requiredFields": "passed",
@@ -42,14 +43,27 @@
     "astroBuild": "passed",
     "discoveryChecks": "passed",
     "bodyWordCount": 576,
-    "builtPages": 70
+    "builtPages": 70,
+    "committedReadback": "passed",
+    "liveHttp": 200,
+    "liveTitle": "passed",
+    "liveBody": "passed"
   },
+  "commitSha": "9af60703cbb334ef133e00c435d5c655ae5bc959",
+  "deployment": {
+    "workflow": "Deploy Astro site to GitHub Pages",
+    "runId": 39427577523,
+    "runUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/39427577523",
+    "status": "success",
+    "verifiedCommitSha": "9af60703cbb334ef133e00c435d5c655ae5bc959"
+  },
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-20_gravity_galaxy-warps-dark-fifth-force/",
   "image": {
     "status": "skipped",
-    "reason": "The rolling ten already contains seven illustrated notes; publication will prioritize the validated science without adding another image."
+    "reason": "The rolling ten already contains seven illustrated notes; publication prioritized the validated science without adding another image."
   },
   "recovery": {
-    "status": "ready",
+    "status": "complete",
     "lastError": null
   }
 }
