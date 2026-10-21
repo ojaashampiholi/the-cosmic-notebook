@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-21",
+  "status": "verified",
+  "workingTitle": "SPHEREx maps the chemistry of 37 brown dwarf atmospheres",
+  "intendedFilename": "2026-10-21_stars_spherex-brown-dwarf-atmospheres.json",
+  "topic": "Stars & Stellar Evolution",
+  "publicationDate": "2026-10-08",
+  "freshnessWindow": "15 days",
+  "publicationStatus": "Peer-reviewed study in The Astrophysical Journal; NASA/JPL public release dated October 8, 2026.",
+  "primarySources": [
+    "https://arxiv.org/abs/2607.00543",
+    "https://arxiv.org/html/2607.00543",
+    "https://www.nasa.gov/missions/spherex/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
+  ],
+  "coreFacts": [
+    "The paper presents 37 high-signal-to-noise SPHEREx spectra spanning brown dwarf classes L0 through Y4, temperatures of about 2,500 to 250 kelvin, and distances of roughly 2 to 30 parsecs.",
+    "SPHEREx measured each object from 0.75 to 5 micrometres at resolving power about 40 to 100, covering broad absorption from water, methane, carbon monoxide, and carbon dioxide.",
+    "Five modern atmosphere-model grids broadly reproduce the chemical cooling sequence but generally fail to fit the near-infrared peaks and the 4-micrometre window at the same time; the largest disagreements occur around carbon monoxide and carbon dioxide features.",
+    "Observed carbon monoxide and carbon dioxide features rise through warmer L and early T dwarfs, then fall sharply as cooler atmospheres become methane dominated, with a marked transition around 1,000 to 700 kelvin.",
+    "The authors conclude that model systematics, rather than the observational uncertainty in this curated sample, now limit how confidently physical properties can be inferred."
+  ],
+  "caveats": [
+    "The 37-object sample was deliberately curated for high signal-to-noise and subtype coverage, so it is not a population census.",
+    "The molecular indices are imperfect because several molecules overlap and no clean continuum exists in these spectra.",
+    "At least half of the early observations were subject to under-flagging of bad pixels; the authors masked points more than four standard deviations from a smoothed running median.",
+    "Quoted SPHEREx QR2 absolute gain reliability was better than about 3 percent in Bands 1 to 4 and 5 percent in Bands 5 and 6, with calibration still being refined."
+  ],
+  "sources": [
+    {
+      "label": "Rustamkulov et al. paper",
+      "url": "https://arxiv.org/abs/2607.00543"
+    },
+    {
+      "label": "NASA/JPL release",
+      "url": "https://www.nasa.gov/missions/spherex/nasas-spherex-telescope-sees-menagerie-of-brown-dwarfs/"
+    }
+  ],
+  "sourceStatus": "Full primary paper and NASA/JPL release read. The paper is peer reviewed and directly supports the sample, measurements, model comparisons, and caveats; independent secondary corroboration was unnecessary.",
+  "stage": "verified",
+  "image": {
+    "status": "skipped",
+    "reason": "The newest ten notes contain six illustrated entries, meeting the rolling target. The note will publish without adding a visual because the primary scientific figures are dense spectral/model comparisons and no simpler directly relevant image is needed for comprehension."
+  },
+  "recovery": {
+    "status": "ready",
+    "lastError": null
+  }
+}
