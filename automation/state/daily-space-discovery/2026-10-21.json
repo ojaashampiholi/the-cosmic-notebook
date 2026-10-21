@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "status": "draft_validated",
+  "status": "committed",
   "workingTitle": "SPHEREx maps the chemistry of 37 brown dwarf atmospheres",
   "intendedFilename": "2026-10-21_stars_spherex-brown-dwarf-atmospheres.json",
   "topic": "Stars & Stellar Evolution",
@@ -36,7 +36,7 @@
     }
   ],
   "sourceStatus": "Full primary paper and NASA/JPL release read. The paper is peer reviewed and directly supports the sample, measurements, model comparisons, and caveats; independent secondary corroboration was unnecessary.",
-  "stage": "draft_validated",
+  "stage": "committed",
   "image": {
     "status": "skipped",
     "reason": "The newest ten notes contain six illustrated entries, meeting the rolling target. The note will publish without adding a visual because the primary scientific figures are dense spectral/model comparisons and no simpler directly relevant image is needed for comprehension."
@@ -55,6 +55,9 @@
     "astroBuild": "passed",
     "discoveryChecks": "passed",
     "bodyWordCount": 569,
-    "builtPages": 71
-  }
+    "builtPages": 71,
+    "committedReadback": "passed"
+  },
+  "commitSha": "ad412a7fb2d5bdd907780c40078d2adc617916a6",
+  "finalFilename": "2026-10-21_stars_spherex-brown-dwarf-atmospheres.json"
 }
