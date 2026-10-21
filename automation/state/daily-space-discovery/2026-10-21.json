@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "status": "committed",
+  "status": "published",
   "workingTitle": "SPHEREx maps the chemistry of 37 brown dwarf atmospheres",
   "intendedFilename": "2026-10-21_stars_spherex-brown-dwarf-atmospheres.json",
   "topic": "Stars & Stellar Evolution",
@@ -36,13 +36,13 @@
     }
   ],
   "sourceStatus": "Full primary paper and NASA/JPL release read. The paper is peer reviewed and directly supports the sample, measurements, model comparisons, and caveats; independent secondary corroboration was unnecessary.",
-  "stage": "committed",
+  "stage": "published",
   "image": {
     "status": "skipped",
     "reason": "The newest ten notes contain six illustrated entries, meeting the rolling target. The note will publish without adding a visual because the primary scientific figures are dense spectral/model comparisons and no simpler directly relevant image is needed for comprehension."
   },
   "recovery": {
-    "status": "ready",
+    "status": "complete",
     "lastError": null
   },
   "validation": {
@@ -56,8 +56,20 @@
     "discoveryChecks": "passed",
     "bodyWordCount": 569,
     "builtPages": 71,
-    "committedReadback": "passed"
+    "committedReadback": "passed",
+    "liveHttp": 200,
+    "liveTitle": "passed",
+    "liveBody": "passed"
   },
   "commitSha": "ad412a7fb2d5bdd907780c40078d2adc617916a6",
-  "finalFilename": "2026-10-21_stars_spherex-brown-dwarf-atmospheres.json"
+  "finalFilename": "2026-10-21_stars_spherex-brown-dwarf-atmospheres.json",
+  "deployment": {
+    "workflow": "Deploy Astro site to GitHub Pages",
+    "runId": 39604263008,
+    "runUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/39604263008",
+    "status": "success",
+    "verifiedCommitSha": "6dfbe7d314cffc43e1fda3a71555d3d2f0f1247d",
+    "noteCommitSha": "ad412a7fb2d5bdd907780c40078d2adc617916a6"
+  },
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-21_stars_spherex-brown-dwarf-atmospheres/"
 }
