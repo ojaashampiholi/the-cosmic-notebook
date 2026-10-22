@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "status": "committed",
+  "status": "published",
   "workingTitle": "Euclid finds that faint intracluster light traces dark halo shapes",
   "intendedFilename": "2026-10-22_galaxies_euclid-intracluster-light-halo-shapes.json",
   "topic": "Galaxies & Galactic Evolution",
@@ -33,13 +33,13 @@
     }
   ],
   "sourceStatus": "Full accepted Astronomy & Astrophysics paper read, including sample construction, image processing, shape extraction, simulations, lensing comparison, alignment analysis, stacking, caveats, and conclusions. The primary paper directly supports all material claims; separate corroboration was unnecessary.",
-  "stage": "committed",
+  "stage": "published",
   "image": {
     "status": "skipped",
     "reason": "The newest ten notes contain six illustrated entries, meeting the rolling target. The most relevant paper figures are dense multi-panel scientific plots, so publication will favor a clean explanation without adding a marginal card image."
   },
   "recovery": {
-    "status": "ready",
+    "status": "complete",
     "lastError": null
   },
   "draft": {
@@ -53,5 +53,17 @@
   "readback": {
     "verified": true,
     "requiredFieldsExact": true
+  },
+  "verifiedCommitSha": "a6c151bde085a2ffab8b9f1f814096697e073c8e",
+  "deployment": {
+    "workflow": "Deploy Astro site to GitHub Pages",
+    "runId": 39782317063,
+    "conclusion": "success",
+    "url": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/39782317063"
+  },
+  "live": {
+    "url": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-22_galaxies_euclid-intracluster-light-halo-shapes/",
+    "httpStatus": 200,
+    "titleVerified": true
   }
 }
