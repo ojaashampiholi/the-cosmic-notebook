@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-22",
+  "status": "verified",
+  "workingTitle": "Euclid finds that faint intracluster light traces dark halo shapes",
+  "intendedFilename": "2026-10-22_galaxies_euclid-intracluster-light-halo-shapes.json",
+  "topic": "Galaxies & Galactic Evolution",
+  "publicationDate": "2026-10-21",
+  "freshnessWindow": "15 days",
+  "publicationStatus": "Accepted for publication in Astronomy & Astrophysics; preprint submitted October 21, 2026.",
+  "primarySources": [
+    "https://arxiv.org/abs/2610.29683",
+    "https://arxiv.org/pdf/2610.29683"
+  ],
+  "coreFacts": [
+    "The Euclid Collaboration analysed diffuse intracluster light in 205 clusters selected from eROSITA and Dark Energy Survey catalogues, spanning redshifts 0.1 to 0.8 and halo masses from 10^14 to about 10^15.2 solar masses.",
+    "Robust intracluster-light position angles and ellipticities at about 0.1 times the cluster radius, typically near 100 kiloparsecs, were measured for 130 clusters, or 63 percent of the sample.",
+    "The projected ellipticity distribution peaks near 0.5, consistent with independent strong- and weak-lensing estimates of cluster halo shapes.",
+    "The central brightest galaxy is relatively round, with ellipticity around 0.15 to 0.20, while the surrounding diffuse light becomes more elongated and reaches about 0.5 near 0.1 cluster radii.",
+    "Eighty-seven percent of robust intracluster-light measurements align within 30 degrees of the brightest cluster galaxy; satellite-galaxy orientations meet that threshold for 61 percent of their smaller robust subset.",
+    "Stacking 163 clusters extends the diffuse-light detection to 0.6 to 0.8 cluster radii and shape measurements to 0.3 to 0.4 cluster radii."
+  ],
+  "caveats": [
+    "Intracluster light is a luminous proxy for the dark-matter potential, not a direct image of dark matter.",
+    "Only 63 percent of the full sample yielded robust shapes at the comparison radius, while satellite-galaxy orientations were robust for only 30 percent.",
+    "Line-of-sight projection, cluster selection, mass, dynamical state, residual masking, and background treatment can bias apparent ellipticity.",
+    "The current sample is too small to separate all dependencies on selection, mass, and dynamical state; the authors defer that work to Euclid DR1.",
+    "Stacked profiles are slightly rounder than individual clusters because residual orientation differences and isophotal twists dilute ellipticity."
+  ],
+  "sources": [
+    {
+      "label": "Euclid Collaboration accepted paper",
+      "url": "https://arxiv.org/abs/2610.29683"
+    }
+  ],
+  "sourceStatus": "Full accepted Astronomy & Astrophysics paper read, including sample construction, image processing, shape extraction, simulations, lensing comparison, alignment analysis, stacking, caveats, and conclusions. The primary paper directly supports all material claims; separate corroboration was unnecessary.",
+  "stage": "verified",
+  "image": {
+    "status": "skipped",
+    "reason": "The newest ten notes contain six illustrated entries, meeting the rolling target. The most relevant paper figures are dense multi-panel scientific plots, so publication will favor a clean explanation without adding a marginal card image."
+  },
+  "recovery": {
+    "status": "ready",
+    "lastError": null
+  }
+}
