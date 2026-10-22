@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "status": "draft_validated",
+  "status": "committed",
   "workingTitle": "Euclid finds that faint intracluster light traces dark halo shapes",
   "intendedFilename": "2026-10-22_galaxies_euclid-intracluster-light-halo-shapes.json",
   "topic": "Galaxies & Galactic Evolution",
@@ -33,7 +33,7 @@
     }
   ],
   "sourceStatus": "Full accepted Astronomy & Astrophysics paper read, including sample construction, image processing, shape extraction, simulations, lensing comparison, alignment analysis, stacking, caveats, and conclusions. The primary paper directly supports all material claims; separate corroboration was unnecessary.",
-  "stage": "draft_validated",
+  "stage": "committed",
   "image": {
     "status": "skipped",
     "reason": "The newest ten notes contain six illustrated entries, meeting the rolling target. The most relevant paper figures are dense multi-panel scientific plots, so publication will favor a clean explanation without adding a marginal card image."
@@ -47,5 +47,11 @@
     "title": "Euclid uses faint cluster light to trace dark halo shapes",
     "bodyWords": 622,
     "validation": "JSON, required fields, taxonomy, humanizer gate, image ledger, Astro check, Astro build, and discovery checks passed."
+  },
+  "noteCommitSha": "be7a1890dc473db7cc3a2c9c3bc7de04dc027594",
+  "noteBlobSha": "4ab3b16e776a774a9242612951b2b181fd3f1313",
+  "readback": {
+    "verified": true,
+    "requiredFieldsExact": true
   }
 }
