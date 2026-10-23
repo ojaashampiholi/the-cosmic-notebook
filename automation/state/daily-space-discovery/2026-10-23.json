@@ -1,6 +1,6 @@
 {
   "date": "2026-10-23",
-  "status": "committed",
+  "status": "published",
   "workingTitle": "A solar shock wave strengthened far from its eruption",
   "intendedFilename": "2026-10-23_sun-space-weather_moreton-wave-rebrightening.json",
   "topic": "Sun & Space Weather",
@@ -32,13 +32,13 @@
     }
   ],
   "sourceStatus": "Full accepted paper read in HTML, including observations, magnetic-field extrapolation, three-dimensional MHD simulation, control case, caveats, and conclusions. The primary paper directly supports all material claims.",
-  "stage": "committed",
+  "stage": "published",
   "image": {
     "status": "skipped",
     "reason": "The newest ten notes contain six illustrated entries, meeting the rolling target. The paper figures are dense multi-panel diagnostics, so this note will publish without marginal card art."
   },
   "recovery": {
-    "status": "ready",
+    "status": "complete",
     "lastError": null
   },
   "draft": {
@@ -52,5 +52,19 @@
   "readback": {
     "verified": true,
     "requiredFieldsExact": true
+  },
+  "finalFilename": "2026-10-23_sun-space-weather_moreton-wave-rebrightening.json",
+  "verifiedCommitSha": "3b94e92a1e465bec41acc48763e3dd22c733e5d3",
+  "deployment": {
+    "workflow": "Deploy Astro site to GitHub Pages",
+    "runId": 39959972865,
+    "conclusion": "success",
+    "url": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/39959972865"
+  },
+  "live": {
+    "url": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-23_sun-space-weather_moreton-wave-rebrightening/",
+    "httpStatus": 200,
+    "titleVerified": true,
+    "bodyHeadingVerified": true
   }
 }
