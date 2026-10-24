@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "status": "drafted",
+  "status": "published",
   "workingTitle": "Helium reveals a double detonation in supernova 2024kce",
   "intendedFilename": "2026-10-24_stars-stellar-evolution_sn-2024kce-helium.json",
   "topic": "Stars & Stellar Evolution",
@@ -33,7 +33,7 @@
     }
   ],
   "sourceStatus": "Full unreviewed paper read from the primary PDF, including observations, line identifications, radiative-transfer model, limitations, and implications.",
-  "stage": "drafted",
+  "stage": "published",
   "image": {
     "status": "ready",
     "id": "arxiv-2610-30674-figure-1",
@@ -47,7 +47,7 @@
     "rightsCheck": "Paper and NOIRLab source image are CC BY 4.0; crop preserves the paper's supernova annotation."
   },
   "recovery": {
-    "status": "in_progress",
+    "status": "complete",
     "lastError": null
   },
   "draft": {
@@ -55,5 +55,28 @@
     "title": "Helium points to a double detonation in supernova 2024kce",
     "bodyWords": 528,
     "validation": "JSON, required fields, taxonomy, humanizer gate, image ledger, Astro check, Astro build, and discovery checks passed."
+  },
+  "noteCommitSha": "0499850939c4d587de313e4ddf426adca583a34f",
+  "noteBlobSha": "466316e3fa93a00ef475179de90bcae77fc9b3fb",
+  "readback": {
+    "verified": true,
+    "requiredFieldsExact": true,
+    "imageBlobsVerified": true,
+    "ledgerVerified": true
+  },
+  "finalFilename": "2026-10-24_stars-stellar-evolution_sn-2024kce-helium.json",
+  "verifiedCommitSha": "0499850939c4d587de313e4ddf426adca583a34f",
+  "deployment": {
+    "workflow": "Deploy Astro site to GitHub Pages",
+    "runId": 40098236991,
+    "conclusion": "success",
+    "url": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/40098236991"
+  },
+  "live": {
+    "url": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-24_stars-stellar-evolution_sn-2024kce-helium/",
+    "httpStatus": 200,
+    "titleVerified": true,
+    "bodyHeadingVerified": true,
+    "imageVerified": true
   }
 }
