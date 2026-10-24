@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "status": "selected",
+  "status": "drafted",
   "workingTitle": "Helium reveals a double detonation in supernova 2024kce",
   "intendedFilename": "2026-10-24_stars-stellar-evolution_sn-2024kce-helium.json",
   "topic": "Stars & Stellar Evolution",
@@ -33,13 +33,27 @@
     }
   ],
   "sourceStatus": "Full unreviewed paper read from the primary PDF, including observations, line identifications, radiative-transfer model, limitations, and implications.",
-  "stage": "selected",
+  "stage": "drafted",
   "image": {
-    "status": "evaluating",
-    "reason": "The paper is CC BY 4.0 and contains directly relevant figures; a card-safe crop and attribution are being checked."
+    "status": "ready",
+    "id": "arxiv-2610-30674-figure-1",
+    "files": [
+      "images/notes/2026-10-24-sn-2024kce-rubin.jpg",
+      "images/notes/2026-10-24-sn-2024kce-rubin-thumb.jpg"
+    ],
+    "credit": "Polin et al.; NSF-DOE Vera C. Rubin Observatory/NOIRLab/SLAC/NSF/DOE/AURA; Figure 1 cropped from the paper",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/abs/2610.30674",
+    "rightsCheck": "Paper and NOIRLab source image are CC BY 4.0; crop preserves the paper's supernova annotation."
   },
   "recovery": {
     "status": "in_progress",
     "lastError": null
+  },
+  "draft": {
+    "filename": "2026-10-24_stars-stellar-evolution_sn-2024kce-helium.json",
+    "title": "Helium points to a double detonation in supernova 2024kce",
+    "bodyWords": 528,
+    "validation": "JSON, required fields, taxonomy, humanizer gate, image ledger, Astro check, Astro build, and discovery checks passed."
   }
 }
