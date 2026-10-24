@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-24",
+  "status": "selected",
+  "workingTitle": "Helium reveals a double detonation in supernova 2024kce",
+  "intendedFilename": "2026-10-24_stars-stellar-evolution_sn-2024kce-helium.json",
+  "topic": "Stars & Stellar Evolution",
+  "publicationDate": "2026-10-22",
+  "freshnessWindow": "15 days",
+  "publicationStatus": "Unreviewed arXiv preprint submitted October 22, 2026.",
+  "primarySources": [
+    "https://arxiv.org/abs/2610.30674",
+    "https://arxiv.org/pdf/2610.30674"
+  ],
+  "coreFacts": [
+    "SN 2024kce was discovered in M49 on June 2, 2024 and classified as a peculiar Type Ia supernova three days later.",
+    "Simultaneous optical and near-infrared spectra obtained eleven days before maximum light showed helium absorption at 1.083 micrometres, 2.058 micrometres, and 7065 angstroms.",
+    "All three helium signatures are consistent with ejecta moving at 16,400 kilometres per second, above the 12,500 kilometres per second photosphere.",
+    "The authors report this as the first helium detection before maximum light in a thermonuclear supernova.",
+    "A double-detonation calculation with a 0.69-solar-mass carbon-oxygen white dwarf and 0.09-solar-mass helium shell reproduced several observed features, including the high-velocity helium absorption.",
+    "The supernova combines traits of subluminous Type Ia events and calcium-rich transients."
+  ],
+  "caveats": [
+    "The study is an unreviewed preprint, so its interpretation remains preliminary.",
+    "The 1.024-micrometre trough is blended: the paper finds helium is present, but carbon and magnesium can also contribute to this wavelength region.",
+    "The double-detonation origin is inferred from the helium location, its excitation requirements, and agreement with one detailed model; the explosion mechanism was not observed directly.",
+    "The preferred model does not reproduce every spectral feature and diverges from the later near-infrared data as simplifying assumptions become less adequate.",
+    "One unusual event cannot establish that all calcium-rich or faint Type Ia supernovae share this origin."
+  ],
+  "sources": [
+    {
+      "label": "Polin et al., Early panchromatic spectra reveal helium in the thermonuclear supernova 2024kce",
+      "url": "https://arxiv.org/abs/2610.30674"
+    }
+  ],
+  "sourceStatus": "Full unreviewed paper read from the primary PDF, including observations, line identifications, radiative-transfer model, limitations, and implications.",
+  "stage": "selected",
+  "image": {
+    "status": "evaluating",
+    "reason": "The paper is CC BY 4.0 and contains directly relevant figures; a card-safe crop and attribution are being checked."
+  },
+  "recovery": {
+    "status": "in_progress",
+    "lastError": null
+  }
+}
