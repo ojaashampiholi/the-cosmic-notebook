@@ -244,6 +244,17 @@
       "credit": "Square Kilometre Array Organisation (SKAO) / South African Radio Astronomy Observatory (SARAO)",
       "license": "CC BY 3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018-MeerKAT-3.png"
+    },
+    {
+      "id": "arxiv-2610-30674-figure-1",
+      "note": "2026-10-24_stars-stellar-evolution_sn-2024kce-helium",
+      "files": [
+        "images/notes/2026-10-24-sn-2024kce-rubin.jpg",
+        "images/notes/2026-10-24-sn-2024kce-rubin-thumb.jpg"
+      ],
+      "credit": "Polin et al.; NSF-DOE Vera C. Rubin Observatory/NOIRLab/SLAC/NSF/DOE/AURA; Figure 1 cropped from the paper",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://arxiv.org/abs/2610.30674"
     }
   ]
 }
