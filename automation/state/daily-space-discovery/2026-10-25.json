@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-25",
+  "status": "selected",
+  "workingTitle": "Chandra splits the most distant X-ray jet into two components",
+  "intendedFilename": "2026-10-25_black-holes_distant-xray-jet-two-components.json",
+  "topic": "Black Holes",
+  "publicationDate": "2026-10-13",
+  "freshnessWindow": "15 days",
+  "publicationStatus": "Accepted for publication in Astronomy & Astrophysics on October 13, 2026; arXiv preprint submitted October 21, 2026.",
+  "primarySources": [
+    "https://arxiv.org/abs/2610.30259",
+    "https://arxiv.org/pdf/2610.30259"
+  ],
+  "coreFacts": [
+    "The source PSO J030947.49+271757.31 is a blazar at redshift 6.10, seen when the universe was less than one billion years old.",
+    "The study combines 22 Chandra observations for 360.2 kiloseconds, about three times the previous exposure.",
+    "The extended jet region contains 84 detected X-ray photons against an expected local background of 12.7 photons.",
+    "The deeper image separates the extended emission into two slightly resolved components containing 40 and 29 photons, with expected backgrounds of 3.8 and 3.3 photons.",
+    "The extended emission is aligned with the known radio-jet axis and spans a region about 25 by 10 kiloparsecs in projection.",
+    "The jet's rest-frame 2 to 10 keV luminosity is about 1.3 times 10^45 ergs per second, roughly 18 percent of the core luminosity."
+  ],
+  "caveats": [
+    "Chandra's photon count remains low, especially after dividing the jet into two components.",
+    "The data do not distinguish whether the X-rays arise mainly from synchrotron radiation or inverse-Compton scattering of cosmic microwave background photons.",
+    "The apparent spectral steepening between the two components has large uncertainties and cannot support a detailed claim about changes along the jet.",
+    "The unusually high jet-to-core luminosity ratio may reflect selection bias; the current high-redshift sample is too small for a redshift-evolution conclusion.",
+    "A simulation of a future AXIS-like mission is a forecast, not an observation."
+  ],
+  "sources": [
+    {
+      "label": "Meanti et al., The deepest X-ray view of a kiloparsec scale jet at z=6.1",
+      "url": "https://arxiv.org/abs/2610.30259"
+    }
+  ],
+  "sourceStatus": "Full accepted paper read from the primary PDF, including the image registration, photon counts, spatial and spectral analysis, emission-mechanism limits, selection caveat, and conclusions.",
+  "stage": "selected",
+  "image": {
+    "status": "evaluating",
+    "reason": "The new preprint uses arXiv's non-exclusive distribution license. A directly related figure from the same object's earlier CC BY 4.0 paper is being evaluated as historical context."
+  },
+  "recovery": {
+    "status": "in_progress",
+    "lastError": null
+  }
+}
