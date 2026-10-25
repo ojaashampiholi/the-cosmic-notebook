@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "status": "selected",
+  "status": "drafted",
   "workingTitle": "Chandra splits the most distant X-ray jet into two components",
   "intendedFilename": "2026-10-25_black-holes_distant-xray-jet-two-components.json",
   "topic": "Black Holes",
@@ -33,13 +33,27 @@
     }
   ],
   "sourceStatus": "Full accepted paper read from the primary PDF, including the image registration, photon counts, spatial and spectral analysis, emission-mechanism limits, selection caveat, and conclusions.",
-  "stage": "selected",
+  "stage": "drafted",
   "image": {
-    "status": "evaluating",
-    "reason": "The new preprint uses arXiv's non-exclusive distribution license. A directly related figure from the same object's earlier CC BY 4.0 paper is being evaluated as historical context."
+    "status": "ready",
+    "id": "arxiv-2111-08632-figure-1",
+    "files": [
+      "images/notes/2026-10-25-pso-j0309-xray-jet.jpg",
+      "images/notes/2026-10-25-pso-j0309-xray-jet-thumb.jpg"
+    ],
+    "credit": "L. Ighina et al.; Figure 1 cropped from the earlier Chandra paper",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/abs/2111.08632",
+    "rightsCheck": "The earlier arXiv paper uses CC BY 4.0. The crop is explicitly described as an earlier Chandra view of the same object and is not presented as the new 360.2-kilosecond image."
   },
   "recovery": {
     "status": "in_progress",
     "lastError": null
+  },
+  "draft": {
+    "filename": "2026-10-25_black-holes_distant-xray-jet-two-components.json",
+    "title": "Chandra resolves the most distant X-ray jet into two parts",
+    "bodyWords": 508,
+    "validation": "JSON, required fields, taxonomy, humanizer gate, image ledger, Astro check, Astro build, and discovery checks passed."
   }
 }
