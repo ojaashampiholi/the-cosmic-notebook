@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "status": "drafted",
+  "status": "published",
   "workingTitle": "Chandra splits the most distant X-ray jet into two components",
   "intendedFilename": "2026-10-25_black-holes_distant-xray-jet-two-components.json",
   "topic": "Black Holes",
@@ -33,7 +33,7 @@
     }
   ],
   "sourceStatus": "Full accepted paper read from the primary PDF, including the image registration, photon counts, spatial and spectral analysis, emission-mechanism limits, selection caveat, and conclusions.",
-  "stage": "drafted",
+  "stage": "published",
   "image": {
     "status": "ready",
     "id": "arxiv-2111-08632-figure-1",
@@ -47,7 +47,7 @@
     "rightsCheck": "The earlier arXiv paper uses CC BY 4.0. The crop is explicitly described as an earlier Chandra view of the same object and is not presented as the new 360.2-kilosecond image."
   },
   "recovery": {
-    "status": "in_progress",
+    "status": "complete",
     "lastError": null
   },
   "draft": {
@@ -55,5 +55,28 @@
     "title": "Chandra resolves the most distant X-ray jet into two parts",
     "bodyWords": 508,
     "validation": "JSON, required fields, taxonomy, humanizer gate, image ledger, Astro check, Astro build, and discovery checks passed."
+  },
+  "noteCommitSha": "c1317fae4a089bd891e20ec55b462a312434323b",
+  "noteBlobSha": "9aa2c07e67e6f61f5cc8f4d952bc54f4345c6701",
+  "readback": {
+    "verified": true,
+    "requiredFieldsExact": true,
+    "imageBlobsVerified": true,
+    "ledgerVerified": true
+  },
+  "finalFilename": "2026-10-25_black-holes_distant-xray-jet-two-components.json",
+  "verifiedCommitSha": "c1317fae4a089bd891e20ec55b462a312434323b",
+  "deployment": {
+    "workflow": "Deploy Astro site to GitHub Pages",
+    "runId": 40198142572,
+    "conclusion": "success",
+    "url": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/40198142572"
+  },
+  "live": {
+    "url": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-25_black-holes_distant-xray-jet-two-components/",
+    "httpStatus": 200,
+    "titleVerified": true,
+    "bodyHeadingVerified": true,
+    "imageVerified": true
   }
 }
