@@ -255,6 +255,17 @@
       "credit": "Polin et al.; NSF-DOE Vera C. Rubin Observatory/NOIRLab/SLAC/NSF/DOE/AURA; Figure 1 cropped from the paper",
       "license": "CC BY 4.0",
       "sourceUrl": "https://arxiv.org/abs/2610.30674"
+    },
+    {
+      "id": "arxiv-2111-08632-figure-1",
+      "note": "2026-10-25_black-holes_distant-xray-jet-two-components",
+      "files": [
+        "images/notes/2026-10-25-pso-j0309-xray-jet.jpg",
+        "images/notes/2026-10-25-pso-j0309-xray-jet-thumb.jpg"
+      ],
+      "credit": "L. Ighina et al.; Figure 1 cropped from the earlier Chandra paper",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://arxiv.org/abs/2111.08632"
     }
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "title": "Chandra resolves the most distant X-ray jet into two parts",
+  "topic": "Black Holes",
+  "date": "2026-10-25",
+  "freshness": "Accepted by Astronomy & Astrophysics on October 13, 2026; arXiv preprint submitted October 21, 2026; selected within the preferred 15-day window.",
+  "excerpt": "A 100-hour Chandra exposure separates the most distant large X-ray jet yet resolved into two components. The faint structure comes from a black-hole-powered blazar seen when the universe was less than one billion years old, but its exact radiation mechanism remains unsettled.",
+  "whyItMatters": "Large jets carry energy from feeding supermassive black holes into their surroundings. Resolving one at redshift 6.1 gives astronomers a rare test of how jets radiated and influenced galaxies near the end of cosmic reionization.",
+  "exploreFurther": {
+    "label": "Meanti et al. accepted paper on the redshift-6.1 X-ray jet",
+    "url": "https://arxiv.org/abs/2610.30259"
+  },
+  "whatToExploreNext": "Why should cosmic microwave background photons make some black-hole jets easier to see in X-rays at high redshift?",
+  "sources": [
+    {
+      "label": "Meanti et al., The deepest X-ray view of a kiloparsec scale jet at z=6.1",
+      "url": "https://arxiv.org/abs/2610.30259"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-10-25-pso-j0309-xray-jet.jpg",
+    "thumbSrc": "images/notes/2026-10-25-pso-j0309-xray-jet-thumb.jpg",
+    "alt": "Earlier Chandra X-ray count map of PSO J0309+27 with radio contours outlining the bright core and northeast jet",
+    "credit": "L. Ighina et al.; Figure 1 cropped from the earlier Chandra paper",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/abs/2111.08632"
+  },
+  "body": "## A jet from the universe's first billion years\n\nChandra has separated a distant black-hole jet into two X-ray components, each only a few dozen detected photons strong. The source, PSO J030947.49+271757.31, is a blazar at redshift 6.1. Its light began travelling toward us when the universe was less than one billion years old. It remains the most distant large-scale jet currently resolved in X-rays.\n\nA blazar is an active galaxy whose central supermassive black hole launches a relativistic jet aimed close to our line of sight. The alignment brightens the approaching jet, letting astronomers study an engine that would otherwise be extremely faint at this distance.\n\nThe jet was known from an earlier 128-kilosecond Chandra observation. The new study combines 22 observations into 360.2 kiloseconds, about 100 hours and nearly three times the previous exposure. Careful alignment was needed because the data were collected across several years.\n\n## Counting a structure photon by photon\n\nThe bright central source supplied 679 X-ray photons. Around it, the researchers counted 84 photons in an elongated region aligned with the known radio jet, where the local background should contribute about 12.7. A model of Chandra's point-spread function, the blur produced even by a perfect point source, predicted only about 2.15 photons from the core spilling into that region.\n\nThe deeper image divides the extended emission into two slightly resolved concentrations. They contain 40 and 29 photons, compared with expected backgrounds of 3.8 and 3.3. Surface-brightness profiles are broader than Chandra's point-source response, supporting the conclusion that these are extended parts of the jet rather than instrumental blur.\n\nOn the sky, the full extraction region corresponds to roughly 25 by 10 kiloparsecs in projection. Its rest-frame X-ray luminosity from 2 to 10 kiloelectronvolts is about 1.3 times 10^45 ergs per second, around 18 percent of the central source's luminosity. That makes it one of the most X-ray-luminous large jets known.\n\n## What makes the X-rays?\n\nThe jet's X-ray spectrum is softer than the core's, meaning its photon count falls more steeply toward higher energies. This may reflect cooling particles or a change in how radiation is produced as the flow travels outward. The two components might also soften along the jet, but their statistical uncertainties are too large to establish that trend.\n\nOne possible source of the X-rays is inverse-Compton scattering. Fast electrons in the jet can boost low-energy photons from the cosmic microwave background to X-ray energies. Because the background's energy density grows as the fourth power of one plus redshift, it was more than 2,500 times higher at redshift 6.1 than it is locally. Synchrotron radiation from highly energetic electrons is another possibility. The present data cannot choose between them.\n\nThe authors also simulated a future X-ray observatory with Chandra-like sharpness and a much larger collecting area. For the same exposure, it would record about 17 times as many photons. That is a forecast, not a measurement, but it shows what is missing today: enough light to turn a rare resolved jet into a detailed test of black-hole activity in the early universe."
+}
