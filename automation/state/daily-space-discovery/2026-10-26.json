@@ -1,7 +1,7 @@
 {
   "date": "2026-10-26",
-  "status": "frozen",
-  "stage": "draft_validated",
+  "status": "committed_not_live",
+  "stage": "committed",
   "workingTitle": "Helium repeatedly appears around a young planet's atmosphere",
   "intendedFilename": "2026-10-26_exoplanets_v1298-tau-b-helium.json",
   "topic": "Exoplanets",
@@ -29,9 +29,10 @@
     "sourceUrl": "https://arxiv.org/abs/2610.32815"
   },
   "recovery": {
-    "status": "clean",
-    "lastError": null
+    "status": "recovered_via_git_data_fallback",
+    "lastError": "Local HTTPS push lacked interactive GitHub credentials; the approved Git data fallback published the unchanged validated files."
   },
   "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
-  "sourceStatus": "Primary accepted paper read in full; no secondary source required for the material claims."
+  "sourceStatus": "Primary accepted paper read in full; no secondary source required for the material claims.",
+  "commitSha": "d6ca9a5374bcf4a0685b67fdb2eb9fc26c23c762"
 }
