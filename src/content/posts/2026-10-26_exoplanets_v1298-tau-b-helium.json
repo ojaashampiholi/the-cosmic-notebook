@@ -1,0 +1,28 @@
+{
+  "title": "Helium keeps appearing around a young planet, but its star muddies the signal",
+  "topic": "Exoplanets",
+  "date": "2026-10-26",
+  "freshness": "Accepted by Astronomy & Astrophysics on October 23, 2026; arXiv preprint submitted October 23, 2026; selected within the preferred 15-day window.",
+  "excerpt": "Helium absorption appeared during four transits of the young planet V1298 Tau b across a four-year span. The repeated signal may come from an escaping atmosphere, but the planet's active star changes enough to keep that interpretation uncertain.",
+  "whyItMatters": "Young planets can lose large amounts of gas before settling into their adult sizes. This study shows both the promise of watching that process through helium and the care needed when the host star can imitate or reshape the same signal.",
+  "exploreFurther": {
+    "label": "Guilluy et al. accepted paper on helium around V1298 Tau b",
+    "url": "https://arxiv.org/abs/2610.32815"
+  },
+  "whatToExploreNext": "How can simultaneous ultraviolet, optical, and infrared observations separate an escaping planetary atmosphere from a young star's changing activity?",
+  "sources": [
+    {
+      "label": "Guilluy et al., The puzzle of the He I absorption signal in the atmosphere of V1298 Tau b with GIARPS@TNG",
+      "url": "https://arxiv.org/abs/2610.32815"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-10-26-v1298-tau-b-helium.jpg",
+    "thumbSrc": "images/notes/2026-10-26-v1298-tau-b-helium-thumb.jpg",
+    "alt": "Four color-coded spectral maps from separate transits of V1298 Tau b, showing helium absorption near 10833 angstroms",
+    "credit": "G. Guilluy et al.; Figure 3 converted from the accepted paper",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/abs/2610.32815"
+  },
+  "body": "## A repeated shadow in helium\n\nHelium absorption appeared during four separate transits of V1298 Tau b, a young planet circling a highly active star. The observations span from January 2020 to October 2024. Seeing the feature every time makes an escaping planetary atmosphere plausible, but the star changes so strongly that the researchers do not call the case settled.\n\nV1298 Tau is only about 10 to 30 million years old. Its planet b is roughly Jupiter-sized, yet recent measurements put its mass near 13 Earth masses. That combination suggests a low-density world still swollen with gas. It orbits every 24.14 days, and each transit lasts close to seven hours.\n\nThe team used GIANO-B on the Telescopio Nazionale Galileo to examine a set of three near-infrared helium lines near 10,833 angstroms. These lines can reveal helium in an extended atmosphere. Ultraviolet radiation first ionizes the gas; when electrons recombine with helium atoms, some atoms enter a long-lived state that can absorb near-infrared starlight.\n\n## Four transits, four different depths\n\nThe time-averaged helium absorption depths were 8.47, 3.98, 1.58, and 4.49 percent across the four observing nights. The feature also changed width and velocity. During the first night, absorption began before the planet crossed the star and was shifted toward shorter wavelengths, a possible sign of gas moving toward us ahead of the planet.\n\nThose measurements are real features in the processed spectra, but their origin is harder to establish. V1298 Tau's own helium line varied from night to night. Optical activity indicators also changed, sometimes producing opposite patterns between epochs. The researchers lacked uninterrupted observations before, during, and after every transit, and one night covered only the final portion of the crossing. Earth's atmosphere added water and hydroxyl contamination near the same wavelengths, which the team masked or corrected.\n\nThe persistence of absorption over four years is the strongest evidence for a planetary contribution. Stellar activity alone would not necessarily repeat in the same way during every transit. Even so, the authors say the star can alter the measured depth, and they cannot cleanly assign every part of the feature to the planet.\n\n## A possible future sub-Neptune\n\nHydrodynamic simulations explore what the signal could mean if the lower planet mass is correct. They estimate a present gas-loss rate near 1.45 trillion grams per second. Two evolutionary models then predict that the planet will lose more than half of its original atmosphere and shrink to about 4.5 to 5.2 Earth radii by an age of five billion years, becoming a mature sub-Neptune.\n\nThat future is an inference, not a direct measurement. An older, much higher mass estimate would give the planet enough gravity to retain nearly all its atmosphere. The proposed leading helium tail is also model-dependent: the team suggests that a fast stellar-wind stream temporarily compressed the planet's magnetosphere during the first transit.\n\nWhat has been measured is repeated, variable helium absorption. Confirming atmospheric escape will require a complete transit with continuous monitoring across several wavelengths, so the star and planet can be followed at the same time."
+}

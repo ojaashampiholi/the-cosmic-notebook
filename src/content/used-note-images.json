@@ -266,6 +266,17 @@
       "credit": "L. Ighina et al.; Figure 1 cropped from the earlier Chandra paper",
       "license": "CC BY 4.0",
       "sourceUrl": "https://arxiv.org/abs/2111.08632"
+    },
+    {
+      "id": "arxiv-2610-32815-figure-3",
+      "note": "2026-10-26_exoplanets_v1298-tau-b-helium",
+      "files": [
+        "images/notes/2026-10-26-v1298-tau-b-helium.jpg",
+        "images/notes/2026-10-26-v1298-tau-b-helium-thumb.jpg"
+      ],
+      "credit": "G. Guilluy et al.; Figure 3 converted from the accepted paper",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://arxiv.org/abs/2610.32815"
     }
   ]
 }
