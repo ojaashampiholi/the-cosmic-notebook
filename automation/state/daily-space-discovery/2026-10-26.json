@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-26",
+  "status": "frozen",
+  "stage": "selected",
+  "workingTitle": "Helium repeatedly appears around a young planet's atmosphere",
+  "intendedFilename": "2026-10-26_exoplanets_v1298-tau-b-helium.json",
+  "topic": "Exoplanets",
+  "freshness": "Accepted by Astronomy & Astrophysics on October 23, 2026; arXiv preprint submitted October 23, 2026; selected within the preferred 15-day window.",
+  "primarySources": [
+    "https://arxiv.org/abs/2610.32815",
+    "https://arxiv.org/html/2610.32815v1"
+  ],
+  "coreFacts": [
+    "Four V1298 Tau b transits observed between 2020 and 2024 all show helium-triplet absorption, with measured depths from 1.58% to 8.47%.",
+    "The host star is only about 10 to 30 million years old and highly active, so stellar variability can mimic or alter the signal.",
+    "The persistence of helium absorption across four epochs may favor a planetary origin, but incomplete transit baselines and stellar contamination prevent a definitive attribution.",
+    "Hydrodynamic models estimate a present mass-loss rate near 1.45e12 grams per second only under the study's lower-mass planet scenario; the long-term outcome changes sharply if the higher historical mass estimate is used."
+  ],
+  "sources": [
+    {
+      "label": "Guilluy et al. accepted A&A paper",
+      "url": "https://arxiv.org/abs/2610.32815"
+    }
+  ],
+  "image": {
+    "status": "not_checked"
+  },
+  "recovery": {
+    "status": "clean",
+    "lastError": null
+  },
+  "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be"
+}
