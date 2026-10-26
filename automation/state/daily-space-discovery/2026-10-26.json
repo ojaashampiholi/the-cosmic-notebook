@@ -1,7 +1,7 @@
 {
   "date": "2026-10-26",
   "status": "frozen",
-  "stage": "selected",
+  "stage": "draft_validated",
   "workingTitle": "Helium repeatedly appears around a young planet's atmosphere",
   "intendedFilename": "2026-10-26_exoplanets_v1298-tau-b-helium.json",
   "topic": "Exoplanets",
@@ -23,11 +23,15 @@
     }
   ],
   "image": {
-    "status": "not_checked"
+    "status": "included",
+    "id": "arxiv-2610-32815-figure-3",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/abs/2610.32815"
   },
   "recovery": {
     "status": "clean",
     "lastError": null
   },
-  "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be"
+  "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
+  "sourceStatus": "Primary accepted paper read in full; no secondary source required for the material claims."
 }
