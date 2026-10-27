@@ -1,7 +1,7 @@
 {
   "date": "2026-10-27",
-  "status": "selected",
-  "stage": "discovery_frozen",
+  "status": "draft_validated",
+  "stage": "draft_validated",
   "workingTitle": "ALMA finds a gentle warp in the planet-forming ring around CQ Tau",
   "intendedFilename": "2026-10-27_planet-formation_cq-tau-warped-dust-ring.json",
   "topic": "Planet Formation",
@@ -23,7 +23,18 @@
     }
   ],
   "image": {
-    "status": "not_checked"
+    "status": "included",
+    "id": "arxiv-2610-35548-figure-1",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/abs/2610.35548"
+  },
+  "validation": {
+    "bodyWords": 566,
+    "json": "passed",
+    "humanizer": "passed",
+    "sourceLinks": "passed",
+    "imageCheck": "passed",
+    "build": "passed"
   },
   "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
   "sourceStatus": "Primary accepted paper read in full; no secondary source required for the material claims."
