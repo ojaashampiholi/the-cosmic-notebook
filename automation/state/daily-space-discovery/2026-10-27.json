@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-27",
+  "status": "selected",
+  "stage": "discovery_frozen",
+  "workingTitle": "ALMA finds a gentle warp in the planet-forming ring around CQ Tau",
+  "intendedFilename": "2026-10-27_planet-formation_cq-tau-warped-dust-ring.json",
+  "topic": "Planet Formation",
+  "freshness": "Accepted for publication in The Astrophysical Journal; arXiv preprint submitted October 26, 2026; selected within the preferred 15-day window.",
+  "primarySources": [
+    "https://arxiv.org/abs/2610.35548",
+    "https://arxiv.org/html/2610.35548v1"
+  ],
+  "coreFacts": [
+    "The team combined three archival ALMA Band 6 datasets to map 1.3-millimeter dust emission around the roughly 10-million-year-old star CQ Tau at an effective resolution of 7.8 by 6.3 astronomical units.",
+    "Ellipse fits to the bright ring show that its apparent orientation changes with radius, while a single coplanar ring model fails to reproduce the data.",
+    "A simple warped-ring model, with the tilt decreasing from about 4 degrees at 20 astronomical units to about 1 degree at 60 astronomical units, broadly reproduces the observed trend.",
+    "An inclined companion could create the warp, but no companion has been detected and the paper does not rule out other histories such as a stellar flyby or past infall."
+  ],
+  "sources": [
+    {
+      "label": "A Warped Dust Ring in the CQ Tau Disk",
+      "url": "https://arxiv.org/abs/2610.35548"
+    }
+  ],
+  "image": {
+    "status": "not_checked"
+  },
+  "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
+  "sourceStatus": "Primary accepted paper read in full; no secondary source required for the material claims."
+}
