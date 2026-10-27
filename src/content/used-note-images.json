@@ -277,6 +277,17 @@
       "credit": "G. Guilluy et al.; Figure 3 converted from the accepted paper",
       "license": "CC BY 4.0",
       "sourceUrl": "https://arxiv.org/abs/2610.32815"
+    },
+    {
+      "id": "arxiv-2610-35548-figure-1",
+      "note": "2026-10-27_planet-formation_cq-tau-warped-dust-ring",
+      "files": [
+        "images/notes/2026-10-27-cq-tau-warped-ring.jpg",
+        "images/notes/2026-10-27-cq-tau-warped-ring-thumb.jpg"
+      ],
+      "credit": "T. Kudo et al.; top row of Figure 1 cropped from the accepted paper",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://arxiv.org/abs/2610.35548"
     }
   ]
 }

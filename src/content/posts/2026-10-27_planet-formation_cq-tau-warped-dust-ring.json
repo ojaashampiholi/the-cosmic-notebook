@@ -1,0 +1,28 @@
+{
+  "title": "ALMA finds a gentle warp in the planet-forming ring around CQ Tau",
+  "topic": "Planet Formation",
+  "date": "2026-10-27",
+  "freshness": "Accepted for publication in The Astrophysical Journal; arXiv preprint submitted October 26, 2026; selected within the preferred 15-day window.",
+  "excerpt": "A bright dust ring around the young star CQ Tau changes its apparent orientation from its inner edge to its outer edge. ALMA observations favor a mild warp rather than one flat ring, offering a rare view of a planet-forming disk with several nested tilts.",
+  "whyItMatters": "Planets inherit their orbital planes from the disks in which they form, but those disks need not stay flat. A measured warp can preserve evidence of a hidden companion or an earlier disturbance that may shape the architecture of a future planetary system.",
+  "exploreFurther": {
+    "label": "The accepted paper on CQ Tau's warped dust ring",
+    "url": "https://arxiv.org/abs/2610.35548"
+  },
+  "whatToExploreNext": "What observations could distinguish a warp driven by an unseen inclined companion from one left by a stellar flyby or past infall?",
+  "sources": [
+    {
+      "label": "Kudo et al., A Warped Dust Ring in the CQ Tau Disk",
+      "url": "https://arxiv.org/abs/2610.35548"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-10-27-cq-tau-warped-ring.jpg",
+    "thumbSrc": "images/notes/2026-10-27-cq-tau-warped-ring-thumb.jpg",
+    "alt": "Three ALMA reconstructions of the bright dust ring surrounding CQ Tau, shown in yellow, orange, purple, and black",
+    "credit": "T. Kudo et al.; top row of Figure 1 cropped from the accepted paper",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/abs/2610.35548"
+  },
+  "body": "## A ring that changes its plane\n\nThe bright dust ring around CQ Tau does not sit in one perfectly flat plane. Its apparent orientation shifts from the inner edge to the outer edge, according to a new analysis of archival observations from the Atacama Large Millimeter/submillimeter Array, or ALMA. A simple warped-ring model matches that change better than a single flat ring.\n\nCQ Tau is a young star about 149 parsecs, or 487 light-years, from Earth. At roughly 10 million years old, it still carries a disk of gas and dust from which planets may form. The system was already known to be complicated: a compact inner disk is tilted relative to the larger disk, and near-infrared observations have revealed spiral arms.\n\nThe new study focuses on millimeter-size dust grains. The researchers combined three ALMA Band 6 datasets taken at a wavelength of 1.3 millimeters, then reconstructed the disk at an effective resolution of 7.8 by 6.3 astronomical units. One astronomical unit is the average distance between Earth and the Sun. The images show a central cavity, a bright ring spanning roughly 20 to 70 astronomical units, and fainter material farther out.\n\n## Measuring a subtle twist\n\nA tilted circular ring appears as an ellipse on the sky. Its position angle tells astronomers which way the ellipse points, while its apparent flattening indicates the ring's inclination. By fitting ellipses to several brightness contours, the team found that both quantities change across CQ Tau's ring. The inner edge spans position angles of about 214 to 233 degrees and inclinations of about 23 to 39 degrees. The outer edge is steadier, near 231 to 235 degrees and 33 to 36 degrees.\n\nThose ranges are measurements from the reconstructed images. Interpreting them as a physical warp requires modeling. A flat, coplanar ring could not reproduce the observed trends. The team's illustrative warped model, in which the local tilt decreases from about 4 degrees at 20 astronomical units to about 1 degree at 60 astronomical units, broadly matched the changing ellipse fits. Filtering the images to emphasize small-scale structure produced another check: curved residual features in the real disk also appeared in the warped model but not in the flat one.\n\nThe model is deliberately simple and was adjusted manually rather than fitted as a unique solution. It does not reproduce every bright patch in the ring. The paper therefore supports a mild warp, but it does not provide a precise three-dimensional map of every radius.\n\n## A disk with nested tilts\n\nCombined with earlier work, the result suggests a hierarchy of orientations. The compact inner disk is tilted by roughly 40 degrees relative to the main disk. The newly identified dust-ring warp is only a few degrees, and earlier gas measurements hint at another gentle change farther out.\n\nAn unseen companion on an inclined orbit could torque the disk and maintain such a structure for millions of years. That idea also fits the system's spirals and misaligned inner disk. Yet no companion has been detected, so this remains an explanation to test, not an observation. A past stellar flyby or uneven infall of material could have left their own imprint.\n\nWhat ALMA has measured is a systematic change in the ring's projected geometry. The likely warp turns CQ Tau into a useful laboratory for asking how young planetary systems acquire, and sometimes preserve, more than one orbital plane."
+}
