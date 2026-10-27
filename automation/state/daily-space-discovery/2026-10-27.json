@@ -1,7 +1,7 @@
 {
   "date": "2026-10-27",
-  "status": "draft_validated",
-  "stage": "draft_validated",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "ALMA finds a gentle warp in the planet-forming ring around CQ Tau",
   "intendedFilename": "2026-10-27_planet-formation_cq-tau-warped-dust-ring.json",
   "topic": "Planet Formation",
@@ -34,8 +34,18 @@
     "humanizer": "passed",
     "sourceLinks": "passed",
     "imageCheck": "passed",
-    "build": "passed"
+    "build": "passed",
+    "readback": "passed",
+    "liveHttp": 200
+  },
+  "recovery": {
+    "status": "recovered_via_git_data_fallback_and_verified",
+    "lastError": "Local HTTPS push lacked interactive GitHub credentials; the approved Git data fallback published the unchanged validated files."
   },
   "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
-  "sourceStatus": "Primary accepted paper read in full; no secondary source required for the material claims."
+  "sourceStatus": "Primary accepted paper read in full; no secondary source required for the material claims.",
+  "commitSha": "51b6b8a91840b1a49ad9f0473f8a7bcb6d875dc1",
+  "deployRunId": 40509906777,
+  "deployRunUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/40509906777",
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-27_planet-formation_cq-tau-warped-dust-ring/"
 }
