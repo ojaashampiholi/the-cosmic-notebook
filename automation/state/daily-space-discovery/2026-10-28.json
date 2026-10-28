@@ -1,7 +1,7 @@
 {
   "date": "2026-10-28",
-  "status": "committed",
-  "stage": "committed",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "A dead star is circled by two separate rings of planetary wreckage",
   "intendedFilename": "2026-10-28_stars-stellar-evolution_white-dwarf-double-debris-disc.json",
   "topic": "Stars & Stellar Evolution",
@@ -46,13 +46,17 @@
     "sourceLinks": "passed",
     "imageCheck": "passed",
     "build": "passed",
-    "readback": "passed"
+    "readback": "passed",
+    "liveHttp": 200
   },
   "recovery": {
-    "status": "recovered_via_git_data_fallback",
+    "status": "recovered_via_git_data_fallback_and_verified",
     "lastError": "Local HTTPS push lacked interactive GitHub credentials; the approved Git data fallback published the unchanged validated files."
   },
   "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
   "sourceStatus": "Open-access peer-reviewed paper and ESO original release read; material measurements verified against the paper.",
-  "commitSha": "4ad9a43a309c99d51e52c71c4a52dfd64c61984c"
+  "commitSha": "4ad9a43a309c99d51e52c71c4a52dfd64c61984c",
+  "deployRunId": 40689719260,
+  "deployRunUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/40689719260",
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-28_stars-stellar-evolution_white-dwarf-double-debris-disc/"
 }
