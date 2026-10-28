@@ -1,7 +1,7 @@
 {
   "date": "2026-10-28",
-  "status": "selected",
-  "stage": "discovery_frozen",
+  "status": "verified",
+  "stage": "verified",
   "workingTitle": "A dead star is circled by two separate rings of planetary wreckage",
   "intendedFilename": "2026-10-28_stars-stellar-evolution_white-dwarf-double-debris-disc.json",
   "topic": "Stars & Stellar Evolution",
@@ -17,6 +17,11 @@
     "The inner ring contains magnesium emission while the outer ring is strongly magnesium-depleted, suggesting debris with different compositions.",
     "The authors infer that two surviving planetary bodies probably generate and confine the gas, but neither body has been directly detected and exact sizes depend on orbit, density, and internal strength."
   ],
+  "caveats": [
+    "The two planetary bodies are inferred from the stable separated gas rings and are not directly observed.",
+    "The outer body's possible Pluto-to-Moon scale is an upper limit that depends on its location, density, and internal strength.",
+    "Different ring compositions could reflect two parent bodies or different layers of one differentiated body."
+  ],
   "sources": [
     {
       "label": "Gentile Fusillo et al., Nature Astronomy paper",
@@ -28,7 +33,11 @@
     }
   ],
   "image": {
-    "status": "not_checked"
+    "status": "included",
+    "id": "eso-eso2613a-white-dwarf-double-disc",
+    "credit": "ESO/L. Calçada",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://www.eso.org/public/images/eso2613a/"
   },
   "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
   "sourceStatus": "Open-access peer-reviewed paper and ESO original release read; material measurements verified against the paper."
