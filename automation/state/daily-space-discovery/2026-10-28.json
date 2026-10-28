@@ -1,7 +1,7 @@
 {
   "date": "2026-10-28",
-  "status": "draft_validated",
-  "stage": "draft_validated",
+  "status": "committed",
+  "stage": "committed",
   "workingTitle": "A dead star is circled by two separate rings of planetary wreckage",
   "intendedFilename": "2026-10-28_stars-stellar-evolution_white-dwarf-double-debris-disc.json",
   "topic": "Stars & Stellar Evolution",
@@ -45,8 +45,14 @@
     "humanizer": "passed",
     "sourceLinks": "passed",
     "imageCheck": "passed",
-    "build": "passed"
+    "build": "passed",
+    "readback": "passed"
+  },
+  "recovery": {
+    "status": "recovered_via_git_data_fallback",
+    "lastError": "Local HTTPS push lacked interactive GitHub credentials; the approved Git data fallback published the unchanged validated files."
   },
   "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
-  "sourceStatus": "Open-access peer-reviewed paper and ESO original release read; material measurements verified against the paper."
+  "sourceStatus": "Open-access peer-reviewed paper and ESO original release read; material measurements verified against the paper.",
+  "commitSha": "4ad9a43a309c99d51e52c71c4a52dfd64c61984c"
 }
