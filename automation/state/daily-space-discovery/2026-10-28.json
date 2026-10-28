@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-28",
+  "status": "selected",
+  "stage": "discovery_frozen",
+  "workingTitle": "A dead star is circled by two separate rings of planetary wreckage",
+  "intendedFilename": "2026-10-28_stars-stellar-evolution_white-dwarf-double-debris-disc.json",
+  "topic": "Stars & Stellar Evolution",
+  "freshness": "Peer-reviewed open-access Nature Astronomy article published October 26, 2026; selected within the preferred 15-day window.",
+  "primarySources": [
+    "https://www.nature.com/articles/s41550-026-03004-3",
+    "https://www.eso.org/public/news/eso2613/"
+  ],
+  "coreFacts": [
+    "VLT/X-shooter spectra of white dwarf WD J1328-1450 show quadruple-peaked calcium and oxygen emission lines, unlike the double-peaked profiles of all 21 previously known gaseous white-dwarf debris discs.",
+    "The line velocities map to two separated gaseous rings extending from 0.14 to 0.34 solar radii and from 0.54 to 1.93 solar radii.",
+    "Repeated observations from 2021 to 2023 show that the two-ring structure remained stable for more than two years.",
+    "The inner ring contains magnesium emission while the outer ring is strongly magnesium-depleted, suggesting debris with different compositions.",
+    "The authors infer that two surviving planetary bodies probably generate and confine the gas, but neither body has been directly detected and exact sizes depend on orbit, density, and internal strength."
+  ],
+  "sources": [
+    {
+      "label": "Gentile Fusillo et al., Nature Astronomy paper",
+      "url": "https://www.nature.com/articles/s41550-026-03004-3"
+    },
+    {
+      "label": "ESO discovery release",
+      "url": "https://www.eso.org/public/news/eso2613/"
+    }
+  ],
+  "image": {
+    "status": "not_checked"
+  },
+  "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
+  "sourceStatus": "Open-access peer-reviewed paper and ESO original release read; material measurements verified against the paper."
+}
