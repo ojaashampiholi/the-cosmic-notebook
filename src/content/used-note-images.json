@@ -288,6 +288,17 @@
       "credit": "T. Kudo et al.; top row of Figure 1 cropped from the accepted paper",
       "license": "CC BY 4.0",
       "sourceUrl": "https://arxiv.org/abs/2610.35548"
+    },
+    {
+      "id": "eso-eso2613a-white-dwarf-double-disc",
+      "note": "2026-10-28_stars-stellar-evolution_white-dwarf-double-debris-disc",
+      "files": [
+        "images/notes/2026-10-28-white-dwarf-double-debris-disc.jpg",
+        "images/notes/2026-10-28-white-dwarf-double-debris-disc-thumb.jpg"
+      ],
+      "credit": "ESO/L. Calçada",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://www.eso.org/public/images/eso2613a/"
     }
   ]
 }

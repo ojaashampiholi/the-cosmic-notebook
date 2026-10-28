@@ -1,0 +1,32 @@
+{
+  "title": "A dead star is circled by two separate rings of planetary wreckage",
+  "topic": "Stars & Stellar Evolution",
+  "date": "2026-10-28",
+  "freshness": "Peer-reviewed open-access Nature Astronomy article published October 26, 2026; selected within the preferred 15-day window.",
+  "excerpt": "A white dwarf is surrounded by two distinct rings of vaporised planetary debris, separated by a clear gap. Their unusual spectral fingerprint suggests that two surviving rocky bodies may still be feeding the rings, although neither body has been seen directly.",
+  "whyItMatters": "This is the first known white-dwarf debris system with two separated gas rings. It reveals that planetary systems can preserve surprisingly complex architecture after their stars die, while challenging current explanations for how gas forms and remains confined around white dwarfs.",
+  "exploreFurther": {
+    "label": "The open-access Nature Astronomy paper",
+    "url": "https://www.nature.com/articles/s41550-026-03004-3"
+  },
+  "whatToExploreNext": "How could future time-resolved spectra test whether two surviving planetesimals are continuously producing the gas in these rings?",
+  "sources": [
+    {
+      "label": "Gentile Fusillo et al., A double debris disc around a white dwarf sculpted by two planetary bodies",
+      "url": "https://www.nature.com/articles/s41550-026-03004-3"
+    },
+    {
+      "label": "ESO release on the J1328-1450 double debris disc",
+      "url": "https://www.eso.org/public/news/eso2613/"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-10-28-white-dwarf-double-debris-disc.jpg",
+    "thumbSrc": "images/notes/2026-10-28-white-dwarf-double-debris-disc-thumb.jpg",
+    "alt": "Artist's impression of a white dwarf surrounded by two glowing debris rings, with two small rocky bodies leaving luminous trails",
+    "credit": "ESO/L. Calçada",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://www.eso.org/public/images/eso2613a/"
+  },
+  "body": "## Two rings around a stellar remnant\n\nA dead star called WD J1328-1450 is circled by two separate rings of vaporised planetary wreckage. The rings occupy different orbits and remain divided by a clear gap. Nothing similar has been found around a white dwarf before.\n\nA white dwarf is the dense core left when a star like the Sun exhausts its fuel, expands, and sheds its outer layers. Nearby planets may be swallowed, while more distant worlds and asteroids can survive. Later gravitational disturbances can tear rocky bodies apart, creating dusty and gaseous debris close to the stellar remnant.\n\nAstronomers identified WD J1328-1450 through its excess infrared light, a sign of warm dust. They then observed it with the X-shooter spectrograph on the European Southern Observatory's Very Large Telescope. The instrument separates light by wavelength, allowing the speed and composition of orbiting gas to be measured from its emission lines.\n\n## Four peaks reveal two rings\n\nGas in a flat rotating disc produces a familiar double-peaked line. Material moving toward Earth shifts one side of the line toward shorter wavelengths, while receding material shifts the other side toward longer wavelengths. All 21 previously known gaseous debris discs around white dwarfs show this two-peak pattern.\n\nWD J1328-1450 instead shows four peaks in lines from ionised calcium and neutral oxygen. The simplest geometric explanation is that two gas rings orbit at different speeds. Models place the inner ring between 0.14 and 0.34 times the Sun's radius from the white dwarf. The outer ring extends from 0.54 to 1.93 solar radii. In kilometre terms, the gap lies roughly between 240,000 and 376,000 kilometres from the star.\n\nThe researchers observed the system in 2021 and again in 2023. Its line profiles changed little, indicating that the separated rings persisted for more than two years rather than appearing as a brief disturbance. The surrounding dust is also unusually bright, radiating about 2.7 percent as much energy as the white dwarf.\n\nThe rings do not share the same chemistry. Both produce calcium and oxygen emission, but magnesium emission appears only in the inner ring. If the outer ring contained magnesium in the same proportion, its predicted signal would stand about six standard deviations above the measured continuum. Its absence is therefore strong evidence that the outer gas is magnesium-poor. The debris may come from two bodies with different compositions, or from different layers of one differentiated body.\n\n## The hidden bodies are an inference\n\nThe gas should spread across the gap unless something repeatedly generates it at two confined locations. The authors argue that two surviving planetesimals are the most likely sources. As each body moves through surrounding dust, collisions or heating could release gas that later condenses before crossing the gap.\n\nNeither body has been detected directly. The measured ring boundaries only constrain where they could orbit and how large they could remain without being torn apart. Depending on density, internal strength, and orbital position, the inner object could be asteroid-sized. The outer object's upper limit ranges from a large asteroid to roughly Pluto or Moon scale. These are permitted sizes, not measurements.\n\nThe observation is the quadruple-peaked spectrum and its stable two-ring interpretation. Two planetesimals provide a physically motivated explanation, but further monitoring must test it. Either way, the system shows that a planetary system's final chapter can retain structure as intricate as the discs in which planets first form."
+}
