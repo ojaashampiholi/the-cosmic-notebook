@@ -1,7 +1,7 @@
 {
   "date": "2026-10-28",
-  "status": "verified",
-  "stage": "verified",
+  "status": "draft_validated",
+  "stage": "draft_validated",
   "workingTitle": "A dead star is circled by two separate rings of planetary wreckage",
   "intendedFilename": "2026-10-28_stars-stellar-evolution_white-dwarf-double-debris-disc.json",
   "topic": "Stars & Stellar Evolution",
@@ -38,6 +38,14 @@
     "credit": "ESO/L. Calçada",
     "license": "CC BY 4.0",
     "sourceUrl": "https://www.eso.org/public/images/eso2613a/"
+  },
+  "validation": {
+    "bodyWords": 566,
+    "json": "passed",
+    "humanizer": "passed",
+    "sourceLinks": "passed",
+    "imageCheck": "passed",
+    "build": "passed"
   },
   "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
   "sourceStatus": "Open-access peer-reviewed paper and ESO original release read; material measurements verified against the paper."
