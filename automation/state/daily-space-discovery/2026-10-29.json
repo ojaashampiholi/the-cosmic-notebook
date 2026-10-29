@@ -1,7 +1,7 @@
 {
   "date": "2026-10-29",
-  "status": "validated",
-  "stage": "validated",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "Two faint galaxies light up beside a nearly pristine reservoir of cosmic gas",
   "intendedFilename": "2026-10-29_galaxies_near-pristine-dla-star-formation.json",
   "topic": "Galaxies & Galactic Evolution",
@@ -43,13 +43,17 @@
     "sourceLinks": "passed",
     "imageCheck": "passed",
     "build": "passed",
-    "readback": "pending",
-    "liveHttp": "pending"
+    "readback": "passed",
+    "liveHttp": 200
   },
   "recovery": {
-    "status": "not_needed",
-    "lastError": null
+    "status": "recovered_via_git_data_fallback_and_verified",
+    "lastError": "Local HTTPS push lacked interactive GitHub credentials; the approved Git data fallback published the unchanged validated files."
   },
   "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
-  "sourceStatus": "Full open-access MNRAS-accepted paper read; measurements and limitations verified against the primary source."
+  "sourceStatus": "Full open-access MNRAS-accepted paper read; measurements and limitations verified against the primary source.",
+  "commitSha": "619a04a2bff6362179e46f131693842c6308643a",
+  "deployRunId": 40880211736,
+  "deployRunUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/40880211736",
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-29_galaxies_near-pristine-dla-star-formation/"
 }
