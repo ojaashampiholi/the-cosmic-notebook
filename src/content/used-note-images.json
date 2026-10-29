@@ -299,6 +299,17 @@
       "credit": "ESO/L. Calçada",
       "license": "CC BY 4.0",
       "sourceUrl": "https://www.eso.org/public/images/eso2613a/"
+    },
+    {
+      "id": "welsh-2026-kcwi-near-pristine-dla-field",
+      "note": "2026-10-29_galaxies_near-pristine-dla-star-formation",
+      "files": [
+        "images/notes/2026-10-29-near-pristine-dla-field.jpg",
+        "images/notes/2026-10-29-near-pristine-dla-field-thumb.jpg"
+      ],
+      "credit": "Welsh et al. (2026); Figure 3 from the paper",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://arxiv.org/html/2610.36042v1#S3.F3"
     }
   ]
 }

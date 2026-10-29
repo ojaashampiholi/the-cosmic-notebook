@@ -1,0 +1,28 @@
+{
+  "title": "Two faint galaxies glow beside a nearly pristine reservoir of cosmic gas",
+  "topic": "Galaxies & Galactic Evolution",
+  "date": "2026-10-29",
+  "freshness": "MNRAS-accepted open-access paper posted to arXiv on October 26, 2026; selected within the preferred 15-day window.",
+  "excerpt": "Keck observations found two faint star-forming galaxies near a vast neutral-hydrogen cloud that contains less than one-thousandth of the Sun's iron abundance. The galaxies may offer a reachable view of primitive star formation, but their own metallicities and physical link to the cloud still need confirmation.",
+  "whyItMatters": "Almost pristine gas preserves evidence from the earliest generations of stars. Detecting active galaxies in its wider environment gives astronomers specific targets for testing whether such gas clouds can guide searches for chemically primitive galaxies long after the first stars formed.",
+  "exploreFurther": {
+    "label": "The MNRAS-accepted open-access paper",
+    "url": "https://arxiv.org/abs/2610.36042"
+  },
+  "whatToExploreNext": "How can rest-frame optical spectra distinguish genuinely primitive galaxies from ordinary faint galaxies seen near a metal-poor gas cloud?",
+  "sources": [
+    {
+      "label": "Welsh et al., Detection of star formation in a near-pristine pocket of the Universe",
+      "url": "https://arxiv.org/abs/2610.36042"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-10-29-near-pristine-dla-field.jpg",
+    "thumbSrc": "images/notes/2026-10-29-near-pristine-dla-field-thumb.jpg",
+    "alt": "Keck narrow-band intensity map with the two Lyman-alpha emitting galaxies LAE1 and LAE2 circled in red",
+    "credit": "Welsh et al. (2026); Figure 3 from the paper",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/html/2610.36042v1#S3.F3"
+  },
+  "body": "## Two signals around an ancient gas reservoir\n\nLight from two small galaxies has appeared beside one of the most chemically primitive gas clouds known. Astronomers found the galaxies with the Keck Cosmic Web Imager, or KCWI, while looking around a dense reservoir of neutral hydrogen seen when the universe was about two billion years old.\n\nThe cloud is a damped Lyman-alpha absorber, usually shortened to DLA. It does not shine on its own. Instead, it reveals itself by removing a broad band of light from a much more distant quasar behind it. The depth and pattern of narrower absorption lines let astronomers measure the cloud's chemical ingredients.\n\nThis DLA sits at redshift 3.078. Its oxygen abundance is about one twelve-hundredth of the Sun's, while its iron abundance is below roughly one four-thousandth of the solar value. In astronomy, elements heavier than helium are called metals. Because stars manufacture those elements, such low abundances suggest gas that has experienced very little enrichment by earlier generations of stars.\n\n## Finding galaxies through one hydrogen line\n\nThe team mapped five adjoining KCWI fields around the quasar sightline, reaching 230 physical kiloparsecs from the DLA. KCWI records a spectrum at every point in its view, so the researchers could search 1,186 spatial pixels for the characteristic Lyman-alpha emission of star-forming galaxies at nearly the same redshift. They rejected a lower-redshift interloper and checked the two surviving signals with an independent three-dimensional detection method.\n\nThe sources, named LAE1 and LAE2, were detected at signal-to-noise ratios of 6 and 5 per spatial pixel. They lie 66 and 137 physical kiloparsecs from the quasar sightline in projection. Their Lyman-alpha luminosities are about 3.8 and 3.2 times 10^41 ergs per second. Those measurements imply star-formation-rate lower limits of 0.34 and 0.29 solar masses per year, although dust and the fraction of escaping Lyman-alpha light make the true rates uncertain.\n\nBoth sources are faint, compact at Keck's resolution, and have narrower Lyman-alpha lines than many comparable galaxies. The team also searched for helium emission that could help diagnose extremely metal-poor stars, but found only upper limits. Taken together with an inferred stellar mass near 30 million Suns for each galaxy, the properties are consistent with low metallicity. They do not measure it directly.\n\n## Nearby does not yet mean connected\n\nThis is the first reported detection of star-forming galaxies in the wider environment of a chemically near-pristine DLA. It is not a direct view of stars forming inside the absorber. The two galaxies are separated from its sightline, and one differs substantially in velocity. They could occupy one extended structure, trace different structures, or mark a larger halo whose outer gas produced the absorption.\n\nThe field also does not contain a statistically significant excess of Lyman-alpha emitters compared with adjacent redshift intervals. That matters because it prevents two detections from becoming a claim that near-pristine DLAs always live in unusually crowded regions.\n\nThe next test is rest-frame optical spectroscopy, which can measure oxygen and hydrogen lines shifted into infrared wavelengths. If LAE1 or LAE2 proves extremely metal-poor, these absorbers could become practical signposts for finding primitive galaxies at a more accessible epoch than the cosmic dawn.\n\n**Measured:** two high-confidence Lyman-alpha emitters near a DLA with exceptionally little oxygen and iron.\n\n**Inferred:** the galaxies may also be metal-poor and may share an environment with the absorber, but neither conclusion is established yet."
+}

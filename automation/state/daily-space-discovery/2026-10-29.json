@@ -1,7 +1,7 @@
 {
   "date": "2026-10-29",
-  "status": "frozen",
-  "stage": "selected",
+  "status": "validated",
+  "stage": "validated",
   "workingTitle": "Two faint galaxies light up beside a nearly pristine reservoir of cosmic gas",
   "intendedFilename": "2026-10-29_galaxies_near-pristine-dla-star-formation.json",
   "topic": "Galaxies & Galactic Evolution",
@@ -37,11 +37,12 @@
     "sourceUrl": "https://arxiv.org/html/2610.36042v1#S3.F3"
   },
   "validation": {
-    "json": "pending",
-    "humanizer": "pending",
-    "sourceLinks": "pending",
-    "imageCheck": "pending",
-    "build": "pending",
+    "bodyWords": 563,
+    "json": "passed",
+    "humanizer": "passed",
+    "sourceLinks": "passed",
+    "imageCheck": "passed",
+    "build": "passed",
     "readback": "pending",
     "liveHttp": "pending"
   },
