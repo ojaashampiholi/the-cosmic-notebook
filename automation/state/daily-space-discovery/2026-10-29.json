@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-29",
+  "status": "frozen",
+  "stage": "selected",
+  "workingTitle": "Two faint galaxies light up beside a nearly pristine reservoir of cosmic gas",
+  "intendedFilename": "2026-10-29_galaxies_near-pristine-dla-star-formation.json",
+  "topic": "Galaxies & Galactic Evolution",
+  "freshness": "MNRAS-accepted open-access paper posted to arXiv on October 26, 2026; selected within the preferred 15-day window.",
+  "primarySources": [
+    "https://arxiv.org/abs/2610.36042",
+    "https://arxiv.org/html/2610.36042v1"
+  ],
+  "coreFacts": [
+    "Keck/KCWI detected two high-confidence Lyman-alpha emitting galaxies in the wider environment of a damped Lyman-alpha absorber at redshift 3.078.",
+    "The neutral-hydrogen cloud has measured oxygen abundance [O/H] = -3.08 +/- 0.05 and an iron abundance upper limit [Fe/H] < -3.66 at 2 sigma, placing it among the most metal-poor DLAs known.",
+    "The galaxies lie 66 and 137 physical kiloparsecs in projection from the quasar sightline and were detected with signal-to-noise ratios per spatial pixel of 6 and 5.",
+    "Their Lyman-alpha luminosities are (3.8 +/- 0.6) x 10^41 and (3.2 +/- 0.8) x 10^41 erg/s, implying star-formation-rate lower limits of 0.34 and 0.29 solar masses per year.",
+    "The faint, narrow, unresolved sources may be metal-poor galaxies, but their metallicities have not been measured directly and their physical connection to the absorber remains uncertain."
+  ],
+  "caveats": [
+    "The galaxies are detected near the absorber in projection and redshift, but the data do not prove that either is the absorber's host or that all three occupy one structure.",
+    "The field does not contain a statistically significant excess of Lyman-alpha emitters compared with adjacent redshift intervals.",
+    "Low metallicity in the two galaxies is inferred from several indirect properties; rest-frame optical spectroscopy is needed to measure it.",
+    "The paper is accepted by MNRAS and publicly available as an author preprint, but its journal version was not yet the accessible source used in this run."
+  ],
+  "sources": [
+    {
+      "label": "Welsh et al., MNRAS-accepted paper",
+      "url": "https://arxiv.org/abs/2610.36042"
+    }
+  ],
+  "image": {
+    "status": "selected",
+    "id": "welsh-2026-kcwi-near-pristine-dla-field",
+    "credit": "Welsh et al. (2026)",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/html/2610.36042v1#S3.F3"
+  },
+  "validation": {
+    "json": "pending",
+    "humanizer": "pending",
+    "sourceLinks": "pending",
+    "imageCheck": "pending",
+    "build": "pending",
+    "readback": "pending",
+    "liveHttp": "pending"
+  },
+  "recovery": {
+    "status": "not_needed",
+    "lastError": null
+  },
+  "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
+  "sourceStatus": "Full open-access MNRAS-accepted paper read; measurements and limitations verified against the primary source."
+}
