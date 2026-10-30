@@ -1,7 +1,7 @@
 {
   "date": "2026-10-30",
-  "status": "selected",
-  "stage": "frozen",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "Rubin finds a dwarf-planet candidate hiding in a crowded star field",
   "intendedFilename": "2026-10-30_solar-system_rubin-2026-ed138-dwarf-planet-candidate.json",
   "topic": "Solar System & Planetary Science",
@@ -35,12 +35,30 @@
     }
   ],
   "image": {
-    "status": "selected",
+    "status": "included",
     "id": "rubin-noirlab2626a-2026-ed138-orbital-arc",
     "credit": "NSF-DOE Vera C. Rubin Observatory/NOIRLab/SLAC/AURA; Image Processing: M. Jurić (UW), D. de Martin & M. Zamani (NSF NOIRLab)",
     "license": "CC BY 4.0",
     "sourceUrl": "https://rubinobservatory.org/gallery/collections/news-images/noirlab2626a"
   },
+  "validation": {
+    "bodyWords": 592,
+    "json": "passed",
+    "humanizer": "passed",
+    "sourceLinks": "passed",
+    "imageCheck": "passed",
+    "build": "passed",
+    "readback": "passed",
+    "liveHttp": 200
+  },
+  "recovery": {
+    "status": "recovered_via_git_data_fallback_and_verified",
+    "lastError": "Local HTTPS push lacked interactive GitHub credentials; the approved Git data fallback published the unchanged validated files."
+  },
   "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
-  "sourceStatus": "Full unreviewed preprint and Rubin Observatory original release read; measurements and limitations verified against the paper."
+  "sourceStatus": "Full unreviewed preprint and Rubin Observatory original release read; measurements and limitations verified against the paper.",
+  "commitSha": "ee67ef7a365bafb05ef4b9f47f07ddaf89f3be67",
+  "deployRunId": 41058423777,
+  "deployRunUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/41058423777",
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-30_solar-system_rubin-2026-ed138-dwarf-planet-candidate/"
 }
