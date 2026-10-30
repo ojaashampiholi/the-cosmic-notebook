@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-30",
+  "status": "selected",
+  "stage": "frozen",
+  "workingTitle": "Rubin finds a dwarf-planet candidate hiding in a crowded star field",
+  "intendedFilename": "2026-10-30_solar-system_rubin-2026-ed138-dwarf-planet-candidate.json",
+  "topic": "Solar System & Planetary Science",
+  "freshness": "Unreviewed preprint submitted October 28, 2026, following the official October 27 discovery announcement; selected within the preferred 15-day window.",
+  "primarySources": [
+    "https://arxiv.org/abs/2610.38693",
+    "https://rubinobservatory.org/news/rubin-first-dwarf-planet-candidate"
+  ],
+  "coreFacts": [
+    "Rubin observations first identified 2026 ED138 in March-to-July 2026 data, with 30 detections on 20 nights; archival DECam images extend the observed arc back to February 2016.",
+    "The adopted orbital fit uses 74 observations and places the object about 46 astronomical units from the Sun, on an orbit with semimajor axis 43.091 au, eccentricity 0.1387, and inclination 24.43 degrees.",
+    "Its absolute visual magnitude is H_V = 3.19 +/- 0.04, making it one of the ten intrinsically brightest known trans-Neptunian objects.",
+    "Its diameter is not directly measured: plausible reflected-light estimates range from about 612 to 1530 kilometers for assumed albedos from 0.25 to 0.04.",
+    "Its orbit lies near Neptune's 12:7 resonance, but only 46 percent of simulated orbital clones were resonant, so secure resonance classification is not yet justified.",
+    "The object crossed a crowded region near the Galactic plane, where blending caused Rubin's standard catalogs to miss it in many visits even though it was visible in the images."
+  ],
+  "caveats": [
+    "The paper is an unreviewed preprint submitted to The Astronomical Journal.",
+    "Dwarf-planet status is provisional because size, mass, shape, and hydrostatic equilibrium have not been directly measured.",
+    "The population estimate of about three more similarly bright objects has a very wide 90 percent interval of 0.2 to 20 and is based on one new discovery plus uncertain recovery efficiency.",
+    "Infrared thermal observations are needed to measure albedo and diameter more directly."
+  ],
+  "sources": [
+    {
+      "label": "Bernardinelli et al., submitted AJ preprint",
+      "url": "https://arxiv.org/abs/2610.38693"
+    },
+    {
+      "label": "Vera C. Rubin Observatory discovery release",
+      "url": "https://rubinobservatory.org/news/rubin-first-dwarf-planet-candidate"
+    }
+  ],
+  "image": {
+    "status": "selected",
+    "id": "rubin-noirlab2626a-2026-ed138-orbital-arc",
+    "credit": "NSF-DOE Vera C. Rubin Observatory/NOIRLab/SLAC/AURA; Image Processing: M. Jurić (UW), D. de Martin & M. Zamani (NSF NOIRLab)",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://rubinobservatory.org/gallery/collections/news-images/noirlab2626a"
+  },
+  "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
+  "sourceStatus": "Full unreviewed preprint and Rubin Observatory original release read; measurements and limitations verified against the paper."
+}
