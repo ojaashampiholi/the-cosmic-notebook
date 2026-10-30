@@ -1,0 +1,32 @@
+{
+  "title": "Rubin finds a dwarf-planet candidate hiding in a crowded star field",
+  "topic": "Solar System & Planetary Science",
+  "date": "2026-10-30",
+  "freshness": "Unreviewed preprint submitted October 28, 2026, following the official October 27 discovery announcement; selected within the preferred 15-day window.",
+  "excerpt": "Early observations from the Rubin Observatory have revealed 2026 ED138, a bright world beyond Neptune whose estimated diameter could exceed 1,000 kilometers. Its dwarf-planet status and size remain provisional because astronomers have measured its reflected light, not its diameter or mass.",
+  "whyItMatters": "2026 ED138 shows that large nearby worlds can still evade surveys when they pass through crowded parts of the sky. Its discovery also tests the software and search strategies that will turn Rubin's repeated images into a more complete census of the outer Solar System.",
+  "exploreFurther": {
+    "label": "The submitted Astronomical Journal preprint",
+    "url": "https://arxiv.org/abs/2610.38693"
+  },
+  "whatToExploreNext": "How can thermal infrared measurements separate an object's diameter from the reflectivity of its surface?",
+  "sources": [
+    {
+      "label": "Holman et al., 2026 ED138: A Large Trans-Neptunian Object in Early Rubin Observatory Data, and How Many More May Remain",
+      "url": "https://arxiv.org/abs/2610.38693"
+    },
+    {
+      "label": "Vera C. Rubin Observatory discovery release",
+      "url": "https://rubinobservatory.org/news/rubin-first-dwarf-planet-candidate"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-10-30-2026-ed138-rubin-arc.jpg",
+    "thumbSrc": "images/notes/2026-10-30-2026-ed138-rubin-arc-thumb.jpg",
+    "alt": "Annotated Rubin composite showing the measured path of 2026 ED138 through a crowded star field from March to July 2026",
+    "credit": "NSF-DOE Vera C. Rubin Observatory/NOIRLab/SLAC/AURA; Image Processing: M. Jurić (UW), D. de Martin & M. Zamani (NSF NOIRLab)",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://rubinobservatory.org/gallery/collections/news-images/noirlab2626a"
+  },
+  "body": "## A large world was hiding among the stars\n\nA bright object beyond Neptune has turned up in some of the first Solar System data from the Vera C. Rubin Observatory. It is called 2026 ED138. Its measured brightness suggests that it could be hundreds of kilometers wide, large enough to qualify as a dwarf-planet candidate. Yet it escaped earlier searches because its path crossed a dense field of Milky Way stars, where overlapping points of light make moving objects harder for software to separate.\n\nA trans-Neptunian object, or TNO, is a body whose orbit lies mostly beyond Neptune. The team found 2026 ED138 with pointdexter, software that links faint detections taken on different nights into a possible orbit. Independent checks confirmed the discovery. Rubin recorded it 30 times on 20 nights from March through July 2026. The researchers then found it in older Dark Energy Camera images, extending the observed path back to February 2016. Their adopted orbital fit uses 74 observations across 3,789 days.\n\nThat long arc matters because a short run of positions can leave a distant object's orbit uncertain. The fit places 2026 ED138 about 46 astronomical units from the Sun today, with one astronomical unit equal to the average Earth-Sun distance. It follows an inclined, moderately elongated orbit whose average distance is 43.091 astronomical units. Its closest point to the Sun is about 37.11 astronomical units.\n\n## Brightness gives a size range, not a measurement\n\nThe team measured an absolute visual magnitude of 3.19 plus or minus 0.04. This quantity compares how bright Solar System bodies would look under the same viewing geometry. By that measure, 2026 ED138 is among the ten intrinsically brightest known TNOs.\n\nBrightness alone cannot reveal diameter. A smaller, reflective body can return as much sunlight as a larger, darker one. For a high assumed reflectivity, or albedo, of 0.25, the estimated diameter is about 612 kilometers. With an albedo of 0.10 it becomes about 968 kilometers, and with a dark albedo of 0.04 it reaches about 1,530 kilometers. Those are model-dependent estimates, not three competing measurements. Thermal infrared observations could measure how much absorbed sunlight the object reradiates, helping astronomers solve for both size and albedo.\n\nThe label dwarf-planet candidate also needs care. A dwarf planet must have enough gravity to pull itself into a rounded shape. No observation has yet resolved the shape of 2026 ED138 or measured its mass. Its brightness makes that status plausible, but confirmation requires more physical information.\n\n## An orbit on the edge of a resonance\n\nThe orbit lies near a 12:7 mean-motion resonance with Neptune. In such a resonance, the two bodies complete roughly fixed numbers of orbits in the same interval, allowing Neptune's repeated gravitational tugs to organize the smaller body's path. When the researchers simulated many orbits consistent with the observations, only 46 percent behaved as resonant. That is not enough for a secure classification.\n\nThe paper also asks how many other large TNOs remain undiscovered. From the recovery rate for known bright objects, the authors estimate roughly three more away from the Galactic plane. The uncertainty is enormous: their 90 percent interval runs from 0.2 to 20. This estimate comes from one new object and incomplete survey coverage, so it is a guide for future searches rather than a census. Crowded regions within 10 degrees of the Galactic plane may conceal additional objects.\n\n**Measured:** a decade-long observed arc, a well-constrained orbit, color, and reflected-light brightness.\n\n**Inferred:** a diameter between roughly 600 and 1,500 kilometers, possible dwarf-planet status, and a still-uncertain population of comparable undiscovered worlds."
+}

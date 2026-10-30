@@ -1,6 +1,17 @@
 {
   "images": [
     {
+      "id": "rubin-noirlab2626a-2026-ed138-orbital-arc",
+      "note": "2026-10-30_solar-system_rubin-2026-ed138-dwarf-planet-candidate",
+      "files": [
+        "images/notes/2026-10-30-2026-ed138-rubin-arc.jpg",
+        "images/notes/2026-10-30-2026-ed138-rubin-arc-thumb.jpg"
+      ],
+      "credit": "NSF-DOE Vera C. Rubin Observatory/NOIRLab/SLAC/AURA; Image Processing: M. Jurić (UW), D. de Martin & M. Zamani (NSF NOIRLab)",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://rubinobservatory.org/gallery/collections/news-images/noirlab2626a"
+    },
+    {
       "id": "arxiv-2610-22271-figure-4",
       "note": "2026-10-19_exoplanets_wasp-94a-b-two-limbs",
       "files": [
