@@ -1,7 +1,7 @@
 {
   "date": "2026-10-31",
   "status": "selected",
-  "stage": "verified",
+  "stage": "draft_validated",
   "workingTitle": "A less stable molecule outnumbers its sturdier twin in interstellar space",
   "intendedFilename": "2026-10-31_astrobiology_interstellar-hncoh-chemistry.json",
   "topic": "Astrobiology & Habitability",
@@ -32,6 +32,16 @@
   "image": {
     "status": "skipped",
     "reason": "Seven of the newest ten published notes are already illustrated; adding an image today would move the rolling ten above the six-to-seven target."
+  },
+  "validation": {
+    "bodyWords": 596,
+    "json": "passed",
+    "humanizer": "passed",
+    "sourceLinks": "passed",
+    "imageCheck": "not_applicable",
+    "build": "pending",
+    "readback": "pending",
+    "liveHttp": null
   },
   "recovery": {
     "status": "not_needed",
