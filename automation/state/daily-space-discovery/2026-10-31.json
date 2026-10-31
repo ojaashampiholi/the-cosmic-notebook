@@ -1,7 +1,7 @@
 {
   "date": "2026-10-31",
-  "status": "selected",
-  "stage": "draft_validated",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "A less stable molecule outnumbers its sturdier twin in interstellar space",
   "intendedFilename": "2026-10-31_astrobiology_interstellar-hncoh-chemistry.json",
   "topic": "Astrobiology & Habitability",
@@ -39,14 +39,18 @@
     "humanizer": "passed",
     "sourceLinks": "passed",
     "imageCheck": "not_applicable",
-    "build": "pending",
-    "readback": "pending",
-    "liveHttp": null
+    "build": "passed",
+    "readback": "passed",
+    "liveHttp": 200
   },
   "recovery": {
-    "status": "not_needed",
-    "lastError": null
+    "status": "recovered_via_git_data_fallback_and_verified",
+    "lastError": "Local HTTPS push lacked interactive GitHub credentials; the approved Git data fallback published the unchanged validated file."
   },
   "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
-  "sourceStatus": "Full A&A-accepted paper read; material measurements, line-identification limits, and chemical interpretation verified against the open-access primary source."
+  "sourceStatus": "Full A&A-accepted paper read; material measurements, line-identification limits, and chemical interpretation verified against the open-access primary source.",
+  "commitSha": "5e3ae3c494c7ef4b3a478c3d217b46bc8b51983b",
+  "deployRunId": 41203180658,
+  "deployRunUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/41203180658",
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-10-31_astrobiology_interstellar-hncoh-chemistry/"
 }
