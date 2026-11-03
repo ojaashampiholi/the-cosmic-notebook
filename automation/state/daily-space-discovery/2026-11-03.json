@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
   "status": "in_progress",
-  "stage": "frozen",
+  "stage": "validated",
   "workingTitle": "Dwarf galaxies kept only a tenth of the oxygen their stars made",
   "intendedFilename": "2026-11-03_galaxies_dwarf-galaxies-missing-oxygen.json",
   "topic": "Galaxies & Galactic Evolution",
@@ -40,5 +40,16 @@
     "reason": "Publishing without an image leaves six illustrated entries among the newest ten, within the six-to-seven target, and avoids assigning a specific galaxy portrait to a result measured across 37 galaxies."
   },
   "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
-  "sourceStatus": "Full primary paper read through its arXiv text; sample, retention fractions, measurement method, simulation comparison, and circumgalactic-medium limitations verified. NASA's original release was read for the peer-reviewed publication date and accessible context."
+  "sourceStatus": "Full primary paper read through its arXiv text; sample, retention fractions, measurement method, simulation comparison, and circumgalactic-medium limitations verified. NASA's original release was read for the peer-reviewed publication date and accessible context.",
+  "validation": {
+    "bodyWords": 554,
+    "json": "passed",
+    "humanizer": "passed",
+    "sourceLinks": "passed",
+    "imageCheck": "passed",
+    "build": "passed",
+    "readback": null,
+    "liveHttp": null,
+    "deploy": null
+  }
 }
