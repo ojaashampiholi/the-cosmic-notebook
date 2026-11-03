@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-03",
+  "status": "in_progress",
+  "stage": "frozen",
+  "workingTitle": "Dwarf galaxies kept only a tenth of the oxygen their stars made",
+  "intendedFilename": "2026-11-03_galaxies_dwarf-galaxies-missing-oxygen.json",
+  "topic": "Galaxies & Galactic Evolution",
+  "freshness": "Peer-reviewed paper published in The Astrophysical Journal on November 2, 2026; selected within the preferred 15-day window.",
+  "primarySources": [
+    "https://doi.org/10.3847/1538-4357/ae93a6",
+    "https://arxiv.org/abs/2608.07665",
+    "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/"
+  ],
+  "coreFacts": [
+    "The GLOW team measured oxygen production, distribution, and retention in 37 gas-rich, star-forming dwarf galaxies within 6 megaparsecs.",
+    "The galaxies span stellar masses from about 10^6.5 to 10^9.5 solar masses and retained 3.8% to 24.8% of the oxygen their stars produced, with a mean of 10.7% and a sample standard deviation of 5.1%.",
+    "About 80% of the sample, 29 of 37 galaxies, retained no more than 15% of their produced oxygen.",
+    "Most of the retained oxygen is in interstellar gas, with smaller amounts in stars, stellar remnants, and dust.",
+    "Hydrodynamical simulations reproduce the mass-metallicity relation but predict higher oxygen retention than the observations show."
+  ],
+  "caveats": [
+    "The retained fractions combine several measurements and assumptions, including stellar yields, stellar population histories, gas masses, oxygen abundances, dust depletion, and alpha-to-iron ratios.",
+    "The sample contains nearby gas-rich, star-forming dwarf galaxies and should not be generalized without qualification to every kind of dwarf galaxy.",
+    "Ultraviolet absorption studies constrain only part of the circumgalactic oxygen reservoir and require uncertain ionization corrections.",
+    "The study does not establish whether most missing oxygen remains in the galaxies' circumgalactic surroundings or escaped into intergalactic space.",
+    "Galactic winds are the leading explanation for oxygen removal, but the study reconstructs the cumulative budget rather than directly observing every past outflow."
+  ],
+  "sources": [
+    {
+      "label": "McQuinn et al., GLOW II: A Census of Oxygen in Low-Mass Galaxies",
+      "url": "https://doi.org/10.3847/1538-4357/ae93a6"
+    },
+    {
+      "label": "NASA, Hubble uncovers missing oxygen in nearby dwarf galaxies",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/"
+    }
+  ],
+  "image": {
+    "status": "skipped",
+    "reason": "Publishing without an image leaves six illustrated entries among the newest ten, within the six-to-seven target, and avoids assigning a specific galaxy portrait to a result measured across 37 galaxies."
+  },
+  "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
+  "sourceStatus": "Full primary paper read through its arXiv text; sample, retention fractions, measurement method, simulation comparison, and circumgalactic-medium limitations verified. NASA's original release was read for the peer-reviewed publication date and accessible context."
+}
