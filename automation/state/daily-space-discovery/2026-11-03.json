@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
-  "status": "in_progress",
-  "stage": "committed",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "Dwarf galaxies kept only a tenth of the oxygen their stars made",
   "intendedFilename": "2026-11-03_galaxies_dwarf-galaxies-missing-oxygen.json",
   "topic": "Galaxies & Galactic Evolution",
@@ -42,6 +42,8 @@
   "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
   "sourceStatus": "Full primary paper read through its arXiv text; sample, retention fractions, measurement method, simulation comparison, and circumgalactic-medium limitations verified. NASA's original release was read for the peer-reviewed publication date and accessible context.",
   "commitSha": "07aa28dbe45f7b8d0272ee60cda1899accae7f71",
+  "deployCommitSha": "aa3e68ad9150d096de03afd6c11bf091dabfc355",
+  "deployRunUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/41637876634",
   "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-03_galaxies_dwarf-galaxies-missing-oxygen/",
   "validation": {
     "bodyWords": 554,
@@ -51,7 +53,7 @@
     "imageCheck": "passed",
     "build": "passed",
     "readback": "passed",
-    "liveHttp": null,
-    "deploy": null
+    "liveHttp": 200,
+    "deploy": "passed"
   }
 }
