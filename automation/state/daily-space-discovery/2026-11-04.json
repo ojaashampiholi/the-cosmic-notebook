@@ -1,7 +1,7 @@
 {
   "date": "2026-11-04",
-  "status": "in_progress",
-  "stage": "draft_validated",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "JWST traces carbon from a hot inner disk into a planet-forming wind",
   "intendedFilename": "2026-11-04_planet-formation_hops-68-carbon-wind.json",
   "topic": "Planet Formation",
@@ -43,6 +43,11 @@
     "sourceUrl": "https://arxiv.org/html/2611.04557v1"
   },
   "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
+  "finalFilename": "2026-11-04_planet-formation_hops-68-carbon-wind.json",
+  "commitSha": "73058fb21fab51614ebee958bbb9151a33f53c64",
+  "deployRunId": 41834469822,
+  "deployRunUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/41834469822",
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-04_planet-formation_hops-68-carbon-wind/",
   "sourceStatus": "Full accepted paper read in HTML; observations, fitted temperatures and velocities, first triacetylene detection, ALMA morphology, proposed chemistry, and stated limitations verified against the primary source. Independent secondary corroboration was unnecessary because the accepted full paper directly supports the material claims.",
   "validation": {
     "bodyWords": 590,
@@ -51,8 +56,8 @@
     "sourceLinks": "passed",
     "imageCheck": "passed",
     "build": "passed",
-    "readback": null,
-    "liveHttp": null,
-    "deploy": null
+    "readback": "passed",
+    "liveHttp": 200,
+    "deploy": "passed"
   }
 }
