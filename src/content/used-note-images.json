@@ -321,6 +321,17 @@
       "credit": "Welsh et al. (2026); Figure 3 from the paper",
       "license": "CC BY 4.0",
       "sourceUrl": "https://arxiv.org/html/2610.36042v1#S3.F3"
+    },
+    {
+      "id": "arxiv-2611-04557-figure-3",
+      "note": "2026-11-04_planet-formation_hops-68-carbon-wind",
+      "files": [
+        "images/notes/2026-11-04-hops-68-carbon-wind.png",
+        "images/notes/2026-11-04-hops-68-carbon-wind-thumb.png"
+      ],
+      "credit": "F. J. Ballieux et al.; Figure 3 from the accepted paper",
+      "license": "CC BY-NC-SA 4.0",
+      "sourceUrl": "https://arxiv.org/html/2611.04557v1"
     }
   ]
 }

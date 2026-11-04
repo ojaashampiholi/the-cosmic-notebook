@@ -1,0 +1,28 @@
+{
+  "title": "JWST traces carbon from a hot inner disk into a planet-forming wind",
+  "topic": "Planet Formation",
+  "date": "2026-11-04",
+  "freshness": "Accepted by The Astrophysical Journal Letters and submitted to arXiv on November 3, 2026; selected within the preferred 15-day window.",
+  "excerpt": "JWST found warm carbon-bearing molecules moving outward from the inner disk around the young star HOPS-68, while ALMA traced related chemistry along its outflow cavity. The observations support a scenario in which intense heat strips carbon from dust before a disk wind carries it away.",
+  "whyItMatters": "Rocky worlds contain far less carbon than the material from which stars and planets form. HOPS-68 offers a view of one process that could remove carbon from the region where terrestrial planets are assembled, although the study cannot yet measure how much carbon is lost.",
+  "exploreFurther": {
+    "label": "Ballieux et al., Up in smoke: carbon-destruction in the terrestrial planet-forming region of a young Class I disk",
+    "url": "https://arxiv.org/abs/2611.04557"
+  },
+  "whatToExploreNext": "How could measurements of molecular hydrogen and carbon monoxide determine the amount of carbon carried away by a young disk wind?",
+  "sources": [
+    {
+      "label": "Ballieux et al., Up in smoke: carbon-destruction in the terrestrial planet-forming region of a young Class I disk",
+      "url": "https://arxiv.org/abs/2611.04557"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-11-04-hops-68-carbon-wind.png",
+    "thumbSrc": "images/notes/2026-11-04-hops-68-carbon-wind-thumb.png",
+    "alt": "Schematic cross-section of HOPS-68 showing carbon released in the hot inner disk, carried upward by a disk wind, and transformed along the outflow cavity wall",
+    "credit": "F. J. Ballieux et al.; Figure 3 from the accepted paper",
+    "license": "CC BY-NC-SA 4.0",
+    "sourceUrl": "https://arxiv.org/html/2611.04557v1"
+  },
+  "body": "## Carbon molecules riding a young star's wind\n\nA young star called HOPS-68 appears to be removing carbon from the region where rocky planets could eventually form. JWST detected warm carbon-bearing molecules moving outward above its inner disk, while ALMA mapped a related molecule along the walls of the system's outflow cavity. Together, the observations support a picture in which heat frees carbon from solid grains and a disk wind transports it away.\n\nHOPS-68 is a Class I protostar, an early stage when a growing star is still surrounded by a thick envelope and a planet-forming disk. It lies about 414 parsecs, or 1,350 light-years, away in the Orion Molecular Cloud. Earth is a useful point of comparison: its rocky portion contains roughly ten thousand times less carbon, relative to other material, than the Sun and the interstellar dust from which the Solar System formed. Astronomers still do not have a complete explanation for that shortage.\n\n## Two temperatures, two parts of the flow\n\nJWST's Mid-Infrared Instrument split the light from HOPS-68 into a spectrum. The researchers fitted molecular absorption bands and found hydrogen cyanide at about 319 kelvin and acetylene at about 432 kelvin. Both were strongly blueshifted relative to the star, meaning the gas is moving toward us. Their speeds and temperatures resemble oxygen-bearing molecules that earlier work placed at the base of the disk wind.\n\nThe spectrum also contains colder carbon chemistry. Methyl and diacetylene fit temperatures near 44 and 38 kelvin, respectively, placing them much farther from the hot inner disk. JWST detected triacetylene too, the first reported detection of that molecule in a protostellar system, though the available molecular data did not allow the team to fit its temperature or abundance. A methane feature was also present, but overlap with ice and other gas made its fitted properties unreliable.\n\nArchival ALMA observations add spatial information. Emission from ethynyl lies on either side of the molecular hydrogen jet and follows outflowing material along the cavity walls. Ultraviolet light can break acetylene into ethynyl, which can then react with more acetylene to build longer carbon chains. This reaction route could explain why cold, longer molecules appear farther out than the warm, simpler ones.\n\n## A possible carbon-clearing zone\n\nThe authors propose a refractory carbon destruction zone in the inner disk. At the soot line, around 500 kelvin, moderately volatile carbon compounds begin to leave heated grains. By about 1,200 kelvin, even amorphous carbon can be released. HOPS-68 has an inner region that reaches about 1,400 kelvin, so the required conditions exist. Carbon freed there could fall onto the star or enter the wind instead of remaining in solids available to future rocky planets.\n\nThat sequence is an interpretation, not a direct movie of grains evaporating. The molecular temperatures, velocities and ALMA morphology are measured. The exact origin of each molecule, the reaction chain and the connection to Earth's carbon shortage are inferred from those measurements and chemical models.\n\nThe paper also studies one unusually carbon-rich protostar seen at a favorable angle. It does not yet measure the total mass of gas in the wind, so it cannot say how much carbon is removed. Observations of molecular hydrogen and carbon monoxide will be needed to turn this chemical map into a carbon budget.\n\n**Measured:** warm acetylene and hydrogen cyanide move with a disk wind, colder carbon chains appear farther out, and ethynyl traces the outflow cavity walls.\n\n**Inferred:** heat may strip carbon from inner-disk grains before the wind carries it outward, offering one route toward carbon-poor rocky planets."
+}
