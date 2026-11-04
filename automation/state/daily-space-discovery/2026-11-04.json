@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-04",
+  "status": "in_progress",
+  "stage": "frozen",
+  "workingTitle": "JWST traces carbon from a hot inner disk into a planet-forming wind",
+  "intendedFilename": "2026-11-04_planet-formation_hops-68-carbon-wind.json",
+  "topic": "Planet Formation",
+  "freshness": "Accepted by The Astrophysical Journal Letters and submitted to arXiv on November 3, 2026; selected within the preferred 15-day window.",
+  "primarySources": [
+    "https://arxiv.org/abs/2611.04557",
+    "https://arxiv.org/html/2611.04557v1",
+    "https://doi.org/10.3847/2041-8213/aebc81"
+  ],
+  "coreFacts": [
+    "JWST/MIRI spectroscopy of the Class I protostar HOPS-68 detected warm acetylene and hydrogen cyanide at about 432 K and 319 K, respectively, with blueshifted velocities consistent with a disk wind.",
+    "JWST also detected colder methyl and diacetylene near 44 K and 38 K, plus triacetylene for the first time in a protostellar system.",
+    "Archival ALMA maps show ethynyl emission bracketing the molecular hydrogen jet and following outflowing material along the cavity walls.",
+    "The authors infer that refractory carbon leaves heated grains between roughly 500 K and 1200 K, then enters the wind and feeds carbon-chain chemistry farther out.",
+    "The study does not measure the total carbon mass carried away, so a direct quantitative link to Earth's carbon depletion remains unproven."
+  ],
+  "caveats": [
+    "The result concerns one unusually carbon-rich Class I protostar observed at a favorable time and viewing angle.",
+    "The locations of several molecular species are inferred from temperatures, velocities, absorption geometry, and comparison with the outflow maps rather than spatially resolved direct images of every molecule.",
+    "The proposed 500 K to 1200 K carbon-destruction zone and reaction pathway are interpretations of the combined data.",
+    "The methane fit is not robust and should not be used as a quantitative result.",
+    "The paper cannot yet determine how much carbon the wind removes or whether the same process explains the carbon depletion of Earth."
+  ],
+  "sources": [
+    {
+      "label": "Ballieux et al., Up in smoke: carbon-destruction in the terrestrial planet-forming region of a young Class I disk",
+      "url": "https://arxiv.org/abs/2611.04557"
+    }
+  ],
+  "image": {
+    "status": "not_checked",
+    "candidateId": "arxiv-2611-04557-figure-3",
+    "sourceUrl": "https://arxiv.org/html/2611.04557v1"
+  },
+  "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
+  "sourceStatus": "Full accepted paper read in HTML; observations, fitted temperatures and velocities, first triacetylene detection, ALMA morphology, proposed chemistry, and stated limitations verified against the primary source. Independent secondary corroboration was unnecessary because the accepted full paper directly supports the material claims."
+}
