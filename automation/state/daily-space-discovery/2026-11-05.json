@@ -1,7 +1,7 @@
 {
   "date": "2026-11-05",
   "status": "in_progress",
-  "stage": "draft_validated",
+  "stage": "committed",
   "workingTitle": "A strange gas hints that Mars may still have magma underground",
   "intendedFilename": "2026-11-05_solar-system_mars-hydrogen-chloride-volcanism.json",
   "topic": "Solar System & Planetary Science",
@@ -47,10 +47,11 @@
     "sourceUrl": "https://www.esa.int/media/mars-express-view-of-tharsis-labelled"
   },
   "recovery": {
-    "status": "validated",
+    "status": "committed",
     "lastError": null
   },
   "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
+  "commitSha": "b1e3ba7ab90170b02cc5723892573882d54e1db2",
   "sourceStatus": "The peer-reviewed primary article and DOI were verified; the publisher blocked direct command-line retrieval with HTTP 403, so material measurements and caveats were checked against indexed primary metadata plus quantitative independent summaries from Sci.News and National Geographic.",
   "validation": {
     "bodyWords": 518,
@@ -59,7 +60,7 @@
     "sourceLinks": "passed",
     "imageCheck": "passed",
     "build": "passed",
-    "readback": null,
+    "readback": "passed",
     "liveHttp": null,
     "deploy": null
   }
