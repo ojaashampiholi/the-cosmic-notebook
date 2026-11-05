@@ -1,0 +1,36 @@
+{
+  "title": "A strange gas hints that Mars may still have magma underground",
+  "topic": "Solar System & Planetary Science",
+  "date": "2026-11-05",
+  "freshness": "Peer-reviewed Science Advances article published November 4, 2026; selected within the preferred 15-day window.",
+  "excerpt": "ExoMars detected unexpected hydrogen chloride near fissures on the flank of Alba Mons during a cold Martian season. The pattern may come from volcanic gas seeping out of Mars, but no magma or eruption has been observed directly.",
+  "whyItMatters": "If the interpretation is right, Mars is not completely geologically dormant. Residual underground heat could change how scientists investigate the planet's interior and identify places where liquid water and chemical energy might coexist below the surface.",
+  "exploreFurther": {
+    "label": "Science Advances research article",
+    "url": "https://www.science.org/doi/10.1126/sciadv.aeb9422"
+  },
+  "whatToExploreNext": "How can orbiters distinguish volcanic hydrogen chloride from chlorine released by surface chemistry and Martian weather?",
+  "sources": [
+    {
+      "label": "Trokhimovskiy et al., Enigmatic HCl detections as a potential signature of igneous activity on Mars",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aeb9422"
+    },
+    {
+      "label": "Sci.News quantitative summary",
+      "url": "https://www.sci.news/space/mars-hydrogen-chloride-15178.html"
+    },
+    {
+      "label": "National Geographic independent context",
+      "url": "https://www.nationalgeographic.com/science/article/mars-volcano-gas-hydrogen-chloride"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-11-05-mars-alba-mons-tharsis.jpg",
+    "thumbSrc": "images/notes/2026-11-05-mars-alba-mons-tharsis-thumb.jpg",
+    "alt": "Cropped Mars Express view of the Tharsis volcanic region with Alba Mons labeled on the left",
+    "credit": "ESA/DLR/FU Berlin",
+    "license": "CC BY-SA 3.0 IGO",
+    "sourceUrl": "https://www.esa.int/media/mars-express-view-of-tharsis-labelled"
+  },
+  "body": "## A gas appearing where Mars weather cannot easily explain it\n\nMars looks quiet today, yet an orbiter has found a chemical clue that something may still be moving deep inside it. The ExoMars Trace Gas Orbiter detected small, sharp pulses of hydrogen chloride, or HCl, above the northern flank of Alba Mons, the widest volcano on Mars. HCl is a corrosive gas that volcanoes release on Earth. On Mars, however, it can also be produced and moved around by surface chemistry, dust, water vapour and ice.\n\nThat distinction is the heart of the new study. Most known Martian HCl appears around perihelion, when Mars is closest to the Sun and the southern hemisphere experiences a warm, dusty season. The new detections occurred during the colder aphelion part of the orbit and clustered near Alba Mons. Existing atmospheric models do not readily reproduce that combination of season and location.\n\n## What the instruments measured\n\nThe Atmospheric Chemistry Suite aboard the Trace Gas Orbiter measured HCl at parts-per-billion concentrations. Researchers then examined the ground below the detections with three orbital cameras: HiRISE, CaSSIS and CTX. They identified narrow fissures that had not been catalogued before. Some are only tens of centimetres wide, while groups of them extend for tens of kilometres along topographic ridges.\n\nThose observations are real measurements. The connection to magma is an interpretation. The team proposes that fractures could act as pathways for gas rising from igneous bodies at depth, perhaps after passing through ice-rich permafrost. Such slow seepage would not need to produce a visible lava flow or a strong heat signature.\n\nThe authors also estimated the scale of the possible leak. If HCl remains in the atmosphere for about one sol, meaning one Martian day, the inferred seepage is below 3 kilograms per second. That is comparable with the low end of HCl output from terrestrial volcanoes. By contrast, the much larger seasonal HCl release near perihelion, estimated around 180 kilograms per second, is not considered direct volcanic seepage. It probably includes chlorine recycled through the atmosphere, ice and surface salts.\n\n## A clue, not an eruption report\n\nThe result does not show molten rock, an eruption or a thermal hotspot. Hydrogen chloride can also form when warm water reacts with chloride-bearing minerals. The detections cannot yet prove that the mapped fissures are the exact vents, or establish whether the underground source is active magma, stored gas, or hydrothermal chemistry. Independent scientists therefore describe the evidence as suggestive rather than definitive.\n\nEven with those limits, the finding offers a practical way to test whether Mars retains localized internal heat. Future measurements could look for repeated HCl pulses, other volcanic gases, subtle ground changes and matching seismic signals. If a warm subsurface system exists, it could also bring heat, water and chemical energy together. That would make the region scientifically interesting for habitability studies without implying that life has been found.\n\n**Measured:** unusual HCl pulses near Alba Mons during aphelion, plus narrow fissures beneath the detection region.\n\n**Inferred:** gas may be seeping from igneous material at depth, indicating that parts of Mars remain geologically active."
+}

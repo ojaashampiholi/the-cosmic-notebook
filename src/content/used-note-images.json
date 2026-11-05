@@ -332,6 +332,17 @@
       "credit": "F. J. Ballieux et al.; Figure 3 from the accepted paper",
       "license": "CC BY-NC-SA 4.0",
       "sourceUrl": "https://arxiv.org/html/2611.04557v1"
+    },
+    {
+      "id": "esa-mars-express-tharsis-labelled-2018",
+      "note": "2026-11-05_solar-system_mars-hydrogen-chloride-volcanism",
+      "files": [
+        "images/notes/2026-11-05-mars-alba-mons-tharsis.jpg",
+        "images/notes/2026-11-05-mars-alba-mons-tharsis-thumb.jpg"
+      ],
+      "credit": "ESA/DLR/FU Berlin",
+      "license": "CC BY-SA 3.0 IGO",
+      "sourceUrl": "https://www.esa.int/media/mars-express-view-of-tharsis-labelled"
     }
   ]
 }
