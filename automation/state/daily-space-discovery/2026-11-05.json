@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-05",
+  "status": "in_progress",
+  "stage": "frozen",
+  "workingTitle": "A strange gas hints that Mars may still have magma underground",
+  "intendedFilename": "2026-11-05_solar-system_mars-hydrogen-chloride-volcanism.json",
+  "topic": "Solar System & Planetary Science",
+  "freshness": "Peer-reviewed Science Advances article published November 4, 2026; selected within the preferred 15-day window.",
+  "primarySources": [
+    "https://www.science.org/doi/10.1126/sciadv.aeb9422"
+  ],
+  "coreFacts": [
+    "The ExoMars Trace Gas Orbiter's Atmospheric Chemistry Suite detected parts-per-billion hydrogen chloride during Mars's cold aphelion season near Alba Mons, where ordinary seasonal chlorine chemistry was not expected to explain it.",
+    "HiRISE, CaSSIS, and CTX images beneath the detections show previously unreported narrow fissures, some only tens of centimetres wide and grouped into swarms tens of kilometres long.",
+    "Assuming hydrogen chloride survives for one Martian day, the authors estimate a seepage rate below 3 kilograms per second, comparable with the low end of terrestrial volcanic hydrogen chloride fluxes.",
+    "The authors infer that the fissures could channel gas from igneous bodies at depth, possibly through ice-rich permafrost, but they did not directly detect magma, heat, or an eruption.",
+    "The much larger seasonal hydrogen chloride release around perihelion, estimated near 180 kilograms per second, is not interpreted as direct volcanic seepage."
+  ],
+  "caveats": [
+    "Hydrogen chloride has non-volcanic chemical pathways on Mars.",
+    "The spatial association with fissures and the inferred subsurface source do not prove that active magma is present.",
+    "No lava, eruption, or strong thermal anomaly was observed."
+  ],
+  "sources": [
+    {
+      "label": "Trokhimovskiy et al., Enigmatic HCl detections as a potential signature of igneous activity on Mars",
+      "url": "https://www.science.org/doi/10.1126/sciadv.aeb9422"
+    },
+    {
+      "label": "Sci.News summary with quantitative results",
+      "url": "https://www.sci.news/space/mars-hydrogen-chloride-15178.html"
+    },
+    {
+      "label": "National Geographic independent context",
+      "url": "https://www.nationalgeographic.com/science/article/mars-volcano-gas-hydrogen-chloride"
+    }
+  ],
+  "image": {
+    "status": "not_checked"
+  },
+  "recovery": {
+    "status": "frozen",
+    "lastError": null
+  },
+  "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be"
+}
