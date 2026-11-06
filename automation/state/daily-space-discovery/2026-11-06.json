@@ -1,7 +1,7 @@
 {
   "date": "2026-11-06",
   "status": "in_progress",
-  "stage": "draft_validated",
+  "stage": "committed",
   "workingTitle": "A digital twin finds a planet hidden in JWST's glare",
   "intendedFilename": "2026-11-06_exoplanets_flip-hidden-planet.json",
   "topic": "Exoplanets / Telescopes & Observatories",
@@ -47,10 +47,11 @@
     "sourceUrl": "https://www.nature.com/articles/s41586-026-11213-z"
   },
   "recovery": {
-    "status": "draft_validated",
+    "status": "committed",
     "lastError": null
   },
   "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
+  "commitSha": "b0799cb09dd517731762bb18e3b68481b3fa2df2",
   "sourceStatus": "The open-access Nature article, full HTML text, paper figures, and releases from Northwestern University and Caltech were read. Material measurements, test targets, limitations, publication date, and CC BY 4.0 rights were verified.",
   "validation": {
     "bodyWords": 477,
@@ -59,7 +60,7 @@
     "sourceLinks": "passed",
     "imageCheck": "passed",
     "build": "passed",
-    "readback": null,
+    "readback": "passed",
     "liveHttp": null,
     "deploy": null
   }
