@@ -1,7 +1,7 @@
 {
   "date": "2026-11-06",
   "status": "in_progress",
-  "stage": "frozen",
+  "stage": "draft_validated",
   "workingTitle": "A digital twin finds a planet hidden in JWST's glare",
   "intendedFilename": "2026-11-06_exoplanets_flip-hidden-planet.json",
   "topic": "Exoplanets / Telescopes & Observatories",
@@ -36,11 +36,31 @@
     }
   ],
   "image": {
-    "status": "not_checked"
+    "status": "included",
+    "id": "nature-s41586-026-11213-z-figure-2",
+    "files": [
+      "images/notes/2026-11-06-flip-51-eridani-b.jpg",
+      "images/notes/2026-11-06-flip-51-eridani-b-thumb.jpg"
+    ],
+    "credit": "Rodrigo Ferrer-Chavez et al.; Figure 2 from the paper",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://www.nature.com/articles/s41586-026-11213-z"
   },
   "recovery": {
-    "status": "frozen",
+    "status": "draft_validated",
     "lastError": null
   },
-  "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be"
+  "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
+  "sourceStatus": "The open-access Nature article, full HTML text, paper figures, and releases from Northwestern University and Caltech were read. Material measurements, test targets, limitations, publication date, and CC BY 4.0 rights were verified.",
+  "validation": {
+    "bodyWords": 477,
+    "json": "passed",
+    "humanizer": "passed",
+    "sourceLinks": "passed",
+    "imageCheck": "passed",
+    "build": "passed",
+    "readback": null,
+    "liveHttp": null,
+    "deploy": null
+  }
 }
