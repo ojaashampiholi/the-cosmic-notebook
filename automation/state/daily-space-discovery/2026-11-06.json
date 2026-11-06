@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-06",
+  "status": "in_progress",
+  "stage": "frozen",
+  "workingTitle": "A digital twin finds a planet hidden in JWST's glare",
+  "intendedFilename": "2026-11-06_exoplanets_flip-hidden-planet.json",
+  "topic": "Exoplanets / Telescopes & Observatories",
+  "freshness": "Peer-reviewed open-access Nature article published November 4, 2026; selected within the preferred 15-day window.",
+  "primarySources": [
+    "https://doi.org/10.1038/s41586-026-11213-z"
+  ],
+  "coreFacts": [
+    "The team developed Physics-based Learning for Imaging Planets, or FLIP, which tunes a physical model of a telescope to reproduce and subtract residual starlight.",
+    "Tests on real JWST NIRCam coronagraphic data improved planet-detection sensitivity by two to 15 times compared with standard processing.",
+    "FLIP recovered the known giant planet 51 Eridani b at 4.3 micrometres, where the original JWST analysis did not detect it.",
+    "The 4.3-micrometre band contains strong carbon dioxide absorption and is difficult to observe from the ground because Earth's atmosphere also contains carbon dioxide.",
+    "The study tested data from three stars: HIP 65426, 51 Eridani, and TYC 5899."
+  ],
+  "caveats": [
+    "FLIP recovered a previously known planet; it did not discover a new planet.",
+    "The method still needs lower computational cost and testing on larger data volumes.",
+    "Its possible use for imaging Earth-like planets is a future application, not a demonstrated result."
+  ],
+  "sources": [
+    {
+      "label": "Ferrer-Chavez et al., Imaging exoplanets below the telescope stability limit",
+      "url": "https://doi.org/10.1038/s41586-026-11213-z"
+    },
+    {
+      "label": "Northwestern University release",
+      "url": "https://news.northwestern.edu/stories/2026/11/hidden-planet-emerges-from-the-glare"
+    },
+    {
+      "label": "Caltech release",
+      "url": "https://www.caltech.edu/about/news/erasing-the-stars-to-find-exoplanets"
+    }
+  ],
+  "image": {
+    "status": "not_checked"
+  },
+  "recovery": {
+    "status": "frozen",
+    "lastError": null
+  },
+  "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be"
+}
