@@ -343,6 +343,17 @@
       "credit": "ESA/DLR/FU Berlin",
       "license": "CC BY-SA 3.0 IGO",
       "sourceUrl": "https://www.esa.int/media/mars-express-view-of-tharsis-labelled"
+    },
+    {
+      "id": "nature-s41586-026-11213-z-figure-2",
+      "note": "2026-11-06_exoplanets_flip-hidden-planet",
+      "files": [
+        "images/notes/2026-11-06-flip-51-eridani-b.jpg",
+        "images/notes/2026-11-06-flip-51-eridani-b-thumb.jpg"
+      ],
+      "credit": "Rodrigo Ferrer-Chavez et al.; Figure 2 from the paper",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://www.nature.com/articles/s41586-026-11213-z"
     }
   ]
 }

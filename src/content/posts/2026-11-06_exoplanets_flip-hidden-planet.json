@@ -1,0 +1,36 @@
+{
+  "title": "A digital twin finds a planet hidden in JWST's glare",
+  "topic": "Exoplanets / Telescopes & Observatories",
+  "date": "2026-11-06",
+  "freshness": "Peer-reviewed open-access Nature article published November 4, 2026; selected within the preferred 15-day window.",
+  "excerpt": "A physics-based model removed JWST's leftover starlight precisely enough to recover the known giant planet 51 Eridani b at a wavelength where standard processing missed it. Across several tests, the method improved planet-detection sensitivity by two to 15 times.",
+  "whyItMatters": "Direct images reveal light from planets themselves, which can expose atmospheric chemistry and temperatures. Better processing could recover more science from existing telescope data and help future observatories study fainter, colder worlds without demanding impossible optical stability.",
+  "exploreFurther": {
+    "label": "Nature paper: Imaging exoplanets below the telescope stability limit",
+    "url": "https://doi.org/10.1038/s41586-026-11213-z"
+  },
+  "whatToExploreNext": "How does a coronagraph block a star while preserving light from a nearby planet?",
+  "sources": [
+    {
+      "label": "Ferrer-Chavez et al., Imaging exoplanets below the telescope stability limit",
+      "url": "https://doi.org/10.1038/s41586-026-11213-z"
+    },
+    {
+      "label": "Northwestern University release",
+      "url": "https://news.northwestern.edu/stories/2026/11/hidden-planet-emerges-from-the-glare"
+    },
+    {
+      "label": "Caltech release",
+      "url": "https://www.caltech.edu/about/news/erasing-the-stars-to-find-exoplanets"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-11-06-flip-51-eridani-b.jpg",
+    "thumbSrc": "images/notes/2026-11-06-flip-51-eridani-b-thumb.jpg",
+    "alt": "Comparison of standard and FLIP starlight removal in JWST images, including the recovered planet 51 Eridani b",
+    "credit": "Rodrigo Ferrer-Chavez et al.; Figure 2 from the paper",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://www.nature.com/articles/s41586-026-11213-z"
+  },
+  "body": "## A planet was already in the picture\n\nJWST had observed the young giant planet 51 Eridani b, but at one infrared wavelength the planet vanished into leftover starlight. A new processing method has now recovered it from the same data. The result is not a newly discovered planet. It is a demonstration that a better model can reveal planetary light that a standard analysis could not separate from glare.\n\nDirectly imaging an exoplanet is difficult because the nearby star can be hundreds of thousands or millions of times brighter. A coronagraph blocks most of the star, but imperfect optics leave a structured pattern called a point-spread function. Tiny thermal shifts, vibrations, or pointing changes alter that pattern between observations. Subtracting a reference image of another star therefore leaves bright scraps that can resemble or conceal a planet.\n\n## Rebuilding the glare\n\nRodrigo Ferrer-Chavez and colleagues developed Physics-based Learning for Imaging Planets, or FLIP. It creates a differentiable physical model of the telescope and its optics, then adjusts millions of model parameters until the simulated starlight matches the real observation. Differentiable means the program can efficiently calculate how changing each parameter changes the final image. The team used optimization tools common in machine learning, but the model itself follows known optical physics rather than asking an AI system to recognize planets.\n\nThe researchers tested FLIP on real coronagraphic observations from JWST's Near-Infrared Camera. The data covered HIP 65426, 51 Eridani, and TYC 5899. Compared with standard processing, FLIP improved detection sensitivity by two to 15 times across the tests.\n\nThe clearest example came from 51 Eridani b. Standard processing had not detected the planet in JWST's 4.3-micrometre filter. FLIP recovered it with a signal-to-noise ratio of 6.3, and the signal appeared at the expected position with the expected shape. This wavelength contains a strong carbon dioxide absorption band. It is also difficult to study from the ground because carbon dioxide in Earth's atmosphere interferes, so recovering the planet there opens a useful route to studying its atmosphere.\n\n## What the result does and does not show\n\n**Measured:** On these archived JWST datasets, FLIP produced cleaner starlight subtraction, recovered 51 Eridani b at 4.3 micrometres, and improved the reported detection limits by factors of two to 15.\n\n**Inferred:** Similar physics-based processing may expose colder, older, or lower-mass giant planets in other observations. It might also relax some stability demands on future missions designed to photograph Earth-like worlds. That remains a prospect, not a demonstrated capability. The authors identify several jobs still ahead, including reducing computational cost, handling much larger datasets, improving detector modelling, and separating model parameters that can mimic one another.\n\nThe practical lesson is immediate: a telescope's archive can contain more information than its first processing pipeline reveals. Better optical models can turn an apparent hardware limit into a data-analysis problem, then recover light that was present all along."
+}
