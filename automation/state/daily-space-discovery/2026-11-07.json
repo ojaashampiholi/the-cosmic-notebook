@@ -1,9 +1,10 @@
 {
   "date": "2026-11-07",
-  "status": "frozen",
-  "stage": "verified",
+  "status": "committed",
+  "stage": "committed",
   "workingTitle": "JWST measures the most distant known ultra-cold Y dwarf",
   "intendedFilename": "2026-11-07_stars_jades-gs-bd-5-distant-y-dwarf.json",
+  "finalFilename": "2026-11-07_stars_jades-gs-bd-5-distant-y-dwarf.json",
   "topic": "Stars & Stellar Evolution",
   "publicationDate": "2026-11-06",
   "freshnessWindow": "Preferred 15-day window",
@@ -32,11 +33,13 @@
     "Precise spectral typing later than Y1 remains premature."
   ],
   "image": {
-    "status": "not_checked"
+    "status": "skipped",
+    "reason": "No directly relevant image with clearly verified reuse rights was available without delaying the frozen discovery."
   },
+  "commitSha": "2a90952d2922190625da40fd273664383b6a8515",
   "recovery": {
     "status": "clean",
     "lastError": null
   },
-  "updatedAt": "2026-11-07T00:00:00+05:30"
+  "updatedAt": "2026-11-07T18:35:00+05:30"
 }
