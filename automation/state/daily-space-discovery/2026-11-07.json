@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-07",
+  "status": "frozen",
+  "stage": "verified",
+  "workingTitle": "JWST measures the most distant known ultra-cold Y dwarf",
+  "intendedFilename": "2026-11-07_stars_jades-gs-bd-5-distant-y-dwarf.json",
+  "topic": "Stars & Stellar Evolution",
+  "publicationDate": "2026-11-06",
+  "freshnessWindow": "Preferred 15-day window",
+  "publicationStatus": "Unreviewed preprint submitted to MNRAS",
+  "primarySources": [
+    "https://arxiv.org/abs/2611.08346",
+    "https://arxiv.org/pdf/2611.08346"
+  ],
+  "coreFacts": [
+    "Five JWST/NIRCam epochs spanning 2.03 years measured a parallax of 15.7 +1.4/-1.3 milliarcseconds at signal-to-noise 11.5.",
+    "The parallax gives a geometric distance of 64 +6/-5 parsecs, about three times farther than previously known Y dwarfs with reliable parallax distances.",
+    "The object is classified later than Y1 and has a bolometric luminosity log(Lbol/Lsun) = -7.08 +/- 0.09.",
+    "Evolutionary models infer about 8 Jupiter masses and an effective temperature near 300 kelvin, but those physical properties depend on models and an age prior.",
+    "Current atmosphere models do not reproduce the full spectral energy distribution; disequilibrium chemistry and vertical mixing are favored, while evidence for water deficiency remains unclear."
+  ],
+  "sources": [
+    {
+      "label": "Liu et al. preprint",
+      "url": "https://arxiv.org/abs/2611.08346"
+    }
+  ],
+  "sourceStatus": "Full primary preprint and abstract read; no secondary source needed for material claims.",
+  "caveats": [
+    "The paper is an unreviewed preprint.",
+    "Mass, temperature, radius, and atmospheric interpretation are model-dependent.",
+    "Precise spectral typing later than Y1 remains premature."
+  ],
+  "image": {
+    "status": "not_checked"
+  },
+  "recovery": {
+    "status": "clean",
+    "lastError": null
+  },
+  "updatedAt": "2026-11-07T00:00:00+05:30"
+}
