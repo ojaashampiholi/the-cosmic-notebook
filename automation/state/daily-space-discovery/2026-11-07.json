@@ -1,7 +1,7 @@
 {
   "date": "2026-11-07",
-  "status": "committed",
-  "stage": "committed",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "JWST measures the most distant known ultra-cold Y dwarf",
   "intendedFilename": "2026-11-07_stars_jades-gs-bd-5-distant-y-dwarf.json",
   "finalFilename": "2026-11-07_stars_jades-gs-bd-5-distant-y-dwarf.json",
@@ -37,9 +37,20 @@
     "reason": "No directly relevant image with clearly verified reuse rights was available without delaying the frozen discovery."
   },
   "commitSha": "2a90952d2922190625da40fd273664383b6a8515",
+  "deployRun": {
+    "id": 42374904971,
+    "url": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/42374904971",
+    "status": "success",
+    "headSha": "9ab0dd0ddc3740a0c1863ceafb3b49564f283028"
+  },
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-07_stars_jades-gs-bd-5-distant-y-dwarf/",
+  "liveVerification": {
+    "httpStatus": 200,
+    "titleMatched": true
+  },
   "recovery": {
     "status": "clean",
     "lastError": null
   },
-  "updatedAt": "2026-11-07T18:35:00+05:30"
+  "updatedAt": "2026-11-07T18:32:00+05:30"
 }
