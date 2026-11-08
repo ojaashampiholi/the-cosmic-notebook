@@ -1,7 +1,7 @@
 {
   "date": "2026-11-08",
-  "status": "frozen",
-  "stage": "verified",
+  "status": "committed_not_live",
+  "stage": "committed",
   "workingTitle": "A radio map resolves nearly 63,000 cosmic sources in one patch of sky",
   "intendedFilename": "2026-11-08_telescopes_lofar-ultradeep-radio-map.json",
   "topic": "Telescopes & Observatories / Galaxies & Galactic Evolution",
@@ -35,5 +35,14 @@
     "status": "watchdog_recovery",
     "lastError": null
   },
-  "updatedAt": "2026-11-08T19:32:55+05:30"
+  "updatedAt": "2026-11-08T19:40:00+05:30",
+  "commitSha": "4fdf16f603b555919219277df15b3914f1d9a9b4",
+  "finalFilename": "2026-11-08_telescopes_lofar-ultradeep-radio-map.json",
+  "deployRun": {
+    "id": 42487952755,
+    "url": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/42487952755",
+    "status": "pending",
+    "headSha": "4fdf16f603b555919219277df15b3914f1d9a9b4"
+  },
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-08_telescopes_lofar-ultradeep-radio-map/"
 }
