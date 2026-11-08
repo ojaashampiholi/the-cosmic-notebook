@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-08",
+  "status": "frozen",
+  "stage": "verified",
+  "workingTitle": "A radio map resolves nearly 63,000 cosmic sources in one patch of sky",
+  "intendedFilename": "2026-11-08_telescopes_lofar-ultradeep-radio-map.json",
+  "topic": "Telescopes & Observatories / Galaxies & Galactic Evolution",
+  "publicationDate": "2026-11-04",
+  "freshnessWindow": "Preferred 15-day window",
+  "publicationStatus": "Unreviewed preprint, accepted by Astronomy & Astrophysics",
+  "primarySources": [
+    "https://arxiv.org/abs/2611.06152"
+  ],
+  "coreFacts": [
+    "LOFAR observed ELAIS-N1 for 200 hours at 115-168 MHz over 2.5 by 2.5 square degrees.",
+    "Combining new sub-arcsecond imaging with earlier 6-arcsecond data yielded 62,916 unique radio sources.",
+    "Central sensitivity 5.3 microJy/beam at 0.33 by 0.39 arcseconds; positional alignment used 95 Gaia quasars.",
+    "The study demonstrates deeper low-frequency imaging, not a claim that all 62,916 objects were newly discovered."
+  ],
+  "sources": [
+    {
+      "label": "de Jong et al. preprint",
+      "url": "https://arxiv.org/abs/2611.06152"
+    },
+    {
+      "label": "Netherlands Research School for Astronomy release",
+      "url": "https://phys.org/news/2026-11-astronomers-sharpest-deepest-view-frequency.html"
+    }
+  ],
+  "image": {
+    "status": "skipped",
+    "reason": "Nonblocking; scientific validation and daily recovery prioritized."
+  },
+  "recovery": {
+    "status": "watchdog_recovery",
+    "lastError": null
+  },
+  "updatedAt": "2026-11-08T19:32:55+05:30"
+}
