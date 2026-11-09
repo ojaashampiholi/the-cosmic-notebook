@@ -1,7 +1,7 @@
 {
   "date": "2026-11-09",
-  "status": "frozen",
-  "stage": "verified",
+  "status": "committed",
+  "stage": "committed",
   "title": "Sixty galaxy clusters become cosmic magnifying glasses for JWST",
   "filename": "src/content/posts/2026-11-09_cosmology_venus-galaxy-cluster-lenses.json",
   "topic": "Cosmology & Early Universe",
@@ -26,5 +26,7 @@
     "status": "skipped",
     "reason": "Nonblocking: no licensed image processed"
   },
-  "lastError": null
+  "lastError": "Deployment and live verification pending",
+  "commitSha": "8387989bd2ca02ed9f0e9fb7feb4eed47ae4ce61",
+  "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-09_cosmology_venus-galaxy-cluster-lenses/"
 }
