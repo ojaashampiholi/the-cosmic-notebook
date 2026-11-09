@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-09",
+  "status": "frozen",
+  "stage": "verified",
+  "title": "Sixty galaxy clusters become cosmic magnifying glasses for JWST",
+  "filename": "src/content/posts/2026-11-09_cosmology_venus-galaxy-cluster-lenses.json",
+  "topic": "Cosmology & Early Universe",
+  "publicationDate": "2026-11-05",
+  "freshness": "5 November 2026 unreviewed preprint, within 15-day window",
+  "primaryUrls": [
+    "https://arxiv.org/abs/2611.08630"
+  ],
+  "verifiedCoreFacts": [
+    "VENUS models 60 strong-lensing galaxy clusters",
+    "About 4,500 multiple images fitted, about 1,150 newly identified with JWST",
+    "Median Einstein radius around 30 arcseconds at source redshift 9",
+    "Observed lensing radii compatible with cold dark matter model"
+  ],
+  "sources": [
+    {
+      "label": "Oguri et al., VENUS (arXiv preprint, 5 November 2026)",
+      "url": "https://arxiv.org/abs/2611.08630"
+    }
+  ],
+  "image": {
+    "status": "skipped",
+    "reason": "Nonblocking: no licensed image processed"
+  },
+  "lastError": null
+}
