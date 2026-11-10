@@ -354,6 +354,17 @@
       "credit": "Rodrigo Ferrer-Chavez et al.; Figure 2 from the paper",
       "license": "CC BY 4.0",
       "sourceUrl": "https://www.nature.com/articles/s41586-026-11213-z"
+    },
+    {
+      "id": "arxiv-2611-10122-figure-2",
+      "note": "2026-11-10_astrobiology_h3-forbidden-rotation",
+      "files": [
+        "images/notes/2026-11-10-h3-forbidden-rotational-maps.jpg",
+        "images/notes/2026-11-10-h3-forbidden-rotational-maps-thumb.jpg"
+      ],
+      "credit": "David A. Neufeld et al.; Figure 2 cropped from the accepted paper",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://arxiv.org/abs/2611.10122"
     }
   ]
 }

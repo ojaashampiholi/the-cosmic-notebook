@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
   "status": "frozen",
-  "stage": "verified",
+  "stage": "draft_validated",
   "workingTitle": "JWST detects a forbidden molecular fingerprint for the first time",
   "intendedFilename": "2026-11-10_astrobiology_h3-forbidden-rotation.json",
   "topic": "Astrobiology & Habitability / Stars & Stellar Evolution",
@@ -33,8 +33,10 @@
     "The lines are a new ionization probe, but quantitative interpretation requires better collision data."
   ],
   "image": {
-    "status": "not_checked",
-    "candidate": "Figure 2 from the CC BY 4.0 paper"
+    "status": "included",
+    "id": "arxiv-2611-10122-figure-2",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/abs/2611.10122"
   },
   "recovery": {
     "status": "clean",

@@ -1,0 +1,28 @@
+{
+  "title": "JWST detects H3+'s forbidden molecular fingerprint",
+  "topic": "Astrobiology & Habitability / Stars & Stellar Evolution",
+  "date": "2026-11-10",
+  "freshness": "Accepted for publication in The Astrophysical Journal Letters; arXiv preprint first listed November 10, 2026; preferred 15-day search window.",
+  "excerpt": "JWST has detected the pure rotational spectrum of H3+ for the first time, finding 26 lines in shocked gas around HH 168. The ion starts much of interstellar chemistry, but its symmetry had kept this molecular fingerprint hidden for four decades after theory predicted it.",
+  "whyItMatters": "The newly visible spectrum offers astronomers a direct way to map a molecular ion that carries cosmic-ray energy into chemical reactions and may reveal ionization inside hot stellar shocks.",
+  "exploreFurther": {
+    "label": "Neufeld et al. accepted paper on arXiv",
+    "url": "https://arxiv.org/abs/2611.10122"
+  },
+  "whatToExploreNext": "Why can centrifugal distortion make an otherwise forbidden molecular transition faintly visible?",
+  "sources": [
+    {
+      "label": "First detection of the forbidden rotational spectrum of H3+: JWST/MIRI observations of the shocked gas in HH 168",
+      "url": "https://arxiv.org/abs/2611.10122"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-11-10-h3-forbidden-rotational-maps.jpg",
+    "thumbSrc": "images/notes/2026-11-10-h3-forbidden-rotational-maps-thumb.jpg",
+    "alt": "Four JWST intensity maps comparing hot molecular hydrogen and H3+ emission in two fields of the HH 168 shock",
+    "credit": "David A. Neufeld et al.; Figure 2 cropped from the accepted paper",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/abs/2611.10122"
+  },
+  "body": "## A molecular spectrum seen for the first time\n\nJWST has revealed a molecular fingerprint that theory predicted about four decades ago but nobody had observed. In the shocked gas of HH 168, the telescope detected 26 pure rotational lines from H3+, the triatomic hydrogen ion that begins much of the chemistry inside interstellar clouds.\n\nH3+ forms when a cosmic ray ionizes an ordinary hydrogen molecule. The resulting ion reacts with another hydrogen molecule, producing H3+. That ion readily gives a proton to other species, opening reaction paths toward many of the molecules found between stars. It is chemically important, but unusually difficult to watch rotate.\n\nMost molecules can emit or absorb light as their rotation changes because their electric charge is distributed unevenly. H3+ is a symmetric triangle with no permanent electric dipole, so its ordinary rotational transitions are forbidden. Rotation can stretch the triangle slightly, however, creating a tiny temporary dipole. Calculations in the 1980s predicted that this centrifugal distortion should permit extremely faint mid-infrared lines.\n\n## Twenty-six matching lines\n\nThe team used JWST's Mid-Infrared Instrument to study HH 168, a knotty shock about 700 parsecs away in the Cepheus A West star-forming region. The researchers searched for 96 predicted H3+ transitions between 7.6 and 26.3 micrometres. They found 26 unblended lines above five times the noise in at least one of two observed fields. Eighteen appeared in both.\n\nThe strongest line, at 16.325 micrometres, was detected at 72 sigma in one field and 49 sigma in the other. Its wavelength matches the predicted transition with high precision. The lines also share the velocity and spatial pattern of hot molecular hydrogen rather than the ionized gas in the same region. A stack of 29 H3+ lines closely follows the hot hydrogen map, while showing almost no correlation with several atomic and ionized-gas tracers. Together, these checks make a chance blend or misidentification unlikely.\n\nA rotation diagram gives an apparent temperature near 730 kelvin. That is not the gas temperature. The populations of H3+ rotational levels are not in thermal balance, and the authors infer that energetic collisions in gas hotter than about 2,000 kelvin excite the observed lines.\n\n## A new probe with an unfinished model\n\nThe team compared the measurements with two kinds of shock model. A fast, dissociative J-type shock predicts the H3+ brightness within a factor of about 1.5, while a magnetic C-type shock underpredicts it by factors of five to six. The comparison is not decisive. The J-type calculation uses a speed beyond the shock code's validated range, and the high-energy collision rates between H3+ and hydrogen are poorly known.\n\nArchival JWST data provide an independent check: the same forbidden spectrum appears in the HH 211 bow shock, even though that outflow comes from a lower-mass protostar and lacks HH 168's strong ionized emission. This suggests the lines may be common wherever hot shocked hydrogen is bright enough.\n\nThe detection does not reveal prebiotic molecules or life. Its astrobiological value is more fundamental. H3+ transfers ionization into molecular chemistry, and its newly accessible lines could show where that process operates inside shocks. Better laboratory collision data will be needed before astronomers can turn line brightness into a precise ionization measurement."
+}
