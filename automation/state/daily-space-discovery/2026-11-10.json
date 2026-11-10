@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-10",
+  "status": "frozen",
+  "stage": "verified",
+  "workingTitle": "JWST detects a forbidden molecular fingerprint for the first time",
+  "intendedFilename": "2026-11-10_astrobiology_h3-forbidden-rotation.json",
+  "topic": "Astrobiology & Habitability / Stars & Stellar Evolution",
+  "publicationDate": "2026-11-10",
+  "freshnessWindow": "Preferred 15-day window",
+  "publicationStatus": "Accepted for publication in The Astrophysical Journal Letters; arXiv v1 listed November 10, 2026",
+  "primarySources": [
+    "https://arxiv.org/abs/2611.10122",
+    "https://arxiv.org/pdf/2611.10122"
+  ],
+  "coreFacts": [
+    "JWST/MIRI detected 26 uncontaminated forbidden rotational lines of H3+ above five sigma in at least one of two HH 168 fields.",
+    "The strongest line at 16.325 micrometres was detected at 72 sigma in field G and 49 sigma in field C.",
+    "The H3+ emission shares the velocity and spatial distribution of hot shocked molecular hydrogen rather than ionized gas.",
+    "A rotation diagram gives about 730 kelvin, but subthermal populations imply collisions in gas hotter than about 2000 kelvin.",
+    "J-type shock models reproduce the H3+ emission within about a factor of 1.5 but exceed the shock code's validated range; C-type models underpredict it by factors of five to six.",
+    "Archival JWST data independently show the same spectrum in the HH 211 bow shock."
+  ],
+  "sources": [
+    {
+      "label": "Neufeld et al. accepted ApJ Letters paper",
+      "url": "https://arxiv.org/abs/2611.10122"
+    }
+  ],
+  "sourceStatus": "Full primary paper and arXiv metadata read; primary source directly supports all material claims.",
+  "caveats": [
+    "High-energy H3+-H2 collision rates are poorly known.",
+    "The preferred J-type shock model lies outside the validated range of the shock code.",
+    "The lines are a new ionization probe, but quantitative interpretation requires better collision data."
+  ],
+  "image": {
+    "status": "not_checked",
+    "candidate": "Figure 2 from the CC BY 4.0 paper"
+  },
+  "recovery": {
+    "status": "clean",
+    "lastError": null
+  },
+  "updatedAt": "2026-11-10T18:27:00+05:30"
+}
