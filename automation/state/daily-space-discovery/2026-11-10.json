@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
-  "status": "frozen",
-  "stage": "draft_validated",
+  "status": "committed",
+  "stage": "committed",
   "workingTitle": "JWST detects a forbidden molecular fingerprint for the first time",
   "intendedFilename": "2026-11-10_astrobiology_h3-forbidden-rotation.json",
   "topic": "Astrobiology & Habitability / Stars & Stellar Evolution",
@@ -42,5 +42,14 @@
     "status": "clean",
     "lastError": null
   },
-  "updatedAt": "2026-11-10T18:27:00+05:30"
+  "commit": {
+    "sha": "1db542528cedc3fe6e8723a7ef11cf616f463aab",
+    "message": "Daily note 2026-11-10: H3+ rotational spectrum"
+  },
+  "deployment": {
+    "status": "pending",
+    "runId": null,
+    "url": null
+  },
+  "updatedAt": "2026-11-10T18:31:00+05:30"
 }
