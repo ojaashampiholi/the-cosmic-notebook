@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-11",
+  "status": "frozen",
+  "stage": "verified",
+  "workingTitle": "IceCube maps a fivefold neutrino gradient across the Milky Way",
+  "intendedFilename": "2026-11-11_galaxies_icecube-neutrino-gradient.json",
+  "topic": "Galaxies & Galactic Evolution",
+  "publicationDate": "2026-11-11",
+  "freshnessWindow": "Preferred 15-day window",
+  "publicationStatus": "IceCube Collaboration preprint first listed November 11, 2026; not yet peer reviewed",
+  "primarySources": [
+    "https://arxiv.org/abs/2611.12220",
+    "https://arxiv.org/pdf/2611.12220"
+  ],
+  "coreFacts": [
+    "IceCube used 59,592 cascade events recorded from May 2011 to May 2021, spanning roughly 500 GeV to the PeV range.",
+    "At 5 TeV, the measured neutrino flux per solid angle within 30 degrees of the Galactic center is about five times that beyond 60 degrees Galactic longitude.",
+    "The inner and outer flux intervals are separated by about 2.5 standard deviations at 5 TeV.",
+    "The strongest tested segmentation gives 3.84 sigma before accounting for the eight tested schemes and 3.43 sigma after the trials correction.",
+    "The inner-Galaxy spectral index is 2.76 with asymmetric uncertainty, while the outer value is 3.13; the two remain compatible within current uncertainties.",
+    "In the region shared with LHAASO, the neutrino measurement is compatible with both diffuse-only and total gamma-ray flux under a fully hadronic conversion, so leptonic gamma-ray emission is not ruled out."
+  ],
+  "sources": [
+    {
+      "label": "IceCube Collaboration preprint",
+      "url": "https://arxiv.org/abs/2611.12220"
+    }
+  ],
+  "sourceStatus": "Full primary paper and arXiv metadata read; all material numerical claims checked against the paper.",
+  "caveats": [
+    "This is an unreviewed preprint.",
+    "The flux contrast is suggestive rather than a definitive spatial detection, and statistical uncertainties dominate.",
+    "The gamma-ray comparison assumes a fully hadronic conversion and does not exclude leptonic emission."
+  ],
+  "image": {
+    "status": "planned",
+    "id": "arxiv-2611-12220-figure-2",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/abs/2611.12220"
+  },
+  "recovery": {
+    "status": "clean",
+    "lastError": null
+  },
+  "updatedAt": "2026-11-11T18:34:00+05:30"
+}
