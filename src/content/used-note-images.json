@@ -365,6 +365,17 @@
       "credit": "David A. Neufeld et al.; Figure 2 cropped from the accepted paper",
       "license": "CC BY 4.0",
       "sourceUrl": "https://arxiv.org/abs/2611.10122"
+    },
+    {
+      "id": "arxiv-2611-12220-figure-2",
+      "note": "2026-11-11_galaxies_icecube-neutrino-gradient",
+      "files": [
+        "images/notes/2026-11-11-icecube-neutrino-gradient.jpg",
+        "images/notes/2026-11-11-icecube-neutrino-gradient-thumb.jpg"
+      ],
+      "credit": "IceCube Collaboration; Figure 2 cropped from the preprint",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://arxiv.org/abs/2611.12220"
     }
   ]
 }

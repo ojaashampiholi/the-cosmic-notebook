@@ -1,7 +1,7 @@
 {
   "date": "2026-11-11",
   "status": "frozen",
-  "stage": "verified",
+  "stage": "draft_validated",
   "workingTitle": "IceCube maps a fivefold neutrino gradient across the Milky Way",
   "intendedFilename": "2026-11-11_galaxies_icecube-neutrino-gradient.json",
   "topic": "Galaxies & Galactic Evolution",
@@ -33,7 +33,7 @@
     "The gamma-ray comparison assumes a fully hadronic conversion and does not exclude leptonic emission."
   ],
   "image": {
-    "status": "planned",
+    "status": "included",
     "id": "arxiv-2611-12220-figure-2",
     "license": "CC BY 4.0",
     "sourceUrl": "https://arxiv.org/abs/2611.12220"
@@ -42,5 +42,5 @@
     "status": "clean",
     "lastError": null
   },
-  "updatedAt": "2026-11-11T18:34:00+05:30"
+  "updatedAt": "2026-11-11T18:42:00+05:30"
 }

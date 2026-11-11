@@ -1,0 +1,28 @@
+{
+  "title": "IceCube finds a fivefold neutrino gradient across the Milky Way",
+  "topic": "Galaxies & Galactic Evolution",
+  "date": "2026-11-11",
+  "freshness": "IceCube Collaboration preprint first listed November 11, 2026; not yet peer reviewed; preferred 15-day search window.",
+  "excerpt": "IceCube has measured how high-energy neutrino emission changes along the Milky Way's plane for the first time. At 5 TeV, the flux per patch of sky near the Galactic center is about five times that in the outer Galaxy, although the spatial contrast remains statistically suggestive rather than definitive.",
+  "whyItMatters": "Neutrinos can identify where cosmic rays collide with matter inside our Galaxy without being deflected by magnetic fields. Mapping their spectrum by direction gives astronomers a new test of how the Milky Way accelerates and transports its highest-energy particles.",
+  "exploreFurther": {
+    "label": "IceCube Collaboration preprint on arXiv",
+    "url": "https://arxiv.org/abs/2611.12220"
+  },
+  "whatToExploreNext": "How do charged-pion decays connect Galactic cosmic rays, gamma rays, and neutrinos?",
+  "sources": [
+    {
+      "label": "Measurement of the Neutrino Spectrum along the Galactic Plane with IceCube",
+      "url": "https://arxiv.org/abs/2611.12220"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-11-11-icecube-neutrino-gradient.jpg",
+    "thumbSrc": "images/notes/2026-11-11-icecube-neutrino-gradient-thumb.jpg",
+    "alt": "IceCube chart comparing neutrino spectral slopes and fluxes in the inner and outer Milky Way",
+    "credit": "IceCube Collaboration; Figure 2 cropped from the preprint",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/abs/2611.12220"
+  },
+  "body": "## A neutrino map gains depth\n\nIceCube has measured how the Milky Way's high-energy neutrino glow changes from its crowded center to its quieter outskirts. This is the first measurement of both the flux and energy spectrum in several regions along the Galactic plane without forcing the data to follow a preset emission model.\n\nNeutrinos are nearly massless particles that rarely interact with matter. That makes them hard to detect, but it also lets them travel from their birthplace without being absorbed or bent by magnetic fields. High-energy Galactic neutrinos are expected when cosmic rays hit gas, creating charged pions that decay into neutrinos. Their directions can therefore trace where energetic particles collide inside the Galaxy.\n\nThe IceCube detector watches for faint flashes of Cherenkov light inside a cubic kilometre of Antarctic ice. The team analysed 59,592 cascade events recorded from May 2011 to May 2021. A cascade is a roughly spherical burst of secondary particles produced when a neutrino interacts in or near the detector. These events cover the whole sky, though their typical directional uncertainty is about 7 degrees.\n\n## Five times brighter toward the center\n\nThe researchers divided the Galactic plane into several sets of broad longitude regions and fitted each region's flux and spectral slope at the same time. At a reference energy of 5 TeV, the flux per unit of sky within 30 degrees of the Galactic center was about five times the flux beyond 60 degrees. The fitted values were 21.4, with an uncertainty of roughly 6, versus 4.3, with an uncertainty of 2.8, in the paper's flux units.\n\nThe confidence intervals are separated by about 2.5 standard deviations at that energy. Across the full analysis, the strongest three-region division reached 3.84 sigma before accounting for the eight tested division schemes and 3.43 sigma after that trials correction. This is evidence for a real spatial change, but it is not yet a high-confidence map of a Galactic gradient. Statistical uncertainty still dominates.\n\nThe inner region also has a fitted spectral index of 2.76, compared with 3.13 in the outer Galaxy. A smaller index means the flux fades more slowly toward higher energies, which would make the inner spectrum harder. The uncertainties overlap, however, so the data do not yet establish that the two slopes differ.\n\n## Testing how cosmic rays cross the Galaxy\n\nDifferent cosmic-ray transport models predict different neutrino patterns. The KRA-gamma models are consistent with the inner-Galaxy measurement. The diffuse-only CRINGE prediction is low, but adding unresolved sources moves it closer to the data. GALPROP likewise needs an extra component to match the observed inner flux. These comparisons point to possibilities rather than selecting one model.\n\nThe team also compared IceCube with LHAASO's gamma-ray measurement over the same stretch of the plane. Converting gamma rays into an expected neutrino flux requires assuming they came from collisions involving protons rather than from energetic electrons. Under that fully hadronic assumption, IceCube falls between LHAASO's diffuse-only and total measurements and is compatible with both. The result therefore cannot rule out a leptonic share of the gamma rays.\n\nThe paper is an unreviewed preprint, and the spatial contrast needs more data. Still, it turns the Milky Way from a single neutrino source into a structure that can begin to be measured region by region."
+}
