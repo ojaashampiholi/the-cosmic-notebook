@@ -1,7 +1,7 @@
 {
   "date": "2026-11-11",
-  "status": "committed",
-  "stage": "committed",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "IceCube maps a fivefold neutrino gradient across the Milky Way",
   "intendedFilename": "2026-11-11_galaxies_icecube-neutrino-gradient.json",
   "topic": "Galaxies & Galactic Evolution",
@@ -47,9 +47,11 @@
     "message": "Daily note 2026-11-11: IceCube neutrino gradient"
   },
   "deployment": {
-    "status": "pending",
-    "runId": null,
-    "url": null
+    "status": "success",
+    "runId": 43025227096,
+    "url": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/43025227096",
+    "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-11_galaxies_icecube-neutrino-gradient/",
+    "httpStatus": 200
   },
-  "updatedAt": "2026-11-11T18:48:00+05:30"
+  "updatedAt": "2026-11-11T18:53:00+05:30"
 }
