@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-12",
+  "status": "frozen",
+  "stage": "frozen",
+  "workingTitle": "A hidden companion may be an unusually heavy neutron star",
+  "intendedFilename": "2026-11-12_stars_j0008-hidden-heavy-neutron-star.json",
+  "topic": "Stars & Stellar Evolution",
+  "publicationDate": "2026-11-11",
+  "freshnessWindow": "Preferred 15-day window",
+  "publicationStatus": "Peer-reviewed Science Advances paper published November 11, 2026",
+  "primarySources": [
+    "https://doi.org/10.1126/sciadv.aeg3307",
+    "https://nao.cas.cn/news/ky/202611/t20261112_8308323.html"
+  ],
+  "coreFacts": [
+    "J0008+0128 contains a visible red giant and an unseen companion in an orbit of about 1,218 days with eccentricity near 0.1.",
+    "Combined spectroscopy and Gaia astrometry give the red giant a best-fit mass of 1.67 solar masses and the unseen companion a best-fit mass of 2.20 solar masses.",
+    "High-resolution spectroscopy shows no detectable light from a second ordinary star, supporting a compact-object interpretation.",
+    "The unseen object is most likely a massive neutron star, but a low-mass black hole or a more complex compact system is not decisively excluded.",
+    "Binary-evolution calculations did not reproduce the unusually wide, nearly circular system, leaving its formation history unresolved."
+  ],
+  "sources": [
+    {
+      "label": "Zhao et al., Science Advances",
+      "url": "https://doi.org/10.1126/sciadv.aeg3307"
+    },
+    {
+      "label": "National Astronomical Observatories, Chinese Academy of Sciences",
+      "url": "https://nao.cas.cn/news/ky/202611/t20261112_8308323.html"
+    }
+  ],
+  "sourceStatus": "Peer-reviewed paper metadata and the authors' institution release read; critical measurements, inference, and caveats checked.",
+  "caveats": [
+    "The companion is not directly detected as a neutron star.",
+    "The mass interval overlaps both very massive neutron stars and possible low-mass black holes.",
+    "The formation pathway remains unresolved because current binary-evolution simulations did not reproduce the system."
+  ],
+  "image": {
+    "status": "pending",
+    "reason": "Licensing check in progress"
+  },
+  "recovery": {
+    "status": "clean",
+    "lastError": null
+  },
+  "updatedAt": "2026-11-12T18:30:00+05:30"
+}
