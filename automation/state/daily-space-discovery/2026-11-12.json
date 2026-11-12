@@ -1,7 +1,7 @@
 {
   "date": "2026-11-12",
-  "status": "frozen",
-  "stage": "frozen",
+  "status": "committed",
+  "stage": "committed",
   "workingTitle": "A hidden companion may be an unusually heavy neutron star",
   "intendedFilename": "2026-11-12_stars_j0008-hidden-heavy-neutron-star.json",
   "topic": "Stars & Stellar Evolution",
@@ -36,12 +36,28 @@
     "The formation pathway remains unresolved because current binary-evolution simulations did not reproduce the system."
   ],
   "image": {
-    "status": "pending",
-    "reason": "Licensing check in progress"
+    "status": "skipped",
+    "reason": "No directly relevant image with article-specific reuse terms could be verified; the rolling ten will contain five illustrated notes."
+  },
+  "validation": {
+    "json": "passed",
+    "humanizer": "passed",
+    "imageCheck": "passed",
+    "astroBuild": "passed",
+    "discoveryCheck": "passed",
+    "bodyWords": 536
   },
   "recovery": {
     "status": "clean",
     "lastError": null
   },
-  "updatedAt": "2026-11-12T18:30:00+05:30"
+  "commit": {
+    "sha": "565dcaf824039af02c311c100f50f7c5887fa1b0",
+    "message": "Daily note 2026-11-12: hidden heavy neutron star"
+  },
+  "deployment": {
+    "status": "pending",
+    "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-12_stars_j0008-hidden-heavy-neutron-star/"
+  },
+  "updatedAt": "2026-11-12T19:05:00+05:30"
 }
