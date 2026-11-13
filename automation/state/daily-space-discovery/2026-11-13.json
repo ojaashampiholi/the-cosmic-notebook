@@ -1,7 +1,7 @@
 {
   "date": "2026-11-13",
-  "status": "committed",
-  "stage": "committed",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "An independent reconstruction confirms M87*'s black hole ring",
   "intendedFilename": "2026-11-13_black-holes_m87-ring-independent-test.json",
   "topic": "Black Holes",
@@ -63,8 +63,11 @@
     "message": "Daily note 2026-11-13: independent M87 ring test"
   },
   "deployment": {
-    "status": "pending",
-    "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-13_black-holes_m87-ring-independent-test/"
+    "status": "success",
+    "runId": 43431631144,
+    "url": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/43431631144",
+    "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-13_black-holes_m87-ring-independent-test/",
+    "httpStatus": 200
   },
-  "updatedAt": "2026-11-13T19:00:00+05:30"
+  "updatedAt": "2026-11-13T19:05:00+05:30"
 }
