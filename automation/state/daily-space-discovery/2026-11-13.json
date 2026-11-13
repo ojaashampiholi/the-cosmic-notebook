@@ -1,7 +1,7 @@
 {
   "date": "2026-11-13",
-  "status": "frozen",
-  "stage": "frozen",
+  "status": "committed",
+  "stage": "committed",
   "workingTitle": "An independent reconstruction confirms M87*'s black hole ring",
   "intendedFilename": "2026-11-13_black-holes_m87-ring-independent-test.json",
   "topic": "Black Holes",
@@ -40,11 +40,31 @@
     "id": "nature-s41586-026-11241-9-figure-1",
     "license": "CC BY 4.0",
     "sourceUrl": "https://doi.org/10.1038/s41586-026-11241-9",
-    "note": "Figure 1 crop planned from the open-access paper."
+    "files": [
+      "images/notes/2026-11-13-m87-ring-reconstructions.jpg",
+      "images/notes/2026-11-13-m87-ring-reconstructions-thumb.jpg"
+    ]
+  },
+  "validation": {
+    "json": "passed",
+    "humanizer": "passed",
+    "imageCheck": "passed",
+    "astroBuild": "passed",
+    "discoveryCheck": "passed",
+    "bodyWords": 512,
+    "readback": "passed"
   },
   "recovery": {
     "status": "clean",
     "lastError": null
   },
-  "updatedAt": "2026-11-13T18:45:00+05:30"
+  "commit": {
+    "sha": "f3ac82c7436da3fd45fa83dc9ff9158b978ad727",
+    "message": "Daily note 2026-11-13: independent M87 ring test"
+  },
+  "deployment": {
+    "status": "pending",
+    "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-13_black-holes_m87-ring-independent-test/"
+  },
+  "updatedAt": "2026-11-13T19:00:00+05:30"
 }
