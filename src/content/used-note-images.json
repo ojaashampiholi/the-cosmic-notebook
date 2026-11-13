@@ -376,6 +376,17 @@
       "credit": "IceCube Collaboration; Figure 2 cropped from the preprint",
       "license": "CC BY 4.0",
       "sourceUrl": "https://arxiv.org/abs/2611.12220"
+    },
+    {
+      "id": "nature-s41586-026-11241-9-figure-1",
+      "note": "2026-11-13_black-holes_m87-ring-independent-test",
+      "files": [
+        "images/notes/2026-11-13-m87-ring-reconstructions.jpg",
+        "images/notes/2026-11-13-m87-ring-reconstructions-thumb.jpg"
+      ],
+      "credit": "Samuel Lai, Nithyanandan Thyagarajan, O. Ivy Wong and Foivos Diakogiannis; Figure 1 cropped from the Nature article",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://doi.org/10.1038/s41586-026-11241-9"
     }
   ]
 }

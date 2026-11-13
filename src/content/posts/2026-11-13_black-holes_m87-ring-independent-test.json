@@ -1,0 +1,32 @@
+{
+  "title": "An independent reconstruction recovers M87*'s black hole ring",
+  "topic": "Black Holes",
+  "date": "2026-11-13",
+  "freshness": "Peer-reviewed open-access Nature article published November 11, 2026; preferred 15-day search window.",
+  "excerpt": "A new imaging method has recovered M87*'s ring from Event Horizon Telescope data while avoiding several calibration choices used in earlier reconstructions. Across observations from 2017, 2018, and 2021, the ring's measured diameter remained close to 42 microarcseconds.",
+  "whyItMatters": "The famous M87* picture is a reconstruction from sparse radio measurements, so an independent route to the same ring is a demanding test of whether the structure is in the sky rather than introduced by the imaging process.",
+  "exploreFurther": {
+    "label": "Lai et al. in Nature",
+    "url": "https://doi.org/10.1038/s41586-026-11241-9"
+  },
+  "whatToExploreNext": "How do closure quantities remove telescope-specific errors from very long baseline interferometry?",
+  "sources": [
+    {
+      "label": "Independent interferometric observable confirms black hole shadow in M87*",
+      "url": "https://doi.org/10.1038/s41586-026-11241-9"
+    },
+    {
+      "label": "CSIRO: New technique confirms iconic black hole image",
+      "url": "https://www.csiro.au/en/news/All/News/2026/November/confirm-black-hole"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-11-13-m87-ring-reconstructions.jpg",
+    "thumbSrc": "images/notes/2026-11-13-m87-ring-reconstructions-thumb.jpg",
+    "alt": "Six reconstructed radio-intensity maps of M87* from observations in 2017, 2018, and 2021, each showing a bright ring around a dark centre",
+    "credit": "Samuel Lai, Nithyanandan Thyagarajan, O. Ivy Wong and Foivos Diakogiannis; Figure 1 cropped from the Nature article",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://doi.org/10.1038/s41586-026-11241-9"
+  },
+  "body": "## The ring survives a different reconstruction\n\nA new analysis has rebuilt the ring around M87* without relying on the same calibration and image-starting choices used for the famous 2019 result. The researchers applied their method to public Event Horizon Telescope observations from 2017, 2018, and 2021. Every independent observing epoch produced a compact ring about 40 microarcseconds across.\n\nM87* is the supermassive black hole at the centre of galaxy Messier 87, roughly 55 million light-years away. The dark centre in its image is called a shadow. It is not the black hole's surface. Instead, it is the region where light is captured or strongly redirected, outlined by radio emission from hot matter near the event horizon.\n\nThe Event Horizon Telescope does not take an ordinary snapshot. It combines radio signals recorded at observatories spread across Earth, a technique called very long baseline interferometry. The network gains the resolving power of an Earth-sized telescope, but it samples only part of that imaginary dish. Atmosphere and instrument errors also affect each station. Turning those incomplete measurements into an image is therefore a difficult reconstruction problem.\n\n## Three telescopes cancel a local error\n\nThe new approach centres on closure invariants. Standard visibility measurements compare pairs of telescopes. Closure quantities combine signals around closed groups of stations, such as a triangle of three telescopes. Station-specific phase and gain errors cancel around the loop, while information about the source's shape remains.\n\nThe team fed those calibration-resistant measurements into GenDIReCT, a generative imaging system trained on varied terrestrial pictures rather than black hole images. Before seeing the M87* data, the model was tested on simulated structures and real observations of other galaxies. Its training and testing procedure was then frozen. This does not make the reconstruction assumption-free, since any trained model carries statistical preferences, but it reduces the risk of steering the answer toward a ring known in advance.\n\nAcross eight observing dates, the reconstructed ring had a mean angular diameter of 42.2 plus or minus 1.5 microarcseconds. Using M87's adopted distance and the theoretical relationship between shadow size and gravitational radius, the researchers inferred a black hole mass of 6.5 plus or minus 0.5 billion Suns. That agrees with the Event Horizon Telescope result and with a stellar-motion estimate.\n\nA second method, which fitted simple geometric components directly to the closure invariants, also supported the ring. Agreement between two approaches matters because it makes the result less dependent on the machine-learning reconstruction alone.\n\n## What the test does and does not settle\n\nThe robust result is the overall ring-like morphology and its diameter. The paper finds that the ring's width, central brightness, and fine-scale bright patches vary more with the imaging method and data quality. Those details should not yet be treated as equally secure properties of the source.\n\nThis study reanalyses existing observations; it is not a newly captured photograph. Its value is methodological. A different team, using calibration-resistant observables and a separately validated pipeline, recovered the same large-scale structure. That makes it harder to explain M87*'s ring as an artefact of one reconstruction recipe."
+}
