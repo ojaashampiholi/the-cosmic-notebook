@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-13",
+  "status": "frozen",
+  "stage": "frozen",
+  "workingTitle": "An independent reconstruction confirms M87*'s black hole ring",
+  "intendedFilename": "2026-11-13_black-holes_m87-ring-independent-test.json",
+  "topic": "Black Holes",
+  "publicationDate": "2026-11-11",
+  "freshnessWindow": "Preferred 15-day window",
+  "publicationStatus": "Peer-reviewed open-access Nature article published November 11, 2026",
+  "primarySources": [
+    "https://doi.org/10.1038/s41586-026-11241-9",
+    "https://www.csiro.au/en/news/All/News/2026/November/confirm-black-hole"
+  ],
+  "coreFacts": [
+    "An independent method reconstructed a compact ring from public Event Horizon Telescope datasets spanning 2017, 2018 and 2021.",
+    "The method uses closure invariants formed from telescope triplets, which preserve source morphology while cancelling station-based calibration errors.",
+    "The mean ring diameter is 42.2 plus or minus 1.5 microarcseconds.",
+    "Using nominal scaling parameters, the diameter implies a black hole mass of 6.5 plus or minus 0.5 billion solar masses.",
+    "Ring width, central brightness and some fine-scale features remain sensitive to the reconstruction method."
+  ],
+  "sources": [
+    {
+      "label": "Lai et al. in Nature",
+      "url": "https://doi.org/10.1038/s41586-026-11241-9"
+    },
+    {
+      "label": "CSIRO research release",
+      "url": "https://www.csiro.au/en/news/All/News/2026/November/confirm-black-hole"
+    }
+  ],
+  "sourceStatus": "Full peer-reviewed paper, data and code statements, license, and authors' institution release read; numerical claims and limitations checked.",
+  "caveats": [
+    "The result reanalyses existing EHT observations rather than collecting a new black hole image.",
+    "The mass inference depends on the adopted distance and theoretical ring-size scaling.",
+    "Ring width and brightness asymmetry are less robust than the ring's diameter and overall morphology."
+  ],
+  "image": {
+    "status": "included",
+    "id": "nature-s41586-026-11241-9-figure-1",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://doi.org/10.1038/s41586-026-11241-9",
+    "note": "Figure 1 crop planned from the open-access paper."
+  },
+  "recovery": {
+    "status": "clean",
+    "lastError": null
+  },
+  "updatedAt": "2026-11-13T18:45:00+05:30"
+}
