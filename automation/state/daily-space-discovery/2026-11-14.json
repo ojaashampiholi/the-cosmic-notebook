@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-14",
+  "status": "frozen",
+  "stage": "discovery_frozen",
+  "workingTitle": "Euclid resolves fifteen ghostly stellar systems",
+  "intendedFilename": "2026-11-14_galaxies_euclid-faint-stellar-systems.json",
+  "topic": "Galaxies & Galactic Evolution",
+  "publicationDate": "2026-11-11",
+  "freshnessWindow": "Preferred 15-day window",
+  "publicationStatus": "Euclid Collaboration preprint submitted November 11, 2026; intended for the Astronomy & Astrophysics Euclid DR1 special issue and not yet peer reviewed",
+  "primarySources": [
+    "https://arxiv.org/abs/2611.16025",
+    "https://euclid-ec.net/dr1-f-science-spotlight/"
+  ],
+  "coreFacts": [
+    "A resolved-star search across about 1,900 square degrees of Euclid Wide Survey DR1 data identified 15 low-surface-brightness stellar systems that had never previously been resolved into individual stars.",
+    "Five are new discoveries: three in the Milky Way halo and two beyond the Local Group; the other ten were previously catalogued as unresolved dwarf-galaxy candidates.",
+    "Ursa Minor II is about 20 kiloparsecs away and has an estimated stellar mass near 40 solar masses, making it one of the least luminous known stellar systems.",
+    "Eridanus V lies about 165 kiloparsecs away and has an estimated stellar mass near 550 solar masses, in the size-luminosity overlap between globular clusters and ultra-faint dwarf galaxies.",
+    "The 12 systems beyond the Local Group lie about 3 to 5.5 megaparsecs away, and ten are candidate members of the M81 group.",
+    "The classifications and memberships of several systems remain uncertain; follow-up spectroscopy and deeper imaging are needed."
+  ],
+  "sources": [
+    {
+      "label": "Euclid Collaboration preprint",
+      "url": "https://arxiv.org/abs/2611.16025"
+    },
+    {
+      "label": "Euclid DR1 science spotlight",
+      "url": "https://euclid-ec.net/dr1-f-science-spotlight/"
+    }
+  ],
+  "sourceStatus": "Full primary preprint, arXiv metadata, and Euclid Consortium DR1 science spotlight read; critical counts, distances, masses, and caveats checked.",
+  "caveats": [
+    "The paper is an unreviewed preprint intended for an Astronomy & Astrophysics special issue.",
+    "Not all 15 objects are new discoveries; ten were known as unresolved sources but are resolved into stars here for the first time.",
+    "Several objects have uncertain classifications or group memberships."
+  ],
+  "image": {
+    "status": "pending",
+    "reason": "The rolling ten already contains six illustrated notes; include an image only if article-specific reuse terms are verified."
+  },
+  "recovery": {
+    "status": "clean",
+    "lastError": null
+  },
+  "updatedAt": "2026-11-14T18:27:27+05:30"
+}
