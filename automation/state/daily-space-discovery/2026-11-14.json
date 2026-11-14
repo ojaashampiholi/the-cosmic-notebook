@@ -1,17 +1,14 @@
 {
   "date": "2026-11-14",
-  "status": "frozen",
-  "stage": "discovery_frozen",
-  "workingTitle": "Euclid resolves fifteen ghostly stellar systems",
+  "status": "published",
+  "stage": "published",
+  "workingTitle": "Euclid resolves fifteen exceptionally faint stellar systems",
   "intendedFilename": "2026-11-14_galaxies_euclid-faint-stellar-systems.json",
   "topic": "Galaxies & Galactic Evolution",
   "publicationDate": "2026-11-11",
   "freshnessWindow": "Preferred 15-day window",
   "publicationStatus": "Euclid Collaboration preprint submitted November 11, 2026; intended for the Astronomy & Astrophysics Euclid DR1 special issue and not yet peer reviewed",
-  "primarySources": [
-    "https://arxiv.org/abs/2611.16025",
-    "https://euclid-ec.net/dr1-f-science-spotlight/"
-  ],
+  "primarySources": ["https://arxiv.org/abs/2611.16025", "https://euclid-ec.net/dr1-f-science-spotlight/"],
   "coreFacts": [
     "A resolved-star search across about 1,900 square degrees of Euclid Wide Survey DR1 data identified 15 low-surface-brightness stellar systems that had never previously been resolved into individual stars.",
     "Five are new discoveries: three in the Milky Way halo and two beyond the Local Group; the other ten were previously catalogued as unresolved dwarf-galaxy candidates.",
@@ -21,14 +18,8 @@
     "The classifications and memberships of several systems remain uncertain; follow-up spectroscopy and deeper imaging are needed."
   ],
   "sources": [
-    {
-      "label": "Euclid Collaboration preprint",
-      "url": "https://arxiv.org/abs/2611.16025"
-    },
-    {
-      "label": "Euclid DR1 science spotlight",
-      "url": "https://euclid-ec.net/dr1-f-science-spotlight/"
-    }
+    {"label": "Euclid Collaboration preprint", "url": "https://arxiv.org/abs/2611.16025"},
+    {"label": "Euclid DR1 science spotlight", "url": "https://euclid-ec.net/dr1-f-science-spotlight/"}
   ],
   "sourceStatus": "Full primary preprint, arXiv metadata, and Euclid Consortium DR1 science spotlight read; critical counts, distances, masses, and caveats checked.",
   "caveats": [
@@ -37,12 +28,29 @@
     "Several objects have uncertain classifications or group memberships."
   ],
   "image": {
-    "status": "pending",
-    "reason": "The rolling ten already contains six illustrated notes; include an image only if article-specific reuse terms are verified."
+    "status": "skipped",
+    "reason": "The newest ten notes already contain six illustrated entries, meeting the rolling target; article-specific image reuse terms were not clear enough to add one safely."
   },
-  "recovery": {
-    "status": "clean",
-    "lastError": null
+  "validation": {
+    "json": "passed",
+    "humanizer": "passed",
+    "imageCheck": "passed",
+    "astroBuild": "passed",
+    "discoveryCheck": "passed",
+    "bodyWords": 520,
+    "readback": "passed"
   },
-  "updatedAt": "2026-11-14T18:27:27+05:30"
+  "recovery": {"status": "clean", "lastError": null},
+  "commit": {
+    "sha": "b2d0cac3139e9113f6888ee9ea6b0ff2f926342c",
+    "message": "Daily note 2026-11-14: Euclid faint stellar systems"
+  },
+  "deployment": {
+    "status": "success",
+    "runId": 43597438133,
+    "url": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/43597438133",
+    "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-14_galaxies_euclid-faint-stellar-systems/",
+    "httpStatus": 200
+  },
+  "updatedAt": "2026-11-14T18:32:21+05:30"
 }
