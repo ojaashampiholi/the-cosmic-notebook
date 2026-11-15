@@ -1,7 +1,7 @@
 {
   "date": "2026-11-15",
   "status": "frozen",
-  "stage": "verified",
+  "stage": "draft_validated",
   "workingTitle": "A cold giant planet challenges the usual growth route",
   "intendedFilename": "2026-11-15_exoplanets_hip-88962-b-cold-giant.json",
   "topic": "Exoplanets / Planet Formation",
@@ -34,9 +34,20 @@
     "The 4.11-day residual is not a robust second-planet detection."
   ],
   "image": {
-    "status": "not_checked",
-    "reason": "The manuscript is CC BY 4.0; a directly relevant figure will be used only if crop quality and ledger uniqueness pass."
+    "status": "skipped",
+    "reason": "The newest ten notes contain five illustrated entries, but the licensed orbit figure could not be extracted at acceptable card quality; image handling is non-blocking."
   },
-  "recovery": {"status": "clean", "lastError": null},
-  "updatedAt": "2026-11-15T18:51:10+05:30"
+  "recovery": {
+    "status": "clean",
+    "lastError": null
+  },
+  "updatedAt": "2026-11-15T18:53:00+05:30",
+  "validation": {
+    "json": "passed",
+    "humanizer": "passed",
+    "imageCheck": "passed",
+    "astroBuild": "passed",
+    "discoveryCheck": "passed",
+    "bodyWords": 536
+  }
 }
