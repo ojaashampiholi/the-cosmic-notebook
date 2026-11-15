@@ -1,7 +1,7 @@
 {
   "date": "2026-11-15",
-  "status": "frozen",
-  "stage": "committed",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "A cold giant planet challenges the usual growth route",
   "intendedFilename": "2026-11-15_exoplanets_hip-88962-b-cold-giant.json",
   "topic": "Exoplanets / Planet Formation",
@@ -38,10 +38,10 @@
     "reason": "The newest ten notes contain five illustrated entries, but the licensed orbit figure could not be extracted at acceptable card quality; image handling is non-blocking."
   },
   "recovery": {
-    "status": "clean",
-    "lastError": null
+    "status": "recovered",
+    "lastError": "The note commit's Pages run was cancelled when the required committed-stage checkpoint update advanced main; the immediately following checkpoint commit deployed the identical canonical note successfully."
   },
-  "updatedAt": "2026-11-15T18:54:00+05:30",
+  "updatedAt": "2026-11-15T18:56:00+05:30",
   "validation": {
     "json": "passed",
     "humanizer": "passed",
@@ -54,5 +54,17 @@
   "commit": {
     "sha": "cf523cadb68fec1fc462e370a1cdd3073f4e0882",
     "message": "Daily note 2026-11-15: HIP 88962 b"
+  },
+  "deployment": {
+    "status": "success",
+    "runId": 43718733263,
+    "url": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/43718733263",
+    "headSha": "2ad6982f48bb4371cdf5b73b285743cc79ea1f53",
+    "noteCommitRun": {
+      "id": 43718710524,
+      "status": "cancelled_by_checkpoint_update"
+    },
+    "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-15_exoplanets_hip-88962-b-cold-giant/",
+    "httpStatus": 200
   }
 }
