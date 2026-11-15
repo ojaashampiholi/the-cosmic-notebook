@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-15",
+  "status": "frozen",
+  "stage": "verified",
+  "workingTitle": "A cold giant planet challenges the usual growth route",
+  "intendedFilename": "2026-11-15_exoplanets_hip-88962-b-cold-giant.json",
+  "topic": "Exoplanets / Planet Formation",
+  "publicationDate": "2026-11-11",
+  "freshnessWindow": "Preferred 15-day window",
+  "publicationStatus": "Accepted and in press at The Astrophysical Journal Letters; arXiv version submitted November 11, 2026",
+  "primarySources": [
+    "https://arxiv.org/abs/2611.16032",
+    "https://arxiv.org/pdf/2611.16032"
+  ],
+  "coreFacts": [
+    "Forty-seven Planet Finder Spectrograph observing epochs across 41 nights from 2010 to 2025 reveal the star's long-period radial-velocity wobble.",
+    "The preferred orbital period is about 7,055 days, or 19.3 years, and the radial-velocity semiamplitude is 94.9 metres per second.",
+    "Combining the radial velocities with Hipparcos and Gaia astrometry gives HIP 88962 b a true mass of 4.83 Jupiter masses, a semimajor axis of 6.15 astronomical units, and eccentricity 0.718.",
+    "The host is a K7V dwarf about 27.3 parsecs away with an adopted mass of 0.62 solar masses.",
+    "Published core-accretion population models do not produce a planet this massive this far from such a low-mass star, while gas-disk gravitational instability can; formation by disk instability is an interpretation, not a direct observation.",
+    "A possible 4.11-day residual signal is not considered a robust second planet because stellar activity can account for the remaining scatter."
+  ],
+  "sources": [
+    {
+      "label": "Boss et al., accepted by The Astrophysical Journal Letters",
+      "url": "https://arxiv.org/abs/2611.16032"
+    }
+  ],
+  "sourceStatus": "Full accepted manuscript and arXiv metadata read; observation count, orbital solution, host properties, formation argument, and residual-signal caveat checked.",
+  "caveats": [
+    "The accepted manuscript is available as an arXiv preprint; the journal version is still in press.",
+    "The disk-instability origin is inferred by comparison with published formation models, not directly observed.",
+    "Limited orbital coverage allows alternative long-period fits, so continued radial-velocity monitoring is needed.",
+    "The 4.11-day residual is not a robust second-planet detection."
+  ],
+  "image": {
+    "status": "not_checked",
+    "reason": "The manuscript is CC BY 4.0; a directly relevant figure will be used only if crop quality and ledger uniqueness pass."
+  },
+  "recovery": {"status": "clean", "lastError": null},
+  "updatedAt": "2026-11-15T18:51:10+05:30"
+}
