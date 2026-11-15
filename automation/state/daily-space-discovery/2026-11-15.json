@@ -1,7 +1,7 @@
 {
   "date": "2026-11-15",
   "status": "frozen",
-  "stage": "draft_validated",
+  "stage": "committed",
   "workingTitle": "A cold giant planet challenges the usual growth route",
   "intendedFilename": "2026-11-15_exoplanets_hip-88962-b-cold-giant.json",
   "topic": "Exoplanets / Planet Formation",
@@ -41,13 +41,18 @@
     "status": "clean",
     "lastError": null
   },
-  "updatedAt": "2026-11-15T18:53:00+05:30",
+  "updatedAt": "2026-11-15T18:54:00+05:30",
   "validation": {
     "json": "passed",
     "humanizer": "passed",
     "imageCheck": "passed",
     "astroBuild": "passed",
     "discoveryCheck": "passed",
-    "bodyWords": 536
+    "bodyWords": 536,
+    "readback": "passed"
+  },
+  "commit": {
+    "sha": "cf523cadb68fec1fc462e370a1cdd3073f4e0882",
+    "message": "Daily note 2026-11-15: HIP 88962 b"
   }
 }
