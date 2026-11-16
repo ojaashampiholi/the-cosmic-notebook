@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-16",
+  "status": "frozen",
+  "stage": "verified",
+  "workingTitle": "A white dwarf sends radio pulses every eight minutes",
+  "intendedFilename": "2026-11-16_stars_white-dwarf-eight-minute-radio-pulses.json",
+  "topic": "Stars & Stellar Evolution",
+  "publicationDate": "2026-11-12",
+  "freshnessWindow": "Preferred 15-day window",
+  "publicationStatus": "Peer-reviewed research article published in Nature Astronomy on November 12, 2026",
+  "primarySources": [
+    "https://www.nature.com/articles/s41550-026-03016-z",
+    "https://www.icrar.org/binary-lpt/"
+  ],
+  "coreFacts": [
+    "GPM J071507-114153 emits highly polarized radio pulses every 7.9 minutes and belongs to the emerging long-period transient class.",
+    "The pulse arrival times vary on a cycle of about 1.3 days, interpreted as the orbital period of a binary containing a low-mass white dwarf and a G-type star.",
+    "More than 100 hours of radio data let the team track the pulse source's orbital motion and place the emitting region close to the white dwarf, or possibly on the white dwarf itself.",
+    "Optical spectroscopy with the W. M. Keck Observatory identified the visible companion as a G-type star, while radio localization used the Murchison Widefield Array and MeerKAT.",
+    "Rapid rotation-measure changes when the white dwarf passes behind its companion are consistent with the signal crossing magnetized plasma in the G-type star's corona.",
+    "The system is more than 5,000 light-years away; the observations support a role for binary interaction in the radio emission, but do not yet establish the detailed emission mechanism."
+  ],
+  "sources": [
+    {
+      "label": "McSweeney et al., Nature Astronomy",
+      "url": "https://www.nature.com/articles/s41550-026-03016-z"
+    },
+    {
+      "label": "International Centre for Radio Astronomy Research",
+      "url": "https://www.icrar.org/binary-lpt/"
+    }
+  ],
+  "sourceStatus": "Nature Astronomy abstract, article metadata, methods summary, data availability, rights statement, and ICRAR's institutional release read; timing, binary identification, observing facilities, distance, and interpretation checked.",
+  "caveats": [
+    "The 1.3-day modulation is interpreted as the binary orbit from pulse timing and optical data.",
+    "The pulses arise near the white dwarf, or possibly from the white dwarf itself; the detailed coherent-emission mechanism is not settled.",
+    "The changing rotation measure is consistent with magnetized plasma in the companion's corona, rather than a direct image of a stellar prominence.",
+    "Only about a dozen long-period transients were known when the paper was published, so the class remains small."
+  ],
+  "image": {
+    "status": "skipped",
+    "reason": "The directly relevant ICRAR illustrations are marked all rights reserved and the Nature article grants exclusive rights rather than an open reuse license; image handling is non-blocking."
+  },
+  "recovery": {
+    "status": "clean",
+    "lastError": null
+  },
+  "updatedAt": "2026-11-16T18:44:00+05:30"
+}
