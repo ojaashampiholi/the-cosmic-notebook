@@ -1,0 +1,24 @@
+{
+  "title": "A white dwarf sends radio pulses every eight minutes",
+  "topic": "Stars & Stellar Evolution",
+  "date": "2026-11-16",
+  "freshness": "Peer-reviewed research article published in Nature Astronomy on November 12, 2026; preferred 15-day search window.",
+  "excerpt": "A white dwarf more than 5,000 light-years away produces radio pulses every 7.9 minutes while orbiting a Sun-like star. The pulses track the white dwarf's motion and probe magnetized plasma around its companion.",
+  "whyItMatters": "Long-period radio transients have puzzled astronomers because it was unclear what powers their slow, bright flashes. This system ties the signal to the neighbourhood of a white dwarf and shows that interaction with a companion may be central to the emission.",
+  "exploreFurther": {
+    "label": "McSweeney et al., Nature Astronomy",
+    "url": "https://www.nature.com/articles/s41550-026-03016-z"
+  },
+  "whatToExploreNext": "How can motion through a companion star's magnetic environment help a white dwarf produce coherent radio pulses?",
+  "sources": [
+    {
+      "label": "A long-period transient with a Sun-like companion",
+      "url": "https://www.nature.com/articles/s41550-026-03016-z"
+    },
+    {
+      "label": "International Centre for Radio Astronomy Research release",
+      "url": "https://www.icrar.org/binary-lpt/"
+    }
+  ],
+  "body": "## A slow cosmic clock\n\nA dead star more than 5,000 light-years away is sending a radio pulse toward Earth every 7.9 minutes. That rhythm is unusually slow for a pulsing stellar remnant, and it places the source GPM J071507-114153 in a small, puzzling class called long-period transients.\n\nThese objects switch on briefly at regular intervals ranging from minutes to hours. Their radio waves are strongly polarized, meaning the waves' electric fields line up in an organized way. That points to a coherent process in which charged particles act together, producing an intense signal. The exact engine has remained uncertain.\n\nGPM J071507-114153 now supplies an important clue. It contains a low-mass white dwarf and a G-type star similar to the Sun. A white dwarf is the compact core left after a star like the Sun sheds its outer layers. This is the first known case in which radio pulses have been traced to a white dwarf paired with a Sun-like companion rather than a smaller, cooler red dwarf.\n\n## The pulses reveal an orbit\n\nThe source was found in a survey with the Murchison Widefield Array in Western Australia. MeerKAT in South Africa then pinned down its position, and optical spectroscopy from the W. M. Keck Observatory identified the visible companion as a G-type star.\n\nThe researchers processed more than 100 hours of radio observations. The arrival times of the 7.9-minute pulses shift back and forth over a cycle of about 1.3 days. That longer cycle is interpreted as the binary's orbital period: as the emitting object moves around the system, the changing light-travel distance makes its pulses arrive slightly early or late.\n\nThis timing pattern tracks the motion expected for the white dwarf. It places the radio-emitting region close to the white dwarf, and possibly on the white dwarf itself. The result does not yet identify the detailed process that creates each flash.\n\nThe timing model also suggests that the Sun-like star stays inside its Roche lobe, the region where its gravity can hold on to material. In ordinary language, the companion does not appear to be spilling a large stream of gas directly onto the white dwarf. That makes a simple mass-transfer explanation less likely.\n\n## A beam becomes a probe\n\nThe radio signal changes when the white dwarf passes behind its companion from our viewpoint. Near that part of the orbit, the team measured rapid changes in rotation measure. This quantity records how magnetized plasma twists the polarization angle of radio waves.\n\nThe changes are consistent with the pulses passing through plasma in the G-type star's corona. The institutional team describes the strongest feature as a possible stellar prominence, a large magnetic loop of hot gas. That prominence is an interpretation of the radio behaviour, not a directly resolved image.\n\nThe system therefore does two jobs at once. Its repeating flashes locate the emission near the white dwarf, while the same beam samples magnetic weather around the companion. The authors conclude that interaction between the two stars probably matters for producing long-period radio pulses, even when the companion is Sun-like and the orbit lasts more than a day.\n\nOnly about a dozen long-period transients were known when this paper appeared. One unusual binary cannot explain the entire class, but it expands the kinds of systems that can make these signals and gives astronomers a precise clock for testing emission models."
+}
