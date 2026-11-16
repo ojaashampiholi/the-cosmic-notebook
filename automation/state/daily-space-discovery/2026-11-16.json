@@ -1,7 +1,7 @@
 {
   "date": "2026-11-16",
   "status": "frozen",
-  "stage": "verified",
+  "stage": "draft_validated",
   "workingTitle": "A white dwarf sends radio pulses every eight minutes",
   "intendedFilename": "2026-11-16_stars_white-dwarf-eight-minute-radio-pulses.json",
   "topic": "Stars & Stellar Evolution",
@@ -45,5 +45,13 @@
     "status": "clean",
     "lastError": null
   },
-  "updatedAt": "2026-11-16T18:44:00+05:30"
+  "updatedAt": "2026-11-16T18:48:11+05:30",
+  "validation": {
+    "json": "passed",
+    "humanizer": "passed",
+    "imageCheck": "passed",
+    "astroBuild": "passed",
+    "discoveryCheck": "passed",
+    "bodyWords": 560
+  }
 }
