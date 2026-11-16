@@ -1,7 +1,7 @@
 {
   "date": "2026-11-16",
-  "status": "frozen",
-  "stage": "draft_validated",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "A white dwarf sends radio pulses every eight minutes",
   "intendedFilename": "2026-11-16_stars_white-dwarf-eight-minute-radio-pulses.json",
   "topic": "Stars & Stellar Evolution",
@@ -45,13 +45,26 @@
     "status": "clean",
     "lastError": null
   },
-  "updatedAt": "2026-11-16T18:48:11+05:30",
+  "updatedAt": "2026-11-16T18:51:21+05:30",
   "validation": {
     "json": "passed",
     "humanizer": "passed",
     "imageCheck": "passed",
     "astroBuild": "passed",
     "discoveryCheck": "passed",
-    "bodyWords": 560
+    "bodyWords": 560,
+    "readback": "passed"
+  },
+  "commit": {
+    "sha": "1866e52c06f8fa8f4f89407548633aba4b87e859",
+    "message": "Daily note 2026-11-16: white dwarf radio pulses"
+  },
+  "deployment": {
+    "status": "success",
+    "runId": 43874544945,
+    "url": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/43874544945",
+    "headSha": "1866e52c06f8fa8f4f89407548633aba4b87e859",
+    "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-16_stars_white-dwarf-eight-minute-radio-pulses/",
+    "livePage": "verified"
   }
 }
