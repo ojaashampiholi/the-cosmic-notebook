@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-17",
+  "status": "frozen",
+  "stage": "verified",
+  "workingTitle": "One solar eruption squeezed another into a stronger storm",
+  "intendedFilename": "2026-11-17_sun-space-weather_cme-squeezing-magnetic-field.json",
+  "topic": "Sun & Space Weather",
+  "publicationDate": "2026-11-13",
+  "freshnessWindow": "Preferred 15-day window",
+  "publicationStatus": "Accepted for publication in The Astrophysical Journal Letters; arXiv version submitted November 13, 2026",
+  "primarySources": [
+    "https://arxiv.org/abs/2611.17807"
+  ],
+  "coreFacts": [
+    "Three homologous coronal mass ejections left solar active region 13664 within one day on May 8, 2024, before the severe May 10 geomagnetic storm.",
+    "The study combined remote observations from SUTRI, SDO, SOHO, and STEREO-A with near-Earth Wind measurements and a three-dimensional solar-wind simulation.",
+    "The simulation compared two interacting-CME cases with a control containing only the first eruption.",
+    "In the interaction cases, the later eruption compressed the first one and limited its expansion, maintaining a stronger magnetic field as the combined structure traveled toward Earth.",
+    "The modeled southward magnetic-field component near Earth exceeded 60 nanoteslas in the interaction cases, about twice the roughly 30 nanoteslas in the single-CME control.",
+    "A southward interplanetary magnetic field couples efficiently to Earth's magnetic field, so preserving that component can intensify a geomagnetic storm."
+  ],
+  "sources": [
+    {
+      "label": "Wang et al., accepted by The Astrophysical Journal Letters",
+      "url": "https://arxiv.org/abs/2611.17807"
+    }
+  ],
+  "sourceStatus": "Full accepted manuscript, abstract, methods, controlled simulation cases, numerical results, and limitations read; measured observations and model-based interpretation checked separately.",
+  "caveats": [
+    "The compression mechanism is inferred from a physics-based simulation constrained by observations, not directly measured throughout the journey from the Sun to Earth.",
+    "The event-matching simulation reached Earth about 11 hours earlier than the actual disturbance.",
+    "The study analyzes one event and varies only the magnetic helicity of the second eruption; separation, speed, direction, and topology remain to be tested systematically.",
+    "Assigning individual CME intervals near Earth is partly model-dependent because the merged structure was complex."
+  ],
+  "image": {
+    "status": "skipped",
+    "reason": "A relevant NASA image was identified, but the available repository write path could not safely persist binary image files; image handling is non-blocking."
+  },
+  "recovery": {
+    "status": "clean",
+    "lastError": null
+  },
+  "updatedAt": "2026-11-17T19:00:00+05:30"
+}
