@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
-  "status": "draft_validated",
-  "stage": "draft_validated",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "One solar eruption squeezed another into a stronger storm",
   "intendedFilename": "2026-11-17_sun-space-weather_cme-squeezing-magnetic-field.json",
   "topic": "Sun & Space Weather",
@@ -40,7 +40,7 @@
     "status": "clean",
     "lastError": null
   },
-  "updatedAt": "2026-11-17T18:22:37+05:30",
+  "updatedAt": "2026-11-17T18:25:45+05:30",
   "validation": {
     "json": "passed",
     "humanizer": "passed",
@@ -48,6 +48,18 @@
     "astroBuild": "passed",
     "discoveryCheck": "passed",
     "bodyWords": 547,
-    "readback": "pending"
+    "readback": "passed"
+  },
+  "commit": {
+    "sha": "66c7cba75558f9d51b469464419c97b6443d8aaa",
+    "message": "Daily note 2026-11-17: CME squeezing"
+  },
+  "deployment": {
+    "status": "success",
+    "runId": 44087317682,
+    "url": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/44087317682",
+    "headSha": "66c7cba75558f9d51b469464419c97b6443d8aaa",
+    "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-17_sun-space-weather_cme-squeezing-magnetic-field/",
+    "livePage": "verified"
   }
 }
