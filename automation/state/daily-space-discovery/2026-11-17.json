@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
-  "status": "frozen",
-  "stage": "verified",
+  "status": "draft_validated",
+  "stage": "draft_validated",
   "workingTitle": "One solar eruption squeezed another into a stronger storm",
   "intendedFilename": "2026-11-17_sun-space-weather_cme-squeezing-magnetic-field.json",
   "topic": "Sun & Space Weather",
@@ -40,5 +40,14 @@
     "status": "clean",
     "lastError": null
   },
-  "updatedAt": "2026-11-17T19:00:00+05:30"
+  "updatedAt": "2026-11-17T18:22:37+05:30",
+  "validation": {
+    "json": "passed",
+    "humanizer": "passed",
+    "imageCheck": "passed",
+    "astroBuild": "passed",
+    "discoveryCheck": "passed",
+    "bodyWords": 547,
+    "readback": "pending"
+  }
 }
