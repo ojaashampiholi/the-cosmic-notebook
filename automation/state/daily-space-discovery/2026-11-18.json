@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
-  "status": "committed_not_live",
-  "stage": "committed",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "JWST finds glassy ice in a young planetary system",
   "intendedFilename": "2026-11-18_planet-formation_beta-pictoris-dirty-ice.json",
   "topic": "Planet Formation",
@@ -42,10 +42,10 @@
     "reason": "The paper's author manuscript is not licensed for redistribution, and no newly licensed, directly matched image could be safely persisted through the available repository write path; image handling is non-blocking."
   },
   "recovery": {
-    "status": "clean",
-    "lastError": null
+    "status": "recovered",
+    "lastError": "The workflow for the note commit was cancelled when the required committed-stage checkpoint update advanced main; the replacement deployment from that checkpoint commit succeeded and contained the unchanged note."
   },
-  "updatedAt": "2026-11-18T18:48:58+05:30",
+  "updatedAt": "2026-11-18T18:51:02+05:30",
   "validation": {
     "json": "passed",
     "humanizer": "passed",
@@ -58,5 +58,14 @@
   "commit": {
     "sha": "6a35df4de040ef56fa565df1e7028655178b8064",
     "message": "Daily note 2026-11-18: Beta Pictoris dirty ice"
+  },
+  "deployment": {
+    "status": "success",
+    "runId": 44312503693,
+    "url": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/44312503693",
+    "headSha": "7d8881d3eeee22fdddf2051d68acd294d75a8d13",
+    "noteCommitSha": "6a35df4de040ef56fa565df1e7028655178b8064",
+    "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-18_planet-formation_beta-pictoris-dirty-ice/",
+    "livePage": "verified"
   }
 }
