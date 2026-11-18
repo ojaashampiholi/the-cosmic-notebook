@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
-  "status": "draft_validated",
-  "stage": "draft_validated",
+  "status": "committed_not_live",
+  "stage": "committed",
   "workingTitle": "JWST finds glassy ice in a young planetary system",
   "intendedFilename": "2026-11-18_planet-formation_beta-pictoris-dirty-ice.json",
   "topic": "Planet Formation",
@@ -45,7 +45,7 @@
     "status": "clean",
     "lastError": null
   },
-  "updatedAt": "2026-11-18T18:48:22+05:30",
+  "updatedAt": "2026-11-18T18:48:58+05:30",
   "validation": {
     "json": "passed",
     "humanizer": "passed",
@@ -53,6 +53,10 @@
     "astroBuild": "passed",
     "discoveryCheck": "passed",
     "bodyWords": 590,
-    "readback": "pending"
+    "readback": "passed"
+  },
+  "commit": {
+    "sha": "6a35df4de040ef56fa565df1e7028655178b8064",
+    "message": "Daily note 2026-11-18: Beta Pictoris dirty ice"
   }
 }
