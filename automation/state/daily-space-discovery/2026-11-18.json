@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-18",
+  "status": "frozen",
+  "stage": "verified",
+  "workingTitle": "JWST finds glassy ice in a young planetary system",
+  "intendedFilename": "2026-11-18_planet-formation_beta-pictoris-dirty-ice.json",
+  "topic": "Planet Formation",
+  "publicationDate": "2026-11-12",
+  "freshnessWindow": "Preferred 15-day window",
+  "publicationStatus": "Peer-reviewed research article published in Science on November 12, 2026",
+  "primarySources": [
+    "https://doi.org/10.1126/science.adw7770",
+    "https://arxiv.org/abs/2611.18918"
+  ],
+  "coreFacts": [
+    "JWST NIRSpec mapped reflected light from the edge-on debris disk around Beta Pictoris across 0.6 to 5.2 micrometres.",
+    "Spectra extracted from two regions about 100 astronomical units from the star show water-ice absorption near 3 micrometres and carbon-dioxide ice features near 4.26 and 4.39 micrometres.",
+    "The inferred carbon-dioxide to water-ice column-density ratio is about 1 to 9.3, or roughly 11 percent.",
+    "The water ice is predominantly amorphous, with crystalline ice contributing less than 7 percent of the ice volume at a three-sigma upper limit.",
+    "The similar ice signatures on both sides of the disk and their broad distribution are more consistent with many small collisions among volatile-rich bodies than one recent large collision.",
+    "The cold, amorphous mixture may preserve material formed in a molecular cloud or an early protostellar envelope, but that origin is inferred rather than directly dated."
+  ],
+  "sources": [
+    {
+      "label": "Betti et al., Science",
+      "url": "https://doi.org/10.1126/science.adw7770"
+    },
+    {
+      "label": "Author manuscript on arXiv",
+      "url": "https://arxiv.org/abs/2611.18918"
+    }
+  ],
+  "sourceStatus": "Full author manuscript, journal metadata, methods, measured band profiles, abundance estimates, ice-structure modeling, and collision interpretation read; measured signatures and inferred origins checked separately.",
+  "caveats": [
+    "The observations identify spectral features in scattered light rather than resolving individual icy planetesimals.",
+    "The carbon-dioxide and water mixing geometry is inferred by comparison with laboratory spectra; other mixtures cannot be fully excluded.",
+    "The amorphous ice fraction is model-dependent, although crystalline ice is constrained to less than 7 percent of the ice volume.",
+    "Frequent small collisions and an interstellar or protostellar origin are interpretations of the uniform distribution and composition, not direct observations of the formation history."
+  ],
+  "image": {
+    "status": "skipped",
+    "reason": "The paper's author manuscript is not licensed for redistribution, and no newly licensed, directly matched image could be safely persisted through the available repository write path; image handling is non-blocking."
+  },
+  "recovery": {
+    "status": "clean",
+    "lastError": null
+  },
+  "updatedAt": "2026-11-18T19:00:00+05:30"
+}
