@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
-  "status": "frozen",
-  "stage": "selection_frozen",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "A star spent seven years spiraling inside its giant companion",
   "intendedFilename": "2026-11-19_stars_bao-common-envelope-inspiral.json",
   "topic": "Stars & Stellar Evolution",
@@ -29,11 +29,32 @@
     "A Nature press summary notes that future observations are needed to confirm conclusively that the two stars merged."
   ],
   "image": {
-    "status": "pending"
+    "status": "skipped",
+    "reason": "The directly relevant NASA composite includes mixed third-party credits and no unambiguous reusable-license statement was verified."
   },
   "recovery": {
     "selectionFrozen": true,
     "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be"
   },
-  "updatedAt": "2026-11-19T13:30:00Z"
+  "updatedAt": "2026-11-19T12:45:00Z",
+  "validation": {
+    "json": true,
+    "requiredFields": true,
+    "topicTaxonomy": true,
+    "humanizerGate": true,
+    "bodyWordCount": 562,
+    "imageLedgerCheck": true,
+    "astroCheck": true,
+    "build": true,
+    "discoveryCheck": true,
+    "committedReadbackExact": true
+  },
+  "publication": {
+    "notePath": "src/content/posts/2026-11-19_stars_bao-common-envelope-inspiral.json",
+    "noteCommitSha": "8ad7ccc9cd1e76cd01eff944a54029ae9efb7641",
+    "deploymentRunId": 44526521741,
+    "deploymentConclusion": "success",
+    "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-19_stars_bao-common-envelope-inspiral/",
+    "liveVerified": true
+  }
 }
