@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-19",
+  "status": "frozen",
+  "stage": "selection_frozen",
+  "workingTitle": "A star spent seven years spiraling inside its giant companion",
+  "intendedFilename": "2026-11-19_stars_bao-common-envelope-inspiral.json",
+  "topic": "Stars & Stellar Evolution",
+  "publicationDate": "2026-11-18",
+  "freshnessWindow": "15 days",
+  "publicationStatus": "Peer-reviewed Nature article published 18 November 2026",
+  "primarySources": [
+    {
+      "label": "Nature paper",
+      "url": "https://www.nature.com/articles/s41586-026-11221-z"
+    },
+    {
+      "label": "NASA Science release",
+      "url": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/"
+    }
+  ],
+  "coreFacts": [
+    "AT 2025abao, nicknamed Bao, is in the Andromeda Galaxy.",
+    "The observations are best explained by a roughly 0.7-solar-mass companion spiraling inside the envelope of a roughly 7-solar-mass aging giant.",
+    "The slow inspiral powered about seven years of gradual brightening before a late-2025 eruption.",
+    "The inferred merger ejected roughly 0.1 to 0.2 solar masses of material."
+  ],
+  "caveats": [
+    "The merger and stellar parameters are physical inferences from multiwavelength observations and modeling, not direct imaging of two resolved stars.",
+    "A Nature press summary notes that future observations are needed to confirm conclusively that the two stars merged."
+  ],
+  "image": {
+    "status": "pending"
+  },
+  "recovery": {
+    "selectionFrozen": true,
+    "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be"
+  },
+  "updatedAt": "2026-11-19T13:30:00Z"
+}
