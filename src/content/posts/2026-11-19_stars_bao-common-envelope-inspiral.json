@@ -1,0 +1,28 @@
+{
+  "title": "A star spent seven years spiraling inside its giant companion",
+  "topic": "Stars & Stellar Evolution",
+  "date": "2026-11-19",
+  "freshness": "Peer-reviewed Nature article published November 18, 2026; preferred 15-day search window.",
+  "excerpt": "Astronomers traced seven years of gradual brightening from a binary in Andromeda before it erupted in 2025. The evidence is best explained by a small star spiraling through a giant companion's shared envelope and probably merging with its core.",
+  "whyItMatters": "Common-envelope evolution is thought to shrink stellar orbits and help create close binaries, including systems that may later produce gravitational waves. Bao offers the first observation-based energy accounting of the inspiral from its slow beginning through its violent final plunge.",
+  "exploreFurther": {
+    "label": "Karambelkar et al., Nature",
+    "url": "https://doi.org/10.1038/s41586-026-11221-z"
+  },
+  "whatToExploreNext": "How does friction inside a shared stellar envelope turn orbital motion into heat, radiation, and fast-moving ejecta?",
+  "sources": [
+    {
+      "label": "An inspiral of a star inside a common envelope with its giant companion",
+      "url": "https://doi.org/10.1038/s41586-026-11221-z"
+    },
+    {
+      "label": "Author manuscript on arXiv",
+      "url": "https://arxiv.org/abs/2611.23470"
+    },
+    {
+      "label": "NASA Data Clinches First-of-Its-Kind Stellar Merger",
+      "url": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/"
+    }
+  ],
+  "body": "## A slow fall inside another star\n\nA small star appears to have spent seven years orbiting inside the swollen outer layers of a giant companion before the pair erupted and probably became one. Astronomers reconstructed the event, called AT 2025abao and nicknamed Bao, from observations made before, during, and after its 2025 outburst in the Andromeda Galaxy.\n\nThis is a view of a stage called common-envelope evolution. It begins when one member of a binary expands so far that it engulfs the other. Both stellar cores then move inside the same gaseous envelope. Drag robs the orbiting companion of energy, so it spirals inward. The process is central to models of close binary formation, but it usually happens too quickly and unpredictably for astronomers to follow from the start.\n\nBao was different because its earlier life had been recorded by wide-field surveys. Infrared data show that the system began a steady rise in 2018. The researchers interpret that glow as friction from a companion moving through the outer envelope of an aging giant. Their models favor a primary star about seven times the Sun's mass and a companion near 0.7 solar masses.\n\n## From steady glow to sudden eruption\n\nThe companion took only about seven orbits, roughly seven years, to move from the giant's surface toward its core. During the slow phase, the system stayed near the same temperature while its apparent radius and brightness increased. That pattern fits energy being carried through the convective envelope and radiated from the surface. The team estimates that the system was also losing material at about one-hundredth of a solar mass per year.\n\nLate in 2025, the behavior changed. Bao brightened sharply within about a week. Spectra first showed material moving at roughly 900 kilometres per second and later slowing to about 150 kilometres per second as it ran into gas already surrounding the binary. The outburst expelled an estimated 0.1 to 0.2 solar masses. Its kinetic energy was close to 10^48 ergs, far more than the energy needed merely to unbind that small amount of gas.\n\nThose are measured changes in light, temperature, spectra, and expansion speed. The hidden orbit and the fate of the companion come from models that must reproduce all of them together. The required energy indicates that the smaller star reached a region about three solar radii from the giant's center, near its helium core. Because most of the envelope remained bound and the eruption resembles other stellar mergers, the authors conclude that the companion probably merged with the core.\n\nThat conclusion is strong but testable, not a direct image of two stars touching. Continued monitoring could reveal whether a very tight binary survived inside the remnant envelope.\n\n## Why the energy budget matters\n\nCommon-envelope models often ask what fraction of lost orbital energy can throw the giant's envelope into space. Bao suggests the answer is not simple. During the long, shallow inspiral, much of the energy emerged as light. During the rapid plunge, only about one percent unbound material; most went into accelerating a small amount of ejecta to high speed.\n\nThat split helps explain why some engulfed companions survive as close binaries while others merge. It also gives astronomers a practical way to test a difficult piece of stellar evolution: find more slow precursors in survey archives, then catch their eruptions quickly enough to measure where the orbital energy goes."
+}
