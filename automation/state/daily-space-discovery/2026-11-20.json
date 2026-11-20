@@ -1,7 +1,7 @@
 {
   "date": "2026-11-20",
-  "status": "frozen",
-  "stage": "draft_validated",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "Two quasars heated a vast bubble in the young universe",
   "intendedFilename": "2026-11-20_galaxies_dual-quasar-hot-gas-bubble.json",
   "topic": "Galaxies & Galactic Evolution / Black Holes",
@@ -48,9 +48,10 @@
   "recovery": {
     "selectionFrozen": true,
     "lastError": null,
-    "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be"
+    "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
+    "retryCount": 0
   },
-  "updatedAt": "2026-11-20T13:00:00Z",
+  "updatedAt": "2026-11-20T13:02:00Z",
   "validation": {
     "json": true,
     "requiredFields": true,
@@ -60,6 +61,15 @@
     "imageLedgerCheck": true,
     "astroCheck": true,
     "build": true,
-    "discoveryCheck": true
+    "discoveryCheck": true,
+    "committedReadbackExact": true
+  },
+  "publication": {
+    "notePath": "src/content/posts/2026-11-20_galaxies_dual-quasar-hot-gas-bubble.json",
+    "noteCommitSha": "a81f3a7f6fb087b5783c135598cbeea309cf4a04",
+    "deploymentRunId": 44738633092,
+    "deploymentConclusion": "success",
+    "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-20_galaxies_dual-quasar-hot-gas-bubble/",
+    "liveVerified": true
   }
 }
