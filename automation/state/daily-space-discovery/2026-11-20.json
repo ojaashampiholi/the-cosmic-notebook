@@ -1,7 +1,7 @@
 {
   "date": "2026-11-20",
   "status": "frozen",
-  "stage": "verified",
+  "stage": "draft_validated",
   "workingTitle": "Two quasars heated a vast bubble in the young universe",
   "intendedFilename": "2026-11-20_galaxies_dual-quasar-hot-gas-bubble.json",
   "topic": "Galaxies & Galactic Evolution / Black Holes",
@@ -42,12 +42,24 @@
     "The larger-scale hot-gas feature is separately measured but its exact origin is less certain."
   ],
   "image": {
-    "status": "not_checked"
+    "status": "skipped",
+    "reason": "The directly relevant Nature Astronomy figures do not provide a clear reusable-license statement."
   },
   "recovery": {
     "selectionFrozen": true,
     "lastError": null,
     "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be"
   },
-  "updatedAt": "2026-11-20T12:55:00Z"
+  "updatedAt": "2026-11-20T13:00:00Z",
+  "validation": {
+    "json": true,
+    "requiredFields": true,
+    "topicTaxonomy": true,
+    "humanizerGate": true,
+    "bodyWordCount": 553,
+    "imageLedgerCheck": true,
+    "astroCheck": true,
+    "build": true,
+    "discoveryCheck": true
+  }
 }
