@@ -1,7 +1,7 @@
 {
   "date": "2026-11-20",
   "status": "frozen",
-  "stage": "selection_frozen",
+  "stage": "verified",
   "workingTitle": "Two quasars heated a vast bubble in the young universe",
   "intendedFilename": "2026-11-20_galaxies_dual-quasar-hot-gas-bubble.json",
   "topic": "Galaxies & Galactic Evolution / Black Holes",
@@ -19,11 +19,11 @@
     }
   ],
   "coreFacts": [
-    "The dual quasar system J1549+1245 is at redshift 2.37, seen about 2.8 billion years after the Big Bang.",
-    "A thermal Sunyaev-Zel'dovich flux decrement detects localized hot gas at 6 sigma.",
-    "The inferred thermal energy is (9.7 ± 1.6) × 10^60 ergs.",
-    "That energy is 3.6 times the expected hot-gas energy of a 10^13-solar-mass dark matter halo and at least 0.6 percent of the quasar system's lifetime energy output.",
-    "Additional hot gas is detected on roughly 100-kiloparsec scales at 5 sigma, with broader 100 to 600 kiloparsec evidence interpreted more cautiously."
+    "J1549+1245 is a dual quasar system at redshift 2.37, seen about 2.8 billion years after the Big Bang; its two galaxies are separated by about 19 kiloparsecs.",
+    "VLA, ALMA, and SMA observations were modeled across radio and millimeter wavelengths.",
+    "A thermal Sunyaev-Zel'dovich flux decrement detects localized hot gas at 6 sigma and measures (9.7 ± 1.6) × 10^60 ergs of thermal energy.",
+    "The thermal energy is 3.6 times the expected hot-gas energy of a 10^13-solar-mass dark matter halo and at least 0.6 percent of the quasar system's lifetime energy output.",
+    "A separate roughly 100-kiloparsec feature has a 5-sigma integrated tSZ signature; broader evidence extends toward 600 kiloparsecs."
   ],
   "sources": [
     {
@@ -35,10 +35,11 @@
       "url": "https://arxiv.org/abs/2611.23487"
     }
   ],
-  "sourceStatus": "Primary peer-reviewed article and full author manuscript read; secondary corroboration unnecessary.",
+  "sourceStatus": "Primary Nature Astronomy article and full author manuscript read; peer review confirmed.",
   "caveats": [
-    "The millimeter decrement directly measures electron pressure, while the attribution of excess heating to quasar-driven winds is an inference supported by energy comparisons and simulations.",
-    "The larger-scale gas is lower-significance evidence and may not all share the same origin."
+    "The tSZ decrement is the measurement; attributing the excess heat to quasar-driven winds is a physically supported interpretation, not a direct movie of an outflow.",
+    "The 0.6 percent coupling estimate assumes a 100-million-year quasar lifetime and is a lower limit.",
+    "The larger-scale hot-gas feature is separately measured but its exact origin is less certain."
   ],
   "image": {
     "status": "not_checked"
@@ -48,5 +49,5 @@
     "lastError": null,
     "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be"
   },
-  "updatedAt": "2026-11-20T12:50:00Z"
+  "updatedAt": "2026-11-20T12:55:00Z"
 }
