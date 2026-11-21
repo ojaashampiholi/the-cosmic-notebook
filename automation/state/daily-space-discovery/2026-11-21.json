@@ -1,7 +1,7 @@
 {
   "date": "2026-11-21",
   "status": "frozen",
-  "stage": "verified",
+  "stage": "draft_validated",
   "workingTitle": "Twelve dust grains reveal ancient water beyond Neptune",
   "intendedFilename": "2026-11-21_solar-system_kuiper-belt-heavy-water.json",
   "topic": "Solar System & Planetary Science",
@@ -42,12 +42,24 @@
     "The idea that Saturn and the ice giants restricted inward transport is an interpretation supported by isotopic contrast and disk simulations."
   ],
   "image": {
-    "status": "not_checked"
+    "status": "skipped",
+    "reason": "The paper figures are technical plots that would not remain legible on cards, while the directly relevant NASA illustration carries mixed NASA, ESA, and STScI credit without a clear single reuse license."
   },
   "recovery": {
     "selectionFrozen": true,
     "lastError": null,
     "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be"
   },
-  "updatedAt": "2026-11-21T13:20:00Z"
+  "updatedAt": "2026-11-21T13:25:00Z",
+  "validation": {
+    "json": true,
+    "requiredFields": true,
+    "topicTaxonomy": true,
+    "humanizerGate": true,
+    "bodyWordCount": 512,
+    "imageLedgerCheck": true,
+    "astroCheck": true,
+    "build": true,
+    "discoveryCheck": true
+  }
 }
