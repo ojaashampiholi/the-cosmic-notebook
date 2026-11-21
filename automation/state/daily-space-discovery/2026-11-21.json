@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-21",
+  "status": "frozen",
+  "stage": "frozen",
+  "workingTitle": "Twelve dust grains reveal ancient water beyond Neptune",
+  "intendedFilename": "2026-11-21_solar-system_kuiper-belt-heavy-water.json",
+  "topic": "Solar System & Planetary Science",
+  "publicationDate": "2026-11-11",
+  "freshnessWindow": "15 days",
+  "publicationStatus": "Peer-reviewed Science Advances article published online 11 November 2026",
+  "primarySources": [
+    {
+      "label": "Science Advances article",
+      "url": "https://doi.org/10.1126/sciadv.aeg1602"
+    },
+    {
+      "label": "NASA Science release",
+      "url": "https://science.nasa.gov/blogs/science-news/2026/11/18/nasa-scientists-find-clues-to-ancient-ice-beyond-neptune/"
+    }
+  ],
+  "coreFacts": [
+    "The study analyzed 12 hydrated interplanetary dust particles collected from Earth's stratosphere by NASA high-altitude aircraft.",
+    "Solar energetic particle track densities of about 10^10 to 10^11 per square centimeter support an origin beyond the giant planets, most plausibly the Kuiper Belt.",
+    "Electron microscopy found water-altered clay minerals, while UCLA ion microprobe measurements established the particles' oxygen-isotope compositions.",
+    "Mass-balance modeling inferred ancient water strongly depleted in oxygen-16, with estimated delta-18O and delta-17O near +157 and +153 per mil.",
+    "The rarity of this signature in inner-system meteorites suggests limited mixing; Saturn and perhaps the ice giants may have acted as a barrier."
+  ],
+  "sources": [
+    {
+      "label": "A primordial heavy water reservoir in the outer solar system",
+      "url": "https://doi.org/10.1126/sciadv.aeg1602"
+    },
+    {
+      "label": "NASA Scientists Find Clues to Ancient Ice Beyond Neptune",
+      "url": "https://science.nasa.gov/blogs/science-news/2026/11/18/nasa-scientists-find-clues-to-ancient-ice-beyond-neptune/"
+    }
+  ],
+  "sourceStatus": "Full NASA-hosted author manuscript, peer-reviewed abstract, NASA release, and UCLA research release read.",
+  "caveats": [
+    "The particles' distant origin is inferred from solar energetic particle track density rather than traced to a named Kuiper Belt body.",
+    "The ancient water composition is reconstructed by mass balance from hydrated minerals, not measured from surviving liquid or ice.",
+    "The idea that Saturn and the ice giants restricted inward transport is an interpretation supported by isotopic contrast and disk simulations."
+  ],
+  "image": {
+    "status": "not_checked"
+  },
+  "recovery": {
+    "selectionFrozen": true,
+    "lastError": null,
+    "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be"
+  },
+  "updatedAt": "2026-11-21T13:15:00Z"
+}
