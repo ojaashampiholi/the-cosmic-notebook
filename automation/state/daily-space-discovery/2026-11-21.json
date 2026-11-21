@@ -1,7 +1,7 @@
 {
   "date": "2026-11-21",
   "status": "frozen",
-  "stage": "frozen",
+  "stage": "verified",
   "workingTitle": "Twelve dust grains reveal ancient water beyond Neptune",
   "intendedFilename": "2026-11-21_solar-system_kuiper-belt-heavy-water.json",
   "topic": "Solar System & Planetary Science",
@@ -35,7 +35,7 @@
       "url": "https://science.nasa.gov/blogs/science-news/2026/11/18/nasa-scientists-find-clues-to-ancient-ice-beyond-neptune/"
     }
   ],
-  "sourceStatus": "Full NASA-hosted author manuscript, peer-reviewed abstract, NASA release, and UCLA research release read.",
+  "sourceStatus": "Peer-reviewed Science Advances paper verified through PubMed and the full NASA-hosted author manuscript; NASA and UCLA releases corroborate the interpretation.",
   "caveats": [
     "The particles' distant origin is inferred from solar energetic particle track density rather than traced to a named Kuiper Belt body.",
     "The ancient water composition is reconstructed by mass balance from hydrated minerals, not measured from surviving liquid or ice.",
@@ -49,5 +49,5 @@
     "lastError": null,
     "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be"
   },
-  "updatedAt": "2026-11-21T13:15:00Z"
+  "updatedAt": "2026-11-21T13:20:00Z"
 }
