@@ -1,7 +1,7 @@
 {
   "date": "2026-11-21",
-  "status": "frozen",
-  "stage": "draft_validated",
+  "status": "committed_not_live",
+  "stage": "committed",
   "workingTitle": "Twelve dust grains reveal ancient water beyond Neptune",
   "intendedFilename": "2026-11-21_solar-system_kuiper-belt-heavy-water.json",
   "topic": "Solar System & Planetary Science",
@@ -50,7 +50,7 @@
     "lastError": null,
     "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be"
   },
-  "updatedAt": "2026-11-21T13:25:00Z",
+  "updatedAt": "2026-11-21T13:28:00Z",
   "validation": {
     "json": true,
     "requiredFields": true,
@@ -60,6 +60,15 @@
     "imageLedgerCheck": true,
     "astroCheck": true,
     "build": true,
-    "discoveryCheck": true
+    "discoveryCheck": true,
+    "committedReadbackExact": true
+  },
+  "publication": {
+    "notePath": "src/content/posts/2026-11-21_solar-system_kuiper-belt-heavy-water.json",
+    "noteCommitSha": "39dbcbb31e40aac6ebd59fa360aee9898ee8c850",
+    "deploymentRunId": null,
+    "deploymentConclusion": null,
+    "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-21_solar-system_kuiper-belt-heavy-water/",
+    "liveVerified": false
   }
 }
