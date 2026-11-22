@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-22",
+  "status": "in_progress",
+  "stage": "verified",
+  "workingTitle": "A lattice algorithm found a pulsar hidden in sparse gamma rays",
+  "intendedFilename": "2026-11-22_stars_lattice-gamma-ray-pulsar.json",
+  "topic": "Stars & Stellar Evolution / Gravity & Fundamental Physics",
+  "publicationDate": "2026-11-19",
+  "freshnessWindow": "15 days",
+  "publicationStatus": "Peer-reviewed Physical Review Letters article published 19 November 2026",
+  "primarySources": [
+    {
+      "label": "Physical Review Letters article",
+      "url": "https://doi.org/10.1103/vlt2-xzgk"
+    },
+    {
+      "label": "Weizmann Institute release",
+      "url": "https://www.weizmann-usa.org/news-media/news-releases/from-a-complex-problem-to-a-dizzying-discovery-a-new-method-for-finding-cosmic-lighthouses"
+    }
+  ],
+  "coreFacts": [
+    "PSR J1622-7204 is an isolated gamma-ray pulsar spinning at 261 hertz.",
+    "The search used 15 years of Fermi Large Area Telescope data.",
+    "The lattice-based method used about ten CPU hours, while a previous semicoherent search failed after roughly 600 CPU years.",
+    "Gamma-ray searches are difficult because Fermi typically detects only one photon per roughly 100 million pulsar rotations.",
+    "The method maps possible whole-number rotation counts between detected photons onto points in a high-dimensional lattice and searches for short vectors."
+  ],
+  "sources": [
+    {
+      "label": "Gamma-Ray Pulsar Discovery Using a Lattice-Based Method",
+      "url": "https://doi.org/10.1103/vlt2-xzgk"
+    },
+    {
+      "label": "Weizmann Institute discovery release",
+      "url": "https://www.weizmann-usa.org/news-media/news-releases/from-a-complex-problem-to-a-dizzying-discovery-a-new-method-for-finding-cosmic-lighthouses"
+    }
+  ],
+  "sourceStatus": "Peer-reviewed Physical Review Letters paper and the authors' institute release were read and agree on the measured result.",
+  "caveats": [
+    "The study demonstrates one discovery; the claim that the method could uncover many more pulsars, especially binaries, is a prospective inference.",
+    "The short runtime in the successful search benefited from luck: the team reports that 300 runs would be needed for a 95 percent success probability."
+  ],
+  "image": {
+    "status": "skipped",
+    "reason": "The directly relevant release images are artist impressions with multi-party credits; no unambiguous reusable card license was verified."
+  },
+  "recovery": {
+    "selectionFrozen": true,
+    "lastError": null,
+    "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
+    "retryCount": 0,
+    "recoveredStage": null
+  },
+  "updatedAt": "2026-11-22T13:40:00Z"
+}
