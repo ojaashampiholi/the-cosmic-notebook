@@ -1,7 +1,7 @@
 {
   "date": "2026-11-22",
-  "status": "in_progress",
-  "stage": "committed",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "A lattice algorithm found a pulsar hidden in sparse gamma rays",
   "intendedFilename": "2026-11-22_stars_lattice-gamma-ray-pulsar.json",
   "topic": "Stars & Stellar Evolution",
@@ -49,9 +49,9 @@
     "lastError": null,
     "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
     "retryCount": 0,
-    "recoveredStage": null
+    "recoveredStage": "deployment"
   },
-  "updatedAt": "2026-11-22T14:05:00Z",
+  "updatedAt": "2026-11-22T14:12:00Z",
   "validation": {
     "json": true,
     "requiredFields": true,
@@ -67,8 +67,13 @@
   "publication": {
     "notePath": "src/content/posts/2026-11-22_stars_lattice-gamma-ray-pulsar.json",
     "noteCommitSha": "6e55992fe725016ab42bd8f1815b230ccceddd29",
-    "deploymentConclusion": "pending",
+    "noteCommitDeploymentRunId": 45025114036,
+    "noteCommitDeploymentConclusion": "cancelled",
+    "deploymentRecoveryCommitSha": "080606879572670ba236fad1e73457b79af13bb3",
+    "deploymentRunId": 45025144609,
+    "deploymentRunUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/45025144609",
+    "deploymentConclusion": "success",
     "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-22_stars_lattice-gamma-ray-pulsar/",
-    "liveVerified": false
+    "liveVerified": true
   }
 }
