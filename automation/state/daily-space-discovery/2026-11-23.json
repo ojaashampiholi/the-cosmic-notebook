@@ -1,7 +1,7 @@
 {
   "date": "2026-11-23",
   "status": "in_progress",
-  "stage": "draft_validated",
+  "stage": "committed",
   "workingTitle": "Tiny solar explosions reveal reconnection near the Sun's visible surface",
   "intendedFilename": "2026-11-23_sun-space-weather_ellerman-bombs-reconnection.json",
   "topic": "Sun & Space Weather",
@@ -67,7 +67,7 @@
     "retryCount": 0,
     "recoveredStage": null
   },
-  "updatedAt": "2026-11-23T13:27:00Z",
+  "updatedAt": "2026-11-23T13:32:00Z",
   "validation": {
     "json": "passed",
     "requiredFields": "passed",
@@ -77,5 +77,11 @@
     "imageCheck": "passed",
     "build": "passed",
     "bodyWordCount": 494
+  },
+  "commitSha": "6fb257c76b2686a7e885ccc355c262fe8ebdab6f",
+  "readback": {
+    "status": "passed",
+    "noteBlobSha": "773b70ff4c8f808ea07723c76d9a0ba62ab38c18",
+    "exactMatch": true
   }
 }
