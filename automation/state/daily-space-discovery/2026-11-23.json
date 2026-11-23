@@ -1,7 +1,7 @@
 {
   "date": "2026-11-23",
   "status": "in_progress",
-  "stage": "verified",
+  "stage": "draft_validated",
   "workingTitle": "Tiny solar explosions reveal reconnection near the Sun's visible surface",
   "intendedFilename": "2026-11-23_sun-space-weather_ellerman-bombs-reconnection.json",
   "topic": "Sun & Space Weather",
@@ -50,8 +50,15 @@
     "The simulations were a qualitative comparison and were not designed to reproduce the exact observed conditions."
   ],
   "image": {
-    "status": "not_checked",
-    "reason": null
+    "status": "included",
+    "id": "arxiv-2610-24049-figure-1",
+    "license": "CC BY 4.0",
+    "credit": "Avijeet Yadav et al.; Figure 1 from the paper",
+    "sourceUrl": "https://arxiv.org/abs/2610.24049",
+    "files": [
+      "images/notes/2026-11-23-ellerman-bombs.jpg",
+      "images/notes/2026-11-23-ellerman-bombs-thumb.jpg"
+    ]
   },
   "recovery": {
     "selectionFrozen": true,
@@ -60,5 +67,15 @@
     "retryCount": 0,
     "recoveredStage": null
   },
-  "updatedAt": "2026-11-23T13:30:00Z"
+  "updatedAt": "2026-11-23T13:27:00Z",
+  "validation": {
+    "json": "passed",
+    "requiredFields": "passed",
+    "topicTaxonomy": "passed",
+    "humanizerGate": "passed",
+    "imageLedger": "passed",
+    "imageCheck": "passed",
+    "build": "passed",
+    "bodyWordCount": 494
+  }
 }
