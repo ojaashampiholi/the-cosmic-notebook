@@ -1,0 +1,32 @@
+{
+  "title": "Tiny solar explosions reveal reconnection near the visible surface",
+  "topic": "Sun & Space Weather",
+  "date": "2026-11-23",
+  "freshness": "Peer-reviewed Astrophysical Journal Letters paper first made public as an arXiv preprint on October 16, 2026; expanded 60-day search window.",
+  "excerpt": "The Inouye Solar Telescope has measured the magnetic fields, temperatures, and motions inside 14 Ellerman bombs, brief flashes low in the Sun's atmosphere. The observations provide direct spectropolarimetric evidence that magnetic reconnection can occur close to the visible surface.",
+  "whyItMatters": "Magnetic reconnection powers solar flares and other explosive events, but it is difficult to observe in the dense lower atmosphere. Pinning down the process in small, nearby events helps researchers test how magnetic energy is released across the Sun.",
+  "exploreFurther": {
+    "label": "Yadav et al. in The Astrophysical Journal Letters",
+    "url": "https://doi.org/10.3847/2041-8213/aeb4a6"
+  },
+  "whatToExploreNext": "How does magnetic reconnection behave differently in the Sun's dense photosphere and its thin outer corona?",
+  "sources": [
+    {
+      "label": "Multiline Spectropolarimetric Evidence for Photospheric Reconnection in Ellerman Bombs from DKIST",
+      "url": "https://doi.org/10.3847/2041-8213/aeb4a6"
+    },
+    {
+      "label": "National Solar Observatory: Tiny Explosions, Big Discoveries",
+      "url": "https://nso.edu/blog/tiny-explosions-big-discoveries-the-inouye-solar-telescope-uncovers-hidden-sparkles-on-the-sun/"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-11-23-ellerman-bombs.jpg",
+    "thumbSrc": "images/notes/2026-11-23-ellerman-bombs-thumb.jpg",
+    "alt": "Four solar observations show the same active region in visible light, hydrogen light, magnetic field, and ultraviolet light, with five Ellerman bombs marked by yellow boxes",
+    "credit": "Avijeet Yadav et al.; Figure 1 from the paper",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://arxiv.org/abs/2610.24049"
+  },
+  "body": "## Small flashes in a magnetic knot\n\nTiny explosions called Ellerman bombs flare for only a few minutes near the Sun's visible surface. They appear as bright wing-shaped features in certain hydrogen wavelengths, usually where new magnetic fields are emerging. A study using the Daniel K. Inouye Solar Telescope has now measured the conditions inside 14 of these events at several heights in the lower solar atmosphere.\n\nThe observations support a long-standing explanation: oppositely directed magnetic fields meet, break, and reconnect into a new arrangement. That process converts stored magnetic energy into heat and motion. Magnetic reconnection is known to drive much larger eruptions in the Sun's outer atmosphere, but seeing it close to the photosphere is difficult because the gas there is dense and the relevant structures are small.\n\n## Reading three fingerprints at once\n\nThe team observed an emerging magnetic region on June 18, 2024, with the telescope's Visible Spectro-Polarimeter. Four raster scans, each lasting about 6.3 minutes, captured three spectral lines at the same time: hydrogen-beta, sodium D1, and an iron line near 630.2 nanometres. A spectral line is a narrow range of colours that responds to conditions in a particular part of the atmosphere. Polarization within the light also carries information about magnetic fields.\n\nCombining the three lines let the researchers infer temperature, line-of-sight motion, and magnetic strength through different atmospheric layers. The Ellerman bombs were hotter than nearby quiet areas by about 150 to 800 kelvin, with an average increase near 300 kelvin. Most appeared next to mixed magnetic polarities, where positive and negative fields crowded together. The inferred flows included weak upward and downward motions around the heated sites.\n\nThose measurements are the direct part of the result. The interpretation comes from how the clues fit together. Local heating, opposite magnetic polarities, and paired flows are all expected when reconnection occurs in the photosphere. The paper therefore presents spectropolarimetric evidence for reconnection rather than a literal movie of magnetic field lines snapping.\n\n## A useful test for solar models\n\nThe researchers compared the observations with a three-dimensional Bifrost simulation of the solar atmosphere. The model produced several similar spectral signatures, including bright hydrogen wings and changes in the sodium and iron lines. It also made the simulated event hotter and its flows stronger than the observed bombs. That mismatch is informative: models must reproduce the measured scale of the heating, not just the general appearance of a flash.\n\nThere are limits to what this sample can establish. The 14 bombs came from one emerging region, and the raster cadence was too slow to follow every stage of each event or calculate a complete energy budget. The simulation comparison was qualitative rather than an exact reproduction of the observed region.\n\nStill, the new measurements connect a familiar solar sparkle to physical conditions inside it. Ellerman bombs can now serve as compact laboratories for testing how magnetic energy is released in the dense atmosphere just above the surface we see."
+}

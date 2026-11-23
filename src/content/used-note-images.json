@@ -387,6 +387,17 @@
       "credit": "Samuel Lai, Nithyanandan Thyagarajan, O. Ivy Wong and Foivos Diakogiannis; Figure 1 cropped from the Nature article",
       "license": "CC BY 4.0",
       "sourceUrl": "https://doi.org/10.1038/s41586-026-11241-9"
+    },
+    {
+      "id": "arxiv-2610-24049-figure-1",
+      "note": "2026-11-23_sun-space-weather_ellerman-bombs-reconnection",
+      "files": [
+        "images/notes/2026-11-23-ellerman-bombs.jpg",
+        "images/notes/2026-11-23-ellerman-bombs-thumb.jpg"
+      ],
+      "credit": "Avijeet Yadav et al.; Figure 1 from the paper",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://arxiv.org/abs/2610.24049"
     }
   ]
 }
