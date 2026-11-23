@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-23",
+  "status": "in_progress",
+  "stage": "verified",
+  "workingTitle": "Tiny solar explosions reveal reconnection near the Sun's visible surface",
+  "intendedFilename": "2026-11-23_sun-space-weather_ellerman-bombs-reconnection.json",
+  "topic": "Sun & Space Weather",
+  "publicationDate": "2026-10-16",
+  "freshnessWindow": "60 days",
+  "publicationStatus": "Peer-reviewed Astrophysical Journal Letters article first made public on arXiv 16 October 2026; NSO release published 20 November 2026",
+  "primarySources": [
+    {
+      "label": "Astrophysical Journal Letters article",
+      "url": "https://doi.org/10.3847/2041-8213/aeb4a6"
+    },
+    {
+      "label": "arXiv full text",
+      "url": "https://arxiv.org/abs/2610.24049"
+    },
+    {
+      "label": "National Solar Observatory release",
+      "url": "https://nso.edu/blog/tiny-explosions-big-discoveries-the-inouye-solar-telescope-uncovers-hidden-sparkles-on-the-sun/"
+    }
+  ],
+  "coreFacts": [
+    "The study identified 14 unique Ellerman bombs in four 6.3-minute raster scans of an emerging-flux region observed by DKIST on 18 June 2024.",
+    "The Visible Spectro-Polarimeter recorded hydrogen-beta, sodium D1, and iron 6302 angstrom lines simultaneously.",
+    "Multiline inversions inferred localized heating of roughly 150 to 800 kelvin, with a mean near 300 kelvin.",
+    "Most events lay near mixed-polarity magnetic fields and showed weak upward and downward plasma flows consistent with magnetic reconnection in the photosphere.",
+    "Bifrost simulations reproduced several spectral features but generally produced stronger heating and faster flows than observed."
+  ],
+  "sources": [
+    {
+      "label": "Multiline Spectropolarimetric Evidence for Photospheric Reconnection in Ellerman Bombs from DKIST",
+      "url": "https://doi.org/10.3847/2041-8213/aeb4a6"
+    },
+    {
+      "label": "arXiv full text",
+      "url": "https://arxiv.org/abs/2610.24049"
+    },
+    {
+      "label": "NSO discovery release",
+      "url": "https://nso.edu/blog/tiny-explosions-big-discoveries-the-inouye-solar-telescope-uncovers-hidden-sparkles-on-the-sun/"
+    }
+  ],
+  "sourceStatus": "Peer-reviewed ApJL paper verified through its full arXiv text; the National Solar Observatory release corroborates the interpretation and publication context.",
+  "caveats": [
+    "The sample contains 14 events from one emerging-flux region and is not a survey of the whole Sun.",
+    "The roughly six-minute raster cadence cannot resolve the full time evolution or total energy budget of individual events.",
+    "The simulations were a qualitative comparison and were not designed to reproduce the exact observed conditions."
+  ],
+  "image": {
+    "status": "not_checked",
+    "reason": null
+  },
+  "recovery": {
+    "selectionFrozen": true,
+    "lastError": null,
+    "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
+    "retryCount": 0,
+    "recoveredStage": null
+  },
+  "updatedAt": "2026-11-23T13:30:00Z"
+}
