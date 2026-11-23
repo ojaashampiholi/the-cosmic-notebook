@@ -1,7 +1,7 @@
 {
   "date": "2026-11-23",
-  "status": "in_progress",
-  "stage": "committed",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "Tiny solar explosions reveal reconnection near the Sun's visible surface",
   "intendedFilename": "2026-11-23_sun-space-weather_ellerman-bombs-reconnection.json",
   "topic": "Sun & Space Weather",
@@ -67,7 +67,7 @@
     "retryCount": 0,
     "recoveredStage": null
   },
-  "updatedAt": "2026-11-23T13:32:00Z",
+  "updatedAt": "2026-11-23T13:34:00Z",
   "validation": {
     "json": "passed",
     "requiredFields": "passed",
@@ -83,5 +83,17 @@
     "status": "passed",
     "noteBlobSha": "773b70ff4c8f808ea07723c76d9a0ba62ab38c18",
     "exactMatch": true
+  },
+  "deployment": {
+    "status": "success",
+    "workflow": "Deploy Astro site to GitHub Pages",
+    "runId": 45184714385,
+    "runUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/45184714385"
+  },
+  "live": {
+    "status": "verified",
+    "httpStatus": 200,
+    "url": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-23_sun-space-weather_ellerman-bombs-reconnection/",
+    "contentMatch": true
   }
 }
