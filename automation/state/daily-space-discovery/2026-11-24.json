@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-24",
+  "status": "in_progress",
+  "stage": "frozen",
+  "workingTitle": "Euclid finds a 360-million-solar-mass black hole at cosmic dawn",
+  "intendedFilename": "2026-11-24_cosmology_euclid-farthest-quasar.json",
+  "topic": "Black Holes / Cosmology & Early Universe",
+  "publicationDate": "2026-11-24",
+  "freshnessWindow": "15 days",
+  "publicationStatus": "Peer-reviewed Astronomy & Astrophysics article and ESA release published November 24, 2026",
+  "primarySources": [
+    {
+      "label": "Astronomy & Astrophysics article",
+      "url": "https://doi.org/10.1051/0004-6361/202662243"
+    },
+    {
+      "label": "ESA discovery release",
+      "url": "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-breaks-own-quasar-record-by-40-million-years"
+    }
+  ],
+  "coreFacts": [
+    "Euclid identified J1504+6252, nicknamed Dún Aonghasa, in about 18 months of wide-survey data.",
+    "Follow-up observations with Keck, the Large Binocular Telescope, Hubble, and JWST confirmed the source as a quasar at redshift 8.13.",
+    "The light comes from about 630 million years after the Big Bang, roughly 40 million years earlier than the previous quasar record.",
+    "JWST spectroscopy indicates a central black hole mass of approximately 360 million solar masses.",
+    "The quasar is currently accreting relatively slowly, implying earlier rapid growth or an unusually massive initial seed."
+  ],
+  "sources": [
+    {
+      "label": "Euclid: Discovery of Dún Aonghasa, a quasar at z = 8.13 hosting a 360-million-solar-mass black hole",
+      "url": "https://doi.org/10.1051/0004-6361/202662243"
+    },
+    {
+      "label": "ESA: Euclid breaks own quasar record by 40 million years",
+      "url": "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-breaks-own-quasar-record-by-40-million-years"
+    },
+    {
+      "label": "Max Planck Institute for Astronomy: New Quasar Record Tightens Constraints on Black Hole Formation Scenarios",
+      "url": "https://www.mpia.de/news/science/2026-10-dun-aonghasa"
+    }
+  ],
+  "image": {
+    "status": "not_checked",
+    "reason": null
+  },
+  "recovery": {
+    "selectionFrozen": true,
+    "lastError": null,
+    "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
+    "retryCount": 0,
+    "recoveredStage": null
+  },
+  "updatedAt": "2026-11-24T12:40:00Z"
+}
