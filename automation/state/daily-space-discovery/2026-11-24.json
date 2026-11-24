@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
   "status": "in_progress",
-  "stage": "verified",
+  "stage": "draft_validated",
   "workingTitle": "Euclid finds a 360-million-solar-mass black hole at cosmic dawn",
   "intendedFilename": "2026-11-24_cosmology_euclid-farthest-quasar.json",
   "topic": "Black Holes / Cosmology & Early Universe",
@@ -50,12 +50,22 @@
     "retryCount": 0,
     "recoveredStage": null
   },
-  "updatedAt": "2026-11-24T12:50:00Z",
+  "updatedAt": "2026-11-24T12:55:00Z",
   "sourceStatus": "Peer-reviewed Astronomy & Astrophysics paper verified through the full 20-page author manuscript; ESA and MPIA original releases confirm the publication context.",
   "caveats": [
     "Single-epoch black hole mass estimates carry substantial systematic uncertainty; the paper quotes a 0.43-dex uncertainty for its reference estimate and a wider range across calibrations.",
     "The current sub-Eddington rate does not reveal the black hole's past growth history. Rapid earlier feeding or a massive seed is inferred, not directly observed.",
     "Euclid imaging makes strong gravitational lensing unlikely, but modest unresolved magnification cannot be excluded.",
     "Direct collapse is consistent with the growth calculations, but the observations do not prove that this was the seed mechanism."
-  ]
+  ],
+  "validation": {
+    "json": "passed",
+    "requiredFields": "passed",
+    "topicTaxonomy": "passed",
+    "sourceLinks": "passed",
+    "humanizerGate": "passed",
+    "imageCheck": "passed",
+    "build": "passed",
+    "bodyWordCount": 535
+  }
 }
