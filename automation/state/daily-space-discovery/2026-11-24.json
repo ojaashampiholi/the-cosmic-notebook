@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
   "status": "in_progress",
-  "stage": "frozen",
+  "stage": "verified",
   "workingTitle": "Euclid finds a 360-million-solar-mass black hole at cosmic dawn",
   "intendedFilename": "2026-11-24_cosmology_euclid-farthest-quasar.json",
   "topic": "Black Holes / Cosmology & Early Universe",
@@ -19,11 +19,11 @@
     }
   ],
   "coreFacts": [
-    "Euclid identified J1504+6252, nicknamed Dún Aonghasa, in about 18 months of wide-survey data.",
-    "Follow-up observations with Keck, the Large Binocular Telescope, Hubble, and JWST confirmed the source as a quasar at redshift 8.13.",
-    "The light comes from about 630 million years after the Big Bang, roughly 40 million years earlier than the previous quasar record.",
-    "JWST spectroscopy indicates a central black hole mass of approximately 360 million solar masses.",
-    "The quasar is currently accreting relatively slowly, implying earlier rapid growth or an unusually massive initial seed."
+    "Euclid selected J1504+6252 from wide-survey imaging over 3,644 square degrees; it was chosen independently by three candidate-selection methods.",
+    "Keck, Hubble, the Large Binocular Telescope, and JWST spectroscopy established it as a quasar with a systemic redshift of 8.129 plus or minus 0.005.",
+    "That redshift corresponds to a cosmic age of about 630 million years and advances the confirmed quasar frontier by about 39 million years.",
+    "Broad hydrogen-beta and magnesium emission lines imply a reference black hole mass near 360 million solar masses, with a broader calibration range of about 210 million to 780 million solar masses.",
+    "The inferred Eddington ratio is 0.12 to 0.44, so the black hole was feeding below its theoretical limit when observed."
   ],
   "sources": [
     {
@@ -40,8 +40,8 @@
     }
   ],
   "image": {
-    "status": "not_checked",
-    "reason": null
+    "status": "skipped",
+    "reason": "A directly relevant Euclid image was available, but an original asset page explicitly stating reusable rights for this exact image could not be verified. The low rolling image density did not justify uncertain licensing."
   },
   "recovery": {
     "selectionFrozen": true,
@@ -50,5 +50,12 @@
     "retryCount": 0,
     "recoveredStage": null
   },
-  "updatedAt": "2026-11-24T12:40:00Z"
+  "updatedAt": "2026-11-24T12:50:00Z",
+  "sourceStatus": "Peer-reviewed Astronomy & Astrophysics paper verified through the full 20-page author manuscript; ESA and MPIA original releases confirm the publication context.",
+  "caveats": [
+    "Single-epoch black hole mass estimates carry substantial systematic uncertainty; the paper quotes a 0.43-dex uncertainty for its reference estimate and a wider range across calibrations.",
+    "The current sub-Eddington rate does not reveal the black hole's past growth history. Rapid earlier feeding or a massive seed is inferred, not directly observed.",
+    "Euclid imaging makes strong gravitational lensing unlikely, but modest unresolved magnification cannot be excluded.",
+    "Direct collapse is consistent with the growth calculations, but the observations do not prove that this was the seed mechanism."
+  ]
 }
