@@ -1,0 +1,28 @@
+{
+  "title": "Euclid finds a 360-million-solar-mass black hole at cosmic dawn",
+  "topic": "Black Holes / Cosmology & Early Universe",
+  "date": "2026-11-24",
+  "freshness": "Peer-reviewed Astronomy & Astrophysics article and original ESA release published November 24, 2026; preferred 15-day search window.",
+  "excerpt": "Euclid has found the most distant confirmed quasar, seen when the Universe was about 630 million years old. Its central black hole already held roughly 360 million Suns' worth of mass, yet it was feeding well below its theoretical limit when observed.",
+  "whyItMatters": "The discovery gives black hole formation models an earlier deadline. A black hole this massive at redshift 8.13 must have started from a substantial seed, grown unusually efficiently, or experienced both conditions.",
+  "exploreFurther": {
+    "label": "Wolf et al. in Astronomy & Astrophysics",
+    "url": "https://doi.org/10.1051/0004-6361/202662243"
+  },
+  "whatToExploreNext": "How do astronomers use broad emission lines to estimate the mass of a black hole they cannot resolve directly?",
+  "sources": [
+    {
+      "label": "Euclid: Discovery of Dún Aonghasa, a quasar at z = 8.13 hosting a 360-million-solar-mass black hole",
+      "url": "https://doi.org/10.1051/0004-6361/202662243"
+    },
+    {
+      "label": "ESA: Euclid breaks own quasar record by 40 million years",
+      "url": "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-breaks-own-quasar-record-by-40-million-years"
+    },
+    {
+      "label": "Max Planck Institute for Astronomy: New Quasar Record Tightens Constraints on Black Hole Formation Scenarios",
+      "url": "https://www.mpia.de/news/science/2026-10-dun-aonghasa"
+    }
+  ],
+  "body": "## A beacon beyond redshift eight\n\nEuclid has found a quasar whose light began its journey when the Universe was only about 630 million years old. The object, officially EUCL J150452.291+625224.39 and nicknamed Dún Aonghasa, sits at a measured redshift of 8.129 plus or minus 0.005. It is the first confirmed quasar beyond redshift eight and moves the observational frontier back by about 39 million years.\n\nA quasar is the brilliant centre of a galaxy where gas heats up while falling toward a supermassive black hole. The black hole itself emits no light, but the surrounding material can outshine the rest of its galaxy. That brightness makes quasars visible across most of cosmic history and turns them into background lamps for studying matter between galaxies.\n\nEuclid first identified J1504+6252 as a red point source in its wide survey. The team searched 3,644 square degrees of imaging with three independent selection methods. The object appeared in Euclid's infrared bands but disappeared in visible light, the sharp colour break expected when neutral hydrogen absorbs shorter wavelengths from a very distant source.\n\n## Four observatories built the case\n\nA candidate this remote needs spectroscopy, which spreads light into wavelengths and reveals diagnostic features. Keck detected a faint infrared continuum. Hubble found tentative evidence for the expected break, and the Large Binocular Telescope established it more clearly. James Webb's Near-Infrared Spectrograph then measured broad emission lines and fixed the systemic redshift.\n\nThose broad lines also carry information about gas moving rapidly around the black hole. Using the hydrogen-beta line, the researchers obtained a reference mass of about 360 million times the Sun's mass. Different calibrations based on hydrogen-beta and magnesium produced a wider range of roughly 210 million to 780 million solar masses. The breadth of that range matters: this is a model-based estimate from a spectrum, not a black hole placed on a scale.\n\nThe spectrum indicates that the quasar was radiating at about 12 to 44 percent of its Eddington limit. That limit describes the point where radiation pushing outward can balance gravity drawing gas inward. In ordinary terms, the black hole was feeding, but not at the fastest sustainable rate.\n\n## An earlier growth deadline\n\nIts present feeding rate cannot have built hundreds of millions of solar masses within 630 million years unless the starting seed was extremely large. The authors find that a direct-collapse seed, formed when a massive gas cloud collapsed without first making normal stars, can fit reasonable growth histories. An earlier episode of very rapid or even super-Eddington feeding could also have helped.\n\nThese are growth scenarios, not observations of the black hole's birth. The data show its redshift, quasar spectrum, approximate mass, and current accretion state. They do not reveal which seed formed it or how steadily it grew. Euclid images also make strong gravitational magnification unlikely, although modest unresolved lensing cannot yet be excluded.\n\nThe discovery matters for more than a distance record. Each confirmed quasar at an earlier cosmic time reduces the interval available for black holes to assemble. Dún Aonghasa supplies a new, measured deadline and shows that mature, slowly feeding black holes were already present during the era when the first galaxies were transforming the young Universe."
+}
