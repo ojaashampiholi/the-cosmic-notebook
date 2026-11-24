@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
-  "status": "in_progress",
-  "stage": "committed",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "Euclid finds a 360-million-solar-mass black hole at cosmic dawn",
   "intendedFilename": "2026-11-24_cosmology_euclid-farthest-quasar.json",
   "topic": "Black Holes / Cosmology & Early Universe",
@@ -50,7 +50,7 @@
     "retryCount": 0,
     "recoveredStage": null
   },
-  "updatedAt": "2026-11-24T13:00:00Z",
+  "updatedAt": "2026-11-24T13:04:00Z",
   "sourceStatus": "Peer-reviewed Astronomy & Astrophysics paper verified through the full 20-page author manuscript; ESA and MPIA original releases confirm the publication context.",
   "caveats": [
     "Single-epoch black hole mass estimates carry substantial systematic uncertainty; the paper quotes a 0.43-dex uncertainty for its reference estimate and a wider range across calibrations.",
@@ -74,5 +74,26 @@
     "status": "passed",
     "noteBlobSha": "0a2fba37cfcc9c9574c27c9996df3e4da2b1aa2c",
     "exactMatch": true
+  },
+  "deployment": {
+    "status": "success",
+    "workflow": "Deploy Astro site to GitHub Pages",
+    "noteCommitRun": {
+      "id": 45395730050,
+      "status": "cancelled",
+      "reason": "superseded by checkpoint commit"
+    },
+    "successfulRun": {
+      "id": 45395771631,
+      "headSha": "bd9cac575d8e0bc2530d2bb9f176170630ff6c3e",
+      "url": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/45395771631"
+    },
+    "verificationAttempts": 4
+  },
+  "live": {
+    "status": "verified",
+    "httpStatus": 200,
+    "url": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-24_cosmology_euclid-farthest-quasar/",
+    "contentMatch": true
   }
 }
