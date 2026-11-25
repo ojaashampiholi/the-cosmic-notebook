@@ -1,7 +1,7 @@
 {
   "date": "2026-11-25",
   "status": "in_progress",
-  "stage": "frozen",
+  "stage": "draft_validated",
   "workingTitle": "Webb reads a star's final mixing in Cassiopeia A's dust",
   "intendedFilename": "2026-11-25_stars_cassiopeia-a-dust-shell-merger.json",
   "topic": "Stars & Stellar Evolution",
@@ -44,8 +44,23 @@
     }
   ],
   "image": {
-    "status": "not_checked",
-    "reason": null
+    "status": "included",
+    "id": "esawebb-weic2624a",
+    "license": "CC BY 4.0",
+    "credit": "NASA, ESA, CSA, T. Temim (Columbia University), R. Arendt (UMBC), D. Milisavljevic (Purdue University). Image Processing: J. DePasquale (STScI).",
+    "sourceUrl": "https://esawebb.org/images/weic2624a/",
+    "files": [
+      "images/notes/2026-11-25-cassiopeia-a-dust-map.jpg",
+      "images/notes/2026-11-25-cassiopeia-a-dust-map-thumb.jpg"
+    ]
+  },
+  "verification": {
+    "measured": "MIRI/MRS spectra from three targeted clumps distinguish silica-dominated, carbon-dominated, and magnesium-silicate dust environments.",
+    "inferred": "The contrasting ejecta chemistry is interpreted through stellar-evolution and dust-formation models as evidence for a carbon-neon shell merger before core collapse.",
+    "limitations": "The detailed spectra cover three clumps, the merger was not observed directly, and the models simplify a three-dimensional turbulent event.",
+    "contentChecks": "passed",
+    "imageChecks": "passed",
+    "build": "passed"
   },
   "recovery": {
     "selectionFrozen": true,
@@ -54,5 +69,5 @@
     "retryCount": 0,
     "recoveredStage": null
   },
-  "updatedAt": "2026-11-25T13:35:00Z"
+  "updatedAt": "2026-11-25T19:00:15Z"
 }

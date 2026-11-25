@@ -1,0 +1,36 @@
+{
+  "title": "Webb reads a star's final mixing in Cassiopeia A's dust",
+  "topic": "Stars & Stellar Evolution",
+  "date": "2026-11-25",
+  "freshness": "Peer-reviewed Astrophysical Journal Letters article and NASA/ESA science releases published November 23, 2026; preferred 15-day search window.",
+  "excerpt": "Webb has separated the infrared fingerprints of dust in three tiny regions of the Cassiopeia A supernova remnant. Their sharply different chemistry suggests that burning layers inside the original star mixed shortly before its core collapsed.",
+  "whyItMatters": "A star's interior is hidden until it explodes. The dust in Cassiopeia A preserves chemical evidence of the star's final internal changes, giving researchers a rare way to test models of the last stages before a supernova.",
+  "exploreFurther": {
+    "label": "Shahbandeh et al. in The Astrophysical Journal Letters",
+    "url": "https://doi.org/10.3847/2041-8213/aea901"
+  },
+  "whatToExploreNext": "How can different minerals condense from supernova debris and retain evidence of the star's layered interior?",
+  "sources": [
+    {
+      "label": "JWST Resolves Dust Emission from Individual Ejecta Clumps in Cassiopeia A: Dominant Grain Compositions Point to a Shell Merger in the Progenitor",
+      "url": "https://doi.org/10.3847/2041-8213/aea901"
+    },
+    {
+      "label": "NASA: Webb Shows How Supernova Dust Chronicles Star Evolution",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/"
+    },
+    {
+      "label": "ESA/Webb: Webb shows how supernova dust chronicles star evolution",
+      "url": "https://esawebb.org/news/weic2624/"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-11-25-cassiopeia-a-dust-map.jpg",
+    "thumbSrc": "images/notes/2026-11-25-cassiopeia-a-dust-map-thumb.jpg",
+    "alt": "Webb mid-infrared image of Cassiopeia A showing green outer filaments, a dense orange inner ring, and pale blue pockets of gas and dust",
+    "credit": "NASA, ESA, CSA, T. Temim (Columbia University), R. Arendt (UMBC), D. Milisavljevic (Purdue University). Image Processing: J. DePasquale (STScI).",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://esawebb.org/images/weic2624a/"
+  },
+  "body": "## Dust records a star's hidden interior\n\nCassiopeia A is the expanding wreckage of a massive star, yet some of its dust still carries a record of what happened inside that star shortly before it exploded. Using the James Webb Space Telescope, astronomers isolated the infrared fingerprints of dust in three small regions of the remnant. The minerals differed so strongly from place to place that the team could connect them to different layers of the original star.\n\nA massive star near the end of its life resembles an onion. Its core and surrounding shells burn progressively lighter elements into heavier ones. Under a simple picture, those shells remain chemically distinct until the core collapses. Real stars are less orderly. Turbulence can push material across boundaries, and two burning shells can merge. The new observations suggest that such a merger mixed carbon-rich and neon-rich layers in Cassiopeia A's progenitor late in its life.\n\n## Three clumps, three chemical signatures\n\nWebb's Mid-Infrared Instrument used spectroscopy, splitting infrared light into wavelengths that reveal how different grains absorb and emit energy. The researchers targeted three clumps. Two belong to ejecta, material expelled in the explosion and later heated by a reverse shock travelling back into the debris. The third is part of the Green Monster, a web of material shed by the star before the supernova.\n\nOne ejecta clump, bright in argon, was dominated by silica dust. Another was bright in neon and rich in carbon monoxide, yet its dust spectrum was dominated by carbon. The Green Monster instead contained complex magnesium silicates. After establishing these spectral templates, the team mapped similar signatures across the wider remnant and found that the contrasting ejecta chemistry was not confined to one isolated spot.\n\nThese compositions are the measured result. Their history requires interpretation. Carbon dust forming alongside neon-rich material is difficult to explain if the star's burning shells remained separate. Comparisons with stellar-evolution and dust-formation models led the authors to infer that a carbon-burning shell merged with a neon-burning shell before the core collapsed. The mixing changed the available ingredients, and those conditions later shaped which grains condensed as the ejecta cooled.\n\n## A chemical fossil with limits\n\nThe result turns dust from an obstacle into a diagnostic. Supernova dust can obscure visible light, but its mid-infrared spectrum identifies minerals that preserve the chemistry of the explosion. Cassiopeia A is close enough for Webb to examine individual knots instead of blending the whole remnant into one average spectrum.\n\nThe evidence does not amount to a direct view of shells colliding inside the vanished star. The detailed spectra came from three targeted regions, and the shell merger is an inference based on their chemistry and model comparisons. The models simplify a three-dimensional, turbulent event, so future calculations and spectra from more clumps will test how widespread the mixing was and when it occurred.\n\nFor now, the observation supplies a physical link between a star's final internal rearrangement and the solid grains left after its death. The explosion destroyed the star, but its dust retained part of the sequence that led to collapse."
+}

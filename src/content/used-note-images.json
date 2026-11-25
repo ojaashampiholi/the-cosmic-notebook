@@ -398,6 +398,17 @@
       "credit": "Avijeet Yadav et al.; Figure 1 from the paper",
       "license": "CC BY 4.0",
       "sourceUrl": "https://arxiv.org/abs/2610.24049"
+    },
+    {
+      "id": "esawebb-weic2624a",
+      "note": "2026-11-25_stars_cassiopeia-a-dust-shell-merger",
+      "files": [
+        "images/notes/2026-11-25-cassiopeia-a-dust-map.jpg",
+        "images/notes/2026-11-25-cassiopeia-a-dust-map-thumb.jpg"
+      ],
+      "credit": "NASA, ESA, CSA, T. Temim (Columbia University), R. Arendt (UMBC), D. Milisavljevic (Purdue University). Image Processing: J. DePasquale (STScI).",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://esawebb.org/images/weic2624a/"
     }
   ]
 }
