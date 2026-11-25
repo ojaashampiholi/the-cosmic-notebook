@@ -1,7 +1,7 @@
 {
   "date": "2026-11-25",
-  "status": "in_progress",
-  "stage": "committed",
+  "status": "published",
+  "stage": "published",
   "workingTitle": "Webb reads a star's final mixing in Cassiopeia A's dust",
   "intendedFilename": "2026-11-25_stars_cassiopeia-a-dust-shell-merger.json",
   "topic": "Stars & Stellar Evolution",
@@ -63,7 +63,9 @@
     "build": "passed",
     "commitSha": "ff4e0f835b981ab8a41f4427412621e468c8341a",
     "readback": "exact blob SHA match for checkpoint, note, ledger, and both image files",
-    "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-25_stars_cassiopeia-a-dust-shell-merger/"
+    "deployment": "Deploy Astro site to GitHub Pages run 45624508401 completed successfully",
+    "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-25_stars_cassiopeia-a-dust-shell-merger/",
+    "liveVerification": "Public article loaded with the expected title, date, topic, image, body, and source links"
   },
   "recovery": {
     "selectionFrozen": true,
@@ -72,5 +74,5 @@
     "retryCount": 0,
     "recoveredStage": null
   },
-  "updatedAt": "2026-11-25T19:03:00Z"
+  "updatedAt": "2026-11-25T19:05:00Z"
 }
