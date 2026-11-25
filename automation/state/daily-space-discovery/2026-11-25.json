@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-25",
+  "status": "in_progress",
+  "stage": "frozen",
+  "workingTitle": "Webb reads a star's final mixing in Cassiopeia A's dust",
+  "intendedFilename": "2026-11-25_stars_cassiopeia-a-dust-shell-merger.json",
+  "topic": "Stars & Stellar Evolution",
+  "publicationDate": "2026-11-23",
+  "freshnessWindow": "15 days",
+  "publicationStatus": "Peer-reviewed Astrophysical Journal Letters article and NASA/ESA science releases published November 23, 2026",
+  "primarySources": [
+    {
+      "label": "Astrophysical Journal Letters article",
+      "url": "https://doi.org/10.3847/2041-8213/aea901"
+    },
+    {
+      "label": "NASA Webb science release",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/"
+    },
+    {
+      "label": "ESA/Webb science release",
+      "url": "https://esawebb.org/news/weic2624/"
+    }
+  ],
+  "coreFacts": [
+    "JWST's MIRI Medium-resolution Spectrometer isolated mid-infrared dust spectra from three individual clumps in the Cassiopeia A supernova remnant.",
+    "One argon-bright reverse-shocked ejecta clump was dominated by silica dust, while a neon-bright, carbon-monoxide-rich ejecta clump was dominated by carbon dust.",
+    "The Green Monster region, made from material shed before the explosion, was rich in complex magnesium silicates.",
+    "Mapping those spectral templates across the remnant showed shell-merger signatures over much of Cassiopeia A.",
+    "The authors interpret the chemistry as evidence that burning shells inside the progenitor star mixed shortly before core collapse."
+  ],
+  "sources": [
+    {
+      "label": "JWST Resolves Dust Emission from Individual Ejecta Clumps in Cassiopeia A: Dominant Grain Compositions Point to a Shell Merger in the Progenitor",
+      "url": "https://doi.org/10.3847/2041-8213/aea901"
+    },
+    {
+      "label": "NASA's Webb Shows How Supernova Dust Chronicles Star Evolution",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-shows-how-supernova-dust-chronicles-star-evolution/"
+    },
+    {
+      "label": "ESA/Webb: Webb shows how supernova dust chronicles star evolution",
+      "url": "https://esawebb.org/news/weic2624/"
+    }
+  ],
+  "image": {
+    "status": "not_checked",
+    "reason": null
+  },
+  "recovery": {
+    "selectionFrozen": true,
+    "lastError": null,
+    "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
+    "retryCount": 0,
+    "recoveredStage": null
+  },
+  "updatedAt": "2026-11-25T13:35:00Z"
+}
