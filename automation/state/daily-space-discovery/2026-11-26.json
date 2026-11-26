@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-26",
+  "status": "in_progress",
+  "stage": "frozen",
+  "workingTitle": "Part of the Milky Way's Norma arm may be a bar shock front",
+  "intendedFilename": "2026-11-26_galaxies_norma-arm-bar-shock-front.json",
+  "topic": "Galaxies & Galactic Evolution",
+  "publicationDate": "2026-10-28",
+  "freshnessWindow": "30 days",
+  "publicationStatus": "First made public as an arXiv preprint October 28, 2026; peer-reviewed Nature Astronomy article published November 20, 2026",
+  "primarySources": [
+    {
+      "label": "Nature Astronomy article",
+      "url": "https://doi.org/10.1038/s41550-026-03010-5"
+    },
+    {
+      "label": "arXiv preprint",
+      "url": "https://arxiv.org/abs/2610.38607"
+    },
+    {
+      "label": "University of Sydney release",
+      "url": "https://www.sydney.edu.au/news-opinion/news/2026/11/23/norma-arm-shock-front-hillary-davis-star-formation-milky-way.html"
+    }
+  ],
+  "coreFacts": [
+    "Masers associated with young high-mass stars were previously used to trace a segment of the Norma arm near the end of the Milky Way's central bar.",
+    "N-body and hydrodynamic simulations place those masers along the bar's quadrant I shock front, also called a dust lane.",
+    "Because the masers trace star-forming regions younger than about one million years, their alignment implies star formation is occurring along the bar shock front.",
+    "The model fit gives bar semimajor and semiminor half-lengths of about 4.3 and 2.3 kiloparsecs, an angle of 20 degrees, and a pattern speed no greater than about 40 kilometres per second per kiloparsec.",
+    "The interpretation challenges the usual map of the Norma arm but does not prove that the whole arm is absent."
+  ],
+  "sources": [
+    {
+      "label": "Davis et al., The nature of the Norma arm as a bar-driven star-forming shock front",
+      "url": "https://doi.org/10.1038/s41550-026-03010-5"
+    },
+    {
+      "label": "University of Sydney: Galactic shock",
+      "url": "https://www.sydney.edu.au/news-opinion/news/2026/11/23/norma-arm-shock-front-hillary-davis-star-formation-milky-way.html"
+    }
+  ],
+  "image": {
+    "status": "not_checked",
+    "reason": null
+  },
+  "recovery": {
+    "selectionFrozen": true,
+    "lastError": null,
+    "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
+    "retryCount": 0,
+    "recoveredStage": null
+  },
+  "updatedAt": "2026-11-26T12:50:00Z"
+}
