@@ -1,7 +1,7 @@
 {
   "date": "2026-11-26",
   "status": "in_progress",
-  "stage": "draft_validated",
+  "stage": "committed",
   "workingTitle": "Part of the Milky Way's Norma arm may be a bar shock front",
   "intendedFilename": "2026-11-26_galaxies_norma-arm-bar-shock-front.json",
   "topic": "Galaxies & Galactic Evolution",
@@ -57,7 +57,10 @@
     "sourceStatus": "Peer-reviewed open-access Nature Astronomy article read in full, supported by its arXiv record and the University of Sydney release.",
     "contentChecks": "passed",
     "imageChecks": "passed",
-    "build": "passed"
+    "build": "passed",
+    "commitSha": "f024ae0f81ea822b713744f6a816dde72fe9d34d",
+    "readback": "exact blob SHA match for checkpoint, note, ledger, and both image files",
+    "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-26_galaxies_norma-arm-bar-shock-front/"
   },
   "recovery": {
     "selectionFrozen": true,
@@ -66,5 +69,5 @@
     "retryCount": 0,
     "recoveredStage": null
   },
-  "updatedAt": "2026-11-26T13:17:00Z"
+  "updatedAt": "2026-11-26T13:19:00Z"
 }
