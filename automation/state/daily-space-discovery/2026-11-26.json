@@ -1,7 +1,7 @@
 {
   "date": "2026-11-26",
   "status": "in_progress",
-  "stage": "frozen",
+  "stage": "verified",
   "workingTitle": "Part of the Milky Way's Norma arm may be a bar shock front",
   "intendedFilename": "2026-11-26_galaxies_norma-arm-bar-shock-front.json",
   "topic": "Galaxies & Galactic Evolution",
@@ -40,8 +40,21 @@
     }
   ],
   "image": {
-    "status": "not_checked",
-    "reason": null
+    "status": "included",
+    "id": "nature-s41550-026-03010-5-figure-5",
+    "license": "CC BY 4.0",
+    "credit": "Hillary Davis, Joss Bland-Hawthorn, Thor Tepper-García, Oscar Agertz and Elizabeth J. Iles; Figure 5 cropped from the Nature Astronomy article",
+    "sourceUrl": "https://doi.org/10.1038/s41550-026-03010-5",
+    "files": [
+      "images/notes/2026-11-26-norma-arm-shock-map.jpg",
+      "images/notes/2026-11-26-norma-arm-shock-map-thumb.jpg"
+    ]
+  },
+  "verification": {
+    "measured": "The observational inputs are young high-mass star maser positions and motions plus atomic and molecular gas velocities.",
+    "inferred": "Their match to a simulated bar shock front supports the interpretation that the inner Norma segment is a star-forming dust lane rather than a conventional spiral arm.",
+    "limitations": "The simulation was scaled and rotated by eye to bracket bar parameters, its uncertainty budget does not include every bar-length method, and the result does not erase the entire Norma-Outer arm.",
+    "sourceStatus": "Peer-reviewed open-access Nature Astronomy article read in full, supported by its arXiv record and the University of Sydney release."
   },
   "recovery": {
     "selectionFrozen": true,
@@ -50,5 +63,5 @@
     "retryCount": 0,
     "recoveredStage": null
   },
-  "updatedAt": "2026-11-26T12:50:00Z"
+  "updatedAt": "2026-11-26T13:02:00Z"
 }
