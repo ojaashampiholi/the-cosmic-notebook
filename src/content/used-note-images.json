@@ -409,6 +409,17 @@
       "credit": "NASA, ESA, CSA, T. Temim (Columbia University), R. Arendt (UMBC), D. Milisavljevic (Purdue University). Image Processing: J. DePasquale (STScI).",
       "license": "CC BY 4.0",
       "sourceUrl": "https://esawebb.org/images/weic2624a/"
+    },
+    {
+      "id": "nature-s41550-026-03010-5-figure-5",
+      "note": "2026-11-26_galaxies_norma-arm-bar-shock-front",
+      "files": [
+        "images/notes/2026-11-26-norma-arm-shock-map.jpg",
+        "images/notes/2026-11-26-norma-arm-shock-map-thumb.jpg"
+      ],
+      "credit": "Hillary Davis, Joss Bland-Hawthorn, Thor Tepper-García, Oscar Agertz and Elizabeth J. Iles; Figure 5 cropped from the Nature Astronomy article",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://doi.org/10.1038/s41550-026-03010-5"
     }
   ]
 }
