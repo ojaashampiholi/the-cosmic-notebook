@@ -1,0 +1,32 @@
+{
+  "title": "Molecular clouds may preserve a hidden microquasar's jet tracks",
+  "topic": "Black Holes / Stars & Stellar Evolution",
+  "date": "2026-11-27",
+  "freshness": "Peer-reviewed PASJ Letter published online on November 13, 2026; preferred 15-day search window.",
+  "excerpt": "ALMA has resolved dozens of thin molecular filaments around the bright gamma-ray source HESS J1023−575. Their alignment and shape match simulations of a long-lived microquasar jet, suggesting that cold gas can preserve the tracks of a compact engine after the jet itself fades.",
+  "whyItMatters": "Astronomers still do not know which objects supply most of the Milky Way's highest-energy particles. If microquasar jets can leave recognizable fossils in molecular clouds, researchers gain a new way to find old particle accelerators whose central black hole or neutron star is hidden.",
+  "exploreFurther": {
+    "label": "Fukui et al. in PASJ",
+    "url": "https://doi.org/10.1093/pasj/psag136"
+  },
+  "whatToExploreNext": "How do gamma rays reveal whether cosmic-ray protons have collided with gas inside a molecular cloud?",
+  "sources": [
+    {
+      "label": "An ALMA view of the jet-arc CO clouds toward HESS J1023−575",
+      "url": "https://doi.org/10.1093/pasj/psag136"
+    },
+    {
+      "label": "ALMA: Footprints of High-Velocity Jets in a Molecular Cloud",
+      "url": "https://alma-telescope.jp/en/news/pcracceleration-202611.html"
+    }
+  ],
+  "image": {
+    "src": "images/notes/2026-11-27-hess-j1023-jet-fossils.jpg",
+    "thumbSrc": "images/notes/2026-11-27-hess-j1023-jet-fossils-thumb.jpg",
+    "alt": "Scientific illustration showing a microquasar jet compressing interstellar gas into aligned molecular filaments",
+    "credit": "NAOJ",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://alma-telescope.jp/en/news/pcracceleration-202611.html"
+  },
+  "body": "## Tracks written into cold gas\n\nA set of long, narrow molecular clouds in the Milky Way may be the fossil tracks of a powerful jet. ALMA observations show that clouds around the gamma-ray source HESS J1023−575 break into many filaments only about 0.5 parsec, or 1.6 light-years, wide and 10 to 20 parsecs long. The filaments line up along a much larger jet-and-arc structure that spans roughly 170 parsecs.\n\nThe proposed engine is a microquasar. Despite the name, it is not a tiny quasar. It is a compact object, either a stellar-mass black hole or a neutron star, pulling gas from a companion star. Some of that infalling material can be redirected into two narrow jets moving at a large fraction of the speed of light.\n\nNo compact object has yet been seen at HESS J1023. Dust heavily obscures the region, about 7.5 kiloparsecs or 24,000 light-years away. The case instead comes from the geometry of cold gas, gamma rays, and computer simulations.\n\n## A match between filaments and simulations\n\nCarbon monoxide emits radio waves that let astronomers map molecular gas. Earlier observations had already found a straight cloud on one side of HESS J1023 and an arc-shaped cloud on the other. ALMA sharpened the view by about a factor of ten and revealed the thin filaments inside both structures. Their widths, spacing, and common alignment resemble magnetohydrodynamic simulations in which a jet ploughs through atomic hydrogen. Magnetohydrodynamics models how flowing, electrically conducting gas interacts with magnetic fields.\n\nIn the simulation, repeated jet activity drives shocks into the surrounding atomic gas. The shocks squeeze and cool that gas until molecules form. Different gas densities on opposite sides of the source can produce a straight structure on one side and an arc on the other, matching the observed asymmetry. The molecular clouds can survive after the visible jet weakens, leaving a record of earlier activity.\n\nThe same region shines in teraelectronvolt gamma rays. Under a hadronic model, those gamma rays arise when high-energy protons strike ordinary matter. Using the gas density and gamma-ray luminosity, the team calculated a proton energy of about 7 × 10^48 ergs. That is roughly ten times the values derived for two well-studied young supernova remnants. The researchers estimate that the source may have operated for 1 to 10 million years, much longer than the main particle-acceleration phase of a young remnant.\n\n## What is observed and what remains inferred\n\nThe measured result is the network of molecular filaments, its alignment with the larger cloud system, and the overlapping gamma-ray emission. The jet history is an interpretation supported by the simulation match. The proton energy depends on gamma rays being produced mainly by proton collisions, rather than by fast electrons through another process.\n\nThe central engine is also inferred. It could be a black hole or a neutron star, and neither has been directly detected. For the same reason, describing HESS J1023 as the Milky Way disk's most powerful cosmic-ray accelerator remains a strong possibility, not a settled ranking.\n\nEven with those limits, the filaments offer a useful search method. Astronomers normally look for radiation from an active compact object. This study suggests they can also look for the narrow molecular structures that an old jet carved into its surroundings. Follow-up measurements of gas motion and temperature can test whether other filament systems preserve similar hidden engines."
+}
