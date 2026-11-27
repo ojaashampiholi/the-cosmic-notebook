@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-27",
+  "status": "selected",
+  "stage": "selection_frozen",
+  "workingTitle": "Molecular clouds may preserve the fossil tracks of a hidden microquasar",
+  "intendedFilename": "2026-11-27_black-holes_hess-j1023-jet-fossils.json",
+  "topic": "Black Holes / Stars & Stellar Evolution",
+  "publicationDate": "2026-11-13",
+  "freshnessWindow": "15 days",
+  "publicationStatus": "Peer-reviewed PASJ Letter published online November 13, 2026",
+  "primarySources": [
+    {
+      "label": "PASJ paper",
+      "url": "https://doi.org/10.1093/pasj/psag136"
+    },
+    {
+      "label": "ALMA release",
+      "url": "https://alma-telescope.jp/en/news/pcracceleration-202611.html"
+    }
+  ],
+  "coreFacts": [
+    "ALMA resolved numerous molecular filaments about 0.5 parsec wide and 10 to 20 parsecs long around HESS J1023−575 at an adopted distance of 7.5 kiloparsecs.",
+    "The filaments align with a 170-parsec jet and arc cloud system and match magnetohydrodynamic simulations in which a microquasar jet compresses atomic hydrogen into molecular gas.",
+    "Using gas density and gamma-ray luminosity, the authors estimate about 7 × 10^48 erg in cosmic-ray protons under a hadronic interpretation.",
+    "The inferred activity duration is 1 to 10 million years, but the compact engine remains hidden and could be a black hole or neutron star."
+  ],
+  "sources": [
+    {
+      "label": "Fukui et al., PASJ Letter",
+      "url": "https://doi.org/10.1093/pasj/psag136"
+    },
+    {
+      "label": "ALMA: Footprints of High-Velocity Jets in a Molecular Cloud",
+      "url": "https://alma-telescope.jp/en/news/pcracceleration-202611.html"
+    }
+  ],
+  "image": {
+    "status": "pending_license_verification"
+  },
+  "verification": {
+    "measured": "ALMA mapped sub-parsec carbon-monoxide structure and found aligned filaments; H.E.S.S. supplied the gamma-ray morphology.",
+    "inferred": "Jet compression, the microquasar engine, proton energy, and long activity duration depend on simulations and a hadronic gamma-ray model.",
+    "limitations": "The compact source is not directly detected and may be either a black hole or a neutron star; the claim that it is the Milky Way disk's most powerful cosmic-ray accelerator is conditional.",
+    "sourceStatus": "Peer-reviewed abstract and official ALMA release read.",
+    "contentChecks": "pending",
+    "imageChecks": "pending",
+    "build": "pending",
+    "commitSha": null,
+    "readback": "pending",
+    "deployment": "pending",
+    "liveUrl": null,
+    "liveVerification": "pending"
+  },
+  "recovery": {
+    "selectionFrozen": true,
+    "lastError": null,
+    "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
+    "retryCount": 0,
+    "recoveredStage": null
+  },
+  "updatedAt": "2026-11-27T13:30:00Z"
+}
