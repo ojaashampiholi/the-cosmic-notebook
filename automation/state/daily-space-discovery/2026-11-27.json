@@ -1,8 +1,8 @@
 {
   "date": "2026-11-27",
-  "status": "selected",
-  "stage": "selection_frozen",
-  "workingTitle": "Molecular clouds may preserve the fossil tracks of a hidden microquasar",
+  "status": "published",
+  "stage": "published",
+  "workingTitle": "Molecular clouds may preserve a hidden microquasar's jet tracks",
   "intendedFilename": "2026-11-27_black-holes_hess-j1023-jet-fossils.json",
   "topic": "Black Holes / Stars & Stellar Evolution",
   "publicationDate": "2026-11-13",
@@ -35,28 +35,37 @@
     }
   ],
   "image": {
-    "status": "pending_license_verification"
+    "status": "included",
+    "id": "alma-hess-j1023-schematic-202611",
+    "license": "CC BY 4.0",
+    "credit": "NAOJ",
+    "sourceUrl": "https://alma-telescope.jp/en/news/pcracceleration-202611.html",
+    "files": [
+      "images/notes/2026-11-27-hess-j1023-jet-fossils.jpg",
+      "images/notes/2026-11-27-hess-j1023-jet-fossils-thumb.jpg"
+    ]
   },
   "verification": {
     "measured": "ALMA mapped sub-parsec carbon-monoxide structure and found aligned filaments; H.E.S.S. supplied the gamma-ray morphology.",
     "inferred": "Jet compression, the microquasar engine, proton energy, and long activity duration depend on simulations and a hadronic gamma-ray model.",
     "limitations": "The compact source is not directly detected and may be either a black hole or a neutron star; the claim that it is the Milky Way disk's most powerful cosmic-ray accelerator is conditional.",
-    "sourceStatus": "Peer-reviewed abstract and official ALMA release read.",
-    "contentChecks": "pending",
-    "imageChecks": "pending",
-    "build": "pending",
-    "commitSha": null,
-    "readback": "pending",
-    "deployment": "pending",
-    "liveUrl": null,
-    "liveVerification": "pending"
+    "sourceStatus": "Peer-reviewed PASJ abstract and official ALMA release read; image rights verified against NAOJ's CC BY 4.0 terms.",
+    "contentChecks": "passed",
+    "imageChecks": "passed",
+    "build": "passed",
+    "commitSha": "06f7333f168a6e90342cc4feaea41a6ae8bc2848",
+    "readback": "exact blob SHA match for note, ledger, and both image files",
+    "deployment": "Deploy Astro site to GitHub Pages run 46005209894 completed successfully",
+    "deployRunUrl": "https://github.com/ojaashampiholi/the-cosmic-notebook/actions/runs/46005209894",
+    "liveUrl": "https://ojaashampiholi.github.io/the-cosmic-notebook/posts/2026-11-27_black-holes_hess-j1023-jet-fossils/",
+    "liveVerification": "Public article returned HTTP 200 and loaded with the expected title, date, topics, image, body, caveats, and source links"
   },
   "recovery": {
     "selectionFrozen": true,
     "lastError": null,
     "canonicalPromptSha": "69557cc3ed9d18314e343df198973f9eeac203be",
-    "retryCount": 0,
-    "recoveredStage": null
+    "retryCount": 1,
+    "recoveredStage": "build dependencies installed after the first local build found node_modules absent"
   },
-  "updatedAt": "2026-11-27T13:30:00Z"
+  "updatedAt": "2026-11-27T13:15:00Z"
 }
